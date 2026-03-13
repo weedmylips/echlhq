@@ -162,250 +162,356 @@
         "value": 49
       }
     ],
-    "gaa": [
-      {
-        "rank": 1,
-        "name": "Cam Johnson",
-        "team": "FLA",
-        "value": 1.86
-      },
-      {
-        "rank": 2,
-        "name": "Jack LaFontaine",
-        "team": "KC",
-        "value": 2.03
-      },
-      {
-        "rank": 3,
-        "name": "Taylor Gauthier",
-        "team": "WHL",
-        "value": 2.07
-      },
-      {
-        "rank": 4,
-        "name": "Brad Arvanitis",
-        "team": "MNE",
-        "value": 2.08
-      },
-      {
-        "rank": 5,
-        "name": "Logan Terness",
-        "team": "KC",
-        "value": 2.15
-      },
-      {
-        "rank": 6,
-        "name": "Will Cranley",
-        "team": "FLA",
-        "value": 2.17
-      },
-      {
-        "rank": 7,
-        "name": "T.J. Semptimphelter",
-        "team": "ATL",
-        "value": 2.21
-      },
-      {
-        "rank": 8,
-        "name": "Seth Eisele",
-        "team": "SC",
-        "value": 2.22
-      },
-      {
-        "rank": 9,
-        "name": "Hunter Jones",
-        "team": "TR",
-        "value": 2.26
-      },
-      {
-        "rank": 10,
-        "name": "Dryden McKay",
-        "team": "BLM",
-        "value": 2.33
-      },
-      {
-        "rank": 11,
-        "name": "Samuel Jonsson",
-        "team": "FW",
-        "value": 2.36
-      },
-      {
-        "rank": 12,
-        "name": "Ethan Haider",
-        "team": "ATL",
-        "value": 2.39
-      },
-      {
-        "rank": 13,
-        "name": "Vinnie Purpura",
-        "team": "SAV",
-        "value": 2.41
-      },
-      {
-        "rank": 14,
-        "name": "Jeremy Brodeur",
-        "team": "ADK",
-        "value": 2.41
-      },
-      {
-        "rank": 15,
-        "name": "Carter Gylander",
-        "team": "TOL",
-        "value": 2.41
-      },
-      {
-        "rank": 16,
-        "name": "Luke Cavallin",
-        "team": "MNE",
-        "value": 2.47
-      },
-      {
-        "rank": 17,
-        "name": "Parker Gahagen",
-        "team": "WOR",
-        "value": 2.51
-      },
-      {
-        "rank": 18,
-        "name": "Matt Davis",
-        "team": "WIC",
-        "value": 2.53
-      },
-      {
-        "rank": 19,
-        "name": "Mitchell Weeks",
-        "team": "IND",
-        "value": 2.58
-      },
-      {
-        "rank": 20,
-        "name": "Jake Barczewski",
-        "team": "IDH",
-        "value": 2.61
-      }
-    ],
+    "gaa": [],
     "svPct": [
       {
         "rank": 1,
-        "name": "Cam Johnson",
-        "team": "FLA",
-        "value": 0.921
-      },
-      {
-        "rank": 2,
-        "name": "Jack LaFontaine",
-        "team": "KC",
-        "value": 0.927
-      },
-      {
-        "rank": 3,
-        "name": "Taylor Gauthier",
-        "team": "WHL",
-        "value": 0.925
-      },
-      {
-        "rank": 4,
         "name": "Brad Arvanitis",
         "team": "MNE",
         "value": 0.93
       },
       {
-        "rank": 5,
-        "name": "Logan Terness",
-        "team": "KC",
-        "value": 0.917
-      },
-      {
-        "rank": 6,
-        "name": "Will Cranley",
-        "team": "FLA",
-        "value": 0.915
-      },
-      {
-        "rank": 7,
-        "name": "T.J. Semptimphelter",
-        "team": "ATL",
-        "value": 0.92
-      },
-      {
-        "rank": 8,
-        "name": "Seth Eisele",
-        "team": "SC",
-        "value": 0.925
-      },
-      {
-        "rank": 9,
-        "name": "Hunter Jones",
-        "team": "TR",
-        "value": 0.916
-      },
-      {
-        "rank": 10,
-        "name": "Dryden McKay",
-        "team": "BLM",
-        "value": 0.924
-      },
-      {
-        "rank": 11,
-        "name": "Samuel Jonsson",
-        "team": "FW",
-        "value": 0.911
-      },
-      {
-        "rank": 12,
-        "name": "Ethan Haider",
-        "team": "ATL",
-        "value": 0.925
-      },
-      {
-        "rank": 13,
-        "name": "Vinnie Purpura",
-        "team": "SAV",
-        "value": 0.919
-      },
-      {
-        "rank": 14,
-        "name": "Jeremy Brodeur",
-        "team": "ADK",
-        "value": 0.918
-      },
-      {
-        "rank": 15,
-        "name": "Carter Gylander",
-        "team": "TOL",
-        "value": 0.915
-      },
-      {
-        "rank": 16,
-        "name": "Luke Cavallin",
-        "team": "MNE",
-        "value": 0.914
-      },
-      {
-        "rank": 17,
-        "name": "Parker Gahagen",
-        "team": "WOR",
-        "value": 0.916
-      },
-      {
-        "rank": 18,
+        "rank": 2,
         "name": "Matt Davis",
         "team": "WIC",
         "value": 0.929
       },
       {
-        "rank": 19,
-        "name": "Mitchell Weeks",
-        "team": "IND",
-        "value": 0.899
+        "rank": 3,
+        "name": "Jack LaFontaine",
+        "team": "KC",
+        "value": 0.927
       },
       {
-        "rank": 20,
-        "name": "Jake Barczewski",
-        "team": "IDH",
-        "value": 0.916
+        "rank": 4,
+        "name": "several tied at",
+        "team": "",
+        "value": 0.925
+      },
+      {
+        "rank": 1,
+        "name": "Hugo Ollas",
+        "team": "BLM",
+        "value": 1
+      },
+      {
+        "rank": 2,
+        "name": "Vinnie Purpura",
+        "team": "SAV",
+        "value": 1
+      },
+      {
+        "rank": 3,
+        "name": "x Jake Smith",
+        "team": "WHL",
+        "value": 1
+      },
+      {
+        "rank": 4,
+        "name": "Ken Appleby",
+        "team": "CIN",
+        "value": 0.9
+      },
+      {
+        "rank": 5,
+        "name": "several tied at",
+        "team": "",
+        "value": 0.889
       }
-    ]
+    ],
+    "shutouts": [
+      {
+        "rank": 1,
+        "name": "Samuel Jonsson",
+        "team": "FW",
+        "value": 0
+      },
+      {
+        "rank": 2,
+        "name": "Maxim Pavlenko",
+        "team": "WHL",
+        "value": 0
+      },
+      {
+        "rank": 3,
+        "name": "several tied at",
+        "team": "",
+        "value": 0
+      }
+    ],
+    "gwg": [
+      {
+        "rank": 1,
+        "name": "x Jackson Jutting",
+        "team": "KC",
+        "value": 10
+      },
+      {
+        "rank": 2,
+        "name": "Brendan Hoffmann",
+        "team": "IDH",
+        "value": 8
+      }
+    ],
+    "plusMinus": [
+      {
+        "rank": 1,
+        "name": "Marcus Crawford",
+        "team": "KC",
+        "value": 49
+      },
+      {
+        "rank": 2,
+        "name": "Jordan Sambrook",
+        "team": "FLA",
+        "value": 43
+      },
+      {
+        "rank": 3,
+        "name": "Zach Uens",
+        "team": "KC",
+        "value": 28
+      },
+      {
+        "rank": 4,
+        "name": "Dru Krebs",
+        "team": "FW",
+        "value": 28
+      },
+      {
+        "rank": 5,
+        "name": "Tanner Dickinson",
+        "team": "TOL",
+        "value": 28
+      }
+    ],
+    "shots": [
+      {
+        "rank": 1,
+        "name": "Danny Dzhaniyev",
+        "team": "UTA",
+        "value": 236
+      },
+      {
+        "rank": 2,
+        "name": "Ryan Kirwan",
+        "team": "CIN",
+        "value": 232
+      },
+      {
+        "rank": 3,
+        "name": "Brandon Hawkins",
+        "team": "TOL",
+        "value": 206
+      },
+      {
+        "rank": 4,
+        "name": "Blake Bennett",
+        "team": "RC",
+        "value": 198
+      },
+      {
+        "rank": 5,
+        "name": "Michal Stinil",
+        "team": "WIC",
+        "value": 194
+      }
+    ],
+    "shootingPct": [],
+    "ppg": [
+      {
+        "rank": 1,
+        "name": "David Cotton",
+        "team": "KC",
+        "value": 12
+      },
+      {
+        "rank": 2,
+        "name": "Tyler Gratton",
+        "team": "UTA",
+        "value": 10
+      },
+      {
+        "rank": 3,
+        "name": "Ryan Kirwan",
+        "team": "CIN",
+        "value": 9
+      },
+      {
+        "rank": 4,
+        "name": "Casey Bailey",
+        "team": "TAH",
+        "value": 9
+      }
+    ],
+    "ppp": [],
+    "ppa": [
+      {
+        "rank": 1,
+        "name": "Marcus Crawford",
+        "team": "KC",
+        "value": 27
+      },
+      {
+        "rank": 2,
+        "name": "Riley McCourt",
+        "team": "TOL",
+        "value": 24
+      },
+      {
+        "rank": 3,
+        "name": "Sam Sedley",
+        "team": "ALN",
+        "value": 22
+      },
+      {
+        "rank": 4,
+        "name": "Danny Dzhaniyev",
+        "team": "UTA",
+        "value": 19
+      },
+      {
+        "rank": 5,
+        "name": "Aiden Hansen-Bukata",
+        "team": "UTA",
+        "value": 18
+      }
+    ],
+    "shg": [
+      {
+        "rank": 1,
+        "name": "Nicholas Zabaneh",
+        "team": "SAV",
+        "value": 5
+      },
+      {
+        "rank": 2,
+        "name": "John Jaworski",
+        "team": "CIN",
+        "value": 4
+      }
+    ],
+    "shp": [],
+    "sha": [
+      {
+        "rank": 1,
+        "name": "Will Hillman",
+        "team": "JAX",
+        "value": 5
+      }
+    ],
+    "pim": [
+      {
+        "rank": 1,
+        "name": "Jacob Graves",
+        "team": "ADK",
+        "value": 168
+      },
+      {
+        "rank": 2,
+        "name": "Sean Allen",
+        "team": "FLA",
+        "value": 143
+      },
+      {
+        "rank": 3,
+        "name": "Mikael Robidoux",
+        "team": "REA",
+        "value": 135
+      },
+      {
+        "rank": 4,
+        "name": "Daniel Amesbury",
+        "team": "ADK",
+        "value": 132
+      },
+      {
+        "rank": 5,
+        "name": "Cole Fraser",
+        "team": "GVL",
+        "value": 127
+      }
+    ],
+    "minors": [
+      {
+        "rank": 1,
+        "name": "Jacob Graves",
+        "team": "ADK",
+        "value": 39
+      },
+      {
+        "rank": 2,
+        "name": "Connor Doherty",
+        "team": "FLA",
+        "value": 32
+      },
+      {
+        "rank": 3,
+        "name": "Marcus Crawford",
+        "team": "KC",
+        "value": 32
+      },
+      {
+        "rank": 4,
+        "name": "Mikael Robidoux",
+        "team": "REA",
+        "value": 30
+      },
+      {
+        "rank": 5,
+        "name": "Sean Allen",
+        "team": "FLA",
+        "value": 29
+      }
+    ],
+    "majors": [
+      {
+        "rank": 1,
+        "name": "Daniel Amesbury",
+        "team": "ADK",
+        "value": 10
+      },
+      {
+        "rank": 2,
+        "name": "Cole Fraser",
+        "team": "GVL",
+        "value": 9
+      },
+      {
+        "rank": 3,
+        "name": "Cade McNelly",
+        "team": "TUL",
+        "value": 9
+      },
+      {
+        "rank": 4,
+        "name": "Oliver Cooper",
+        "team": "FLA",
+        "value": 8
+      },
+      {
+        "rank": 5,
+        "name": "Tanner Edwards",
+        "team": "ADK",
+        "value": 8
+      }
+    ],
+    "soGoals": [
+      {
+        "rank": 1,
+        "name": "Brannon McManus",
+        "team": "ADK",
+        "value": 3
+      },
+      {
+        "rank": 2,
+        "name": "Kyle Crnkovic",
+        "team": "WIC",
+        "value": 3
+      }
+    ],
+    "soPct": [],
+    "soRecord": []
   },
-  "scrapedAt": "2026-03-13T21:12:45.784Z"
+  "scrapedAt": "2026-03-13T21:39:08.919Z"
 }
