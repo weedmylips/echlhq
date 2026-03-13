@@ -1,1 +1,411 @@
-{"leaders": {"goals": [], "assists": [], "points": [], "gaa": [], "svPct": []}, "scrapedAt": null}
+{
+  "leaders": {
+    "goals": [
+      {
+        "rank": 1,
+        "name": "Brendan Hoffmann",
+        "team": "IDH",
+        "value": 32
+      },
+      {
+        "rank": 2,
+        "name": "Reed Lebster",
+        "team": "UTA",
+        "value": 30
+      },
+      {
+        "rank": 3,
+        "name": "Devon Paliani",
+        "team": "TAH",
+        "value": 26
+      },
+      {
+        "rank": 4,
+        "name": "Danny Katic",
+        "team": "ALN",
+        "value": 26
+      }
+    ],
+    "assists": [
+      {
+        "rank": 1,
+        "name": "Marcus Crawford",
+        "team": "KC",
+        "value": 59
+      },
+      {
+        "rank": 2,
+        "name": "Chad Nychuk",
+        "team": "ATL",
+        "value": 40
+      },
+      {
+        "rank": 3,
+        "name": "Riley McCourt",
+        "team": "TOL",
+        "value": 39
+      },
+      {
+        "rank": 4,
+        "name": "Danny Dzhaniyev",
+        "team": "UTA",
+        "value": 39
+      },
+      {
+        "rank": 5,
+        "name": "Brayden Watts",
+        "team": "ALN",
+        "value": 38
+      }
+    ],
+    "points": [
+      {
+        "rank": 1,
+        "name": "Marcus Crawford",
+        "team": "KC",
+        "value": 71
+      },
+      {
+        "rank": 2,
+        "name": "Brandon Hawkins",
+        "team": "TOL",
+        "value": 60
+      },
+      {
+        "rank": 3,
+        "name": "Danny Dzhaniyev",
+        "team": "UTA",
+        "value": 58
+      },
+      {
+        "rank": 4,
+        "name": "Brayden Watts",
+        "team": "ALN",
+        "value": 57
+      },
+      {
+        "rank": 5,
+        "name": "Simon Pinard",
+        "team": "SC",
+        "value": 56
+      },
+      {
+        "rank": 6,
+        "name": "Ryan Wagner",
+        "team": "RC",
+        "value": 54
+      },
+      {
+        "rank": 7,
+        "name": "Brannon McManus",
+        "team": "ADK",
+        "value": 53
+      },
+      {
+        "rank": 8,
+        "name": "Brendan Hoffmann",
+        "team": "IDH",
+        "value": 51
+      },
+      {
+        "rank": 9,
+        "name": "Reed Lebster",
+        "team": "UTA",
+        "value": 51
+      },
+      {
+        "rank": 10,
+        "name": "x Jackson Jutting",
+        "team": "KC",
+        "value": 51
+      },
+      {
+        "rank": 11,
+        "name": "Casey Bailey",
+        "team": "TAH",
+        "value": 51
+      },
+      {
+        "rank": 12,
+        "name": "Reece Newkirk",
+        "team": "ORL",
+        "value": 51
+      },
+      {
+        "rank": 13,
+        "name": "Peter Bates",
+        "team": "WIC",
+        "value": 51
+      },
+      {
+        "rank": 14,
+        "name": "Alex Young",
+        "team": "ATL",
+        "value": 50
+      },
+      {
+        "rank": 15,
+        "name": "Blake Bennett",
+        "team": "RC",
+        "value": 50
+      },
+      {
+        "rank": 16,
+        "name": "Anthony Romano",
+        "team": "FLA",
+        "value": 50
+      },
+      {
+        "rank": 17,
+        "name": "Austin Magera",
+        "team": "FW",
+        "value": 49
+      }
+    ],
+    "gaa": [
+      {
+        "rank": 1,
+        "name": "Cam Johnson",
+        "team": "FLA",
+        "value": 1.86
+      },
+      {
+        "rank": 2,
+        "name": "Jack LaFontaine",
+        "team": "KC",
+        "value": 2.03
+      },
+      {
+        "rank": 3,
+        "name": "Taylor Gauthier",
+        "team": "WHL",
+        "value": 2.07
+      },
+      {
+        "rank": 4,
+        "name": "Brad Arvanitis",
+        "team": "MNE",
+        "value": 2.08
+      },
+      {
+        "rank": 5,
+        "name": "Logan Terness",
+        "team": "KC",
+        "value": 2.15
+      },
+      {
+        "rank": 6,
+        "name": "Will Cranley",
+        "team": "FLA",
+        "value": 2.17
+      },
+      {
+        "rank": 7,
+        "name": "T.J. Semptimphelter",
+        "team": "ATL",
+        "value": 2.21
+      },
+      {
+        "rank": 8,
+        "name": "Seth Eisele",
+        "team": "SC",
+        "value": 2.22
+      },
+      {
+        "rank": 9,
+        "name": "Hunter Jones",
+        "team": "TR",
+        "value": 2.26
+      },
+      {
+        "rank": 10,
+        "name": "Dryden McKay",
+        "team": "BLM",
+        "value": 2.33
+      },
+      {
+        "rank": 11,
+        "name": "Samuel Jonsson",
+        "team": "FW",
+        "value": 2.36
+      },
+      {
+        "rank": 12,
+        "name": "Ethan Haider",
+        "team": "ATL",
+        "value": 2.39
+      },
+      {
+        "rank": 13,
+        "name": "Vinnie Purpura",
+        "team": "SAV",
+        "value": 2.41
+      },
+      {
+        "rank": 14,
+        "name": "Jeremy Brodeur",
+        "team": "ADK",
+        "value": 2.41
+      },
+      {
+        "rank": 15,
+        "name": "Carter Gylander",
+        "team": "TOL",
+        "value": 2.41
+      },
+      {
+        "rank": 16,
+        "name": "Luke Cavallin",
+        "team": "MNE",
+        "value": 2.47
+      },
+      {
+        "rank": 17,
+        "name": "Parker Gahagen",
+        "team": "WOR",
+        "value": 2.51
+      },
+      {
+        "rank": 18,
+        "name": "Matt Davis",
+        "team": "WIC",
+        "value": 2.53
+      },
+      {
+        "rank": 19,
+        "name": "Mitchell Weeks",
+        "team": "IND",
+        "value": 2.58
+      },
+      {
+        "rank": 20,
+        "name": "Jake Barczewski",
+        "team": "IDH",
+        "value": 2.61
+      }
+    ],
+    "svPct": [
+      {
+        "rank": 1,
+        "name": "Cam Johnson",
+        "team": "FLA",
+        "value": 0.921
+      },
+      {
+        "rank": 2,
+        "name": "Jack LaFontaine",
+        "team": "KC",
+        "value": 0.927
+      },
+      {
+        "rank": 3,
+        "name": "Taylor Gauthier",
+        "team": "WHL",
+        "value": 0.925
+      },
+      {
+        "rank": 4,
+        "name": "Brad Arvanitis",
+        "team": "MNE",
+        "value": 0.93
+      },
+      {
+        "rank": 5,
+        "name": "Logan Terness",
+        "team": "KC",
+        "value": 0.917
+      },
+      {
+        "rank": 6,
+        "name": "Will Cranley",
+        "team": "FLA",
+        "value": 0.915
+      },
+      {
+        "rank": 7,
+        "name": "T.J. Semptimphelter",
+        "team": "ATL",
+        "value": 0.92
+      },
+      {
+        "rank": 8,
+        "name": "Seth Eisele",
+        "team": "SC",
+        "value": 0.925
+      },
+      {
+        "rank": 9,
+        "name": "Hunter Jones",
+        "team": "TR",
+        "value": 0.916
+      },
+      {
+        "rank": 10,
+        "name": "Dryden McKay",
+        "team": "BLM",
+        "value": 0.924
+      },
+      {
+        "rank": 11,
+        "name": "Samuel Jonsson",
+        "team": "FW",
+        "value": 0.911
+      },
+      {
+        "rank": 12,
+        "name": "Ethan Haider",
+        "team": "ATL",
+        "value": 0.925
+      },
+      {
+        "rank": 13,
+        "name": "Vinnie Purpura",
+        "team": "SAV",
+        "value": 0.919
+      },
+      {
+        "rank": 14,
+        "name": "Jeremy Brodeur",
+        "team": "ADK",
+        "value": 0.918
+      },
+      {
+        "rank": 15,
+        "name": "Carter Gylander",
+        "team": "TOL",
+        "value": 0.915
+      },
+      {
+        "rank": 16,
+        "name": "Luke Cavallin",
+        "team": "MNE",
+        "value": 0.914
+      },
+      {
+        "rank": 17,
+        "name": "Parker Gahagen",
+        "team": "WOR",
+        "value": 0.916
+      },
+      {
+        "rank": 18,
+        "name": "Matt Davis",
+        "team": "WIC",
+        "value": 0.929
+      },
+      {
+        "rank": 19,
+        "name": "Mitchell Weeks",
+        "team": "IND",
+        "value": 0.899
+      },
+      {
+        "rank": 20,
+        "name": "Jake Barczewski",
+        "team": "IDH",
+        "value": 0.916
+      }
+    ]
+  },
+  "scrapedAt": "2026-03-13T20:10:29.349Z"
+}

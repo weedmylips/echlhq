@@ -1,1 +1,45 @@
-{"scores": [], "scrapedAt": null}
+{
+  "scores": [
+    {
+      "visitingTeam": "Toledo",
+      "visitingScore": 5,
+      "homeTeam": "Savannah",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Florida",
+      "visitingScore": 5,
+      "homeTeam": "Atlanta",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "visitingScore": 3,
+      "homeTeam": "Rapid City",
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "visitingScore": 1,
+      "homeTeam": "Utah",
+      "homeScore": 7,
+      "overtime": null,
+      "score": "1-7",
+      "gameId": null,
+      "date": "Yesterday"
+    }
+  ],
+  "scrapedAt": "2026-03-13T20:10:29.349Z"
+}
