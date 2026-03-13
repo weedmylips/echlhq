@@ -1,23 +1,19 @@
-import "./ScoreCard.css";
-
+// ScoreCard replaced by inline ScoreChip in Dashboard.jsx
+// Kept as a re-export for any future use
 export default function ScoreCard({ game, onClick }) {
   if (!game) return null;
-  const { homeTeam, visitingTeam, score, date, gameId } = game;
-
   return (
     <button
-      className="score-card"
-      onClick={() => gameId && onClick && onClick(gameId)}
-      disabled={!gameId}
-      title={gameId ? "Click to view box score" : "Box score unavailable"}
+      className="score-chip"
+      onClick={() => game.gameId && onClick && onClick(game.gameId)}
+      disabled={!game.gameId}
     >
-      <div className="score-card-date">{date || "—"}</div>
-      <div className="score-card-matchup">
-        <span className="score-card-team">{visitingTeam || "—"}</span>
-        <span className="score-card-score">{score || "vs"}</span>
-        <span className="score-card-team">{homeTeam || "—"}</span>
+      <div style={{ fontSize: 12, color: "var(--text-muted)" }}>{game.date}</div>
+      <div style={{ display: "flex", justifyContent: "space-between", gap: 8, alignItems: "center" }}>
+        <span style={{ fontSize: 13, fontWeight: 600 }}>{game.visitingTeam}</span>
+        <span style={{ fontWeight: 800 }}>{game.score || "vs"}</span>
+        <span style={{ fontSize: 13, fontWeight: 600 }}>{game.homeTeam}</span>
       </div>
-      {gameId && <div className="score-card-link">View Box Score →</div>}
     </button>
   );
 }

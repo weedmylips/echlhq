@@ -1,16 +1,18 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useScores, useStandings, useLeaders } from "../hooks/useECHL.js";
-import ScoreCard from "../components/ScoreCard.jsx";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
-import LeaderList from "../components/LeaderList.jsx";
 import "./Dashboard.css";
+
+const DIVISION_ORDER = ["North", "South", "Central", "Mountain"];
+const PLAYOFF_SPOTS = 4; // top 4 per division make playoffs
 
 export default function Dashboard() {
   const [selectedGameId, setSelectedGameId] = useState(null);
-  const [standingsSort, setStandingsSort] = useState({ col: "pts", dir: "desc" });
-  const navigate = useNavigate();
+  const [sortCol, setSortCol] = useState("pts");
+  const [sortDir, setSortDir] = useState("desc");
 
+  const navigate = useNavigate();
   const { data: scoresData, isLoading: scoresLoading } = useScores();
   const { data: standingsData, isLoading: standingsLoading } = useStandings();
   const { data: leadersData, isLoading: leadersLoading } = useLeaders();
@@ -19,149 +21,137 @@ export default function Dashboard() {
   const standings = standingsData?.standings || [];
   const leaders = leadersData?.leaders || {};
 
-  // Group standings by division
-  const byDivision = standings.reduce((acc, team) => {
-    const div = team.division || "Other";
-    if (!acc[div]) acc[div] = [];
-    acc[div].push(team);
+  const byDivision = standings.reduce((acc, t) => {
+    const d = t.division || "Other";
+    (acc[d] = acc[d] || []).push(t);
     return acc;
   }, {});
 
-  const divisions = ["North", "South", "Central", "Mountain", "Other"].filter(
-    (d) => byDivision[d]?.length
-  );
+  const divisions = DIVISION_ORDER.filter((d) => byDivision[d]?.length);
 
-  function sortStandings(teams) {
+  function handleSort(col) {
+    if (sortCol === col) setSortDir((d) => (d === "desc" ? "asc" : "desc"));
+    else { setSortCol(col); setSortDir("desc"); }
+  }
+
+  function sorted(teams) {
     return [...teams].sort((a, b) => {
-      let av = a[standingsSort.col] ?? 0;
-      let bv = b[standingsSort.col] ?? 0;
-      if (typeof av === "string") av = av.toLowerCase();
-      if (typeof bv === "string") bv = bv.toLowerCase();
-      if (standingsSort.dir === "asc") return av > bv ? 1 : -1;
-      return av < bv ? 1 : -1;
+      let av = a[sortCol] ?? 0, bv = b[sortCol] ?? 0;
+      if (typeof av === "string") { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+      return sortDir === "desc" ? (av < bv ? 1 : -1) : (av > bv ? 1 : -1);
     });
   }
 
-  function handleSortClick(col) {
-    setStandingsSort((s) =>
-      s.col === col ? { col, dir: s.dir === "desc" ? "asc" : "desc" } : { col, dir: "desc" }
-    );
+  function sortIcon(col) {
+    if (sortCol !== col) return null;
+    return <span className="sort-icon">{sortDir === "desc" ? "↓" : "↑"}</span>;
   }
 
-  function sortIcon(col) {
-    if (standingsSort.col !== col) return " ↕";
-    return standingsSort.dir === "desc" ? " ↓" : " ↑";
-  }
+  const COLS = ["gp","w","l","otl","pts","pct","gf","ga","diff","home","away","streak"];
 
   return (
     <div className="dashboard">
-      {/* Scores strip */}
-      <section className="scores-strip card">
-        <div className="scores-strip-header">
-          <h2 className="section-title">Recent Scores</h2>
-          {scoresData?.stale && (
-            <span className="badge badge-warning">Stale data</span>
-          )}
-        </div>
+      {/* ── Scores Strip ── */}
+      <section className="scores-section">
+        <div className="section-label">Yesterday's Scores</div>
         {scoresLoading ? (
-          <div className="loading-spinner">Loading scores…</div>
+          <div className="loading-spinner">Loading…</div>
         ) : scores.length === 0 ? (
-          <p className="empty-msg">No recent scores available.</p>
+          <p className="empty-msg">No recent scores.</p>
         ) : (
-          <div className="scores-scroll">
-            {scores.map((game, i) => (
-              <ScoreCard key={i} game={game} onClick={setSelectedGameId} />
+          <div className="scores-strip">
+            {scores.map((g, i) => (
+              <ScoreChip key={i} game={g} onClick={() => g.gameId && setSelectedGameId(g.gameId)} />
             ))}
           </div>
         )}
       </section>
 
-      <div className="dashboard-grid">
-        {/* Standings */}
-        <section className="standings-section card">
-          <div className="section-header">
-            <h2 className="section-title">Standings</h2>
-            <a href="/standings" className="see-all">Full Standings →</a>
-          </div>
+      <div className="dashboard-body">
+        {/* ── Standings ── */}
+        <section className="standings-section">
           {standingsLoading ? (
             <div className="loading-spinner">Loading standings…</div>
-          ) : standings.length === 0 ? (
-            <p className="empty-msg">No standings available.</p>
           ) : (
-            <div className="table-wrap">
-              {divisions.map((div) => (
-                <div key={div} className="division-block">
-                  <div className="division-label">{div} Division</div>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Team</th>
-                        {["gp","w","l","otl","sol","pts","gf","ga","diff"].map((col) => (
-                          <th key={col} onClick={() => handleSortClick(col)}>
-                            {col.toUpperCase()}{sortIcon(col)}
-                          </th>
-                        ))}
-                        <th>Streak</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {sortStandings(byDivision[div]).map((team, i) => (
-                        <tr
-                          key={team.teamId || i}
-                          className="team-row"
-                          onClick={() => team.teamId && navigate(`/team/${team.teamId}`)}
-                          style={{ cursor: team.teamId ? "pointer" : "default" }}
-                        >
-                          <td>
-                            <div className="team-cell">
-                              {team.logoUrl && (
-                                <img src={team.logoUrl} alt="" className="team-logo-sm" />
-                              )}
-                              <span
-                                style={{ color: team.primaryColor, fontWeight: 700 }}
-                              >
-                                {team.teamName}
-                              </span>
-                            </div>
-                          </td>
-                          <td>{team.gp}</td>
-                          <td>{team.w}</td>
-                          <td>{team.l}</td>
-                          <td>{team.otl}</td>
-                          <td>{team.sol}</td>
-                          <td><strong>{team.pts}</strong></td>
-                          <td>{team.gf}</td>
-                          <td>{team.ga}</td>
-                          <td className={team.diff > 0 ? "pos" : team.diff < 0 ? "neg" : ""}>
-                            {team.diff > 0 ? `+${team.diff}` : team.diff}
-                          </td>
-                          <td>{team.streak}</td>
+            divisions.map((divName) => {
+              const teams = sorted(byDivision[divName] || []);
+              return (
+                <div key={divName} className="division-card card">
+                  <div className="division-card-header">
+                    <span className="division-name">{divName} Division</span>
+                  </div>
+                  <div className="table-wrap">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th className="team-col">Team</th>
+                          {COLS.map((c) => (
+                            <th key={c} onClick={() => handleSort(c)} className="num-col">
+                              {c.toUpperCase()}{sortIcon(c)}
+                            </th>
+                          ))}
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                      </thead>
+                      <tbody>
+                        {teams.map((team, i) => {
+                          const isPlayoffCutoff = i === PLAYOFF_SPOTS - 1;
+                          return (
+                            <tr
+                              key={team.teamId || i}
+                              className={`team-row${isPlayoffCutoff ? " playoff-cutoff" : ""}`}
+                              onClick={() => team.teamId && navigate(`/team/${team.teamId}`)}
+                            >
+                              <td className="team-name-cell">
+                                {team.logoUrl && (
+                                  <img src={team.logoUrl} alt="" className="row-logo" />
+                                )}
+                                <span style={{ color: team.primaryColor || "#fff", fontWeight: 600 }}>
+                                  {team.teamName}
+                                </span>
+                              </td>
+                              <td className="num">{team.gp}</td>
+                              <td className="num bold">{team.w}</td>
+                              <td className="num">{team.l}</td>
+                              <td className="num">{team.otl}</td>
+                              <td className="num bold">{team.pts}</td>
+                              <td className="num">{team.pct}</td>
+                              <td className="num">{team.gf}</td>
+                              <td className="num">{team.ga}</td>
+                              <td className={`num ${team.diff > 0 ? "pos" : team.diff < 0 ? "neg" : ""}`}>
+                                {team.diff > 0 ? `+${team.diff}` : team.diff}
+                              </td>
+                              <td className="num hide-mobile">{team.home}</td>
+                              <td className="num hide-mobile">{team.away}</td>
+                              <td className="num hide-mobile">{team.streak}</td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
-              ))}
-            </div>
+              );
+            })
           )}
         </section>
 
-        {/* Leaders Sidebar */}
+        {/* ── Leaders Sidebar ── */}
         <aside className="leaders-sidebar">
           <div className="card leaders-card">
-            <div className="section-header">
-              <h2 className="section-title">League Leaders</h2>
-              <a href="/leaders" className="see-all">All Leaders →</a>
+            <div className="leaders-card-header">
+              <span className="section-label" style={{ margin: 0 }}>League Leaders</span>
+              <a href="/leaders" className="see-all-link">All →</a>
             </div>
+
             {leadersLoading ? (
-              <div className="loading-spinner">Loading…</div>
+              <div className="loading-spinner" style={{ padding: 24 }}>Loading…</div>
             ) : (
               <>
-                <LeaderList title="Goals" data={leaders.goals} limit={5} />
-                <LeaderList title="Assists" data={leaders.assists} limit={5} />
-                <LeaderList title="Points" data={leaders.points} limit={5} />
-                <LeaderList title="GAA" data={leaders.gaa} limit={5} lower />
-                <LeaderList title="SV%" data={leaders.svPct} limit={5} />
+                <LeaderMini title="Points" players={leaders.points} limit={5} />
+                <LeaderMini title="Goals" players={leaders.goals} limit={5} />
+                <LeaderMini title="Assists" players={leaders.assists} limit={5} />
+                <LeaderMini title="GAA" players={leaders.gaa} limit={5} lower />
+                <LeaderMini title="SV%" players={leaders.svPct} limit={5} />
               </>
             )}
           </div>
@@ -171,6 +161,47 @@ export default function Dashboard() {
       {selectedGameId && (
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
       )}
+    </div>
+  );
+}
+
+function ScoreChip({ game, onClick }) {
+  return (
+    <button className="score-chip" onClick={onClick} disabled={!game.gameId}>
+      <div className="chip-team chip-away">
+        <span className="chip-name">{game.visitingTeam}</span>
+        <span className="chip-score">{game.visitingScore}</span>
+      </div>
+      <div className="chip-sep">
+        {game.overtime ? <span className="chip-ot">{game.overtime}</span> : <span className="chip-at">@</span>}
+      </div>
+      <div className="chip-team chip-home">
+        <span className="chip-score">{game.homeScore}</span>
+        <span className="chip-name">{game.homeTeam}</span>
+      </div>
+      <div className="chip-status">Final{game.overtime ? ` (${game.overtime})` : ""}</div>
+    </button>
+  );
+}
+
+function LeaderMini({ title, players, limit = 5, lower = false }) {
+  if (!players?.length) return null;
+  const sorted = lower
+    ? [...players].sort((a, b) => a.value - b.value)
+    : [...players].sort((a, b) => b.value - a.value);
+  const items = sorted.slice(0, limit);
+
+  return (
+    <div className="leader-mini">
+      <div className="leader-mini-title">{title}</div>
+      {items.map((p, i) => (
+        <div key={i} className="leader-mini-row">
+          <span className="leader-mini-rank">{i + 1}</span>
+          <span className="leader-mini-name">{p.name}</span>
+          <span className="leader-mini-team">{p.team}</span>
+          <span className="leader-mini-val">{p.value}</span>
+        </div>
+      ))}
     </div>
   );
 }

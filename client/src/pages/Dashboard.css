@@ -1,118 +1,261 @@
 .dashboard {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 20px;
+}
+
+/* ── Scores Strip ── */
+.scores-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
 }
 
 .scores-strip {
-  padding: 1rem;
-}
-
-.scores-strip-header {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.scores-scroll {
-  display: flex;
-  gap: 0.75rem;
+  gap: 8px;
   overflow-x: auto;
-  padding-bottom: 0.25rem;
-  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+.scores-strip::-webkit-scrollbar { display: none; }
+
+.score-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  min-width: 180px;
+  transition: border-color 0.15s, background 0.15s;
+  font-family: inherit;
+  color: inherit;
 }
 
-.scores-scroll::-webkit-scrollbar {
-  height: 4px;
+.score-chip:hover:not(:disabled) {
+  border-color: var(--border-light);
+  background: #282828;
 }
 
-.scores-scroll::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 2px;
+.score-chip:disabled {
+  cursor: default;
+  opacity: 0.7;
 }
 
-.dashboard-grid {
-  display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 1.25rem;
-  align-items: start;
-}
-
-.standings-section {
-  padding: 1rem;
-}
-
-.section-header {
+.chip-team {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.75rem;
+  width: 100%;
+  gap: 8px;
 }
 
-.see-all {
-  font-size: 0.8rem;
-  color: var(--accent);
+.chip-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
 }
 
-.division-block {
-  margin-bottom: 1rem;
+.chip-away .chip-name { text-align: left; }
+.chip-home .chip-name { text-align: right; }
+
+.chip-score {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text);
+  min-width: 20px;
+  text-align: center;
 }
 
-.division-label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  background: var(--bg);
-  padding: 0.35rem 0.75rem;
-  border-radius: var(--radius-sm);
-  margin-bottom: 0.25rem;
-}
-
-.team-cell {
+.chip-sep {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  width: 100%;
 }
 
-.team-logo-sm {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
+.chip-at {
+  font-size: 11px;
+  color: var(--text-muted);
 }
 
-.team-row:hover {
-  background: var(--hover-bg);
+.chip-ot {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--amber);
 }
 
-td.pos { color: #22543d; font-weight: 600; }
-td.neg { color: #742a2a; font-weight: 600; }
-[data-theme="dark"] td.pos { color: #9ae6b4; }
-[data-theme="dark"] td.neg { color: #fc8181; }
-
-.leaders-sidebar {}
-
-.leaders-card {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.chip-status {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .empty-msg {
   color: var(--text-muted);
-  font-size: 0.88rem;
-  padding: 1rem 0;
+  font-size: 13px;
+  padding: 8px 0;
 }
 
-@media (max-width: 900px) {
-  .dashboard-grid {
+/* ── Dashboard Body ── */
+.dashboard-body {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 16px;
+  align-items: start;
+}
+
+/* ── Standings ── */
+.standings-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.division-card {
+  overflow: hidden;
+}
+
+.division-card-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.division-name {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.team-col { min-width: 160px; }
+.num-col { text-align: right; }
+td.num { text-align: right; }
+
+.team-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.row-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.team-row { cursor: pointer; }
+
+.sort-icon {
+  font-size: 10px;
+  margin-left: 2px;
+  opacity: 0.7;
+}
+
+/* ── Leaders Sidebar ── */
+.leaders-card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: sticky;
+  top: 120px;
+}
+
+.leaders-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.see-all-link {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.see-all-link:hover { color: var(--text-secondary); }
+
+.leader-mini {
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+
+.leader-mini:first-of-type { border-top: none; padding-top: 0; }
+
+.leader-mini-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.leader-mini-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 0;
+}
+
+.leader-mini-rank {
+  font-size: 10px;
+  color: var(--text-muted);
+  width: 12px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.leader-mini-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.leader-mini-team {
+  font-size: 10px;
+  color: var(--text-muted);
+  width: 28px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.leader-mini-val {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  width: 28px;
+  text-align: right;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 960px) {
+  .dashboard-body {
     grid-template-columns: 1fr;
   }
-
-  .leaders-sidebar {
-    order: -1;
+  .leaders-card {
+    position: static;
   }
 }

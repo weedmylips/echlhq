@@ -1,199 +1,159 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import {
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell,
-} from "recharts";
 import { useStandings } from "../hooks/useECHL.js";
 import "./StandingsPage.css";
 
-const COLS = [
-  { key: "teamName", label: "Team", sortable: true },
-  { key: "gp", label: "GP", sortable: true },
-  { key: "w", label: "W", sortable: true },
-  { key: "l", label: "L", sortable: true },
-  { key: "otl", label: "OTL", sortable: true },
-  { key: "sol", label: "SOL", sortable: true },
-  { key: "pts", label: "PTS", sortable: true },
-  { key: "pct", label: "PCT", sortable: true },
-  { key: "gf", label: "GF", sortable: true },
-  { key: "ga", label: "GA", sortable: true },
-  { key: "diff", label: "DIFF", sortable: true },
-  { key: "home", label: "Home", sortable: false },
-  { key: "away", label: "Away", sortable: false },
-  { key: "streak", label: "Streak", sortable: false },
-];
+const DIVISION_ORDER = ["North", "South", "Central", "Mountain"];
+const PLAYOFF_SPOTS = 4;
 
-const PLAYOFF_SPOTS = { North: 2, South: 2, Central: 2, Mountain: 2 };
+const TABLE_COLS = [
+  { key: "gp",     label: "GP" },
+  { key: "w",      label: "W" },
+  { key: "l",      label: "L" },
+  { key: "otl",    label: "OT" },
+  { key: "pts",    label: "PTS" },
+  { key: "pct",    label: "PCT" },
+  { key: "gf",     label: "GF" },
+  { key: "ga",     label: "GA" },
+  { key: "diff",   label: "DIFF" },
+  { key: "home",   label: "HOME", hideOnMobile: true },
+  { key: "away",   label: "AWAY", hideOnMobile: true },
+  { key: "streak", label: "STRK", hideOnMobile: true },
+];
 
 export default function StandingsPage() {
   const { data, isLoading, error } = useStandings();
-  const [view, setView] = useState("division"); // division | conference
-  const [sort, setSort] = useState({ col: "pts", dir: "desc" });
+  const [view, setView] = useState("division");
+  const [sortCol, setSortCol] = useState("pts");
+  const [sortDir, setSortDir] = useState("desc");
   const navigate = useNavigate();
 
   const standings = data?.standings || [];
 
   function handleSort(col) {
-    setSort((s) =>
-      s.col === col ? { col, dir: s.dir === "desc" ? "asc" : "desc" } : { col, dir: "desc" }
-    );
+    if (sortCol === col) setSortDir((d) => (d === "desc" ? "asc" : "desc"));
+    else { setSortCol(col); setSortDir("desc"); }
   }
 
   function sortedTeams(teams) {
     return [...teams].sort((a, b) => {
-      let av = a[sort.col] ?? 0;
-      let bv = b[sort.col] ?? 0;
-      if (typeof av === "string") av = av.toLowerCase();
-      if (typeof bv === "string") bv = bv.toLowerCase();
-      return sort.dir === "desc" ? (av < bv ? 1 : -1) : (av > bv ? 1 : -1);
+      let av = a[sortCol] ?? 0, bv = b[sortCol] ?? 0;
+      if (typeof av === "string") { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+      return sortDir === "desc" ? (av < bv ? 1 : -1) : (av > bv ? 1 : -1);
     });
   }
 
-  function sortIcon(col) {
-    if (sort.col !== col) return "";
-    return sort.dir === "desc" ? " ↓" : " ↑";
+  function si(col) {
+    if (sortCol !== col) return null;
+    return <span className="sort-icon">{sortDir === "desc" ? "↓" : "↑"}</span>;
   }
 
-  const grouped =
-    view === "division"
-      ? standings.reduce((acc, t) => {
-          const g = t.division || "Other";
-          (acc[g] = acc[g] || []).push(t);
-          return acc;
-        }, {})
-      : standings.reduce((acc, t) => {
-          const g = t.conference || "Other";
-          (acc[g] = acc[g] || []).push(t);
-          return acc;
-        }, {});
+  const grouped = standings.reduce((acc, t) => {
+    const g = view === "division" ? (t.division || "Other") : (t.conference || "Other");
+    (acc[g] = acc[g] || []).push(t);
+    return acc;
+  }, {});
 
-  const groupOrder =
-    view === "division"
-      ? ["North", "South", "Central", "Mountain", "Other"]
-      : ["Eastern", "Western", "Other"];
-
-  const groups = groupOrder.filter((g) => grouped[g]?.length);
-
-  // Playoff bubble highlight: within 4 pts of a playoff spot
-  function isPlayoffBubble(team, groupTeams) {
-    const divisionName = team.division;
-    const spots = PLAYOFF_SPOTS[divisionName] || 2;
-    const sorted = [...groupTeams].sort((a, b) => b.pts - a.pts);
-    const cutoffTeam = sorted[spots - 1];
-    if (!cutoffTeam) return false;
-    const cutoffPts = cutoffTeam.pts;
-    return team.pts < cutoffPts && cutoffPts - team.pts <= 4;
-  }
-
-  function isPlayoffTeam(team, groupTeams) {
-    const spots = PLAYOFF_SPOTS[team.division] || 2;
-    const sorted = [...groupTeams].sort((a, b) => b.pts - a.pts);
-    return sorted.slice(0, spots).some((t) => t.teamId === team.teamId);
-  }
-
-  // Chart data: sorted by diff
-  const chartData = [...standings]
-    .sort((a, b) => b.diff - a.diff)
-    .map((t) => ({
-      name: t.teamName?.split(" ").pop() || t.teamName,
-      diff: t.diff,
-      color: t.primaryColor || "#555",
-    }));
-
-  const CustomTooltip = ({ active, payload }) => {
-    if (active && payload?.[0]) {
-      return (
-        <div className="chart-tooltip">
-          <strong>{payload[0].payload.name}</strong>
-          <div>Goal Diff: {payload[0].value > 0 ? `+${payload[0].value}` : payload[0].value}</div>
-        </div>
-      );
-    }
-    return null;
-  };
+  const groupOrder = view === "division"
+    ? DIVISION_ORDER.filter((d) => grouped[d]?.length)
+    : ["Eastern", "Western"].filter((c) => grouped[c]?.length);
 
   return (
     <div className="standings-page">
-      <div className="page-header">
-        <h1>Standings</h1>
-        {data?.stale && (
-          <div className="stale-banner">⚠ Showing cached data — live data unavailable</div>
-        )}
-        <div className="view-toggle">
+      <div className="standings-page-header">
+        <h1 className="page-title">Standings</h1>
+        <div className="view-tabs">
           <button
-            className={view === "division" ? "toggle-btn active" : "toggle-btn"}
+            className={`view-tab${view === "division" ? " active" : ""}`}
             onClick={() => setView("division")}
-          >
-            Division
-          </button>
+          >Division</button>
           <button
-            className={view === "conference" ? "toggle-btn active" : "toggle-btn"}
+            className={`view-tab${view === "conference" ? " active" : ""}`}
             onClick={() => setView("conference")}
-          >
-            Conference
-          </button>
+          >Conference</button>
         </div>
       </div>
+
+      {data?.stale && <div className="stale-banner">⚠ Showing cached data — live data temporarily unavailable</div>}
 
       {isLoading && <div className="loading-spinner">Loading standings…</div>}
       {error && <div className="error-box">Error: {error.message}</div>}
 
       {!isLoading && !error && (
-        <>
-          {/* Standings Tables */}
-          {groups.map((groupName) => {
-            const groupTeams = sortedTeams(grouped[groupName]);
+        <div className="standings-groups">
+          {groupOrder.map((groupName) => {
+            const teams = sortedTeams(grouped[groupName] || []);
             return (
-              <section key={groupName} className="standings-group card">
-                <h2 className="group-title">{groupName} {view === "division" ? "Division" : "Conference"}</h2>
+              <div key={groupName} className="standings-group card">
+                <div className="group-header">
+                  <span className="group-name">
+                    {groupName} {view === "division" ? "Division" : "Conference"}
+                  </span>
+                  <span className="playoff-legend">
+                    <span className="playoff-dot" /> Top {PLAYOFF_SPOTS} advance to playoffs
+                  </span>
+                </div>
                 <div className="table-wrap">
                   <table>
                     <thead>
                       <tr>
-                        <th style={{ width: 24 }}></th>
-                        {COLS.map((c) => (
+                        <th className="rank-col">#</th>
+                        <th className="team-col">Team</th>
+                        {TABLE_COLS.map((c) => (
                           <th
                             key={c.key}
-                            onClick={c.sortable ? () => handleSort(c.key) : undefined}
-                            style={{ cursor: c.sortable ? "pointer" : "default" }}
+                            onClick={() => handleSort(c.key)}
+                            className={`num-col${c.hideOnMobile ? " hide-mobile" : ""}`}
                           >
-                            {c.label}{c.sortable ? sortIcon(c.key) : ""}
+                            {c.label}{si(c.key)}
                           </th>
                         ))}
                       </tr>
                     </thead>
                     <tbody>
-                      {groupTeams.map((team, i) => {
-                        const playoff = isPlayoffTeam(team, grouped[groupName]);
-                        const bubble = isPlayoffBubble(team, grouped[groupName]);
+                      {teams.map((team, i) => {
+                        const rank = i + 1;
+                        const isPlayoff = rank <= PLAYOFF_SPOTS;
+                        const isCutoff = rank === PLAYOFF_SPOTS;
                         return (
                           <tr
                             key={team.teamId || i}
-                            className={`team-row ${playoff ? "playoff" : ""} ${bubble ? "bubble" : ""}`}
+                            className={`team-row${isCutoff ? " playoff-cutoff" : ""}`}
                             onClick={() => team.teamId && navigate(`/team/${team.teamId}`)}
                           >
+                            <td className="rank-cell">
+                              <span className={`rank-num${isPlayoff ? " in-playoffs" : ""}`}>
+                                {rank}
+                              </span>
+                            </td>
                             <td>
-                              <div className="playoff-indicator">
-                                {playoff && <span title="Playoff position" className="dot dot-green" />}
-                                {bubble && <span title="Playoff bubble (within 4 pts)" className="dot dot-yellow" />}
+                              <div className="team-name-cell">
+                                {team.logoUrl && (
+                                  <img src={team.logoUrl} alt="" className="row-logo" />
+                                )}
+                                <span
+                                  className="team-name-text"
+                                  style={{ color: team.primaryColor || "#fff" }}
+                                >
+                                  {team.teamName}
+                                </span>
                               </div>
                             </td>
-                            {COLS.map((c) => (
-                              <td key={c.key} className={c.key === "diff" && team[c.key] > 0 ? "pos" : c.key === "diff" && team[c.key] < 0 ? "neg" : ""}>
-                                {c.key === "teamName" ? (
-                                  <div className="team-cell">
-                                    {team.logoUrl && <img src={team.logoUrl} alt="" className="team-logo-sm" />}
-                                    <span style={{ color: team.primaryColor, fontWeight: 700 }}>
-                                      {team.teamName}
-                                    </span>
-                                  </div>
-                                ) : c.key === "diff" ? (
-                                  team[c.key] > 0 ? `+${team[c.key]}` : team[c.key]
-                                ) : c.key === "pts" ? (
-                                  <strong>{team[c.key]}</strong>
-                                ) : (
-                                  team[c.key]
-                                )}
+                            {TABLE_COLS.map((c) => (
+                              <td
+                                key={c.key}
+                                className={[
+                                  "num",
+                                  c.key === "pts" ? "bold" : "",
+                                  c.key === "w" ? "bold" : "",
+                                  c.key === "diff" && team[c.key] > 0 ? "pos" : "",
+                                  c.key === "diff" && team[c.key] < 0 ? "neg" : "",
+                                  c.hideOnMobile ? "hide-mobile" : "",
+                                ].filter(Boolean).join(" ")}
+                              >
+                                {c.key === "diff" && team[c.key] > 0
+                                  ? `+${team[c.key]}`
+                                  : team[c.key]}
                               </td>
                             ))}
                           </tr>
@@ -202,39 +162,10 @@ export default function StandingsPage() {
                     </tbody>
                   </table>
                 </div>
-                <div className="playoff-legend">
-                  <span><span className="dot dot-green" /> In playoff position</span>
-                  <span><span className="dot dot-yellow" /> Playoff bubble (≤4 pts back)</span>
-                </div>
-              </section>
+              </div>
             );
           })}
-
-          {/* Goal Differential Chart */}
-          {chartData.length > 0 && (
-            <section className="card diff-chart-section">
-              <h2 className="section-title">Goal Differential by Team</h2>
-              <ResponsiveContainer width="100%" height={320}>
-                <BarChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 60 }}>
-                  <XAxis
-                    dataKey="name"
-                    angle={-45}
-                    textAnchor="end"
-                    tick={{ fontSize: 11 }}
-                    interval={0}
-                  />
-                  <YAxis tick={{ fontSize: 11 }} />
-                  <Tooltip content={<CustomTooltip />} />
-                  <Bar dataKey="diff" radius={[3, 3, 0, 0]}>
-                    {chartData.map((entry, i) => (
-                      <Cell key={i} fill={entry.diff >= 0 ? entry.color : "#ef4444"} />
-                    ))}
-                  </Bar>
-                </BarChart>
-              </ResponsiveContainer>
-            </section>
-          )}
-        </>
+        </div>
       )}
     </div>
   );
