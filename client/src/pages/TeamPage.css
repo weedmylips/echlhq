@@ -646,12 +646,11 @@ tr.playoff-cutoff td {
 }
 
 @media (max-width: 600px) {
-  .team-header-logo {
-    width: 52px;
-    height: 52px;
-  }
-  .team-header-content { padding: 14px 16px; }
-  .team-header-name { font-size: 17px; }
+  .team-header-logo { width: 48px; height: 48px; }
+  .team-header-content { padding: 12px 14px; gap: 8px; }
+  .team-header-name { font-size: 16px; }
+  .team-header-meta { gap: 8px; }
+
   .stat-block-value { font-size: 22px; }
   .record-value { font-size: 16px; }
 
@@ -660,6 +659,7 @@ tr.playoff-cutoff td {
   .recent-game-row { padding: 8px 12px; gap: 8px; }
   .rg-date { display: none; }
 
+  /* key stats: 2×2 grid */
   .key-stats-row { grid-template-columns: repeat(2, 1fr); }
   .key-stat-card:nth-child(2) { border-right: none; }
   .key-stat-card:nth-child(1),
@@ -667,6 +667,24 @@ tr.playoff-cutoff td {
   .key-stat-value { font-size: 20px; }
 
   .split-record { font-size: 18px; }
+  .split-block { padding: 14px 8px; }
 
   .last10-segments { height: 22px; }
+  .last10-wrap { padding: 12px; }
+
+  /* season record strip: scroll instead of wrap */
+  .season-record-strip {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .season-record-strip::-webkit-scrollbar { display: none; }
+  .record-item { min-width: 48px; flex-shrink: 0; padding: 10px 6px; }
+  .record-value { font-size: 15px; }
+  .record-label { font-size: 9px; }
+
+  /* mini standings table: tighten */
+  .mini-standings-table td { padding: 6px 8px; }
+  .mini-standings-table th { padding: 6px 8px; }
 }

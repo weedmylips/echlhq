@@ -178,3 +178,9 @@ tr.playoff-cutoff td {
 
   td, th { padding: 8px 8px; }
 }
+
+@media (max-width: 480px) {
+  .hide-sm { display: none !important; }
+
+  td, th { padding: 7px 6px; font-size: 12px; }
+}

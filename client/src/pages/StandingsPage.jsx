@@ -12,10 +12,10 @@ const TABLE_COLS = [
   { key: "l",      label: "L" },
   { key: "otl",    label: "OT" },
   { key: "pts",    label: "PTS" },
-  { key: "pct",    label: "PCT" },
-  { key: "gf",     label: "GF" },
-  { key: "ga",     label: "GA" },
-  { key: "diff",   label: "DIFF" },
+  { key: "pct",    label: "PCT",  hideOnSmall: true },
+  { key: "gf",     label: "GF",   hideOnSmall: true },
+  { key: "ga",     label: "GA",   hideOnSmall: true },
+  { key: "diff",   label: "DIFF", hideOnSmall: true },
   { key: "homeRecord", label: "HOME", hideOnMobile: true },
   { key: "roadRecord", label: "ROAD", hideOnMobile: true },
   { key: "streak",     label: "STRK", hideOnMobile: true },
@@ -103,7 +103,7 @@ export default function StandingsPage() {
                           <th
                             key={c.key}
                             onClick={() => handleSort(c.key)}
-                            className={`num-col${c.hideOnMobile ? " hide-mobile" : ""}`}
+                            className={`num-col${c.hideOnMobile ? " hide-mobile" : ""}${c.hideOnSmall ? " hide-sm" : ""}`}
                           >
                             {c.label}{si(c.key)}
                           </th>
@@ -149,6 +149,7 @@ export default function StandingsPage() {
                                   c.key === "diff" && team[c.key] > 0 ? "pos" : "",
                                   c.key === "diff" && team[c.key] < 0 ? "neg" : "",
                                   c.hideOnMobile ? "hide-mobile" : "",
+                                  c.hideOnSmall ? "hide-sm" : "",
                                 ].filter(Boolean).join(" ")}
                               >
                                 {c.key === "diff" && team[c.key] > 0

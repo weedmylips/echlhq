@@ -261,10 +261,16 @@ td.num { text-align: right; }
 }
 
 @media (max-width: 640px) {
-  .score-chip { min-width: 150px; padding: 8px 10px; }
-  .chip-score { font-size: 15px; }
+  .dashboard { gap: 12px; }
+
+  .score-chip { min-width: 140px; padding: 8px 10px; }
+  .chip-score { font-size: 14px; }
   .chip-name { font-size: 11px; }
 
-  .scores-section { padding: 12px; }
-  .division-card-header { padding: 10px 12px; }
+  .scores-section { padding: 10px 12px; }
+  .division-card-header { padding: 8px 12px; }
+  .division-name { font-size: 11px; }
+
+  .team-col { min-width: 120px; }
+  .leaders-card { padding: 12px; }
 }

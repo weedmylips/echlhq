@@ -53,10 +53,10 @@ export default function Dashboard() {
     { key: "l",           label: "L" },
     { key: "otl",         label: "OT" },
     { key: "pts",         label: "PTS" },
-    { key: "pct",         label: "PCT" },
-    { key: "gf",          label: "GF" },
-    { key: "ga",          label: "GA" },
-    { key: "diff",        label: "DIFF" },
+    { key: "pct",         label: "PCT",  hideSmall: true },
+    { key: "gf",          label: "GF",   hideSmall: true },
+    { key: "ga",          label: "GA",   hideSmall: true },
+    { key: "diff",        label: "DIFF", hideSmall: true },
     { key: "homeRecord",  label: "HOME", hideMobile: true },
     { key: "roadRecord",  label: "ROAD", hideMobile: true },
     { key: "streak",      label: "STRK", hideMobile: true },
@@ -99,7 +99,11 @@ export default function Dashboard() {
                         <tr>
                           <th className="team-col">Team</th>
                           {COLS.map((col) => (
-                            <th key={col.key} onClick={() => handleSort(col.key)} className={`num-col${col.hideMobile ? " hide-mobile" : ""}`}>
+                            <th
+                              key={col.key}
+                              onClick={() => handleSort(col.key)}
+                              className={`num-col${col.hideMobile ? " hide-mobile" : ""}${col.hideSmall ? " hide-sm" : ""}`}
+                            >
                               {col.label}{sortIcon(col.key)}
                             </th>
                           ))}
@@ -127,10 +131,10 @@ export default function Dashboard() {
                               <td className="num">{team.l}</td>
                               <td className="num">{team.otl}</td>
                               <td className="num bold">{team.pts}</td>
-                              <td className="num">{team.pct}</td>
-                              <td className="num">{team.gf}</td>
-                              <td className="num">{team.ga}</td>
-                              <td className={`num ${team.diff > 0 ? "pos" : team.diff < 0 ? "neg" : ""}`}>
+                              <td className="num hide-sm">{team.pct}</td>
+                              <td className="num hide-sm">{team.gf}</td>
+                              <td className="num hide-sm">{team.ga}</td>
+                              <td className={`num hide-sm ${team.diff > 0 ? "pos" : team.diff < 0 ? "neg" : ""}`}>
                                 {team.diff > 0 ? `+${team.diff}` : team.diff}
                               </td>
                               <td className="num hide-mobile">{team.homeRecord}</td>

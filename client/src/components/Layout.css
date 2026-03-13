@@ -71,18 +71,21 @@
   position: sticky;
   top: 44px;
   z-index: 100;
-  overflow: hidden;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
 }
+
+.team-nav-bar::-webkit-scrollbar { display: none; }
 
 .team-nav-scroll {
   display: flex;
   align-items: stretch;
-  overflow-x: auto;
   padding: 0 16px;
-  scrollbar-width: none;
+  margin: 0 auto; /* centers when narrower than viewport */
+  flex-shrink: 0;
 }
-
-.team-nav-scroll::-webkit-scrollbar { display: none; }
 
 .team-nav-division {
   display: flex;
@@ -171,9 +174,11 @@
 
   .team-nav-bar { top: 40px; }
 
-  .team-nav-btn { min-width: 36px; padding: 4px 4px; }
+  .team-nav-scroll { padding: 0 8px; }
+  .team-nav-btn { min-width: 34px; padding: 4px 3px; }
   .team-nav-logo { width: 22px; height: 22px; }
   .team-nav-abbr { font-size: 8px; }
+  .division-divider { margin: 8px 4px; }
 
   .team-nav-division-label { font-size: 8px; padding: 6px 3px; }
 
