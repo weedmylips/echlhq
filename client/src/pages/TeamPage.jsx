@@ -125,6 +125,7 @@ export default function TeamPage() {
                     {standing.w}–{standing.l}–{standing.otl} · {standing.pts} PTS
                   </span>
                 )}
+                {standing?.streak && <StreakBadge streak={standing.streak} />}
               </div>
             </div>
           </div>
@@ -189,6 +190,62 @@ export default function TeamPage() {
               )}
             </div>
 
+            {/* Key Stats Row */}
+            {standing && (
+              <div className="card section-card">
+                <div className="card-header">
+                  <span className="section-label" style={{ margin: 0 }}>Key Stats</span>
+                </div>
+                <div className="key-stats-row">
+                  <KeyStatCard
+                    label="Goal Diff"
+                    value={standing.diff > 0 ? `+${standing.diff}` : String(standing.diff)}
+                    accent={standing.diff > 0 ? "green" : standing.diff < 0 ? "red" : null}
+                  />
+                  <KeyStatCard label="Reg. Wins" value={standing.regulationWins ?? "—"} />
+                  <KeyStatCard label="S/O Record" value={standing.shootoutRecord || "—"} />
+                  <KeyStatCard label="Games Left" value={standing.gamesRemaining ?? "—"} />
+                </div>
+              </div>
+            )}
+
+            {/* Home / Road Split */}
+            {standing && (standing.homeRecord || standing.roadRecord) && (
+              <div className="card section-card">
+                <div className="card-header">
+                  <span className="section-label" style={{ margin: 0 }}>Home / Road</span>
+                </div>
+                <div className="home-road-split">
+                  <div className="split-block">
+                    <div className="split-label">HOME</div>
+                    <div className="split-record" style={{ color: team.primaryColor }}>
+                      {standing.homeRecord || "—"}
+                    </div>
+                    <div className="split-sub">W–L–OTL–SOL</div>
+                  </div>
+                  <div className="split-divider" />
+                  <div className="split-block">
+                    <div className="split-label">ROAD</div>
+                    <div className="split-record" style={{ color: team.primaryColor }}>
+                      {standing.roadRecord || "—"}
+                    </div>
+                    <div className="split-sub">W–L–OTL–SOL</div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Last 10 Games Strip */}
+            {standing?.lastTen && (
+              <div className="card section-card">
+                <div className="card-header">
+                  <span className="section-label" style={{ margin: 0 }}>Last 10 Games</span>
+                  <span className="last10-record-label">{standing.lastTen}</span>
+                </div>
+                <Last10Strip lastTen={standing.lastTen} primaryColor={team.primaryColor} />
+              </div>
+            )}
+
             {/* Team Stats */}
             {standing && (
               <div className="card section-card">
@@ -210,8 +267,8 @@ export default function TeamPage() {
                       rank={divisionSuffix(divRank("gf"))}
                     />
                     <StatBlock
-                      label="Home Record"
-                      value={standing.home || "—"}
+                      label="ROW"
+                      value={standing.rowWins ?? "—"}
                     />
                   </div>
                   {/* Defense */}
@@ -228,8 +285,8 @@ export default function TeamPage() {
                       rank={divisionSuffix(divRank("ga", true))}
                     />
                     <StatBlock
-                      label="Away Record"
-                      value={standing.away || "—"}
+                      label="Goal Diff"
+                      value={standing.diff > 0 ? `+${standing.diff}` : standing.diff}
                     />
                   </div>
                 </div>
@@ -243,8 +300,8 @@ export default function TeamPage() {
                     { label: "OTL", value: standing.otl },
                     { label: "SOL", value: standing.sol },
                     { label: "PTS", value: standing.pts },
-                    { label: "DIFF", value: standing.diff > 0 ? `+${standing.diff}` : standing.diff },
-                    { label: "STREAK", value: standing.streak || "—" },
+                    { label: "RW", value: standing.regulationWins ?? "—" },
+                    { label: "ROW", value: standing.rowWins ?? "—" },
                   ].map(({ label, value }) => (
                     <div key={label} className="record-item">
                       <div className="record-value">{value}</div>
@@ -288,6 +345,11 @@ export default function TeamPage() {
                 );
               })}
             </div>
+
+            {/* Attendance Card */}
+            {standing?.attendanceAverage > 0 && (
+              <AttendanceCard standing={standing} allStandings={allStandings} />
+            )}
 
             {/* Division Standings mini-table */}
             {divisionTeams.length > 0 && (
@@ -359,7 +421,7 @@ export default function TeamPage() {
                   <th className="num-col">GA</th>
                   <th className="num-col">DIFF</th>
                   <th className="num-col hide-mobile">HOME</th>
-                  <th className="num-col hide-mobile">AWAY</th>
+                  <th className="num-col hide-mobile">ROAD</th>
                 </tr>
               </thead>
               <tbody>
@@ -388,8 +450,8 @@ export default function TeamPage() {
                     <td className={`num ${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}`}>
                       {t.diff > 0 ? `+${t.diff}` : t.diff}
                     </td>
-                    <td className="num hide-mobile">{t.home}</td>
-                    <td className="num hide-mobile">{t.away}</td>
+                    <td className="num hide-mobile">{t.homeRecord}</td>
+                    <td className="num hide-mobile">{t.roadRecord}</td>
                   </tr>
                 ))}
               </tbody>
@@ -411,6 +473,122 @@ function StatBlock({ label, value, rank }) {
       <div className="stat-block-value">{value}</div>
       <div className="stat-block-label">{label}</div>
       {rank && <div className="stat-block-rank">{rank}</div>}
+    </div>
+  );
+}
+
+// Parses "W3" / "L2" / "OTL1" into { type, count }
+function parseStreak(streak) {
+  if (!streak) return null;
+  const m = String(streak).match(/^([WLwl](?:TL)?)\s*(\d+)$/);
+  if (!m) return null;
+  return { type: m[1].toUpperCase(), count: parseInt(m[2]) };
+}
+
+function StreakBadge({ streak }) {
+  const parsed = parseStreak(streak);
+  if (!parsed) return null;
+  const isWin = parsed.type === "W";
+  const isOT  = parsed.type === "OTL" || parsed.type === "WTL";
+  return (
+    <span className={`streak-badge ${isWin ? "streak-w" : isOT ? "streak-ot" : "streak-l"}`}>
+      {parsed.type}{parsed.count}
+    </span>
+  );
+}
+
+function KeyStatCard({ label, value, accent }) {
+  return (
+    <div className="key-stat-card">
+      <div className={`key-stat-value${accent ? ` key-stat-${accent}` : ""}`}>{value}</div>
+      <div className="key-stat-label">{label}</div>
+    </div>
+  );
+}
+
+// Parses "W-L-OTL-SOL" e.g. "5-3-1-1" into counts
+function parseLastTen(lastTen) {
+  if (!lastTen) return null;
+  const parts = String(lastTen).split("-").map(Number);
+  if (parts.length < 2 || parts.some(isNaN)) return null;
+  const [w = 0, l = 0, otl = 0, sol = 0] = parts;
+  return { w, l, otl, sol };
+}
+
+function Last10Strip({ lastTen, primaryColor }) {
+  const counts = parseLastTen(lastTen);
+  if (!counts) return <div className="last10-empty">No data</div>;
+
+  const { w, l, otl, sol } = counts;
+  const total = w + l + otl + sol;
+  // Build ordered slots: wins first, then OTL/SOL, then losses
+  const slots = [
+    ...Array(w).fill("W"),
+    ...Array(otl).fill("OTL"),
+    ...Array(sol).fill("SOL"),
+    ...Array(l).fill("L"),
+  ].slice(0, 10);
+  // Pad to 10 if total < 10
+  while (slots.length < 10) slots.push(null);
+
+  return (
+    <div className="last10-wrap">
+      <div className="last10-segments">
+        {slots.map((type, i) => (
+          <div
+            key={i}
+            className={`last10-seg ${
+              type === "W" ? "seg-w" :
+              type === "OTL" || type === "SOL" ? "seg-ot" :
+              type === "L" ? "seg-l" : "seg-empty"
+            }`}
+            title={type || ""}
+          />
+        ))}
+      </div>
+      <div className="last10-counts">
+        <span className="l10-count l10-w">{w}W</span>
+        {(otl + sol) > 0 && <span className="l10-count l10-ot">{otl + sol} OT</span>}
+        <span className="l10-count l10-l">{l}L</span>
+        {total < 10 && <span className="l10-count l10-empty">{10 - total} remaining</span>}
+      </div>
+    </div>
+  );
+}
+
+function AttendanceCard({ standing, allStandings }) {
+  const teamsWithAtt = [...allStandings]
+    .filter((t) => t.attendanceAverage > 0)
+    .sort((a, b) => b.attendanceAverage - a.attendanceAverage);
+  const rank = teamsWithAtt.findIndex((t) => t.teamId === standing.teamId) + 1;
+  const total = teamsWithAtt.length;
+
+  const fmt = (n) => n ? Number(n).toLocaleString() : "—";
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Attendance</span>
+        {rank > 0 && (
+          <span className="attendance-rank">#{rank} of {total}</span>
+        )}
+      </div>
+      <div className="attendance-body">
+        <div className="att-stat">
+          <div className="att-value">{fmt(standing.attendanceAverage)}</div>
+          <div className="att-label">Avg / Game</div>
+        </div>
+        <div className="att-divider" />
+        <div className="att-stat">
+          <div className="att-value">{fmt(standing.attendanceTotal)}</div>
+          <div className="att-label">Season Total</div>
+        </div>
+        <div className="att-divider" />
+        <div className="att-stat">
+          <div className="att-value">{standing.attendanceGames || "—"}</div>
+          <div className="att-label">Home Games</div>
+        </div>
+      </div>
     </div>
   );
 }

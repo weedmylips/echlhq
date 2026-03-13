@@ -449,6 +449,183 @@ tr.playoff-cutoff td {
   font-size: 13px;
 }
 
+/* ── Streak Badge ── */
+.streak-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.streak-badge.streak-w  { background: var(--green-bg); color: var(--green); border: 1px solid rgba(34,197,94,0.3); }
+.streak-badge.streak-l  { background: var(--red-bg);   color: var(--red);   border: 1px solid rgba(239,68,68,0.3); }
+.streak-badge.streak-ot { background: var(--amber-bg); color: var(--amber); border: 1px solid rgba(245,158,11,0.3); }
+
+/* ── Key Stats Row ── */
+.key-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.key-stat-card {
+  text-align: center;
+  padding: 16px 8px;
+  border-right: 1px solid var(--border);
+}
+.key-stat-card:last-child { border-right: none; }
+
+.key-stat-value {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+}
+.key-stat-value.key-stat-green { color: var(--green); }
+.key-stat-value.key-stat-red   { color: var(--red); }
+
+.key-stat-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ── Home / Road Split ── */
+.home-road-split {
+  display: flex;
+  align-items: center;
+}
+
+.split-block {
+  flex: 1;
+  text-align: center;
+  padding: 20px 16px;
+}
+
+.split-divider {
+  width: 1px;
+  align-self: stretch;
+  background: var(--border);
+}
+
+.split-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.split-record {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.split-sub {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ── Last 10 Strip ── */
+.last10-record-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.last10-wrap {
+  padding: 16px;
+}
+
+.last10-segments {
+  display: flex;
+  gap: 4px;
+  height: 28px;
+}
+
+.last10-seg {
+  flex: 1;
+  border-radius: 3px;
+}
+
+.seg-w     { background: var(--green); opacity: 0.85; }
+.seg-l     { background: var(--red);   opacity: 0.85; }
+.seg-ot    { background: var(--amber); opacity: 0.85; }
+.seg-empty { background: var(--border); }
+
+.last10-counts {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.l10-count {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.l10-w     { color: var(--green); }
+.l10-l     { color: var(--red); }
+.l10-ot    { color: var(--amber); }
+.l10-empty { color: var(--text-muted); font-weight: 400; }
+
+.last10-empty {
+  padding: 16px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* ── Attendance Card ── */
+.attendance-rank {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.attendance-body {
+  display: flex;
+  align-items: center;
+}
+
+.att-stat {
+  flex: 1;
+  text-align: center;
+  padding: 14px 8px;
+}
+
+.att-divider {
+  width: 1px;
+  align-self: stretch;
+  background: var(--border);
+}
+
+.att-value {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.att-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
 @media (max-width: 900px) {
   .overview-layout {
     grid-template-columns: 1fr;
@@ -482,4 +659,14 @@ tr.playoff-cutoff td {
 
   .recent-game-row { padding: 8px 12px; gap: 8px; }
   .rg-date { display: none; }
+
+  .key-stats-row { grid-template-columns: repeat(2, 1fr); }
+  .key-stat-card:nth-child(2) { border-right: none; }
+  .key-stat-card:nth-child(1),
+  .key-stat-card:nth-child(2) { border-bottom: 1px solid var(--border); }
+  .key-stat-value { font-size: 20px; }
+
+  .split-record { font-size: 18px; }
+
+  .last10-segments { height: 22px; }
 }

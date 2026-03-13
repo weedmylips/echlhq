@@ -16,9 +16,9 @@ const TABLE_COLS = [
   { key: "gf",     label: "GF" },
   { key: "ga",     label: "GA" },
   { key: "diff",   label: "DIFF" },
-  { key: "home",   label: "HOME", hideOnMobile: true },
-  { key: "away",   label: "AWAY", hideOnMobile: true },
-  { key: "streak", label: "STRK", hideOnMobile: true },
+  { key: "homeRecord", label: "HOME", hideOnMobile: true },
+  { key: "roadRecord", label: "ROAD", hideOnMobile: true },
+  { key: "streak",     label: "STRK", hideOnMobile: true },
 ];
 
 export default function StandingsPage() {

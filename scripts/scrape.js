@@ -125,6 +125,21 @@ async function scrapeStandings(html) {
   const table = divH2.nextAll("table.drtable").first();
   if (!table.length) throw new Error("Standings table not found");
 
+  // Detect column indices from the header row (th elements)
+  const colIdx = {};
+  table.find("tr").each((_, tr) => {
+    const ths = $(tr).find("th");
+    if (!ths.length) return;
+    const labels = ths.map((_, th) => $(th).text().trim().toUpperCase()).get();
+    if (labels.includes("GP") && labels.includes("PTS")) {
+      labels.forEach((label, i) => { colIdx[label] = i; });
+      return false; // found header row, stop
+    }
+  });
+
+  // c(key, fallback) → column index, falls back to known fixed index
+  const c = (key, fallback) => (colIdx[key] !== undefined ? colIdx[key] : fallback);
+
   let currentConference = "";
   let currentDivision = "";
 
@@ -150,18 +165,24 @@ async function scrapeStandings(html) {
     if (!teamName || teamName.length < 2) return;
 
     const config = findTeamByName(teamName);
-    const gp  = num($(cells[1]).text());
-    const w   = num($(cells[3]).text());
-    const l   = num($(cells[4]).text());
-    const otl = num($(cells[5]).text());
-    const sol = num($(cells[6]).text());
-    const pts = num($(cells[7]).text());
-    const pct = num($(cells[8]).text());
-    const gf  = num($(cells[9]).text());
-    const ga  = num($(cells[10]).text());
-    const home   = $(cells[14])?.text().trim() || "";
-    const away   = $(cells[15])?.text().trim() || "";
-    const streak = $(cells[17])?.text().trim() || "";
+    const gp             = num($(cells[c("GP",        1)]).text());
+    const regulationWins = num($(cells[c("RW",        2)]).text());
+    const w              = num($(cells[c("W",         3)]).text());
+    const l              = num($(cells[c("L",         4)]).text());
+    const otl            = num($(cells[c("OTL",       5)]).text());
+    const sol            = num($(cells[c("SOL",       6)]).text());
+    const pts            = num($(cells[c("PTS",       7)]).text());
+    const pct            = num($(cells[c("PCT",       8)]).text());
+    const gf             = num($(cells[c("GF",        9)]).text());
+    const ga             = num($(cells[c("GA",       10)]).text());
+    const rowWins        = num($(cells[c("ROW",      12)]).text());
+    const gamesRemaining = num($(cells[c("GR",       13)]).text());
+    const homeRecord     = $(cells[c("HOME",         14)])?.text().trim() || "";
+    const roadRecord     = $(cells[c("ROAD",         15)])?.text().trim() || "";
+    const shootoutRecord = $(cells[c("S/O",          16)])?.text().trim() || "";
+    const lastTen        = $(cells[c("LAST TEN",     17)])?.text().trim()
+                        || $(cells[c("L10",          17)])?.text().trim() || "";
+    const streak         = $(cells[c("STREAK",       18)])?.text().trim() || "";
 
     standings.push({
       teamId:        config?.id || null,
@@ -173,12 +194,61 @@ async function scrapeStandings(html) {
       logoUrl: config ? `/logos/${config.id}.png` : null,
       gp, w, l, otl, sol, pts, pct, gf, ga,
       diff: gf - ga,
-      home, away, streak,
+      regulationWins,
+      rowWins,
+      gamesRemaining,
+      homeRecord,
+      roadRecord,
+      shootoutRecord,
+      lastTen,
+      streak,
     });
   });
 
   if (standings.length === 0) throw new Error("No standings rows parsed");
   return standings;
+}
+
+// ─── Attendance ───────────────────────────────────────────────────────────────
+
+function scrapeAttendance(html) {
+  const $ = cheerio.load(html);
+  const attendance = {};
+
+  $("h2,h3").each((_, el) => {
+    const text = $(el).text().trim().toLowerCase();
+    if (!text.includes("attendance")) return;
+
+    const table = $(el).nextAll("table.drtable,table").first();
+    if (!table.length) return;
+
+    // Map column headers
+    const hdrs = table.find("tr").first().find("th,td")
+      .map((_, th) => $(th).text().trim().toUpperCase()).get();
+
+    const teamIdx  = hdrs.findIndex((h) => h === "TEAM" || h === "TEAMS");
+    const gamesIdx = hdrs.findIndex((h) => h === "GAMES" || h === "GP" || h === "G");
+    const totalIdx = hdrs.findIndex((h) => h.includes("TOTAL") || h === "ATTEND" || h === "ATTENDANCE");
+    const avgIdx   = hdrs.findIndex((h) => h.includes("AVG") || h.includes("AVERAGE") || h === "PER GAME");
+
+    table.find("tr").each((i, row) => {
+      if (i === 0) return;
+      const cells = $(row).find("td");
+      if (cells.length < 2) return;
+      const rawName = $(cells[teamIdx >= 0 ? teamIdx : 0]).text().trim();
+      const teamName = cleanTeamName(rawName);
+      if (!teamName || teamName.length < 2) return;
+      const config = findTeamByName(teamName);
+      if (!config) return;
+      attendance[config.id] = {
+        attendanceGames:   num($(cells[gamesIdx >= 0 ? gamesIdx : 1]).text()),
+        attendanceTotal:   num($(cells[totalIdx >= 0 ? totalIdx : 2]).text()),
+        attendanceAverage: num($(cells[avgIdx   >= 0 ? avgIdx   : 3]).text()),
+      };
+    });
+  });
+
+  return attendance;
 }
 
 // ─── Leaders + Scores ────────────────────────────────────────────────────────
@@ -443,6 +513,18 @@ async function main() {
   // Standings (uses same daily report HTML)
   console.log("Parsing standings…");
   const standings = await scrapeStandings(reportHtml);
+
+  // Merge attendance data into standings
+  const attendance = scrapeAttendance(reportHtml);
+  standings.forEach((team) => {
+    const att = team.teamId ? attendance[team.teamId] : null;
+    if (att) {
+      team.attendanceGames   = att.attendanceGames;
+      team.attendanceTotal   = att.attendanceTotal;
+      team.attendanceAverage = att.attendanceAverage;
+    }
+  });
+
   if (writeJSON(path.join(DATA_DIR, "standings.json"), { standings, scrapedAt: now })) {
     console.log(`  ✓ standings.json (${standings.length} teams)`);
     changed++;
