@@ -3,7 +3,7 @@ name: Scrape ECHL Data
 on:
   schedule:
     # Every 15 minutes
-    - cron: "*/15 * * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 permissions:
