@@ -47,7 +47,20 @@ export default function Dashboard() {
     return <span className="sort-icon">{sortDir === "desc" ? "↓" : "↑"}</span>;
   }
 
-  const COLS = ["gp","w","l","otl","pts","pct","gf","ga","diff","home","away","streak"];
+  const COLS = [
+    { key: "gp",          label: "GP" },
+    { key: "w",           label: "W" },
+    { key: "l",           label: "L" },
+    { key: "otl",         label: "OT" },
+    { key: "pts",         label: "PTS" },
+    { key: "pct",         label: "PCT" },
+    { key: "gf",          label: "GF" },
+    { key: "ga",          label: "GA" },
+    { key: "diff",        label: "DIFF" },
+    { key: "homeRecord",  label: "HOME", hideMobile: true },
+    { key: "roadRecord",  label: "ROAD", hideMobile: true },
+    { key: "streak",      label: "STRK", hideMobile: true },
+  ];
 
   return (
     <div className="dashboard">
@@ -85,9 +98,9 @@ export default function Dashboard() {
                       <thead>
                         <tr>
                           <th className="team-col">Team</th>
-                          {COLS.map((c) => (
-                            <th key={c} onClick={() => handleSort(c)} className="num-col">
-                              {c.toUpperCase()}{sortIcon(c)}
+                          {COLS.map((col) => (
+                            <th key={col.key} onClick={() => handleSort(col.key)} className={`num-col${col.hideMobile ? " hide-mobile" : ""}`}>
+                              {col.label}{sortIcon(col.key)}
                             </th>
                           ))}
                         </tr>
@@ -120,8 +133,8 @@ export default function Dashboard() {
                               <td className={`num ${team.diff > 0 ? "pos" : team.diff < 0 ? "neg" : ""}`}>
                                 {team.diff > 0 ? `+${team.diff}` : team.diff}
                               </td>
-                              <td className="num hide-mobile">{team.home}</td>
-                              <td className="num hide-mobile">{team.away}</td>
+                              <td className="num hide-mobile">{team.homeRecord}</td>
+                              <td className="num hide-mobile">{team.roadRecord}</td>
                               <td className="num hide-mobile">{team.streak}</td>
                             </tr>
                           );
