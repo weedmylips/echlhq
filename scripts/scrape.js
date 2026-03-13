@@ -13,7 +13,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.join(__dirname, "..", "data");
+const DATA_DIR = path.join(__dirname, "..", "client", "public", "data");
 const BOXSCORES_DIR = path.join(DATA_DIR, "boxscores");
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
