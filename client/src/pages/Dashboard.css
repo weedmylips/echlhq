@@ -259,3 +259,12 @@ td.num { text-align: right; }
     position: static;
   }
 }
+
+@media (max-width: 640px) {
+  .score-chip { min-width: 150px; padding: 8px 10px; }
+  .chip-score { font-size: 15px; }
+  .chip-name { font-size: 11px; }
+
+  .scores-section { padding: 12px; }
+  .division-card-header { padding: 10px 12px; }
+}

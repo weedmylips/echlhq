@@ -161,6 +161,25 @@
   padding: 20px 16px 40px;
 }
 
+/* ===== Mobile ===== */
+@media (max-width: 640px) {
+  .top-bar { height: 40px; }
+  .top-bar-inner { gap: 12px; }
+  .logo-text { font-size: 13px; }
+
+  .page-nav-link { padding: 4px 8px; font-size: 12px; }
+
+  .team-nav-bar { top: 40px; }
+
+  .team-nav-btn { min-width: 36px; padding: 4px 4px; }
+  .team-nav-logo { width: 22px; height: 22px; }
+  .team-nav-abbr { font-size: 8px; }
+
+  .team-nav-division-label { font-size: 8px; padding: 6px 3px; }
+
+  .main-content { padding: 12px 12px 32px; }
+}
+
 /* Division label text strip shown above team groups */
 .team-nav-division-label {
   font-size: 9px;

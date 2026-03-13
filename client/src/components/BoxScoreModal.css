@@ -160,6 +160,16 @@
   font-size: 13px;
 }
 
+@media (max-width: 640px) {
+  .modal-overlay { padding: 0; align-items: flex-end; }
+  .modal { border-radius: var(--radius) var(--radius) 0 0; margin: 0; max-width: 100%; }
+  .modal-body { max-height: 75vh; }
+
+  .bs-scoreboard { gap: 16px; padding: 16px 12px 12px; }
+  .bs-team-score { font-size: 36px; }
+  .bs-team-name { font-size: 12px; }
+}
+
 /* Strength badges */
 .strength-badge {
   display: inline-block;
