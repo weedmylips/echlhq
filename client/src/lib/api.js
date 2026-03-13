@@ -11,11 +11,18 @@ async function apiFetch(path) {
   return res.json();
 }
 
+async function dataFetch(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`Data fetch error ${res.status}: ${path}`);
+  return res.json();
+}
+
 export const api = {
-  standings: () => apiFetch("/standings"),
-  leaders: () => apiFetch("/leaders"),
-  scores: () => apiFetch("/scores"),
-  boxscore: (gameId) => apiFetch(`/boxscore/${gameId}`),
-  team: (teamId) => apiFetch(`/team/${teamId}`),
-  health: () => apiFetch("/health"),
+  standings: () => dataFetch("/data/standings.json"),
+  leaders:   () => dataFetch("/data/leaders.json"),
+  scores:    () => dataFetch("/data/scores.json"),
+  boxscore:  (gameId) => dataFetch(`/data/boxscores/${gameId}.json`),
+  // team endpoint still hits the API if available, else falls back gracefully
+  team:      (teamId) => apiFetch(`/team/${teamId}`),
+  health:    () => apiFetch("/health"),
 };
