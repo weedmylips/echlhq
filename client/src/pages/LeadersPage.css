@@ -52,6 +52,18 @@
   flex-wrap: wrap;
 }
 
+.cat-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cat-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
 .cat-btn {
   padding: 6px 16px;
   border: 1px solid var(--border);
@@ -127,6 +139,9 @@
   color: var(--text-muted);
   font-size: 13px;
 }
+
+.plus-value { color: #22c55e; }
+.minus-value { color: #ef4444; }
 
 @media (max-width: 860px) {
   .leaders-content {

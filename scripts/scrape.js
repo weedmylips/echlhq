@@ -278,9 +278,74 @@ function parseLeaderTable($, table, nameColHeader, statColHeader) {
   return leaders;
 }
 
+// Parse a single-stat leader table using fixed column positions (col 1 = name, col 2 = team)
+// and finding the stat column by its header label. Safer when the name column header is ambiguous.
+function parseLeaderTableByIdx($, table, statColHeader) {
+  const headers = $(table).find("tr").first().find("th")
+    .map((_, th) => $(th).text().trim().toUpperCase()).get();
+  const upperStat = statColHeader.toUpperCase();
+  // Prefer stat column at position 3+ (after rank, name, team); fall back to any position
+  let statIdx = headers.findIndex((h, i) => i >= 3 && h === upperStat);
+  if (statIdx < 0) statIdx = headers.indexOf(upperStat);
+  if (statIdx < 0) return [];
+  const result = [];
+  $(table).find("tr").each((i, row) => {
+    if (i === 0) return;
+    const cells = $(row).find("td");
+    if (cells.length <= statIdx) return;
+    const name = cleanName($(cells[1]).text());
+    const team = $(cells[2])?.text().trim() || "";
+    const rank = num($(cells[0]).text()) || i;
+    if (!name || name.toLowerCase().includes("several") || name.toLowerCase().includes("tied")) return;
+    result.push({ rank, name, team, value: num($(cells[statIdx]).text()) });
+  });
+  return result;
+}
+
+// Parse a multi-stat leader table. statCols is [{header, key}, ...].
+// The first entry's value becomes the `value` field used for sorting/charting.
+function parseMultiLeaderTableByIdx($, table, statCols) {
+  const headers = $(table).find("tr").first().find("th")
+    .map((_, th) => $(th).text().trim().toUpperCase()).get();
+  const colIndices = statCols.map(({ header }) => {
+    const upper = header.toUpperCase();
+    // Prefer position 3+ for primary stat; any position for secondary
+    let idx = headers.findIndex((h, i) => i >= 3 && h === upper);
+    if (idx < 0) idx = headers.indexOf(upper);
+    return idx;
+  });
+  if (colIndices[0] < 0) return [];
+  const result = [];
+  $(table).find("tr").each((i, row) => {
+    if (i === 0) return;
+    const cells = $(row).find("td");
+    const name = cleanName($(cells[1]).text());
+    const team = $(cells[2])?.text().trim() || "";
+    const rank = num($(cells[0]).text()) || i;
+    if (!name || name.toLowerCase().includes("several") || name.toLowerCase().includes("tied")) return;
+    const entry = { rank, name, team };
+    statCols.forEach(({ key }, ci) => {
+      const idx = colIndices[ci];
+      if (idx >= 0 && idx < cells.length) entry[key] = num($(cells[idx]).text());
+    });
+    entry.value = colIndices[0] >= 0 ? (entry[statCols[0].key] ?? 0) : 0;
+    result.push(entry);
+  });
+  return result;
+}
+
 async function scrapeLeadersAndScores(html) {
   const $ = cheerio.load(html);
-  const leaders = { goals: [], assists: [], points: [], gaa: [], svPct: [] };
+  const leaders = {
+    goals: [], assists: [], points: [],
+    gaa: [], svPct: [], shutouts: [],
+    gwg: [], plusMinus: [], shots: [], shootingPct: [],
+    ppg: [], ppp: [], ppa: [],
+    shg: [], shp: [], sha: [],
+    pim: [], minors: [], majors: [],
+    soGoals: [], soPct: [],
+    soRecord: [],
+  };
 
   // Overall Leaders section
   $("h2").each((_, h2) => {
@@ -291,9 +356,12 @@ async function scrapeLeadersAndScores(html) {
         el.find("table.drtable").each((_, table) => {
           const hdrs = $(table).find("tr").first().find("th")
             .map((_, th) => $(th).text().trim().toUpperCase()).get();
-          if (hdrs.includes("POINTS") && hdrs.includes("PTS")) {
+          const has = (h) => hdrs.includes(h);
+          const hasAny = (...hs) => hs.some((h) => hdrs.includes(h));
+
+          // ── Points / Goals / Assists (existing logic) ──────────────────
+          if (has("POINTS") && has("PTS")) {
             leaders.points = parseLeaderTable($, table, "POINTS", "PTS");
-            // Derive goals/assists from the points table's G/A columns if not found separately
             const gIdx = hdrs.indexOf("G");
             const aIdx = hdrs.indexOf("A");
             if (gIdx >= 0 && leaders.goals.length === 0) {
@@ -311,32 +379,127 @@ async function scrapeLeadersAndScores(html) {
               leaders.goals = gItems.sort((a, b) => b.value - a.value);
               leaders.assists = aItems.sort((a, b) => b.value - a.value);
             }
-          } else if (hdrs.includes("GOALS") && hdrs.includes("G")) {
+          } else if (has("GOALS") && has("G")) {
             leaders.goals = parseLeaderTable($, table, "GOALS", "G");
-          } else if (hdrs.includes("ASSISTS") && hdrs.includes("A")) {
+          } else if (has("ASSISTS") && has("A")) {
             leaders.assists = parseLeaderTable($, table, "ASSISTS", "A");
+          }
+
+          // ── New skater categories ──────────────────────────────────────
+          if (has("GWG") && !leaders.gwg.length)
+            leaders.gwg = parseLeaderTableByIdx($, table, "GWG");
+
+          if (hasAny("+/-", "PM") && !leaders.plusMinus.length)
+            leaders.plusMinus = parseLeaderTableByIdx($, table, has("+/-") ? "+/-" : "PM");
+
+          if (has("PPG") && !leaders.ppg.length)
+            leaders.ppg = parseLeaderTableByIdx($, table, "PPG");
+          if (has("PPP") && !leaders.ppp.length)
+            leaders.ppp = parseLeaderTableByIdx($, table, "PPP");
+          if (has("PPA") && !leaders.ppa.length)
+            leaders.ppa = parseLeaderTableByIdx($, table, "PPA");
+
+          if (has("SHG") && !leaders.shg.length)
+            leaders.shg = parseLeaderTableByIdx($, table, "SHG");
+          if (has("SHP") && !leaders.shp.length)
+            leaders.shp = parseLeaderTableByIdx($, table, "SHP");
+          if (has("SHA") && !leaders.sha.length)
+            leaders.sha = parseLeaderTableByIdx($, table, "SHA");
+
+          if (has("PIM") && !leaders.pim.length)
+            leaders.pim = parseLeaderTableByIdx($, table, "PIM");
+          if (has("MINORS") && !leaders.minors.length)
+            leaders.minors = parseLeaderTableByIdx($, table, "MINORS");
+          if (has("MAJORS") && !leaders.majors.length)
+            leaders.majors = parseLeaderTableByIdx($, table, "MAJORS");
+
+          // Shots on goal — only if no goals column (avoid matching scoring tables)
+          if (has("SHOTS") && !has("G") && !has("SOA") && !leaders.shots.length)
+            leaders.shots = parseLeaderTableByIdx($, table, "SHOTS");
+
+          // Shooting % — shots + goals + pct
+          if (has("SHOTS") && has("G") && !has("PTS") && !leaders.shootingPct.length) {
+            const pctH = hdrs.find((h) => h === "PCT" || h === "SH%" || h === "%" || h.includes("SHOOT"));
+            if (pctH) {
+              leaders.shootingPct = parseMultiLeaderTableByIdx($, table, [
+                { header: pctH, key: "pct" },
+                { header: "G",     key: "goals" },
+                { header: "SHOTS", key: "shots" },
+              ]);
+            }
+          }
+
+          // Shootout goals — SOG but no SOA
+          if (has("SOG") && !has("SOA") && !leaders.soGoals.length)
+            leaders.soGoals = parseLeaderTableByIdx($, table, "SOG");
+
+          // Shootout % — SOG + SOA
+          if (has("SOG") && has("SOA") && !leaders.soPct.length) {
+            const pctH = hdrs.find((h) => h === "SO%" || h.includes("SO PCT") || h === "PCT");
+            leaders.soPct = parseMultiLeaderTableByIdx($, table, [
+              { header: pctH || "PCT", key: "pct" },
+              { header: "SOG",         key: "soGoals" },
+              { header: "SOA",         key: "soAttempts" },
+            ]);
           }
         });
         el = el.next();
       }
     } else if (title.includes("Goaltending Leaders")) {
-      const tbl = $(h2).nextAll("table.drtable").first();
-      if (!tbl.length) return;
-      const hdrs = tbl.find("tr").first().find("th")
-        .map((_, th) => $(th).text().trim().toUpperCase()).get();
-      const gaaIdx = hdrs.indexOf("GAA");
-      const svIdx  = hdrs.indexOf("SV%");
-      tbl.find("tr").each((i, row) => {
-        if (i === 0) return;
-        const cells = $(row).find("td");
-        if (cells.length < 3) return;
-        const rank = num($(cells[0]).text()) || i;
-        const name = cleanName($(cells[1]).text());
-        const team = $(cells[2]).text().trim();
-        if (!name) return;
-        if (gaaIdx >= 0) leaders.gaa.push({ rank, name, team, value: num($(cells[gaaIdx]).text()) });
-        if (svIdx  >= 0) leaders.svPct.push({ rank, name, team, value: num($(cells[svIdx]).text()) });
-      });
+      // Scan all tables in the goaltending section
+      let el = $(h2).next();
+      while (el.length && el.prop("tagName") !== "H2") {
+        el.find("table.drtable").each((_, table) => {
+          const hdrs = $(table).find("tr").first().find("th")
+            .map((_, th) => $(th).text().trim().toUpperCase()).get();
+          const gaaIdx  = hdrs.indexOf("GAA");
+          const svIdx   = hdrs.indexOf("SV%");
+          const shutIdx = hdrs.findIndex((h) => h === "SO" || h === "SHO" || h === "SHUTOUTS");
+          const sowIdx  = hdrs.indexOf("SOW");
+
+          if (gaaIdx >= 0 || svIdx >= 0 || shutIdx >= 0) {
+            // Main goalie stats table
+            $(table).find("tr").each((i, row) => {
+              if (i === 0) return;
+              const cells = $(row).find("td");
+              if (cells.length < 3) return;
+              const rank = num($(cells[0]).text()) || i;
+              const name = cleanName($(cells[1]).text());
+              const team = $(cells[2]).text().trim();
+              if (!name) return;
+              if (gaaIdx  >= 0) leaders.gaa.push({ rank, name, team, value: num($(cells[gaaIdx]).text()) });
+              if (svIdx   >= 0) leaders.svPct.push({ rank, name, team, value: num($(cells[svIdx]).text()) });
+              if (shutIdx >= 0) leaders.shutouts.push({ rank, name, team, value: num($(cells[shutIdx]).text()) });
+            });
+          } else if (sowIdx >= 0) {
+            // Goalie shootout record table
+            const solIdx   = hdrs.indexOf("SOL");
+            const sogpIdx  = hdrs.indexOf("SOGP");
+            const sogaIdx  = hdrs.indexOf("SOGA");
+            const soaIdx   = hdrs.indexOf("SOA");
+            const soPctIdx = hdrs.findIndex((h) => h === "SO%" || h.includes("SO PCT"));
+            $(table).find("tr").each((i, row) => {
+              if (i === 0) return;
+              const cells = $(row).find("td");
+              if (cells.length < 3) return;
+              const rank = num($(cells[0]).text()) || i;
+              const name = cleanName($(cells[1]).text());
+              const team = $(cells[2]).text().trim();
+              if (!name) return;
+              const entry = { rank, name, team };
+              if (sogpIdx >= 0) entry.sogp = num($(cells[sogpIdx]).text());
+              entry.sow = num($(cells[sowIdx]).text());
+              if (solIdx  >= 0) entry.sol  = num($(cells[solIdx]).text());
+              if (sogaIdx >= 0) entry.soga = num($(cells[sogaIdx]).text());
+              if (soaIdx  >= 0) entry.soa  = num($(cells[soaIdx]).text());
+              if (soPctIdx >= 0) entry.pct = num($(cells[soPctIdx]).text());
+              entry.value = soPctIdx >= 0 ? (entry.pct ?? 0) : entry.sow;
+              leaders.soRecord.push(entry);
+            });
+          }
+        });
+        el = el.next();
+      }
     }
   });
 
