@@ -170,7 +170,7 @@ async function scrapeStandings(html) {
       conference:    currentConference || config?.conference  || null,
       primaryColor:  config?.primaryColor   || "#555",
       secondaryColor:config?.secondaryColor || "#999",
-      logoUrl: config ? `https://assets.leaguestat.com/echl/logos/${config.id}.png` : null,
+      logoUrl: config ? `/logos/${config.id}.png` : null,
       gp, w, l, otl, sol, pts, pct, gf, ga,
       diff: gf - ga,
       home, away, streak,

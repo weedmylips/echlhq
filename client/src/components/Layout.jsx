@@ -100,7 +100,7 @@ export default function Layout() {
                     title={team.name}
                   >
                     <img
-                      src={`https://assets.leaguestat.com/echl/logos/${team.id}.png`}
+                      src={`/logos/${team.id}.png`}
                       alt={team.abbr}
                       className="team-nav-logo"
                       onError={(e) => { e.target.style.display = "none"; }}
