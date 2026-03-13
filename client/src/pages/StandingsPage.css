@@ -1,0 +1,123 @@
+.standings-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.page-header h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0.25rem;
+  margin-left: auto;
+}
+
+.toggle-btn {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.toggle-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.toggle-btn:hover:not(.active) {
+  background: var(--hover-bg);
+  color: var(--text);
+}
+
+.standings-group {
+  padding: 1rem;
+}
+
+.group-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.playoff-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dot-green { background: #22c55e; }
+.dot-yellow { background: #eab308; }
+
+.playoff-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding: 0.25rem 0;
+}
+
+.playoff-legend span {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+tr.playoff td { border-left: 3px solid #22c55e; }
+tr.bubble td { border-left: 3px solid #eab308; }
+
+.diff-chart-section {
+  padding: 1.25rem;
+}
+
+.chart-tooltip {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+  box-shadow: var(--shadow);
+}
+
+.team-logo-sm {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.team-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+td.pos { color: #22543d; font-weight: 600; }
+td.neg { color: #742a2a; font-weight: 600; }
+[data-theme="dark"] td.pos { color: #9ae6b4; }
+[data-theme="dark"] td.neg { color: #fc8181; }
+
+.team-row { cursor: pointer; }

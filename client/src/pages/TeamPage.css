@@ -1,0 +1,111 @@
+.team-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.team-header {
+  border-radius: var(--radius);
+  border: 1px solid;
+  padding: 1.5rem;
+}
+
+.team-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  max-width: 800px;
+}
+
+.team-logo-lg {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.team-header h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.team-meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.back-btn {
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-family: inherit;
+  transition: all 0.15s;
+}
+
+.back-btn:hover {
+  background: var(--hover-bg);
+  color: var(--text);
+}
+
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.stat-card {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.stat-card-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.stat-card-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.stat-card-sub {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.team-section {
+  padding: 1rem;
+}
+
+.recent-scores {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.rank-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.rank-badge.top { background: var(--success-bg); color: var(--success); }
+.rank-badge.bot { background: var(--danger-bg); color: var(--danger); }
+.rank-badge.mid { background: var(--hover-bg); color: var(--text-muted); }
+
+.empty-msg {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  padding: 0.5rem 0;
+}
