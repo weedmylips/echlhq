@@ -110,9 +110,8 @@ function BoxScoreContent({ data }) {
             const players = skaterStats[side];
             if (!players?.length) return null;
             const top3 = [...players]
-              .sort((a, b) => (b.pts - a.pts) || (b.g - a.g))
-              .slice(0, 3)
-              .filter((p) => p.pts > 0 || p.g > 0 || p.a > 0);
+              .filter((p) => p.pts > 0 || p.g > 0 || p.a > 0)
+              .sort((a, b) => (b.pts - a.pts) || (b.g - a.g));
             if (!top3.length) return null;
             return (
               <div key={side} className="bs-team-block">
@@ -186,13 +185,12 @@ function BoxScoreContent({ data }) {
           <div className="table-wrap">
             <table>
               <thead>
-                <tr><th>PER</th><th>TIME</th><th>TEAM</th><th>PLAYER</th><th>INFRACTION</th><th>MIN</th></tr>
+                <tr><th>PER</th><th>TEAM</th><th>PLAYER</th><th>INFRACTION</th><th>MIN</th></tr>
               </thead>
               <tbody>
                 {penalties.map((p, i) => (
                   <tr key={i}>
                     <td>{p.period}</td>
-                    <td>{p.time}</td>
                     <td>{p.team}</td>
                     <td className="bold">{p.player}</td>
                     <td>{p.infraction}</td>
