@@ -542,131 +542,177 @@ async function scrapeLeadersAndScores(html) {
 
 // ─── Box Score ───────────────────────────────────────────────────────────────
 
+// Normalize text: collapse whitespace + non-breaking spaces.
+function nt(s) { return (s || "").replace(/[\u00a0\s]+/g, " ").trim(); }
+
+// Direct child rows of a table (avoids matching rows from nested tables).
+function directRows($, table) {
+  return $(table).children("tbody").children("tr").add($(table).children("tr"));
+}
+
+// Find the first table in selector whose FIRST CELL of first direct row matches keyword.
+function findTable($, selector, keyword) {
+  let found = null;
+  $(selector).each((_, t) => {
+    const firstCell = nt(directRows($, t).first().find("td").first().text());
+    if (firstCell.toUpperCase().includes(keyword.toUpperCase())) { found = t; return false; }
+  });
+  return found;
+}
+
+// Return all direct-child-row <td> text values for row at index.
+function rowCells($, table, rowIndex) {
+  return directRows($, table).eq(rowIndex).find("td")
+    .map((_, td) => nt($(td).text())).get();
+}
+
 async function scrapeBoxscore(gameId) {
   const html = await fetchHTML(`${BOXSCORE_BASE}${gameId}`);
   const $ = cheerio.load(html);
 
+  // ── Teams, score, arena, date ──────────────────────────────────────────────
+  // Use the tSides SCORING table: row1 = visiting, row2 = home; last col = total.
+  const scoringTable = findTable($, "table.tSides", "SCORING");
+  const sRow1 = scoringTable ? rowCells($, scoringTable, 1) : [];
+  const sRow2 = scoringTable ? rowCells($, scoringTable, 2) : [];
+  const visitingTeam  = sRow1[0] || "";
+  const homeTeam      = sRow2[0] || "";
+  const visitingScore = parseInt(sRow1[sRow1.length - 1]) || 0;
+  const homeScore     = parseInt(sRow2[sRow2.length - 1]) || 0;
+
+  // Arena and date from the outer header table (table[0], row0, second <td>).
+  let arena = "", date = "";
+  const headerCellHtml = $("table").first().children("tbody").children("tr").first()
+    .children("td").eq(1).html() || "";
+  const headerLines = headerCellHtml.split(/<br\s*\/?>/i)
+    .map((l) => nt(cheerio.load(l).text())).filter(Boolean);
+  for (const line of headerLines) {
+    if (/^[A-Z][a-z]{2}\s+\d/.test(line)) { date = line; }
+    else if (line && !line.match(/^ECHL Game/i) && !line.match(/\d+\s+at\s+/)) { arena = line; }
+  }
+
+  // Attendance + isFinal from the timing table (first cell = "Game Start:").
+  let attendance = 0;
+  let isFinal = false;
+  $("table").each((_, t) => {
+    const firstCell = nt(directRows($, t).first().find("td").first().text());
+    if (firstCell !== "Game Start:") return;
+    directRows($, t).each((_, row) => {
+      const cells = $(row).find("td").map((_, td) => nt($(td).text())).get();
+      if (cells[0] === "Attendance:") attendance = parseInt(cells[1]) || 0;
+      if (cells[0] === "Game End:")   isFinal = true;
+    });
+    return false;
+  });
+
   const gameInfo = {
-    gameId,
-    homeTeam: "", visitingTeam: "", date: "", arena: "", attendance: 0,
-    finalScore: { home: 0, visiting: 0 },
+    gameId, visitingTeam, homeTeam, date, arena, attendance,
+    finalScore: { visiting: visitingScore, home: homeScore },
   };
 
-  $("[class*='team-name'],[class*='teamName'],.home-team,.away-team").each((i, el) => {
-    const name = $(el).text().trim();
-    if (i === 0) gameInfo.visitingTeam = name;
-    else gameInfo.homeTeam = name;
-  });
-
-  const periodScoring = [];
-  $("table").each((_, table) => {
-    const hStr = $(table).find("th").map((_, th) => $(th).text().trim().toLowerCase()).get().join(" ");
-    if (hStr.includes("period") && hStr.includes("scorer")) {
-      $(table).find("tbody tr").each((_, row) => {
-        const c = $(row).find("td");
-        if (c.length < 4) return;
-        periodScoring.push({
-          period:   $(c[0]).text().trim(),
-          time:     $(c[1]).text().trim(),
-          team:     $(c[2]).text().trim(),
-          scorer:   $(c[3]).text().trim(),
-          assists:  $(c[4])?.text().trim() || "",
-          strength: $(c[5])?.text().trim() || "EV",
-        });
-      });
-    }
-  });
-
+  // ── Shots by period ────────────────────────────────────────────────────────
+  const shotsTable = findTable($, "table.tSides", "SHOTS");
   const shotsByPeriod = [];
-  $("table").each((_, table) => {
-    const hStr = $(table).find("th").map((_, th) => $(th).text().trim().toLowerCase()).get().join(" ");
-    if (hStr.includes("shots") && (hStr.includes("1st") || hStr.includes("period"))) {
-      $(table).find("tbody tr").each((_, row) => {
-        const c = $(row).find("td");
-        if (c.length < 4) return;
-        shotsByPeriod.push({
-          team: $(c[0]).text().trim(),
-          p1: parseInt($(c[1]).text()) || 0,
-          p2: parseInt($(c[2]).text()) || 0,
-          p3: parseInt($(c[3]).text()) || 0,
-          ot: parseInt($(c[4])?.text()) || 0,
-          total: parseInt($(c[c.length - 1]).text()) || 0,
-        });
+  if (shotsTable) {
+    [1, 2].forEach((ri) => {
+      const c = rowCells($, shotsTable, ri);
+      if (!c[0]) return;
+      const hasOt = c.length >= 6;
+      shotsByPeriod.push({
+        team:  c[0],
+        p1:    parseInt(c[1]) || 0,
+        p2:    parseInt(c[2]) || 0,
+        p3:    parseInt(c[3]) || 0,
+        ot:    hasOt ? parseInt(c[4]) || 0 : 0,
+        total: parseInt(c[c.length - 1]) || 0,
       });
+    });
+  }
+
+  // ── Period scoring (individual goals) ─────────────────────────────────────
+  const goalsTable = findTable($, "table.tSides", "V-H");
+  const periodScoring = [];
+  if (goalsTable) {
+    directRows($, goalsTable).slice(1).each((_, row) => {
+      const c = $(row).find("td").map((_, td) => nt($(td).text())).get();
+      if (c.length < 6 || !c[2]) return;
+      periodScoring.push({
+        period:   c[2],
+        time:     c[4],
+        team:     c[3],
+        scorer:   c[5],
+        assists:  c[6],
+        strength: c[7] || "EV",
+      });
+    });
+  }
+
+  // ── Skater stats ───────────────────────────────────────────────────────────
+  const skaterStats = { visiting: [], home: [] };
+  let rosterIdx = 0;
+  $("table.tSidesC").each((_, t) => {
+    const header = nt(directRows($, t).first().find("td").first().text()).toUpperCase();
+    if (!header.includes("ROSTER")) return;
+    const players = [];
+    directRows($, t).slice(2).each((_, row) => {
+      const c = $(row).find("td").map((_, td) => nt($(td).text())).get();
+      if (c.length < 7 || !c[2]) return;
+      const g = parseInt(c[3]) || 0;
+      const a = parseInt(c[4]) || 0;
+      players.push({
+        number: c[1], name: c[2], pos: "",
+        g, a, pts: g + a,
+        plusMinus: parseInt(c[5]) || 0,
+        shots:     parseInt(c[6]) || 0,
+        pim:       parseInt(c[7]) || 0,
+      });
+    });
+    if (players.length) {
+      if (rosterIdx === 0) skaterStats.visiting = players;
+      else skaterStats.home = players;
+      rosterIdx++;
     }
   });
 
-  const skaterStats = { home: [], visiting: [] };
-  let skaterCount = 0;
-  $("table").each((_, table) => {
-    const hStr = $(table).find("th").map((_, th) => $(th).text().trim().toLowerCase()).get().join(" ");
-    if ((hStr.includes("goals") || hStr.includes("g")) && hStr.includes("assists") && (hStr.includes("+/-") || hStr.includes("pim"))) {
-      const players = [];
-      $(table).find("tbody tr").each((_, row) => {
-        const c = $(row).find("td");
-        if (c.length < 5) return;
-        players.push({
-          number: $(c[0]).text().trim(), name: $(c[1]).text().trim(), pos: $(c[2]).text().trim(),
-          g: parseInt($(c[3]).text()) || 0, a: parseInt($(c[4]).text()) || 0,
-          pts: parseInt($(c[5])?.text()) || 0, plusMinus: parseInt($(c[6])?.text()) || 0,
-          pim: parseInt($(c[7])?.text()) || 0, shots: parseInt($(c[8])?.text()) || 0,
-        });
+  // ── Goalie stats ───────────────────────────────────────────────────────────
+  const goalieStats = { visiting: [], home: [] };
+  let goalieIdx = 0;
+  $("table.tSidesC").each((_, t) => {
+    const header = nt(directRows($, t).first().find("td").first().text()).toUpperCase();
+    if (!header.includes("GOALIES")) return;
+    const goalies = [];
+    directRows($, t).slice(2).each((_, row) => {
+      const c = $(row).find("td").map((_, td) => nt($(td).text())).get();
+      if (c.length < 5 || !c[1]) return;
+      const shotsAgainst = parseInt(c[3]) || 0;
+      const saves        = parseInt(c[4]) || 0;
+      const ga           = parseInt(c[5]) || 0;
+      goalies.push({
+        number: c[0], name: c[1].replace(/\s*\([WL]\)\s*$/i, "").trim(),
+        minsPlayed: c[2], shotsAgainst, saves, ga,
+        svPct: shotsAgainst > 0 ? Math.round((saves / shotsAgainst) * 1000) / 1000 : 0,
       });
-      if (players.length) {
-        if (skaterCount === 0) skaterStats.visiting = players;
-        else skaterStats.home = players;
-        skaterCount++;
-      }
+    });
+    if (goalies.length) {
+      if (goalieIdx === 0) goalieStats.visiting = goalies;
+      else goalieStats.home = goalies;
+      goalieIdx++;
     }
   });
 
-  const goalieStats = { home: [], visiting: [] };
-  let goalieCount = 0;
-  $("table").each((_, table) => {
-    const hStr = $(table).find("th").map((_, th) => $(th).text().trim().toLowerCase()).get().join(" ");
-    if (hStr.includes("saves") || hStr.includes("sv") || hStr.includes("gaa")) {
-      const goalies = [];
-      $(table).find("tbody tr").each((_, row) => {
-        const c = $(row).find("td");
-        if (c.length < 4) return;
-        goalies.push({
-          number: $(c[0]).text().trim(), name: $(c[1]).text().trim(),
-          minsPlayed: $(c[2]).text().trim(),
-          saves: parseInt($(c[3]).text()) || 0, shotsAgainst: parseInt($(c[4])?.text()) || 0,
-          ga: parseInt($(c[5])?.text()) || 0, svPct: parseFloat($(c[6])?.text()) || 0,
-        });
-      });
-      if (goalies.length) {
-        if (goalieCount === 0) goalieStats.visiting = goalies;
-        else goalieStats.home = goalies;
-        goalieCount++;
-      }
-    }
-  });
-
+  // ── Penalties ──────────────────────────────────────────────────────────────
+  const penTable = findTable($, "table.tSides", "PENALTIES");
   const penalties = [];
-  $("table").each((_, table) => {
-    const hStr = $(table).find("th").map((_, th) => $(th).text().trim().toLowerCase()).get().join(" ");
-    if (hStr.includes("penalty") || hStr.includes("infraction") || hStr.includes("minutes")) {
-      $(table).find("tbody tr").each((_, row) => {
-        const c = $(row).find("td");
-        if (c.length < 4) return;
-        penalties.push({
-          period: $(c[0]).text().trim(), time: $(c[1]).text().trim(),
-          team: $(c[2]).text().trim(), player: $(c[3]).text().trim(),
-          infraction: $(c[4])?.text().trim() || "", minutes: parseInt($(c[5])?.text()) || 0,
-        });
+  if (penTable) {
+    directRows($, penTable).slice(2).each((_, row) => {
+      const c = $(row).find("td").map((_, td) => nt($(td).text())).get();
+      if (c.length < 5 || !c[2]) return;
+      penalties.push({
+        period: c[0], team: c[1], player: c[2],
+        minutes: parseFloat(c[3]) || 0, infraction: c[4], time: c[5] || "",
       });
-    }
-  });
-
-  const pageText = $("body").text().toLowerCase();
-  const isFinal = pageText.includes("final") || pageText.includes("game over") || !pageText.includes("in progress");
-
-  $("[class*='score'],[class*='final']").each((_, el) => {
-    const m = $(el).text().trim().match(/(\d+)\s*[-–]\s*(\d+)/);
-    if (m) { gameInfo.finalScore.visiting = parseInt(m[1]); gameInfo.finalScore.home = parseInt(m[2]); }
-  });
+    });
+  }
 
   return { gameInfo, periodScoring, shotsByPeriod, skaterStats, goalieStats, penalties, isFinal, scrapedAt: new Date().toISOString() };
 }
@@ -696,7 +742,6 @@ async function resolveGameIds(scores, seedId) {
   // Build yesterday's date string in the title format "Mar 13, 2026"
   const yd = new Date(Date.now() - 86400000);
   const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-  const ydStr = `${monthNames[yd.getUTCMonth()]}  ${yd.getUTCDate()}, ${yd.getUTCFullYear()}`.replace(/ (\d{2}),/, " $1,"); // single-digit day gets extra space
   const ydStr2 = `${monthNames[yd.getUTCMonth()]} ${String(yd.getUTCDate()).padStart(2," ")}, ${yd.getUTCFullYear()}`;
 
   // Probe a window: seedId-5 to seedId+40
