@@ -1,29 +1,79 @@
 {
   "scores": [
     {
-      "visitingTeam": "Toledo",
-      "visitingScore": 5,
-      "homeTeam": "Savannah",
+      "visitingTeam": "Trois-Rivières",
+      "visitingScore": 6,
+      "homeTeam": "Greensboro",
       "homeScore": 3,
       "overtime": null,
-      "score": "5-3",
+      "score": "6-3",
       "gameId": null,
       "date": "Yesterday"
     },
     {
-      "visitingTeam": "Florida",
+      "visitingTeam": "Fort Wayne",
+      "visitingScore": 1,
+      "homeTeam": "Indy",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "visitingScore": 1,
+      "homeTeam": "Jacksonville",
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Orlando",
       "visitingScore": 5,
-      "homeTeam": "Atlanta",
+      "homeTeam": "Savannah",
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "visitingScore": 1,
+      "homeTeam": "South Carolina",
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "visitingScore": 0,
+      "homeTeam": "Wheeling",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "visitingScore": 4,
+      "homeTeam": "Maine",
       "homeScore": 1,
       "overtime": null,
-      "score": "5-1",
+      "score": "4-1",
       "gameId": null,
       "date": "Yesterday"
     },
     {
-      "visitingTeam": "Wichita",
+      "visitingTeam": "Iowa",
       "visitingScore": 3,
-      "homeTeam": "Rapid City",
+      "homeTeam": "Cincinnati",
       "homeScore": 4,
       "overtime": "OT",
       "score": "3-4 (OT)",
@@ -31,15 +81,45 @@
       "date": "Yesterday"
     },
     {
-      "visitingTeam": "Tulsa",
-      "visitingScore": 1,
-      "homeTeam": "Utah",
-      "homeScore": 7,
+      "visitingTeam": "Kalamazoo",
+      "visitingScore": 6,
+      "homeTeam": "Bloomington",
+      "homeScore": 2,
       "overtime": null,
-      "score": "1-7",
+      "score": "6-2",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "visitingScore": 1,
+      "homeTeam": "Allen",
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "1-2 (SO)",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "visitingScore": 3,
+      "homeTeam": "Rapid City",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": null,
+      "date": "Yesterday"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "visitingScore": 6,
+      "homeTeam": "Tahoe",
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
       "gameId": null,
       "date": "Yesterday"
     }
   ],
-  "scrapedAt": "2026-03-14T07:51:12.976Z"
+  "scrapedAt": "2026-03-14T13:10:24.600Z"
 }
