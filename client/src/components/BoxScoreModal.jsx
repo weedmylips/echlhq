@@ -87,6 +87,13 @@ function BoxScoreContent({ data }) {
               </tbody>
             </table>
           </div>
+          <div className="bs-legend">
+            <span><span className="strength-badge strength-EV">EV</span> Even Strength</span>
+            <span><span className="strength-badge strength-PP">PP</span> Power Play</span>
+            <span><span className="strength-badge strength-SH">SH</span> Short-Handed</span>
+            <span><span className="strength-badge strength-EN">EN</span> Empty Net</span>
+            <span><span className="strength-badge strength-PS">PS</span> Penalty Shot</span>
+          </div>
         </div>
       )}
 
@@ -116,12 +123,19 @@ function BoxScoreContent({ data }) {
         </div>
       )}
 
-      {/* Skater Stats */}
+      {/* Skater Stats — top 3 by points */}
       {(skaterStats.visiting?.length > 0 || skaterStats.home?.length > 0) && (
         <div className="bs-section">
-          <div className="bs-section-title">Skater Stats</div>
-          {["visiting", "home"].map((side) =>
-            skaterStats[side]?.length > 0 ? (
+          <div className="bs-section-title">Top Performers</div>
+          {["visiting", "home"].map((side) => {
+            const players = skaterStats[side];
+            if (!players?.length) return null;
+            const top3 = [...players]
+              .sort((a, b) => (b.pts - a.pts) || (b.g - a.g))
+              .slice(0, 3)
+              .filter((p) => p.pts > 0 || p.g > 0 || p.a > 0);
+            if (!top3.length) return null;
+            return (
               <div key={side} className="bs-team-block">
                 <div className="bs-team-label">
                   {side === "visiting" ? (gameInfo.visitingTeam || "Visiting") : (gameInfo.homeTeam || "Home")}
@@ -129,10 +143,10 @@ function BoxScoreContent({ data }) {
                 <div className="table-wrap">
                   <table>
                     <thead>
-                      <tr><th>#</th><th>PLAYER</th><th>POS</th><th>G</th><th>A</th><th>PTS</th><th>+/-</th><th>PIM</th><th>SOG</th></tr>
+                      <tr><th>#</th><th>PLAYER</th><th>POS</th><th>G</th><th>A</th><th>PTS</th><th>+/-</th><th>SOG</th></tr>
                     </thead>
                     <tbody>
-                      {skaterStats[side].map((p, i) => (
+                      {top3.map((p, i) => (
                         <tr key={i}>
                           <td>{p.number}</td>
                           <td className="bold">{p.name}</td>
@@ -143,7 +157,6 @@ function BoxScoreContent({ data }) {
                           <td className={`num ${p.plusMinus > 0 ? "pos" : p.plusMinus < 0 ? "neg" : ""}`}>
                             {p.plusMinus > 0 ? `+${p.plusMinus}` : p.plusMinus}
                           </td>
-                          <td className="num">{p.pim}</td>
                           <td className="num">{p.shots}</td>
                         </tr>
                       ))}
@@ -151,8 +164,8 @@ function BoxScoreContent({ data }) {
                   </table>
                 </div>
               </div>
-            ) : null
-          )}
+            );
+          })}
         </div>
       )}
 
