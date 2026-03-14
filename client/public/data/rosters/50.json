@@ -1,0 +1,1488 @@
+{
+  "teamId": 50,
+  "slug": "south-carolina-stingrays",
+  "lastSeeded": "2026-03-14",
+  "lastTransactionCheck": null,
+  "roster": [
+    {
+      "playerId": "10045",
+      "player": "Simon Pinard",
+      "number": 47,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 55,
+        "g": 22,
+        "a": 35,
+        "pts": 57
+      }
+    },
+    {
+      "playerId": "8556",
+      "player": "Josh Wilkins",
+      "number": 15,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 49,
+        "g": 20,
+        "a": 23,
+        "pts": 43
+      }
+    },
+    {
+      "playerId": "10320",
+      "player": "Kyler Kupka",
+      "number": 18,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 38,
+        "g": 17,
+        "a": 19,
+        "pts": 36
+      }
+    },
+    {
+      "playerId": "10876",
+      "player": "Stanley Cooley",
+      "number": 19,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 55,
+        "g": 14,
+        "a": 18,
+        "pts": 32
+      }
+    },
+    {
+      "playerId": "10603",
+      "player": "Jalen Luypen",
+      "number": 48,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 33,
+        "g": 13,
+        "a": 19,
+        "pts": 32
+      }
+    },
+    {
+      "playerId": "10963",
+      "player": "Kaden Bohlsen",
+      "number": 26,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 45,
+        "g": 18,
+        "a": 9,
+        "pts": 27
+      }
+    },
+    {
+      "playerId": "10964",
+      "player": "Patrick Guzzo",
+      "number": 43,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 57,
+        "g": 7,
+        "a": 14,
+        "pts": 21
+      }
+    },
+    {
+      "playerId": "10831",
+      "player": "Lynden Breen",
+      "number": 23,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 46,
+        "g": 3,
+        "a": 18,
+        "pts": 21
+      }
+    },
+    {
+      "playerId": "11143",
+      "player": "Ludwig Persson",
+      "number": 22,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 34,
+        "g": 7,
+        "a": 12,
+        "pts": 19
+      }
+    },
+    {
+      "playerId": "10379",
+      "player": "Dean Loukus",
+      "number": 13,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 52,
+        "g": 7,
+        "a": 10,
+        "pts": 17
+      }
+    },
+    {
+      "playerId": "10640",
+      "player": "Zac Funk",
+      "number": 16,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 13,
+        "g": 7,
+        "a": 7,
+        "pts": 14
+      }
+    },
+    {
+      "playerId": "8237",
+      "player": "Ben Hawerchuk",
+      "number": 10,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 38,
+        "g": 5,
+        "a": 9,
+        "pts": 14
+      }
+    },
+    {
+      "playerId": "11144",
+      "player": "Patrick Thomas",
+      "number": 17,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 28,
+        "g": 3,
+        "a": 11,
+        "pts": 14
+      }
+    },
+    {
+      "playerId": "8667",
+      "player": "Charlie Combs",
+      "number": 7,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 32,
+        "g": 8,
+        "a": 5,
+        "pts": 13
+      }
+    },
+    {
+      "playerId": "10608",
+      "player": "Ryan Hofer",
+      "number": 77,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 30,
+        "g": 1,
+        "a": 9,
+        "pts": 10
+      }
+    },
+    {
+      "playerId": "10859",
+      "player": "Porter Schachle",
+      "number": 44,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 7,
+        "g": 0,
+        "a": 1,
+        "pts": 1
+      }
+    },
+    {
+      "playerId": "11060",
+      "player": "Ryan Hunter",
+      "number": 36,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 8,
+        "g": 0,
+        "a": 1,
+        "pts": 1
+      }
+    },
+    {
+      "playerId": "6182",
+      "player": "Bryan Moore",
+      "number": 37,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 11,
+        "g": 0,
+        "a": 1,
+        "pts": 1
+      }
+    },
+    {
+      "playerId": "11087",
+      "player": "Scott Docherty",
+      "number": 25,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 12,
+        "g": 0,
+        "a": 1,
+        "pts": 1
+      }
+    },
+    {
+      "playerId": "10574",
+      "player": "Tyler Burnie",
+      "number": 11,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 3,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "8913",
+      "player": "Justin Nachbaur",
+      "number": 20,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 3,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10710",
+      "player": "Mitch Deelstra",
+      "number": 11,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 6,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10849",
+      "player": "Tanner Edwards",
+      "number": 37,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 8,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10131",
+      "player": "Romain Rodzinski",
+      "number": 2,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 49,
+        "g": 5,
+        "a": 23,
+        "pts": 28
+      }
+    },
+    {
+      "playerId": "8477",
+      "player": "Connor Moore",
+      "number": 74,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 48,
+        "g": 3,
+        "a": 22,
+        "pts": 25
+      }
+    },
+    {
+      "playerId": "10965",
+      "player": "John Fusco",
+      "number": 5,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 32,
+        "g": 2,
+        "a": 12,
+        "pts": 14
+      }
+    },
+    {
+      "playerId": "10761",
+      "player": "Nolan Krenzen",
+      "number": 3,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 50,
+        "g": 4,
+        "a": 5,
+        "pts": 9
+      }
+    },
+    {
+      "playerId": "10686",
+      "player": "Garrett Pyke",
+      "number": 44,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 22,
+        "g": 3,
+        "a": 6,
+        "pts": 9
+      }
+    },
+    {
+      "playerId": "10328",
+      "player": "Connor Mayer",
+      "number": 4,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 48,
+        "g": 2,
+        "a": 7,
+        "pts": 9
+      }
+    },
+    {
+      "playerId": "7565",
+      "player": "Jordan Klimek",
+      "number": 42,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 28,
+        "g": 5,
+        "a": 1,
+        "pts": 6
+      }
+    },
+    {
+      "playerId": "8720",
+      "player": "D.J. King",
+      "number": 27,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 33,
+        "g": 2,
+        "a": 4,
+        "pts": 6
+      }
+    },
+    {
+      "playerId": "10534",
+      "player": "Reilly Webb",
+      "number": 9,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 37,
+        "g": 2,
+        "a": 2,
+        "pts": 4
+      }
+    },
+    {
+      "playerId": "9083",
+      "player": "Ryan Orgel",
+      "number": 29,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 14,
+        "g": 0,
+        "a": 4,
+        "pts": 4
+      }
+    },
+    {
+      "playerId": "10114",
+      "player": "Nicky Leivermann",
+      "number": 36,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 2,
+        "g": 0,
+        "a": 2,
+        "pts": 2
+      }
+    },
+    {
+      "playerId": "11198",
+      "player": "Cole Beamin",
+      "number": 25,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 14,
+        "g": 0,
+        "a": 1,
+        "pts": 1
+      }
+    },
+    {
+      "playerId": "11019",
+      "player": "Billy Roche",
+      "number": 11,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 3,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "11002",
+      "player": "Doug Scott",
+      "number": 6,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 7,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "11102",
+      "player": "Aaron Chiarot",
+      "number": 29,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 12,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "8978",
+      "player": "Alexis Gravel",
+      "number": 33,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 1,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10380",
+      "player": "Seth Eisele",
+      "number": 35,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 27,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10099",
+      "player": "Mitchell Gibson",
+      "number": 34,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 13,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "9506",
+      "player": "Garin Bjorklund",
+      "number": 33,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 7,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "9213",
+      "player": "Ty Taylor",
+      "number": 30,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 11,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "11089",
+      "player": "Antoine Keller",
+      "number": 30,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 4,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "8667",
+      "player": "Charlie Combs",
+      "number": 7,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "8237",
+      "player": "Ben Hawerchuk",
+      "number": 10,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10379",
+      "player": "Dean Loukus",
+      "number": 13,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "8556",
+      "player": "Josh Wilkins",
+      "number": 15,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "11144",
+      "player": "Patrick Thomas",
+      "number": 17,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10320",
+      "player": "Kyler Kupka",
+      "number": 18,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10876",
+      "player": "Stanley Cooley",
+      "number": 19,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "11143",
+      "player": "Ludwig Persson",
+      "number": 22,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10831",
+      "player": "Lynden Breen",
+      "number": 23,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10963",
+      "player": "Kaden Bohlsen",
+      "number": 26,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "6182",
+      "player": "Bryan Moore",
+      "number": 37,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10964",
+      "player": "Patrick Guzzo",
+      "number": 43,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10045",
+      "player": "Simon Pinard",
+      "number": 47,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10608",
+      "player": "Ryan Hofer",
+      "number": 77,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10131",
+      "player": "Romain Rodzinski",
+      "number": 2,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10761",
+      "player": "Nolan Krenzen",
+      "number": 3,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10328",
+      "player": "Connor Mayer",
+      "number": 4,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10965",
+      "player": "John Fusco",
+      "number": 5,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "11276",
+      "player": "Mike Brown",
+      "number": 11,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "11198",
+      "player": "Cole Beamin",
+      "number": 25,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "9083",
+      "player": "Ryan Orgel",
+      "number": 29,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "7565",
+      "player": "Jordan Klimek",
+      "number": 42,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "8477",
+      "player": "Connor Moore",
+      "number": 74,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "9213",
+      "player": "Ty Taylor",
+      "number": 30,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "8978",
+      "player": "Alexis Gravel",
+      "number": 33,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": "10380",
+      "player": "Seth Eisele",
+      "number": 35,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Rob Concannon",
+      "number": null,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "David Warsofsky",
+      "number": null,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Scott Davidson",
+      "number": null,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Mike Hamilton",
+      "number": null,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    }
+  ]
+}
