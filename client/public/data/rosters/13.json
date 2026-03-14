@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-12",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "9064",
@@ -329,7 +329,7 @@
       "player": "Alton McDermott",
       "number": 21,
       "position": "F",
-      "status": "signed",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

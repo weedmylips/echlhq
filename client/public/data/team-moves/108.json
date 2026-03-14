@@ -2,6 +2,20 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Demetrios Koumontzis",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Ethan Leyh",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Anthony Messuri",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Blake Swetlikoff",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Blake Swetlikoff",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

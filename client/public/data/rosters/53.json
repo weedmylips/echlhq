@@ -2,7 +2,7 @@
   "teamId": 53,
   "slug": "kalamazoo-wings",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-13",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "9297",
@@ -149,7 +149,7 @@
       "player": "David Keefer",
       "number": 7,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -289,7 +289,7 @@
       "player": "Matt Berry",
       "number": 14,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

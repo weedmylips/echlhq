@@ -2,6 +2,48 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Keegan Iverson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Michael Davies",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "JC Brassard",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Dakota Seaman",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Jake Lee",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Sasha Mutala",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
       "date": "2026-03-12",
       "player": "Jackson Niedermayer",
       "position": "D",
@@ -98,20 +140,6 @@
       "position": "F",
       "type": "traded",
       "summary": "Traded to Allen"
-    },
-    {
-      "date": "2026-03-02",
-      "player": "David Tendeck",
-      "position": "G",
-      "type": "active",
-      "summary": "Acquired from Allen"
-    },
-    {
-      "date": "2026-03-02",
-      "player": "Rob Mattison",
-      "position": "G",
-      "type": "released",
-      "summary": "Released as EBUG"
     }
   ]
 }

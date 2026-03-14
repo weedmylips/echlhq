@@ -2,6 +2,20 @@
   "teamId": 63,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "William Magnuson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "David Drake",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Jack Pascucci",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Dilan Savenkov",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-04",
-      "player": "Christian Propp",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

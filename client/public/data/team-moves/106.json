@@ -2,6 +2,34 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Luke Antonacci",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Reilly Connors",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Josh Zinger",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Dylan Gratton",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-12",
       "player": "Kyle Keyser",
       "position": "G",

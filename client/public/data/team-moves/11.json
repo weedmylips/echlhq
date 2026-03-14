@@ -2,6 +2,34 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Kaleb Pearson",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Texas"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Charlie Dodero",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Nick Portz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Grant Silianoff",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Grant Silianoff",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jaden Shields",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jason Horvath",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Charlie Dodero",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-01",
-      "player": "Charlie Dodero",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve 2/28"
     }
   ]
 }

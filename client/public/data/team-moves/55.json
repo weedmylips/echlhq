@@ -2,6 +2,41 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Cameron Cook",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Mikael Robidoux",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Cameron Cook",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Ian Shane",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Keith Petruzzelli",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-12",
       "player": "Mikael Robidoux",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled by Lehigh Valley"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Cameron Cook",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Nolan Burke",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Jack Page",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Emile Chouinard",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Yvan Mongo",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

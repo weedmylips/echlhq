@@ -2,6 +2,48 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Kaden Bohlsen",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Hershey"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Michael Brown",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Cole Beamin",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Lynden Breen",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Charlie Combs",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Bryan Moore",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-12",
       "player": "Michael Brown",
       "position": "D",
@@ -98,41 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Alexis Gravel",
-      "position": "G",
-      "type": "active",
-      "summary": "Acquired from Trois-Rivières"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Doug Scott",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-01",
-      "player": "Porter Schachle",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-01",
-      "player": "Ryan Orgel",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-01",
-      "player": "Doug Scott",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

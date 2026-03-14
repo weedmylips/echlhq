@@ -2,6 +2,27 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Antonio Venuto",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Loke Johansson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Ben Raymond",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Brooklyn Kalmikov",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Providence"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Jackson Stewart",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Sebastian Vidmar",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

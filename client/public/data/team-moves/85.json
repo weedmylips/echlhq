@@ -2,6 +2,34 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Jake Ratzlaff",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Ian Pierce",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Connor Murphy",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Nathan Torchia",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Eric Parker",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Braden Birnie",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Simon Mack",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Calgary Wranglers 3/8"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Jaden Shields",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Idaho 3/8"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Garrett Klotz",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

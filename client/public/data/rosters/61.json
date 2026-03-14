@@ -2,7 +2,7 @@
   "teamId": 61,
   "slug": "wheeling-nailers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-13",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "10483",
@@ -229,7 +229,7 @@
       "player": "Jack Works",
       "number": 25,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1309,7 +1309,7 @@
       "player": "Randy Hernandez",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,6 +2,34 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Ryan Nolan",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Max Grondin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Brett Bulmer",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Brett Bulmer",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-12",
       "player": "Max Grondin",
       "position": "F",
@@ -112,27 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Nick McCarry",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Norfolk"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Nick McCarry",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Ryley Appelt",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

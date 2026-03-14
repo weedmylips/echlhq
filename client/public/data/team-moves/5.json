@@ -2,6 +2,34 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Rhett Parsons",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Toronto Marlies"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Spencer Cox",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Sam Stevens",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Shawn Kennedy",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Luke Pavicich",
       "position": "G",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Shawn Kennedy",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Aaron Chiarot",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Adam Kydd",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Spencer Cox",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

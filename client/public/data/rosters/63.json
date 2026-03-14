@@ -2,7 +2,7 @@
   "teamId": 63,
   "slug": "norfolk-admirals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-13",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "8003",
@@ -669,7 +669,7 @@
       "player": "David Drake",
       "number": 55,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1549,7 +1549,7 @@
       "player": "William Magnuson",
       "number": null,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

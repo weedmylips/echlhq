@@ -2,6 +2,20 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Liam Coughlin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Nikita Borodaenko",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-11",
       "player": "Yuki Miura",
       "position": "F",

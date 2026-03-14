@@ -2,6 +2,41 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-14",
+      "player": "Terry Broadhurst",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Eric Martin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Kyle Bettens",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Kyle Aucoin",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Brett Moravec",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Kyle Bettens",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Brandon Schultz",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Cody Schiavon",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Trevor Zins",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Greensboro"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jordan Martin",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Cody Schiavon",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }
