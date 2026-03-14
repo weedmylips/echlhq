@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useTeam, useStandings, useLeaders, useRoster, useTeamMoves } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import "./TeamPage.css";
 
@@ -51,7 +51,6 @@ export default function TeamPage() {
 
   const { data, isLoading, error } = useTeam(teamId);
   const { data: standingsData } = useStandings();
-  const { data: leadersData } = useLeaders();
   const { data: rosterData } = useRoster(teamId);
   const { data: movesData } = useTeamMoves(teamId);
 
@@ -61,7 +60,6 @@ export default function TeamPage() {
 
   const { team, standing, recentScores } = data;
   const allStandings = standingsData?.standings || [];
-  const leaders = leadersData?.leaders || {};
 
   // Division standings for the mini-table
   const divisionTeams = allStandings
@@ -347,36 +345,52 @@ export default function TeamPage() {
 
           {/* Right sidebar */}
           <div className="overview-sidebar">
-            {/* League Leaders mini-card */}
-            <div className="card section-card">
-              <div className="card-header">
-                <span className="section-label" style={{ margin: 0 }}>League Leaders</span>
-                <a href="/leaders" className="see-all-link">All →</a>
-              </div>
-              {[
-                { title: "G", key: "goals" },
-                { title: "A", key: "assists" },
-                { title: "PTS", key: "points" },
-                { title: "GAA", key: "gaa", lower: true },
-              ].map(({ title, key, lower }) => {
-                const list = leaders[key] || [];
-                const top3 = (lower ? [...list].sort((a, b) => a.value - b.value) : [...list].sort((a, b) => b.value - a.value)).slice(0, 3);
-                if (!top3.length) return null;
-                return (
-                  <div key={key} className="mini-leader-block">
-                    <div className="mini-leader-cat">{title}</div>
-                    {top3.map((p, i) => (
-                      <div key={i} className="mini-leader-row">
-                        <span className="mini-leader-rank">{i + 1}</span>
-                        <span className="mini-leader-name">{p.name}</span>
-                        <span className="mini-leader-team">{p.team}</span>
-                        <span className="mini-leader-val">{p.value}</span>
-                      </div>
-                    ))}
+            {/* Team Leaders card */}
+            {rosterData?.roster && (() => {
+              const skaters = rosterData.roster.filter(
+                (p) => (p.status === "active" || p.status === "signed") && p.position !== "G" && (p.stats?.gp ?? 0) > 0
+              );
+              const goalies = rosterData.roster.filter(
+                (p) => p.position === "G" && (p.stats?.gp ?? 0) > 0
+              );
+              const top = (arr, key, n = 3) =>
+                [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
+
+              const cats = [
+                { title: "PTS", players: top(skaters, "pts") },
+                { title: "G",   players: top(skaters, "g") },
+                { title: "A",   players: top(skaters, "a") },
+                ...(goalies.length ? [{ title: "GP (G)", players: top(goalies, "gp") }] : []),
+              ].filter((c) => c.players.length > 0);
+
+              if (!cats.length) return null;
+              return (
+                <div className="card section-card">
+                  <div className="card-header">
+                    <span className="section-label" style={{ margin: 0 }}>Team Leaders</span>
+                    <a href={`/team/${teamId}?tab=roster`} className="see-all-link" onClick={(e) => { e.preventDefault(); setActiveTab("roster"); }}>Roster →</a>
                   </div>
-                );
-              })}
-            </div>
+                  {cats.map(({ title, players }) => (
+                    <div key={title} className="mini-leader-block">
+                      <div className="mini-leader-cat">{title}</div>
+                      {players.map((p, i) => (
+                        <div key={i} className="mini-leader-row">
+                          <span className="mini-leader-rank">{i + 1}</span>
+                          <span className="mini-leader-name">{p.player}</span>
+                          <span className="mini-leader-team">{p.position}</span>
+                          <span className="mini-leader-val">
+                            {title === "PTS" ? p.stats?.pts :
+                             title === "G"   ? p.stats?.g   :
+                             title === "A"   ? p.stats?.a   :
+                                              p.stats?.gp}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              );
+            })()}
 
             {/* Attendance Card */}
             {standing?.attendanceAverage > 0 && (
