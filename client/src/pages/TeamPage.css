@@ -240,6 +240,28 @@
   border-right: 1px solid var(--border);
 }
 
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.stats-grid .stat-block {
+  padding: 16px;
+  margin-bottom: 0;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.stats-grid .stat-block:nth-child(3n) {
+  border-right: none;
+}
+
+.stats-grid .stat-block:nth-last-child(-n+3) {
+  border-bottom: none;
+}
+
 .stats-panel-title {
   font-size: 11px;
   font-weight: 700;
@@ -642,6 +664,21 @@ tr.playoff-cutoff td {
   .stats-panel:first-child {
     border-right: none;
     border-bottom: 1px solid var(--border);
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stats-grid .stat-block:nth-child(3n) {
+    border-right: 1px solid var(--border);
+  }
+  .stats-grid .stat-block:nth-child(2n) {
+    border-right: none;
+  }
+  .stats-grid .stat-block:nth-last-child(-n+3) {
+    border-bottom: 1px solid var(--border);
+  }
+  .stats-grid .stat-block:nth-last-child(-n+2) {
+    border-bottom: none;
   }
 }
 

@@ -224,25 +224,6 @@ export default function TeamPage() {
               </div>
             )}
 
-            {/* Key Stats Row */}
-            {standing && (
-              <div className="card section-card">
-                <div className="card-header">
-                  <span className="section-label" style={{ margin: 0 }}>Key Stats</span>
-                </div>
-                <div className="key-stats-row">
-                  <KeyStatCard
-                    label="Goal Diff"
-                    value={standing.diff > 0 ? `+${standing.diff}` : String(standing.diff)}
-                    accent={standing.diff > 0 ? "green" : standing.diff < 0 ? "red" : null}
-                  />
-                  <KeyStatCard label="ROW" value={standing.rowWins ?? "—"} />
-                  <KeyStatCard label="SO Record" value={soWL} />
-                  <KeyStatCard label="Points %" value={pctDisplay} />
-                </div>
-              </div>
-            )}
-
             {/* Home / Road Split */}
             {standing && (standing.homeRecord || standing.roadRecord) && (
               <div className="card section-card">
@@ -286,19 +267,13 @@ export default function TeamPage() {
                 <div className="card-header">
                   <span className="section-label" style={{ margin: 0 }}>Team Stats</span>
                 </div>
-                <div className="stats-panels">
-                  <div className="stats-panel">
-                    <div className="stats-panel-title">Offense</div>
-                    <StatBlock label="GF / Game" value={gfPerGame} rank={divisionSuffix(divRank("gf"))} />
-                    <StatBlock label="Goals For"  value={standing.gf} rank={divisionSuffix(divRank("gf"))} />
-                    <StatBlock label="ROW" value={standing.rowWins ?? "—"} />
-                  </div>
-                  <div className="stats-panel">
-                    <div className="stats-panel-title">Defense</div>
-                    <StatBlock label="GA / Game"     value={gaPerGame} rank={divisionSuffix(divRank("ga", true))} />
-                    <StatBlock label="Goals Against"  value={standing.ga} rank={divisionSuffix(divRank("ga", true))} />
-                    <StatBlock label="Goal Diff" value={standing.diff > 0 ? `+${standing.diff}` : standing.diff} />
-                  </div>
+                <div className="stats-grid">
+                  <StatBlock label="GF / Game" value={gfPerGame} rank={divisionSuffix(divRank("gf"))} />
+                  <StatBlock label="GA / Game" value={gaPerGame} rank={divisionSuffix(divRank("ga", true))} />
+                  <StatBlock label="Goal Diff" value={standing.diff > 0 ? `+${standing.diff}` : standing.diff} />
+                  <StatBlock label="Goals For" value={standing.gf} rank={divisionSuffix(divRank("gf"))} />
+                  <StatBlock label="Goals Against" value={standing.ga} rank={divisionSuffix(divRank("ga", true))} />
+                  <StatBlock label="ROW" value={standing.rowWins ?? "—"} />
                 </div>
                 <div className="season-record-strip">
                   {[
@@ -322,12 +297,8 @@ export default function TeamPage() {
 
             {/* ── GROUP 2: Performance Insights ── */}
             {teamStats && <PctTrendCard ts={teamStats} team={team} standing={standing} />}
-            {teamStats && <SeasonArcCard ts={teamStats} team={team} />}
             {teamStats && standing && (
               <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
-            )}
-            {teamStats && standing && (
-              <RegulationWinCard ts={teamStats} team={team} standing={standing} />
             )}
 
             {/* ── GROUP 3: Personality Stats ── */}
