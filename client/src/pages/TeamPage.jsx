@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useTeam, useStandings, useRoster, useTeamMoves } from "../hooks/useECHL.js";
+import {
+  ResponsiveContainer, LineChart, Line, BarChart, Bar,
+  XAxis, YAxis, Tooltip, ReferenceLine, Legend,
+} from "recharts";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import "./TeamPage.css";
-
-const DIVISION_ORDER = ["North", "South", "Central", "Mountain"];
 
 const MOVE_ICONS = {
   ir: "\u{1F3E5}", reserve: "\u{1F4CB}", active: "\u2705", recalled_ahl: "\u2B06\uFE0F",
@@ -18,16 +20,14 @@ function sortByPosition(a, b) {
 }
 const PLAYOFF_SPOTS = 4;
 
-// Determine W/L/OT result badge from a score object relative to this team
 function getResult(game, teamCity) {
   const city = teamCity.toLowerCase();
-  const home = game.homeTeam?.toLowerCase() || "";
+  const home  = game.homeTeam?.toLowerCase() || "";
   const visit = game.visitingTeam?.toLowerCase() || "";
-  const isHome = home.includes(city);
+  const isHome  = home.includes(city);
   const isVisit = visit.includes(city);
   if (!isHome && !isVisit) return null;
-
-  const myScore = isHome ? game.homeScore : game.visitingScore;
+  const myScore  = isHome ? game.homeScore  : game.visitingScore;
   const oppScore = isHome ? game.visitingScore : game.homeScore;
   if (myScore > oppScore) return game.overtime ? "OT-W" : "W";
   if (myScore < oppScore) return game.overtime ? "OT-L" : "L";
@@ -36,11 +36,18 @@ function getResult(game, teamCity) {
 
 function ResultBadge({ result }) {
   if (!result) return null;
-  if (result === "W") return <span className="badge-w">W</span>;
-  if (result === "L") return <span className="badge-l">L</span>;
+  if (result === "W")    return <span className="badge-w">W</span>;
+  if (result === "L")    return <span className="badge-l">L</span>;
   if (result === "OT-W") return <span className="badge-ot">OT</span>;
   if (result === "OT-L") return <span className="badge-ot">OT</span>;
   return null;
+}
+
+function ordinal(n) {
+  if (!n) return "—";
+  const s = ["th","st","nd","rd"];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
 }
 
 export default function TeamPage() {
@@ -53,6 +60,7 @@ export default function TeamPage() {
   const { data: standingsData } = useStandings();
   const { data: rosterData } = useRoster(teamId);
   const { data: movesData } = useTeamMoves(teamId);
+  const { data: teamStats } = useTeamStats(teamId);
 
   if (isLoading) return <div className="loading-spinner">Loading team…</div>;
   if (error) return <div className="error-box">Error loading team: {error.message}</div>;
@@ -61,18 +69,9 @@ export default function TeamPage() {
   const { team, standing, recentScores } = data;
   const allStandings = standingsData?.standings || [];
 
-  // Division standings for the mini-table
   const divisionTeams = allStandings
     .filter((t) => t.division === (standing?.division || team.division))
     .sort((a, b) => b.pts - a.pts);
-
-  // Rank helpers
-  function leagueRank(key, lower = false) {
-    if (!standing || !allStandings.length) return null;
-    const s = [...allStandings].sort((a, b) => lower ? a[key] - b[key] : b[key] - a[key]);
-    const i = s.findIndex((t) => t.teamId === standing.teamId);
-    return i >= 0 ? i + 1 : null;
-  }
 
   function divRank(key, lower = false) {
     if (!standing || !divisionTeams.length) return null;
@@ -88,14 +87,14 @@ export default function TeamPage() {
     return `${rank}${sfx} in ${divName}`;
   }
 
-  const leagueAvg = (key) => {
-    if (!allStandings.length) return null;
-    const vals = allStandings.map((t) => Number(t[key]) || 0).filter((v) => !isNaN(v));
-    return vals.length ? (vals.reduce((s, v) => s + v, 0) / vals.length).toFixed(1) : null;
-  };
-
   const gfPerGame = standing?.gp ? (standing.gf / standing.gp).toFixed(2) : "—";
   const gaPerGame = standing?.gp ? (standing.ga / standing.gp).toFixed(2) : "—";
+
+  // Key Stats helpers
+  const soWL = standing?.shootoutRecord
+    ? standing.shootoutRecord.split("-").slice(0, 2).join("-") : "—";
+  const pctDisplay = standing?.pct != null
+    ? `${(standing.pct * 100).toFixed(1)}%` : "—";
 
   return (
     <div className="team-page">
@@ -146,7 +145,7 @@ export default function TeamPage() {
 
       {/* ── Tabs ── */}
       <div className="team-tabs">
-        {["overview", "roster", "standings"].map((tab) => (
+        {["overview", "roster"].map((tab) => (
           <button
             key={tab}
             className={`team-tab${activeTab === tab ? " active" : ""}`}
@@ -161,8 +160,9 @@ export default function TeamPage() {
       {/* ── Overview Tab ── */}
       {activeTab === "overview" && (
         <div className="overview-layout">
-          {/* Left/main column */}
+          {/* ── Left/main column ── */}
           <div className="overview-main">
+
             {/* Recent Games */}
             <div className="card section-card">
               <div className="card-header">
@@ -171,9 +171,9 @@ export default function TeamPage() {
               {recentScores?.length > 0 ? (
                 <div className="recent-games-list">
                   {recentScores.map((game, i) => {
-                    const result = getResult(game, team.city);
-                    const isHome = (game.homeTeam || "").toLowerCase().includes(team.city.toLowerCase());
-                    const opp = isHome ? game.visitingTeam : game.homeTeam;
+                    const result  = getResult(game, team.city);
+                    const isHome  = (game.homeTeam || "").toLowerCase().includes(team.city.toLowerCase());
+                    const opp     = isHome ? game.visitingTeam : game.homeTeam;
                     const myScore = isHome ? game.homeScore : game.visitingScore;
                     const oppScore = isHome ? game.visitingScore : game.homeScore;
                     return (
@@ -200,6 +200,10 @@ export default function TeamPage() {
                 <p className="empty-msg" style={{ padding: "16px" }}>No recent games available.</p>
               )}
             </div>
+
+            {/* ── GROUP 1: Playoff Critical ── */}
+            {teamStats && <PlayoffPictureCard ts={teamStats} team={team} standing={standing} />}
+            {teamStats?.clinchedText && <ClinchingCard ts={teamStats} />}
 
             {/* Recent Moves */}
             {movesData?.moves?.length > 0 && (
@@ -232,9 +236,9 @@ export default function TeamPage() {
                     value={standing.diff > 0 ? `+${standing.diff}` : String(standing.diff)}
                     accent={standing.diff > 0 ? "green" : standing.diff < 0 ? "red" : null}
                   />
-                  <KeyStatCard label="Reg. Wins" value={standing.regulationWins ?? "—"} />
-                  <KeyStatCard label="S/O Record" value={standing.shootoutRecord || "—"} />
-                  <KeyStatCard label="Games Left" value={standing.gamesRemaining ?? "—"} />
+                  <KeyStatCard label="ROW" value={standing.rowWins ?? "—"} />
+                  <KeyStatCard label="SO Record" value={soWL} />
+                  <KeyStatCard label="Points %" value={pctDisplay} />
                 </div>
               </div>
             )}
@@ -283,54 +287,28 @@ export default function TeamPage() {
                   <span className="section-label" style={{ margin: 0 }}>Team Stats</span>
                 </div>
                 <div className="stats-panels">
-                  {/* Offense */}
                   <div className="stats-panel">
                     <div className="stats-panel-title">Offense</div>
-                    <StatBlock
-                      label="GF / Game"
-                      value={gfPerGame}
-                      rank={divisionSuffix(divRank("gf"))}
-                    />
-                    <StatBlock
-                      label="Goals For"
-                      value={standing.gf}
-                      rank={divisionSuffix(divRank("gf"))}
-                    />
-                    <StatBlock
-                      label="ROW"
-                      value={standing.rowWins ?? "—"}
-                    />
+                    <StatBlock label="GF / Game" value={gfPerGame} rank={divisionSuffix(divRank("gf"))} />
+                    <StatBlock label="Goals For"  value={standing.gf} rank={divisionSuffix(divRank("gf"))} />
+                    <StatBlock label="ROW" value={standing.rowWins ?? "—"} />
                   </div>
-                  {/* Defense */}
                   <div className="stats-panel">
                     <div className="stats-panel-title">Defense</div>
-                    <StatBlock
-                      label="GA / Game"
-                      value={gaPerGame}
-                      rank={divisionSuffix(divRank("ga", true))}
-                    />
-                    <StatBlock
-                      label="Goals Against"
-                      value={standing.ga}
-                      rank={divisionSuffix(divRank("ga", true))}
-                    />
-                    <StatBlock
-                      label="Goal Diff"
-                      value={standing.diff > 0 ? `+${standing.diff}` : standing.diff}
-                    />
+                    <StatBlock label="GA / Game"     value={gaPerGame} rank={divisionSuffix(divRank("ga", true))} />
+                    <StatBlock label="Goals Against"  value={standing.ga} rank={divisionSuffix(divRank("ga", true))} />
+                    <StatBlock label="Goal Diff" value={standing.diff > 0 ? `+${standing.diff}` : standing.diff} />
                   </div>
                 </div>
-
-                {/* Season record row */}
                 <div className="season-record-strip">
                   {[
-                    { label: "GP", value: standing.gp },
-                    { label: "W", value: standing.w },
-                    { label: "L", value: standing.l },
+                    { label: "GP",  value: standing.gp },
+                    { label: "W",   value: standing.w },
+                    { label: "L",   value: standing.l },
                     { label: "OTL", value: standing.otl },
                     { label: "SOL", value: standing.sol },
                     { label: "PTS", value: standing.pts },
-                    { label: "RW", value: standing.regulationWins ?? "—" },
+                    { label: "RW",  value: standing.regulationWins ?? "—" },
                     { label: "ROW", value: standing.rowWins ?? "—" },
                   ].map(({ label, value }) => (
                     <div key={label} className="record-item">
@@ -341,9 +319,25 @@ export default function TeamPage() {
                 </div>
               </div>
             )}
+
+            {/* ── GROUP 2: Performance Insights ── */}
+            {teamStats && <PctTrendCard ts={teamStats} team={team} standing={standing} />}
+            {teamStats && <SeasonArcCard ts={teamStats} team={team} />}
+            {teamStats && standing && (
+              <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
+            )}
+            {teamStats && standing && (
+              <RegulationWinCard ts={teamStats} team={team} standing={standing} />
+            )}
+
+            {/* ── GROUP 3: Personality Stats ── */}
+            {teamStats && <DivisionH2HCard ts={teamStats} team={team} allStandings={allStandings} navigate={navigate} />}
+            {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
+            {teamStats && standing && <HomeIceCard ts={teamStats} team={team} standing={standing} />}
+
           </div>
 
-          {/* Right sidebar */}
+          {/* ── Right sidebar — DO NOT MODIFY ── */}
           <div className="overview-sidebar">
             {/* Team Leaders card */}
             {rosterData?.roster && (() => {
@@ -449,68 +443,6 @@ export default function TeamPage() {
         <RosterTab rosterData={rosterData} teamColor={team.primaryColor} />
       )}
 
-      {/* ── Standings Tab ── */}
-      {activeTab === "standings" && (
-        <div className="card section-card">
-          <div className="card-header">
-            <span className="section-label" style={{ margin: 0 }}>
-              {standing?.division || team.division} Division
-            </span>
-          </div>
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Team</th>
-                  <th className="num-col">GP</th>
-                  <th className="num-col">W</th>
-                  <th className="num-col">L</th>
-                  <th className="num-col">OT</th>
-                  <th className="num-col">PTS</th>
-                  <th className="num-col">GF</th>
-                  <th className="num-col">GA</th>
-                  <th className="num-col">DIFF</th>
-                  <th className="num-col hide-mobile">HOME</th>
-                  <th className="num-col hide-mobile">ROAD</th>
-                </tr>
-              </thead>
-              <tbody>
-                {divisionTeams.map((t, i) => (
-                  <tr
-                    key={t.teamId || i}
-                    className={`team-row${i === PLAYOFF_SPOTS - 1 ? " playoff-cutoff" : ""}${t.teamId === standing?.teamId ? " current-team-row" : ""}`}
-                    onClick={() => t.teamId && navigate(`/team/${t.teamId}`)}
-                  >
-                    <td className="rank-cell">
-                      <span className={`rank-num${i < PLAYOFF_SPOTS ? " in-playoffs" : ""}`}>{i + 1}</span>
-                    </td>
-                    <td>
-                      <div className="team-name-cell">
-                        {t.logoUrl && <img src={t.logoUrl} alt="" className="row-logo" />}
-                        <span style={{ color: t.primaryColor || "#fff", fontWeight: 600 }}>{t.teamName}</span>
-                      </div>
-                    </td>
-                    <td className="num">{t.gp}</td>
-                    <td className="num bold">{t.w}</td>
-                    <td className="num">{t.l}</td>
-                    <td className="num">{t.otl}</td>
-                    <td className="num bold">{t.pts}</td>
-                    <td className="num">{t.gf}</td>
-                    <td className="num">{t.ga}</td>
-                    <td className={`num ${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}`}>
-                      {t.diff > 0 ? `+${t.diff}` : t.diff}
-                    </td>
-                    <td className="num hide-mobile">{t.homeRecord}</td>
-                    <td className="num hide-mobile">{t.roadRecord}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      )}
-
       {selectedGameId && (
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
       )}
@@ -518,6 +450,448 @@ export default function TeamPage() {
   );
 }
 
+// ─── Playoff Picture Card ──────────────────────────────────────────────────────
+function PlayoffPictureCard({ ts, team, standing }) {
+  if (!standing) return null;
+  const { playoffStatus, rank, magicNumber, ptsBack1st, ptsBack4th, divTotalTeams } = ts;
+
+  const statusClass =
+    playoffStatus === "CLINCHED"           ? "badge-clinched" :
+    playoffStatus === "IN PLAYOFF POSITION" ? "badge-position" :
+    playoffStatus === "ON THE BUBBLE"       ? "badge-bubble" :
+    playoffStatus === "ELIMINATED"          ? "badge-eliminated" : "badge-chasing";
+
+  return (
+    <div className="card section-card playoff-widget">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Playoff Picture</span>
+        <span className={`playoff-status-badge ${statusClass}`}>{playoffStatus}</span>
+      </div>
+      <div className="playoff-body">
+        <div className="playoff-rank-display">
+          <div className="playoff-rank-num" style={{ color: team.primaryColor }}>
+            {ordinal(rank)}
+          </div>
+          <div className="playoff-rank-label">in {standing.division} Division</div>
+        </div>
+        <div className="playoff-stats-row">
+          {ptsBack1st === 0 ? (
+            <div className="playoff-stat-item">
+              <div className="playoff-stat-val" style={{ color: "var(--green)" }}>1st</div>
+              <div className="playoff-stat-lbl">Division Leader</div>
+            </div>
+          ) : (
+            <div className="playoff-stat-item">
+              <div className="playoff-stat-val neg">–{ptsBack1st}</div>
+              <div className="playoff-stat-lbl">Back of 1st</div>
+            </div>
+          )}
+          {rank > 4 && (
+            <div className="playoff-stat-item">
+              <div className="playoff-stat-val neg">–{ptsBack4th}</div>
+              <div className="playoff-stat-lbl">Back of 4th</div>
+            </div>
+          )}
+          {rank <= 4 && !ts.isClinched && magicNumber > 0 && (
+            <div className="playoff-stat-item">
+              <div className="playoff-stat-val" style={{ color: "var(--amber)" }}>{magicNumber}</div>
+              <div className="playoff-stat-lbl">Magic Number</div>
+            </div>
+          )}
+          {ts.isClinched && (
+            <div className="playoff-stat-item">
+              <div className="playoff-stat-val" style={{ color: "var(--green)" }}>✓</div>
+              <div className="playoff-stat-lbl">Clinched</div>
+            </div>
+          )}
+          <div className="playoff-stat-item">
+            <div className="playoff-stat-val">{standing.pts}</div>
+            <div className="playoff-stat-lbl">Points</div>
+          </div>
+          <div className="playoff-stat-item">
+            <div className="playoff-stat-val">{standing.gamesRemaining ?? "—"}</div>
+            <div className="playoff-stat-lbl">GP Left</div>
+          </div>
+        </div>
+        {/* Div rank bar */}
+        <div className="playoff-div-bar">
+          {Array.from({ length: divTotalTeams || 8 }, (_, i) => (
+            <div
+              key={i}
+              className={`playoff-div-seg ${i < 4 ? "seg-playoff" : "seg-miss"} ${i + 1 === rank ? "seg-current" : ""}`}
+              style={i + 1 === rank ? { background: team.primaryColor, borderColor: team.primaryColor } : {}}
+              title={i < 4 ? "Playoff spot" : "Out of playoffs"}
+            />
+          ))}
+        </div>
+        <div className="playoff-div-bar-label">
+          <span style={{ color: "var(--green)" }}>■ Playoff</span>
+          <span style={{ color: "var(--text-muted)" }}>■ Miss</span>
+          <span style={{ color: team.primaryColor }}>■ This team</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Clinching Card ────────────────────────────────────────────────────────────
+function ClinchingCard({ ts }) {
+  if (!ts.clinchedText) return null;
+  const isGood = ts.isClinched || ts.playoffStatus === "IN PLAYOFF POSITION";
+  const isBad  = ts.isEliminated;
+  return (
+    <div className={`card section-card clinching-card ${isBad ? "clinching-bad" : isGood ? "clinching-good" : "clinching-neutral"}`}>
+      <span className="clinching-icon">
+        {ts.isClinched ? "🏒" : ts.isEliminated ? "❌" : "📊"}
+      </span>
+      <span className="clinching-text">{ts.clinchedText}</span>
+    </div>
+  );
+}
+
+// ─── PCT Trend Sparkline ────────────────────────────────────────────────────────
+function PctTrendCard({ ts, team, standing }) {
+  const { pctTrend, trendDir } = ts;
+  const seasonPct = standing?.pct ?? null;
+
+  if (!pctTrend?.length) {
+    return (
+      <div className="card section-card">
+        <div className="card-header">
+          <span className="section-label" style={{ margin: 0 }}>Points % Trend</span>
+        </div>
+        <p className="empty-msg" style={{ padding: "12px 16px" }}>
+          Not enough game data yet — builds as season progresses.
+        </p>
+      </div>
+    );
+  }
+
+  const trendLabel = trendDir === "up" ? "↑ Trending Up" : trendDir === "down" ? "↓ Trending Down" : null;
+  const trendColor = trendDir === "up" ? "var(--green)" : trendDir === "down" ? "var(--red)" : "var(--text-muted)";
+  const lastPct = pctTrend[pctTrend.length - 1]?.pct ?? 0;
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Points % Trend</span>
+        {trendLabel && <span className="trend-badge" style={{ color: trendColor }}>{trendLabel}</span>}
+      </div>
+      <div className="chart-meta-row">
+        <span className="chart-meta-val" style={{ color: team.primaryColor }}>
+          {(lastPct * 100).toFixed(1)}%
+        </span>
+        <span className="chart-meta-lbl">Recent PCT</span>
+        {seasonPct != null && (
+          <>
+            <span className="chart-meta-divider" />
+            <span className="chart-meta-val">{(seasonPct * 100).toFixed(1)}%</span>
+            <span className="chart-meta-lbl">Season PCT</span>
+          </>
+        )}
+      </div>
+      <div className="chart-wrap">
+        <ResponsiveContainer width="100%" height={130}>
+          <LineChart data={pctTrend} margin={{ top: 8, right: 12, bottom: 0, left: -20 }}>
+            <XAxis dataKey="game" tick={{ fontSize: 10, fill: "var(--text-muted)" }} tickLine={false} axisLine={false} label={{ value: "Game", position: "insideBottomRight", offset: -4, fontSize: 10, fill: "var(--text-muted)" }} />
+            <YAxis domain={[0, 1]} tickFormatter={(v) => `${(v * 100).toFixed(0)}%`} tick={{ fontSize: 10, fill: "var(--text-muted)" }} tickLine={false} axisLine={false} />
+            <ReferenceLine y={0.5} stroke="var(--text-muted)" strokeDasharray="3 3" strokeOpacity={0.5} />
+            <Tooltip
+              formatter={(v) => [`${(v * 100).toFixed(1)}%`, "PCT"]}
+              labelFormatter={(g, p) => p?.[0]?.payload ? `Game ${g} — ${p[0].payload.date} (${p[0].payload.result})` : `Game ${g}`}
+              contentStyle={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 6, fontSize: 12 }}
+              itemStyle={{ color: team.primaryColor }}
+            />
+            <Line type="monotone" dataKey="pct" stroke={team.primaryColor} strokeWidth={2} dot={{ r: 3, fill: team.primaryColor }} activeDot={{ r: 5 }} />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
+      <div className="chart-sub">Computed from recent game results in rolling history</div>
+    </div>
+  );
+}
+
+// ─── Season Arc Chart ──────────────────────────────────────────────────────────
+function SeasonArcCard({ ts, team }) {
+  const { seasonArc } = ts;
+  if (!seasonArc?.length) {
+    return (
+      <div className="card section-card">
+        <div className="card-header">
+          <span className="section-label" style={{ margin: 0 }}>Goals For vs Against — Recent Arc</span>
+        </div>
+        <p className="empty-msg" style={{ padding: "12px 16px" }}>
+          Not enough game data yet — builds as season progresses.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Goals For vs Against — Recent Arc</span>
+      </div>
+      <div className="chart-wrap">
+        <ResponsiveContainer width="100%" height={160}>
+          <BarChart data={seasonArc} margin={{ top: 8, right: 12, bottom: 4, left: -20 }} barCategoryGap="25%">
+            <XAxis dataKey="label" tick={{ fontSize: 10, fill: "var(--text-muted)" }} tickLine={false} axisLine={false} />
+            <YAxis tick={{ fontSize: 10, fill: "var(--text-muted)" }} tickLine={false} axisLine={false} />
+            <Tooltip
+              contentStyle={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 6, fontSize: 12 }}
+              formatter={(v, name) => [v.toFixed(1), name === "gf" ? "Goals For (avg)" : "Goals Against (avg)"]}
+            />
+            <Legend formatter={(v) => v === "gf" ? "Goals For" : "Goals Against"} wrapperStyle={{ fontSize: 11, paddingTop: 4 }} />
+            <Bar dataKey="gf" fill={team.primaryColor} radius={[3, 3, 0, 0]} />
+            <Bar dataKey="ga" fill="#ef4444" radius={[3, 3, 0, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+      <div className="chart-sub">Avg GF and GA per 3-game chunk — recent games only</div>
+    </div>
+  );
+}
+
+// ─── Defensive Efficiency Card ────────────────────────────────────────────────
+function DefensiveEfficiencyCard({ ts, team, standing }) {
+  const { gaPerGame, gfPerGame, leagueAvgGA, leagueAvgGF, leagueGARank, divGARank, leagueTotalTeams, divTotalTeams } = ts;
+  const belowAvg = gaPerGame < leagueAvgGA;
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Defensive Efficiency</span>
+        <span className="def-badge" style={{ color: belowAvg ? "var(--green)" : "var(--red)", background: belowAvg ? "var(--green-bg)" : "var(--red-bg)" }}>
+          {belowAvg ? "Above Average" : "Below Average"}
+        </span>
+      </div>
+      <div className="def-stats-row">
+        <div className="def-stat">
+          <div className="def-stat-val" style={{ color: belowAvg ? "var(--green)" : "var(--red)" }}>
+            {gaPerGame.toFixed(2)}
+          </div>
+          <div className="def-stat-lbl">GA / Game</div>
+        </div>
+        <div className="def-stat">
+          <div className="def-stat-val">{leagueAvgGA.toFixed(2)}</div>
+          <div className="def-stat-lbl">League Avg GA</div>
+        </div>
+        <div className="def-stat">
+          <div className="def-stat-val" style={{ color: team.primaryColor }}>
+            {ordinal(leagueGARank)}
+          </div>
+          <div className="def-stat-lbl">League Rank</div>
+        </div>
+        <div className="def-stat">
+          <div className="def-stat-val" style={{ color: team.primaryColor }}>
+            {ordinal(divGARank)}
+          </div>
+          <div className="def-stat-lbl">Div Rank</div>
+        </div>
+      </div>
+      <div className="def-bar-wrap">
+        <span className="def-bar-label">GA/G vs League Average</span>
+        <div className="def-bar-track">
+          <div
+            className="def-bar-fill"
+            style={{
+              width: `${Math.min(100, (gaPerGame / (leagueAvgGA * 1.5)) * 100)}%`,
+              background: belowAvg ? "var(--green)" : "var(--red)",
+            }}
+          />
+          <div
+            className="def-bar-avg-marker"
+            style={{ left: `${Math.min(100, (leagueAvgGA / (leagueAvgGA * 1.5)) * 100)}%` }}
+            title={`League avg: ${leagueAvgGA.toFixed(2)}`}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Regulation Win % Card ─────────────────────────────────────────────────────
+function RegulationWinCard({ ts, team, standing }) {
+  const { rwPct, rwDivRank, rwLabel, divTotalTeams } = ts;
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Regulation Win %</span>
+        <span className="rw-label-badge">{rwLabel}</span>
+      </div>
+      <div className="rw-body">
+        <div className="rw-pct-display" style={{ color: team.primaryColor }}>
+          {rwPct.toFixed(1)}%
+        </div>
+        <div className="rw-sub">
+          {standing.regulationWins} of {standing.w} wins in regulation · {ordinal(rwDivRank)} in division
+        </div>
+        <div className="rw-bar-track">
+          <div className="rw-bar-fill" style={{ width: `${Math.min(100, rwPct)}%`, background: team.primaryColor }} />
+        </div>
+        <div className="rw-scale">
+          <span>0%</span>
+          <span style={{ color: "var(--text-muted)", fontSize: 10 }}>← OT dependent · Reg dominant →</span>
+          <span>100%</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Division H2H Card ─────────────────────────────────────────────────────────
+function DivisionH2HCard({ ts, team, allStandings, navigate }) {
+  const { h2h } = ts;
+  if (!h2h?.length) return null;
+
+  const hasGames = h2h.some((r) => r.gp > 0);
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Division Head-to-Head</span>
+      </div>
+      {!hasGames ? (
+        <p className="empty-msg" style={{ padding: "12px 16px" }}>
+          No division games in recent history yet — builds as season progresses.
+        </p>
+      ) : (
+        <div className="h2h-list">
+          {h2h.map((opp) => {
+            const oppStanding = allStandings.find((t) => t.teamId === opp.teamId);
+            const winning = opp.gp > 0 && opp.w > opp.l;
+            const losing  = opp.gp > 0 && opp.w < opp.l;
+            const even    = opp.gp > 0 && opp.w === opp.l;
+            return (
+              <div
+                key={opp.teamId}
+                className={`h2h-row ${winning ? "h2h-win" : losing ? "h2h-loss" : opp.gp > 0 ? "h2h-even" : "h2h-none"}`}
+                onClick={() => opp.teamId && navigate(`/team/${opp.teamId}`)}
+                style={{ cursor: "pointer" }}
+              >
+                {opp.logoUrl && <img src={opp.logoUrl} alt="" className="h2h-logo" />}
+                <span className="h2h-name">{opp.teamName}</span>
+                <span className="h2h-pts">
+                  {oppStanding ? `${oppStanding.pts} PTS` : ""}
+                </span>
+                <span className="h2h-record">
+                  {opp.gp > 0 ? `${opp.w}–${opp.l}` : "—"}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      )}
+      <div className="chart-sub">From rolling recent game history only</div>
+    </div>
+  );
+}
+
+// ─── PIM Personality Card ──────────────────────────────────────────────────────
+function PimCard({ ts, team, standing }) {
+  const { hasPim, pimPerGame, pimDivRank, pimLeagueRank, leagueAvgPim, pimLabel } = ts;
+
+  if (!hasPim) {
+    return (
+      <div className="card section-card">
+        <div className="card-header">
+          <span className="section-label" style={{ margin: 0 }}>Penalty Minutes</span>
+        </div>
+        <p className="empty-msg" style={{ padding: "12px 16px" }}>
+          PIM data will appear after the next scheduled scrape.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Penalty Minutes</span>
+        <span className="pim-label-badge">{pimLabel}</span>
+      </div>
+      <div className="pim-body">
+        <div className="pim-stat">
+          <div className="pim-val" style={{ color: team.primaryColor }}>{standing.pim ?? "—"}</div>
+          <div className="pim-lbl">Total PIM</div>
+        </div>
+        <div className="pim-stat">
+          <div className="pim-val">{pimPerGame ?? "—"}</div>
+          <div className="pim-lbl">PIM / Game</div>
+        </div>
+        <div className="pim-stat">
+          <div className="pim-val">{ordinal(pimDivRank)}</div>
+          <div className="pim-lbl">Div Rank</div>
+        </div>
+        <div className="pim-stat">
+          <div className="pim-val">{ordinal(pimLeagueRank)}</div>
+          <div className="pim-lbl">League Rank</div>
+        </div>
+        {leagueAvgPim && (
+          <div className="pim-stat">
+            <div className="pim-val">{leagueAvgPim}</div>
+            <div className="pim-lbl">League Avg</div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ─── Home Ice Advantage Card ───────────────────────────────────────────────────
+function HomeIceCard({ ts, team, standing }) {
+  const { homeStats, roadStats, divAvgHomePct, divAvgRoadPct, homeDiff, homeAdvLabel } = ts;
+  if (!homeStats || !roadStats) return null;
+
+  const labelColor =
+    homeAdvLabel === "Home Team"    ? "var(--green)" :
+    homeAdvLabel === "Road Warriors" ? "var(--amber)" : "var(--text-muted)";
+
+  const fmtPct = (v) => `${(v * 100).toFixed(1)}%`;
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Home Ice Advantage</span>
+        <span className="home-adv-badge" style={{ color: labelColor }}>{homeAdvLabel}</span>
+      </div>
+      <div className="home-ice-body">
+        <div className="home-ice-split">
+          <div className="hi-col">
+            <div className="hi-label">HOME</div>
+            <div className="hi-pct" style={{ color: team.primaryColor }}>{fmtPct(homeStats.pct)}</div>
+            <div className="hi-record">{standing.homeRecord}</div>
+            <div className="hi-vs-avg">Div avg: {fmtPct(divAvgHomePct)}</div>
+            <div className="hi-bar-track">
+              <div className="hi-bar-fill" style={{ width: `${Math.min(100, homeStats.pct * 100)}%`, background: team.primaryColor }} />
+              <div className="hi-bar-avg" style={{ left: `${Math.min(100, divAvgHomePct * 100)}%` }} />
+            </div>
+          </div>
+          <div className="hi-divider" />
+          <div className="hi-col">
+            <div className="hi-label">ROAD</div>
+            <div className="hi-pct" style={{ color: team.primaryColor }}>{fmtPct(roadStats.pct)}</div>
+            <div className="hi-record">{standing.roadRecord}</div>
+            <div className="hi-vs-avg">Div avg: {fmtPct(divAvgRoadPct)}</div>
+            <div className="hi-bar-track">
+              <div className="hi-bar-fill" style={{ width: `${Math.min(100, roadStats.pct * 100)}%`, background: team.primaryColor }} />
+              <div className="hi-bar-avg" style={{ left: `${Math.min(100, divAvgRoadPct * 100)}%` }} />
+            </div>
+          </div>
+        </div>
+        <div className="hi-diff">
+          Home vs Road differential:{" "}
+          <span style={{ color: homeDiff > 0 ? "var(--green)" : homeDiff < 0 ? "var(--red)" : "var(--text-muted)" }}>
+            {homeDiff > 0 ? `+${(homeDiff * 100).toFixed(1)}%` : `${(homeDiff * 100).toFixed(1)}%`}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Existing helper components (unchanged) ────────────────────────────────────
 function StatBlock({ label, value, rank }) {
   return (
     <div className="stat-block">
@@ -528,7 +902,6 @@ function StatBlock({ label, value, rank }) {
   );
 }
 
-// Parses "W3" / "L2" / "OTL1" into { type, count }
 function parseStreak(streak) {
   if (!streak) return null;
   const m = String(streak).match(/^([WLwl](?:TL)?)\s*(\d+)$/);
@@ -557,7 +930,6 @@ function KeyStatCard({ label, value, accent }) {
   );
 }
 
-// Parses "W-L-OTL-SOL" e.g. "5-3-1-1" into counts
 function parseLastTen(lastTen) {
   if (!lastTen) return null;
   const parts = String(lastTen).split("-").map(Number);
@@ -572,14 +944,12 @@ function Last10Strip({ lastTen, primaryColor }) {
 
   const { w, l, otl, sol } = counts;
   const total = w + l + otl + sol;
-  // Build ordered slots: wins first, then OTL/SOL, then losses
   const slots = [
     ...Array(w).fill("W"),
     ...Array(otl).fill("OTL"),
     ...Array(sol).fill("SOL"),
     ...Array(l).fill("L"),
   ].slice(0, 10);
-  // Pad to 10 if total < 10
   while (slots.length < 10) slots.push(null);
 
   return (
@@ -614,11 +984,11 @@ function RosterTab({ rosterData, teamColor }) {
 
   const roster = rosterData.roster;
   const sections = [
-    { key: "active",       label: "Active Roster",    filter: (p) => p.status === "active" || p.status === "signed", badge: null },
-    { key: "ir",           label: "Injured Reserve",   filter: (p) => p.status === "ir",           badge: "IR",   badgeClass: "status-badge-ir" },
-    { key: "reserve",      label: "Reserve",           filter: (p) => p.status === "reserve",      badge: "RES",  badgeClass: "status-badge-res" },
-    { key: "recalled_ahl", label: "With AHL Club",     filter: (p) => p.status === "recalled_ahl", badge: "\u2191AHL", badgeClass: "status-badge-ahl" },
-    { key: "suspended",    label: "Suspended",         filter: (p) => p.status === "suspended",    badge: "SUSP", badgeClass: "status-badge-susp" },
+    { key: "active",       label: "Active Roster",   filter: (p) => p.status === "active" || p.status === "signed", badge: null },
+    { key: "ir",           label: "Injured Reserve",  filter: (p) => p.status === "ir",           badge: "IR",       badgeClass: "status-badge-ir" },
+    { key: "reserve",      label: "Reserve",          filter: (p) => p.status === "reserve",      badge: "RES",      badgeClass: "status-badge-res" },
+    { key: "recalled_ahl", label: "With AHL Club",    filter: (p) => p.status === "recalled_ahl", badge: "\u2191AHL", badgeClass: "status-badge-ahl" },
+    { key: "suspended",    label: "Suspended",        filter: (p) => p.status === "suspended",    badge: "SUSP",     badgeClass: "status-badge-susp" },
   ];
 
   return (
@@ -676,18 +1046,15 @@ function AttendanceCard({ standing, allStandings }) {
   const teamsWithAtt = [...allStandings]
     .filter((t) => t.attendanceAverage > 0)
     .sort((a, b) => b.attendanceAverage - a.attendanceAverage);
-  const rank = teamsWithAtt.findIndex((t) => t.teamId === standing.teamId) + 1;
+  const rank  = teamsWithAtt.findIndex((t) => t.teamId === standing.teamId) + 1;
   const total = teamsWithAtt.length;
-
-  const fmt = (n) => n ? Number(n).toLocaleString() : "—";
+  const fmt   = (n) => n ? Number(n).toLocaleString() : "—";
 
   return (
     <div className="card section-card">
       <div className="card-header">
         <span className="section-label" style={{ margin: 0 }}>Attendance</span>
-        {rank > 0 && (
-          <span className="attendance-rank">#{rank} of {total}</span>
-        )}
+        {rank > 0 && <span className="attendance-rank">#{rank} of {total}</span>}
       </div>
       <div className="attendance-body">
         <div className="att-stat">

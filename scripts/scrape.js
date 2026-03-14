@@ -183,6 +183,7 @@ async function scrapeStandings(html) {
     const lastTen        = $(cells[c("LAST TEN",     17)])?.text().trim()
                         || $(cells[c("L10",          17)])?.text().trim() || "";
     const streak         = $(cells[c("STREAK",       18)])?.text().trim() || "";
+    const pim            = num($(cells[c("PIM",        -1)]).text()) || 0;
 
     standings.push({
       teamId:        config?.id || null,
@@ -202,6 +203,7 @@ async function scrapeStandings(html) {
       shootoutRecord,
       lastTen,
       streak,
+      pim,
     });
   });
 
