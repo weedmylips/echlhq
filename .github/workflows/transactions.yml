@@ -28,10 +28,25 @@ jobs:
         run: npm install
         working-directory: scripts
 
+      - name: Seed rosters if not yet seeded
+        run: |
+          if [ ! -f client/public/data/rosters/74.json ]; then
+            echo "No roster data found — running seed..."
+            node scripts/seed-rosters.js
+          else
+            echo "Roster data already exists, skipping seed."
+          fi
+
       - name: Run transaction agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/agent-transactions.js
+        run: |
+          if [ ! -f client/public/data/rosters/74.json ]; then
+            echo "Seeding just completed — backfilling last 7 days..."
+            node scripts/agent-transactions.js --days 7
+          else
+            node scripts/agent-transactions.js
+          fi
 
       - name: Commit and push changed data files
         run: |
