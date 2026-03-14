@@ -259,7 +259,7 @@ export function useTeam(teamId) {
     const recentScores = (scores.data.scores || []).filter((s) => {
       return (s.homeTeam || "").toLowerCase().includes(city) ||
              (s.visitingTeam || "").toLowerCase().includes(city);
-    }).slice(0, 5);
+    }).slice(0, 10);
 
     return {
       team,
