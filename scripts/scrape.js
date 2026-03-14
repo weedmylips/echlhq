@@ -165,25 +165,26 @@ async function scrapeStandings(html) {
     if (!teamName || teamName.length < 2) return;
 
     const config = findTeamByName(teamName);
-    const gp             = num($(cells[c("GP",        1)]).text());
-    const regulationWins = num($(cells[c("RW",        2)]).text());
-    const w              = num($(cells[c("W",         3)]).text());
-    const l              = num($(cells[c("L",         4)]).text());
-    const otl            = num($(cells[c("OTL",       5)]).text());
-    const sol            = num($(cells[c("SOL",       6)]).text());
-    const pts            = num($(cells[c("PTS",       7)]).text());
-    const pct            = num($(cells[c("PCT",       8)]).text());
-    const gf             = num($(cells[c("GF",        9)]).text());
-    const ga             = num($(cells[c("GA",       10)]).text());
-    const rowWins        = num($(cells[c("ROW",      12)]).text());
-    const gamesRemaining = num($(cells[c("GR",       13)]).text());
-    const homeRecord     = $(cells[c("HOME",         14)])?.text().trim() || "";
-    const roadRecord     = $(cells[c("ROAD",         15)])?.text().trim() || "";
-    const shootoutRecord = $(cells[c("S/O",          16)])?.text().trim() || "";
-    const lastTen        = $(cells[c("LAST TEN",     17)])?.text().trim()
-                        || $(cells[c("L10",          17)])?.text().trim() || "";
-    const streak         = $(cells[c("STREAK",       18)])?.text().trim() || "";
-    const pim            = num($(cells[c("PIM",        -1)]).text()) || 0;
+    // Column order: GP GR W L OTL SOL PTS PCT GF GA PIM RW ROW HOME ROAD LAST_TEN STREAK S/O
+    const gp             = num($(cells[c("GP",         1)]).text());
+    const gamesRemaining = num($(cells[c("GR",         2)]).text());
+    const w              = num($(cells[c("W",          3)]).text());
+    const l              = num($(cells[c("L",          4)]).text());
+    const otl            = num($(cells[c("OTL",        5)]).text());
+    const sol            = num($(cells[c("SOL",        6)]).text());
+    const pts            = num($(cells[c("PTS",        7)]).text());
+    const pct            = num($(cells[c("PCT",        8)]).text());
+    const gf             = num($(cells[c("GF",         9)]).text());
+    const ga             = num($(cells[c("GA",        10)]).text());
+    const pim            = num($(cells[c("PIM",       11)]).text()) || 0;
+    const regulationWins = num($(cells[c("RW",        12)]).text());
+    const rowWins        = num($(cells[c("ROW",       13)]).text());
+    const homeRecord     = $(cells[c("HOME",          14)])?.text().trim() || "";
+    const roadRecord     = $(cells[c("ROAD",          15)])?.text().trim() || "";
+    const lastTen        = $(cells[c("LAST TEN",      16)])?.text().trim()
+                        || $(cells[c("L10",           16)])?.text().trim() || "";
+    const streak         = $(cells[c("STREAK",        17)])?.text().trim() || "";
+    const shootoutRecord = $(cells[c("S/O",           18)])?.text().trim() || "";
 
     standings.push({
       teamId:        config?.id || null,
