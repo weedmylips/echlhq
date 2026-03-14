@@ -338,46 +338,69 @@ function applyStatus(player, status, extra, today) {
   }
 }
 
-// ─── Main ────────────────────────────────────────────────────────────────────
+// ─── Fetch a single day's transactions ───────────────────────────────────────
 
-async function main() {
-  const now = new Date();
-  const year = now.getFullYear();
-  const mm = String(now.getMonth() + 1).padStart(2, "0");
-  const monthName = MONTH_NAMES[now.getMonth()];
-  const day = now.getDate();
-  const today = now.toISOString().slice(0, 10);
+const delay = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function fetchDay(date) {
+  const d = new Date(date);
+  const year = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const monthName = MONTH_NAMES[d.getMonth()];
+  const day = d.getDate();
+  const dateStr = d.toISOString().slice(0, 10);
 
   const url = `https://echl.com/news/${year}/${mm}/echl-transactions-${monthName}-${day}`;
-  console.log(`Fetching transactions: ${url}`);
+  console.log(`\nFetching: ${url}`);
 
-  let html;
   try {
     const res = await fetch(url, { headers: HEADERS, timeout: 20000 });
     if (res.status === 404) {
-      console.log("No transactions post today. Exiting cleanly.");
-      process.exit(0);
+      console.log(`  No transactions post for ${dateStr}.`);
+      return { dateStr, transactions: [] };
     }
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    html = await res.text();
+    const html = await res.text();
+    const transactions = parseTransactions(html);
+    console.log(`  Parsed ${transactions.length} transactions.`);
+    return { dateStr, transactions };
   } catch (err) {
-    if (err.message.includes("404")) {
-      console.log("No transactions post today. Exiting cleanly.");
-      process.exit(0);
+    console.warn(`  ✗ Failed for ${dateStr}: ${err.message}`);
+    return { dateStr, transactions: [] };
+  }
+}
+
+// ─── Main ────────────────────────────────────────────────────────────────────
+
+async function main() {
+  // Support --days N flag for backfilling (e.g. node agent-transactions.js --days 7)
+  const daysArg = process.argv.indexOf("--days");
+  const numDays = daysArg >= 0 ? parseInt(process.argv[daysArg + 1]) || 1 : 1;
+
+  const now = new Date();
+  let totalChanged = 0;
+
+  // Process days from oldest to newest so status updates apply in order
+  for (let i = numDays - 1; i >= 0; i--) {
+    const target = new Date(now);
+    target.setDate(target.getDate() - i);
+
+    const { dateStr, transactions } = await fetchDay(target);
+
+    if (transactions.length > 0) {
+      const changed = applyTransactions(transactions, dateStr);
+      totalChanged += changed;
     }
-    throw err;
+
+    // Delay between requests when backfilling
+    if (i > 0) await delay(1000);
   }
 
-  const transactions = parseTransactions(html);
-  console.log(`Parsed ${transactions.length} transactions.\n`);
-
-  if (transactions.length === 0) {
-    console.log("No transactions parsed. Exiting.");
-    process.exit(0);
+  if (totalChanged === 0 && numDays === 1) {
+    console.log("\nNo transactions found. Exiting cleanly.");
+  } else {
+    console.log(`\nDone. ${totalChanged} roster files updated across ${numDays} day(s).`);
   }
-
-  const changed = applyTransactions(transactions, today);
-  console.log(`\nDone. ${changed} roster files updated.`);
 
   // TODO: Future — parse suspension/fine posts at separate URL
   // (echl-announces-fine-suspension / echl-announces-fines-suspensions)
