@@ -40,6 +40,9 @@ function BoxScoreContent({ data }) {
         <div className="bs-team-side">
           <span className="bs-team-name">{gameInfo.visitingTeam || "Visiting"}</span>
           <span className="bs-team-score">{gameInfo.finalScore?.visiting ?? "—"}</span>
+          {shotsByPeriod.find(s => s.team === gameInfo.visitingTeam)?.total != null && (
+            <span className="bs-shots">{shotsByPeriod.find(s => s.team === gameInfo.visitingTeam).total} SOG</span>
+          )}
         </div>
         <div className="bs-sep">
           <span className="bs-final-label">{data.isFinal ? "Final" : "In Progress"}</span>
@@ -47,6 +50,9 @@ function BoxScoreContent({ data }) {
         <div className="bs-team-side bs-team-home">
           <span className="bs-team-score">{gameInfo.finalScore?.home ?? "—"}</span>
           <span className="bs-team-name">{gameInfo.homeTeam || "Home"}</span>
+          {shotsByPeriod.find(s => s.team === gameInfo.homeTeam)?.total != null && (
+            <span className="bs-shots">{shotsByPeriod.find(s => s.team === gameInfo.homeTeam).total} SOG</span>
+          )}
         </div>
       </div>
       {gameInfo.date && (
@@ -65,7 +71,7 @@ function BoxScoreContent({ data }) {
             <table>
               <thead>
                 <tr>
-                  <th>PER</th><th>TIME</th><th>TEAM</th>
+                  <th>PER</th><th>TEAM</th>
                   <th>SCORER</th><th>ASSISTS</th><th>TYPE</th>
                 </tr>
               </thead>
@@ -73,7 +79,6 @@ function BoxScoreContent({ data }) {
                 {periodScoring.map((g, i) => (
                   <tr key={i}>
                     <td>{g.period}</td>
-                    <td>{g.time}</td>
                     <td>{g.team}</td>
                     <td className="bold">{g.scorer}</td>
                     <td>{g.assists}</td>
@@ -93,32 +98,6 @@ function BoxScoreContent({ data }) {
             <span><span className="strength-badge strength-SH">SH</span> Short-Handed</span>
             <span><span className="strength-badge strength-EN">EN</span> Empty Net</span>
             <span><span className="strength-badge strength-PS">PS</span> Penalty Shot</span>
-          </div>
-        </div>
-      )}
-
-      {/* Shots by Period */}
-      {shotsByPeriod.length > 0 && (
-        <div className="bs-section">
-          <div className="bs-section-title">Shots on Goal</div>
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr><th>TEAM</th><th>1st</th><th>2nd</th><th>3rd</th><th>OT</th><th>TOT</th></tr>
-              </thead>
-              <tbody>
-                {shotsByPeriod.map((s, i) => (
-                  <tr key={i}>
-                    <td className="bold">{s.team}</td>
-                    <td className="num">{s.p1}</td>
-                    <td className="num">{s.p2}</td>
-                    <td className="num">{s.p3}</td>
-                    <td className="num">{s.ot || "—"}</td>
-                    <td className="num bold">{s.total}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
           </div>
         </div>
       )}
@@ -143,7 +122,7 @@ function BoxScoreContent({ data }) {
                 <div className="table-wrap">
                   <table>
                     <thead>
-                      <tr><th>#</th><th>PLAYER</th><th>POS</th><th>G</th><th>A</th><th>PTS</th><th>+/-</th><th>SOG</th></tr>
+                      <tr><th>#</th><th>PLAYER</th><th>POS</th><th>G</th><th>A</th></tr>
                     </thead>
                     <tbody>
                       {top3.map((p, i) => (
@@ -153,11 +132,6 @@ function BoxScoreContent({ data }) {
                           <td>{p.pos}</td>
                           <td className="num">{p.g}</td>
                           <td className="num">{p.a}</td>
-                          <td className="num bold">{p.pts}</td>
-                          <td className={`num ${p.plusMinus > 0 ? "pos" : p.plusMinus < 0 ? "neg" : ""}`}>
-                            {p.plusMinus > 0 ? `+${p.plusMinus}` : p.plusMinus}
-                          </td>
-                          <td className="num">{p.shots}</td>
                         </tr>
                       ))}
                     </tbody>
