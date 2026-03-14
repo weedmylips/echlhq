@@ -38,8 +38,8 @@ function ResultBadge({ result }) {
   if (!result) return null;
   if (result === "W")    return <span className="badge-w">W</span>;
   if (result === "L")    return <span className="badge-l">L</span>;
-  if (result === "OT-W") return <span className="badge-ot">OT</span>;
-  if (result === "OT-L") return <span className="badge-ot">OT</span>;
+  if (result === "OT-W") return <span className="badge-otw">OTW</span>;
+  if (result === "OT-L") return <span className="badge-otl">OTL</span>;
   return null;
 }
 
