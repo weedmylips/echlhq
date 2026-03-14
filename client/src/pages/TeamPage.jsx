@@ -1,10 +1,21 @@
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useTeam, useStandings, useLeaders } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useLeaders, useRoster, useTeamMoves } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import "./TeamPage.css";
 
 const DIVISION_ORDER = ["North", "South", "Central", "Mountain"];
+
+const MOVE_ICONS = {
+  ir: "\u{1F3E5}", reserve: "\u{1F4CB}", active: "\u2705", recalled_ahl: "\u2B06\uFE0F",
+  loaned: "\u{1F504}", traded: "\u{1F4B1}", signed: "\u270D\uFE0F", suspended: "\u{1F6AB}",
+  released: "\u{1F6AB}", leave: "\u{1F3E0}",
+};
+
+const POS_ORDER = { F: 0, D: 1, G: 2 };
+function sortByPosition(a, b) {
+  return (POS_ORDER[a.position] ?? 9) - (POS_ORDER[b.position] ?? 9);
+}
 const PLAYOFF_SPOTS = 4;
 
 // Determine W/L/OT result badge from a score object relative to this team
@@ -41,6 +52,8 @@ export default function TeamPage() {
   const { data, isLoading, error } = useTeam(teamId);
   const { data: standingsData } = useStandings();
   const { data: leadersData } = useLeaders();
+  const { data: rosterData } = useRoster(teamId);
+  const { data: movesData } = useTeamMoves(teamId);
 
   if (isLoading) return <div className="loading-spinner">Loading team…</div>;
   if (error) return <div className="error-box">Error loading team: {error.message}</div>;
@@ -135,7 +148,7 @@ export default function TeamPage() {
 
       {/* ── Tabs ── */}
       <div className="team-tabs">
-        {["overview", "standings"].map((tab) => (
+        {["overview", "roster", "standings"].map((tab) => (
           <button
             key={tab}
             className={`team-tab${activeTab === tab ? " active" : ""}`}
@@ -189,6 +202,25 @@ export default function TeamPage() {
                 <p className="empty-msg" style={{ padding: "16px" }}>No recent games available.</p>
               )}
             </div>
+
+            {/* Recent Moves */}
+            {movesData?.moves?.length > 0 && (
+              <div className="card section-card">
+                <div className="card-header">
+                  <span className="section-label" style={{ margin: 0 }}>Recent Moves</span>
+                </div>
+                <div className="recent-moves-list">
+                  {movesData.moves.slice(0, 10).map((move, i) => (
+                    <div key={i} className="move-row">
+                      <span className="move-icon">{MOVE_ICONS[move.type] || "\u2139\uFE0F"}</span>
+                      <span className="move-player">{move.player}</span>
+                      <span className="move-summary">{move.summary}</span>
+                      <span className="move-date">{move.date}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Key Stats Row */}
             {standing && (
@@ -398,6 +430,11 @@ export default function TeamPage() {
         </div>
       )}
 
+      {/* ── Roster Tab ── */}
+      {activeTab === "roster" && (
+        <RosterTab rosterData={rosterData} teamColor={team.primaryColor} />
+      )}
+
       {/* ── Standings Tab ── */}
       {activeTab === "standings" && (
         <div className="card section-card">
@@ -552,6 +589,71 @@ function Last10Strip({ lastTen, primaryColor }) {
         <span className="l10-count l10-l">{l}L</span>
         {total < 10 && <span className="l10-count l10-empty">{10 - total} remaining</span>}
       </div>
+    </div>
+  );
+}
+
+function RosterTab({ rosterData, teamColor }) {
+  if (!rosterData?.roster) {
+    return <p className="empty-msg" style={{ padding: "16px" }}>No roster data available.</p>;
+  }
+
+  const roster = rosterData.roster;
+  const sections = [
+    { key: "active",       label: "Active Roster",    filter: (p) => p.status === "active" || p.status === "signed", badge: null },
+    { key: "ir",           label: "Injured Reserve",   filter: (p) => p.status === "ir",           badge: "IR",   badgeClass: "status-badge-ir" },
+    { key: "reserve",      label: "Reserve",           filter: (p) => p.status === "reserve",      badge: "RES",  badgeClass: "status-badge-res" },
+    { key: "recalled_ahl", label: "With AHL Club",     filter: (p) => p.status === "recalled_ahl", badge: "\u2191AHL", badgeClass: "status-badge-ahl" },
+    { key: "suspended",    label: "Suspended",         filter: (p) => p.status === "suspended",    badge: "SUSP", badgeClass: "status-badge-susp" },
+  ];
+
+  return (
+    <div className="roster-sections">
+      {sections.map(({ key, label, filter, badge, badgeClass }) => {
+        const players = roster.filter(filter).sort(sortByPosition);
+        if (players.length === 0) return null;
+        return (
+          <div key={key} className="card section-card">
+            <div className="card-header">
+              <span className="section-label" style={{ margin: 0 }}>{label}</span>
+              {badge && <span className={`status-badge ${badgeClass}`}>{badge}</span>}
+              <span className="roster-count">{players.length}</span>
+            </div>
+            <div className="table-wrap">
+              <table className="roster-table">
+                <thead>
+                  <tr>
+                    <th className="num-col">#</th>
+                    <th>Player</th>
+                    <th>Pos</th>
+                    <th className="num-col">GP</th>
+                    <th className="num-col">G</th>
+                    <th className="num-col">A</th>
+                    <th className="num-col">PTS</th>
+                    {key === "ir" && <th>IR Days</th>}
+                    {key === "suspended" && <th>Games</th>}
+                  </tr>
+                </thead>
+                <tbody>
+                  {players.map((p, i) => (
+                    <tr key={p.playerId || i}>
+                      <td className="num">{p.number ?? "—"}</td>
+                      <td className="roster-player-name" style={{ color: teamColor }}>{p.player}</td>
+                      <td>{p.position}</td>
+                      <td className="num">{p.stats?.gp ?? 0}</td>
+                      <td className="num">{p.stats?.g ?? 0}</td>
+                      <td className="num">{p.stats?.a ?? 0}</td>
+                      <td className="num bold">{p.stats?.pts ?? 0}</td>
+                      {key === "ir" && <td>{p.irDays ? `${p.irDays}-day` : "—"}</td>}
+                      {key === "suspended" && <td>{p.suspensionGamesRemaining ?? "—"}</td>}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
