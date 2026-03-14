@@ -888,9 +888,9 @@ async function main() {
     .filter(Boolean);
 
   // Games that need a fresh fetch: new matches + previously in-progress
-  const existingIds = new Set(existingBoxscores.map((b) => b.gameInfo?.gameId));
+  const existingBoxscoreIds = new Set(existingBoxscores.map((b) => b.gameInfo?.gameId));
   const pendingGames = existingBoxscores.filter((b) => !b.isFinal);
-  const newGames = resolvedScores.filter((s) => s.gameId && !existingIds.has(s.gameId));
+  const newGames = resolvedScores.filter((s) => s.gameId && !existingBoxscoreIds.has(s.gameId));
 
   if (newGames.length > 0 || pendingGames.length > 0) {
     console.log(`Fetching ${newGames.length} new + ${pendingGames.length} in-progress box score(s)…`);

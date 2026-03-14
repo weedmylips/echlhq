@@ -26,6 +26,7 @@
       "shootoutRecord": "5-3-1-1",
       "lastTen": "1-0-0-0",
       "streak": "2-3",
+      "pim": 0,
       "attendanceGames": 30,
       "attendanceTotal": 73738,
       "attendanceAverage": 2457
@@ -56,6 +57,7 @@
       "shootoutRecord": "9-1-0-0",
       "lastTen": "0-1-0-0",
       "streak": "3-2",
+      "pim": 0,
       "attendanceGames": 25,
       "attendanceTotal": 115401,
       "attendanceAverage": 4616
@@ -86,6 +88,7 @@
       "shootoutRecord": "4-3-3-0",
       "lastTen": "0-3-3-0",
       "streak": "3-1",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 122222,
       "attendanceAverage": 4365
@@ -116,6 +119,7 @@
       "shootoutRecord": "5-2-2-1",
       "lastTen": "1-0-0-0",
       "streak": "3-1",
+      "pim": 0,
       "attendanceGames": 26,
       "attendanceTotal": 79441,
       "attendanceAverage": 3055
@@ -146,6 +150,7 @@
       "shootoutRecord": "6-4-0-0",
       "lastTen": "3-0-0-0",
       "streak": "2-3",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 60322,
       "attendanceAverage": 2154
@@ -176,6 +181,7 @@
       "shootoutRecord": "4-5-0-1",
       "lastTen": "0-2-0-1",
       "streak": "1-2",
+      "pim": 0,
       "attendanceGames": 29,
       "attendanceTotal": 113112,
       "attendanceAverage": 3900
@@ -206,6 +212,7 @@
       "shootoutRecord": "6-3-1-0",
       "lastTen": "5-0-1-0",
       "streak": "0-0",
+      "pim": 0,
       "attendanceGames": 31,
       "attendanceTotal": 151547,
       "attendanceAverage": 4888
@@ -236,6 +243,7 @@
       "shootoutRecord": "3-7-0-0",
       "lastTen": "0-1-0-0",
       "streak": "2-1",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 157471,
       "attendanceAverage": 5623
@@ -266,6 +274,7 @@
       "shootoutRecord": "9-1-0-0",
       "lastTen": "1-0-0-0",
       "streak": "0-2",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 179066,
       "attendanceAverage": 6395
@@ -296,6 +305,7 @@
       "shootoutRecord": "9-1-0-0",
       "lastTen": "7-0-0-0",
       "streak": "0-0",
+      "pim": 0,
       "attendanceGames": 30,
       "attendanceTotal": 157242,
       "attendanceAverage": 5241
@@ -326,6 +336,7 @@
       "shootoutRecord": "4-5-1-0",
       "lastTen": "0-1-0-0",
       "streak": "1-1",
+      "pim": 0,
       "attendanceGames": 26,
       "attendanceTotal": 120881,
       "attendanceAverage": 4649
@@ -356,6 +367,7 @@
       "shootoutRecord": "4-6-0-0",
       "lastTen": "0-3-0-0",
       "streak": "0-1",
+      "pim": 0,
       "attendanceGames": 30,
       "attendanceTotal": 224550,
       "attendanceAverage": 7485
@@ -386,6 +398,7 @@
       "shootoutRecord": "3-7-0-0",
       "lastTen": "2-0-0-0",
       "streak": "0-1",
+      "pim": 0,
       "attendanceGames": 29,
       "attendanceTotal": 197618,
       "attendanceAverage": 6814
@@ -416,6 +429,7 @@
       "shootoutRecord": "3-6-1-0",
       "lastTen": "0-3-1-0",
       "streak": "1-1",
+      "pim": 0,
       "attendanceGames": 26,
       "attendanceTotal": 136106,
       "attendanceAverage": 5234
@@ -446,6 +460,7 @@
       "shootoutRecord": "2-4-3-1",
       "lastTen": "1-0-0-0",
       "streak": "2-1",
+      "pim": 0,
       "attendanceGames": 26,
       "attendanceTotal": 243654,
       "attendanceAverage": 9371
@@ -476,6 +491,7 @@
       "shootoutRecord": "7-2-0-1",
       "lastTen": "0-1-0-0",
       "streak": "0-4",
+      "pim": 0,
       "attendanceGames": 27,
       "attendanceTotal": 217198,
       "attendanceAverage": 8044
@@ -506,6 +522,7 @@
       "shootoutRecord": "7-2-1-0",
       "lastTen": "0-1-0-0",
       "streak": "1-0",
+      "pim": 0,
       "attendanceGames": 25,
       "attendanceTotal": 198003,
       "attendanceAverage": 7920
@@ -536,6 +553,7 @@
       "shootoutRecord": "5-3-2-0",
       "lastTen": "1-0-0-0",
       "streak": "4-1",
+      "pim": 0,
       "attendanceGames": 30,
       "attendanceTotal": 152946,
       "attendanceAverage": 5098
@@ -566,6 +584,7 @@
       "shootoutRecord": "3-7-0-0",
       "lastTen": "0-1-0-0",
       "streak": "3-2",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 86525,
       "attendanceAverage": 3090
@@ -596,6 +615,7 @@
       "shootoutRecord": "6-4-0-0",
       "lastTen": "2-0-0-0",
       "streak": "1-3",
+      "pim": 0,
       "attendanceGames": 29,
       "attendanceTotal": 90725,
       "attendanceAverage": 3128
@@ -626,6 +646,7 @@
       "shootoutRecord": "6-4-0-0",
       "lastTen": "2-0-0-0",
       "streak": "1-0",
+      "pim": 0,
       "attendanceGames": 29,
       "attendanceTotal": 189641,
       "attendanceAverage": 6539
@@ -656,6 +677,7 @@
       "shootoutRecord": "5-3-2-0",
       "lastTen": "0-2-1-0",
       "streak": "2-2",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 42457,
       "attendanceAverage": 1516
@@ -686,6 +708,7 @@
       "shootoutRecord": "7-2-1-0",
       "lastTen": "1-0-0-0",
       "streak": "0-1",
+      "pim": 0,
       "attendanceGames": 33,
       "attendanceTotal": 144763,
       "attendanceAverage": 4386
@@ -716,6 +739,7 @@
       "shootoutRecord": "3-6-0-1",
       "lastTen": "0-1-0-1",
       "streak": "4-1",
+      "pim": 0,
       "attendanceGames": 27,
       "attendanceTotal": 140446,
       "attendanceAverage": 5201
@@ -746,6 +770,7 @@
       "shootoutRecord": "7-2-1-0",
       "lastTen": "3-0-0-0",
       "streak": "3-0",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 132316,
       "attendanceAverage": 4725
@@ -776,6 +801,7 @@
       "shootoutRecord": "5-4-0-1",
       "lastTen": "0-1-0-0",
       "streak": "1-3",
+      "pim": 0,
       "attendanceGames": 29,
       "attendanceTotal": 104178,
       "attendanceAverage": 3592
@@ -806,6 +832,7 @@
       "shootoutRecord": "3-4-3-0",
       "lastTen": "1-0-1-0",
       "streak": "1-4",
+      "pim": 0,
       "attendanceGames": 28,
       "attendanceTotal": 120840,
       "attendanceAverage": 4315
@@ -836,6 +863,7 @@
       "shootoutRecord": "4-3-2-1",
       "lastTen": "2-0-0-1",
       "streak": "0-1",
+      "pim": 0,
       "attendanceGames": 25,
       "attendanceTotal": 110977,
       "attendanceAverage": 4439
@@ -866,6 +894,7 @@
       "shootoutRecord": "2-6-1-1",
       "lastTen": "0-1-0-0",
       "streak": "2-1",
+      "pim": 0,
       "attendanceGames": 30,
       "attendanceTotal": 95002,
       "attendanceAverage": 3166
@@ -896,10 +925,11 @@
       "shootoutRecord": "5-5-0-0",
       "lastTen": "0-3-0-0",
       "streak": "0-0",
+      "pim": 0,
       "attendanceGames": 30,
       "attendanceTotal": 210495,
       "attendanceAverage": 7016
     }
   ],
-  "scrapedAt": "2026-03-14T13:46:08.129Z"
+  "scrapedAt": "2026-03-14T15:04:29.047Z"
 }
