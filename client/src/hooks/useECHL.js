@@ -39,6 +39,25 @@ export function useBoxscore(gameId) {
   });
 }
 
+export function useRoster(teamId) {
+  return useQuery({
+    queryKey: ["roster", teamId],
+    queryFn: () => api.roster(teamId),
+    enabled: !!teamId,
+    staleTime: STALE,
+  });
+}
+
+export function useTeamMoves(teamId) {
+  return useQuery({
+    queryKey: ["teamMoves", teamId],
+    queryFn: () => api.teamMoves(teamId),
+    enabled: !!teamId,
+    staleTime: STALE,
+    retry: 1,
+  });
+}
+
 // Derives team data from the static JSON files (no backend needed)
 export function useTeam(teamId) {
   const id = teamId ? parseInt(teamId) : null;

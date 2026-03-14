@@ -1,0 +1,46 @@
+name: ECHL Transactions
+
+on:
+  schedule:
+    # 10pm ET / 3am UTC daily — transactions are posted around 6-7pm ET
+    - cron: "0 3 * * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  transactions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install scraper dependencies
+        run: npm install
+        working-directory: scripts
+
+      - name: Run transaction agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/agent-transactions.js
+
+      - name: Commit and push changed data files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add client/public/data/
+          if git diff --cached --quiet; then
+            echo "No transaction changes to commit."
+          else
+            git commit -m "chore: update ECHL rosters [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi

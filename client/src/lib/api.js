@@ -22,6 +22,8 @@ export const api = {
   leaders:   () => dataFetch("/data/leaders.json"),
   scores:    () => dataFetch("/data/scores.json"),
   boxscore:  (gameId) => dataFetch(`/data/boxscores/${gameId}.json`),
+  roster:    (teamId) => dataFetch(`/data/rosters/${teamId}.json`),
+  teamMoves: (teamId) => dataFetch(`/data/team-moves/${teamId}.json`),
   // team endpoint still hits the API if available, else falls back gracefully
   team:      (teamId) => apiFetch(`/team/${teamId}`),
   health:    () => apiFetch("/health"),
