@@ -622,5 +622,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:15.091Z"
+  "scrapedAt": "2026-03-14T13:46:15.091Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "IND",
+      "name": "T. Weiss",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "IND",
+      "name": "M. Weeks",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "IND",
+      "name": "M. Petgrave",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ]
 }

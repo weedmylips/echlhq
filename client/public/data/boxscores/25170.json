@@ -734,5 +734,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:15.752Z"
+  "scrapedAt": "2026-03-14T13:46:15.752Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "CIN",
+      "name": "A. Kydd",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "IA",
+      "name": "A. Firriolo",
+      "g": 1,
+      "a": 2,
+      "pts": 3
+    },
+    {
+      "star": 3,
+      "team": "CIN",
+      "name": "J. Johnson",
+      "g": 1,
+      "a": 2,
+      "pts": 3
+    }
+  ]
 }

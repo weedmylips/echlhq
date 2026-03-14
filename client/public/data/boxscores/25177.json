@@ -747,5 +747,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:15.454Z"
+  "scrapedAt": "2026-03-14T13:46:15.454Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "SC",
+      "name": "K. Kupka",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "SC",
+      "name": "A. Gravel",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "SC",
+      "name": "K. Bohlsen",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    }
+  ]
 }

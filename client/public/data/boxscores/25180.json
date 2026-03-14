@@ -639,5 +639,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:15.485Z"
+  "scrapedAt": "2026-03-14T13:46:15.485Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "WHL",
+      "name": "T. Gauthier",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 2,
+      "team": "WHL",
+      "name": "R. Ansons",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "WHL",
+      "name": "T. Budnick",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ]
 }

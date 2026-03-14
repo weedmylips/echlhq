@@ -622,5 +622,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:15.206Z"
+  "scrapedAt": "2026-03-14T13:46:15.206Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "JAX",
+      "name": "J. Condotta",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "JAX",
+      "name": "M. Bullion",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "JAX",
+      "name": "D. Jankowski",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ]
 }

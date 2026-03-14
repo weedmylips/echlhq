@@ -694,5 +694,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:14.984Z"
+  "scrapedAt": "2026-03-14T13:46:14.984Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "TR",
+      "name": "A. Beauregard",
+      "g": 1,
+      "a": 3,
+      "pts": 4
+    },
+    {
+      "star": 2,
+      "team": "TR",
+      "name": "I. Dufort",
+      "g": 1,
+      "a": 2,
+      "pts": 3
+    },
+    {
+      "star": 3,
+      "team": "TR",
+      "name": "C. Martin",
+      "g": 1,
+      "a": 2,
+      "pts": 3
+    }
+  ]
 }

@@ -700,6 +700,27 @@ async function scrapeBoxscore(gameId) {
     }
   });
 
+  // ── Three Stars ────────────────────────────────────────────────────────────
+  const stars = [];
+  $("b").each((_, el) => {
+    if (!$(el).text().includes("Three Stars")) return;
+    const td = $(el).closest("td");
+    const lines = (td.html() || "").split(/<br\s*\/?>/i);
+    lines.forEach((line) => {
+      const text = nt(cheerio.load(line).text());
+      const m = text.match(/^(\d+)\.\s+(\S+)\s+-\s+(.+)$/);
+      if (m) stars.push({ star: parseInt(m[1]), team: m[2], name: m[3].trim() });
+    });
+    return false;
+  });
+
+  // Enrich stars with their game stats from skater tables
+  const allSkaters = [...(skaterStats.visiting || []), ...(skaterStats.home || [])];
+  const enrichedStars = stars.map((s) => {
+    const p = allSkaters.find((p) => p.name === s.name);
+    return p ? { ...s, g: p.g, a: p.a, pts: p.pts } : s;
+  });
+
   // ── Penalties ──────────────────────────────────────────────────────────────
   const penTable = findTable($, "table.tSides", "PENALTIES");
   const penalties = [];
@@ -714,7 +735,7 @@ async function scrapeBoxscore(gameId) {
     });
   }
 
-  return { gameInfo, periodScoring, shotsByPeriod, skaterStats, goalieStats, penalties, isFinal, scrapedAt: new Date().toISOString() };
+  return { gameInfo, periodScoring, shotsByPeriod, skaterStats, goalieStats, penalties, stars: enrichedStars, isFinal, scrapedAt: new Date().toISOString() };
 }
 
 // ─── Resolve Game IDs ─────────────────────────────────────────────────────────

@@ -603,5 +603,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:16.108Z"
+  "scrapedAt": "2026-03-14T13:46:16.108Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "ALN",
+      "name": "M. Gildon",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 2,
+      "team": "ALN",
+      "name": "J. Parsons",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "ALN",
+      "name": "A. Anania",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ]
 }

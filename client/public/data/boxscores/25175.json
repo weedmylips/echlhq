@@ -702,5 +702,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:16.288Z"
+  "scrapedAt": "2026-03-14T13:46:16.288Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "WIC",
+      "name": "G. Best",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "WIC",
+      "name": "T. Palocsik",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "RC",
+      "name": "J. Shields",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ]
 }

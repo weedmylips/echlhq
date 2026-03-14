@@ -711,5 +711,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:15.936Z"
+  "scrapedAt": "2026-03-14T13:46:15.936Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "KAL",
+      "name": "C. Bilek",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "KAL",
+      "name": "G. Ness",
+      "g": 1,
+      "a": 2,
+      "pts": 3
+    },
+    {
+      "star": 3,
+      "team": "BLM",
+      "name": "G. Porter",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ]
 }

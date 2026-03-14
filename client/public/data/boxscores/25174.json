@@ -639,5 +639,31 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-14T13:46:15.611Z"
+  "scrapedAt": "2026-03-14T13:46:15.611Z",
+  "stars": [
+    {
+      "star": 1,
+      "team": "NOR",
+      "name": "N. McCarry",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "NOR",
+      "name": "C. Musser",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "NOR",
+      "name": "I. Poulter",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    }
+  ]
 }

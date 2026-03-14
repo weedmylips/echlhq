@@ -29,7 +29,7 @@ export default function BoxScoreModal({ gameId, onClose }) {
 }
 
 function BoxScoreContent({ data }) {
-  const { gameInfo, periodScoring, shotsByPeriod, skaterStats, goalieStats, penalties } = data;
+  const { gameInfo, periodScoring, shotsByPeriod, skaterStats, goalieStats, penalties, stars = [] } = data;
   const hasData = periodScoring.length > 0 || shotsByPeriod.length > 0 ||
     skaterStats.home?.length > 0 || skaterStats.visiting?.length > 0;
 
@@ -102,43 +102,22 @@ function BoxScoreContent({ data }) {
         </div>
       )}
 
-      {/* Skater Stats — top 3 by points */}
-      {(skaterStats.visiting?.length > 0 || skaterStats.home?.length > 0) && (
+      {/* Three Stars */}
+      {stars.length > 0 && (
         <div className="bs-section">
-          <div className="bs-section-title">Top Performers</div>
-          {["visiting", "home"].map((side) => {
-            const players = skaterStats[side];
-            if (!players?.length) return null;
-            const top3 = [...players]
-              .filter((p) => p.pts > 0 || p.g > 0 || p.a > 0)
-              .sort((a, b) => (b.pts - a.pts) || (b.g - a.g));
-            if (!top3.length) return null;
-            return (
-              <div key={side} className="bs-team-block">
-                <div className="bs-team-label">
-                  {side === "visiting" ? (gameInfo.visitingTeam || "Visiting") : (gameInfo.homeTeam || "Home")}
-                </div>
-                <div className="table-wrap">
-                  <table>
-                    <thead>
-                      <tr><th>#</th><th>PLAYER</th><th>POS</th><th>G</th><th>A</th></tr>
-                    </thead>
-                    <tbody>
-                      {top3.map((p, i) => (
-                        <tr key={i}>
-                          <td>{p.number}</td>
-                          <td className="bold">{p.name}</td>
-                          <td>{p.pos}</td>
-                          <td className="num">{p.g}</td>
-                          <td className="num">{p.a}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+          <div className="bs-section-title">Three Stars</div>
+          <div className="bs-stars">
+            {stars.map((s) => (
+              <div key={s.star} className="bs-star">
+                <span className="bs-star-num">{s.star === 1 ? "★" : s.star === 2 ? "★★" : "★★★"}</span>
+                <span className="bs-star-name">{s.name}</span>
+                <span className="bs-star-team">{s.team}</span>
+                {s.pts != null && (
+                  <span className="bs-star-stats">{s.g}G {s.a}A</span>
+                )}
               </div>
-            );
-          })}
+            ))}
+          </div>
         </div>
       )}
 
