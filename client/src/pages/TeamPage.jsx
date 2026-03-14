@@ -163,8 +163,8 @@ export default function TeamPage() {
           {/* ── Left/main column ── */}
           <div className="overview-main">
 
-            {/* Recent Games */}
-            <div className="card section-card">
+            {/* Recent Games — full width */}
+            <div className="card section-card full-width">
               <div className="card-header">
                 <span className="section-label" style={{ margin: 0 }}>Recent Games</span>
               </div>
@@ -201,11 +201,13 @@ export default function TeamPage() {
               )}
             </div>
 
-            {/* ── GROUP 1: Playoff Critical ── */}
+            {/* Playoff Picture — half width */}
             {teamStats && <PlayoffPictureCard ts={teamStats} team={team} standing={standing} />}
+
+            {/* Clinching banner — half width (pairs with Playoff Picture or next card) */}
             {teamStats?.clinchedText && <ClinchingCard ts={teamStats} />}
 
-            {/* Recent Moves */}
+            {/* Recent Moves — half width */}
             {movesData?.moves?.length > 0 && (
               <div className="card section-card">
                 <div className="card-header">
@@ -224,7 +226,7 @@ export default function TeamPage() {
               </div>
             )}
 
-            {/* Home / Road Split */}
+            {/* Home / Road Split — half width */}
             {standing && (standing.homeRecord || standing.roadRecord) && (
               <div className="card section-card">
                 <div className="card-header">
@@ -250,9 +252,9 @@ export default function TeamPage() {
               </div>
             )}
 
-            {/* Last 10 Games Strip */}
+            {/* Last 10 Games — full width */}
             {standing?.lastTen && (
-              <div className="card section-card">
+              <div className="card section-card full-width">
                 <div className="card-header">
                   <span className="section-label" style={{ margin: 0 }}>Last 10 Games</span>
                   <span className="last10-record-label">{standing.lastTen}</span>
@@ -261,7 +263,7 @@ export default function TeamPage() {
               </div>
             )}
 
-            {/* Team Stats */}
+            {/* Team Stats — half width */}
             {standing && (
               <div className="card section-card">
                 <div className="card-header">
@@ -295,16 +297,23 @@ export default function TeamPage() {
               </div>
             )}
 
-            {/* ── GROUP 2: Performance Insights ── */}
-            {teamStats && <PctTrendCard ts={teamStats} team={team} standing={standing} />}
+            {/* Defensive Efficiency — half width (pairs with Team Stats) */}
             {teamStats && standing && (
               <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
             )}
 
-            {/* ── GROUP 3: Personality Stats ── */}
-            {teamStats && <DivisionH2HCard ts={teamStats} team={team} allStandings={allStandings} navigate={navigate} />}
+            {/* PIM — half width */}
             {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
+
+            {/* Home Ice Advantage — half width (pairs with PIM) */}
             {teamStats && standing && <HomeIceCard ts={teamStats} team={team} standing={standing} />}
+
+            {/* Division Head-to-Head — full width */}
+            {teamStats && (
+              <div className="full-width">
+                <DivisionH2HCard ts={teamStats} team={team} allStandings={allStandings} navigate={navigate} />
+              </div>
+            )}
 
           </div>
 
@@ -424,10 +433,10 @@ export default function TeamPage() {
 // ─── Playoff Picture Card ──────────────────────────────────────────────────────
 function PlayoffPictureCard({ ts, team, standing }) {
   if (!standing) return null;
-  const { playoffStatus, rank, magicNumber, ptsBack1st, ptsBack4th, divTotalTeams } = ts;
+  const { playoffStatus, rank, ptsBack1st, ptsBack4th } = ts;
 
   const statusClass =
-    playoffStatus === "CLINCHED"           ? "badge-clinched" :
+    playoffStatus === "CLINCHED"            ? "badge-clinched" :
     playoffStatus === "IN PLAYOFF POSITION" ? "badge-position" :
     playoffStatus === "ON THE BUBBLE"       ? "badge-bubble" :
     playoffStatus === "ELIMINATED"          ? "badge-eliminated" : "badge-chasing";
@@ -438,18 +447,18 @@ function PlayoffPictureCard({ ts, team, standing }) {
         <span className="section-label" style={{ margin: 0 }}>Playoff Picture</span>
         <span className={`playoff-status-badge ${statusClass}`}>{playoffStatus}</span>
       </div>
-      <div className="playoff-body">
+      <div className="playoff-simple-body">
         <div className="playoff-rank-display">
           <div className="playoff-rank-num" style={{ color: team.primaryColor }}>
             {ordinal(rank)}
           </div>
           <div className="playoff-rank-label">in {standing.division} Division</div>
         </div>
-        <div className="playoff-stats-row">
+        <div className="playoff-pts-back-row">
           {ptsBack1st === 0 ? (
             <div className="playoff-stat-item">
-              <div className="playoff-stat-val" style={{ color: "var(--green)" }}>1st</div>
-              <div className="playoff-stat-lbl">Division Leader</div>
+              <div className="playoff-stat-val" style={{ color: "var(--green)" }}>—</div>
+              <div className="playoff-stat-lbl">Back of 1st</div>
             </div>
           ) : (
             <div className="playoff-stat-item">
@@ -463,18 +472,6 @@ function PlayoffPictureCard({ ts, team, standing }) {
               <div className="playoff-stat-lbl">Back of 4th</div>
             </div>
           )}
-          {rank <= 4 && !ts.isClinched && magicNumber > 0 && (
-            <div className="playoff-stat-item">
-              <div className="playoff-stat-val" style={{ color: "var(--amber)" }}>{magicNumber}</div>
-              <div className="playoff-stat-lbl">Magic Number</div>
-            </div>
-          )}
-          {ts.isClinched && (
-            <div className="playoff-stat-item">
-              <div className="playoff-stat-val" style={{ color: "var(--green)" }}>✓</div>
-              <div className="playoff-stat-lbl">Clinched</div>
-            </div>
-          )}
           <div className="playoff-stat-item">
             <div className="playoff-stat-val">{standing.pts}</div>
             <div className="playoff-stat-lbl">Points</div>
@@ -483,22 +480,6 @@ function PlayoffPictureCard({ ts, team, standing }) {
             <div className="playoff-stat-val">{standing.gamesRemaining ?? "—"}</div>
             <div className="playoff-stat-lbl">GP Left</div>
           </div>
-        </div>
-        {/* Div rank bar */}
-        <div className="playoff-div-bar">
-          {Array.from({ length: divTotalTeams || 8 }, (_, i) => (
-            <div
-              key={i}
-              className={`playoff-div-seg ${i < 4 ? "seg-playoff" : "seg-miss"} ${i + 1 === rank ? "seg-current" : ""}`}
-              style={i + 1 === rank ? { background: team.primaryColor, borderColor: team.primaryColor } : {}}
-              title={i < 4 ? "Playoff spot" : "Out of playoffs"}
-            />
-          ))}
-        </div>
-        <div className="playoff-div-bar-label">
-          <span style={{ color: "var(--green)" }}>■ Playoff</span>
-          <span style={{ color: "var(--text-muted)" }}>■ Miss</span>
-          <span style={{ color: team.primaryColor }}>■ This team</span>
         </div>
       </div>
     </div>
