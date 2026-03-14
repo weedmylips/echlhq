@@ -7,7 +7,7 @@
       "homeScore": 3,
       "overtime": null,
       "score": "6-3",
-      "gameId": null,
+      "gameId": 25171,
       "date": "Yesterday"
     },
     {
@@ -17,7 +17,7 @@
       "homeScore": 2,
       "overtime": null,
       "score": "1-2",
-      "gameId": null,
+      "gameId": 25172,
       "date": "Yesterday"
     },
     {
@@ -27,7 +27,7 @@
       "homeScore": 2,
       "overtime": "OT",
       "score": "1-2 (OT)",
-      "gameId": null,
+      "gameId": 25173,
       "date": "Yesterday"
     },
     {
@@ -37,7 +37,7 @@
       "homeScore": 0,
       "overtime": null,
       "score": "5-0",
-      "gameId": null,
+      "gameId": 25176,
       "date": "Yesterday"
     },
     {
@@ -47,7 +47,7 @@
       "homeScore": 5,
       "overtime": null,
       "score": "1-5",
-      "gameId": null,
+      "gameId": 25177,
       "date": "Yesterday"
     },
     {
@@ -57,7 +57,7 @@
       "homeScore": 4,
       "overtime": null,
       "score": "0-4",
-      "gameId": null,
+      "gameId": 25180,
       "date": "Yesterday"
     },
     {
@@ -67,7 +67,7 @@
       "homeScore": 1,
       "overtime": null,
       "score": "4-1",
-      "gameId": null,
+      "gameId": 25174,
       "date": "Yesterday"
     },
     {
@@ -77,7 +77,7 @@
       "homeScore": 4,
       "overtime": "OT",
       "score": "3-4 (OT)",
-      "gameId": null,
+      "gameId": 25170,
       "date": "Yesterday"
     },
     {
@@ -87,7 +87,7 @@
       "homeScore": 2,
       "overtime": null,
       "score": "6-2",
-      "gameId": null,
+      "gameId": 25169,
       "date": "Yesterday"
     },
     {
@@ -97,7 +97,7 @@
       "homeScore": 2,
       "overtime": "SO",
       "score": "1-2 (SO)",
-      "gameId": null,
+      "gameId": 25168,
       "date": "Yesterday"
     },
     {
@@ -107,7 +107,7 @@
       "homeScore": 2,
       "overtime": null,
       "score": "3-2",
-      "gameId": null,
+      "gameId": 25175,
       "date": "Yesterday"
     },
     {
@@ -117,9 +117,9 @@
       "homeScore": 5,
       "overtime": null,
       "score": "6-5",
-      "gameId": null,
+      "gameId": 25178,
       "date": "Yesterday"
     }
   ],
-  "scrapedAt": "2026-03-14T13:10:24.600Z"
+  "scrapedAt": "2026-03-14T13:34:13.341Z"
 }

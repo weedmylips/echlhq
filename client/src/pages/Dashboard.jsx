@@ -122,7 +122,7 @@ export default function Dashboard() {
                                 {team.logoUrl && (
                                   <img src={team.logoUrl} alt="" className="row-logo" />
                                 )}
-                                <span style={{ color: team.primaryColor || "#fff", fontWeight: 600 }}>
+                                <span style={{ fontWeight: 600 }}>
                                   {team.teamName}
                                 </span>
                               </td>

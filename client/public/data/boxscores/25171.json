@@ -1,0 +1,27 @@
+{
+  "gameInfo": {
+    "gameId": 25171,
+    "homeTeam": "",
+    "visitingTeam": "",
+    "date": "",
+    "arena": "",
+    "attendance": 0,
+    "finalScore": {
+      "home": 0,
+      "visiting": 0
+    }
+  },
+  "periodScoring": [],
+  "shotsByPeriod": [],
+  "skaterStats": {
+    "home": [],
+    "visiting": []
+  },
+  "goalieStats": {
+    "home": [],
+    "visiting": []
+  },
+  "penalties": [],
+  "isFinal": true,
+  "scrapedAt": "2026-03-14T13:34:19.958Z"
+}

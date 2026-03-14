@@ -508,6 +508,13 @@ async function scrapeLeadersAndScores(html) {
   $("td").each((_, el) => {
     const html = $(el).html() || "";
     if (!html.includes(" at ")) return;
+    // Try to extract a game_id from any anchor tag in this cell or its row
+    const hrefAttr = $(el).find('a[href*="game_id"]').first().attr('href')
+                  || $(el).closest('tr').find('a[href*="game_id"]').first().attr('href')
+                  || "";
+    const idMatch = hrefAttr.match(/game_id=(\d+)/i);
+    const cellGameId = idMatch ? parseInt(idMatch[1]) : null;
+
     const lines = html.split(/<br\s*\/?>/i);
     let found = false;
     lines.forEach((line) => {
@@ -522,7 +529,7 @@ async function scrapeLeadersAndScores(html) {
           homeScore:     parseInt(m[4]),
           overtime:      m[5] || null,
           score:         `${m[2]}-${m[4]}${m[5] ? ` (${m[5]})` : ""}`,
-          gameId:        null,
+          gameId:        cellGameId,
           date:          "Yesterday",
         });
       }
@@ -664,11 +671,82 @@ async function scrapeBoxscore(gameId) {
   return { gameInfo, periodScoring, shotsByPeriod, skaterStats, goalieStats, penalties, isFinal, scrapedAt: new Date().toISOString() };
 }
 
+// ─── Resolve Game IDs ─────────────────────────────────────────────────────────
+// The daily report HTML has no game IDs; we probe the HockeyTech game report
+// pages (which don't require an API key) using a persisted seed ID stored in
+// meta.json so each run only scans a small forward window.
+
+const SEED_GAME_ID = 25150; // 2025-26 ECHL season reference (Mar 2026)
+
+async function fetchGameTitle(gameId) {
+  try {
+    const html = await fetchHTML(`${BOXSCORE_BASE}${gameId}`);
+    const m = html.match(/<title>([^<]+)<\/title>/i);
+    return m ? m[1].trim() : null;
+  } catch (_) { return null; }
+}
+
+function normName(s) {
+  return (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
+async function resolveGameIds(scores, seedId) {
+  if (!scores.length) return { scores, maxId: seedId };
+
+  // Build yesterday's date string in the title format "Mar 13, 2026"
+  const yd = new Date(Date.now() - 86400000);
+  const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const ydStr = `${monthNames[yd.getUTCMonth()]}  ${yd.getUTCDate()}, ${yd.getUTCFullYear()}`.replace(/ (\d{2}),/, " $1,"); // single-digit day gets extra space
+  const ydStr2 = `${monthNames[yd.getUTCMonth()]} ${String(yd.getUTCDate()).padStart(2," ")}, ${yd.getUTCFullYear()}`;
+
+  // Probe a window: seedId-5 to seedId+40
+  const start = Math.max(1, seedId - 5);
+  const end   = seedId + 60;
+  let maxId = seedId;
+
+  console.log(`  Probing game IDs ${start}–${end} for ${ydStr2.trim()}…`);
+
+  for (let id = start; id <= end; id++) {
+    const title = await fetchGameTitle(id);
+    if (!title || !title.startsWith("Gamesheet:")) continue;
+    if (!title.includes(ydStr2.trim())) continue; // only yesterday's games
+
+    maxId = Math.max(maxId, id);
+
+    // Parse "Gamesheet: Visiting at Home - Date"
+    const m = title.match(/^Gamesheet:\s+(.+?)\s+at\s+(.+?)\s+-\s+/);
+    if (!m) continue;
+    const visiting = normName(m[1]);
+    const home     = normName(m[2]);
+
+    // Match to a parsed score
+    const score = scores.find(
+      (s) => s.gameId === null &&
+             normName(s.visitingTeam).includes(visiting.slice(0, 5)) &&
+             normName(s.homeTeam).includes(home.slice(0, 5))
+    );
+    if (score) {
+      score.gameId = id;
+      console.log(`    ✓ ${id} → ${m[1]} at ${m[2]}`);
+    }
+  }
+
+  return { scores, maxId };
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
   const now = new Date().toISOString();
   let changed = 0;
+
+  // Load persisted meta for lastGameId seed
+  const metaPath = path.join(DATA_DIR, "meta.json");
+  let lastGameId = SEED_GAME_ID;
+  try {
+    const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
+    if (meta.lastGameId) lastGameId = meta.lastGameId;
+  } catch (_) {}
 
   console.log("Fetching daily report…");
   const reportHtml = await fetchHTML(DAILY_REPORT_URL);
@@ -706,16 +784,20 @@ async function main() {
     console.log("  – leaders.json unchanged");
   }
 
-  if (writeJSON(path.join(DATA_DIR, "scores.json"), { scores, scrapedAt: now })) {
-    console.log(`  ✓ scores.json (${scores.length} games)`);
+  // Resolve game IDs by probing HockeyTech game report pages
+  console.log("Resolving game IDs…");
+  const { scores: resolvedScores, maxId } = await resolveGameIds(scores, lastGameId);
+  const newLastGameId = Math.max(lastGameId, maxId);
+
+  if (writeJSON(path.join(DATA_DIR, "scores.json"), { scores: resolvedScores, scrapedAt: now })) {
+    const withId = resolvedScores.filter((s) => s.gameId).length;
+    console.log(`  ✓ scores.json (${resolvedScores.length} games, ${withId} with box score IDs)`);
     changed++;
   } else {
     console.log("  – scores.json unchanged");
   }
 
-  // Box scores for any recent games that have IDs
-  // (scores from daily report don't carry IDs, but we can scan existing boxscores dir
-  //  for any games that are not yet final and re-fetch them)
+  // Fetch box scores for yesterday's matched games + re-fetch any in-progress ones
   const existingBoxscores = fs.readdirSync(BOXSCORES_DIR)
     .filter((f) => f.endsWith(".json"))
     .map((f) => {
@@ -724,12 +806,18 @@ async function main() {
     })
     .filter(Boolean);
 
+  // Games that need a fresh fetch: new matches + previously in-progress
+  const existingIds = new Set(existingBoxscores.map((b) => b.gameInfo?.gameId));
   const pendingGames = existingBoxscores.filter((b) => !b.isFinal);
-  if (pendingGames.length > 0) {
-    console.log(`Re-fetching ${pendingGames.length} in-progress box score(s)…`);
-    for (const game of pendingGames) {
-      const gameId = game.gameInfo?.gameId;
-      if (!gameId) continue;
+  const newGames = resolvedScores.filter((s) => s.gameId && !existingIds.has(s.gameId));
+
+  if (newGames.length > 0 || pendingGames.length > 0) {
+    console.log(`Fetching ${newGames.length} new + ${pendingGames.length} in-progress box score(s)…`);
+    const toFetch = [
+      ...newGames.map((s) => s.gameId),
+      ...pendingGames.map((b) => b.gameInfo?.gameId).filter(Boolean),
+    ];
+    for (const gameId of [...new Set(toFetch)]) {
       try {
         const bs = await scrapeBoxscore(gameId);
         if (writeJSON(path.join(BOXSCORES_DIR, `${gameId}.json`), bs)) {
@@ -742,9 +830,10 @@ async function main() {
     }
   }
 
-  // Write meta
-  writeJSON(path.join(DATA_DIR, "meta.json"), {
-    updatedAt: now,
+  // Write meta (persist lastGameId for next run's seed)
+  writeJSON(metaPath, {
+    updatedAt:   now,
+    lastGameId:  newLastGameId,
     sources: {
       standings: now,
       leaders:   now,

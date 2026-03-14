@@ -131,10 +131,7 @@ export default function StandingsPage() {
                                 {team.logoUrl && (
                                   <img src={team.logoUrl} alt="" className="row-logo" />
                                 )}
-                                <span
-                                  className="team-name-text"
-                                  style={{ color: team.primaryColor || "#fff" }}
-                                >
+                                <span className="team-name-text">
                                   {team.teamName}
                                 </span>
                               </div>
