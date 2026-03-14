@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": null,
+  "lastTransactionCheck": "2026-03-12",
   "roster": [
     {
       "playerId": "9064",
@@ -62,26 +62,6 @@
         "g": 19,
         "a": 21,
         "pts": 40
-      }
-    },
-    {
-      "playerId": "9879",
-      "player": "Jack Adams",
-      "number": 90,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 47,
-        "g": 11,
-        "a": 24,
-        "pts": 35
       }
     },
     {
@@ -169,7 +149,7 @@
       "player": "Connor Kurth",
       "number": 19,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -349,7 +329,7 @@
       "player": "Alton McDermott",
       "number": 21,
       "position": "F",
-      "status": "active",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -615,8 +595,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Idaho",
+      "acquiredDate": "2026-03-08",
       "stats": {
         "gp": 32,
         "g": 0,
@@ -629,7 +609,7 @@
       "player": "Carter Allen",
       "number": 9,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -649,7 +629,7 @@
       "player": "Chris Harpur",
       "number": 4,
       "position": "D",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -662,26 +642,6 @@
         "g": 0,
         "a": 3,
         "pts": 3
-      }
-    },
-    {
-      "playerId": "10159",
-      "player": "Ryan Dickinson",
-      "number": 17,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 37,
-        "g": 0,
-        "a": 2,
-        "pts": 2
       }
     },
     {
@@ -829,7 +789,7 @@
       "player": "Colby Muise",
       "number": 33,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1390,6 +1350,26 @@
       "number": null,
       "position": "G",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Luc Wilson",
+      "number": null,
+      "position": "F",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

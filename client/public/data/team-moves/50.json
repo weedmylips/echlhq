@@ -1,0 +1,138 @@
+{
+  "teamId": 50,
+  "moves": [
+    {
+      "date": "2026-03-12",
+      "player": "Michael Brown",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Michael Brown",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Ryan Orgel",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Cole Beamin",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Cole Beamin",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Ryan Orgel",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Seth Eisele",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Alexis Gravel",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Lynden Breen",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Ryan Hofer",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Porter Schachle",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Alexis Gravel",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Zac Funk",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Hershey by Washington"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Cade Helmer",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-03",
+      "player": "Alexis Gravel",
+      "position": "G",
+      "type": "active",
+      "summary": "Acquired from Trois-Rivières"
+    },
+    {
+      "date": "2026-03-03",
+      "player": "Doug Scott",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-01",
+      "player": "Porter Schachle",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-01",
+      "player": "Ryan Orgel",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-01",
+      "player": "Doug Scott",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    }
+  ]
+}

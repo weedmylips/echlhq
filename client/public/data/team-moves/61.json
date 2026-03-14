@@ -1,0 +1,145 @@
+{
+  "teamId": 61,
+  "moves": [
+    {
+      "date": "2026-03-13",
+      "player": "Eric Parker",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Rapid City"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Cole Tymkin",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Rapid City"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Eric Parker",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Cole Tymkin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Alexander Kuqali",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Taylor Gauthier",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Wilkes-Barre/Scranton 3/6"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Ryan Mahshie",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Jack Works",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Mike Posma",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Raivis Ansons",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Alexander Kuqali",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Mike Posma",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Ryan Mahshie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Emil Pieniniemi",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Wilkes-Barre/Scranton by Pittsburgh"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Alexander Kuqali",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Raivis Ansons",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Tommy Budnick",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Brayden Edwards",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Tanner Andrew",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-02",
+      "player": "Nolan Renwick",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Wilkes-Barre/Scranton"
+    }
+  ]
+}

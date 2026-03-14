@@ -1,0 +1,145 @@
+{
+  "teamId": 70,
+  "moves": [
+    {
+      "date": "2026-03-13",
+      "player": "Brandon Hawkins",
+      "position": "F",
+      "type": "loaned",
+      "summary": "Loaned to Grand Rapids 3/12"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Jacob Truscott",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Grand Rapids 3/12"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Nolan Lalonde",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Carter Gylander",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Ryland Mosley",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Cleveland"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Mitch Lewandowski",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Reilly Funk",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Tanner Palocsik",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Wichita"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Dylan Moulton",
+      "position": "D",
+      "type": "active",
+      "summary": "Returned From Loan by Manitoba"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Carter Gylander",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Matt Jurusik",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Nicklas Andrews",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Grand Rapids"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Matt Jurusik",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Nolan Lalonde",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Mitch Lewandowski",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Colin Swoyer",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Christopher Brown",
+      "position": "F",
+      "type": "loaned",
+      "summary": "Loaned to Providence"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Carter Gylander",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Grand Rapids by Detroit"
+    },
+    {
+      "date": "2026-03-01",
+      "player": "Carter Gylander",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-01",
+      "player": "Nolan Lalonde",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    }
+  ]
+}

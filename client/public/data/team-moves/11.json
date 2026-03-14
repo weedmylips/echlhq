@@ -1,0 +1,145 @@
+{
+  "teamId": 11,
+  "moves": [
+    {
+      "date": "2026-03-13",
+      "player": "Grant Silianoff",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Aidan Hreschuk",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Nick Portz",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Chris Dodero",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Ben Kraws",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Texas by Dallas"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Jason Horvath",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Chris Dodero",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Jordan Steinmetz",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Jaden Shields",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day 3/8"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Jaden Shields",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Rapid City 3/8"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Kade Landry",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Orlando"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Jack Adams",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Orlando"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Aidan Hreschuk",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Nicholas Canade",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Kade Landry",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Florida"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Nicholas Canade",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Jaden Shields",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Jason Horvath",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Charlie Dodero",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-01",
+      "player": "Charlie Dodero",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve 2/28"
+    }
+  ]
+}

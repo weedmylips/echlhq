@@ -1,0 +1,145 @@
+{
+  "teamId": 101,
+  "moves": [
+    {
+      "date": "2026-03-13",
+      "player": "Ben Raymond",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Jacob Perreault",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Xavier Henry",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Colin Felix",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Providence"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Jackson Stewart",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Loke Johansson",
+      "position": "D",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Billy Girard",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Jacob Perreault",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Ben Raymond",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/7"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Sebastian Vidmar",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve 3/7"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Tynan Ewart",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Jackson Edward",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Providence by Boston"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Alex DiPaolo",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Indy"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Alex DiPaolo",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Brooklyn Kalmikov",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Providence"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Jackson Stewart",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Sebastian Vidmar",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "teamId": 85,
+  "moves": [
+    {
+      "date": "2026-03-13",
+      "player": "Eric Parker",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Wheeling"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Cole Tymkin",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Wheeling"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Ian Pierce",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Jake Ratzlaff",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Blake Bennett",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Calgary"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Parker Bowman",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Zach Giroux",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Nathan Torchia",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Rico DiMatteo",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Zach Giroux",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Braden Birnie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Quinn Olson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Jake Ratzlaff",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Braden Birnie",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Braden Birnie",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Simon Mack",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Calgary Wranglers 3/8"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Jaden Shields",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Idaho 3/8"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Garrett Klotz",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    }
+  ]
+}

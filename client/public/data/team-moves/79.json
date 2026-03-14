@@ -1,0 +1,75 @@
+{
+  "teamId": 79,
+  "moves": [
+    {
+      "date": "2026-03-13",
+      "player": "Trevor Griebel",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Nathan Berke",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Chris Grando",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Colby Ambrosio",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Tyler Coffey",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Colby Ambrosio",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Nathan Berke",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-03",
+      "player": "Brayden Hislop",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Rockford"
+    },
+    {
+      "date": "2026-03-02",
+      "player": "Scott Ratzlaff",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Rochester by Buffalo"
+    },
+    {
+      "date": "2026-03-02",
+      "player": "Cameron Rowe",
+      "position": "G",
+      "type": "active",
+      "summary": "Returned From Loan by Rochester"
+    }
+  ]
+}

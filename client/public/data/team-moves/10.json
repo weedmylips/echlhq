@@ -1,0 +1,138 @@
+{
+  "teamId": 10,
+  "moves": [
+    {
+      "date": "2026-03-12",
+      "player": "Max Grondin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Cam Gaudette",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Cam Gaudette",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Andrew Jarvis",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Evan Orr",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Evan Orr",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Kalan Lind",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Milwaukee by Nashville"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Max Grondin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Ethan Scardina",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Austin Roest",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Milwaukee by Nashville"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Max Grondin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Max Grondin",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Ethan Scardina",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Jack O'Brien",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Andrew Jarvis",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Dylan Carabia",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-03",
+      "player": "Nick McCarry",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Norfolk"
+    },
+    {
+      "date": "2026-03-03",
+      "player": "Nick McCarry",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-03",
+      "player": "Ryley Appelt",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    }
+  ]
+}

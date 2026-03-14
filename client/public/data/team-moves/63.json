@@ -1,0 +1,145 @@
+{
+  "teamId": 63,
+  "moves": [
+    {
+      "date": "2026-03-13",
+      "player": "Jack Pascucci",
+      "position": "D",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Michael Citara",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Michael Citara",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "David Drake",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Nick McCarry",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Connor Fedorek",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Tulsa"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Connor Fedorek",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Caleb Price",
+      "position": "D",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Connor Fedorek",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "David Drake",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Brayden Nicholetts",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "David Drake",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "William Magnuson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Nick McCarry",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Grant Hebert",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Jack Pascucci",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Killian KieckerOlson",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Christian Propp",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Dilan Savenkov",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Christian Propp",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "teamId": 8,
   "slug": "florida-everblades",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": null,
+  "lastTransactionCheck": "2026-03-12",
   "roster": [
     {
       "playerId": "11033",
@@ -149,10 +149,10 @@
       "player": "Kyle Penney",
       "number": 22,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-12",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -229,7 +229,7 @@
       "player": "Logan Lambdin",
       "number": 7,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -585,26 +585,6 @@
       }
     },
     {
-      "playerId": "10594",
-      "player": "Kade Landry",
-      "number": 5,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 30,
-        "g": 0,
-        "a": 8,
-        "pts": 8
-      }
-    },
-    {
       "playerId": "11112",
       "player": "Quinton Burns",
       "number": 55,
@@ -649,7 +629,7 @@
       "player": "Ross MacDougall",
       "number": 62,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

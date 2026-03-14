@@ -160,6 +160,8 @@ function parseTransactions(html) {
     .replace(/<\/div>/gi, "\n")
     .replace(/<\/li>/gi, "\n")
     .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
     .split("\n")
     .map((l) => l.trim())
     .filter(Boolean);

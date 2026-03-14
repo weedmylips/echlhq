@@ -1,0 +1,145 @@
+{
+  "teamId": 96,
+  "moves": [
+    {
+      "date": "2026-03-12",
+      "player": "Nico Somerville",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Jake Wahlin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Jack Bar",
+      "position": "D",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Christophe Fillion",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Cam Mitchell",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Gavin Best",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Tanner Palocsik",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Christophe Fillion",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Gabriel Carriere",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Declan Smith",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Declan Smith",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Kyle Jeffers",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Jonathan Melee",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Noah Beck",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Nico Somerville",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Jack Bar",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Robert Kincaid",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Oliver Tarr",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Nico Somerville",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Jonathan Melee",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    }
+  ]
+}

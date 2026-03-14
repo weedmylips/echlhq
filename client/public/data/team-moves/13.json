@@ -1,0 +1,145 @@
+{
+  "teamId": 13,
+  "moves": [
+    {
+      "date": "2026-03-12",
+      "player": "Colby Muise",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Jon Gillies",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Lucas Chard",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Ryan Dickinson",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Iowa"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Carter Allen",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Luc Wilson",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Alton McDermott",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Kade Landry",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Idaho"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Jack Adams",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Idaho"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Lucas Chard",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Jack Adams",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Connor Kurth",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Syracuse by Tampa Bay"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Tony Follmer",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Jack Adams",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Connor Kurth",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Ryan Dickinson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Jarid Lukosevicius",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Jon Gillies",
+      "position": "G",
+      "type": "loaned",
+      "summary": "Loaned to Syracuse"
+    },
+    {
+      "date": "2026-03-03",
+      "player": "Lucas Chard",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-02",
+      "player": "Reese Newkirk",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Syracuse"
+    }
+  ]
+}
