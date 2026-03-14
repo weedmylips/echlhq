@@ -8,7 +8,7 @@
       "overtime": null,
       "score": "6-3",
       "gameId": 25171,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Fort Wayne",
@@ -18,7 +18,7 @@
       "overtime": null,
       "score": "1-2",
       "gameId": 25172,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Greenville",
@@ -28,7 +28,7 @@
       "overtime": "OT",
       "score": "1-2 (OT)",
       "gameId": 25173,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Orlando",
@@ -38,7 +38,7 @@
       "overtime": null,
       "score": "5-0",
       "gameId": 25176,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Toledo",
@@ -48,7 +48,7 @@
       "overtime": null,
       "score": "1-5",
       "gameId": 25177,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Adirondack",
@@ -58,7 +58,7 @@
       "overtime": null,
       "score": "0-4",
       "gameId": 25180,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Norfolk",
@@ -68,7 +68,7 @@
       "overtime": null,
       "score": "4-1",
       "gameId": 25174,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Iowa",
@@ -78,7 +78,7 @@
       "overtime": "OT",
       "score": "3-4 (OT)",
       "gameId": 25170,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Kalamazoo",
@@ -88,7 +88,7 @@
       "overtime": null,
       "score": "6-2",
       "gameId": 25169,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Idaho",
@@ -98,7 +98,7 @@
       "overtime": "SO",
       "score": "1-2 (SO)",
       "gameId": 25168,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Wichita",
@@ -108,7 +108,7 @@
       "overtime": null,
       "score": "3-2",
       "gameId": 25175,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     },
     {
       "visitingTeam": "Kansas City",
@@ -118,7 +118,7 @@
       "overtime": null,
       "score": "6-5",
       "gameId": 25178,
-      "date": "Yesterday"
+      "date": "Mar 13, 2026"
     }
   ],
   "scrapedAt": "2026-03-14T13:46:08.129Z"

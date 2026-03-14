@@ -334,7 +334,7 @@ function parseMultiLeaderTableByIdx($, table, statCols) {
   return result;
 }
 
-async function scrapeLeadersAndScores(html) {
+async function scrapeLeadersAndScores(html, ydateStr) {
   const $ = cheerio.load(html);
   const leaders = {
     goals: [], assists: [], points: [],
@@ -530,7 +530,7 @@ async function scrapeLeadersAndScores(html) {
           overtime:      m[5] || null,
           score:         `${m[2]}-${m[4]}${m[5] ? ` (${m[5]})` : ""}`,
           gameId:        cellGameId,
-          date:          "Yesterday",
+          date:          ydateStr,
         });
       }
     });
@@ -839,9 +839,14 @@ async function main() {
     console.log("  – standings.json unchanged");
   }
 
+  // Yesterday's date string for labelling scores
+  const yd = new Date(Date.now() - 86400000);
+  const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const ydateStr = `${monthNames[yd.getUTCMonth()]} ${yd.getUTCDate()}, ${yd.getUTCFullYear()}`;
+
   // Leaders + scores
   console.log("Parsing leaders and scores…");
-  const { leaders, scores } = await scrapeLeadersAndScores(reportHtml);
+  const { leaders, scores } = await scrapeLeadersAndScores(reportHtml, ydateStr);
 
   if (writeJSON(path.join(DATA_DIR, "leaders.json"), { leaders, scrapedAt: now })) {
     console.log(`  ✓ leaders.json`);
@@ -855,9 +860,17 @@ async function main() {
   const { scores: resolvedScores, maxId } = await resolveGameIds(scores, lastGameId);
   const newLastGameId = Math.max(lastGameId, maxId);
 
-  if (writeJSON(path.join(DATA_DIR, "scores.json"), { scores: resolvedScores, scrapedAt: now })) {
-    const withId = resolvedScores.filter((s) => s.gameId).length;
-    console.log(`  ✓ scores.json (${resolvedScores.length} games, ${withId} with box score IDs)`);
+  // Merge new scores into rolling history (keep last 150 so every team has ~5 games)
+  const scoresPath = path.join(DATA_DIR, "scores.json");
+  let existingScores = [];
+  try { existingScores = JSON.parse(fs.readFileSync(scoresPath, "utf8")).scores || []; } catch (_) {}
+  const existingIds = new Set(existingScores.filter(s => s.gameId).map(s => s.gameId));
+  const newScores = resolvedScores.filter(s => !s.gameId || !existingIds.has(s.gameId));
+  const mergedScores = [...newScores, ...existingScores].slice(0, 150);
+
+  if (writeJSON(scoresPath, { scores: mergedScores, scrapedAt: now })) {
+    const withId = mergedScores.filter((s) => s.gameId).length;
+    console.log(`  ✓ scores.json (${mergedScores.length} games, ${withId} with box score IDs)`);
     changed++;
   } else {
     console.log("  – scores.json unchanged");
