@@ -17,13 +17,13 @@
         "rank": 3,
         "name": "Devon Paliani",
         "team": "TAH",
-        "value": 26
+        "value": 27
       },
       {
         "rank": 4,
         "name": "Danny Katic",
         "team": "ALN",
-        "value": 26
+        "value": 27
       }
     ],
     "assists": [
@@ -31,7 +31,7 @@
         "rank": 1,
         "name": "Marcus Crawford",
         "team": "KC",
-        "value": 60
+        "value": 62
       },
       {
         "rank": 2,
@@ -43,13 +43,13 @@
         "rank": 3,
         "name": "Riley McCourt",
         "team": "TOL",
-        "value": 39
+        "value": 40
       },
       {
         "rank": 4,
         "name": "Danny Dzhaniyev",
         "team": "UTA",
-        "value": 39
+        "value": 40
       },
       {
         "rank": 5,
@@ -63,7 +63,7 @@
         "rank": 1,
         "name": "Marcus Crawford",
         "team": "KC",
-        "value": 73
+        "value": 75
       },
       {
         "rank": 2,
@@ -75,7 +75,7 @@
         "rank": 3,
         "name": "Danny Dzhaniyev",
         "team": "UTA",
-        "value": 58
+        "value": 60
       },
       {
         "rank": 4,
@@ -97,74 +97,80 @@
       },
       {
         "rank": 7,
+        "name": "Devon Paliani",
+        "team": "TAH",
+        "value": 53
+      },
+      {
+        "rank": 8,
         "name": "Brannon McManus",
         "team": "ADK",
         "value": 53
       },
       {
-        "rank": 8,
+        "rank": 9,
+        "name": "Anthony Romano",
+        "team": "FLA",
+        "value": 53
+      },
+      {
+        "rank": 10,
         "name": "Peter Bates",
         "team": "WIC",
         "value": 53
       },
       {
-        "rank": 9,
-        "name": "Devon Paliani",
-        "team": "TAH",
+        "rank": 11,
+        "name": "Reed Lebster",
+        "team": "UTA",
         "value": 52
       },
       {
-        "rank": 10,
+        "rank": 12,
         "name": "Brendan Hoffmann",
         "team": "IDH",
         "value": 51
       },
       {
-        "rank": 11,
-        "name": "Reed Lebster",
-        "team": "UTA",
-        "value": 51
-      },
-      {
-        "rank": 12,
+        "rank": 13,
         "name": "x Jackson Jutting",
         "team": "KC",
         "value": 51
       },
       {
-        "rank": 13,
+        "rank": 14,
         "name": "Casey Bailey",
         "team": "TAH",
         "value": 51
       },
       {
-        "rank": 14,
+        "rank": 15,
         "name": "Blake Bennett",
         "team": "RC",
         "value": 51
       },
       {
-        "rank": 15,
+        "rank": 16,
         "name": "Reece Newkirk",
         "team": "ORL",
         "value": 51
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "Austin Magera",
         "team": "FW",
         "value": 50
       },
       {
-        "rank": 17,
+        "rank": 18,
         "name": "Alex Young",
         "team": "ATL",
         "value": 50
       },
       {
-        "rank": 18,
-        "name": "Anthony Romano",
-        "team": "FLA",
+        "rank": 19,
+        "name": "Tanner Dickinson",
+        "team": "TOL",
         "value": 50
       }
     ],
@@ -172,15 +178,15 @@
     "svPct": [
       {
         "rank": 1,
-        "name": "Matt Davis",
-        "team": "WIC",
+        "name": "Taylor Gauthier",
+        "team": "WHL",
         "value": 0.929
       },
       {
         "rank": 2,
-        "name": "Taylor Gauthier",
-        "team": "WHL",
-        "value": 0.929
+        "name": "Matt Davis",
+        "team": "WIC",
+        "value": 0.928
       },
       {
         "rank": 3,
@@ -276,7 +282,7 @@
         "rank": 2,
         "name": "Jordan Sambrook",
         "team": "FLA",
-        "value": 43
+        "value": 44
       },
       {
         "rank": 3,
@@ -302,7 +308,7 @@
         "rank": 1,
         "name": "Danny Dzhaniyev",
         "team": "UTA",
-        "value": 236
+        "value": 240
       },
       {
         "rank": 2,
@@ -312,21 +318,21 @@
       },
       {
         "rank": 3,
+        "name": "Michal Stinil",
+        "team": "WIC",
+        "value": 207
+      },
+      {
+        "rank": 4,
         "name": "Brandon Hawkins",
         "team": "TOL",
         "value": 206
       },
       {
-        "rank": 4,
-        "name": "Michal Stinil",
-        "team": "WIC",
-        "value": 199
-      },
-      {
         "rank": 5,
-        "name": "Blake Bennett",
+        "name": "Ryan Wagner",
         "team": "RC",
-        "value": 198
+        "value": 199
       }
     ],
     "shootingPct": [],
@@ -368,7 +374,7 @@
         "rank": 1,
         "name": "Marcus Crawford",
         "team": "KC",
-        "value": 28
+        "value": 30
       },
       {
         "rank": 2,
@@ -386,7 +392,7 @@
         "rank": 4,
         "name": "Danny Dzhaniyev",
         "team": "UTA",
-        "value": 19
+        "value": 20
       },
       {
         "rank": 5,
@@ -474,6 +480,12 @@
         "name": "Mikael Robidoux",
         "team": "REA",
         "value": 30
+      },
+      {
+        "rank": 5,
+        "name": "Trent Swick",
+        "team": "TAH",
+        "value": 30
       }
     ],
     "majors": [
@@ -531,5 +543,5 @@
     "soPct": [],
     "soRecord": []
   },
-  "scrapedAt": "2026-03-14T15:46:27.132Z"
+  "scrapedAt": "2026-03-15T15:48:44.467Z"
 }
