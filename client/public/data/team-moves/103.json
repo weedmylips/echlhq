@@ -30,116 +30,116 @@
       "summary": "Recalled to Laval by Montreal"
     },
     {
-      "date": "2026-03-12",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
+      "date": "2025-11-06",
+      "player": "Anthony Beauchamp",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Florida"
     },
     {
-      "date": "2026-03-12",
-      "player": "Darick Louis-Jean",
+      "date": "2025-11-06",
+      "player": "Anthony Beauchamp",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-05",
+      "player": "Hunter Jones",
+      "position": "G",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-05",
+      "player": "Wyatte Wylie",
       "position": "D",
       "type": "recalled_ahl",
       "summary": "Recalled by Laval"
     },
     {
-      "date": "2026-03-11",
-      "player": "Hunter Jones",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Laval"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "William Lavalliere",
-      "position": "G",
+      "date": "2025-11-05",
+      "player": "Andrew Coxhead",
+      "position": "F",
       "type": "leave",
       "summary": "Activated from Family/Bereavement Leave"
     },
     {
-      "date": "2026-03-09",
-      "player": "Franseco Lapenna",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Hunter Jones",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Anthony Poulin",
+      "date": "2025-11-02",
+      "player": "Anthony Beauchamp",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-09",
-      "player": "Egor Goriunov",
+      "date": "2025-11-02",
+      "player": "Tommy Cormier",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-08",
-      "player": "Hunter Jones",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Franseco Lapenna",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Edouard Charron",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Mark Estapa",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Sean Gulka",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jeremy Michaud",
+      "date": "2025-11-02",
+      "player": "Jacob Paquette",
       "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-02",
+      "player": "Emmett Serensits",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2025-11-02",
+      "player": "Hunter Jones",
+      "position": "G",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-06",
-      "player": "Emmett Serensits",
-      "position": "D",
+      "date": "2025-11-02",
+      "player": "Vincent Duplessis",
+      "position": "G",
       "type": "active",
       "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Andrew Coxhead",
+      "position": "F",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Landon Fuller",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Noah Massie",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Tommy Cormier",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Morgan Adams-Moisan",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
     }
   ]
 }

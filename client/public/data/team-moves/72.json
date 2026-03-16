@@ -2,6 +2,34 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Cade McNelly",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Dakota Seaman",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Owen Lindmark",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Michael Davies",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-14",
       "player": "Keegan Iverson",
       "position": "F",
@@ -44,102 +72,74 @@
       "summary": "Signed Amateur Tryout"
     },
     {
-      "date": "2026-03-12",
-      "player": "Jackson Niedermayer",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
+      "date": "2025-11-10",
+      "player": "Christian Propp",
+      "position": "G",
+      "type": "active",
+      "summary": "Acquired from Greensboro"
     },
     {
-      "date": "2026-03-12",
-      "player": "Tyrell Goulbourne",
+      "date": "2025-11-10",
+      "player": "Tomas Suchanek",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to San Diego by Anaheim"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Roman Kinal",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by San Diego"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Matt Koethe",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Jeffrey Faith",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "JC Brassard",
-      "position": "D",
+      "date": "2025-11-07",
+      "player": "Tyrell Goulbourne",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2025-11-06",
+      "player": "Jeffrey Faith",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
+      "date": "2025-11-06",
+      "player": "Coulson Pitre",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-05",
       "player": "Dylan Fitze",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Tyler Poulsen",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Tanner Faith",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Lukas Jirousek",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Drew Elliott",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by San Diego"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Connor Fedorek",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Norfolk"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Keegan Iverson",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Zachary Murray",
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-04",
-      "player": "Jake Sibell",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "David Tendeck",
-      "position": "G",
-      "type": "active",
-      "summary": "Acquired from Allen"
-    },
-    {
-      "date": "2026-03-02",
-      "player": "Mitchell Russell",
+      "date": "2025-11-04",
+      "player": "Jaxsen Wiebe",
       "position": "F",
-      "type": "traded",
-      "summary": "Traded to Allen"
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
     }
   ]
 }

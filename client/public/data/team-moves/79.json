@@ -2,6 +2,20 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Nathan Berke",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Dalton Duhart",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-14",
       "player": "Holden Wale",
       "position": "D",
@@ -58,46 +72,74 @@
       "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-03-12",
-      "player": "Tyler Coffey",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Colby Ambrosio",
-      "position": "F",
+      "date": "2025-11-08",
+      "player": "Scott Ratzlaff",
+      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-06",
-      "player": "Nathan Berke",
-      "position": "F",
+      "date": "2025-11-08",
+      "player": "Michael Bullion",
+      "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-03",
-      "player": "Brayden Hislop",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Rockford"
-    },
-    {
-      "date": "2026-03-02",
-      "player": "Scott Ratzlaff",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Rochester by Buffalo"
-    },
-    {
-      "date": "2026-03-02",
-      "player": "Cameron Rowe",
-      "position": "G",
+      "date": "2025-11-07",
+      "player": "MacAuley Carson",
+      "position": "F",
       "type": "active",
-      "summary": "Returned From Loan by Rochester"
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Michael Bullion",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Peter Tischke",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Jaden Condotta",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Garrett VanWyhe",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Ryan Pitoscia",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Indy"
+    },
+    {
+      "date": "2025-11-06",
+      "player": "Matteo Costantini",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Rochester"
+    },
+    {
+      "date": "2025-11-05",
+      "player": "Garrett VanWyhe",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     }
   ]
 }

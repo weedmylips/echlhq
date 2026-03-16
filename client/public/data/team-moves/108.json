@@ -2,6 +2,27 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Tian Rask",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Demetrios Koumontzis",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Anthony Messuri",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-14",
       "player": "Demetrios Koumontzis",
       "position": "F",
@@ -44,100 +65,79 @@
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-12",
-      "player": "Blake Dangos",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "True Crowe",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "True Crowe",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Drew Kuzma",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Noah Delmas",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Drew Kuzma",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Zach Faremouth",
-      "position": "F",
+      "date": "2025-11-10",
+      "player": "Christian Propp",
+      "position": "G",
       "type": "traded",
-      "summary": "Traded to Bloomington 3/7"
+      "summary": "Traded to Tulsa"
     },
     {
-      "date": "2026-03-08",
-      "player": "Deni Goure",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Chicago Wolves"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Blake Swetlikoff",
+      "date": "2025-11-10",
+      "player": "Wade Murphy",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-08",
-      "player": "David Gagnon",
+      "date": "2025-11-10",
+      "player": "Patrick Newell",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-07",
-      "player": "Tian Rask",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Rider McCallum",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "David Gagnon",
+      "date": "2025-11-10",
+      "player": "Jake Elmer",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-07",
-      "player": "Anthony Messuri",
+      "date": "2025-11-09",
+      "player": "Patrick Newell",
       "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-09",
+      "player": "Wade Murphy",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-09",
+      "player": "Gabe Blanchard",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Gabe Blanchard",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Jordan Biro",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Jordan Biro",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Dalton Skelly",
+      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     }

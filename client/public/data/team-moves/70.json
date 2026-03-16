@@ -44,102 +44,102 @@
       "summary": "Recalled by Cleveland"
     },
     {
-      "date": "2026-03-12",
-      "player": "Mitch Lewandowski",
+      "date": "2025-11-11",
+      "player": "Nolan Moyle",
       "position": "F",
+      "type": "loaned",
+      "summary": "Loaned to Grand Rapids"
+    },
+    {
+      "date": "2025-11-11",
+      "player": "Bobby Russell",
+      "position": "D",
       "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-03-10",
-      "player": "Reilly Funk",
+      "date": "2025-11-11",
+      "player": "Darian Pilon",
       "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
+      "type": "traded",
+      "summary": "Traded to Rapid City"
     },
     {
-      "date": "2026-03-09",
-      "player": "Tanner Palocsik",
+      "date": "2025-11-11",
+      "player": "Bobby Russell",
       "position": "D",
       "type": "traded",
-      "summary": "Traded to Wichita"
+      "summary": "Traded to Rapid City"
     },
     {
-      "date": "2026-03-09",
-      "player": "Dylan Moulton",
-      "position": "D",
-      "type": "active",
-      "summary": "Returned From Loan by Manitoba"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Carter Gylander",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Matt Jurusik",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Nicklas Andrews",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Grand Rapids"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Matt Jurusik",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Nolan Lalonde",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Mitch Lewandowski",
+      "date": "2025-11-11",
+      "player": "Darby Llewellyn",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-06",
+      "date": "2025-11-11",
       "player": "Colin Swoyer",
       "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Christopher Brown",
-      "position": "F",
       "type": "loaned",
       "summary": "Loaned to Providence"
     },
     {
-      "date": "2026-03-04",
+      "date": "2025-11-11",
+      "player": "Tanner Palocsik",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-09",
+      "player": "Darby Llewellyn",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-09",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
       "player": "Carter Gylander",
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled to Grand Rapids by Detroit"
     },
     {
-      "date": "2026-03-01",
-      "player": "Carter Gylander",
+      "date": "2025-11-08",
+      "player": "Liam Souliere",
       "position": "G",
       "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Darby Llewellyn",
+      "position": "F",
+      "type": "active",
       "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Tanner Palocsik",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     }
   ]
 }

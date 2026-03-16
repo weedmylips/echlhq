@@ -2,6 +2,34 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Cole Beamin",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Bryan Moore",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Ryan Orgel",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Josh Wilkins",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-14",
       "player": "Kaden Bohlsen",
       "position": "F",
@@ -44,100 +72,72 @@
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-12",
-      "player": "Michael Brown",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Michael Brown",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Ryan Orgel",
+      "date": "2025-11-08",
+      "player": "John Fusco",
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-12",
-      "player": "Cole Beamin",
+      "date": "2025-11-08",
+      "player": "Jordan Klimek",
       "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Cole Beamin",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Ryan Orgel",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Seth Eisele",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Alexis Gravel",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Lynden Breen",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Ryan Hofer",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Porter Schachle",
-      "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-05",
-      "player": "Alexis Gravel",
+      "date": "2025-11-06",
+      "player": "Antoine Keller",
       "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Hershey"
+    },
+    {
+      "date": "2025-11-04",
+      "player": "Mitchel Deelstra",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-05",
-      "player": "Zac Funk",
+      "date": "2025-11-04",
+      "player": "Scott Docherty",
       "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Hershey by Washington"
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-04",
-      "player": "Cade Helmer",
+      "date": "2025-11-03",
+      "player": "Tanner Edwards",
       "position": "F",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2025-11-02",
+      "player": "Scott Docherty",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-02",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Jalen Luypen",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "DJ King",
+      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     }

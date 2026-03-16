@@ -16,123 +16,130 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-11",
-      "player": "Yuki Miura",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Matthew Sop",
-      "position": "F",
+      "date": "2025-11-11",
+      "player": "Zach Taylor",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-11",
-      "player": "Dylan Massie",
+      "date": "2025-11-10",
+      "player": "Ty Gibson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-10",
+      "player": "Zach Taylor",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Atlanta"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Lord-Anthony Grissom",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Mike Koster",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Lucas Helland",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-03-11",
-      "player": "Elliot Desnoyers",
+      "date": "2025-11-07",
+      "player": "Brandon Schultz",
       "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-11",
-      "player": "Nikita Borodaenko",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Nikita Borodaenko",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Jack Robilotti",
-      "position": "D",
+      "date": "2025-11-06",
+      "player": "Dante Giannuzzi",
+      "position": "G",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-03-09",
-      "player": "Ryan Dickinson",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Tahoe"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Ryan Dickinson",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Orlando"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Kyle Osterberg",
-      "position": "F",
+      "date": "2025-11-06",
+      "player": "William Rousseau",
+      "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-04",
-      "player": "Kyle Osterberg",
-      "position": "F",
+      "date": "2025-11-06",
+      "player": "Ty Gibson",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-04",
-      "player": "Noah Massie",
+      "date": "2025-11-01",
+      "player": "Ty Gibson",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-04",
+      "date": "2025-11-01",
+      "player": "Mike Koster",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Carter Allen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "William Rousseau",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-01",
       "player": "Dante Giannuzzi",
       "position": "G",
       "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-03",
-      "player": "Stevie Leskovar",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Iowa Wild by Minnesota"
+      "date": "2025-10-31",
+      "player": "Matt Hubbarde",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Rapid City"
     },
     {
-      "date": "2026-03-03",
-      "player": "William Rousseau",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Iowa Wild"
+      "date": "2025-10-31",
+      "player": "Luke Mobley",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-01",
-      "player": "Jack Robilotti",
+      "date": "2025-10-31",
+      "player": "Ty Gibson",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-01",
-      "player": "Elliott McDermott",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

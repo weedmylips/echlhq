@@ -16,128 +16,128 @@
       "summary": "Loaned to Grand Rapids 3/12"
     },
     {
-      "date": "2026-03-12",
-      "player": "Nolan Sullivan",
-      "position": "F",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Tyler Schleppe",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Luke Loheit",
+      "date": "2025-11-11",
+      "player": "Chase Brand",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-11",
-      "player": "James Marooney",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Hudson Wilson",
-      "position": "D",
+      "date": "2025-11-11",
+      "player": "Lucas Sowder",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-11",
-      "player": "Tyler Schleppe",
+      "date": "2025-11-10",
+      "player": "Will Gavin",
       "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-11",
+      "date": "2025-11-10",
+      "player": "Lucas Sowder",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-10",
       "player": "Lucas Sowder",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-03-11",
-      "player": "Tyler Schleppe",
-      "position": "F",
+      "date": "2025-11-08",
+      "player": "Kyle Pow",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-11",
-      "player": "Chase Brand",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Jimmy Glynn",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Lucas Sowder",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Jack LaFontaine",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/8"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Dylan Wells",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve 3/8"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Lucas Sowder",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Chase Brand",
+      "date": "2025-11-08",
+      "player": "David Cotton",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-04",
-      "player": "Chase Brand",
+      "date": "2025-11-06",
+      "player": "Will Gavin",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-04",
+      "date": "2025-11-06",
+      "player": "Kyle Pow",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-04",
+      "player": "Thomas Farrell",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-04",
+      "player": "Kyle Pow",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-04",
+      "player": "Lucas Sowder",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2025-11-04",
+      "player": "Logan Terness",
+      "position": "G",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-02",
+      "player": "Lucas Sowder",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-02",
       "player": "Will Gavin",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-04",
-      "player": "Hudson Wilson",
+      "date": "2025-11-02",
+      "player": "David Cotton",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-02",
+      "player": "Thomas Farrell",
       "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Will Gavin",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

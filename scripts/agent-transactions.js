@@ -79,7 +79,7 @@ const MONTH_NAMES_LONG = [
 
 const STATUS_RULES = [
   { pattern: /placed on ir (\d+) day/i,       status: "ir",           getExtra: (m) => ({ irDays: parseInt(m[1]) }) },
-  { pattern: /placed on reserve/i,             status: "reserve",      getExtra: () => ({}) },
+  { pattern: /placed on reserve/i,             status: "reserve",      getExtra: () => ({ clearIR: true }) },
   { pattern: /activated from ir/i,             status: "active",       getExtra: () => ({ clearIR: true }) },
   { pattern: /activated from reserve/i,        status: "active",       getExtra: () => ({}) },
   { pattern: /recalled to .+ by/i,             status: "recalled_ahl", getExtra: () => ({}) },

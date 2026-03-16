@@ -2,6 +2,20 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Hudson Schandor",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Ben Poisson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-13",
       "player": "Joshua Zary",
       "position": "F",
@@ -65,74 +79,67 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Caiden Gault",
+      "date": "2025-11-11",
+      "player": "Ben Poisson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2025-11-11",
+      "player": "Brent Pedersen",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Caiden Gault",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
+      "date": "2025-11-11",
+      "player": "Jordan Power",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-06",
-      "player": "Ben Poisson",
+      "date": "2025-11-09",
+      "player": "Jake Murray",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Abbotsford"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Dante Sheriff",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-06",
-      "player": "Cam Hausinger",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "date": "2025-11-08",
+      "player": "Jordan Power",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-05",
+      "date": "2025-11-06",
       "player": "Kenta Isogai",
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled by Ontario"
     },
     {
-      "date": "2026-03-05",
-      "player": "Keaton Mastrodonato",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Ontario"
+      "date": "2025-10-27",
+      "player": "Pierce Charleson",
+      "position": "G",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-03-04",
-      "player": "Ben Poisson",
+      "date": "2025-10-27",
+      "player": "Dante Sheriff",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-04",
-      "player": "Josh Atkinson",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Neil Shea",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Remy Parker",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

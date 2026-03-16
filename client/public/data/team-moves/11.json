@@ -2,6 +2,13 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Jake Boltmann",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to San Jose Barracuda"
+    },
+    {
       "date": "2026-03-14",
       "player": "Kaleb Pearson",
       "position": "F",
@@ -72,74 +79,67 @@
       "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-03-10",
-      "player": "Chris Dodero",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
+      "date": "2025-11-10",
+      "player": "Jake Barczewski",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-10",
-      "player": "Jordan Steinmetz",
-      "position": "F",
+      "date": "2025-11-07",
+      "player": "Arno Tiefensee",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-07",
+      "player": "Beni Halasz",
+      "position": "G",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-09",
+      "date": "2025-11-06",
+      "player": "Jeffrey Baum",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-06",
       "player": "Jaden Shields",
       "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day 3/8"
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-09",
-      "player": "Jaden Shields",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Rapid City 3/8"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Kade Landry",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Orlando"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Jack Adams",
+      "date": "2025-11-04",
+      "player": "Angus MacDonell",
       "position": "F",
-      "type": "active",
-      "summary": "Acquired from Orlando"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Aidan Hreschuk",
-      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-07",
-      "player": "Nicholas Canade",
+      "date": "2025-11-04",
+      "player": "Kaleb Pearson",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-07",
-      "player": "Kade Landry",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Florida"
+      "date": "2025-11-02",
+      "player": "Arno Tiefensee",
+      "position": "G",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
     },
     {
-      "date": "2026-03-06",
-      "player": "Nicholas Canade",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2025-11-02",
+      "player": "Arno Tiefensee",
+      "position": "G",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     }
   ]
 }

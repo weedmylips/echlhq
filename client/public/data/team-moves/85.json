@@ -86,60 +86,60 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Nathan Torchia",
-      "position": "G",
+      "date": "2025-11-11",
+      "player": "Aaron Chiarot",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Rico DiMatteo",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Zach Giroux",
+      "date": "2025-11-11",
+      "player": "Parker Bowman",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Braden Birnie",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
+      "date": "2025-11-11",
       "player": "Darian Pilon",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Quinn Olson",
-      "position": "F",
       "type": "active",
-      "summary": "Activated from IR 3 Day"
+      "summary": "Acquired from Toledo"
     },
     {
-      "date": "2026-03-12",
-      "player": "Jake Ratzlaff",
+      "date": "2025-11-11",
+      "player": "Bobby Russell",
       "position": "D",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2025-11-10",
+      "player": "Étienne Morin",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Calgary Wranglers by Calgary Flames 11/9"
+    },
+    {
+      "date": "2025-11-10",
+      "player": "Cameron Buhl",
+      "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-10",
-      "player": "Braden Birnie",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2025-11-10",
+      "player": "Mitchell Smith",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-10",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
     }
   ]
 }

@@ -100,32 +100,46 @@
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-08",
+      "date": "2025-11-08",
       "player": "Henry Welsch",
       "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-03-08",
-      "player": "Tyler Brennan",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Ryan Helliwell",
+      "date": "2025-11-08",
+      "player": "Conner Hutchison",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-08",
-      "player": "Adrien Beradlo",
-      "position": "D",
+      "date": "2025-11-08",
+      "player": "Greg Smith",
+      "position": "F",
       "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Sean Gulka",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2025-11-06",
+      "player": "Mathieu Boislard",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-06",
+      "player": "Justin Taylor",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     }
   ]
 }

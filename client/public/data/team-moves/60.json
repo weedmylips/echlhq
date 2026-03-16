@@ -2,6 +2,20 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Dustyn McFaul",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Anthony Petruzzelli",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-14",
       "player": "Louka Henault",
       "position": "D",
@@ -79,67 +93,53 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Connor Milburn",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Jayden Grubbe",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Louka Henault",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Nick Deakin-Poot",
+      "date": "2025-11-08",
+      "player": "Matt Miller",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-11",
+      "date": "2025-11-08",
       "player": "Matt Murphy",
       "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Dru Krebs",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Anthony Petruzzelli",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Trevor Janicke",
+      "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-03-11",
-      "player": "Harrison Rees",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Matt Berry",
+      "date": "2025-11-08",
+      "player": "Nick Deakin-Poot",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-09",
-      "player": "Matt Berry",
+      "date": "2025-11-05",
+      "player": "Anthony Petruzzelli",
       "position": "F",
-      "type": "traded",
-      "summary": "Traded to Kalamazoo"
-    },
-    {
-      "date": "2026-03-01",
-      "player": "Tyler Inamoto",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     }
   ]
 }

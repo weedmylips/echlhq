@@ -58,88 +58,88 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
+      "date": "2025-11-09",
       "player": "Mikael Robidoux",
       "position": "F",
-      "type": "traded",
-      "summary": "Traded to Reading 3/11"
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Matt Hubbarde",
-      "position": "F",
+      "date": "2025-11-09",
+      "player": "Jesper Solomon Frisell",
+      "position": "D",
       "type": "active",
-      "summary": "Activated from IR 14 Day"
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Grant Porter",
+      "date": "2025-11-09",
+      "player": "Dryden McKay",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-09",
+      "player": "Callum Tung",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Callum Tung",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Dryden McKay",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Jesper Solomon Frisell",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Brenden Datema",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Ilya Tsulygin",
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-10",
-      "player": "Shane Ott",
+      "date": "2025-11-07",
+      "player": "Brett Budgell",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Deni Goure",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Ivan Chukarov",
-      "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-10",
-      "player": "Nikita Sedov",
-      "position": "D",
+      "date": "2025-11-07",
+      "player": "Noah Kane",
+      "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-09",
-      "player": "Zach Faremouth",
-      "position": "F",
+      "date": "2025-11-06",
+      "player": "Dryden McKay",
+      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Deni Goure",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Zach Faremouth",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Greensboro 3/7"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Seung Jae Lee",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Kyle Jackson",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Hartford"
     }
   ]
 }

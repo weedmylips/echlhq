@@ -2,6 +2,20 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Yaroslav Yevdokimov",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Luke Antonacci",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-14",
       "player": "Luke Antonacci",
       "position": "D",
@@ -30,88 +44,102 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Kyle Keyser",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Colorado Eagles"
+      "date": "2025-11-11",
+      "player": "Rilen Kovacevic",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Jacob Mucitelli",
-      "position": "G",
+      "date": "2025-11-07",
+      "player": "Ty Voit",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Dylan Gratton",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2025-11-06",
+      "player": "Adam Berg",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-03-12",
-      "player": "Luke Antonacci",
+      "date": "2025-11-03",
+      "player": "Jake Barczewski",
+      "position": "G",
+      "type": "active",
+      "summary": "Acquired from Bloomington"
+    },
+    {
+      "date": "2025-11-03",
+      "player": "Dryden McKay",
+      "position": "G",
+      "type": "traded",
+      "summary": "Traded to Bloomington"
+    },
+    {
+      "date": "2025-10-31",
+      "player": "Luc Salem",
       "position": "D",
       "type": "active",
-      "summary": "Activated from IR 14 Day"
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-11",
-      "player": "Josh Zinger",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Josh Zinger",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Noah Ganske",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Stepan Timofeyev",
+      "date": "2025-10-31",
+      "player": "Adam Berg",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-10",
-      "player": "Nicholas Niemo",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jacob Mucitelli",
-      "position": "G",
+      "date": "2025-10-30",
+      "player": "Luc Salem",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-06",
-      "player": "Mike Gelatt",
+      "date": "2025-10-30",
+      "player": "Colby Enns",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-10-30",
+      "player": "Ty Voit",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-10-30",
+      "player": "Adam Berg",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-06",
-      "player": "Kyle Keyser",
-      "position": "G",
+      "date": "2025-10-28",
+      "player": "Adam Berg",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-10-28",
+      "player": "Stepan Timofeyev",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-10-28",
+      "player": "Rilen Kovacevic",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
     }
   ]
 }

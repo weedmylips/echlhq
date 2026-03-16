@@ -37,109 +37,109 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Zachary Krajnik",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Connor Gregga",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Tristan Amonte",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Peter Laviolette",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Chris Lipe",
+      "date": "2025-11-10",
+      "player": "Phip Waugh",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "loaned",
+      "summary": "Loaned to Abbotsford"
     },
     {
-      "date": "2026-03-12",
-      "player": "Will Riedell",
-      "position": "D",
+      "date": "2025-11-09",
+      "player": "Kirill Gerasimyuk",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Charlotte by Florida Panthers"
+    },
+    {
+      "date": "2025-11-09",
+      "player": "Michael Simpson",
+      "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Bryce Brodzinski",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Riley Hughes",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Mason Reiners",
-      "position": "D",
+      "date": "2025-11-07",
+      "player": "Michael Simpson",
+      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Mason Reiners",
+      "date": "2025-11-06",
+      "player": "Will Riedell",
       "position": "D",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-08",
-      "player": "Tristan Amonte",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Peter Laviolette",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Will Riedell",
+      "date": "2025-11-06",
+      "player": "Noah Carroll",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-08",
-      "player": "Evan Nause",
+      "date": "2025-11-06",
+      "player": "Zachary Krajnik",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-06",
+      "player": "Michael Suda",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-05",
-      "player": "Bryce Brodzinski",
+      "date": "2025-11-06",
+      "player": "Michael Suda",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Worcester"
+    },
+    {
+      "date": "2025-11-05",
+      "player": "Keaton Pehrson",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2025-11-05",
+      "player": "Zachary Krajnik",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-05",
+      "player": "Mitchell Russell",
       "position": "F",
       "type": "active",
-      "summary": "Transferred to IR 14 Day"
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Michael Suda",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-01",
+      "player": "Chris Lipe",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2025-10-26",
+      "player": "Kirill Gerasimyuk",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Charlotte by Florida Panthers"
     }
   ]
 }

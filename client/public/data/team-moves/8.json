@@ -2,6 +2,20 @@
   "teamId": 8,
   "moves": [
     {
+      "date": "2026-03-15",
+      "player": "Anthony Romano",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Springfield"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Carson Gicewicz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-14",
       "player": "Cole Moberg",
       "position": "D",
@@ -30,116 +44,102 @@
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Logan Lambdin",
+      "date": "2025-11-09",
+      "player": "Oliver Cooper",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Ross MacDougall",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Carson Gicewicz",
+      "date": "2025-11-09",
+      "player": "Ben Brar",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Connor Doherty",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Kyle Penney",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Reid Duke",
+      "date": "2025-11-09",
+      "player": "Kurtis Henry",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-10",
-      "player": "Carson Gicewicz",
+      "date": "2025-11-09",
+      "player": "Anthony Beauchamp",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-10",
-      "player": "Connor Doherty",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Connor Doherty",
+      "date": "2025-11-08",
+      "player": "Zach Berzolla",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "recalled_ahl",
+      "summary": "Recalled by Springfield"
     },
     {
-      "date": "2026-03-07",
-      "player": "Reid Duke",
+      "date": "2025-11-08",
+      "player": "Kurtis Henry",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-07",
-      "player": "Carson Gicewicz",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Ross MacDougall",
+      "date": "2025-11-08",
+      "player": "Kade Landry",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-07",
+      "date": "2025-11-07",
+      "player": "Ben Brar",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-07",
       "player": "Ryan Naumovski",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-07",
-      "player": "Kade Landry",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Idaho"
+      "date": "2025-11-07",
+      "player": "Kyle Neuber",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-07",
-      "player": "Kade Landry",
+      "date": "2025-11-07",
+      "player": "Hunter Sansbury",
       "position": "D",
       "type": "active",
-      "summary": "Activated from IR 3 Day"
+      "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-06",
-      "player": "Ross MacDougall",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2025-11-06",
+      "player": "Anthony Beauchamp",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Trois-Rivières"
+    },
+    {
+      "date": "2025-11-03",
+      "player": "Will Cranley",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Springfield by St. Louis"
+    },
+    {
+      "date": "2025-11-03",
+      "player": "David Tendeck",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
     }
   ]
 }

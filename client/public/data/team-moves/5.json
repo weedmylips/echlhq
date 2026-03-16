@@ -86,57 +86,57 @@
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-12",
-      "player": "Justin Portillo",
+      "date": "2025-11-11",
+      "player": "Marko Sikic",
       "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Max Helgeson",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Ryan Kirwan",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Toronto Marlies"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Max Smolinski",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Adam Kydd",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Thomas Scarfone",
-      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-08",
-      "player": "Luke Pavicich",
-      "position": "G",
+      "date": "2025-11-11",
+      "player": "Owen Cole",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2025-11-11",
+      "player": "Remy Parker",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2025-11-11",
+      "player": "Zack Trott",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-08",
-      "player": "Jordan Kaplan",
+      "date": "2025-11-11",
+      "player": "Nick Carabin",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2025-11-11",
+      "player": "Braeden Kressler",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Andrew Noel",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2025-11-08",
+      "player": "Zack Trott",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"

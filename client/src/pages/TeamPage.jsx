@@ -1027,49 +1027,61 @@ function RosterTab({ playersData, rosterData }) {
       isRookie: false, _status: p.status, _irDays: p.irDays ?? null,
     }));
 
-  const allSkaters = [...activeSkaters, ...inactiveSkaters];
+  const forwards = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position === "F");
+  const defensemen = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position === "D");
   const allGoalies = [...activeGoalies, ...inactiveGoalies];
+
+  const skaterTable = (players) => (
+    <div className="table-wrap">
+      <table className="roster-table">
+        <thead>
+          <tr>
+            <th className="num-col">#</th>
+            <th>Player</th>
+            <th className="num-col">GP</th>
+            <th className="num-col">G</th>
+            <th className="num-col">A</th>
+            <th className="num-col">PTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          {players.map((p, i) => (
+            <tr key={i}>
+              <td className="num">{p.number ?? "—"}</td>
+              <td className="roster-player-name">
+                {p.player}
+                {p.isRookie && <span className="rookie-badge">R</span>}
+                {statusBadge(p)}
+              </td>
+              <td className="num">{p.gp}</td>
+              <td className="num">{p.g}</td>
+              <td className="num">{p.a}</td>
+              <td className="num bold">{p.pts}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 
   return (
     <div className="roster-sections">
-      {allSkaters.length > 0 && (
+      {forwards.length > 0 && (
         <div className="card section-card">
           <div className="card-header">
-            <span className="section-label" style={{ margin: 0 }}>Skaters</span>
-            <span className="roster-count">{allSkaters.length}</span>
+            <span className="section-label" style={{ margin: 0 }}>Forwards</span>
+            <span className="roster-count">{forwards.length}</span>
           </div>
-          <div className="table-wrap">
-            <table className="roster-table">
-              <thead>
-                <tr>
-                  <th className="num-col">#</th>
-                  <th>Player</th>
-                  <th>Pos</th>
-                  <th className="num-col">GP</th>
-                  <th className="num-col">G</th>
-                  <th className="num-col">A</th>
-                  <th className="num-col">PTS</th>
-                </tr>
-              </thead>
-              <tbody>
-                {allSkaters.map((p, i) => (
-                  <tr key={i}>
-                    <td className="num">{p.number ?? "—"}</td>
-                    <td className="roster-player-name">
-                      {p.player}
-                      {p.isRookie && <span className="rookie-badge">R</span>}
-                      {statusBadge(p)}
-                    </td>
-                    <td>{p.position}</td>
-                    <td className="num">{p.gp}</td>
-                    <td className="num">{p.g}</td>
-                    <td className="num">{p.a}</td>
-                    <td className="num bold">{p.pts}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          {skaterTable(forwards)}
+        </div>
+      )}
+      {defensemen.length > 0 && (
+        <div className="card section-card">
+          <div className="card-header">
+            <span className="section-label" style={{ margin: 0 }}>Defense</span>
+            <span className="roster-count">{defensemen.length}</span>
           </div>
+          {skaterTable(defensemen)}
         </div>
       )}
       {allGoalies.length > 0 && (
