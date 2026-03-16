@@ -297,53 +297,16 @@ export default function TeamPage() {
               </div>
             )}
 
-            {/* Home / Road Split */}
-            {standing && (standing.homeRecord || standing.roadRecord) && (() => {
-              const hr = homeRoadRank("home");
-              const rr = homeRoadRank("road");
-              const divName = standing.division || team.division || "Div";
-              return (
-                <div className="card section-card">
-                  <div className="card-header">
-                    <span className="section-label" style={{ margin: 0 }}>Home / Road</span>
-                  </div>
-                  <div className="home-road-split">
-                    <div className="split-block">
-                      <div className="split-label">HOME</div>
-                      <div className="split-record">
-                        {standing.homeRecord || "—"}
-                      </div>
-                      <div className="split-sub">W–L–OTL–SOL</div>
-                      {(hr.div || hr.league) && (
-                        <div className="split-rank">
-                          {hr.div ? `${ordinal(hr.div)} in ${divName}` : ""}
-                          {hr.div && hr.league ? " · " : ""}
-                          {hr.league ? `${ordinal(hr.league)} in League` : ""}
-                        </div>
-                      )}
-                    </div>
-                    <div className="split-divider" />
-                    <div className="split-block">
-                      <div className="split-label">ROAD</div>
-                      <div className="split-record">
-                        {standing.roadRecord || "—"}
-                      </div>
-                      <div className="split-sub">W–L–OTL–SOL</div>
-                      {(rr.div || rr.league) && (
-                        <div className="split-rank">
-                          {rr.div ? `${ordinal(rr.div)} in ${divName}` : ""}
-                          {rr.div && rr.league ? " · " : ""}
-                          {rr.league ? `${ordinal(rr.league)} in League` : ""}
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              );
-            })()}
-
-            {/* Home Ice Advantage (large) */}
-            {teamStats && standing && <HomeIceCard ts={teamStats} team={team} standing={standing} />}
+            {/* Home Ice Advantage */}
+            {teamStats && standing && (
+              <HomeIceCard
+                ts={teamStats}
+                team={team}
+                standing={standing}
+                homeRank={homeRoadRank("home")}
+                roadRank={homeRoadRank("road")}
+              />
+            )}
 
             {/* Stacked: Defensive Efficiency + PIM */}
             <div className="stacked-cards">
@@ -836,10 +799,11 @@ function PimCard({ ts, team, standing }) {
 }
 
 // ─── Home Ice Advantage Card ───────────────────────────────────────────────────
-function HomeIceCard({ ts, team, standing }) {
+function HomeIceCard({ ts, team, standing, homeRank, roadRank }) {
   const { homeStats, roadStats, divAvgHomePct, divAvgRoadPct, leagueAvgHomePct, leagueAvgRoadPct, homeDiff, homeAdvLabel } = ts;
   if (!homeStats || !roadStats) return null;
 
+  const divName = standing.division || team.division || "Div";
   const labelColor =
     homeAdvLabel === "Home Team"    ? "var(--green)" :
     homeAdvLabel === "Road Warriors" ? "var(--amber)" : "var(--text-muted)";
@@ -860,8 +824,15 @@ function HomeIceCard({ ts, team, standing }) {
             <div className="hi-pct" style={{ color: pctColor(homeStats.pct, leagueAvgHomePct) }}>{fmtPct(homeStats.pct)}</div>
             <div className="hi-record">{standing.homeRecord}</div>
             <div className="hi-vs-avg">Div avg: {fmtPct(divAvgHomePct)} · League avg: {fmtPct(leagueAvgHomePct)}</div>
+            {(homeRank?.div || homeRank?.league) && (
+              <div className="hi-vs-avg">
+                {homeRank.div ? `${ordinal(homeRank.div)} in ${divName}` : ""}
+                {homeRank.div && homeRank.league ? " · " : ""}
+                {homeRank.league ? `${ordinal(homeRank.league)} in League` : ""}
+              </div>
+            )}
             <div className="hi-bar-track">
-              <div className="hi-bar-fill" style={{ width: `${Math.min(100, homeStats.pct * 100)}%`, background: team.primaryColor }} />
+              <div className="hi-bar-fill" style={{ width: `${Math.min(100, homeStats.pct * 100)}%`, background: pctColor(homeStats.pct, leagueAvgHomePct) }} />
               <div className="hi-bar-avg" style={{ left: `${Math.min(100, divAvgHomePct * 100)}%` }} />
             </div>
           </div>
@@ -871,8 +842,15 @@ function HomeIceCard({ ts, team, standing }) {
             <div className="hi-pct" style={{ color: pctColor(roadStats.pct, leagueAvgRoadPct) }}>{fmtPct(roadStats.pct)}</div>
             <div className="hi-record">{standing.roadRecord}</div>
             <div className="hi-vs-avg">Div avg: {fmtPct(divAvgRoadPct)} · League avg: {fmtPct(leagueAvgRoadPct)}</div>
+            {(roadRank?.div || roadRank?.league) && (
+              <div className="hi-vs-avg">
+                {roadRank.div ? `${ordinal(roadRank.div)} in ${divName}` : ""}
+                {roadRank.div && roadRank.league ? " · " : ""}
+                {roadRank.league ? `${ordinal(roadRank.league)} in League` : ""}
+              </div>
+            )}
             <div className="hi-bar-track">
-              <div className="hi-bar-fill" style={{ width: `${Math.min(100, roadStats.pct * 100)}%`, background: team.primaryColor }} />
+              <div className="hi-bar-fill" style={{ width: `${Math.min(100, roadStats.pct * 100)}%`, background: pctColor(roadStats.pct, leagueAvgRoadPct) }} />
               <div className="hi-bar-avg" style={{ left: `${Math.min(100, divAvgRoadPct * 100)}%` }} />
             </div>
           </div>
