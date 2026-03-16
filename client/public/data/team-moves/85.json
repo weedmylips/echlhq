@@ -2,142 +2,142 @@
   "teamId": 85,
   "moves": [
     {
-      "date": "2026-03-16",
-      "player": "Bobby Russell",
+      "date": "2026-03-14",
+      "player": "Jake Ratzlaff",
       "position": "D",
-      "type": "suspended",
-      "summary": "Suspended 3 Games"
-    },
-    {
-      "date": "2026-02-22",
-      "player": "Kaleb Tiessen",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Indy"
-    },
-    {
-      "date": "2026-02-22",
-      "player": "Lucas Helland",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Adirondack"
-    },
-    {
-      "date": "2026-02-22",
-      "player": "Lucas Helland",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-02-22",
-      "player": "Seth Fyten",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-22",
-      "player": "Garrett Klotz",
-      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-21",
-      "player": "Rico DiMatteo",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Connor Murphy",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Seth Fyten",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Kaleb Tiessen",
+      "date": "2026-03-14",
+      "player": "Ian Pierce",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-20",
+      "date": "2026-03-14",
       "player": "Connor Murphy",
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
+      "date": "2026-03-14",
       "player": "Nathan Torchia",
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Bobby Russell",
+      "date": "2026-03-13",
+      "player": "Eric Parker",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Wheeling"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Cole Tymkin",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Wheeling"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Ian Pierce",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
+      "date": "2026-03-13",
       "player": "Jake Ratzlaff",
       "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Blake Bennett",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Calgary"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Darian Pilon",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Kaleb Tiessen",
-      "position": "D",
+      "date": "2026-03-13",
+      "player": "Parker Bowman",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Garrett Klotz",
+      "date": "2026-03-13",
+      "player": "Zach Giroux",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Nathan Torchia",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Rico DiMatteo",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Zach Giroux",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Braden Birnie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Quinn Olson",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-02-20",
-      "player": "Lucas Helland",
-      "position": "F",
+      "date": "2026-03-12",
+      "player": "Jake Ratzlaff",
+      "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-02-19",
-      "player": "Jake Ratzlaff",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-19",
-      "player": "Kaleb Tiessen",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-19",
-      "player": "Nathan Torchia",
-      "position": "G",
+      "date": "2026-03-10",
+      "player": "Braden Birnie",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

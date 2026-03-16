@@ -2,144 +2,144 @@
   "teamId": 8,
   "moves": [
     {
-      "date": "2026-02-21",
-      "player": "Kade Landry",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Ryan Naumovski",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Sean Allen",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Reid Duke",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-20",
-      "player": "Reid Duke",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-20",
+      "date": "2026-03-15",
       "player": "Anthony Romano",
       "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Springfield"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Carson Gicewicz",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Kurtis Henry",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
+      "date": "2026-03-14",
+      "player": "Cole Moberg",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Kyle Neuber",
+      "date": "2026-03-14",
+      "player": "Carson Gicewicz",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Logan Lambdin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-14",
+      "player": "Ross MacDougall",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Logan Lambdin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Ross MacDougall",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Carson Gicewicz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Connor Doherty",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Kyle Penney",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2026-02-20",
-      "player": "Hudson Elynuik",
+      "date": "2026-03-12",
+      "player": "Reid Duke",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Carson Gicewicz",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Connor Doherty",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Connor Doherty",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Reid Duke",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Carson Gicewicz",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-02-20",
-      "player": "Gianfranco Cassaro",
+      "date": "2026-03-07",
+      "player": "Ross MacDougall",
       "position": "D",
       "type": "active",
-      "summary": "Activated from IR 14 Day"
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-19",
-      "player": "Lukas Sillinger",
+      "date": "2026-03-07",
+      "player": "Ryan Naumovski",
       "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Kade Landry",
+      "position": "D",
       "type": "traded",
-      "summary": "Traded to Allen"
-    },
-    {
-      "date": "2026-02-19",
-      "player": "Lukas Sillinger",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Sean Allen",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Anthony Romano",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Jesse Lansdell",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Isaac Nurse",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Isaac Nurse",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Jesse Lansdell",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Kurtis Henry",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Kyle Neuber",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Traded to Idaho"
     }
   ]
 }

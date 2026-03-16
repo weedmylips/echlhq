@@ -2,141 +2,141 @@
   "teamId": 96,
   "moves": [
     {
-      "date": "2026-02-23",
-      "player": "Nikita Borodaenko",
+      "date": "2026-03-12",
+      "player": "Nico Somerville",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Jake Wahlin",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-23",
-      "player": "Jonathan Melee",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Declan Smith",
-      "position": "F",
+      "date": "2026-03-12",
+      "player": "Jack Bar",
+      "position": "D",
       "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Transferred to IR 14 Day"
     },
     {
-      "date": "2026-02-18",
-      "player": "Ryan Finnegan",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-18",
-      "player": "Kyle Jeffers",
+      "date": "2026-03-12",
+      "player": "Christophe Fillion",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-02-18",
+      "date": "2026-03-12",
+      "player": "Cam Mitchell",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Gavin Best",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Tanner Palocsik",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Christophe Fillion",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Gabriel Carriere",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Declan Smith",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
       "player": "Declan Smith",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-17",
-      "player": "Jonathan Melee",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Fort Wayne 2/16"
-    },
-    {
-      "date": "2026-02-17",
-      "player": "Tyriq Outen",
-      "position": "G",
-      "type": "traded",
-      "summary": "Traded to Kalamazoo"
-    },
-    {
-      "date": "2026-02-17",
-      "player": "Tyriq Outen",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-17",
+      "date": "2026-03-06",
       "player": "Kyle Jeffers",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-02-14",
-      "player": "John Gormley",
+      "date": "2026-03-06",
+      "player": "Jonathan Melee",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Noah Beck",
       "position": "D",
       "type": "recalled_ahl",
-      "summary": "Recalled by San Jose Barracuda"
+      "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
     },
     {
-      "date": "2026-02-13",
-      "player": "Kyle Crnkovic",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by San Jose Barracuda"
-    },
-    {
-      "date": "2026-02-12",
-      "player": "Christophe Fillion",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Utah"
-    },
-    {
-      "date": "2026-02-11",
-      "player": "Ryan Olsen",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-10",
-      "player": "Ryan Finnegan",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-10",
+      "date": "2026-03-06",
       "player": "Nico Somerville",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-10",
-      "player": "Tyriq Outen",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2026-03-06",
+      "player": "Jack Bar",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-02-10",
-      "player": "Matt Davis",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "date": "2026-03-06",
+      "player": "Robert Kincaid",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-02-07",
-      "player": "Ryan Olsen",
+      "date": "2026-03-06",
+      "player": "Oliver Tarr",
       "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-04",
+      "player": "Nico Somerville",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-07",
-      "player": "Jake Wahlin",
+      "date": "2026-03-04",
+      "player": "Jonathan Melee",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"

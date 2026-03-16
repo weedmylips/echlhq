@@ -2,144 +2,144 @@
   "teamId": 103,
   "moves": [
     {
-      "date": "2026-02-24",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2026-03-13",
+      "player": "Anthony Poulin",
+      "position": "F",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
     },
     {
-      "date": "2026-02-24",
+      "date": "2026-03-13",
+      "player": "Edouard Charron",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-13",
       "player": "Jake Gravelle",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-02-23",
-      "player": "Jeremy Michaud",
-      "position": "D",
+      "date": "2026-03-13",
+      "player": "Riley Kidney",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Laval by Montreal"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "William Lavalliere",
+      "position": "G",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-02-21",
+      "date": "2026-03-12",
+      "player": "Darick Louis-Jean",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Laval"
+    },
+    {
+      "date": "2026-03-11",
       "player": "Hunter Jones",
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled by Laval"
     },
     {
-      "date": "2026-02-21",
+      "date": "2026-03-10",
       "player": "William Lavalliere",
       "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
     },
     {
-      "date": "2026-02-20",
-      "player": "William Lavalliere",
+      "date": "2026-03-09",
+      "player": "Franseco Lapenna",
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Benjamin Gaudreau",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Benjamin Gaudreau",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-12",
-      "player": "Mathias Laferriere",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-12",
-      "player": "Benjamin Gaudreau",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-12",
+      "date": "2026-03-09",
       "player": "Hunter Jones",
       "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Laval"
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-07",
+      "date": "2026-03-09",
+      "player": "Anthony Poulin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-09",
       "player": "Egor Goriunov",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-06",
-      "player": "Egor Goriunov",
+      "date": "2026-03-08",
+      "player": "Hunter Jones",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Franseco Lapenna",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Edouard Charron",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-06",
+      "date": "2026-03-07",
+      "player": "Mark Estapa",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "William Lavalliere",
+      "position": "G",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-03-06",
       "player": "Sean Gulka",
       "position": "F",
       "type": "active",
-      "summary": "Activated from IR 3 Day"
+      "summary": "Transferred to IR 14 Day"
     },
     {
-      "date": "2026-02-06",
-      "player": "Emmett Serensits",
+      "date": "2026-03-06",
+      "player": "Jeremy Michaud",
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-02-05",
-      "player": "Jake Gravelle",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-02-02",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-02-02",
-      "player": "Morgan Adams-Moisan",
-      "position": "F",
+      "date": "2026-03-06",
+      "player": "Emmett Serensits",
+      "position": "D",
       "type": "active",
-      "summary": "Activated from IR 3 Day"
+      "summary": "Activated from IR 14 Day"
     }
   ]
 }

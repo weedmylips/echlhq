@@ -2,141 +2,141 @@
   "teamId": 101,
   "moves": [
     {
-      "date": "2026-02-22",
-      "player": "Jackson Stewart",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Alex DiPaolo",
+      "date": "2026-03-14",
+      "player": "Antonio Venuto",
       "position": "F",
       "type": "reserve",
-      "summary": "Placed on Reserve 2/20"
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-21",
-      "player": "Linus Hemstrom",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve 2/20"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Andrew Nielsen",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-02-21",
+      "date": "2026-03-14",
       "player": "Loke Johansson",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-02-21",
-      "player": "Bryce Hatten",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Linus Hemstrom",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Alex DiPaolo",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Jackson Stewart",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Andrew Nielsen",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Owen Gallatin",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Ty Cheveldayoff",
-      "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-02-13",
-      "player": "Kylar Fenton",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-02-11",
-      "player": "Billy Girard",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-02-11",
-      "player": "Alex DiPaolo",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-11",
+      "date": "2026-03-14",
       "player": "Mitchel Deelstra",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-10",
-      "player": "Jackson Edward",
-      "position": "D",
+      "date": "2026-03-13",
+      "player": "Ben Raymond",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Jacob Perreault",
+      "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-02-08",
-      "player": "Stan Basisty",
-      "position": "G",
-      "type": "released",
-      "summary": "Released as EBUG"
-    },
-    {
-      "date": "2026-02-07",
-      "player": "Andrew Nielsen",
-      "position": "D",
+      "date": "2026-03-13",
+      "player": "Mitchel Deelstra",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-07",
-      "player": "Linus Hemstrom",
+      "date": "2026-03-13",
+      "player": "Xavier Henry",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Colin Felix",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Providence"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Jackson Stewart",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Loke Johansson",
+      "position": "D",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Billy Girard",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-09",
+      "player": "Jacob Perreault",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Ben Raymond",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/7"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Sebastian Vidmar",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve 3/7"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Tynan Ewart",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Jackson Edward",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Providence by Boston"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Alex DiPaolo",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Indy"
+    },
+    {
+      "date": "2026-03-05",
+      "player": "Alex DiPaolo",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"

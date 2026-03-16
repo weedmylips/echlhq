@@ -2,144 +2,144 @@
   "teamId": 97,
   "moves": [
     {
-      "date": "2026-03-16",
+      "date": "2026-03-13",
+      "player": "Phip Waugh",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
       "player": "Connor Gregga",
       "position": "F",
-      "type": "suspended",
-      "summary": "Suspended 1 Game"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Bryce Brodzinski",
-      "position": "F",
-      "type": "suspended",
-      "summary": "Suspended 1 Game"
-    },
-    {
-      "date": "2026-02-24",
-      "player": "Nick Granowicz",
-      "position": "F",
       "type": "active",
-      "summary": "Transferred to IR 14 Day"
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-02-24",
-      "player": "Riley Hughes",
-      "position": "F",
+      "date": "2026-03-13",
+      "player": "Chris Lipe",
+      "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-02-24",
-      "player": "Mitchell Russell",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-02-20",
-      "player": "Peter Laviolette",
+      "date": "2026-03-13",
+      "player": "Reece Vitelli",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Nick Granowicz",
+      "date": "2026-03-13",
+      "player": "Mason Reiners",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Zachary Krajnik",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Connor Gregga",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-02-20",
+      "date": "2026-03-12",
+      "player": "Tristan Amonte",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Peter Laviolette",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-12",
       "player": "Chris Lipe",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Cristophe Tellier",
-      "position": "F",
+      "date": "2026-03-12",
+      "player": "Will Riedell",
+      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-14",
-      "player": "Cristophe Tellier",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Matt Koopman",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-11",
-      "player": "Nick Granowicz",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-11",
-      "player": "Reece Vitelli",
+      "date": "2026-03-12",
+      "player": "Bryce Brodzinski",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-02-07",
-      "player": "Matt Koopman",
+      "date": "2026-03-12",
+      "player": "Riley Hughes",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Mason Reiners",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Mason Reiners",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Tristan Amonte",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-07",
-      "player": "Phip Waugh",
+      "date": "2026-03-08",
+      "player": "Peter Laviolette",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Will Riedell",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Evan Nause",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-06",
-      "player": "Phip Waugh",
-      "position": "D",
-      "type": "active",
-      "summary": "Returned From Loan by Hershey"
-    },
-    {
-      "date": "2026-02-05",
-      "player": "Noah Giesbrecht",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-02-05",
-      "player": "Josh Davies",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Charlotte by Florida Panthers"
-    },
-    {
-      "date": "2026-02-03",
-      "player": "Trevor Lally",
-      "position": "G",
-      "type": "released",
-      "summary": "Released as EBUG"
-    },
-    {
-      "date": "2026-02-02",
-      "player": "Connor Gregga",
+      "date": "2026-03-05",
+      "player": "Bryce Brodzinski",
       "position": "F",
       "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

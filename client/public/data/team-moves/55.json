@@ -2,144 +2,144 @@
   "teamId": 55,
   "moves": [
     {
-      "date": "2026-03-16",
-      "player": "Vincent Sevigny",
-      "position": "D",
-      "type": "suspended",
-      "summary": "Suspended 1 Game"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Ian Shane",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Alec Butcher",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Artyom Guryev",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-02-20",
-      "player": "Yaniv Perets",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Lehigh Valley 2/16"
-    },
-    {
-      "date": "2026-02-18",
-      "player": "Vincent Sevigny",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Lehigh Valley"
-    },
-    {
-      "date": "2026-02-15",
-      "player": "Artyom Guryev",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-15",
-      "player": "Victor Hadfield",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-15",
+      "date": "2026-03-15",
       "player": "Cameron Cook",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-15",
-      "player": "Connor McMenamin",
+      "date": "2026-03-15",
+      "player": "Mikael Robidoux",
       "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-02-15",
-      "player": "Jack Page",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-02-15",
-      "player": "Yaniv Perets",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-02-15",
-      "player": "Ian Shane",
-      "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-14",
-      "player": "Jack Page",
-      "position": "D",
+      "date": "2026-03-14",
+      "player": "Cameron Cook",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-14",
+      "date": "2026-03-14",
+      "player": "Mikael Robidoux",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-14",
       "player": "Cameron Cook",
       "position": "F",
       "type": "active",
-      "summary": "Activated from IR 14 Day"
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-13",
+      "date": "2026-03-14",
       "player": "Ian Shane",
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-13",
+      "date": "2026-03-14",
       "player": "Keith Petruzzelli",
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-13",
+      "date": "2026-03-12",
+      "player": "Mikael Robidoux",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Bloomington 3/11"
+    },
+    {
+      "date": "2026-03-12",
+      "player": "Andrew Kurapov",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-11",
       "player": "Victor Hadfield",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-13",
-      "player": "Jacob Frasca",
-      "position": "F",
+      "date": "2026-03-11",
+      "player": "Artem Kulakov",
+      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-12",
-      "player": "Vincent Sevigny",
+      "date": "2026-03-11",
+      "player": "Nolan Burke",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Andrew Kurapov",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Yaniv Perets",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Keith Petruzzelli",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Cameron Cook",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-11",
+      "player": "Jack Page",
       "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Lehigh Valley"
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Artem Kulakov",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Victor Hadfield",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Yaniv Perets",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     }
   ]
 }

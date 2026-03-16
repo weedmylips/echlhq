@@ -2,144 +2,144 @@
   "teamId": 66,
   "moves": [
     {
-      "date": "2026-03-16",
-      "player": "Andre Anania",
+      "date": "2026-03-15",
+      "player": "Braidan Simmons-Fisher",
       "position": "D",
-      "type": "suspended",
-      "summary": "Suspended 1 Game"
+      "type": "loaned",
+      "summary": "Loaned to Iowa Wild"
     },
     {
-      "date": "2026-02-24",
-      "player": "Lukas Sillinger",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2026-03-13",
+      "player": "Trevor LeDonne",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-24",
-      "player": "David Tendeck",
+      "date": "2026-03-13",
+      "player": "Brett Mirwald",
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-24",
+      "date": "2026-03-13",
       "player": "Jackson Parsons",
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-24",
+      "date": "2026-03-13",
       "player": "Jake Chiasson",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Belleville by Ottawa"
+    },
+    {
+      "date": "2026-03-10",
+      "player": "Sam Sedley",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Belleville"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Jackson Parsons",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Brett Mirwald",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Hank Crone",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-08",
+      "player": "Kevin Gursoy",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-24",
-      "player": "Avery Smith",
-      "position": "F",
+      "date": "2026-03-08",
+      "player": "Trevor LeDonne",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-24",
-      "player": "Avery Smith",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-02-21",
+      "date": "2026-03-08",
       "player": "Jackson Decker",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Jake Chiasson",
+      "date": "2026-03-07",
+      "player": "Kevin Gursoy",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Braidan Simmons-Fisher",
+      "date": "2026-03-07",
+      "player": "Trevor LeDonne",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-02-20",
-      "player": "David Tendeck",
-      "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-20",
-      "player": "Andre Anania",
+      "date": "2026-03-07",
+      "player": "Jackson Decker",
       "position": "D",
-      "type": "active",
-      "summary": "Returned From Loan by Iowa Wild"
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-19",
+      "date": "2026-03-07",
+      "player": "Avery Smith",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-06",
+      "player": "Trevor LeDonne",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-06",
       "player": "Lukas Sillinger",
       "position": "F",
       "type": "active",
-      "summary": "Acquired from Florida"
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-02-17",
-      "player": "Brett Budgell",
+      "date": "2026-03-06",
+      "player": "Avery Smith",
       "position": "F",
-      "type": "active",
-      "summary": "Acquired from Bloomington"
-    },
-    {
-      "date": "2026-02-17",
-      "player": "Andre Anania",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Iowa Wild"
-    },
-    {
-      "date": "2026-02-17",
-      "player": "Rob Mattison",
-      "position": "G",
-      "type": "released",
-      "summary": "Released as EBUG"
-    },
-    {
-      "date": "2026-02-15",
-      "player": "Jackson Parsons",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Belleville by Ottawa"
-    },
-    {
-      "date": "2026-02-14",
-      "player": "Braidan Simmons-Fisher",
-      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-02-14",
-      "player": "Timofey Spitserov",
+      "date": "2026-03-06",
+      "player": "Colby McAuley",
       "position": "F",
       "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-02-13",
-      "player": "Andre Anania",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Activated from IR 3 Day"
     }
   ]
 }
