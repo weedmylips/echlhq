@@ -80,11 +80,31 @@ export default function TeamPage() {
     return i >= 0 ? i + 1 : null;
   }
 
+  function leagueRank(key, lower = false) {
+    if (!standing || !allStandings.length) return null;
+    const s = [...allStandings].sort((a, b) => lower ? a[key] - b[key] : b[key] - a[key]);
+    const i = s.findIndex((t) => t.teamId === standing.teamId);
+    return i >= 0 ? i + 1 : null;
+  }
+
   function divisionSuffix(rank) {
     if (!rank) return "";
     const sfx = rank === 1 ? "st" : rank === 2 ? "nd" : rank === 3 ? "rd" : "th";
     const divName = standing?.division || team.division || "Div";
     return `${rank}${sfx} in ${divName}`;
+  }
+
+  function homeRoadRank(type) {
+    if (!standing || !allStandings.length) return { league: null, div: null };
+    const getWins = (t) => {
+      const rec = type === "home" ? t.homeRecord : t.roadRecord;
+      if (!rec) return -1;
+      const w = parseInt(rec.split("-")[0]);
+      return isNaN(w) ? -1 : w;
+    };
+    const lr = [...allStandings].sort((a, b) => getWins(b) - getWins(a)).findIndex(t => t.teamId === standing.teamId) + 1;
+    const dr = [...divisionTeams].sort((a, b) => getWins(b) - getWins(a)).findIndex(t => t.teamId === standing.teamId) + 1;
+    return { league: lr || null, div: dr || null };
   }
 
   const gfPerGame = standing?.gp ? (standing.gf / standing.gp).toFixed(2) : "—";
@@ -137,6 +157,12 @@ export default function TeamPage() {
                 )}
                 {standing?.streak && <StreakBadge streak={standing.streak} />}
               </div>
+              {standing?.lastTen && (
+                <div className="header-last10">
+                  <span className="header-last10-label">L10</span>
+                  <Last10Strip lastTen={standing.lastTen} primaryColor={team.primaryColor} compact />
+                </div>
+              )}
             </div>
           </div>
           <button className="back-btn" onClick={() => navigate(-1)}>← Back</button>
@@ -204,9 +230,6 @@ export default function TeamPage() {
             {/* Playoff Picture — half width */}
             {teamStats && <PlayoffPictureCard ts={teamStats} team={team} standing={standing} />}
 
-            {/* Clinching banner — half width (pairs with Playoff Picture or next card) */}
-            {teamStats?.clinchedText && <ClinchingCard ts={teamStats} />}
-
             {/* Recent Moves — half width */}
             {movesData?.moves?.length > 0 && (
               <div className="card section-card">
@@ -227,41 +250,49 @@ export default function TeamPage() {
             )}
 
             {/* Home / Road Split — half width */}
-            {standing && (standing.homeRecord || standing.roadRecord) && (
-              <div className="card section-card">
-                <div className="card-header">
-                  <span className="section-label" style={{ margin: 0 }}>Home / Road</span>
-                </div>
-                <div className="home-road-split">
-                  <div className="split-block">
-                    <div className="split-label">HOME</div>
-                    <div className="split-record" style={{ color: team.primaryColor }}>
-                      {standing.homeRecord || "—"}
-                    </div>
-                    <div className="split-sub">W–L–OTL–SOL</div>
+            {standing && (standing.homeRecord || standing.roadRecord) && (() => {
+              const hr = homeRoadRank("home");
+              const rr = homeRoadRank("road");
+              const divName = standing.division || team.division || "Div";
+              return (
+                <div className="card section-card">
+                  <div className="card-header">
+                    <span className="section-label" style={{ margin: 0 }}>Home / Road</span>
                   </div>
-                  <div className="split-divider" />
-                  <div className="split-block">
-                    <div className="split-label">ROAD</div>
-                    <div className="split-record" style={{ color: team.primaryColor }}>
-                      {standing.roadRecord || "—"}
+                  <div className="home-road-split">
+                    <div className="split-block">
+                      <div className="split-label">HOME</div>
+                      <div className="split-record" style={{ color: team.primaryColor }}>
+                        {standing.homeRecord || "—"}
+                      </div>
+                      <div className="split-sub">W–L–OTL–SOL</div>
+                      {(hr.div || hr.league) && (
+                        <div className="split-rank">
+                          {hr.div ? `${ordinal(hr.div)} in ${divName}` : ""}
+                          {hr.div && hr.league ? " · " : ""}
+                          {hr.league ? `${ordinal(hr.league)} in League` : ""}
+                        </div>
+                      )}
                     </div>
-                    <div className="split-sub">W–L–OTL–SOL</div>
+                    <div className="split-divider" />
+                    <div className="split-block">
+                      <div className="split-label">ROAD</div>
+                      <div className="split-record" style={{ color: team.primaryColor }}>
+                        {standing.roadRecord || "—"}
+                      </div>
+                      <div className="split-sub">W–L–OTL–SOL</div>
+                      {(rr.div || rr.league) && (
+                        <div className="split-rank">
+                          {rr.div ? `${ordinal(rr.div)} in ${divName}` : ""}
+                          {rr.div && rr.league ? " · " : ""}
+                          {rr.league ? `${ordinal(rr.league)} in League` : ""}
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
-              </div>
-            )}
-
-            {/* Last 10 Games — full width */}
-            {standing?.lastTen && (
-              <div className="card section-card full-width">
-                <div className="card-header">
-                  <span className="section-label" style={{ margin: 0 }}>Last 10 Games</span>
-                  <span className="last10-record-label">{standing.lastTen}</span>
-                </div>
-                <Last10Strip lastTen={standing.lastTen} primaryColor={team.primaryColor} />
-              </div>
-            )}
+              );
+            })()}
 
             {/* Team Stats — half width */}
             {standing && (
@@ -462,13 +493,13 @@ function PlayoffPictureCard({ ts, team, standing }) {
             </div>
           ) : (
             <div className="playoff-stat-item">
-              <div className="playoff-stat-val neg">–{ptsBack1st}</div>
+              <div className="playoff-stat-val neg">{ptsBack1st}</div>
               <div className="playoff-stat-lbl">Back of 1st</div>
             </div>
           )}
           {rank > 4 && (
             <div className="playoff-stat-item">
-              <div className="playoff-stat-val neg">–{ptsBack4th}</div>
+              <div className="playoff-stat-val neg">{ptsBack4th}</div>
               <div className="playoff-stat-lbl">Back of 4th</div>
             </div>
           )}
@@ -478,7 +509,7 @@ function PlayoffPictureCard({ ts, team, standing }) {
           </div>
           <div className="playoff-stat-item">
             <div className="playoff-stat-val">{standing.gamesRemaining ?? "—"}</div>
-            <div className="playoff-stat-lbl">GP Left</div>
+            <div className="playoff-stat-lbl">Games Left</div>
           </div>
         </div>
       </div>
@@ -890,7 +921,7 @@ function parseLastTen(lastTen) {
   return { w, l, otl, sol };
 }
 
-function Last10Strip({ lastTen, primaryColor }) {
+function Last10Strip({ lastTen, primaryColor, compact }) {
   const counts = parseLastTen(lastTen);
   if (!counts) return <div className="last10-empty">No data</div>;
 
@@ -905,7 +936,7 @@ function Last10Strip({ lastTen, primaryColor }) {
   while (slots.length < 10) slots.push(null);
 
   return (
-    <div className="last10-wrap">
+    <div className={`last10-wrap${compact ? " last10-compact" : ""}`}>
       <div className="last10-segments">
         {slots.map((type, i) => (
           <div
@@ -919,12 +950,12 @@ function Last10Strip({ lastTen, primaryColor }) {
           />
         ))}
       </div>
-      <div className="last10-counts">
+      {!compact && <div className="last10-counts">
         <span className="l10-count l10-w">{w}W</span>
         {(otl + sol) > 0 && <span className="l10-count l10-ot">{otl + sol} OT</span>}
         <span className="l10-count l10-l">{l}L</span>
         {total < 10 && <span className="l10-count l10-empty">{10 - total} remaining</span>}
-      </div>
+      </div>}
     </div>
   );
 }

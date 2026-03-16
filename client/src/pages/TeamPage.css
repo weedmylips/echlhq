@@ -80,6 +80,32 @@
   font-weight: 500;
 }
 
+.header-last10 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.header-last10-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.last10-compact {
+  padding: 0;
+  flex: 1;
+}
+
+.last10-compact .last10-segments {
+  height: 14px;
+  max-width: 180px;
+}
+
 .back-btn {
   background: rgba(255,255,255,0.06);
   border: 1px solid var(--border);
@@ -561,6 +587,13 @@ tr.playoff-cutoff td {
   font-size: 10px;
   color: var(--text-muted);
   margin-top: 4px;
+}
+
+.split-rank {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 6px;
+  font-weight: 500;
 }
 
 /* ── Last 10 Strip ── */
