@@ -1,0 +1,708 @@
+{
+  "gameInfo": {
+    "gameId": 24500,
+    "visitingTeam": "Orlando",
+    "homeTeam": "Jacksonville",
+    "date": "Nov 22, 2025",
+    "arena": "VyStar Veterans Memorial Arena",
+    "attendance": 9106,
+    "finalScore": {
+      "visiting": 4,
+      "home": 5
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "4:49",
+      "team": "ORL",
+      "scorer": "A. Bardaro (1)",
+      "assists": "D. Geregach, A. Luchuk",
+      "strength": "PP"
+    },
+    {
+      "period": "1st",
+      "time": "9:02",
+      "team": "ORL",
+      "scorer": "T. Bird (2)",
+      "assists": "S. Kersten",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "15:22",
+      "team": "JAX",
+      "scorer": "A. Fulp (2)",
+      "assists": "N. Dunkley, G. Van Wyhe",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "17:23",
+      "team": "JAX",
+      "scorer": "A. Beraldo (1)",
+      "assists": "J. Spetz, N. Dunkley",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "8:25",
+      "team": "ORL",
+      "scorer": "J. Lukosevicius (1)",
+      "assists": "R. Newkirk, D. Geregach",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "9:28",
+      "team": "JAX",
+      "scorer": "C. Brown (7)",
+      "assists": "J. Condotta, N. Dunkley",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "0:39",
+      "team": "JAX",
+      "scorer": "B. Hislop (2)",
+      "assists": "B. MacArthur",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "2:27",
+      "team": "ORL",
+      "scorer": "T. Drevitch (1)",
+      "assists": "S. Kersten",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "7:58",
+      "team": "JAX",
+      "scorer": "T. Coffey (1)",
+      "assists": "A. Fulp, D. Duhart",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Orlando",
+      "p1": 13,
+      "p2": 15,
+      "p3": 9,
+      "ot": 0,
+      "total": 37
+    },
+    {
+      "team": "Jacksonville",
+      "p1": 6,
+      "p2": 5,
+      "p3": 8,
+      "ot": 0,
+      "total": 19
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "J. Gillies",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "H. Meneghin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "T. Follmer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "E. Szmagaj",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "L. Britt",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "7",
+        "name": "T. Bird",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "N. Huuhtanen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "C. Allen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "R. Newkirk",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "C. Kurth",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "C. Flinton",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "M. Roelens",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "26",
+        "name": "D. Geregach",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "41",
+        "name": "S. Kersten",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "57",
+        "name": "J. Lukosevicius",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "T. Drevitch",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "78",
+        "name": "D. Bunz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "A. Bardaro",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "90",
+        "name": "J. Adams",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "A. Luchuk",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 6,
+        "pts": 10,
+        "plusMinus": -10,
+        "shots": 37,
+        "pim": 4
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "C. Rowe",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "S. Ratzlaff",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "J. Hardie",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "R. Pitoscia",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "N. Dunkley",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "P. Bajkov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "C. Brown",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "B. MacArthur",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "C. Grando",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "P. Tischke",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "T. Coffey",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "J. Spetz",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "D. Duhart",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "M. Carson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "B. Hislop",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "27",
+        "name": "A. Fulp",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "44",
+        "name": "C. Supryka",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "51",
+        "name": "G. Van Wyhe",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "58",
+        "name": "A. Beraldo",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "63",
+        "name": "J. Condotta",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 9,
+        "pts": 14,
+        "plusMinus": 10,
+        "shots": 19,
+        "pim": 6
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "J. Gillies",
+        "minsPlayed": "56:46",
+        "shotsAgainst": 19,
+        "saves": 14,
+        "ga": 5,
+        "svPct": 0.737
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "56:46",
+        "shotsAgainst": 19,
+        "saves": 14,
+        "ga": 5,
+        "svPct": 0.737
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "C. Rowe",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 37,
+        "saves": 33,
+        "ga": 4,
+        "svPct": 0.892
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 37,
+        "saves": 33,
+        "ga": 4,
+        "svPct": 0.892
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "B. Hislop",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "2:51"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "N. Dunkley",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "13:08"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Roelens",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "9:28"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "A. Fulp",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "10:16"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "L. Britt",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "17:42"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "JAX",
+      "name": "A. Fulp",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "JAX",
+      "name": "N. Dunkley",
+      "g": 0,
+      "a": 3,
+      "pts": 3
+    },
+    {
+      "star": 3,
+      "team": "JAX",
+      "name": "T. Coffey",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:21:49.664Z"
+}

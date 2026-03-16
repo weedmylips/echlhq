@@ -1,0 +1,812 @@
+{
+  "gameInfo": {
+    "gameId": 24543,
+    "visitingTeam": "Bloomington",
+    "homeTeam": "Iowa",
+    "date": "Nov 30, 2025",
+    "arena": "Xtream Arena",
+    "attendance": 812,
+    "finalScore": {
+      "visiting": 5,
+      "home": 1
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "1:06",
+      "team": "BLM",
+      "scorer": "S. Ott (3)",
+      "assists": "E. Matsushima, M. Kaleinikovas",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "14:02",
+      "team": "BLM",
+      "scorer": "E. Matsushima (7)",
+      "assists": "B. Datema, S. Ott",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "1:33",
+      "team": "IA",
+      "scorer": "J. Sorenson (3)",
+      "assists": "J. O'Brien, N. Orzeck",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "4:01",
+      "team": "BLM",
+      "scorer": "S. Mack (1)",
+      "assists": "L. Denis, N. Sedov",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "5:06",
+      "team": "BLM",
+      "scorer": "J. Evans (2)",
+      "assists": "K. Jackson, B. Budgell",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "6:44",
+      "team": "BLM",
+      "scorer": "B. Budgell (4)",
+      "assists": "D. Tedesco, K. Jackson",
+      "strength": "PP"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Bloomington",
+      "p1": 9,
+      "p2": 5,
+      "p3": 11,
+      "ot": 0,
+      "total": 25
+    },
+    {
+      "team": "Iowa",
+      "p1": 10,
+      "p2": 13,
+      "p3": 9,
+      "ot": 0,
+      "total": 32
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "D. McKay",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "40",
+        "name": "G. Sparks",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "B. Datema",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 12
+      },
+      {
+        "number": "5",
+        "name": "L. Denis",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "C. Ferguson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "10",
+        "name": "B. Budgell",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "S. Mack",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "P. Gavlas",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "E. Matsushima",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "J. Solomon-Frisell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "S. Ott",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "D. Tedesco",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "K. Jackson",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "31",
+        "name": "M. Kaleinikovas",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "M. Robidoux",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 18
+      },
+      {
+        "number": "55",
+        "name": "N. Sedov",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "67",
+        "name": "J. Evans",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "80",
+        "name": "R. Ishida",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "K. Sato",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "B. Yeamans",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 9
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 10,
+        "pts": 15,
+        "plusMinus": 15,
+        "shots": 25,
+        "pim": 43
+      }
+    ],
+    "home": [
+      {
+        "number": "67",
+        "name": "R. Mercer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "D. Giannuzzi",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "M. Koster",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "L. Grissom",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 6
+      },
+      {
+        "number": "8",
+        "name": "N. Noel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 16
+      },
+      {
+        "number": "9",
+        "name": "M. Sop",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "K. Jeri-Leon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "M. Patterson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "L. Mobley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "J. Sorenson",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "I. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "T. Stewart",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "23",
+        "name": "E. McDermott",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "N. Orzeck",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "36",
+        "name": "Y. Miura",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "A. Stensson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "S. Leskovar",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "71",
+        "name": "A. Capannelli",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "E. Desnoyers",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 5
+      },
+      {
+        "number": "92",
+        "name": "J. O'Brien",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -15,
+        "shots": 32,
+        "pim": 33
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "D. McKay",
+        "minsPlayed": "59:49",
+        "shotsAgainst": 32,
+        "saves": 31,
+        "ga": 1,
+        "svPct": 0.969
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:49",
+        "shotsAgainst": 32,
+        "saves": 31,
+        "ga": 1,
+        "svPct": 0.969
+      }
+    ],
+    "home": [
+      {
+        "number": "67",
+        "name": "R. Mercer",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 25,
+        "saves": 20,
+        "ga": 5,
+        "svPct": 0.8
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 25,
+        "saves": 20,
+        "ga": 5,
+        "svPct": 0.8
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "B. Datema",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "19:22"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "B. Datema",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "0:00"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Robidoux",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "4:29"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "L. Grissom",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "4:29"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Ferguson",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "5:35"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Ferguson",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:42"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. O'Brien",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:42"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "M. Robidoux",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "5:57"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "S. Leskovar",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "5:57"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "N. Noel",
+      "minutes": 4,
+      "infraction": "Double Minor - Roughing",
+      "time": "5:57"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "T. Stewart",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "6:11"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "L. Grissom",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "8:54"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "M. Robidoux",
+      "minutes": 4,
+      "infraction": "Double Minor - Roughing",
+      "time": "11:33"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "M. Robidoux",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "11:33"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "N. Noel",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:33"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "N. Noel",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "11:33"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "B. Yeamans",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "14:07"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "L. Grissom",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "14:07"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "B. Yeamans",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "17:01"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "B. Yeamans",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "17:01"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "E. Desnoyers",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "17:01"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "BLM",
+      "name": "E. Matsushima",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "BLM",
+      "name": "B. Budgell",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "IA",
+      "name": "J. Sorenson",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:22:08.283Z"
+}

@@ -1,0 +1,693 @@
+{
+  "gameInfo": {
+    "gameId": 25383,
+    "visitingTeam": "Adirondack",
+    "homeTeam": "Reading",
+    "date": "Oct 10, 2025",
+    "arena": "Santander Arena",
+    "attendance": 0,
+    "finalScore": {
+      "visiting": 3,
+      "home": 1
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "8:17",
+      "team": "ADK",
+      "scorer": "K. Gervais (1)",
+      "assists": "J. Hanzel, G. Loven",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "4:49",
+      "team": "REA",
+      "scorer": "B. Saigeon (1)",
+      "assists": "P. Moynihan",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "7:07",
+      "team": "ADK",
+      "scorer": "G. Loven (1)",
+      "assists": "D. Ebrahim, L. Reid",
+      "strength": "PP"
+    },
+    {
+      "period": "3rd",
+      "time": "0:25",
+      "team": "ADK",
+      "scorer": "K. Gervais (2)",
+      "assists": "T. Fawcett, C. Squires",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Adirondack",
+      "p1": 7,
+      "p2": 9,
+      "p3": 5,
+      "ot": 0,
+      "total": 21
+    },
+    {
+      "team": "Reading",
+      "p1": 4,
+      "p2": 9,
+      "p3": 11,
+      "ot": 0,
+      "total": 24
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "H. Welsch",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "T. Brennan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "J. Hanzel",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "D. Peters",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "G. Smith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "C. McLane",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "T. Fawcett",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "C. Hutchison",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "L. Reid",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "C. Squires",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "T. Friedmann",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "G. Loven",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "D. Ebrahim",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "C. Villegas",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "B. McManus",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "K. Gervais",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "S. Gulka",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "58",
+        "name": "I. Pierce",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "76",
+        "name": "M. Boislard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 5
+      },
+      {
+        "number": "91",
+        "name": "C. Fillion",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 6,
+        "pts": 9,
+        "plusMinus": 5,
+        "shots": 21,
+        "pim": 7
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "Y. Perets",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "V. Purpura",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "R. Stucker",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "V. Hadfield",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "K. Haskins",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "L. Devlin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "16",
+        "name": "B. Raymond",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "B. Saigeon",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "18",
+        "name": "M. Araujo",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "P. Moynihan",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "C. Cook",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "A. Kurapov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "N. Carabin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "A. Butcher",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "J. Michel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "C. McMenamin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "J. Simoneau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "72",
+        "name": "J. Page",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "A. Kulakov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "95",
+        "name": "J. Frasca",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 5
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": -5,
+        "shots": 24,
+        "pim": 13
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "34",
+        "name": "T. Brennan",
+        "minsPlayed": "59:46",
+        "shotsAgainst": 24,
+        "saves": 23,
+        "ga": 1,
+        "svPct": 0.958
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:46",
+        "shotsAgainst": 24,
+        "saves": 23,
+        "ga": 1,
+        "svPct": 0.958
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "Y. Perets",
+        "minsPlayed": "30:08",
+        "shotsAgainst": 12,
+        "saves": 10,
+        "ga": 2,
+        "svPct": 0.833
+      },
+      {
+        "number": "29",
+        "name": "V. Purpura",
+        "minsPlayed": "27:41",
+        "shotsAgainst": 9,
+        "saves": 8,
+        "ga": 1,
+        "svPct": 0.889
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "57:49",
+        "shotsAgainst": 21,
+        "saves": 18,
+        "ga": 3,
+        "svPct": 0.857
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Simoneau",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "5:54"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Boislard",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "7:37"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Frasca",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "7:37"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "L. Devlin",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "10:08"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Simoneau",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "15:19"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "S. Gulka",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "18:03"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "B. Saigeon",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "10:21"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "ADK",
+      "name": "K. Gervais",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "REA",
+      "name": "B. Saigeon",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "ADK",
+      "name": "T. Fawcett",
+      "g": 0,
+      "a": 1,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:26:25.785Z"
+}

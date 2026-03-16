@@ -1,0 +1,725 @@
+{
+  "gameInfo": {
+    "gameId": 24778,
+    "visitingTeam": "Greensboro",
+    "homeTeam": "Idaho",
+    "date": "Jan 7, 2026",
+    "arena": "Idaho Central Arena",
+    "attendance": 5224,
+    "finalScore": {
+      "visiting": 3,
+      "home": 5
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "10:46",
+      "team": "IDH",
+      "scorer": "B. Hoffmann (17)",
+      "assists": "A. MacDonell, S. Jardine",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "15:15",
+      "team": "IDH",
+      "scorer": "R. Holmes (6)",
+      "assists": "B. Hoffmann, F. Arcuri",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "6:04",
+      "team": "GSO",
+      "scorer": "L. Nelson (5)",
+      "assists": "D. Goure, T. Zins",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "10:35",
+      "team": "IDH",
+      "scorer": "B. Hoffmann (18)",
+      "assists": "J. Horvath, A. MacDonell",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "2:53",
+      "team": "GSO",
+      "scorer": "R. Richardson (5)",
+      "assists": "A. Borshyov",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "6:49",
+      "team": "GSO",
+      "scorer": "A. Rinaldi (7)",
+      "assists": "Z. Faremouth",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "7:02",
+      "team": "IDH",
+      "scorer": "J. Miller (7)",
+      "assists": "R. Holmes, M. Nevers",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "19:18",
+      "team": "IDH",
+      "scorer": "F. Arcuri (12)",
+      "assists": "J. Boltmann",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Greensboro",
+      "p1": 15,
+      "p2": 11,
+      "p3": 14,
+      "ot": 0,
+      "total": 40
+    },
+    {
+      "team": "Idaho",
+      "p1": 14,
+      "p2": 13,
+      "p3": 9,
+      "ot": 0,
+      "total": 36
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "N. Quapp",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "80",
+        "name": "R. Khazheyev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "T. Zins",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "D. Goure",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "9",
+        "name": "D. Skelly",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "Z. Faremouth",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "P. Newell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "A. Messuri",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "17",
+        "name": "A. Rinaldi",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "R. Richardson",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Borshyov",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "D. Koumontzis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "D. Gagnon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "L. Nelson",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "B. Roche",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "40",
+        "name": "T. Weiss",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "44",
+        "name": "G. Smith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "45",
+        "name": "C. Leiter",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "N. Delmas",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "J. Biro",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 4,
+        "pts": 7,
+        "plusMinus": -11,
+        "shots": 40,
+        "pim": 6
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "B. Kraws",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "J. Barczewski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "J. Horvath",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "J. Baum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "B. Hoffmann",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "S. Jardine",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "13",
+        "name": "F. Arcuri",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "T. Pelton-Byce",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "N. Portz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "M. Nevers",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "J. Shields",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "L. Malmquist",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "J. Miller",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "A. MacDonell",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "J. Steinmetz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "R. Holmes",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "J. Boltmann",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "55",
+        "name": "C. Dodero",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "C. Dodero",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 15
+      },
+      {
+        "number": "89",
+        "name": "G. Silianoff",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 9,
+        "pts": 14,
+        "plusMinus": 10,
+        "shots": 36,
+        "pim": 19
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "80",
+        "name": "R. Khazheyev",
+        "minsPlayed": "58:09",
+        "shotsAgainst": 35,
+        "saves": 31,
+        "ga": 4,
+        "svPct": 0.886
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "58:09",
+        "shotsAgainst": 36,
+        "saves": 31,
+        "ga": 5,
+        "svPct": 0.861
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "B. Kraws",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 40,
+        "saves": 37,
+        "ga": 3,
+        "svPct": 0.925
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 40,
+        "saves": 37,
+        "ga": 3,
+        "svPct": 0.925
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "S. Jardine",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "13:54"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "A. Messuri",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:48"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Boltmann",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:48"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "T. Weiss",
+      "minutes": 2,
+      "infraction": "Interference on the Goalkeeper - minor (69.2)",
+      "time": "14:10"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Dodero",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "14:10"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Dodero",
+      "minutes": 10,
+      "infraction": "Game misconduct - Aggressor (46.2)",
+      "time": "14:10"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "D. Goure",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "16:48"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "IDH",
+      "name": "B. Hoffmann",
+      "g": 2,
+      "a": 1,
+      "pts": 3
+    },
+    {
+      "star": 2,
+      "team": "IDH",
+      "name": "R. Holmes",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "GSO",
+      "name": "L. Nelson",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:23:35.034Z"
+}

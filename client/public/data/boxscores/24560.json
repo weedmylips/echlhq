@@ -1,0 +1,748 @@
+{
+  "gameInfo": {
+    "gameId": 24560,
+    "visitingTeam": "Trois-Rivières",
+    "homeTeam": "Idaho",
+    "date": "Dec 3, 2025",
+    "arena": "Idaho Central Arena",
+    "attendance": 5078,
+    "finalScore": {
+      "visiting": 3,
+      "home": 4
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "13:58",
+      "team": "TR",
+      "scorer": "J. Teasdale (3)",
+      "assists": "R. Kidney, C. Martin",
+      "strength": "PP"
+    },
+    {
+      "period": "1st",
+      "time": "18:33",
+      "team": "TR",
+      "scorer": "J. Dion (2)",
+      "assists": "M. Adams-Moisan",
+      "strength": "SH"
+    },
+    {
+      "period": "1st",
+      "time": "19:27",
+      "team": "IDH",
+      "scorer": "A. Hreschuk (1)",
+      "assists": "N. Canade, C. Dodero",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "19:24",
+      "team": "TR",
+      "scorer": "T. Hylland (4)",
+      "assists": "I. Dufort, C. Martin",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "7:08",
+      "team": "IDH",
+      "scorer": "T. Pelton-Byce (3)",
+      "assists": "J. Shields, M. Anderson",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "14:55",
+      "team": "IDH",
+      "scorer": "A. MacDonell (4)",
+      "assists": "S. Jardine, B. Hoffmann",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Trois-Rivières",
+      "p1": 7,
+      "p2": 9,
+      "p3": 16,
+      "ot": 6,
+      "total": 38
+    },
+    {
+      "team": "Idaho",
+      "p1": 12,
+      "p2": 8,
+      "p3": 8,
+      "ot": 7,
+      "total": 36
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "29",
+        "name": "H. Jones",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "B. Gaudreau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "W. McLeod",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 4
+      },
+      {
+        "number": "10",
+        "name": "I. Dufort",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "E. Serensits",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "T. Hylland",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "M. Estapa",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "I. Mianscum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "A. Coxhead",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "C. Desruisseaux",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "22",
+        "name": "A. Poulin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "24",
+        "name": "D. Louis-Jean",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "27",
+        "name": "J. Dion",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "M. Adams-Moisan",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "42",
+        "name": "J. Teasdale",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "L. Fuller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "C. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "78",
+        "name": "T. Cormier",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "82",
+        "name": "E. Goriunov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "R. Kidney",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 5,
+        "pts": 8,
+        "plusMinus": -7,
+        "shots": 38,
+        "pim": 14
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "B. Kraws",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "J. Barczewski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "J. Horvath",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 12
+      },
+      {
+        "number": "3",
+        "name": "N. Canade",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "K. Pearson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "9",
+        "name": "B. Hoffmann",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "S. Jardine",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "F. Arcuri",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "T. Pelton-Byce",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "M. Anderson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "24",
+        "name": "J. Shields",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "L. Malmquist",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "26",
+        "name": "J. Miller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "A. MacDonell",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "J. Steinmetz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "R. Holmes",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "44",
+        "name": "J. Boltmann",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "C. Dodero",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "A. Hreschuk",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "89",
+        "name": "G. Silianoff",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 6,
+        "pts": 10,
+        "plusMinus": 6,
+        "shots": 36,
+        "pim": 20
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "39",
+        "name": "B. Gaudreau (SOL)",
+        "minsPlayed": "66:36",
+        "shotsAgainst": 35,
+        "saves": 32,
+        "ga": 3,
+        "svPct": 0.914
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "66:36",
+        "shotsAgainst": 35,
+        "saves": 32,
+        "ga": 3,
+        "svPct": 0.914
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "B. Kraws",
+        "minsPlayed": "67:00",
+        "shotsAgainst": 38,
+        "saves": 35,
+        "ga": 3,
+        "svPct": 0.921
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "67:00",
+        "shotsAgainst": 38,
+        "saves": 35,
+        "ga": 3,
+        "svPct": 0.921
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "M. Estapa",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "11:53"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "L. Malmquist",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "13:52"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "D. Louis-Jean",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "17:14"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "M. Anderson",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "11:26"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Desruisseaux",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "13:00"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "A. Poulin",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:27"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "K. Pearson",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:27"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "W. McLeod",
+      "minutes": 2,
+      "infraction": "Interference on the Goalkeeper - minor (69.2)",
+      "time": "19:47"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "W. McLeod",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "19:47"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Horvath",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "19:47"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Horvath",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "19:47"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "M. Adams-Moisan",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "7:41"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "R. Holmes",
+      "minutes": 2,
+      "infraction": "Boarding - minor (41.2)",
+      "time": "7:51"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "IDH",
+      "name": "K. Pearson",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 2,
+      "team": "IDH",
+      "name": "T. Pelton-Byce",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "TR",
+      "name": "C. Martin",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:22:15.639Z"
+}

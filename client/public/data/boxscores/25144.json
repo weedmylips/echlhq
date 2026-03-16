@@ -1,0 +1,763 @@
+{
+  "gameInfo": {
+    "gameId": 25144,
+    "visitingTeam": "Tahoe",
+    "homeTeam": "Kansas City",
+    "date": "Mar 7, 2026",
+    "arena": "Cable Dahmer Arena",
+    "attendance": 5482,
+    "finalScore": {
+      "visiting": 3,
+      "home": 5
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "4:27",
+      "team": "KC",
+      "scorer": "B. Carpenter (14)",
+      "assists": "T. Farrell, J. Janicke",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "12:06",
+      "team": "TAH",
+      "scorer": "A. Collins (3)",
+      "assists": "C. Marritt, E. Olson",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "15:25",
+      "team": "TAH",
+      "scorer": "K. Stewart (2)",
+      "assists": "S. Mayer, L. Adam",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "10:38",
+      "team": "KC",
+      "scorer": "B. Carpenter (15)",
+      "assists": "J. Janicke, J. Marooney",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "11:02",
+      "team": "KC",
+      "scorer": "D. Cotton (19)",
+      "assists": "M. Crawford, J. Jutting",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "18:00",
+      "team": "TAH",
+      "scorer": "D. Paliani (25)",
+      "assists": "T. Swick, K. Wall",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "1:19",
+      "team": "KC",
+      "scorer": "D. Cotton (20)",
+      "assists": "C. Carreau",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "19:02",
+      "team": "KC",
+      "scorer": "J. Berezowski (12)",
+      "assists": "N. Sullivan",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Tahoe",
+      "p1": 15,
+      "p2": 12,
+      "p3": 9,
+      "ot": 0,
+      "total": 36
+    },
+    {
+      "team": "Kansas City",
+      "p1": 7,
+      "p2": 13,
+      "p3": 9,
+      "ot": 0,
+      "total": 29
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "D. Basse",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "J. Papirny",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "C. Valerian",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "K. Taylor",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "L. Alger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "M. O'Leary",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "14",
+        "name": "C. Marritt",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "J. McGrew",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "J. Durflinger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "L. Adam",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "T. Ness",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "45",
+        "name": "K. Stewart",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "A. Cholach",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "48",
+        "name": "A. Collins",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "65",
+        "name": "D. Paliani",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 14
+      },
+      {
+        "number": "76",
+        "name": "T. Swick",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "79",
+        "name": "E. Olson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "94",
+        "name": "K. Wall",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 7,
+        "pim": 0
+      },
+      {
+        "number": "95",
+        "name": "S. Mayer",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 6,
+        "pts": 9,
+        "plusMinus": -6,
+        "shots": 36,
+        "pim": 24
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "J. LaFontaine",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "L. Terness",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "J. Marooney",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "L. LaMaster",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "L. Loheit",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 4
+      },
+      {
+        "number": "9",
+        "name": "J. Jutting",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "L. McCallum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "D. Cotton",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "B. Carpenter",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "M. Crawford",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 4,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "D. Burgin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "J. Berezowski",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "N. Sullivan",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 10
+      },
+      {
+        "number": "22",
+        "name": "C. Carreau",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "T. Farrell",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "25",
+        "name": "C. Brand",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. McLaughlin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "J. Janicke",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "W. Gavin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "82",
+        "name": "J. Randl",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 8,
+        "pts": 13,
+        "plusMinus": 5,
+        "shots": 29,
+        "pim": 18
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "34",
+        "name": "J. Papirny",
+        "minsPlayed": "58:28",
+        "shotsAgainst": 28,
+        "saves": 24,
+        "ga": 4,
+        "svPct": 0.857
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "58:28",
+        "shotsAgainst": 29,
+        "saves": 24,
+        "ga": 5,
+        "svPct": 0.828
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "J. LaFontaine",
+        "minsPlayed": "6:40",
+        "shotsAgainst": 6,
+        "saves": 6,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "35",
+        "name": "L. Terness",
+        "minsPlayed": "53:20",
+        "shotsAgainst": 30,
+        "saves": 27,
+        "ga": 3,
+        "svPct": 0.9
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 36,
+        "saves": 33,
+        "ga": 3,
+        "svPct": 0.917
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "T. Farrell",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "5:06"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "T. Ness",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "16:39"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Berezowski",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "0:32"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "D. Paliani",
+      "minutes": 4,
+      "infraction": "High-sticking - double minor (60.3)",
+      "time": "4:27"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Durflinger",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "10:50"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "S. Mayer",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "15:10"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "L. Loheit",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "15:10"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. O'Leary",
+      "minutes": 2,
+      "infraction": "Diving/Embellishment (64.2)",
+      "time": "15:24"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "D. Paliani",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "18:00"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "L. Loheit",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:00"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "N. Sullivan",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "18:00"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "T. Swick",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "12:40"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "KC",
+      "name": "D. Cotton",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "KC",
+      "name": "B. Carpenter",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "KC",
+      "name": "J. Janicke",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:26:12.313Z"
+}

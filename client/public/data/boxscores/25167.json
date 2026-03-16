@@ -1,0 +1,700 @@
+{
+  "gameInfo": {
+    "gameId": 25167,
+    "visitingTeam": "Toledo",
+    "homeTeam": "Savannah",
+    "date": "Mar 12, 2026",
+    "arena": "Enmarket Arena",
+    "attendance": 7485,
+    "finalScore": {
+      "visiting": 5,
+      "home": 3
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "17:30",
+      "team": "TOL",
+      "scorer": "G. Van Wyhe (11)",
+      "assists": "J. Waldron, T. Dickinson",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "18:35",
+      "team": "TOL",
+      "scorer": "B. Michaelian (3)",
+      "assists": "B. Kruse, N. Andrews",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "19:48",
+      "team": "SAV",
+      "scorer": "J. Wiebe (4)",
+      "assists": "R. Sullivan, J. Lopina",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "6:32",
+      "team": "TOL",
+      "scorer": "R. Mosley (5)",
+      "assists": "B. Kruse",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "7:55",
+      "team": "TOL",
+      "scorer": "R. McCourt (6)",
+      "assists": "J. Waldron, T. Dickinson",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "7:19",
+      "team": "SAV",
+      "scorer": "D. Cesana (6)",
+      "assists": "L. Walsh, M. Koopman",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "12:22",
+      "team": "TOL",
+      "scorer": "G. Van Wyhe (12)",
+      "assists": "T. Dickinson, R. McCourt",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "13:08",
+      "team": "SAV",
+      "scorer": "C. Tellier (7)",
+      "assists": "N. Zabaneh, R. Hughes",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Toledo",
+      "p1": 20,
+      "p2": 13,
+      "p3": 8,
+      "ot": 0,
+      "total": 41
+    },
+    {
+      "team": "Savannah",
+      "p1": 9,
+      "p2": 14,
+      "p3": 15,
+      "ot": 0,
+      "total": 38
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "M. Jurusik",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "N. Lalonde",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "W. MacKinnon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "N. Andrews",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "7",
+        "name": "S. Craggs",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "D. Smirnov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "B. Michaelian",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "T. Dickinson",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "R. Mosley",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "R. Funk",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "C. Keenan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "C. Swoyer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "26",
+        "name": "R. McCourt",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. Waldron",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "B. Kruse",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "D. Moulton",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "62",
+        "name": "G. Van Wyhe",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "67",
+        "name": "M. Lewandowski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "78",
+        "name": "T. Kelly",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "79",
+        "name": "N. Roy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 9,
+        "pts": 14,
+        "plusMinus": 10,
+        "shots": 41,
+        "pim": 6
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "N. Giesbrecht",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "V. Purpura",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "D. Cesana",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "N. Carroll",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "C. Tellier",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "J. Wiebe",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "R. Sullivan",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "N. Granowicz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "18",
+        "name": "J. Lopina",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "K. Pehrson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "L. Drevitch",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "R. Vitelli",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "W. Riedell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "E. Nause",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "L. Walsh",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "R. Hughes",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "36",
+        "name": "M. Koopman",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "41",
+        "name": "N. Zabaneh",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "45",
+        "name": "B. Brodzinski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "57",
+        "name": "P. Waugh",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 6,
+        "pts": 9,
+        "plusMinus": -10,
+        "shots": 38,
+        "pim": 4
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "M. Jurusik",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 38,
+        "saves": 35,
+        "ga": 3,
+        "svPct": 0.921
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 38,
+        "saves": 35,
+        "ga": 3,
+        "svPct": 0.921
+      }
+    ],
+    "home": [
+      {
+        "number": "33",
+        "name": "V. Purpura",
+        "minsPlayed": "56:47",
+        "shotsAgainst": 41,
+        "saves": 36,
+        "ga": 5,
+        "svPct": 0.878
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "56:47",
+        "shotsAgainst": 41,
+        "saves": 36,
+        "ga": 5,
+        "svPct": 0.878
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "M. Koopman",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "3:47"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "N. Granowicz",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "12:52"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "T. Kelly",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "15:43"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Swoyer",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "14:35"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "N. Andrews",
+      "minutes": 2,
+      "infraction": "Elbowing - minor (45.2)",
+      "time": "20:00"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "TOL",
+      "name": "G. Van Wyhe",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "TOL",
+      "name": "T. Dickinson",
+      "g": 0,
+      "a": 3,
+      "pts": 3
+    },
+    {
+      "star": 3,
+      "team": "TOL",
+      "name": "R. McCourt",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:26:22.017Z"
+}

@@ -1,0 +1,836 @@
+{
+  "gameInfo": {
+    "gameId": 24386,
+    "visitingTeam": "Reading",
+    "homeTeam": "Worcester",
+    "date": "Nov 1, 2025",
+    "arena": "DCU Center",
+    "attendance": 2593,
+    "finalScore": {
+      "visiting": 5,
+      "home": 1
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "9:12",
+      "team": "REA",
+      "scorer": "M. Rizzo (2)",
+      "assists": "R. Stucker, Y. Mongo",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "15:37",
+      "team": "REA",
+      "scorer": "B. Saigeon (3)",
+      "assists": "K. Haskins, C. Golder",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "18:44",
+      "team": "REA",
+      "scorer": "C. Golder (2)",
+      "assists": "C. Cook, B. Meehan",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "4:51",
+      "team": "WOR",
+      "scorer": "D. Callin (1)",
+      "assists": "A. Repaci, R. Mitton",
+      "strength": "PP"
+    },
+    {
+      "period": "3rd",
+      "time": "7:40",
+      "team": "REA",
+      "scorer": "S. Boulton (1)",
+      "assists": "L. Devlin, M. Rizzo",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "11:55",
+      "team": "REA",
+      "scorer": "C. Golder (3)",
+      "assists": "M. Rizzo, B. Meehan",
+      "strength": "PP"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Reading",
+      "p1": 11,
+      "p2": 5,
+      "p3": 16,
+      "ot": 0,
+      "total": 32
+    },
+    {
+      "team": "Worcester",
+      "p1": 9,
+      "p2": 9,
+      "p3": 8,
+      "ot": 0,
+      "total": 26
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "29",
+        "name": "V. Purpura",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "80",
+        "name": "K. Petruzzelli",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "R. Stucker",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "E. Szmagaj",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "V. Hadfield",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "B. Meehan",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "K. Haskins",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "C. Golder",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 2,
+        "shots": 6,
+        "pim": 2
+      },
+      {
+        "number": "11",
+        "name": "N. Capone",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "L. Devlin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "M. Rizzo",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "B. Saigeon",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "21",
+        "name": "C. Cook",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 10
+      },
+      {
+        "number": "24",
+        "name": "A. Guryev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "N. Burke",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "A. Swankler",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 6
+      },
+      {
+        "number": "28",
+        "name": "A. Butcher",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "36",
+        "name": "S. Boulton",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 15
+      },
+      {
+        "number": "88",
+        "name": "A. Kulakov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 15
+      },
+      {
+        "number": "91",
+        "name": "Y. Mongo",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 10,
+        "pts": 15,
+        "plusMinus": 20,
+        "shots": 32,
+        "pim": 52
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "T. Lennox",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "H. Tikkanen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "C. McDonald",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "M. Dorrington",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "M. Ferrandino",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "R. Miotto",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "L. Hatten",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 15
+      },
+      {
+        "number": "13",
+        "name": "T. Kobryn",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "J. Horvath",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 17
+      },
+      {
+        "number": "16",
+        "name": "R. Mitton",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "R. Piercey",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 17
+      },
+      {
+        "number": "24",
+        "name": "J. Pulkkinen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "J. Nurmi",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "K. Dunn",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "29",
+        "name": "C. Donhauser",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "37",
+        "name": "M. DeMelis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "A. Callin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 15
+      },
+      {
+        "number": "74",
+        "name": "C. Fraser",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 10
+      },
+      {
+        "number": "77",
+        "name": "D. Callin",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "A. Repaci",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -20,
+        "shots": 26,
+        "pim": 80
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "29",
+        "name": "V. Purpura",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 26,
+        "saves": 25,
+        "ga": 1,
+        "svPct": 0.962
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 26,
+        "saves": 25,
+        "ga": 1,
+        "svPct": 0.962
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "T. Lennox",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 32,
+        "saves": 27,
+        "ga": 5,
+        "svPct": 0.844
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 32,
+        "saves": 27,
+        "ga": 5,
+        "svPct": 0.844
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "S. Boulton",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "14:44"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "L. Hatten",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "14:44"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Golder",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "16:24"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "B. Meehan",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "16:33"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "B. Saigeon",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "3:23"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "A. Swankler",
+      "minutes": 4,
+      "infraction": "Double Minor - Roughing",
+      "time": "6:24"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Horvath",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "6:24"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "R. Piercey",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "6:24"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "K. Dunn",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "10:17"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "Served by M. Dorrington",
+      "minutes": 2,
+      "infraction": "Bench minor - Too many men (74.2)",
+      "time": "11:34"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Donhauser",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "12:14"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "S. Boulton",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Cook",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "A. Kulakov",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "A. Kulakov",
+      "minutes": 10,
+      "infraction": "Game misconduct - Secondary altercation (46.7)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "A. Swankler",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "A. Callin",
+      "minutes": 5,
+      "infraction": "Slashing - major (61.3)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "A. Callin",
+      "minutes": 10,
+      "infraction": "Game misconduct - Slashing (61.5)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Fraser",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "L. Hatten",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Horvath",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Horvath",
+      "minutes": 10,
+      "infraction": "Game misconduct - Secondary altercation (46.7)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "R. Piercey",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "14:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "R. Piercey",
+      "minutes": 10,
+      "infraction": "Game misconduct - Leaving The Players Bench (70.1)",
+      "time": "14:46"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "REA",
+      "name": "C. Golder",
+      "g": 2,
+      "a": 1,
+      "pts": 3
+    },
+    {
+      "star": 2,
+      "team": "REA",
+      "name": "B. Meehan",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "WOR",
+      "name": "D. Callin",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:21:00.994Z"
+}

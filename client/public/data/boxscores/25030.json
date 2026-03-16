@@ -1,0 +1,759 @@
+{
+  "gameInfo": {
+    "gameId": 25030,
+    "visitingTeam": "Idaho",
+    "homeTeam": "Wichita",
+    "date": "Feb 15, 2026",
+    "arena": "INTRUST Bank Arena",
+    "attendance": 2627,
+    "finalScore": {
+      "visiting": 1,
+      "home": 4
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "4:25",
+      "team": "WIC",
+      "scorer": "M. Crasa (7)",
+      "assists": "K. Jeffers, N. Somerville",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "12:05",
+      "team": "WIC",
+      "scorer": "S. Blackwell (10)",
+      "assists": "J. Dickman, M. Stinil",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "17:45",
+      "team": "IDH",
+      "scorer": "M. Wahl (9)",
+      "assists": "F. Arcuri, C. Dodero",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "7:38",
+      "team": "WIC",
+      "scorer": "J. Wahlin (3)",
+      "assists": "P. Bates, J. Dickman",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "18:54",
+      "team": "WIC",
+      "scorer": "N. Nardecchia (3)",
+      "assists": "S. Blackwell, N. Beck",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Idaho",
+      "p1": 12,
+      "p2": 4,
+      "p3": 10,
+      "ot": 0,
+      "total": 26
+    },
+    {
+      "team": "Wichita",
+      "p1": 8,
+      "p2": 11,
+      "p3": 7,
+      "ot": 0,
+      "total": 26
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "B. Kraws",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "J. Barczewski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "N. Canade",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "6",
+        "name": "J. Baum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "M. Wahl",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "K. Pearson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 12
+      },
+      {
+        "number": "10",
+        "name": "S. Jardine",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "F. Arcuri",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "C. Punnett",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 12
+      },
+      {
+        "number": "17",
+        "name": "T. Pelton-Byce",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "M. Nevers",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "J. Shields",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "L. Malmquist",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "J. Miller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "A. MacDonell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "J. Steinmetz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "32",
+        "name": "R. Holmes",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "44",
+        "name": "J. Boltmann",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "A. Hreschuk",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "C. Dodero",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -11,
+        "shots": 26,
+        "pim": 34
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "R. Ross",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "M. Davis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "N. Somerville",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "K. Proctor",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "T. Lloyd",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "S. Blackwell",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "P. Bates",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "K. Jeffers",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "N. Beck",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "J. Dickman",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "M. Stinil",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 12
+      },
+      {
+        "number": "24",
+        "name": "N. Nardecchia",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "N. Kneen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "28",
+        "name": "C. Fillion",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "M. Crasa",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "T. Jette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "83",
+        "name": "J. Wahlin",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 14
+      },
+      {
+        "number": "92",
+        "name": "D. Smith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 8,
+        "pts": 12,
+        "plusMinus": 10,
+        "shots": 26,
+        "pim": 32
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "B. Kraws",
+        "minsPlayed": "58:38",
+        "shotsAgainst": 25,
+        "saves": 22,
+        "ga": 3,
+        "svPct": 0.88
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "58:38",
+        "shotsAgainst": 26,
+        "saves": 22,
+        "ga": 4,
+        "svPct": 0.846
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "R. Ross",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 26,
+        "saves": 25,
+        "ga": 1,
+        "svPct": 0.962
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 26,
+        "saves": 25,
+        "ga": 1,
+        "svPct": 0.962
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "T. Lloyd",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "0:35"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "N. Canade",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "7:44"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Dodero",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "1:25"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "K. Pearson",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "11:24"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Steinmetz",
+      "minutes": 2,
+      "infraction": "Unsportsmanlike conduct - minor (75.2)",
+      "time": "18:06"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Steinmetz",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:06"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "N. Kneen",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:06"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Wahlin",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "5:23"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "R. Holmes",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:51"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "T. Jette",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:51"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "K. Pearson",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "13:07"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Punnett",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "13:07"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Punnett",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "13:07"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "M. Stinil",
+      "minutes": 2,
+      "infraction": "Unsportsmanlike conduct - minor (75.2)",
+      "time": "13:07"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "M. Stinil",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "13:07"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Wahlin",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "13:07"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Wahlin",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "13:07"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "WIC",
+      "name": "R. Ross",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 2,
+      "team": "WIC",
+      "name": "S. Blackwell",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "WIC",
+      "name": "J. Wahlin",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:25:23.351Z"
+}

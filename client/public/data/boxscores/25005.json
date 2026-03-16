@@ -1,0 +1,717 @@
+{
+  "gameInfo": {
+    "gameId": 25005,
+    "visitingTeam": "Reading",
+    "homeTeam": "Wheeling",
+    "date": "Feb 13, 2026",
+    "arena": "WesBanco Arena",
+    "attendance": 2132,
+    "finalScore": {
+      "visiting": 3,
+      "home": 0
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "0:37",
+      "team": "REA",
+      "scorer": "M. Gendron (2)",
+      "assists": "K. Haskins, V. Sevigny",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "10:23",
+      "team": "REA",
+      "scorer": "N. Burke (9)",
+      "assists": "",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "19:40",
+      "team": "REA",
+      "scorer": "L. Devlin (6)",
+      "assists": "N. Burke",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Reading",
+      "p1": 7,
+      "p2": 10,
+      "p3": 12,
+      "ot": 0,
+      "total": 29
+    },
+    {
+      "team": "Wheeling",
+      "p1": 11,
+      "p2": 13,
+      "p3": 5,
+      "ot": 0,
+      "total": 29
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "1",
+        "name": "Y. Perets",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "80",
+        "name": "K. Petruzzelli",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "B. Meehan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "K. Haskins",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "12",
+        "name": "L. Devlin",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "A. Saint",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "B. Saigeon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "Z. Bannister",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "A. Guryev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "G. Devine",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "26",
+        "name": "A. Kurapov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "28",
+        "name": "A. Butcher",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "J. Michel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "M. Gendron",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "46",
+        "name": "V. Sevigny",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "53",
+        "name": "J. Willets",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "72",
+        "name": "J. Page",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "N. Burke",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "A. Kulakov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "95",
+        "name": "J. Frasca",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 15
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 3,
+        "pts": 6,
+        "plusMinus": 15,
+        "shots": 29,
+        "pim": 23
+      }
+    ],
+    "home": [
+      {
+        "number": "33",
+        "name": "T. Gauthier",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "40",
+        "name": "M. Pavlenko",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "O. Cole",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "D. Laatsch",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "A. Sutter",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "M. Posma",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "L. Pietila",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "R. Mahshie",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "A. Kuqali",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "R. Hernández",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "E. Parker",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "C. Armstrong",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "24",
+        "name": "T. Thompson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "J. Works",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "34",
+        "name": "Z. Urdahl",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "36",
+        "name": "M. Graham",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "37",
+        "name": "C. Lockhart",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "51",
+        "name": "B. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "54",
+        "name": "M. De St. Phalle",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "83",
+        "name": "B. Edwards",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -16,
+        "shots": 29,
+        "pim": 10
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "80",
+        "name": "K. Petruzzelli",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 29,
+        "saves": 29,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 29,
+        "saves": 29,
+        "ga": 0,
+        "svPct": 1
+      }
+    ],
+    "home": [
+      {
+        "number": "33",
+        "name": "T. Gauthier",
+        "minsPlayed": "58:55",
+        "shotsAgainst": 28,
+        "saves": 26,
+        "ga": 2,
+        "svPct": 0.929
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "58:55",
+        "shotsAgainst": 29,
+        "saves": 26,
+        "ga": 3,
+        "svPct": 0.897
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "G. Devine",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "15:26"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Works",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "17:57"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "K. Haskins",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "3:41"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "M. Graham",
+      "minutes": 2,
+      "infraction": "Diving/Embellishment (64.2)",
+      "time": "3:41"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "V. Sevigny",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "12:24"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "D. Laatsch",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "15:52"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "A. Kurapov",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "18:14"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Lockhart",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "4:05"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "J. Frasca",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "4:49"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "J. Frasca",
+      "minutes": 10,
+      "infraction": "Game misconduct - Aggressor (46.2)",
+      "time": "4:49"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Armstrong",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "4:49"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "REA",
+      "name": "K. Petruzzelli",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 2,
+      "team": "REA",
+      "name": "M. Gendron",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "REA",
+      "name": "N. Burke",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:25:12.657Z"
+}

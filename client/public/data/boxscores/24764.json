@@ -1,0 +1,689 @@
+{
+  "gameInfo": {
+    "gameId": 24764,
+    "visitingTeam": "Savannah",
+    "homeTeam": "Trois-Rivières",
+    "date": "Jan 3, 2026",
+    "arena": "Colisée Vidéotron",
+    "attendance": 2829,
+    "finalScore": {
+      "visiting": 4,
+      "home": 0
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "7:15",
+      "team": "SAV",
+      "scorer": "L. Walsh (3)",
+      "assists": "K. Pehrson, C. Krygier",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "12:26",
+      "team": "SAV",
+      "scorer": "R. Hughes (7)",
+      "assists": "N. Zabaneh, C. Tellier",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "8:14",
+      "team": "SAV",
+      "scorer": "D. Cesana (4)",
+      "assists": "N. Zabaneh",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "3:28",
+      "team": "SAV",
+      "scorer": "C. Krygier (4)",
+      "assists": "B. Brodzinski, C. Tellier",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Savannah",
+      "p1": 14,
+      "p2": 6,
+      "p3": 8,
+      "ot": 0,
+      "total": 28
+    },
+    {
+      "team": "Trois-Rivières",
+      "p1": 8,
+      "p2": 8,
+      "p3": 15,
+      "ot": 0,
+      "total": 31
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "V. Purpura",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "E. Cormier",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "D. Cesana",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "N. Carroll",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "C. Gregga",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "C. Tellier",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "14",
+        "name": "R. Sullivan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "N. Granowicz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "J. Davies",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "20",
+        "name": "K. Pehrson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "L. Drevitch",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "W. Riedell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "E. Nause",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 15
+      },
+      {
+        "number": "27",
+        "name": "L. Walsh",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "T. Amonte",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "R. Hughes",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "36",
+        "name": "M. Koopman",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "41",
+        "name": "N. Zabaneh",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "45",
+        "name": "B. Brodzinski",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "53",
+        "name": "C. Krygier",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 3,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 7,
+        "pts": 11,
+        "plusMinus": 20,
+        "shots": 28,
+        "pim": 19
+      }
+    ],
+    "home": [
+      {
+        "number": "37",
+        "name": "V. Duplessis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "B. Gaudreau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "W. McLeod",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "J. Paquette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "T. Hylland",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "M. Estapa",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "I. Mianscum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "A. Coxhead",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "21",
+        "name": "C. Desruisseaux",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Poulin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 2
+      },
+      {
+        "number": "24",
+        "name": "D. Louis-Jean",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. Dion",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "L. Fuller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "C. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "78",
+        "name": "T. Cormier",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "82",
+        "name": "E. Goriunov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "R. Kidney",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "A. Beauregard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "96",
+        "name": "S. Gulka",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 10
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -20,
+        "shots": 31,
+        "pim": 18
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "34",
+        "name": "E. Cormier",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 31,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 31,
+        "ga": 0,
+        "svPct": 1
+      }
+    ],
+    "home": [
+      {
+        "number": "37",
+        "name": "V. Duplessis",
+        "minsPlayed": "59:46",
+        "shotsAgainst": 28,
+        "saves": 24,
+        "ga": 4,
+        "svPct": 0.857
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:46",
+        "shotsAgainst": 28,
+        "saves": 24,
+        "ga": 4,
+        "svPct": 0.857
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "T. Cormier",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "14:41"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "J. Davies",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "19:59"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "A. Coxhead",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "2:18"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Tellier",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "6:02"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "S. Gulka",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "8:47"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "A. Poulin",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "8:47"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "E. Nause",
+      "minutes": 5,
+      "infraction": "Interference - Major (56.4)",
+      "time": "11:30"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "E. Nause",
+      "minutes": 10,
+      "infraction": "Game Misconduct - Interference (56.5)",
+      "time": "11:30"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "Served by S. Gulka",
+      "minutes": 2,
+      "infraction": "Bench minor - Too many men (74.2)",
+      "time": "14:20"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "SAV",
+      "name": "D. Cesana",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "SAV",
+      "name": "N. Zabaneh",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "SAV",
+      "name": "E. Cormier",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:23:28.722Z"
+}

@@ -1,0 +1,668 @@
+{
+  "gameInfo": {
+    "gameId": 24659,
+    "visitingTeam": "South Carolina",
+    "homeTeam": "Orlando",
+    "date": "Dec 19, 2025",
+    "arena": "Kia Center",
+    "attendance": 10941,
+    "finalScore": {
+      "visiting": 2,
+      "home": 0
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "12:04",
+      "team": "SC",
+      "scorer": "N. Krenzen (1)",
+      "assists": "L. Breen, G. Pyke",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "19:31",
+      "team": "SC",
+      "scorer": "K. Kupka (11)",
+      "assists": "S. Pinard, J. Luypen",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "South Carolina",
+      "p1": 4,
+      "p2": 11,
+      "p3": 9,
+      "ot": 0,
+      "total": 24
+    },
+    {
+      "team": "Orlando",
+      "p1": 11,
+      "p2": 3,
+      "p3": 11,
+      "ot": 0,
+      "total": 25
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "T. Taylor",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "S. Eisele",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "R. Rodzinski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "N. Krenzen",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "C. Mayer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "7",
+        "name": "C. Combs",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "9",
+        "name": "R. Webb",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "T. Burnie",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "D. Loukus",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "18",
+        "name": "K. Kupka",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "S. Cooley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "L. Persson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "L. Breen",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "D. King",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "A. Chiarot",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "J. Klimek",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "P. Guzzo",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "G. Pyke",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "S. Pinard",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "48",
+        "name": "J. Luypen",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 2,
+        "a": 4,
+        "pts": 6,
+        "plusMinus": 10,
+        "shots": 24,
+        "pim": 8
+      }
+    ],
+    "home": [
+      {
+        "number": "32",
+        "name": "J. Gillies",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "C. Sandusky",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "T. Follmer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "L. Britt",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "T. Bird",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "C. Allen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "R. Newkirk",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "E. Szmagaj",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "R. Dickinson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 6
+      },
+      {
+        "number": "19",
+        "name": "C. Kurth",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "D. Geregach",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "M. Roelens",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "D. Gill",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "41",
+        "name": "S. Kersten",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "57",
+        "name": "J. Lukosevicius",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "67",
+        "name": "C. Kodsi",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "T. Drevitch",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "81",
+        "name": "A. Bardaro",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "90",
+        "name": "J. Adams",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "A. Luchuk",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -10,
+        "shots": 25,
+        "pim": 8
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "35",
+        "name": "S. Eisele",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 25,
+        "saves": 25,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 25,
+        "saves": 25,
+        "ga": 0,
+        "svPct": 1
+      }
+    ],
+    "home": [
+      {
+        "number": "32",
+        "name": "J. Gillies",
+        "minsPlayed": "57:57",
+        "shotsAgainst": 24,
+        "saves": 22,
+        "ga": 2,
+        "svPct": 0.917
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "57:57",
+        "shotsAgainst": 24,
+        "saves": 22,
+        "ga": 2,
+        "svPct": 0.917
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "R. Dickinson",
+      "minutes": 4,
+      "infraction": "High-sticking - double minor (60.3)",
+      "time": "17:11"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "D. Loukus",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "8:03"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Combs",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "11:40"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Mayer",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "14:29"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "K. Kupka",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:12"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "T. Drevitch",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:12"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "R. Dickinson",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "11:56"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "SC",
+      "name": "N. Krenzen",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "SC",
+      "name": "S. Eisele",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "SC",
+      "name": "K. Kupka",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:22:59.071Z"
+}

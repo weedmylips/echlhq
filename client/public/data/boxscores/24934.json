@@ -1,0 +1,757 @@
+{
+  "gameInfo": {
+    "gameId": 24934,
+    "visitingTeam": "Rapid City",
+    "homeTeam": "Allen",
+    "date": "Feb 1, 2026",
+    "arena": "Credit Union of Texas Event Center",
+    "attendance": 3830,
+    "finalScore": {
+      "visiting": 6,
+      "home": 3
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "6:20",
+      "team": "RC",
+      "scorer": "B. Bennett (13)",
+      "assists": "R. Wagner, Q. Olson",
+      "strength": "PP"
+    },
+    {
+      "period": "1st",
+      "time": "7:48",
+      "team": "RC",
+      "scorer": "R. Chyzowski (18)",
+      "assists": "Q. Olson, B. Bennett",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "9:39",
+      "team": "RC",
+      "scorer": "B. Bennett (14)",
+      "assists": "R. Ekström, B. Davis",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "2:24",
+      "team": "ALN",
+      "scorer": "H. Blaisdell (13)",
+      "assists": "M. Gildon, J. Chiasson",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "3:43",
+      "team": "ALN",
+      "scorer": "C. Hargrove (10)",
+      "assists": "Q. Warmuth",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "14:51",
+      "team": "RC",
+      "scorer": "R. Wagner (15)",
+      "assists": "M. Smith, B. Davis",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "15:51",
+      "team": "ALN",
+      "scorer": "C. Hargrove (11)",
+      "assists": "C. McAuley, H. Crone",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "0:29",
+      "team": "RC",
+      "scorer": "C. Smedsrud (4)",
+      "assists": "R. Wagner",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "13:18",
+      "team": "RC",
+      "scorer": "R. Ekström (9)",
+      "assists": "D. Pilon, J. Ratzlaff",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Rapid City",
+      "p1": 13,
+      "p2": 7,
+      "p3": 14,
+      "ot": 0,
+      "total": 34
+    },
+    {
+      "team": "Allen",
+      "p1": 10,
+      "p2": 19,
+      "p3": 14,
+      "ot": 0,
+      "total": 43
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "C. Murphy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "R. DiMatteo",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "D. Pilon",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "K. Tiessen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "C. Smedsrud",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "J. Ratzlaff",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "12",
+        "name": "C. Pauls",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "R. Wagner",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "B. Wood",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "B. Russell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "22",
+        "name": "M. Smith",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "C. Joyce",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "29",
+        "name": "R. Chyzowski",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "51",
+        "name": "Q. Olson",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "65",
+        "name": "L. Helland",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 7
+      },
+      {
+        "number": "70",
+        "name": "R. Ekström",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "I. Pierce",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "82",
+        "name": "B. Davis",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "G. Klotz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "B. Bennett",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 1,
+        "shots": 7,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 6,
+        "a": 11,
+        "pts": 17,
+        "plusMinus": 5,
+        "shots": 34,
+        "pim": 13
+      }
+    ],
+    "home": [
+      {
+        "number": "32",
+        "name": "D. Tendeck",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "Q. Warmuth",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "M. Greco",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "B. Simmons-Fischer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 5
+      },
+      {
+        "number": "7",
+        "name": "C. Hargrove",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 12,
+        "pim": 4
+      },
+      {
+        "number": "8",
+        "name": "T. Prefontaine",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "D. Katic",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "11",
+        "name": "J. Chiasson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "K. Gursoy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "H. Blaisdell",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "C. Maxwell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "S. Sedley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "S. Asuchak",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "B. Watts",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "40",
+        "name": "D. Touré",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "67",
+        "name": "H. Crone",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "A. Anania",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "M. Gildon",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "92",
+        "name": "C. McAuley",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 5,
+        "pts": 8,
+        "plusMinus": -5,
+        "shots": 43,
+        "pim": 13
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "C. Murphy",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 43,
+        "saves": 40,
+        "ga": 3,
+        "svPct": 0.93
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 43,
+        "saves": 40,
+        "ga": 3,
+        "svPct": 0.93
+      }
+    ],
+    "home": [
+      {
+        "number": "32",
+        "name": "D. Tendeck",
+        "minsPlayed": "54:47",
+        "shotsAgainst": 32,
+        "saves": 26,
+        "ga": 6,
+        "svPct": 0.813
+      },
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "minsPlayed": "1:52",
+        "shotsAgainst": 2,
+        "saves": 2,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "56:39",
+        "shotsAgainst": 34,
+        "saves": 28,
+        "ga": 6,
+        "svPct": 0.824
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "M. Gildon",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "5:43"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "C. Hargrove",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "8:35"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "C. Hargrove",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "12:20"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "L. Helland",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "15:06"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "J. Ratzlaff",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "18:59"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "B. Russell",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "7:02"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Joyce",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "12:27"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "D. Katic",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "12:48"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "L. Helland",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "3:52"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "B. Simmons-Fischer",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "3:52"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "RC",
+      "name": "R. Wagner",
+      "g": 1,
+      "a": 2,
+      "pts": 3
+    },
+    {
+      "star": 2,
+      "team": "RC",
+      "name": "B. Bennett",
+      "g": 2,
+      "a": 1,
+      "pts": 3
+    },
+    {
+      "star": 3,
+      "team": "ALN",
+      "name": "C. Hargrove",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:24:41.594Z"
+}

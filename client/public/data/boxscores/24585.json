@@ -1,0 +1,764 @@
+{
+  "gameInfo": {
+    "gameId": 24585,
+    "visitingTeam": "Florida",
+    "homeTeam": "Norfolk",
+    "date": "Dec 6, 2025",
+    "arena": "Norfolk Scope",
+    "attendance": 5160,
+    "finalScore": {
+      "visiting": 5,
+      "home": 2
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "2:13",
+      "team": "NOR",
+      "scorer": "D. Drake (1)",
+      "assists": "B. Osmundson, J. McDougall",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "11:00",
+      "team": "FLA",
+      "scorer": "A. Romano (6)",
+      "assists": "O. Chau",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "6:40",
+      "team": "FLA",
+      "scorer": "Q. Burns (1)",
+      "assists": "T. Fizer, H. Elynuik",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "17:24",
+      "team": "NOR",
+      "scorer": "J. Dureau (8)",
+      "assists": "B. Zloty, J. O'Leary",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "18:16",
+      "team": "FLA",
+      "scorer": "K. Betts (8)",
+      "assists": "B. Brar, C. Doherty",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "3:08",
+      "team": "FLA",
+      "scorer": "J. Lansdell (6)",
+      "assists": "H. Elynuik",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "9:28",
+      "team": "FLA",
+      "scorer": "T. Fizer (4)",
+      "assists": "H. Elynuik",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Florida",
+      "p1": 13,
+      "p2": 12,
+      "p3": 5,
+      "ot": 0,
+      "total": 30
+    },
+    {
+      "team": "Norfolk",
+      "p1": 5,
+      "p2": 12,
+      "p3": 14,
+      "ot": 0,
+      "total": 31
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "W. Cranley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "C. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "S. Allen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "K. Landry",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "J. Sambrook",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "13",
+        "name": "C. Needham",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "T. Fizer",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "17",
+        "name": "O. Cooper",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "B. Brar",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "Z. Berzolla",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "20",
+        "name": "O. Chau",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 6,
+        "pim": 2
+      },
+      {
+        "number": "22",
+        "name": "K. Penney",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "K. Betts",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "C. Doherty",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "29",
+        "name": "A. Romano",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "J. Lansdell",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "K. Henry",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "Q. Burns",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "62",
+        "name": "L. Will",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "H. Elynuik",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 7,
+        "pts": 12,
+        "plusMinus": 10,
+        "shots": 30,
+        "pim": 12
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "A. Worthington",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "J. Castor",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "C. Musser",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "C. Yoder",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "D. Jankowski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "J. O'Leary",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "10",
+        "name": "B. Engum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "C. Fedorek",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "B. McNally",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "M. Reifenberger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "J. Dureau",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "20",
+        "name": "K. Conley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "J. McDougall",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "B. Osmundson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "28",
+        "name": "G. Yavaş",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 15
+      },
+      {
+        "number": "44",
+        "name": "B. Zloty",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "D. Drake",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "D. Barteaux",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 10
+      },
+      {
+        "number": "93",
+        "name": "G. Hebert",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "94",
+        "name": "B. Fleurent",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 2,
+        "a": 4,
+        "pts": 6,
+        "plusMinus": -10,
+        "shots": 31,
+        "pim": 35
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "C. Johnson",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 29,
+        "ga": 2,
+        "svPct": 0.935
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 29,
+        "ga": 2,
+        "svPct": 0.935
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "A. Worthington",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 30,
+        "saves": 25,
+        "ga": 5,
+        "svPct": 0.833
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 30,
+        "saves": 25,
+        "ga": 5,
+        "svPct": 0.833
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "G. Yavaş",
+      "minutes": 5,
+      "infraction": "Spearing major (62.3)",
+      "time": "6:13"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "G. Yavaş",
+      "minutes": 10,
+      "infraction": "Game misconduct - Spearing (62.5)",
+      "time": "6:13"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "B. Brar",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "15:47"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Dureau",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "15:47"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "T. Fizer",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "19:11"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. O'Leary",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "1:51"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "C. Yoder",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "7:24"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "Z. Berzolla",
+      "minutes": 2,
+      "infraction": "Throwing the stick - minor (53.2)",
+      "time": "10:04"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "O. Chau",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "11:02"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "B. Osmundson",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "11:23"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "D. Barteaux",
+      "minutes": 10,
+      "infraction": "Misconduct - Continuing Altercation (46.5)",
+      "time": "3:08"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "B. Osmundson",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "3:08"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "J. Sambrook",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "4:45"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Doherty",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "17:52"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "FLA",
+      "name": "Q. Burns",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "FLA",
+      "name": "T. Fizer",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "NOR",
+      "name": "D. Drake",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:22:26.490Z"
+}

@@ -1,0 +1,713 @@
+{
+  "gameInfo": {
+    "gameId": 24882,
+    "visitingTeam": "Trois-Rivières",
+    "homeTeam": "Maine",
+    "date": "Jan 24, 2026",
+    "arena": "Cross Insurance Arena",
+    "attendance": 5253,
+    "finalScore": {
+      "visiting": 1,
+      "home": 7
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "6:36",
+      "team": "MNE",
+      "scorer": "B. Kalmikov (8)",
+      "assists": "L. Hemstrom, M. Underwood",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "17:47",
+      "team": "MNE",
+      "scorer": "A. Nielsen (7)",
+      "assists": "M. Deelstra, X. Lamppa",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "1:44",
+      "team": "TR",
+      "scorer": "J. Paquette (2)",
+      "assists": "C. Desruisseaux, A. Poulin",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "3:09",
+      "team": "MNE",
+      "scorer": "J. Hudson (9)",
+      "assists": "M. Andreev, A. Nielsen",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "18:32",
+      "team": "MNE",
+      "scorer": "X. Lamppa (7)",
+      "assists": "J. Hudson, M. Deelstra",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "0:26",
+      "team": "MNE",
+      "scorer": "J. Perreault (9)",
+      "assists": "M. Andreev",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "8:03",
+      "team": "MNE",
+      "scorer": "L. Hemstrom (5)",
+      "assists": "M. Deelstra",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "12:56",
+      "team": "MNE",
+      "scorer": "L. Hemstrom (6)",
+      "assists": "A. Nielsen, B. Kalmikov",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Trois-Rivières",
+      "p1": 8,
+      "p2": 12,
+      "p3": 11,
+      "ot": 0,
+      "total": 31
+    },
+    {
+      "team": "Maine",
+      "p1": 8,
+      "p2": 9,
+      "p3": 11,
+      "ot": 0,
+      "total": 28
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "29",
+        "name": "H. Jones",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "B. Gaudreau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "W. McLeod",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "J. Paquette",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "E. Serensits",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 1,
+        "pim": 7
+      },
+      {
+        "number": "17",
+        "name": "M. Estapa",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "I. Mianscum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "C. Desruisseaux",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Poulin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "24",
+        "name": "D. Louis-Jean",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. Dion",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "J. Teasdale",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "L. Fuller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "C. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "J. Dunlap",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "82",
+        "name": "E. Goriunov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "R. Kidney",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "A. Beauregard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -4,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "92",
+        "name": "L. Nijhoff",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -4,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -25,
+        "shots": 31,
+        "pim": 11
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "B. Arvanitis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "31",
+        "name": "G. Rosek",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "M. Underwood",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "J. Edward",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 3,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "A. Nielsen",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "A. Venuto",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "B. Kalmikov",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "R. Cronin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "J. Perreault",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "T. Thompson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "X. Lamppa",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "L. Hemstrom",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "S. Vidmar",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "M. Andreev",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "Z. Jordan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "28",
+        "name": "A. DiPaolo",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "41",
+        "name": "M. Deelstra",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "J. Bellamy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "L. Johansson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "92",
+        "name": "J. Hudson",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 5
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 7,
+        "a": 12,
+        "pts": 19,
+        "plusMinus": 25,
+        "shots": 28,
+        "pim": 11
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "39",
+        "name": "B. Gaudreau",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 28,
+        "saves": 21,
+        "ga": 7,
+        "svPct": 0.75
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 28,
+        "saves": 21,
+        "ga": 7,
+        "svPct": 0.75
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "B. Arvanitis",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 30,
+        "ga": 1,
+        "svPct": 0.968
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 30,
+        "ga": 1,
+        "svPct": 0.968
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Estapa",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "2:34"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "A. DiPaolo",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "3:35"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "E. Serensits",
+      "minutes": 2,
+      "infraction": "Boarding - minor (41.2)",
+      "time": "8:30"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "E. Serensits",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "8:30"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Hudson",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "8:30"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "A. Poulin",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "8:59"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "A. Nielsen",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "8:59"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "Z. Jordan",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "13:18"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "MNE",
+      "name": "L. Hemstrom",
+      "g": 2,
+      "a": 1,
+      "pts": 3
+    },
+    {
+      "star": 2,
+      "team": "MNE",
+      "name": "J. Hudson",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "MNE",
+      "name": "M. Deelstra",
+      "g": 0,
+      "a": 3,
+      "pts": 3
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-16T18:24:20.091Z"
+}
