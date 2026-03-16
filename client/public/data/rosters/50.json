@@ -229,12 +229,12 @@
       "player": "Ben Hawerchuk",
       "number": 10,
       "position": "F",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 1,
-      "suspensionGamesOriginal": 1,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -243,7 +243,7 @@
         "a": 9,
         "pts": 14
       },
-      "suspensionGpAtStart": 59
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "11144",
@@ -756,7 +756,7 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": "Trois-Rivières",
+      "acquiredFrom": "Trois-Rivi\u00e8res",
       "acquiredDate": "2026-03-03",
       "stats": {
         "gp": 1,
