@@ -755,7 +755,8 @@ tr.playoff-cutoff td {
   .team-header-logo { width: 48px; height: 48px; }
   .team-header-content { padding: 12px 14px; gap: 8px; }
   .team-header-name { font-size: 16px; }
-  .team-header-meta { gap: 8px; }
+  .team-header-meta { gap: 8px; flex-wrap: nowrap; }
+  .record-text { font-size: 12px; }
 
   .stat-block-value { font-size: 22px; }
   .record-value { font-size: 16px; }
