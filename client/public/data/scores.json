@@ -21,7 +21,7 @@
       "date": "Mar 15, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Greensboro",
       "visitingScore": 1,
       "homeScore": 4,
@@ -71,7 +71,907 @@
       "date": "Mar 15, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Iowa",
+      "visitingScore": 2,
+      "homeTeam": "Cincinnati",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25183,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "visitingScore": 2,
+      "homeTeam": "Maine",
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 25187,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "visitingScore": 4,
+      "homeTeam": "South Carolina",
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "4-3 (SO)",
+      "gameId": 25191,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingScore": 6,
+      "homeTeam": "Greensboro",
+      "homeScore": 0,
+      "overtime": null,
+      "score": "6-0",
+      "gameId": 25184,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "visitingScore": 4,
+      "homeTeam": "Jacksonville",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 25185,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "visitingScore": 3,
+      "homeTeam": "Kalamazoo",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25186,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "visitingScore": 5,
+      "homeTeam": "Orlando",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 25188,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "visitingScore": 5,
+      "homeTeam": "Reading",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 25190,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeTeam": "Wheeling",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25194,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeTeam": "Bloomington",
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 25182,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "visitingScore": 2,
+      "homeTeam": "Allen",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 25181,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "visitingScore": 2,
+      "homeTeam": "Rapid City",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25189,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "visitingScore": 4,
+      "homeTeam": "Utah",
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 25193,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "visitingScore": 8,
+      "homeTeam": "Tahoe",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "8-1",
+      "gameId": 25192,
+      "date": "Mar 14, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingScore": 6,
+      "homeTeam": "Greensboro",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": null,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "visitingScore": 1,
+      "homeTeam": "Indy",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": null,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "visitingScore": 1,
+      "homeTeam": "Jacksonville",
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": null,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "visitingScore": 4,
+      "homeTeam": "Maine",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": null,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "visitingScore": 3,
+      "homeTeam": "Cincinnati",
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": null,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "visitingScore": 6,
+      "homeTeam": "Bloomington",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": null,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "visitingScore": 1,
+      "homeTeam": "Allen",
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "1-2 (SO)",
+      "gameId": null,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingScore": 6,
+      "homeTeam": "Greensboro",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 25171,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "visitingScore": 1,
+      "homeTeam": "Indy",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 25172,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "visitingScore": 1,
+      "homeTeam": "Jacksonville",
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 25173,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "visitingScore": 5,
+      "homeTeam": "Savannah",
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 25176,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "visitingScore": 1,
+      "homeTeam": "South Carolina",
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 25177,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "visitingScore": 0,
+      "homeTeam": "Wheeling",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 25180,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "visitingScore": 4,
+      "homeTeam": "Maine",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25174,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "visitingScore": 3,
+      "homeTeam": "Cincinnati",
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 25170,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "visitingScore": 6,
+      "homeTeam": "Bloomington",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 25169,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "visitingScore": 1,
+      "homeTeam": "Allen",
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "1-2 (SO)",
+      "gameId": 25168,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "visitingScore": 3,
+      "homeTeam": "Rapid City",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25175,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "visitingScore": 6,
+      "homeTeam": "Tahoe",
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
+      "gameId": 25178,
+      "date": "Mar 13, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Atlanta",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 25165,
+      "date": "Mar 12, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 25166,
+      "date": "Mar 12, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Savannah",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 25167,
+      "date": "Mar 12, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Utah",
+      "visitingScore": 1,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "1-7",
+      "gameId": 25179,
+      "date": "Mar 12, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25160,
+      "date": "Mar 11, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 25161,
+      "date": "Mar 11, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Tahoe",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25162,
+      "date": "Mar 11, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Wheeling",
+      "visitingScore": 1,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "1-0",
+      "gameId": 25163,
+      "date": "Mar 11, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Worcester",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 25164,
+      "date": "Mar 11, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 25146,
+      "date": "Mar 10, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Bloomington",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 25158,
+      "date": "Mar 10, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Maine",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 25159,
+      "date": "Mar 10, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 1,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "1-7",
+      "gameId": 25149,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 25150,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Greensboro",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 25152,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25153,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "South Carolina",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25155,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Toledo",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 25156,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Trois-Rivi\u00e8res",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": 25157,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Maine",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 25293,
+      "date": "Mar 8, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 25137,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 25138,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 25139,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Greensboro",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 25141,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Indy",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 25142,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 25143,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Kansas City",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 25144,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Norfolk",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 25145,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 25147,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Trois-Rivi\u00e8res",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 25148,
+      "date": "Mar 7, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25125,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Bloomington",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25126,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Florida",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 25127,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Indy",
+      "visitingScore": 1,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "1-0",
+      "gameId": 25128,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 6,
+      "overtime": "OT",
+      "score": "5-6 (OT)",
+      "gameId": 25129,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 25130,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Norfolk",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 25131,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Rapid City",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 25133,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25134,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25135,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Trois-Rivi\u00e8res",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 25136,
+      "date": "Mar 6, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 25124,
+      "date": "Mar 5, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24884,
+      "date": "Mar 4, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Florida",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25119,
+      "date": "Mar 4, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25120,
+      "date": "Mar 4, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 1,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "1-6",
+      "gameId": 25121,
+      "date": "Mar 4, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Norfolk",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25122,
+      "date": "Mar 4, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Rapid City",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "4-3 (SO)",
+      "gameId": 25123,
+      "date": "Mar 4, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
+      "gameId": 25110,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25111,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25112,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Maine",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25113,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "1-7",
+      "gameId": 25114,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Toledo",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25115,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Tulsa",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 25116,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Wheeling",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 25117,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Worcester",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "0-1 (OT)",
+      "gameId": 25118,
+      "date": "Mar 1, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Adirondack",
       "visitingScore": 4,
       "homeScore": 3,
@@ -312,7 +1212,7 @@
     },
     {
       "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 2,
       "homeScore": 1,
       "overtime": null,
@@ -502,7 +1402,7 @@
     },
     {
       "visitingTeam": "Toledo",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 3,
       "homeScore": 4,
       "overtime": "SO",
@@ -652,7 +1552,7 @@
     },
     {
       "visitingTeam": "Toledo",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 4,
       "homeScore": 1,
       "overtime": null,
@@ -772,7 +1672,7 @@
     },
     {
       "visitingTeam": "Toledo",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 3,
       "homeScore": 6,
       "overtime": null,
@@ -961,7 +1861,7 @@
       "date": "Feb 15, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Worcester",
       "visitingScore": 4,
       "homeScore": 1,
@@ -1111,7 +2011,7 @@
       "date": "Feb 14, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Worcester",
       "visitingScore": 3,
       "homeScore": 2,
@@ -1261,7 +2161,7 @@
       "date": "Feb 13, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Worcester",
       "visitingScore": 2,
       "homeScore": 0,
@@ -1472,7 +2372,7 @@
     },
     {
       "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 2,
       "homeScore": 3,
       "overtime": "OT",
@@ -1602,7 +2502,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 5,
       "homeScore": 3,
       "overtime": null,
@@ -1771,7 +2671,7 @@
       "date": "Feb 3, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Reading",
       "visitingScore": 2,
       "homeScore": 3,
@@ -1971,7 +2871,7 @@
       "date": "Jan 31, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Norfolk",
       "visitingScore": 6,
       "homeScore": 3,
@@ -2101,7 +3001,7 @@
       "date": "Jan 30, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Norfolk",
       "visitingScore": 2,
       "homeScore": 5,
@@ -2202,7 +3102,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 4,
       "homeScore": 1,
       "overtime": null,
@@ -2261,7 +3161,7 @@
       "date": "Jan 25, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Maine",
       "visitingScore": 2,
       "homeScore": 5,
@@ -2391,7 +3291,7 @@
       "date": "Jan 24, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Maine",
       "visitingScore": 1,
       "homeScore": 7,
@@ -2521,7 +3421,7 @@
       "date": "Jan 23, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Maine",
       "visitingScore": 3,
       "homeScore": 2,
@@ -2682,7 +3582,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 0,
       "homeScore": 3,
       "overtime": null,
@@ -2812,7 +3712,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 3,
       "homeScore": 1,
       "overtime": null,
@@ -2851,7 +3751,7 @@
       "date": "Jan 17, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Adirondack",
       "visitingScore": 3,
       "homeScore": 1,
@@ -3111,7 +4011,7 @@
       "date": "Jan 11, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Wheeling",
       "visitingScore": 2,
       "homeScore": 4,
@@ -3261,7 +4161,7 @@
       "date": "Jan 10, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Wheeling",
       "visitingScore": 0,
       "homeScore": 5,
@@ -3401,7 +4301,7 @@
       "date": "Jan 9, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Wheeling",
       "visitingScore": 3,
       "homeScore": 4,
@@ -3501,7 +4401,7 @@
       "date": "Jan 4, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Maine",
       "visitingScore": 2,
       "homeScore": 6,
@@ -3652,7 +4552,7 @@
     },
     {
       "visitingTeam": "Savannah",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 4,
       "homeScore": 0,
       "overtime": null,
@@ -3792,7 +4692,7 @@
     },
     {
       "visitingTeam": "Savannah",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 2,
       "homeScore": 1,
       "overtime": null,
@@ -3922,7 +4822,7 @@
     },
     {
       "visitingTeam": "Savannah",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 1,
       "homeScore": 3,
       "overtime": null,
@@ -4132,7 +5032,7 @@
     },
     {
       "visitingTeam": "Maine",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 0,
       "homeScore": 3,
       "overtime": null,
@@ -4282,7 +5182,7 @@
     },
     {
       "visitingTeam": "Maine",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 1,
       "homeScore": 3,
       "overtime": null,
@@ -4651,7 +5551,7 @@
       "date": "Dec 12, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Maine",
       "visitingScore": 1,
       "homeScore": 3,
@@ -4921,7 +5821,7 @@
       "date": "Dec 6, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Idaho",
       "visitingScore": 1,
       "homeScore": 4,
@@ -5081,7 +5981,7 @@
       "date": "Dec 5, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Idaho",
       "visitingScore": 1,
       "homeScore": 4,
@@ -5181,7 +6081,7 @@
       "date": "Dec 3, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Idaho",
       "visitingScore": 3,
       "homeScore": 4,
@@ -5302,7 +6202,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 1,
       "homeScore": 4,
       "overtime": null,
@@ -5412,7 +6312,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 0,
       "homeScore": 3,
       "overtime": null,
@@ -5572,7 +6472,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 1,
       "homeScore": 5,
       "overtime": null,
@@ -5601,7 +6501,7 @@
       "date": "Nov 27, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Adirondack",
       "visitingScore": 3,
       "homeScore": 2,
@@ -5852,7 +6752,7 @@
     },
     {
       "visitingTeam": "Norfolk",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 1,
       "homeScore": 6,
       "overtime": null,
@@ -5972,7 +6872,7 @@
     },
     {
       "visitingTeam": "Norfolk",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 4,
       "homeScore": 2,
       "overtime": null,
@@ -6062,7 +6962,7 @@
     },
     {
       "visitingTeam": "Norfolk",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 2,
       "homeScore": 5,
       "overtime": null,
@@ -6251,7 +7151,7 @@
       "date": "Nov 15, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Worcester",
       "visitingScore": 0,
       "homeScore": 2,
@@ -6401,7 +7301,7 @@
       "date": "Nov 14, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Worcester",
       "visitingScore": 4,
       "homeScore": 6,
@@ -6491,7 +7391,7 @@
       "date": "Nov 9, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Reading",
       "visitingScore": 2,
       "homeScore": 3,
@@ -6631,7 +7531,7 @@
       "date": "Nov 8, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Reading",
       "visitingScore": 2,
       "homeScore": 1,
@@ -6922,7 +7822,7 @@
     },
     {
       "visitingTeam": "Greensboro",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 5,
       "homeScore": 2,
       "overtime": null,
@@ -7032,7 +7932,7 @@
     },
     {
       "visitingTeam": "Greensboro",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 2,
       "homeScore": 1,
       "overtime": "SO",
@@ -7152,7 +8052,7 @@
     },
     {
       "visitingTeam": "Greensboro",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 3,
       "homeScore": 6,
       "overtime": null,
@@ -7301,7 +8201,7 @@
       "date": "Oct 26, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Adirondack",
       "visitingScore": 1,
       "homeScore": 4,
@@ -7522,7 +8422,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 1,
       "homeScore": 3,
       "overtime": null,
@@ -7772,7 +8672,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivières",
+      "homeTeam": "Trois-Rivi\u00e8res",
       "visitingScore": 5,
       "homeScore": 6,
       "overtime": "OT",
@@ -7881,7 +8781,7 @@
       "date": "Oct 11, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivières",
+      "visitingTeam": "Trois-Rivi\u00e8res",
       "homeTeam": "Adirondack",
       "visitingScore": 0,
       "homeScore": 3,
@@ -8029,1046 +8929,6 @@
       "score": "2-3 (SO)",
       "gameId": 25397,
       "date": "Oct 9, 2025"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "visitingScore": 2,
-      "homeTeam": "Cincinnati",
-      "homeScore": 4,
-      "overtime": null,
-      "score": "2-4",
-      "gameId": 25183,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Norfolk",
-      "visitingScore": 2,
-      "homeTeam": "Maine",
-      "homeScore": 3,
-      "overtime": "OT",
-      "score": "2-3 (OT)",
-      "gameId": 25187,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Toledo",
-      "visitingScore": 4,
-      "homeTeam": "South Carolina",
-      "homeScore": 3,
-      "overtime": "SO",
-      "score": "4-3 (SO)",
-      "gameId": 25191,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivières",
-      "visitingScore": 6,
-      "homeTeam": "Greensboro",
-      "homeScore": 0,
-      "overtime": null,
-      "score": "6-0",
-      "gameId": 25184,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Florida",
-      "visitingScore": 4,
-      "homeTeam": "Jacksonville",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "4-2",
-      "gameId": 25185,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Indy",
-      "visitingScore": 3,
-      "homeTeam": "Kalamazoo",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "3-2",
-      "gameId": 25186,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "visitingScore": 5,
-      "homeTeam": "Orlando",
-      "homeScore": 3,
-      "overtime": null,
-      "score": "5-3",
-      "gameId": 25188,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Worcester",
-      "visitingScore": 5,
-      "homeTeam": "Reading",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "5-2",
-      "gameId": 25190,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Adirondack",
-      "visitingScore": 2,
-      "homeTeam": "Wheeling",
-      "homeScore": 4,
-      "overtime": null,
-      "score": "2-4",
-      "gameId": 25194,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Fort Wayne",
-      "visitingScore": 2,
-      "homeTeam": "Bloomington",
-      "homeScore": 3,
-      "overtime": "OT",
-      "score": "2-3 (OT)",
-      "gameId": 25182,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "visitingScore": 2,
-      "homeTeam": "Allen",
-      "homeScore": 1,
-      "overtime": null,
-      "score": "2-1",
-      "gameId": 25181,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Wichita",
-      "visitingScore": 2,
-      "homeTeam": "Rapid City",
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25189,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Tulsa",
-      "visitingScore": 4,
-      "homeTeam": "Utah",
-      "homeScore": 3,
-      "overtime": "OT",
-      "score": "4-3 (OT)",
-      "gameId": 25193,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Kansas City",
-      "visitingScore": 8,
-      "homeTeam": "Tahoe",
-      "homeScore": 1,
-      "overtime": null,
-      "score": "8-1",
-      "gameId": 25192,
-      "date": "Mar 14, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivières",
-      "visitingScore": 6,
-      "homeTeam": "Greensboro",
-      "homeScore": 3,
-      "overtime": null,
-      "score": "6-3",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Fort Wayne",
-      "visitingScore": 1,
-      "homeTeam": "Indy",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "1-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "visitingScore": 1,
-      "homeTeam": "Jacksonville",
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "1-2 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Norfolk",
-      "visitingScore": 4,
-      "homeTeam": "Maine",
-      "homeScore": 1,
-      "overtime": null,
-      "score": "4-1",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "visitingScore": 3,
-      "homeTeam": "Cincinnati",
-      "homeScore": 4,
-      "overtime": "OT",
-      "score": "3-4 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Kalamazoo",
-      "visitingScore": 6,
-      "homeTeam": "Bloomington",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "6-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "visitingScore": 1,
-      "homeTeam": "Allen",
-      "homeScore": 2,
-      "overtime": "SO",
-      "score": "1-2 (SO)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Florida",
-      "homeTeam": "Atlanta",
-      "visitingScore": 5,
-      "homeScore": 1,
-      "overtime": null,
-      "score": "5-1",
-      "gameId": 25165,
-      "date": "Mar 12, 2026"
-    },
-    {
-      "visitingTeam": "Wichita",
-      "homeTeam": "Rapid City",
-      "visitingScore": 3,
-      "homeScore": 4,
-      "overtime": "OT",
-      "score": "3-4 (OT)",
-      "gameId": 25166,
-      "date": "Mar 12, 2026"
-    },
-    {
-      "visitingTeam": "Toledo",
-      "homeTeam": "Savannah",
-      "visitingScore": 5,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "5-3",
-      "gameId": 25167,
-      "date": "Mar 12, 2026"
-    },
-    {
-      "visitingTeam": "Tulsa",
-      "homeTeam": "Utah",
-      "visitingScore": 1,
-      "homeScore": 7,
-      "overtime": null,
-      "score": "1-7",
-      "gameId": 25179,
-      "date": "Mar 12, 2026"
-    },
-    {
-      "visitingTeam": "Florida",
-      "homeTeam": "Atlanta",
-      "visitingScore": 1,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "1-4",
-      "gameId": 25160,
-      "date": "Mar 11, 2026"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "homeTeam": "Fort Wayne",
-      "visitingScore": 2,
-      "homeScore": 5,
-      "overtime": null,
-      "score": "2-5",
-      "gameId": 25161,
-      "date": "Mar 11, 2026"
-    },
-    {
-      "visitingTeam": "Kansas City",
-      "homeTeam": "Tahoe",
-      "visitingScore": 2,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "2-4",
-      "gameId": 25162,
-      "date": "Mar 11, 2026"
-    },
-    {
-      "visitingTeam": "Reading",
-      "homeTeam": "Wheeling",
-      "visitingScore": 1,
-      "homeScore": 0,
-      "overtime": null,
-      "score": "1-0",
-      "gameId": 25163,
-      "date": "Mar 11, 2026"
-    },
-    {
-      "visitingTeam": "Norfolk",
-      "homeTeam": "Worcester",
-      "visitingScore": 5,
-      "homeScore": 2,
-      "overtime": null,
-      "score": "5-2",
-      "gameId": 25164,
-      "date": "Mar 11, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "homeTeam": "Orlando",
-      "visitingScore": 1,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "1-3",
-      "gameId": 25146,
-      "date": "Mar 10, 2026"
-    },
-    {
-      "visitingTeam": "Indy",
-      "homeTeam": "Bloomington",
-      "visitingScore": 3,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "3-4",
-      "gameId": 25158,
-      "date": "Mar 10, 2026"
-    },
-    {
-      "visitingTeam": "Adirondack",
-      "homeTeam": "Maine",
-      "visitingScore": 1,
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "1-2 (OT)",
-      "gameId": 25159,
-      "date": "Mar 10, 2026"
-    },
-    {
-      "visitingTeam": "Tulsa",
-      "homeTeam": "Allen",
-      "visitingScore": 1,
-      "homeScore": 7,
-      "overtime": null,
-      "score": "1-7",
-      "gameId": 25149,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Utah",
-      "homeTeam": "Cincinnati",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": "SO",
-      "score": "2-3 (SO)",
-      "gameId": 25150,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Reading",
-      "homeTeam": "Greensboro",
-      "visitingScore": 2,
-      "homeScore": 6,
-      "overtime": null,
-      "score": "2-6",
-      "gameId": 25152,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Jacksonville",
-      "homeTeam": "Kalamazoo",
-      "visitingScore": 1,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "1-4",
-      "gameId": 25153,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Savannah",
-      "homeTeam": "South Carolina",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25155,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Wichita",
-      "homeTeam": "Toledo",
-      "visitingScore": 1,
-      "homeScore": 5,
-      "overtime": null,
-      "score": "1-5",
-      "gameId": 25156,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivières",
-      "visitingScore": 3,
-      "homeScore": 4,
-      "overtime": "SO",
-      "score": "3-4 (SO)",
-      "gameId": 25157,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Adirondack",
-      "homeTeam": "Maine",
-      "visitingScore": 3,
-      "homeScore": 4,
-      "overtime": "OT",
-      "score": "3-4 (OT)",
-      "gameId": 25293,
-      "date": "Mar 8, 2026"
-    },
-    {
-      "visitingTeam": "Tulsa",
-      "homeTeam": "Allen",
-      "visitingScore": 4,
-      "homeScore": 6,
-      "overtime": null,
-      "score": "4-6",
-      "gameId": 25137,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Utah",
-      "homeTeam": "Cincinnati",
-      "visitingScore": 5,
-      "homeScore": 0,
-      "overtime": null,
-      "score": "5-0",
-      "gameId": 25138,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Orlando",
-      "homeTeam": "Florida",
-      "visitingScore": 1,
-      "homeScore": 2,
-      "overtime": null,
-      "score": "1-2",
-      "gameId": 25139,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Reading",
-      "homeTeam": "Greensboro",
-      "visitingScore": 2,
-      "homeScore": 1,
-      "overtime": null,
-      "score": "2-1",
-      "gameId": 25141,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Wichita",
-      "homeTeam": "Indy",
-      "visitingScore": 1,
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "1-2 (OT)",
-      "gameId": 25142,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Jacksonville",
-      "homeTeam": "Kalamazoo",
-      "visitingScore": 6,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "6-3",
-      "gameId": 25143,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Tahoe",
-      "homeTeam": "Kansas City",
-      "visitingScore": 3,
-      "homeScore": 5,
-      "overtime": null,
-      "score": "3-5",
-      "gameId": 25144,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "homeTeam": "Norfolk",
-      "visitingScore": 1,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "1-3",
-      "gameId": 25145,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Wheeling",
-      "homeTeam": "Rapid City",
-      "visitingScore": 3,
-      "homeScore": 1,
-      "overtime": null,
-      "score": "3-1",
-      "gameId": 25147,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivières",
-      "visitingScore": 4,
-      "homeScore": 6,
-      "overtime": null,
-      "score": "4-6",
-      "gameId": 25148,
-      "date": "Mar 7, 2026"
-    },
-    {
-      "visitingTeam": "Tulsa",
-      "homeTeam": "Allen",
-      "visitingScore": 4,
-      "homeScore": 1,
-      "overtime": null,
-      "score": "4-1",
-      "gameId": 25125,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Utah",
-      "homeTeam": "Bloomington",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25126,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "homeTeam": "Florida",
-      "visitingScore": 0,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "0-4",
-      "gameId": 25127,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Wichita",
-      "homeTeam": "Indy",
-      "visitingScore": 1,
-      "homeScore": 0,
-      "overtime": null,
-      "score": "1-0",
-      "gameId": 25128,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Jacksonville",
-      "homeTeam": "Kalamazoo",
-      "visitingScore": 5,
-      "homeScore": 6,
-      "overtime": "OT",
-      "score": "5-6 (OT)",
-      "gameId": 25129,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Tahoe",
-      "homeTeam": "Kansas City",
-      "visitingScore": 2,
-      "homeScore": 5,
-      "overtime": null,
-      "score": "2-5",
-      "gameId": 25130,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "homeTeam": "Norfolk",
-      "visitingScore": 4,
-      "homeScore": 3,
-      "overtime": "OT",
-      "score": "4-3 (OT)",
-      "gameId": 25131,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Wheeling",
-      "homeTeam": "Rapid City",
-      "visitingScore": 4,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "4-3",
-      "gameId": 25133,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Atlanta",
-      "homeTeam": "South Carolina",
-      "visitingScore": 1,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "1-4",
-      "gameId": 25134,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Cincinnati",
-      "homeTeam": "Toledo",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25135,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Maine",
-      "homeTeam": "Trois-Rivières",
-      "visitingScore": 5,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "5-3",
-      "gameId": 25136,
-      "date": "Mar 6, 2026"
-    },
-    {
-      "visitingTeam": "Greensboro",
-      "homeTeam": "Savannah",
-      "visitingScore": 3,
-      "homeScore": 6,
-      "overtime": null,
-      "score": "3-6",
-      "gameId": 25124,
-      "date": "Mar 5, 2026"
-    },
-    {
-      "visitingTeam": "Atlanta",
-      "homeTeam": "Orlando",
-      "visitingScore": 1,
-      "homeScore": 5,
-      "overtime": null,
-      "score": "1-5",
-      "gameId": 24884,
-      "date": "Mar 4, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "homeTeam": "Florida",
-      "visitingScore": 0,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "0-3",
-      "gameId": 25119,
-      "date": "Mar 4, 2026"
-    },
-    {
-      "visitingTeam": "Wichita",
-      "homeTeam": "Indy",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25120,
-      "date": "Mar 4, 2026"
-    },
-    {
-      "visitingTeam": "Tulsa",
-      "homeTeam": "Kansas City",
-      "visitingScore": 1,
-      "homeScore": 6,
-      "overtime": null,
-      "score": "1-6",
-      "gameId": 25121,
-      "date": "Mar 4, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "homeTeam": "Norfolk",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25122,
-      "date": "Mar 4, 2026"
-    },
-    {
-      "visitingTeam": "Wheeling",
-      "homeTeam": "Rapid City",
-      "visitingScore": 4,
-      "homeScore": 3,
-      "overtime": "SO",
-      "score": "4-3 (SO)",
-      "gameId": 25123,
-      "date": "Mar 4, 2026"
-    },
-    {
-      "visitingTeam": "Kalamazoo",
-      "homeTeam": "Cincinnati",
-      "visitingScore": 6,
-      "homeScore": 5,
-      "overtime": null,
-      "score": "6-5",
-      "gameId": 25110,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Atlanta",
-      "homeTeam": "Greensboro",
-      "visitingScore": 3,
-      "homeScore": 2,
-      "overtime": null,
-      "score": "3-2",
-      "gameId": 25111,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Florida",
-      "homeTeam": "Jacksonville",
-      "visitingScore": 4,
-      "homeScore": 1,
-      "overtime": null,
-      "score": "4-1",
-      "gameId": 25112,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivières",
-      "homeTeam": "Maine",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25113,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Savannah",
-      "homeTeam": "South Carolina",
-      "visitingScore": 1,
-      "homeScore": 7,
-      "overtime": null,
-      "score": "1-7",
-      "gameId": 25114,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "homeTeam": "Toledo",
-      "visitingScore": 0,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "0-3",
-      "gameId": 25115,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Rapid City",
-      "homeTeam": "Tulsa",
-      "visitingScore": 3,
-      "homeScore": 6,
-      "overtime": null,
-      "score": "3-6",
-      "gameId": 25116,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Fort Wayne",
-      "homeTeam": "Wheeling",
-      "visitingScore": 3,
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "3-2 (OT)",
-      "gameId": 25117,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Adirondack",
-      "homeTeam": "Worcester",
-      "visitingScore": 0,
-      "homeScore": 1,
-      "overtime": "OT",
-      "score": "0-1 (OT)",
-      "gameId": 25118,
-      "date": "Mar 1, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivières",
-      "visitingScore": 6,
-      "homeTeam": "Greensboro",
-      "homeScore": 3,
-      "overtime": null,
-      "score": "6-3",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Fort Wayne",
-      "visitingScore": 1,
-      "homeTeam": "Indy",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "1-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "visitingScore": 1,
-      "homeTeam": "Jacksonville",
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "1-2 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Norfolk",
-      "visitingScore": 4,
-      "homeTeam": "Maine",
-      "homeScore": 1,
-      "overtime": null,
-      "score": "4-1",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "visitingScore": 3,
-      "homeTeam": "Cincinnati",
-      "homeScore": 4,
-      "overtime": "OT",
-      "score": "3-4 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Kalamazoo",
-      "visitingScore": 6,
-      "homeTeam": "Bloomington",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "6-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "visitingScore": 1,
-      "homeTeam": "Allen",
-      "homeScore": 2,
-      "overtime": "SO",
-      "score": "1-2 (SO)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivières",
-      "visitingScore": 6,
-      "homeTeam": "Greensboro",
-      "homeScore": 3,
-      "overtime": null,
-      "score": "6-3",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Fort Wayne",
-      "visitingScore": 1,
-      "homeTeam": "Indy",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "1-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "visitingScore": 1,
-      "homeTeam": "Jacksonville",
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "1-2 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Norfolk",
-      "visitingScore": 4,
-      "homeTeam": "Maine",
-      "homeScore": 1,
-      "overtime": null,
-      "score": "4-1",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "visitingScore": 3,
-      "homeTeam": "Cincinnati",
-      "homeScore": 4,
-      "overtime": "OT",
-      "score": "3-4 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Kalamazoo",
-      "visitingScore": 6,
-      "homeTeam": "Bloomington",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "6-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "visitingScore": 1,
-      "homeTeam": "Allen",
-      "homeScore": 2,
-      "overtime": "SO",
-      "score": "1-2 (SO)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivières",
-      "visitingScore": 6,
-      "homeTeam": "Greensboro",
-      "homeScore": 3,
-      "overtime": null,
-      "score": "6-3",
-      "gameId": 25171,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Fort Wayne",
-      "visitingScore": 1,
-      "homeTeam": "Indy",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "1-2",
-      "gameId": 25172,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "visitingScore": 1,
-      "homeTeam": "Jacksonville",
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "1-2 (OT)",
-      "gameId": 25173,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Orlando",
-      "visitingScore": 5,
-      "homeTeam": "Savannah",
-      "homeScore": 0,
-      "overtime": null,
-      "score": "5-0",
-      "gameId": 25176,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Toledo",
-      "visitingScore": 1,
-      "homeTeam": "South Carolina",
-      "homeScore": 5,
-      "overtime": null,
-      "score": "1-5",
-      "gameId": 25177,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Adirondack",
-      "visitingScore": 0,
-      "homeTeam": "Wheeling",
-      "homeScore": 4,
-      "overtime": null,
-      "score": "0-4",
-      "gameId": 25180,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Norfolk",
-      "visitingScore": 4,
-      "homeTeam": "Maine",
-      "homeScore": 1,
-      "overtime": null,
-      "score": "4-1",
-      "gameId": 25174,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "visitingScore": 3,
-      "homeTeam": "Cincinnati",
-      "homeScore": 4,
-      "overtime": "OT",
-      "score": "3-4 (OT)",
-      "gameId": 25170,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Kalamazoo",
-      "visitingScore": 6,
-      "homeTeam": "Bloomington",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "6-2",
-      "gameId": 25169,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "visitingScore": 1,
-      "homeTeam": "Allen",
-      "homeScore": 2,
-      "overtime": "SO",
-      "score": "1-2 (SO)",
-      "gameId": 25168,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Wichita",
-      "visitingScore": 3,
-      "homeTeam": "Rapid City",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "3-2",
-      "gameId": 25175,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Kansas City",
-      "visitingScore": 6,
-      "homeTeam": "Tahoe",
-      "homeScore": 5,
-      "overtime": null,
-      "score": "6-5",
-      "gameId": 25178,
-      "date": "Mar 13, 2026"
     }
   ],
   "scrapedAt": "2026-03-16T14:41:58.655Z"

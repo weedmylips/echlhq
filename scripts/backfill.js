@@ -192,9 +192,9 @@ async function main() {
   }
 
   // Sort newest first, merge, deduplicate, cap at 1500 (full season)
-  found.sort((a, b) => new Date(b.date) - new Date(a.date));
   const merged = [...found, ...existingScores]
     .filter((s, i, arr) => !s.gameId || arr.findIndex(x => x.gameId === s.gameId) === i)
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, 1500);
 
   fs.writeFileSync(SCORES_PATH, JSON.stringify({ scores: merged, scrapedAt: new Date().toISOString() }, null, 2), "utf8");
