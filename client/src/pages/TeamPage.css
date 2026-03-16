@@ -819,6 +819,26 @@ tr.playoff-cutoff td {
 }
 
 /* ── Roster Tab ── */
+.roster-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 16px;
+  padding: 10px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.roster-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
 .roster-sections {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
