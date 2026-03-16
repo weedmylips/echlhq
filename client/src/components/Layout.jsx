@@ -8,7 +8,9 @@ const DIVISIONS = [
     name: "North",
     teams: [
       { id: 74,  abbr: "ADK", name: "Adirondack Thunder" },
+      { id: 108, abbr: "GRN", name: "Greensboro Gargoyles" },
       { id: 101, abbr: "MNE", name: "Maine Mariners" },
+      { id: 63,  abbr: "NOR", name: "Norfolk Admirals" },
       { id: 55,  abbr: "REA", name: "Reading Royals" },
       { id: 103, abbr: "TR",  name: "Trois-Rivières Lions" },
       { id: 61,  abbr: "WHL", name: "Wheeling Nailers" },
@@ -20,10 +22,8 @@ const DIVISIONS = [
     teams: [
       { id: 10,  abbr: "ATL", name: "Atlanta Gladiators" },
       { id: 8,   abbr: "FLA", name: "Florida Everblades" },
-      { id: 108, abbr: "GRN", name: "Greensboro Gargoyles" },
       { id: 52,  abbr: "GVL", name: "Greenville Swamp Rabbits" },
       { id: 79,  abbr: "JAX", name: "Jacksonville Icemen" },
-      { id: 63,  abbr: "NOR", name: "Norfolk Admirals" },
       { id: 13,  abbr: "ORL", name: "Orlando Solar Bears" },
       { id: 97,  abbr: "SAV", name: "Savannah Ghost Pirates" },
       { id: 50,  abbr: "SC",  name: "South Carolina Stingrays" },

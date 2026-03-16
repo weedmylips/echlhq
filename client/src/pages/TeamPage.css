@@ -84,21 +84,18 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 6px 12px;
-  margin-top: 6px;
+  gap: 6px;
+  margin-top: 8px;
 }
 
 .header-standing-item {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   color: #ffffff;
   white-space: nowrap;
-}
-
-.header-standing-item + .header-standing-item::before {
-  content: "·";
-  margin-right: 12px;
-  color: var(--border);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 3px 10px;
 }
 
 .header-last10 {
