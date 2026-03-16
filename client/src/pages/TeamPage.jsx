@@ -149,7 +149,7 @@ export default function TeamPage() {
                   className="division-badge"
                   style={{ borderColor: team.primaryColor, color: "var(--text)" }}
                 >
-                  {team.division || "—"} Division
+                  {team.division || "—"}
                 </span>
                 {standing && (
                   <span className="record-text">
@@ -762,11 +762,16 @@ function PimCard({ ts, team, standing }) {
     );
   }
 
+  const pimLabelColor =
+    pimLabel === "Cleanest Team in Division" ? "var(--green)" :
+    pimLabel === "Most Penalized in the League" || pimLabel === "Most Penalized in Division" || pimLabel === "Among the Most Penalized in League" ? "var(--red)" :
+    "var(--text-muted)";
+
   return (
     <div className="card section-card">
       <div className="card-header">
         <span className="section-label" style={{ margin: 0 }}>Penalty Minutes</span>
-        <span className="pim-label-badge">{pimLabel}</span>
+        <span className="pim-label-badge" style={{ color: pimLabelColor }}>{pimLabel}</span>
       </div>
       <div className="pim-body">
         <div className="pim-stat">
