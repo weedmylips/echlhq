@@ -2,7 +2,7 @@
   "teamId": 98,
   "slug": "iowa-heartlanders",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-14",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "10444",
@@ -365,26 +365,6 @@
       }
     },
     {
-      "playerId": "10704",
-      "player": "Matt Hubbarde",
-      "number": 39,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 6,
-        "g": 0,
-        "a": 2,
-        "pts": 2
-      }
-    },
-    {
       "playerId": "10229",
       "player": "Keanan Stewart",
       "number": 55,
@@ -635,8 +615,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Rapid City",
+      "acquiredDate": "2025-10-30",
       "stats": {
         "gp": 38,
         "g": 2,
@@ -789,14 +769,14 @@
       "player": "Zach Taylor",
       "number": 7,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Atlanta",
+      "acquiredDate": "2025-11-10",
       "stats": {
         "gp": 5,
         "g": 0,
@@ -849,7 +829,7 @@
       "player": "William Rousseau",
       "number": 35,
       "position": "G",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

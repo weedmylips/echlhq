@@ -66,7 +66,11 @@ const TEAM_NAME_MAP = {
 
 // ─── Month names for URL building ───────────────────────────────────────────
 
-const MONTH_NAMES = [
+const MONTH_NAMES_SHORT = [
+  "jan", "feb", "mar", "apr", "may", "jun",
+  "jul", "aug", "sep", "oct", "nov", "dec",
+];
+const MONTH_NAMES_LONG = [
   "january", "february", "march", "april", "may", "june",
   "july", "august", "september", "october", "november", "december",
 ];
@@ -419,32 +423,40 @@ function deduplicateRosters() {
 
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
 
+async function fetchUrl(url) {
+  const res = await fetch(url, { headers: HEADERS, timeout: 20000 });
+  if (!res.ok) throw Object.assign(new Error(`HTTP ${res.status}`), { status: res.status });
+  return res.text();
+}
+
 async function fetchDay(date) {
   const d = new Date(date);
   const year = d.getFullYear();
   const mm = String(d.getMonth() + 1).padStart(2, "0");
-  const monthName = MONTH_NAMES[d.getMonth()];
+  const monthIdx = d.getMonth();
   const day = d.getDate();
   const dateStr = d.toISOString().slice(0, 10);
 
-  const url = `https://echl.com/news/${year}/${mm}/echl-transactions-${monthName}-${day}`;
-  console.log(`\nFetching: ${url}`);
+  // Try long month name first (recent posts), then short (older posts)
+  const variants = [MONTH_NAMES_LONG[monthIdx], MONTH_NAMES_SHORT[monthIdx]];
 
-  try {
-    const res = await fetch(url, { headers: HEADERS, timeout: 20000 });
-    if (res.status === 404) {
-      console.log(`  No transactions post for ${dateStr}.`);
+  for (const monthName of variants) {
+    const url = `https://echl.com/news/${year}/${mm}/echl-transactions-${monthName}-${day}`;
+    console.log(`\nFetching: ${url}`);
+    try {
+      const html = await fetchUrl(url);
+      const transactions = parseTransactions(html);
+      console.log(`  Parsed ${transactions.length} transactions.`);
+      return { dateStr, transactions };
+    } catch (err) {
+      if (err.status === 404) continue; // try next variant
+      console.warn(`  ✗ Failed for ${dateStr}: ${err.message}`);
       return { dateStr, transactions: [] };
     }
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const html = await res.text();
-    const transactions = parseTransactions(html);
-    console.log(`  Parsed ${transactions.length} transactions.`);
-    return { dateStr, transactions };
-  } catch (err) {
-    console.warn(`  ✗ Failed for ${dateStr}: ${err.message}`);
-    return { dateStr, transactions: [] };
   }
+
+  console.log(`  No transactions post for ${dateStr}.`);
+  return { dateStr, transactions: [] };
 }
 
 // ─── Main ────────────────────────────────────────────────────────────────────

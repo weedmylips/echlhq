@@ -115,8 +115,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Greenville",
+      "acquiredDate": "2025-10-23",
       "stats": {
         "gp": 38,
         "g": 8,
@@ -549,7 +549,7 @@
       "player": "Rilen Kovacevic",
       "number": 15,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -825,26 +825,6 @@
       }
     },
     {
-      "playerId": "10700",
-      "player": "Luke LaMaster",
-      "number": 25,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 1,
-        "g": 0,
-        "a": 1,
-        "pts": 1
-      }
-    },
-    {
       "playerId": "11200",
       "player": "Zach Plucinski",
       "number": 44,
@@ -979,26 +959,6 @@
       "acquiredDate": null,
       "stats": {
         "gp": 12,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": "9459",
-      "player": "Dryden McKay",
-      "number": 30,
-      "position": "G",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 4,
         "g": 0,
         "a": 0,
         "pts": 0
@@ -1157,6 +1117,46 @@
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Maksim Barbashev",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Jake Barczewski",
+      "number": null,
+      "position": "G",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": "Bloomington",
+      "acquiredDate": "2025-11-03",
       "stats": {
         "gp": 0,
         "g": 0,

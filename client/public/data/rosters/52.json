@@ -75,8 +75,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Utah",
+      "acquiredDate": "2025-10-23",
       "stats": {
         "gp": 43,
         "g": 9,
@@ -229,7 +229,7 @@
       "player": "Brent Pedersen",
       "number": 10,
       "position": "F",
-      "status": "ir",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": "2026-03-13",
       "irDays": 14,
@@ -362,26 +362,6 @@
         "g": 3,
         "a": 0,
         "pts": 3
-      }
-    },
-    {
-      "playerId": "9646",
-      "player": "Stepan Timofeyev",
-      "number": 22,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 3,
-        "g": 1,
-        "a": 0,
-        "pts": 1
       }
     },
     {
@@ -529,7 +509,7 @@
       "player": "Jake Murray",
       "number": 5,
       "position": "D",
-      "status": "active",
+      "status": "loaned",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -569,7 +549,7 @@
       "player": "Jacob Modry",
       "number": 44,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

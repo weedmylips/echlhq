@@ -2,7 +2,7 @@
   "teamId": 10,
   "slug": "atlanta-gladiators",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "10331",
@@ -449,7 +449,7 @@
       "player": "Anthony Firriolo",
       "number": 12,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -629,7 +629,7 @@
       "player": "Ethan Haider",
       "number": 31,
       "position": "G",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -730,6 +730,26 @@
       "number": null,
       "position": "F",
       "status": "reserve",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Logan Stein",
+      "number": null,
+      "position": "G",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

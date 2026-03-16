@@ -149,7 +149,7 @@
       "player": "Kyle Jeffers",
       "number": 18,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -229,7 +229,7 @@
       "player": "Lucas Vanroboys",
       "number": 10,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -509,7 +509,7 @@
       "player": "Nolan Kneen",
       "number": 27,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -589,7 +589,7 @@
       "player": "Nico Somerville",
       "number": 2,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -662,26 +662,6 @@
         "g": 0,
         "a": 3,
         "pts": 3
-      }
-    },
-    {
-      "playerId": "10897",
-      "player": "Patrick Kyte",
-      "number": 28,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 1,
-        "g": 1,
-        "a": 0,
-        "pts": 1
       }
     },
     {

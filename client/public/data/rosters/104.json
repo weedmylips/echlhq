@@ -49,7 +49,7 @@
       "player": "Anthony Callin",
       "number": 44,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -229,7 +229,7 @@
       "player": "Riley Piercey",
       "number": 19,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -555,8 +555,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Savannah",
+      "acquiredDate": "2025-11-06",
       "stats": {
         "gp": 50,
         "g": 2,
@@ -805,26 +805,6 @@
       }
     },
     {
-      "playerId": "8215",
-      "player": "Cole Fraser",
-      "number": 74,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 6,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
       "playerId": "10512",
       "player": "Kabore Dunn",
       "number": 28,
@@ -1030,6 +1010,26 @@
       "number": null,
       "position": "F",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Noah Massie",
+      "number": null,
+      "position": "D",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
