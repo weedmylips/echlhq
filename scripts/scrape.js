@@ -804,11 +804,15 @@ async function scrapeBoxscore(gameId) {
     return false;
   });
 
-  // Enrich stars with their game stats from skater tables
+  // Enrich stars with their game stats from skater or goalie tables
   const allSkaters = [...(skaterStats.visiting || []), ...(skaterStats.home || [])];
+  const allGoalies = [...(goalieStats.visiting || []), ...(goalieStats.home || [])];
   const enrichedStars = stars.map((s) => {
     const p = allSkaters.find((p) => p.name === s.name);
-    return p ? { ...s, g: p.g, a: p.a, pts: p.pts } : s;
+    if (p) return { ...s, g: p.g, a: p.a, pts: p.pts };
+    const g = allGoalies.find((g) => g.name === s.name);
+    if (g) return { ...s, isGoalie: true, saves: g.saves, svPct: g.svPct, shotsAgainst: g.shotsAgainst };
+    return s;
   });
 
   // ── Penalties ──────────────────────────────────────────────────────────────

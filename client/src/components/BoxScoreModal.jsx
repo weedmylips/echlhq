@@ -112,9 +112,11 @@ function BoxScoreContent({ data }) {
                 <span className="bs-star-num">{s.star === 1 ? "★" : s.star === 2 ? "★★" : "★★★"}</span>
                 <span className="bs-star-name">{s.name}</span>
                 <span className="bs-star-team">{s.team}</span>
-                {s.pts != null && (
+                {s.isGoalie && s.saves != null ? (
+                  <span className="bs-star-stats">{s.saves} SV · {(s.svPct * 100).toFixed(1)}%</span>
+                ) : s.pts != null ? (
                   <span className="bs-star-stats">{s.g}G {s.a}A</span>
-                )}
+                ) : null}
               </div>
             ))}
           </div>
