@@ -172,15 +172,15 @@ export default function TeamPage() {
                   )}
                   {standing.gamesRemaining != null && (
                     <span className="header-standing-item">
-                      {standing.gamesRemaining} GP left
+                      {standing.gamesRemaining} Games Left
                     </span>
                   )}
                 </div>
               )}
-              {standing?.lastTen && (
+              {(standing?.lastTen || recentScores?.length > 0) && (
                 <div className="header-last10">
                   <span className="header-last10-label">L10</span>
-                  <Last10Strip lastTen={standing.lastTen} primaryColor={team.primaryColor} compact />
+                  <Last10Strip lastTen={standing.lastTen} recentScores={recentScores} city={team.city} compact />
                 </div>
               )}
             </div>
@@ -911,19 +911,38 @@ function parseLastTen(lastTen) {
   return { w, l, otl, sol };
 }
 
-function Last10Strip({ lastTen, primaryColor, compact }) {
-  const counts = parseLastTen(lastTen);
-  if (!counts) return <div className="last10-empty">No data</div>;
+function Last10Strip({ lastTen, recentScores, city, compact }) {
+  // Prefer actual game sequence from recentScores when available
+  let slots;
+  if (recentScores?.length && city) {
+    const c = city.toLowerCase();
+    slots = recentScores.slice(0, 10).map((g) => {
+      const isHome = (g.homeTeam || "").toLowerCase().includes(c);
+      const myScore  = isHome ? g.homeScore  : g.visitingScore;
+      const oppScore = isHome ? g.visitingScore : g.homeScore;
+      const won = myScore > oppScore;
+      const ot  = !!g.overtime;
+      if (won) return "W";
+      if (ot)  return "OTL";
+      return "L";
+    });
+    while (slots.length < 10) slots.push(null);
+  } else {
+    const counts = parseLastTen(lastTen);
+    if (!counts) return <div className="last10-empty">No data</div>;
+    const { w, l, otl, sol } = counts;
+    slots = [
+      ...Array(w).fill("W"),
+      ...Array(otl).fill("OTL"),
+      ...Array(sol).fill("SOL"),
+      ...Array(l).fill("L"),
+    ].slice(0, 10);
+    while (slots.length < 10) slots.push(null);
+  }
 
-  const { w, l, otl, sol } = counts;
+  const counts = parseLastTen(lastTen);
+  const { w = 0, l = 0, otl = 0, sol = 0 } = counts || {};
   const total = w + l + otl + sol;
-  const slots = [
-    ...Array(w).fill("W"),
-    ...Array(otl).fill("OTL"),
-    ...Array(sol).fill("SOL"),
-    ...Array(l).fill("L"),
-  ].slice(0, 10);
-  while (slots.length < 10) slots.push(null);
 
   return (
     <div className={`last10-wrap${compact ? " last10-compact" : ""}`}>
@@ -940,12 +959,20 @@ function Last10Strip({ lastTen, primaryColor, compact }) {
           />
         ))}
       </div>
-      {!compact && <div className="last10-counts">
-        <span className="l10-count l10-w">{w}W</span>
-        {(otl + sol) > 0 && <span className="l10-count l10-ot">{otl + sol} OT</span>}
-        <span className="l10-count l10-l">{l}L</span>
-        {total < 10 && <span className="l10-count l10-empty">{10 - total} remaining</span>}
-      </div>}
+      {!compact && (() => {
+        const sW   = slots.filter(s => s === "W").length;
+        const sOT  = slots.filter(s => s === "OTL" || s === "SOL").length;
+        const sL   = slots.filter(s => s === "L").length;
+        const sGP  = slots.filter(Boolean).length;
+        return (
+          <div className="last10-counts">
+            <span className="l10-count l10-w">{sW}W</span>
+            {sOT > 0 && <span className="l10-count l10-ot">{sOT} OT</span>}
+            <span className="l10-count l10-l">{sL}L</span>
+            {sGP < 10 && <span className="l10-count l10-empty">{10 - sGP} remaining</span>}
+          </div>
+        );
+      })()}
     </div>
   );
 }

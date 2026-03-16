@@ -91,7 +91,7 @@
 .header-standing-item {
   font-size: 12px;
   font-weight: 600;
-  color: var(--text-muted);
+  color: #ffffff;
   white-space: nowrap;
 }
 
@@ -797,7 +797,8 @@ tr.playoff-cutoff td {
   .mini-standings-table td { padding: 6px 8px; }
   .mini-standings-table th { padding: 6px 8px; }
 
-  .move-summary { display: none; }
+  .move-row { flex-wrap: wrap; }
+  .move-summary { flex-basis: 100%; margin-left: 30px; white-space: normal; }
 }
 
 /* ── Recent Moves ── */
