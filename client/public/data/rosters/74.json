@@ -49,7 +49,7 @@
       "player": "Justin Taylor",
       "number": 93,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -826,7 +826,7 @@
     },
     {
       "playerId": "11153",
-      "player": "Jakub Málek",
+      "player": "Jakub M\u00e1lek",
       "number": 31,
       "position": "G",
       "status": "active",
