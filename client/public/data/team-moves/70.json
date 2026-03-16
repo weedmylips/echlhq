@@ -2,141 +2,141 @@
   "teamId": 70,
   "moves": [
     {
-      "date": "2026-03-14",
+      "date": "2026-02-24",
+      "player": "Dylan Moulton",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Manitoba"
+    },
+    {
+      "date": "2026-02-24",
       "player": "Nolan Lalonde",
       "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Cleveland by Columbus"
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Brandon Hawkins",
-      "position": "F",
-      "type": "loaned",
-      "summary": "Loaned to Grand Rapids 3/12"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jacob Truscott",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Grand Rapids 3/12"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Nolan Lalonde",
+      "date": "2026-02-24",
+      "player": "Carter Gylander",
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Carter Gylander",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Ryland Mosley",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Cleveland"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Nolan Moyle",
-      "position": "F",
-      "type": "loaned",
-      "summary": "Loaned to Grand Rapids"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Bobby Russell",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Darian Pilon",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Rapid City"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Bobby Russell",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Rapid City"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Darby Llewellyn",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Colin Swoyer",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Providence"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Tanner Palocsik",
+      "date": "2026-02-24",
+      "player": "Brendon Michaelian",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-09",
-      "player": "Darby Llewellyn",
+      "date": "2026-02-24",
+      "player": "Conlan Keenan",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Darian Pilon",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Carter Gylander",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Grand Rapids by Detroit"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Liam Souliere",
-      "position": "G",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2025-11-08",
-      "player": "Darian Pilon",
+      "date": "2026-02-24",
+      "player": "Garrett VanWyhe",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-08",
-      "player": "Darby Llewellyn",
+      "date": "2026-02-24",
+      "player": "Tanner Kelly",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Jed Pietila",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Christopher Brown",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Jacksonville"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Garrett VanWyhe",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Jacksonville"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Colby Ambrosio",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Jacksonville"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Will Hillman",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Jacksonville"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Jed Pietila",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Jacksonville"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Jacques Bouquot",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Jacksonville"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Christopher Brown",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Jed Pietila",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Jed Pietila",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "John Waldron",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-08",
-      "player": "Tanner Palocsik",
+      "date": "2026-02-22",
+      "player": "Carter Gylander",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Brendon Michaelian",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"

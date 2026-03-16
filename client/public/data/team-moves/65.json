@@ -2,144 +2,144 @@
   "teamId": 65,
   "moves": [
     {
-      "date": "2026-03-15",
-      "player": "Cody Laskosky",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Eric Martin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Terry Broadhurst",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Eric Martin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Kyle Aucoin",
+      "date": "2026-02-24",
+      "player": "Cody Schiavon",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
     },
     {
-      "date": "2026-03-14",
-      "player": "Brett Moravec",
+      "date": "2026-02-24",
+      "player": "Sahil Panwar",
       "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kyle Aucoin",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Lee Lapid",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Connor Joyce",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Christian Sarlo",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Maine"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Nick Grima",
-      "position": "D",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-11-07",
-      "player": "Tyson Feist",
-      "position": "D",
+      "date": "2026-02-24",
+      "player": "Eric Martin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-24",
+      "player": "Owen Robinson",
+      "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2025-11-07",
-      "player": "Jeremie Bucheler",
+      "date": "2026-02-22",
+      "player": "Kaleb Tiessen",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "type": "active",
+      "summary": "Acquired from Rapid City"
     },
     {
-      "date": "2025-11-07",
-      "player": "Jacob LeGuerrier",
+      "date": "2026-02-21",
+      "player": "Brett Moravec",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Dustin Manz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Cody Schiavon",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-07",
-      "player": "Holden Wale",
+      "date": "2026-02-21",
+      "player": "Brandon Schultz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Dustin Manz",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Cody Laskosky",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Owen Robinson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Brandon Schultz",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Sahil Panwar",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-16",
+      "player": "Jeremie Bucheler",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Rockford"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Owen Flores",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Rockford"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Ryan Ouellette",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Sahil Panwar",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Cody Schiavon",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-07",
-      "player": "Connor Joyce",
-      "position": "F",
+      "date": "2026-02-11",
+      "player": "Cody Schiavon",
+      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Ryan Pitoscia",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Jacksonville"
     }
   ]
 }

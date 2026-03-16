@@ -2,7 +2,7 @@
   "teamId": 5,
   "slug": "cincinnati-cyclones",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-14",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "11094",
@@ -89,12 +89,12 @@
       "player": "Nick Rhéaume",
       "number": 26,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -102,7 +102,8 @@
         "g": 13,
         "a": 14,
         "pts": 27
-      }
+      },
+      "suspensionGpAtStart": 57
     },
     {
       "playerId": "11012",
@@ -111,8 +112,8 @@
       "position": "F",
       "status": "active",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-02-03",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -205,26 +206,6 @@
       }
     },
     {
-      "playerId": "8103",
-      "player": "Lincoln Griffin",
-      "number": 24,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 39,
-        "g": 7,
-        "a": 9,
-        "pts": 16
-      }
-    },
-    {
       "playerId": "8856",
       "player": "Jordan Kaplan",
       "number": 27,
@@ -249,7 +230,7 @@
       "player": "Shawn Kennedy",
       "number": 74,
       "position": "F",
-      "status": "active",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -269,7 +250,7 @@
       "player": "Landon Sim",
       "number": 23,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -329,7 +310,7 @@
       "player": "Gabriel Bernier",
       "number": 91,
       "position": "F",
-      "status": "active",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -629,39 +610,19 @@
       "player": "Christian Felton",
       "number": 28,
       "position": "D",
-      "status": "loaned",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 33,
-        "g": 3,
-        "a": 7,
-        "pts": 10
-      }
-    },
-    {
-      "playerId": "10729",
-      "player": "Andrew Noel",
-      "number": 28,
-      "position": "D",
       "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Utah 2/15",
+      "acquiredDate": "2026-02-16",
       "stats": {
-        "gp": 31,
-        "g": 2,
+        "gp": 33,
+        "g": 3,
         "a": 7,
-        "pts": 9
+        "pts": 10
       }
     },
     {
@@ -675,8 +636,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Jacksonville 2/1",
+      "acquiredDate": "2026-02-02",
       "stats": {
         "gp": 33,
         "g": 1,
@@ -829,14 +790,14 @@
       "player": "Aaron Chiarot",
       "number": 6,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "South Carolina",
+      "acquiredDate": "2026-02-10",
       "stats": {
         "gp": 22,
         "g": 0,
@@ -855,8 +816,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Kansas City",
+      "acquiredDate": "2026-02-06",
       "stats": {
         "gp": 10,
         "g": 0,
@@ -899,26 +860,6 @@
       "acquiredDate": null,
       "stats": {
         "gp": 18,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": "10445",
-      "player": "Kyle McClellan",
-      "number": 30,
-      "position": "G",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 12,
         "g": 0,
         "a": 0,
         "pts": 0
@@ -1035,6 +976,27 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Nick Rheaume",
+      "number": null,
+      "position": "F",
+      "status": "reserve",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

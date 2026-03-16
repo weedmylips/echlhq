@@ -2,144 +2,144 @@
   "teamId": 5,
   "moves": [
     {
-      "date": "2026-03-14",
-      "player": "Rhett Parsons",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Toronto Marlies"
+      "date": "2026-03-16",
+      "player": "Nick Rhéaume",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 1 Game"
     },
     {
-      "date": "2026-03-14",
-      "player": "Spencer Cox",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
+      "date": "2026-02-24",
+      "player": "Shawn Kennedy",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-14",
-      "player": "Sam Stevens",
+      "date": "2026-02-23",
+      "player": "Nick Rheaume",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-14",
-      "player": "Shawn Kennedy",
+      "date": "2026-02-23",
+      "player": "Zack Trott",
       "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Gabriel Bernier",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Landon Sim",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Toronto Marlies"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Aaron Chiarot",
+      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-13",
+      "date": "2026-02-20",
       "player": "Luke Pavicich",
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-13",
+      "date": "2026-02-20",
       "player": "Thomas Scarfone",
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Shawn Kennedy",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Adam Kydd",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
+      "date": "2026-02-18",
       "player": "Aaron Chiarot",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Jordan Kaplan",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Luke Grainger",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "John Jaworski",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Marko Sikic",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Owen Cole",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Remy Parker",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Zack Trott",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Nick Carabin",
+      "date": "2026-02-18",
+      "player": "Elijah Vilio",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Braeden Kressler",
-      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-08",
+      "date": "2026-02-18",
+      "player": "Hayden Ford",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-16",
       "player": "Andrew Noel",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "type": "traded",
+      "summary": "Traded to Utah 2/15"
     },
     {
-      "date": "2025-11-08",
-      "player": "Zack Trott",
-      "position": "F",
+      "date": "2026-02-16",
+      "player": "Christian Felton",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Utah 2/15"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Thomas Scarfone",
+      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Ken Appleby",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Ken Appleby",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Thomas Scarfone",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Hayden Ford",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Andrew Noel",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
     }
   ]
 }

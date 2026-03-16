@@ -2,144 +2,144 @@
   "teamId": 61,
   "moves": [
     {
-      "date": "2026-03-14",
-      "player": "Randy Hernandez",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/13"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Jack Works",
+      "date": "2026-02-23",
+      "player": "Matt Quercia",
       "position": "F",
       "type": "active",
-      "summary": "Activated from Reserve 3/13"
+      "summary": "Transferred to IR 14 Day"
     },
     {
-      "date": "2026-03-14",
-      "player": "Gino Texter",
-      "position": "G",
-      "type": "released",
-      "summary": "Released as EBUG"
+      "date": "2026-02-17",
+      "player": "Nolan Renwick",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Wilkes-Barre/Scranton"
     },
     {
-      "date": "2026-03-13",
-      "player": "Eric Parker",
+      "date": "2026-02-17",
+      "player": "Scooter Brickey",
       "position": "D",
-      "type": "traded",
-      "summary": "Traded to Rapid City"
+      "type": "recalled_ahl",
+      "summary": "Recalled by Wilkes-Barre/Scranton"
     },
     {
-      "date": "2026-03-13",
-      "player": "Cole Tymkin",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Rapid City"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Eric Parker",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Cole Tymkin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Jaxon Castor",
-      "position": "G",
-      "type": "loaned",
-      "summary": "Loaned to Wilkes-Barre 11/9"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Tanner Andrew",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 11/7"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Logan Neaton",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Trevor LeDonne",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Cole Tymkin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Tanner Andrew",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Tanner Andrew",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2025-11-06",
-      "player": "Craig Armstrong",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-06",
+      "date": "2026-02-17",
       "player": "Aidan Sutter",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-06",
-      "player": "Logan Neaton",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
+      "date": "2026-02-15",
+      "player": "Brayden Edwards",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-02",
-      "player": "Randy Hernandez",
+      "date": "2026-02-15",
+      "player": "Ryan Mahshie",
       "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Eric Parker",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Owen Cole",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "David Breazeale",
+      "position": "D",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-11-02",
-      "player": "Brayden Edwards",
+      "date": "2026-02-14",
+      "player": "Tanner Andrew",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Ryan Mahshie",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Aidan Sutter",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Matt Quercia",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2025-11-01",
-      "player": "Craig Armstrong",
+      "date": "2026-02-13",
+      "player": "Matt Quercia",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Owen Cole",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-11",
+      "player": "Owen Cole",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-11",
+      "player": "Jack Works",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Jack Works",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Owen Cole",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-06",
+      "player": "Cole Tymkin",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
     }
   ]
 }

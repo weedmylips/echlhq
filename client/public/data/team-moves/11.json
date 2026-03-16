@@ -2,142 +2,142 @@
   "teamId": 11,
   "moves": [
     {
-      "date": "2026-03-15",
-      "player": "Jake Boltmann",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to San Jose Barracuda"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Kaleb Pearson",
+      "date": "2026-02-20",
+      "player": "Ty Pelton-Byce",
       "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Texas"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Charlie Dodero",
-      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-14",
+      "date": "2026-02-20",
       "player": "Nick Portz",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Grant Silianoff",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Grant Silianoff",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Aidan Hreschuk",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Nick Portz",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Chris Dodero",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-13",
-      "player": "Ben Kraws",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Texas by Dallas"
+      "date": "2026-02-20",
+      "player": "Jordan Steinmetz",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-13",
+      "date": "2026-02-20",
       "player": "Jason Horvath",
       "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Angus MacDonell",
+      "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2025-11-10",
-      "player": "Jake Barczewski",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Arno Tiefensee",
+      "date": "2026-02-18",
+      "player": "Ben Kraws",
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-07",
+      "date": "2026-02-18",
       "player": "Beni Halasz",
       "position": "G",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-06",
-      "player": "Jeffrey Baum",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "date": "2026-02-18",
+      "player": "Grant Silianoff",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-11-06",
-      "player": "Jaden Shields",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2025-11-04",
+      "date": "2026-02-18",
       "player": "Angus MacDonell",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-04",
-      "player": "Kaleb Pearson",
+      "date": "2026-02-18",
+      "player": "Chris Dodero",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Chris Dodero",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Jaden Shields",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Brendan Hoffman",
+      "position": "F",
+      "type": "loaned",
+      "summary": "Loaned to San Jose Barracuda"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Mason Nevers",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-02",
-      "player": "Arno Tiefensee",
-      "position": "G",
-      "type": "leave",
-      "summary": "Activated from Family/Bereavement Leave"
+      "date": "2026-02-10",
+      "player": "Nick Portz",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
     },
     {
-      "date": "2025-11-02",
-      "player": "Arno Tiefensee",
+      "date": "2026-02-10",
+      "player": "Mason Nevers",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-10",
+      "player": "Francesco Arcuri",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-10",
+      "player": "Ben Kraws",
       "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-10",
+      "player": "Beni Halasz",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-10",
+      "player": "Grant Silianoff",
+      "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     }

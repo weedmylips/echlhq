@@ -2,144 +2,144 @@
   "teamId": 79,
   "moves": [
     {
-      "date": "2026-03-15",
+      "date": "2026-02-23",
+      "player": "Christopher Brown",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Toledo"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Garrett VanWyhe",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Toledo"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Colby Ambrosio",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Will Hillman",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Jed Pietila",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Jacques Bouquot",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Tyler Coffey",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "James Hardie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-20",
       "player": "Nathan Berke",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-15",
-      "player": "Dalton Duhart",
+      "date": "2026-02-20",
+      "player": "Logan Cockerill",
       "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-14",
-      "player": "Holden Wale",
+      "date": "2026-02-19",
+      "player": "Cameron Rowe",
+      "position": "G",
+      "type": "loaned",
+      "summary": "Loaned to Rochester"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Cameron Supryka",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
     },
     {
-      "date": "2026-03-14",
-      "player": "Dalton Duhart",
+      "date": "2026-02-15",
+      "player": "James Hardie",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-14",
+      "date": "2026-02-15",
       "player": "Nathan Berke",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-14",
-      "player": "Sasha Teleguine",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Trevor Griebel",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Nathan Berke",
+      "date": "2026-02-15",
+      "player": "Logan Cockerill",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Chris Grando",
+      "date": "2026-02-15",
+      "player": "Tyler Coffey",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2026-03-13",
-      "player": "Colby Ambrosio",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Scott Ratzlaff",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Michael Bullion",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "MacAuley Carson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Michael Bullion",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Peter Tischke",
+      "date": "2026-02-15",
+      "player": "Cameron Supryka",
       "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Jaden Condotta",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Garrett VanWyhe",
-      "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2025-11-07",
-      "player": "Ryan Pitoscia",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Indy"
-    },
-    {
-      "date": "2025-11-06",
-      "player": "Matteo Costantini",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Rochester"
-    },
-    {
-      "date": "2025-11-05",
-      "player": "Garrett VanWyhe",
+      "date": "2026-02-11",
+      "player": "Nathan Berke",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-11",
+      "player": "Logan Cockerill",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-02-09",
+      "player": "John Spetz",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
     }
   ]
 }

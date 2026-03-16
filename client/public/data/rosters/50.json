@@ -2,7 +2,7 @@
   "teamId": 50,
   "slug": "south-carolina-stingrays",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "10045",
@@ -229,12 +229,12 @@
       "player": "Ben Hawerchuk",
       "number": 10,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -242,7 +242,8 @@
         "g": 5,
         "a": 9,
         "pts": 14
-      }
+      },
+      "suspensionGpAtStart": 59
     },
     {
       "playerId": "11144",
@@ -349,7 +350,7 @@
       "player": "Bryan Moore",
       "number": 37,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -529,7 +530,7 @@
       "player": "Nolan Krenzen",
       "number": 3,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -655,8 +656,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Adirondack",
+      "acquiredDate": "2026-02-24",
       "stats": {
         "gp": 14,
         "g": 0,
@@ -745,26 +746,6 @@
       }
     },
     {
-      "playerId": "11102",
-      "player": "Aaron Chiarot",
-      "number": 29,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 12,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
       "playerId": "8978",
       "player": "Alexis Gravel",
       "number": 33,
@@ -789,7 +770,7 @@
       "player": "Seth Eisele",
       "number": 35,
       "position": "G",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -989,7 +970,7 @@
       "player": "Cade Helmer",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1049,7 +1030,7 @@
       "player": "DJ King",
       "number": null,
       "position": "D",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

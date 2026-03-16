@@ -2,144 +2,144 @@
   "teamId": 98,
   "moves": [
     {
-      "date": "2026-03-14",
-      "player": "Liam Coughlin",
+      "date": "2026-02-24",
+      "player": "Rasmus Kumpulainen",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "recalled_ahl",
+      "summary": "Recalled to Iowa Wild by Minnesota"
     },
     {
-      "date": "2026-03-14",
-      "player": "Nikita Borodaenko",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Zach Taylor",
+      "date": "2026-02-20",
+      "player": "Alexander Stensson",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2025-11-10",
-      "player": "Ty Gibson",
+      "date": "2026-02-20",
+      "player": "Noah Massie",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-10",
-      "player": "Zach Taylor",
-      "position": "D",
+      "date": "2026-02-18",
+      "player": "Isaac Johnson",
+      "position": "F",
       "type": "active",
-      "summary": "Acquired from Atlanta"
+      "summary": "Activated from IR 14 Day"
     },
     {
-      "date": "2025-11-08",
-      "player": "Lord-Anthony Grissom",
+      "date": "2026-02-17",
+      "player": "Alexander Stensson",
       "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Ryan McGuire",
+      "position": "F",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Ryan McGuire",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-08",
+      "date": "2026-02-17",
       "player": "Mike Koster",
       "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Iowa Wild"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Keltie Jeri-Leon",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 2/13"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Alexander Stensson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve 2/13"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Kyle Osterberg",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Ryan McGuire",
+      "position": "F",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-02-14",
+      "player": "Keltie Jeri-Leon",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-07",
-      "player": "Lucas Helland",
+      "date": "2026-02-13",
+      "player": "Matt Koethe",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-11-07",
-      "player": "Brandon Schultz",
+      "date": "2026-02-13",
+      "player": "Alexander Stensson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Liam Coughlin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Luke Mobley",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2025-11-06",
-      "player": "Dante Giannuzzi",
-      "position": "G",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "date": "2026-02-13",
+      "player": "Dylan Massie",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2025-11-06",
+      "date": "2026-02-12",
       "player": "William Rousseau",
       "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "type": "recalled_ahl",
+      "summary": "Recalled by Iowa Wild"
     },
     {
-      "date": "2025-11-06",
-      "player": "Ty Gibson",
+      "date": "2026-02-12",
+      "player": "Stevie Leskovar",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "Ty Gibson",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "Mike Koster",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "Carter Allen",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "William Rousseau",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "Dante Giannuzzi",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-10-31",
-      "player": "Matt Hubbarde",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Rapid City"
-    },
-    {
-      "date": "2025-10-31",
-      "player": "Luke Mobley",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-10-31",
-      "player": "Ty Gibson",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "recalled_ahl",
+      "summary": "Recalled to Iowa Wild by Minnesota"
     }
   ]
 }

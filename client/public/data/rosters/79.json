@@ -2,7 +2,7 @@
   "teamId": 79,
   "slug": "jacksonville-icemen",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "9618",
@@ -35,33 +35,13 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Tulsa",
+      "acquiredDate": "2026-02-04",
       "stats": {
         "gp": 54,
         "g": 14,
         "a": 15,
         "pts": 29
-      }
-    },
-    {
-      "playerId": "8181",
-      "player": "Christopher Brown",
-      "number": 10,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 49,
-        "g": 13,
-        "a": 15,
-        "pts": 28
       }
     },
     {
@@ -115,8 +95,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Toledo",
+      "acquiredDate": "2026-02-23",
       "stats": {
         "gp": 53,
         "g": 9,
@@ -145,26 +125,6 @@
       }
     },
     {
-      "playerId": "10716",
-      "player": "Nathan Dunkley",
-      "number": 7,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 37,
-        "g": 8,
-        "a": 14,
-        "pts": 22
-      }
-    },
-    {
       "playerId": "8103",
       "player": "Lincoln Griffin",
       "number": 70,
@@ -175,8 +135,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Cincinnati 2/1",
+      "acquiredDate": "2026-02-02",
       "stats": {
         "gp": 54,
         "g": 10,
@@ -189,14 +149,14 @@
       "player": "Colby Ambrosio",
       "number": 7,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
       "irStartDate": "2026-03-13",
       "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Toledo",
+      "acquiredDate": "2026-02-23",
       "stats": {
         "gp": 48,
         "g": 11,
@@ -255,8 +215,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Toledo",
+      "acquiredDate": "2026-02-23",
       "stats": {
         "gp": 37,
         "g": 4,
@@ -389,7 +349,7 @@
       "player": "James Hardie",
       "number": 2,
       "position": "F",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -489,7 +449,7 @@
       "player": "Tyler Coffey",
       "number": 17,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -635,8 +595,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Toledo",
+      "acquiredDate": "2026-02-23",
       "stats": {
         "gp": 38,
         "g": 3,
@@ -649,7 +609,7 @@
       "player": "Jaden Condotta",
       "number": 63,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -662,26 +622,6 @@
         "g": 2,
         "a": 7,
         "pts": 9
-      }
-    },
-    {
-      "playerId": "11040",
-      "player": "John Spetz",
-      "number": 18,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 33,
-        "g": 1,
-        "a": 6,
-        "pts": 7
       }
     },
     {
@@ -711,8 +651,8 @@
       "position": "D",
       "status": "active",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-02-15",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -829,7 +769,7 @@
       "player": "Cameron Rowe",
       "number": 31,
       "position": "G",
-      "status": "active",
+      "status": "loaned",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -849,7 +789,7 @@
       "player": "Topias Leinonen",
       "number": 40,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -946,26 +886,6 @@
     },
     {
       "playerId": null,
-      "player": "Garrett VanWyhe",
-      "number": null,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
       "player": "Luke Morgan",
       "number": null,
       "position": "F",
@@ -1015,6 +935,27 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Nathan Dunkley",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

@@ -2,141 +2,141 @@
   "teamId": 52,
   "moves": [
     {
-      "date": "2026-03-15",
-      "player": "Hudson Schandor",
+      "date": "2026-02-22",
+      "player": "Kenta Isogai",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-15",
+      "date": "2026-02-22",
       "player": "Ben Poisson",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Joshua Zary",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
+      "date": "2026-02-22",
       "player": "Remy Parker",
       "position": "F",
       "type": "active",
-      "summary": "Transferred to IR 14 Day"
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-03-13",
-      "player": "Ben Poisson",
+      "date": "2026-02-22",
+      "player": "Brent Pedersen",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Caiden Gault",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Brent Pedersen",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jacob Modry",
+      "date": "2026-02-22",
+      "player": "Cole Fraser",
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-13",
-      "player": "Tristan De Jong",
+      "date": "2026-02-21",
+      "player": "Isaiah Saville",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-19",
+      "player": "Ben Poisson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-19",
+      "player": "Brent Pedersen",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Mattias Sholl",
+      "position": "G",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Josh Boyko",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Matthew Caldwell",
+      "position": "G",
+      "type": "released",
+      "summary": "Released as EBUG"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Cole Fraser",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-13",
-      "player": "Jake Murray",
-      "position": "D",
-      "type": "active",
-      "summary": "Returned From Loan by Rockford"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Tim Rego",
+      "date": "2026-02-15",
+      "player": "Jacob Modry",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-11",
+      "date": "2026-02-15",
       "player": "Ben Poisson",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-11-11",
+      "date": "2026-02-15",
+      "player": "Remy Parker",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-14",
       "player": "Brent Pedersen",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-11",
-      "player": "Jordan Power",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Jake Murray",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Abbotsford"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Dante Sheriff",
+      "date": "2026-02-14",
+      "player": "Remy Parker",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-08",
-      "player": "Jordan Power",
+      "date": "2026-02-13",
+      "player": "Jacob Modry",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-06",
-      "player": "Kenta Isogai",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Ontario"
+      "date": "2026-02-13",
+      "player": "Parker Berge",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-10-27",
-      "player": "Pierce Charleson",
-      "position": "G",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2025-10-27",
-      "player": "Dante Sheriff",
+      "date": "2026-02-13",
+      "player": "Remy Parker",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"

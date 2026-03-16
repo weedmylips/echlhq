@@ -2,7 +2,7 @@
   "teamId": 72,
   "slug": "tulsa-oilers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "10838",
@@ -29,12 +29,12 @@
       "player": "Easton Armstrong",
       "number": 27,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 2,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -42,7 +42,8 @@
         "g": 16,
         "a": 8,
         "pts": 24
-      }
+      },
+      "suspensionGpAtStart": 58
     },
     {
       "playerId": "10218",
@@ -89,14 +90,14 @@
       "player": "Nathan Dunkley",
       "number": 7,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Jacksonville",
+      "acquiredDate": "2026-02-04",
       "stats": {
         "gp": 37,
         "g": 8,
@@ -165,36 +166,16 @@
       }
     },
     {
-      "playerId": "10771",
-      "player": "Adam McMaster",
-      "number": 22,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 39,
-        "g": 11,
-        "a": 7,
-        "pts": 18
-      }
-    },
-    {
       "playerId": "6827",
       "player": "Tyrell Goulbourne",
       "number": 13,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -202,7 +183,8 @@
         "g": 7,
         "a": 11,
         "pts": 18
-      }
+      },
+      "suspensionGpAtStart": 58
     },
     {
       "playerId": "9651",
@@ -229,7 +211,7 @@
       "player": "Dylan Fitze",
       "number": 37,
       "position": "F",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -289,12 +271,12 @@
       "player": "Jaxsen Wiebe",
       "number": 45,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 2,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -302,7 +284,8 @@
         "g": 3,
         "a": 8,
         "pts": 11
-      }
+      },
+      "suspensionGpAtStart": 58
     },
     {
       "playerId": "9247",
@@ -329,12 +312,12 @@
       "player": "Lukas Jirousek",
       "number": 38,
       "position": "F",
-      "status": "ir",
+      "status": "suspended",
       "statusNote": null,
-      "irStartDate": "2026-03-10",
-      "irDays": 14,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -342,7 +325,8 @@
         "g": 3,
         "a": 5,
         "pts": 8
-      }
+      },
+      "suspensionGpAtStart": 58
     },
     {
       "playerId": "7355",
@@ -629,12 +613,12 @@
       "player": "Roman Kinal",
       "number": 42,
       "position": "D",
-      "status": "recalled_ahl",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -642,14 +626,15 @@
         "g": 2,
         "a": 7,
         "pts": 9
-      }
+      },
+      "suspensionGpAtStart": 58
     },
     {
       "playerId": "11150",
       "player": "Konnor Smith",
       "number": 4,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -689,10 +674,10 @@
       "player": "Tanner Faith",
       "number": 41,
       "position": "D",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-10",
-      "irDays": 14,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -729,7 +714,7 @@
       "player": "Cade McNelly",
       "number": 3,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -849,7 +834,7 @@
       "player": "Jake Sibell",
       "number": 35,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1095,6 +1080,48 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "German Yavash",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Jon Hooker",
+      "number": null,
+      "position": "F",
+      "status": "loaned",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

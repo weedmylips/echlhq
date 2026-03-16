@@ -2,144 +2,144 @@
   "teamId": 10,
   "moves": [
     {
-      "date": "2026-03-15",
-      "player": "Ryan Nolan",
+      "date": "2026-02-24",
+      "player": "Ryley Appelt",
       "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-15",
+      "date": "2026-02-24",
+      "player": "Isak Walther",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-24",
       "player": "Cam Gaudette",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-15",
-      "player": "Evan Orr",
+      "date": "2026-02-24",
+      "player": "Andrew Jarvis",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-15",
-      "player": "Nolan Orzeck",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Ryley Appelt",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Ryan Nolan",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Max Grondin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Brett Bulmer",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Brett Bulmer",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Zach Taylor",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Iowa"
-    },
-    {
-      "date": "2025-11-10",
+      "date": "2026-02-24",
       "player": "Connor Galloway",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-11-09",
-      "player": "Ethan Haider",
+      "date": "2026-02-23",
+      "player": "Nick Vilardo",
+      "position": "G",
+      "type": "released",
+      "summary": "Released as EBUG"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Peter Green",
+      "position": "G",
+      "type": "released",
+      "summary": "Released as EBUG"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Andrew Jarvis",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Cam Gaudette",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Isak Walther",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Nick McCarry",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-19",
+      "player": "T.J. Semptimphelter",
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled by Milwaukee"
     },
     {
-      "date": "2025-11-09",
-      "player": "Logan Stein",
-      "position": "G",
+      "date": "2026-02-19",
+      "player": "Cam Gaudette",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-19",
+      "player": "Cam Gaudette",
+      "position": "D",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2025-11-07",
-      "player": "Anthony Firriolo",
+      "date": "2026-02-17",
+      "player": "Zach Yoder",
       "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-16",
+      "player": "Nick McCarry",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-02-16",
+      "player": "Jack O'Brien",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-02-16",
+      "player": "Connor Galloway",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-16",
+      "player": "Nick McCarry",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-07",
-      "player": "Jack Robilotti",
+      "date": "2026-02-14",
+      "player": "Ryan Conroy",
       "position": "D",
       "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Jack Robilotti",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Anthony Firriolo",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-02",
-      "player": "Anthony Firriolo",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-02",
-      "player": "Andrew Jarvis",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-31",
-      "player": "Andrew Jarvis",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "summary": "Activated from IR 3 Day"
     }
   ]
 }

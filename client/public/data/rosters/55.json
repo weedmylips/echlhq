@@ -2,7 +2,7 @@
   "teamId": 55,
   "slug": "reading-royals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "8284",
@@ -149,7 +149,7 @@
       "player": "Jacob Frasca",
       "number": 95,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -529,7 +529,7 @@
       "player": "Sam Dabrowski",
       "number": 23,
       "position": "F",
-      "status": "active",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -649,7 +649,7 @@
       "player": "Victor Hadfield",
       "number": 6,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -689,12 +689,12 @@
       "player": "Vincent Sevigny",
       "number": 46,
       "position": "D",
-      "status": "loaned",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -702,7 +702,8 @@
         "g": 1,
         "a": 6,
         "pts": 7
-      }
+      },
+      "suspensionGpAtStart": 57
     },
     {
       "playerId": "9777",
@@ -807,26 +808,6 @@
     {
       "playerId": "11199",
       "player": "Hayden Ford",
-      "number": 4,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 2,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": "10383",
-      "player": "James Marooney",
       "number": 4,
       "position": "D",
       "status": "active",

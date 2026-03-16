@@ -468,17 +468,27 @@ async function scrapeSuspensions(today) {
 
         processed.add(url);
 
-        // Extract article date
+        // Parse HTML into lines (same technique as parseTransactions)
         const $ = cheerio.load(html);
-        const articleDate = $("time[datetime]").first().attr("datetime")?.slice(0, 10)
-          ?? $('meta[property="article:published_time"]').attr("content")?.slice(0, 10)
-          ?? today;
+        const bodyEl = $('[itemprop="articleBody"]');
+        const bodyHtml = bodyEl.html() || "";
+        const lines = bodyHtml
+          .replace(/<br\s*\/?>/gi, "\n")
+          .replace(/<\/p>/gi, "\n")
+          .replace(/<\/div>/gi, "\n")
+          .replace(/<[^>]+>/g, "")
+          .replace(/&nbsp;/gi, " ")
+          .replace(/&amp;/gi, "&")
+          .split("\n")
+          .map((l) => l.trim())
+          .filter(Boolean);
 
-        // Extract prose text
-        const proseText = $('div[itemprop="articleBody"] .prose').text()
-          || $('[itemprop="articleBody"]').text();
+        // Extract article date: look for "DayName, Month Nth" or "(Month Day)" in text
+        const fullText = lines.join(" ");
+        // Fall back to first day of the URL's month so old posts aren't treated as fresh
+        const articleDate = extractArticleDate(fullText, year) ?? `${year}-${mm}-01`;
 
-        const suspensions = parseSuspensionText(proseText);
+        const suspensions = parseSuspensionLines(lines);
         console.log(`  📋 ${url} — ${suspensions.length} suspension(s) found (article date: ${articleDate})`);
 
         for (const { teamName, playerName, games } of suspensions) {
@@ -561,56 +571,80 @@ async function scrapeSuspensions(today) {
   return found;
 }
 
-function parseSuspensionText(text) {
+// Extract article date from full text using known day names + month from URL
+const MONTH_NAMES_MAP = {
+  january: "01", jan: "01", february: "02", feb: "02", march: "03", mar: "03",
+  april: "04", apr: "04", may: "05", june: "06", jun: "06",
+  july: "07", jul: "07", august: "08", aug: "08", september: "09", sep: "09", sept: "09",
+  october: "10", oct: "10", november: "11", nov: "11", december: "12", dec: "12",
+};
+function extractArticleDate(text, year) {
+  // Try "tonight/today (Month.? Day)" e.g. "tonight (Feb. 21)" or "today (March 15)"
+  const m2 = text.match(/(?:tonight|today)[^(]*\(([A-Z][a-z]+\.?)\s+(\d+)\)/);
+  if (m2) {
+    const mon = MONTH_NAMES_MAP[m2[1].replace(".", "").toLowerCase()];
+    if (mon) return `${year}-${mon}-${String(m2[2]).padStart(2, "0")}`;
+  }
+  // Try "DayName, Month.? Nth" e.g. "Saturday, March 14th" or "Saturday, Feb. 21"
+  const m1 = text.match(/(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),?\s+([A-Z][a-z]+\.?)\s+(\d+)/);
+  if (m1) {
+    const mon = MONTH_NAMES_MAP[m1[2].replace(".", "").toLowerCase()];
+    if (mon) return `${year}-${mon}-${String(m1[3]).padStart(2, "0")}`;
+  }
+  return null;
+}
+
+// Strip zero-width and invisible Unicode chars that ECHL's CMS sometimes inserts
+function cleanLine(s) {
+  return s
+    .replace(/[\u200B\u200C\u200D\uFEFF\u00AD]/g, "") // strip zero-width chars
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")       // normalize smart single quotes → '
+    .trim();
+}
+
+function parseSuspensionLines(lines) {
+  // Process line-by-line (lines already split on <br>/<p> boundaries by caller).
+  // Structure per suspension:
+  //   "TeamName's LastName fined, suspended"         ← header, no game count → skip
+  //   "TeamName's Full Name has been suspended for N games and fined..."  ← body
+  // Multi-player lines: "TeamA's Player and TeamB's Player have both been suspended for N games"
   const results = [];
-
-  // Split text into sections by team. Look for patterns like "TeamName's PlayerName"
-  // or bold team headers "TeamName: ..." in the prose text.
-  // We'll scan for suspension sentences and extract team + player + games.
-
-  // Pattern 1: "TeamName's Player Name ... suspended N game(s)"
-  // Pattern 2: "Player Name ... suspended N game(s)" within a team section
-
-  // First, try to find team sections by looking for possessives or team names
-  // Split on sentence boundaries roughly, then parse each chunk
-  const sentences = text.split(/(?<=[.!?])\s+/);
-
   let currentTeam = null;
 
-  for (const sentence of sentences) {
-    // Try to identify team from possessive: "Greensboro's Tian Rask"
-    const possessiveMatch = sentence.match(/\b([A-Z][a-z]+(?: [A-Z][a-z]+)*)'s\s+([A-Z][a-z\u00e0-\u00ff]+(?: [A-Z][a-z\u00e0-\u00ff'-]+)*)/);
-    if (possessiveMatch) {
-      currentTeam = possessiveMatch[1];
-    }
+  // Allow mixed-case mid-name (McNelly, O'Brien) by including A-Z in the tail char class
+  const possessiveRe = /([A-Z][a-z\u00e0-\u00ff]+(?: [A-Z][a-z\u00e0-\u00ff]+)*)'s\s+([A-Z][a-zA-Z\u00e0-\u00ff]+(?: [A-Z][a-zA-Z\u00e0-\u00ff'-]+)*)/g;
+  const gamesRe = /suspended\s+(?:for\s+)?(\w+)\s+game/i;
 
-    // Check if this sentence mentions a suspension
-    const gamesMatch = sentence.match(/suspended\s+(\w+)\s+game/i);
+  for (const rawLine of lines) {
+    const line = cleanLine(rawLine);
+
+    // Find all possessives in this line, filtering to known team names only
+    const possessives = [...line.matchAll(possessiveRe)]
+      .filter((m) => lookupTeamId(m[1]) !== null);
+    if (possessives.length > 0) currentTeam = possessives[0][1]; // track first team
+
+    const gamesMatch = line.match(gamesRe);
     if (!gamesMatch) continue;
 
     const gamesRaw = gamesMatch[1].toLowerCase();
     const games = WORD_TO_NUM[gamesRaw] ?? (parseInt(gamesRaw) || null);
     if (!games) continue;
 
-    // Extract player name — look for capitalized name before "has been" or after possessive
-    let playerName = null;
-
-    if (possessiveMatch) {
-      playerName = possessiveMatch[2];
-    } else {
-      // Try "Name has been" pattern
-      const hasBeenMatch = sentence.match(/\b([A-Z][a-z\u00e0-\u00ff]+(?: [A-Z][a-z\u00e0-\u00ff'-]+)+)\s+has been/);
-      if (hasBeenMatch) playerName = hasBeenMatch[1];
+    // Emit one entry per possessive found on this line (handles multi-player lines)
+    if (possessives.length > 0) {
+      for (const poss of possessives) {
+        results.push({ teamName: poss[1], playerName: poss[2], games });
+      }
+      currentTeam = null;
+    } else if (currentTeam) {
+      // Fallback: no possessive on this line, use carry-over team + "X has been" pattern
+      const hasBeenMatch = line.match(/([A-Z][a-z\u00e0-\u00ff]+(?: [A-Z][a-z\u00e0-\u00ff'-]+)+)\s+has been/);
+      const playerName = hasBeenMatch?.[1] ?? null;
+      if (playerName) {
+        results.push({ teamName: currentTeam, playerName, games });
+        currentTeam = null;
+      }
     }
-
-    if (!playerName || !currentTeam) continue;
-
-    // Check it's actually a suspension (not just a fine)
-    if (!sentence.toLowerCase().includes("suspend")) continue;
-
-    results.push({ teamName: currentTeam, playerName, games });
-    // Reset team after each match to avoid false attribution
-    currentTeam = null;
   }
 
   return results;

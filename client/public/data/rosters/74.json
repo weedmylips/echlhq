@@ -2,7 +2,7 @@
   "teamId": 74,
   "slug": "adirondack-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-14",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "9607",
@@ -429,7 +429,7 @@
       "player": "Michael Herrera",
       "number": 19,
       "position": "F",
-      "status": "active",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -469,10 +469,10 @@
       "player": "Daniel Amesbury",
       "number": 27,
       "position": "F",
-      "status": "ir",
+      "status": "leave",
       "statusNote": null,
-      "irStartDate": "2026-03-14",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -495,8 +495,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Rapid City",
+      "acquiredDate": "2026-02-22",
       "stats": {
         "gp": 26,
         "g": 0,
@@ -629,10 +629,10 @@
       "player": "Conner Hutchison",
       "number": 14,
       "position": "D",
-      "status": "ir",
+      "status": "reserve",
       "statusNote": null,
-      "irStartDate": "2026-03-13",
-      "irDays": 14,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -722,26 +722,6 @@
         "g": 1,
         "a": 4,
         "pts": 5
-      }
-    },
-    {
-      "playerId": "9083",
-      "player": "Ryan Orgel",
-      "number": 65,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 11,
-        "g": 0,
-        "a": 4,
-        "pts": 4
       }
     },
     {
@@ -1035,6 +1015,48 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Daniel Ebrahim",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Ben Lindberg",
+      "number": null,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

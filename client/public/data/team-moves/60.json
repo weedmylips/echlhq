@@ -2,144 +2,144 @@
   "teamId": 60,
   "moves": [
     {
-      "date": "2026-03-15",
-      "player": "Dustyn McFaul",
+      "date": "2026-03-16",
+      "player": "Jalen Smereck",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "type": "suspended",
+      "summary": "Suspended 3 Games"
     },
     {
-      "date": "2026-03-15",
-      "player": "Anthony Petruzzelli",
+      "date": "2026-02-22",
+      "player": "James Stefan",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Louka Henault",
-      "position": "D",
       "type": "active",
       "summary": "Transferred to IR 14 Day"
     },
     {
-      "date": "2026-03-14",
-      "player": "Nick Deakin-Poot",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Dustyn McFaul",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Tyler Inamoto",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Josh Groll",
+      "date": "2026-02-22",
+      "player": "Kirill Tyutyayev",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-14",
-      "player": "Thomas Sinclair",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
+      "date": "2026-02-21",
+      "player": "Cole Beamin",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-03-13",
-      "player": "Willian Dufour",
+      "date": "2026-02-21",
+      "player": "James Stefan",
       "position": "F",
-      "type": "loaned",
-      "summary": "Loaned to Grand Rapids 3/12"
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2026-03-13",
-      "player": "Jayden Grubbe",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Bakersfield by Edmonton"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Josh Groll",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
+      "date": "2026-02-21",
       "player": "Nick Deakin-Poot",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-13",
+      "date": "2026-02-21",
+      "player": "Jalen Smereck",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-21",
       "player": "Anthony Petruzzelli",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-08",
-      "player": "Matt Miller",
+      "date": "2026-02-21",
+      "player": "Kirill Tyutyayev",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-08",
-      "player": "Matt Murphy",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Dru Krebs",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-08",
+      "date": "2026-02-18",
       "player": "Anthony Petruzzelli",
       "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Jayden Grubbe",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-08",
-      "player": "Trevor Janicke",
+      "date": "2026-02-18",
+      "player": "Nick Deakin-Poot",
       "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Tyson Feist",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "James Stefan",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Cole Beamin",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Jonathan Melee",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Wichita 2/16"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Dustyn McFaul",
+      "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
     },
     {
-      "date": "2025-11-08",
+      "date": "2026-02-15",
+      "player": "Dustyn McFaul",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve 2/14"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Cole Beamin",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve 2/14"
+    },
+    {
+      "date": "2026-02-14",
       "player": "Nick Deakin-Poot",
       "position": "F",
       "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-05",
-      "player": "Anthony Petruzzelli",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "summary": "Activated from IR 3 Day"
     }
   ]
 }

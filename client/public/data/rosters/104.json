@@ -2,7 +2,7 @@
   "teamId": 104,
   "slug": "worcester-railers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "8651",
@@ -109,12 +109,12 @@
       "player": "Cole Donhauser",
       "number": 29,
       "position": "F",
-      "status": "reserve",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -122,7 +122,8 @@
         "g": 9,
         "a": 15,
         "pts": 24
-      }
+      },
+      "suspensionGpAtStart": 56
     },
     {
       "playerId": "9995",
@@ -149,7 +150,7 @@
       "player": "Riley Ginnell",
       "number": 9,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -249,7 +250,7 @@
       "player": "Gleb Veremyev",
       "number": 15,
       "position": "F",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -369,7 +370,7 @@
       "player": "Nikita Susuyev",
       "number": 17,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -829,7 +830,7 @@
       "player": "Connor Federkow",
       "number": 28,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1035,6 +1036,27 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Cameron McDonald",
+      "number": null,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

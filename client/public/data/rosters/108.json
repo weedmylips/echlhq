@@ -211,8 +211,8 @@
       "position": "F",
       "status": "active",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-02-13",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -229,7 +229,7 @@
       "player": "Jordan Biro",
       "number": 86,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -309,12 +309,12 @@
       "player": "Tian Rask",
       "number": 78,
       "position": "F",
-      "status": "reserve",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 2,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -322,7 +322,8 @@
         "g": 0,
         "a": 3,
         "pts": 3
-      }
+      },
+      "suspensionGpAtStart": 58
     },
     {
       "playerId": "11195",
@@ -485,26 +486,6 @@
       }
     },
     {
-      "playerId": "10897",
-      "player": "Patrick Kyte",
-      "number": 8,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": "Wichita",
-      "acquiredDate": "2025-10-28",
-      "stats": {
-        "gp": 24,
-        "g": 1,
-        "a": 9,
-        "pts": 10
-      }
-    },
-    {
       "playerId": "8487",
       "player": "Colton Leiter",
       "number": 45,
@@ -529,7 +510,7 @@
       "player": "Braden Doyle",
       "number": 4,
       "position": "D",
-      "status": "loaned",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -857,6 +838,27 @@
       "suspensionGamesOriginal": null,
       "acquiredFrom": "Idaho",
       "acquiredDate": "2025-10-27",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Lukas Sillinger",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Florida",
+      "acquiredDate": "2026-02-05",
       "stats": {
         "gp": 0,
         "g": 0,

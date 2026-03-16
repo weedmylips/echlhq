@@ -2,144 +2,144 @@
   "teamId": 104,
   "moves": [
     {
-      "date": "2026-03-15",
+      "date": "2026-03-12",
       "player": "Cole Donhauser",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/14"
+      "type": "suspended",
+      "summary": "Suspended 2 Games"
     },
     {
-      "date": "2026-03-15",
+      "date": "2026-02-21",
+      "player": "Riley Ginnell",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Gleb Veremyev",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Gleb Veremyev",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-20",
       "player": "Khristian Acosta",
       "position": "F",
       "type": "active",
-      "summary": "Activated from Reserve 3/14"
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2026-03-15",
-      "player": "Connor Federkow",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Michael Ferrandino",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Tanner Schachle",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Thomas Gale",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Kolby Johnson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Porter Schachle",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Porter Schachle",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Riley Ginnell",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Riley Piercey",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Anthony Callin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Tanner Schachle",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Matt Stief",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-06",
-      "player": "Anthony Hora",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2025-11-06",
+      "date": "2026-02-19",
       "player": "Jesse Pulkkinen",
       "position": "D",
       "type": "recalled_ahl",
       "summary": "Recalled to Bridgeport by New York Islanders"
     },
     {
-      "date": "2025-11-06",
-      "player": "Kolby Johnson",
+      "date": "2026-02-19",
+      "player": "Cameron Berg",
       "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "type": "recalled_ahl",
+      "summary": "Recalled by Bridgeport"
     },
     {
-      "date": "2025-11-06",
-      "player": "Noah Massie",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
+      "date": "2026-02-19",
+      "player": "MacAuley Carson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-06",
-      "player": "Michael Suda",
+      "date": "2026-02-19",
+      "player": "Connor Federkow",
       "position": "D",
       "type": "active",
-      "summary": "Acquired from Savannah"
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-03",
-      "player": "Cole Fraser",
+      "date": "2026-02-13",
+      "player": "Connor Federkow",
       "position": "D",
-      "type": "traded",
-      "summary": "Traded to Cincinnati 11/2"
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "MacAuley Carson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Khristian Acosta",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Lincoln Hatten",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-12",
+      "player": "Hunter Hall",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Lincoln Hatten",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Cameron McDonald",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Hunter Hall",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "MacAuley Carson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-04",
+      "player": "Hunter Hall",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-02-04",
+      "player": "Cameron McDonald",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     }
   ]
 }

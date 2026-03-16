@@ -2,144 +2,144 @@
   "teamId": 13,
   "moves": [
     {
-      "date": "2026-03-15",
-      "player": "Tony Follmer",
+      "date": "2026-02-22",
+      "player": "Carter Allen",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-15",
-      "player": "Carter Allen",
+      "date": "2026-02-22",
+      "player": "Tony Follmer",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-15",
+      "date": "2026-02-22",
+      "player": "Harrison Meneghin",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Syracuse by Tampa Bay"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Jake Hamilton",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-02-21",
       "player": "Tyler Kobryn",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-15",
-      "player": "Alton McDermott",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Alton McDermott",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Jake Hamilton",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "JC Brassard",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Tyler Bird",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Peter Laviolette",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-09",
-      "player": "Luke Bast",
+      "date": "2026-02-21",
+      "player": "Chris Harpur",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-09",
-      "player": "Jon Gillies",
-      "position": "G",
+      "date": "2026-02-21",
+      "player": "Tony Follmer",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Carter Allen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Ryan Dickinson",
+      "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2025-11-09",
-      "player": "Ethan Langenegger",
-      "position": "G",
+      "date": "2026-02-20",
+      "player": "Jarid Lukosevicius",
+      "position": "F",
       "type": "active",
-      "summary": "Activated from IR 14 Day"
+      "summary": "Transferred to IR 14 Day"
     },
     {
-      "date": "2025-11-08",
-      "player": "Luke Bast",
+      "date": "2026-02-19",
+      "player": "Mark Cooper",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Ryan Novalis",
+      "position": "G",
+      "type": "released",
+      "summary": "Released as EBUG"
+    },
+    {
+      "date": "2026-02-15",
+      "player": "Carter Allen",
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-08",
-      "player": "JC Brassard",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Keanan Stewart",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Jack Adams",
+      "date": "2026-02-15",
+      "player": "Gustav Muller",
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2025-11-03",
-      "player": "Ethan Langenegger",
-      "position": "G",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2025-11-03",
-      "player": "JC Brassard",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-03",
-      "player": "Cole Kodsi",
+      "date": "2026-02-13",
+      "player": "Anthony Bardaro",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-03",
-      "player": "Cody Schiavon",
+      "date": "2026-02-13",
+      "player": "Tony Follmer",
       "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-12",
+      "player": "Spencer Kersten",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Syracuse"
+    },
+    {
+      "date": "2026-02-12",
+      "player": "Milo Roelens",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Syracuse Crunch by Tampa Bay"
+    },
+    {
+      "date": "2026-02-11",
+      "player": "Tony Follmer",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-11",
+      "player": "Peter Laviolette",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
     }
   ]
 }

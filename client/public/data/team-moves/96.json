@@ -2,142 +2,142 @@
   "teamId": 96,
   "moves": [
     {
-      "date": "2025-11-07",
+      "date": "2026-02-23",
+      "player": "Nikita Borodaenko",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Jonathan Melee",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Declan Smith",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Ryan Finnegan",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Kyle Jeffers",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Declan Smith",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Jonathan Melee",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Fort Wayne 2/16"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Tyriq Outen",
+      "position": "G",
+      "type": "traded",
+      "summary": "Traded to Kalamazoo"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Tyriq Outen",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-17",
       "player": "Kyle Jeffers",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-07",
-      "player": "Tyrone Bronte",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "date": "2026-02-14",
+      "player": "John Gormley",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by San Jose Barracuda"
     },
     {
-      "date": "2025-11-07",
-      "player": "Lucas Vanroboys",
+      "date": "2026-02-13",
+      "player": "Kyle Crnkovic",
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled by San Jose Barracuda"
     },
     {
-      "date": "2025-11-07",
-      "player": "Kyle Jeffers",
+      "date": "2026-02-12",
+      "player": "Christophe Fillion",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Utah"
+    },
+    {
+      "date": "2026-02-11",
+      "player": "Ryan Olsen",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-06",
-      "player": "Nolan Kneen",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-06",
-      "player": "T.J. Lloyd",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "T.J. Lloyd",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Jack Bar",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-02",
-      "player": "Jack Bar",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-02",
-      "player": "T.J. Lloyd",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "T.J. Lloyd",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "Tian Rask",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "Tyrone Bronte",
+      "date": "2026-02-10",
+      "player": "Ryan Finnegan",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-01",
+      "date": "2026-02-10",
       "player": "Nico Somerville",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-10-29",
-      "player": "Kirby Proctor",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-29",
-      "player": "Nico Somerville",
-      "position": "D",
+      "date": "2026-02-10",
+      "player": "Tyriq Outen",
+      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-10-29",
-      "player": "Nolan Kneen",
-      "position": "D",
+      "date": "2026-02-10",
+      "player": "Matt Davis",
+      "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-10-28",
-      "player": "Patrick Kyte",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Greensboro"
-    },
-    {
-      "date": "2025-10-25",
-      "player": "Nolan Kneen",
-      "position": "D",
+      "date": "2026-02-07",
+      "player": "Ryan Olsen",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-10-25",
-      "player": "Patrick Kyte",
-      "position": "D",
+      "date": "2026-02-07",
+      "player": "Jake Wahlin",
+      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     }

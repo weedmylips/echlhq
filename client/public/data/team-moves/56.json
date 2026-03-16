@@ -2,144 +2,144 @@
   "teamId": 56,
   "moves": [
     {
-      "date": "2026-03-13",
+      "date": "2026-03-16",
+      "player": "Hudson Wilson",
+      "position": "D",
+      "type": "suspended",
+      "summary": "Suspended 1 Game"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Justin Janicke",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 1 Game"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Jimmy Glynn",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Thomas Farrell",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Jackson Jutting",
+      "position": "F",
+      "type": "active",
+      "summary": "Returned From Loan by Grand Rapids"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Drake Burgin",
+      "position": "D",
+      "type": "active",
+      "summary": "Returned From Loan by Coachella Valley"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Logan Terness",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-21",
+      "player": "Blair Sanders",
+      "position": "G",
+      "type": "released",
+      "summary": "Released as EBUG"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Will Gavin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-20",
       "player": "James Marooney",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-13",
+      "date": "2026-02-20",
       "player": "Jackson Jutting",
       "position": "F",
       "type": "loaned",
-      "summary": "Loaned to Grand Rapids 3/12"
+      "summary": "Loaned to Grand Rapids"
     },
     {
-      "date": "2025-11-11",
-      "player": "Chase Brand",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-11",
-      "player": "Lucas Sowder",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Will Gavin",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Lucas Sowder",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Lucas Sowder",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2025-11-08",
-      "player": "Kyle Pow",
+      "date": "2026-02-18",
+      "player": "Drake Burgin",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "loaned",
+      "summary": "Loaned to Coachella Valley"
     },
     {
-      "date": "2025-11-08",
-      "player": "David Cotton",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-06",
-      "player": "Will Gavin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-06",
-      "player": "Kyle Pow",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Thomas Farrell",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Kyle Pow",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Lucas Sowder",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2025-11-04",
-      "player": "Logan Terness",
+      "date": "2026-02-17",
+      "player": "Dylan Wells",
       "position": "G",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
+      "type": "recalled_ahl",
+      "summary": "Recalled by Tucson"
     },
     {
-      "date": "2025-11-02",
+      "date": "2026-02-12",
+      "player": "Will Gavin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-12",
+      "player": "Lucas Sowder",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-12",
+      "player": "James Marooney",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-12",
+      "player": "Hudson Wilson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-11",
       "player": "Lucas Sowder",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2025-11-02",
-      "player": "Will Gavin",
+      "date": "2026-02-11",
+      "player": "Hudson Wilson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-11",
+      "player": "Robert Carpenter",
       "position": "F",
       "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-02",
-      "player": "David Cotton",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-02",
-      "player": "Thomas Farrell",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2025-11-01",
-      "player": "Will Gavin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "summary": "Activated from IR 14 Day"
     }
   ]
 }

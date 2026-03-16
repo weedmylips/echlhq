@@ -2,144 +2,144 @@
   "teamId": 72,
   "moves": [
     {
-      "date": "2026-03-15",
+      "date": "2026-03-16",
+      "player": "Jaxsen Wiebe",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 2 Games"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Tyrell Goulbourne",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 1 Game"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Easton Armstrong",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 2 Games"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Lukas Jirousek",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 1 Game"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Roman Kinal",
+      "position": "D",
+      "type": "suspended",
+      "summary": "Suspended 1 Game"
+    },
+    {
+      "date": "2026-02-24",
+      "player": "Jon Hooker",
+      "position": "F",
+      "type": "loaned",
+      "summary": "Loaned to San Diego"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Konnor Smith",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Lukas Jirousek",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Easton Armstrong",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-22",
       "player": "Cade McNelly",
       "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-02-22",
+      "player": "Jaxsen Wiebe",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Lukas Jirousek",
+      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-15",
-      "player": "Dakota Seaman",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Owen Lindmark",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Michael Davies",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
+      "date": "2026-02-20",
       "player": "Keegan Iverson",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2026-03-14",
-      "player": "Michael Davies",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "JC Brassard",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Dakota Seaman",
+      "date": "2026-02-19",
+      "player": "Keegan Iverson",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-14",
-      "player": "Jake Lee",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Sasha Mutala",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Christian Propp",
-      "position": "G",
-      "type": "active",
-      "summary": "Acquired from Greensboro"
-    },
-    {
-      "date": "2025-11-10",
-      "player": "Tomas Suchanek",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to San Diego by Anaheim"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Roman Kinal",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by San Diego"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Matt Koethe",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Jeffrey Faith",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-11-07",
-      "player": "Tyrell Goulbourne",
+      "date": "2026-02-19",
+      "player": "Tyler Poulsen",
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-11-06",
-      "player": "Jeffrey Faith",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "date": "2026-02-19",
+      "player": "Jeremie Biakabutuka",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2025-11-06",
-      "player": "Coulson Pitre",
+      "date": "2026-02-19",
+      "player": "Andrei Bakanov",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-11-05",
-      "player": "Dylan Fitze",
+      "date": "2026-02-19",
+      "player": "Jon Hooker",
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2025-11-04",
-      "player": "Jaxsen Wiebe",
-      "position": "F",
+      "date": "2026-02-17",
+      "player": "Cade McNelly",
+      "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-17",
+      "player": "Andrei Bakanov",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 85,
   "slug": "rapid-city-rush",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-14",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "8199",
@@ -349,10 +349,10 @@
       "player": "Garrett Klotz",
       "number": 88,
       "position": "F",
-      "status": "ir",
+      "status": "reserve",
       "statusNote": null,
-      "irStartDate": "2026-03-09",
-      "irDays": 14,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -445,26 +445,6 @@
       }
     },
     {
-      "playerId": "10862",
-      "player": "Lucas Helland",
-      "number": 65,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 5,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
       "playerId": "10529",
       "player": "Chase Pauls",
       "number": 12,
@@ -529,12 +509,12 @@
       "player": "Bobby Russell",
       "number": 15,
       "position": "D",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 3,
+      "suspensionGamesOriginal": 3,
       "acquiredFrom": "Toledo",
       "acquiredDate": "2025-11-11",
       "stats": {
@@ -542,14 +522,15 @@
         "g": 4,
         "a": 11,
         "pts": 15
-      }
+      },
+      "suspensionGpAtStart": 58
     },
     {
       "playerId": "11082",
       "player": "Jake Ratzlaff",
       "number": 9,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -725,26 +706,6 @@
       }
     },
     {
-      "playerId": "11169",
-      "player": "Kaleb Tiessen",
-      "number": 4,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 13,
-        "g": 0,
-        "a": 1,
-        "pts": 1
-      }
-    },
-    {
       "playerId": "11102",
       "player": "Aaron Chiarot",
       "number": 74,
@@ -829,7 +790,7 @@
       "player": "Connor Murphy",
       "number": 31,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -849,7 +810,7 @@
       "player": "Rico DiMatteo",
       "number": 33,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

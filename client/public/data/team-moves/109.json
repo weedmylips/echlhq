@@ -2,144 +2,144 @@
   "teamId": 109,
   "moves": [
     {
-      "date": "2026-03-13",
+      "date": "2026-02-24",
+      "player": "Casey Bailey",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-02-24",
+      "player": "Dawson McKinney",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-02-23",
+      "player": "Eric Olson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Anthony Collins",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-20",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Connor Marritt",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-02-18",
+      "player": "Adam Pitters",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-18",
       "player": "CJ Valerian",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-13",
-      "player": "Kaelan Taylor",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "date": "2026-02-18",
+      "player": "Conor McAnanama",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
     },
     {
-      "date": "2026-03-13",
-      "player": "Jake Durflinger",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Sloan Stanick",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-31",
-      "player": "Jake Durflinger",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-10-31",
-      "player": "Cody Laskosky",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-28",
+      "date": "2026-02-16",
       "player": "Jordan Papirny",
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled by Henderson"
     },
     {
-      "date": "2025-10-28",
-      "player": "Zane McIntyre",
+      "date": "2026-02-13",
+      "player": "Blake Wells",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Artur Cholach",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-13",
+      "player": "Olivier LeBlanc",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Olivier LeBlanc",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-02-07",
+      "player": "Jacob Mucitelli",
       "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
+      "type": "active",
+      "summary": "Activated from Reserve"
     },
     {
-      "date": "2025-10-24",
-      "player": "Zach Borgiel",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
+      "date": "2026-02-07",
+      "player": "CJ Valerian",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
     },
     {
-      "date": "2025-10-24",
-      "player": "Cody Laskosky",
+      "date": "2026-02-07",
+      "player": "Connor Marritt",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
     },
     {
-      "date": "2025-10-24",
-      "player": "Luke Adam",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-23",
-      "player": "Cameron Whitehead",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Henderson by Vegas 10/22"
-    },
-    {
-      "date": "2025-10-23",
-      "player": "Luke Adam",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-10-23",
-      "player": "Jake Durflinger",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-21",
-      "player": "Brennan Kapcheck",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-10-21",
-      "player": "Linden Alger",
+      "date": "2026-02-06",
+      "player": "Olivier LeBlanc",
       "position": "D",
       "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-19",
-      "player": "Samuel Mayer",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2025-10-19",
-      "player": "Linden Alger",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-10-18",
-      "player": "Samuel Mayer",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2025-10-18",
-      "player": "Linden Alger",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
+      "summary": "Activated from IR 3 Day"
     }
   ]
 }
