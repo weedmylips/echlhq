@@ -371,6 +371,50 @@ function expireStaleIR(today) {
   return expired;
 }
 
+// ─── Deduplicate roster entries ──────────────────────────────────────────────
+
+const ACTIVE_STATUSES = new Set(["active", "signed"]);
+
+function deduplicateRosters() {
+  const files = fs.readdirSync(ROSTERS_DIR).filter((f) => f.endsWith(".json"));
+  let deduped = 0;
+  for (const file of files) {
+    const rosterPath = path.join(ROSTERS_DIR, file);
+    const data = readJSON(rosterPath);
+    if (!data?.roster) continue;
+
+    const seen = new Map(); // name.lower → best entry
+    for (const p of data.roster) {
+      const key = p.player.toLowerCase();
+      if (!seen.has(key)) {
+        seen.set(key, p);
+      } else {
+        const existing = seen.get(key);
+        // Prefer non-active status over active; prefer entry with playerId
+        const existingIsActive = ACTIVE_STATUSES.has(existing.status);
+        const newIsActive = ACTIVE_STATUSES.has(p.status);
+        if (existingIsActive && !newIsActive) {
+          seen.set(key, p); // new one is more specific
+        } else if (!existingIsActive && newIsActive) {
+          // keep existing
+        } else if (!existing.playerId && p.playerId) {
+          seen.set(key, p); // new has more data
+        }
+      }
+    }
+
+    const deduped_roster = Array.from(seen.values());
+    if (deduped_roster.length < data.roster.length) {
+      const removed = data.roster.length - deduped_roster.length;
+      console.log(`  🔧 Team ${data.teamId}: removed ${removed} duplicate(s)`);
+      data.roster = deduped_roster;
+      writeJSON(rosterPath, data);
+      deduped++;
+    }
+  }
+  return deduped;
+}
+
 // ─── Fetch a single day's transactions ───────────────────────────────────────
 
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -429,10 +473,13 @@ async function main() {
     if (i > 0) await delay(1000);
   }
 
+  const dedupCount = deduplicateRosters();
+  if (dedupCount) console.log(`\nDeduplicated ${dedupCount} roster file(s).`);
+
   const expired = expireStaleIR(now.toISOString().slice(0, 10));
   if (expired) console.log(`\nAuto-expired IR for ${expired} roster file(s).`);
 
-  if (totalChanged === 0 && numDays === 1 && expired === 0) {
+  if (totalChanged === 0 && numDays === 1 && expired === 0 && dedupCount === 0) {
     console.log("\nNo transactions found. Exiting cleanly.");
   } else {
     console.log(`\nDone. ${totalChanged} roster files updated across ${numDays} day(s).`);
