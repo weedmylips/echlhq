@@ -276,9 +276,12 @@ export default function TeamPage() {
                 <div className="stats-grid">
                   <StatBlock label="GF / Game" value={gfPerGame} rank={divisionSuffix(divRank("gf"))} />
                   <StatBlock label="GA / Game" value={gaPerGame} rank={divisionSuffix(divRank("ga", true))} />
-                  <StatBlock label="Goal Diff" value={standing.diff > 0 ? `+${standing.diff}` : standing.diff} valueColor={standing.diff > 0 ? "#4ade80" : standing.diff < 0 ? "#f87171" : undefined} />
-                  <StatBlock label="Goals For" value={standing.gf} rank={divisionSuffix(divRank("gf"))} />
-                  <StatBlock label="Goals Against" value={standing.ga} rank={divisionSuffix(divRank("ga", true))} />
+                  <StatBlock
+                    label="Goal Diff"
+                    value={standing.diff > 0 ? `+${standing.diff}` : standing.diff}
+                    valueColor={standing.diff > 0 ? "#4ade80" : standing.diff < 0 ? "#f87171" : undefined}
+                    rank={leagueRank("diff") ? `${ordinal(leagueRank("diff"))} in League` : undefined}
+                  />
                 </div>
                 <div className="season-record-strip">
                   {[
