@@ -411,8 +411,15 @@
   flex-shrink: 0;
 }
 
-.mini-leader-name {
+.mini-leader-name-group {
   flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.mini-leader-name {
   font-size: 12px;
   font-weight: 600;
   color: var(--text);
