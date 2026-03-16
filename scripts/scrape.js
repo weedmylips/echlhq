@@ -1074,7 +1074,7 @@ async function main() {
 
   // Augment leaders with full league scoring ranks derived from per-team player data
   const allSkaters = Object.values(teamPlayers).flatMap((t) =>
-    (t.skaters || []).filter((p) => (p.gp ?? 0) > 0)
+    (t.skaters || []).filter((p) => (p.gp ?? 0) > 0 && p.isActive)
   );
   const rankBy = (arr, key) => {
     const sorted = [...arr].sort((a, b) => (b[key] ?? 0) - (a[key] ?? 0));

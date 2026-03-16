@@ -22,6 +22,16 @@
     },
     {
       "visitingTeam": "South Carolina",
+      "visitingScore": 3,
+      "homeTeam": "Atlanta",
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": null,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
       "homeTeam": "Atlanta",
       "visitingScore": 3,
       "homeScore": 4,
@@ -8881,5 +8891,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-16T22:05:36.414Z"
+  "scrapedAt": "2026-03-16T22:19:50.271Z"
 }
