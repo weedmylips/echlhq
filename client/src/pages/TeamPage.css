@@ -823,7 +823,7 @@ tr.playoff-cutoff td {
   display: flex;
   flex-wrap: wrap;
   gap: 8px 20px;
-  margin-top: 16px;
+  margin-top: 12px;
   padding: 10px 14px;
   background: var(--card-bg);
   border: 1px solid var(--border);

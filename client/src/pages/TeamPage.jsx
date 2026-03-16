@@ -971,7 +971,10 @@ function statusBadge(p) {
   }
   if (p._status === "reserve") return <span className="status-badge status-badge-inline status-badge-res">RES</span>;
   if (p._status === "recalled_ahl" || p._status === "loaned") return <span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span>;
-  if (p._status === "suspended") return <span className="status-badge status-badge-inline status-badge-susp">SUSP</span>;
+  if (p._status === "suspended") {
+    const label = p._suspensionGamesRemaining ? `SUSP ${p._suspensionGamesRemaining}g` : "SUSP";
+    return <span className="status-badge status-badge-inline status-badge-susp">{label}</span>;
+  }
   if (p._status === "leave") return <span className="status-badge status-badge-inline status-badge-res">LEAVE</span>;
   return null;
 }
@@ -993,7 +996,7 @@ function RosterTab({ playersData, rosterData }) {
     .sort((a, b) => b.pts - a.pts)
     .map((p) => {
       const r = rosterByName[p.player.toLowerCase()];
-      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null };
+      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null, _suspensionGamesRemaining: r?.suspensionGamesRemaining ?? null };
     });
 
   const activeGoalies = (playersData.goalies || [])
@@ -1001,7 +1004,7 @@ function RosterTab({ playersData, rosterData }) {
     .sort((a, b) => b.gp - a.gp)
     .map((p) => {
       const r = rosterByName[p.player.toLowerCase()];
-      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null };
+      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null, _suspensionGamesRemaining: r?.suspensionGamesRemaining ?? null };
     });
 
   // Inactive players from roster data not already in the daily report
@@ -1014,7 +1017,7 @@ function RosterTab({ playersData, rosterData }) {
     .map((p) => ({
       player: p.player, number: p.number, position: p.position,
       gp: p.stats?.gp ?? 0, g: p.stats?.g ?? 0, a: p.stats?.a ?? 0, pts: p.stats?.pts ?? 0,
-      isRookie: false, _status: p.status, _irDays: p.irDays ?? null,
+      isRookie: false, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
     }));
 
   const inactiveGoalies = (rosterData?.roster || [])
@@ -1024,7 +1027,7 @@ function RosterTab({ playersData, rosterData }) {
       player: p.player, number: p.number, position: p.position,
       gp: p.stats?.gp ?? 0, w: p.stats?.w ?? 0, l: p.stats?.l ?? 0,
       gaa: p.stats?.gaa ?? 0, svPct: p.stats?.svPct ?? 0,
-      isRookie: false, _status: p.status, _irDays: p.irDays ?? null,
+      isRookie: false, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
     }));
 
   const byPts = (a, b) => b.pts - a.pts;
@@ -1067,14 +1070,6 @@ function RosterTab({ playersData, rosterData }) {
 
   return (
     <>
-    <div className="roster-legend">
-      <span className="roster-legend-item"><span className="rookie-badge">R</span> Rookie</span>
-      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ir">IR 14d</span> Injured Reserve (day count)</span>
-      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-res">RES</span> Reserve (healthy scratch / roster compliance)</span>
-      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span> On loan / recalled to AHL affiliate</span>
-      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-susp">SUSP</span> Suspended</span>
-      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-res">LEAVE</span> Personal leave</span>
-    </div>
     <div className="roster-sections">
       {forwards.length > 0 && (
         <div className="card section-card">
@@ -1134,6 +1129,14 @@ function RosterTab({ playersData, rosterData }) {
           </div>
         </div>
       )}
+    </div>
+    <div className="roster-legend">
+      <span className="roster-legend-item"><span className="rookie-badge">R</span> Rookie</span>
+      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ir">IR 14d</span> Injured Reserve (day count)</span>
+      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-res">RES</span> Reserve (healthy scratch / roster compliance)</span>
+      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span> On loan / recalled to AHL affiliate</span>
+      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-susp">SUSP Ng</span> Suspended (N games remaining)</span>
+      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-res">LEAVE</span> Personal leave</span>
     </div>
     </>
   );

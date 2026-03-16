@@ -292,6 +292,7 @@ function applyTransactions(transactions, today) {
             irDays: null,
             suspensionGamesRemaining: null,
             suspensionGamesOriginal: null,
+            suspensionGpAtStart: null,
             acquiredFrom: extra.acquiredFrom || null,
             acquiredDate: extra.acquiredFrom ? today : null,
             stats: { gp: 0, g: 0, a: 0, pts: 0 },
@@ -373,6 +374,246 @@ function expireStaleIR(today) {
     }
   }
   return expired;
+}
+
+// ─── Auto-expire stale suspension entries ────────────────────────────────────
+
+function expireStaleSuspensions(today) {
+  const standingsData = readJSON(path.join(DATA_DIR, "standings.json"));
+  const gpByTeamId = {};
+  for (const t of (standingsData?.standings ?? [])) gpByTeamId[t.teamId] = t.gp;
+
+  const files = fs.readdirSync(ROSTERS_DIR).filter((f) => f.endsWith(".json"));
+  let expired = 0;
+  for (const file of files) {
+    const rosterPath = path.join(ROSTERS_DIR, file);
+    const data = readJSON(rosterPath);
+    if (!data?.roster) continue;
+    let changed = false;
+    const currentGP = gpByTeamId[data.teamId] ?? null;
+    for (const p of data.roster) {
+      if (p.status !== "suspended" || !p.suspensionGamesOriginal || currentGP === null) continue;
+      const gpAtStart = p.suspensionGpAtStart ?? currentGP;
+      const gamesElapsed = currentGP - gpAtStart;
+      p.suspensionGamesRemaining = Math.max(0, p.suspensionGamesOriginal - gamesElapsed);
+      if (p.suspensionGamesRemaining === 0) {
+        p.status = "active";
+        p.suspensionGamesRemaining = null;
+        p.suspensionGamesOriginal = null;
+        p.suspensionGpAtStart = null;
+        changed = true;
+        console.log(`  ⏱ ${p.player} suspension expired (team ${data.teamId})`);
+      }
+    }
+    if (changed) {
+      data.lastTransactionCheck = today;
+      writeJSON(rosterPath, data);
+      expired++;
+    }
+  }
+  return expired;
+}
+
+// ─── Scrape suspension announcements ─────────────────────────────────────────
+
+const WORD_TO_NUM = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
+const SEASON_START = "2025-10-15";
+
+async function scrapeSuspensions(today) {
+  const statePath = path.join(DATA_DIR, "suspension-state.json");
+  const state = readJSON(statePath) ?? { processed: [] };
+  const processed = new Set(state.processed);
+
+  const standingsData = readJSON(path.join(DATA_DIR, "standings.json"));
+  const standingsByTeamId = {};
+  for (const t of (standingsData?.standings ?? [])) standingsByTeamId[t.teamId] = t;
+
+  const todayDate = new Date(today);
+  const daysIntoSeason = (todayDate - new Date(SEASON_START)) / 86400000;
+
+  // Determine months to scan: current month + any month not yet in processed set
+  // For simplicity, scan both current month and the previous month if we're early in the month
+  const months = [];
+  const d = new Date(today);
+  months.push({ year: d.getFullYear(), mm: String(d.getMonth() + 1).padStart(2, "0") });
+  // Also include previous month on first run (covers March backfill)
+  const prev = new Date(d.getFullYear(), d.getMonth() - 1, 1);
+  months.push({ year: prev.getFullYear(), mm: String(prev.getMonth() + 1).padStart(2, "0") });
+
+  const slugVariants = ["echl-announces-fine-suspension", "echl-announces-fines-suspensions"];
+  let found = 0;
+
+  for (const { year, mm } of months) {
+    for (const slug of slugVariants) {
+      let consecutive404s = 0;
+      for (let n = 1; n <= 25; n++) {
+        const url = `https://echl.com/news/${year}/${mm}/${slug}${n}`;
+        if (processed.has(url)) { consecutive404s = 0; continue; }
+
+        let html;
+        try {
+          const res = await fetch(url, { headers: HEADERS, timeout: 20000 });
+          if (!res.ok) {
+            consecutive404s++;
+            if (consecutive404s >= 2) break;
+            continue;
+          }
+          consecutive404s = 0;
+          html = await res.text();
+        } catch (_) {
+          consecutive404s++;
+          if (consecutive404s >= 2) break;
+          continue;
+        }
+
+        processed.add(url);
+
+        // Extract article date
+        const $ = cheerio.load(html);
+        const articleDate = $("time[datetime]").first().attr("datetime")?.slice(0, 10)
+          ?? $('meta[property="article:published_time"]').attr("content")?.slice(0, 10)
+          ?? today;
+
+        // Extract prose text
+        const proseText = $('div[itemprop="articleBody"] .prose').text()
+          || $('[itemprop="articleBody"]').text();
+
+        const suspensions = parseSuspensionText(proseText);
+        console.log(`  📋 ${url} — ${suspensions.length} suspension(s) found (article date: ${articleDate})`);
+
+        for (const { teamName, playerName, games } of suspensions) {
+          const teamId = lookupTeamId(teamName);
+          if (!teamId) {
+            console.warn(`  ? Unknown team: "${teamName}"`);
+            continue;
+          }
+
+          const standing = standingsByTeamId[teamId];
+          if (!standing) {
+            console.warn(`  ? No standings for team ${teamId}`);
+            continue;
+          }
+
+          // Estimate games elapsed since article date using team's games-per-day rate
+          const daysSince = Math.max(0, (todayDate - new Date(articleDate)) / 86400000);
+          const gamesPerDay = daysIntoSeason > 0 ? standing.gp / daysIntoSeason : 0;
+          const estimatedElapsed = Math.floor(daysSince * gamesPerDay);
+
+          if (estimatedElapsed >= games) {
+            console.log(`  ✓ ${playerName} (team ${teamId}): ${games}-game suspension already served, skipping`);
+            continue;
+          }
+
+          const remaining = games - estimatedElapsed;
+          const gpAtStart = Math.max(0, standing.gp - estimatedElapsed);
+
+          // Update roster
+          const rosterPath = path.join(ROSTERS_DIR, `${teamId}.json`);
+          const rosterData = readJSON(rosterPath);
+          if (!rosterData?.roster) continue;
+
+          const playerIdx = rosterData.roster.findIndex(
+            (p) => p.player.toLowerCase() === playerName.toLowerCase()
+          );
+          if (playerIdx < 0) {
+            console.warn(`  ? ${playerName} not found on roster for team ${teamId}`);
+            continue;
+          }
+
+          const p = rosterData.roster[playerIdx];
+          p.status = "suspended";
+          p.suspensionGamesRemaining = remaining;
+          p.suspensionGamesOriginal = games;
+          p.suspensionGpAtStart = gpAtStart;
+          rosterData.lastTransactionCheck = today;
+          writeJSON(rosterPath, rosterData);
+
+          // Update moves
+          const movesPath = path.join(MOVES_DIR, `${teamId}.json`);
+          const movesData = readJSON(movesPath) || { teamId, moves: [] };
+          // Only add if not already recorded
+          const alreadyRecorded = movesData.moves.some(
+            (m) => m.type === "suspended" && m.player.toLowerCase() === playerName.toLowerCase()
+          );
+          if (!alreadyRecorded) {
+            movesData.moves.unshift({
+              date: articleDate,
+              player: playerName,
+              position: p.position,
+              type: "suspended",
+              summary: `Suspended ${games} Game${games !== 1 ? "s" : ""}`,
+            });
+            movesData.moves = movesData.moves.slice(0, 20);
+            writeJSON(movesPath, movesData);
+          }
+
+          console.log(`  🚫 ${playerName} (team ${teamId}): suspended ${games}g, ${remaining} remaining`);
+          found++;
+        }
+
+        await delay(500);
+      }
+    }
+  }
+
+  state.processed = [...processed];
+  writeJSON(statePath, state);
+  return found;
+}
+
+function parseSuspensionText(text) {
+  const results = [];
+
+  // Split text into sections by team. Look for patterns like "TeamName's PlayerName"
+  // or bold team headers "TeamName: ..." in the prose text.
+  // We'll scan for suspension sentences and extract team + player + games.
+
+  // Pattern 1: "TeamName's Player Name ... suspended N game(s)"
+  // Pattern 2: "Player Name ... suspended N game(s)" within a team section
+
+  // First, try to find team sections by looking for possessives or team names
+  // Split on sentence boundaries roughly, then parse each chunk
+  const sentences = text.split(/(?<=[.!?])\s+/);
+
+  let currentTeam = null;
+
+  for (const sentence of sentences) {
+    // Try to identify team from possessive: "Greensboro's Tian Rask"
+    const possessiveMatch = sentence.match(/\b([A-Z][a-z]+(?: [A-Z][a-z]+)*)'s\s+([A-Z][a-z\u00e0-\u00ff]+(?: [A-Z][a-z\u00e0-\u00ff'-]+)*)/);
+    if (possessiveMatch) {
+      currentTeam = possessiveMatch[1];
+    }
+
+    // Check if this sentence mentions a suspension
+    const gamesMatch = sentence.match(/suspended\s+(\w+)\s+game/i);
+    if (!gamesMatch) continue;
+
+    const gamesRaw = gamesMatch[1].toLowerCase();
+    const games = WORD_TO_NUM[gamesRaw] ?? (parseInt(gamesRaw) || null);
+    if (!games) continue;
+
+    // Extract player name — look for capitalized name before "has been" or after possessive
+    let playerName = null;
+
+    if (possessiveMatch) {
+      playerName = possessiveMatch[2];
+    } else {
+      // Try "Name has been" pattern
+      const hasBeenMatch = sentence.match(/\b([A-Z][a-z\u00e0-\u00ff]+(?: [A-Z][a-z\u00e0-\u00ff'-]+)+)\s+has been/);
+      if (hasBeenMatch) playerName = hasBeenMatch[1];
+    }
+
+    if (!playerName || !currentTeam) continue;
+
+    // Check it's actually a suspension (not just a fine)
+    if (!sentence.toLowerCase().includes("suspend")) continue;
+
+    results.push({ teamName: currentTeam, playerName, games });
+    // Reset team after each match to avoid false attribution
+    currentTeam = null;
+  }
+
+  return results;
 }
 
 // ─── Deduplicate roster entries ──────────────────────────────────────────────
@@ -488,18 +729,22 @@ async function main() {
   const dedupCount = deduplicateRosters();
   if (dedupCount) console.log(`\nDeduplicated ${dedupCount} roster file(s).`);
 
-  const expired = expireStaleIR(now.toISOString().slice(0, 10));
+  const today = now.toISOString().slice(0, 10);
+
+  const suspFound = await scrapeSuspensions(today);
+  if (suspFound) console.log(`\nFound ${suspFound} active suspension(s).`);
+
+  const suspExpired = expireStaleSuspensions(today);
+  if (suspExpired) console.log(`\nAuto-expired suspensions for ${suspExpired} roster file(s).`);
+
+  const expired = expireStaleIR(today);
   if (expired) console.log(`\nAuto-expired IR for ${expired} roster file(s).`);
 
-  if (totalChanged === 0 && numDays === 1 && expired === 0 && dedupCount === 0) {
+  if (totalChanged === 0 && numDays === 1 && expired === 0 && dedupCount === 0 && suspFound === 0) {
     console.log("\nNo transactions found. Exiting cleanly.");
   } else {
     console.log(`\nDone. ${totalChanged} roster files updated across ${numDays} day(s).`);
   }
-
-  // TODO: Future — parse suspension/fine posts at separate URL
-  // (echl-announces-fine-suspension / echl-announces-fines-suspensions)
-  // using ANTHROPIC_API_KEY from process.env for LLM-based extraction.
 }
 
 main().catch((err) => {

@@ -218,6 +218,7 @@ async function main() {
               irDays: null,
               suspensionGamesRemaining: null,
               suspensionGamesOriginal: null,
+              suspensionGpAtStart: null,
               acquiredFrom: null,
               acquiredDate: null,
               stats: {
