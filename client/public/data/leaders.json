@@ -50,12 +50,6 @@
         "name": "Danny Dzhaniyev",
         "team": "UTA",
         "value": 40
-      },
-      {
-        "rank": 5,
-        "name": "Brayden Watts",
-        "team": "ALN",
-        "value": 38
       }
     ],
     "points": [
@@ -67,21 +61,21 @@
       },
       {
         "rank": 2,
-        "name": "Brandon Hawkins",
-        "team": "TOL",
-        "value": 60
+        "name": "Danny Dzhaniyev",
+        "team": "UTA",
+        "value": 63
       },
       {
         "rank": 3,
-        "name": "Danny Dzhaniyev",
-        "team": "UTA",
+        "name": "Brandon Hawkins",
+        "team": "TOL",
         "value": 60
       },
       {
         "rank": 4,
         "name": "Simon Pinard",
         "team": "SC",
-        "value": 57
+        "value": 58
       },
       {
         "rank": 5,
@@ -97,74 +91,74 @@
       },
       {
         "rank": 7,
+        "name": "Peter Bates",
+        "team": "WIC",
+        "value": 54
+      },
+      {
+        "rank": 8,
+        "name": "Reed Lebster",
+        "team": "UTA",
+        "value": 53
+      },
+      {
+        "rank": 9,
         "name": "Devon Paliani",
         "team": "TAH",
         "value": 53
       },
       {
-        "rank": 8,
+        "rank": 10,
+        "name": "Alex Young",
+        "team": "ATL",
+        "value": 53
+      },
+      {
+        "rank": 11,
         "name": "Brannon McManus",
         "team": "ADK",
         "value": 53
       },
       {
-        "rank": 9,
+        "rank": 12,
         "name": "Anthony Romano",
         "team": "FLA",
         "value": 53
       },
       {
-        "rank": 10,
-        "name": "Peter Bates",
-        "team": "WIC",
-        "value": 53
-      },
-      {
-        "rank": 11,
-        "name": "Reed Lebster",
-        "team": "UTA",
-        "value": 52
-      },
-      {
-        "rank": 12,
+        "rank": 13,
         "name": "Brendan Hoffmann",
         "team": "IDH",
         "value": 51
       },
       {
-        "rank": 13,
+        "rank": 14,
         "name": "x Jackson Jutting",
         "team": "KC",
         "value": 51
       },
       {
-        "rank": 14,
+        "rank": 15,
         "name": "Casey Bailey",
         "team": "TAH",
         "value": 51
       },
       {
-        "rank": 15,
+        "rank": 16,
         "name": "Blake Bennett",
         "team": "RC",
         "value": 51
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "Reece Newkirk",
         "team": "ORL",
         "value": 51
       },
       {
-        "rank": 17,
+        "rank": 18,
         "name": "Austin Magera",
         "team": "FW",
-        "value": 50
-      },
-      {
-        "rank": 18,
-        "name": "Alex Young",
-        "team": "ATL",
         "value": 50
       },
       {
@@ -240,14 +234,14 @@
     "shutouts": [
       {
         "rank": 1,
-        "name": "Maxim Pavlenko",
-        "team": "WHL",
+        "name": "Samuel Jonsson",
+        "team": "FW",
         "value": 0
       },
       {
         "rank": 2,
-        "name": "Samuel Jonsson",
-        "team": "FW",
+        "name": "Maxim Pavlenko",
+        "team": "WHL",
         "value": 0
       },
       {
@@ -308,7 +302,7 @@
         "rank": 1,
         "name": "Danny Dzhaniyev",
         "team": "UTA",
-        "value": 240
+        "value": 246
       },
       {
         "rank": 2,
@@ -327,12 +321,6 @@
         "name": "Brandon Hawkins",
         "team": "TOL",
         "value": 206
-      },
-      {
-        "rank": 5,
-        "name": "Ryan Wagner",
-        "team": "RC",
-        "value": 199
       }
     ],
     "shootingPct": [],
@@ -453,7 +441,7 @@
         "rank": 5,
         "name": "Cole Fraser",
         "team": "GVL",
-        "value": 127
+        "value": 129
       }
     ],
     "minors": [
@@ -529,12 +517,18 @@
       },
       {
         "rank": 2,
+        "name": "Chad Nychuk",
+        "team": "ATL",
+        "value": 3
+      },
+      {
+        "rank": 3,
         "name": "Brannon McManus",
         "team": "ADK",
         "value": 3
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "Kyle Crnkovic",
         "team": "WIC",
         "value": 3
@@ -543,5 +537,5 @@
     "soPct": [],
     "soRecord": []
   },
-  "scrapedAt": "2026-03-15T15:48:44.467Z"
+  "scrapedAt": "2026-03-16T14:41:58.655Z"
 }

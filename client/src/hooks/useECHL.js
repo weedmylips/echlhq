@@ -58,6 +58,16 @@ export function useTeamMoves(teamId) {
   });
 }
 
+export function useTeamPlayers(teamId) {
+  return useQuery({
+    queryKey: ["players", teamId],
+    queryFn: () => api.players(teamId),
+    enabled: !!teamId,
+    staleTime: STALE,
+    retry: 1,
+  });
+}
+
 // ─── helpers used by useTeamStats ─────────────────────────────────────────────
 function parseRecord(str) {
   if (!str) return null;

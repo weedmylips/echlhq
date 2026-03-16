@@ -15,9 +15,11 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "client", "public", "data");
 const BOXSCORES_DIR = path.join(DATA_DIR, "boxscores");
+const PLAYERS_DIR = path.join(DATA_DIR, "players");
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 fs.mkdirSync(BOXSCORES_DIR, { recursive: true });
+fs.mkdirSync(PLAYERS_DIR, { recursive: true });
 
 const HEADERS = {
   "User-Agent":
@@ -91,6 +93,21 @@ function cleanTeamName(raw) {
 
 function cleanName(raw) {
   return (raw || "").trim().replace(/^[\*xyz]\s+/, "").replace(/\s+/g, " ").trim();
+}
+
+// Parse a player name cell that may have * (rookie) or x (inactive) prefix markers.
+// Names can also be "* x Player" (rookie + inactive).
+function parsePlayerName(raw) {
+  const s = (raw || "").replace(/[\u00a0\s]+/g, " ").trim();
+  const isRookie = s.startsWith("*");
+  // Strip * before checking for x
+  const afterStar = isRookie ? s.replace(/^\*\s*/, "").trim() : s;
+  const isActive = !/^x\s/i.test(afterStar);
+  const name = afterStar
+    .replace(/^x\s*/i, "")
+    .replace(/\s*\(total\)\s*$/i, "")
+    .trim();
+  return { name, isRookie, isActive };
 }
 
 function writeJSON(filePath, data) {
@@ -803,6 +820,110 @@ async function resolveGameIds(scores, seedId) {
   return { scores, maxId };
 }
 
+// ─── Per-Team Player Stats ────────────────────────────────────────────────────
+// Scrapes the "{Team Name} Statistics" sections from the daily report.
+// Each section has two tables: skaters (PLAYER header) and goalies (GOALIE header).
+// Player names are prefixed with * (rookie) or x (inactive).
+
+function scrapeTeamPlayers(html) {
+  const $ = cheerio.load(html);
+  const result = {};
+
+  $("h2").each((_, h2) => {
+    const title = $(h2).text().trim();
+    if (!title.endsWith(" Statistics")) return;
+
+    const teamName = title.replace(/ Statistics$/, "").trim();
+    const config = findTeamByName(teamName);
+    if (!config) return;
+
+    // Collect all drtable elements until the next h2
+    const tables = [];
+    let el = $(h2).next();
+    while (el.length && el.prop("tagName") !== "H2") {
+      if (el.is("table.drtable")) {
+        tables.push(el[0]);
+      } else {
+        el.find("table.drtable").each((_, t) => tables.push(t));
+      }
+      el = el.next();
+    }
+
+    const skaters = [];
+    const goalies = [];
+
+    tables.forEach((table) => {
+      const headers = $(table).find("tr").first().find("th")
+        .map((_, th) => $(th).text().trim().toUpperCase()).get();
+      const isGoalie = headers.includes("GOALIE");
+      const isSkater = headers.includes("PLAYER");
+
+      if (isSkater) {
+        const gpIdx  = headers.indexOf("GP");
+        const gIdx   = headers.indexOf("G");
+        const aIdx   = headers.indexOf("A");
+        const ptsIdx = headers.indexOf("PTS");
+        $(table).find("tr").each((i, row) => {
+          if (i === 0) return;
+          const cells = $(row).find("td");
+          if (cells.length < 7) return;
+          // Skip multi-team sub-rows (empty number cell)
+          const numRaw = $(cells[0]).text().replace(/[\u00a0\s]+/g, "").trim();
+          if (!numRaw) return;
+          const { name, isRookie, isActive } = parsePlayerName($(cells[1]).text());
+          if (!name) return;
+          skaters.push({
+            number:   num(numRaw) || null,
+            player:   name,
+            position: $(cells[2]).text().trim() || "F",
+            isRookie,
+            isActive,
+            gp:  gpIdx  >= 0 ? num($(cells[gpIdx]).text())  : 0,
+            g:   gIdx   >= 0 ? num($(cells[gIdx]).text())   : 0,
+            a:   aIdx   >= 0 ? num($(cells[aIdx]).text())   : 0,
+            pts: ptsIdx >= 0 ? num($(cells[ptsIdx]).text()) : 0,
+          });
+        });
+      } else if (isGoalie) {
+        const goalieIdx = headers.indexOf("GOALIE");
+        const gpIdx     = headers.indexOf("GP");
+        const wIdx      = headers.indexOf("W");
+        const lIdx      = headers.indexOf("L");
+        const gaIdx     = headers.indexOf("GA");
+        const gaaIdx    = headers.indexOf("GAA");
+        const svIdx     = headers.indexOf("SV%");
+        $(table).find("tr").each((i, row) => {
+          if (i === 0) return;
+          const cells = $(row).find("td");
+          if (cells.length < 3) return;
+          // Skip sub-team split rows (empty number cell)
+          const numRaw = $(cells[0]).text().replace(/[\u00a0\s]+/g, "").trim();
+          if (!numRaw) return;
+          const { name, isRookie, isActive } = parsePlayerName($(cells[goalieIdx >= 0 ? goalieIdx : 1]).text());
+          if (!name) return;
+          goalies.push({
+            number:   num(numRaw) || null,
+            player:   name,
+            position: "G",
+            isRookie,
+            isActive,
+            gp:    gpIdx  >= 0 ? num($(cells[gpIdx]).text())  : 0,
+            w:     wIdx   >= 0 ? num($(cells[wIdx]).text())   : 0,
+            l:     lIdx   >= 0 ? num($(cells[lIdx]).text())   : 0,
+            ga:    gaIdx  >= 0 ? num($(cells[gaIdx]).text())  : 0,
+            gaa:   gaaIdx >= 0 ? num($(cells[gaaIdx]).text()) : 0,
+            svPct: svIdx  >= 0 ? num($(cells[svIdx]).text())  : 0,
+          });
+        });
+      }
+    });
+
+    result[config.id] = { teamId: config.id, skaters, goalies };
+  });
+
+  return result;
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -841,6 +962,18 @@ async function main() {
   } else {
     console.log("  – standings.json unchanged");
   }
+
+  // Per-team player stats (rookie/active flags from daily report)
+  console.log("Parsing team player stats…");
+  const teamPlayers = scrapeTeamPlayers(reportHtml);
+  let playerFilesChanged = 0;
+  for (const [teamId, data] of Object.entries(teamPlayers)) {
+    if (writeJSON(path.join(PLAYERS_DIR, `${teamId}.json`), { ...data, scrapedAt: now })) {
+      playerFilesChanged++;
+      changed++;
+    }
+  }
+  console.log(`  ${playerFilesChanged > 0 ? "✓" : "–"} players/ (${Object.keys(teamPlayers).length} teams, ${playerFilesChanged} changed)`);
 
   // Yesterday's date string for labelling scores
   const yd = new Date(Date.now() - 86400000);
