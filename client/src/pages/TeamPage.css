@@ -80,6 +80,27 @@
   font-weight: 500;
 }
 
+.header-standings-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-top: 6px;
+}
+
+.header-standing-item {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.header-standing-item + .header-standing-item::before {
+  content: "·";
+  margin-right: 12px;
+  color: var(--border);
+}
+
 .header-last10 {
   display: flex;
   align-items: center;

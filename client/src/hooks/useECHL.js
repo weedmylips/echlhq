@@ -187,6 +187,12 @@ function computeTeamStats(id, standingsData, scoresData) {
   const divRoadStats = divTeams.map((t) => parseRecord(t.roadRecord)).filter(Boolean);
   const divAvgRoadPct = divRoadStats.length
     ? divRoadStats.reduce((s, r) => s + r.pct, 0) / divRoadStats.length : 0;
+  const leagueHomeStats = allStandings.map((t) => parseRecord(t.homeRecord)).filter(Boolean);
+  const leagueAvgHomePct = leagueHomeStats.length
+    ? leagueHomeStats.reduce((s, r) => s + r.pct, 0) / leagueHomeStats.length : 0;
+  const leagueRoadStats = allStandings.map((t) => parseRecord(t.roadRecord)).filter(Boolean);
+  const leagueAvgRoadPct = leagueRoadStats.length
+    ? leagueRoadStats.reduce((s, r) => s + r.pct, 0) / leagueRoadStats.length : 0;
   const homeDiff = homeStats && roadStats ? homeStats.pct - roadStats.pct : 0;
   const homeAdvLabel =
     homeDiff > 0.10 ? "Home Team" :
@@ -241,7 +247,7 @@ function computeTeamStats(id, standingsData, scoresData) {
     // pim
     hasPim, pimPerGame, pimDivRank, pimLeagueRank, leagueAvgPim, pimLabel,
     // home ice
-    homeStats, roadStats, divAvgHomePct, divAvgRoadPct, homeDiff, homeAdvLabel,
+    homeStats, roadStats, divAvgHomePct, divAvgRoadPct, leagueAvgHomePct, leagueAvgRoadPct, homeDiff, homeAdvLabel,
     // defense
     gaPerGame, gfPerGame, leagueAvgGA, leagueAvgGF, leagueGARank, divGARank,
     leagueTotalTeams: allStandings.length, divTotalTeams: divTeams.length,

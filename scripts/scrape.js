@@ -557,7 +557,18 @@ async function scrapeLeadersAndScores(html, ydateStr) {
     if (found) return false;
   });
 
-  return { leaders, scores };
+  // Deduplicate: if the same game appears twice (once with gameId, once without),
+  // keep the entry with the gameId and drop the null-gameId duplicate.
+  const seenWithId = new Set(
+    scores.filter(g => g.gameId !== null)
+          .map(g => `${g.date}|${g.visitingTeam}|${g.homeTeam}|${g.visitingScore}|${g.homeScore}`)
+  );
+  const deduped = scores.filter(g => {
+    if (g.gameId !== null) return true;
+    return !seenWithId.has(`${g.date}|${g.visitingTeam}|${g.homeTeam}|${g.visitingScore}|${g.homeScore}`);
+  });
+
+  return { leaders, scores: deduped };
 }
 
 // ─── Box Score ───────────────────────────────────────────────────────────────

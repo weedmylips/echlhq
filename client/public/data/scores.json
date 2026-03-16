@@ -21,7 +21,7 @@
       "date": "Mar 15, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Greensboro",
       "visitingScore": 1,
       "homeScore": 4,
@@ -101,7 +101,7 @@
       "date": "Mar 14, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "visitingScore": 6,
       "homeTeam": "Greensboro",
       "homeScore": 0,
@@ -211,77 +211,7 @@
       "date": "Mar 14, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
-      "visitingScore": 6,
-      "homeTeam": "Greensboro",
-      "homeScore": 3,
-      "overtime": null,
-      "score": "6-3",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Fort Wayne",
-      "visitingScore": 1,
-      "homeTeam": "Indy",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "1-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "visitingScore": 1,
-      "homeTeam": "Jacksonville",
-      "homeScore": 2,
-      "overtime": "OT",
-      "score": "1-2 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Norfolk",
-      "visitingScore": 4,
-      "homeTeam": "Maine",
-      "homeScore": 1,
-      "overtime": null,
-      "score": "4-1",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Iowa",
-      "visitingScore": 3,
-      "homeTeam": "Cincinnati",
-      "homeScore": 4,
-      "overtime": "OT",
-      "score": "3-4 (OT)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Kalamazoo",
-      "visitingScore": 6,
-      "homeTeam": "Bloomington",
-      "homeScore": 2,
-      "overtime": null,
-      "score": "6-2",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Idaho",
-      "visitingScore": 1,
-      "homeTeam": "Allen",
-      "homeScore": 2,
-      "overtime": "SO",
-      "score": "1-2 (SO)",
-      "gameId": null,
-      "date": "Mar 13, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "visitingScore": 6,
       "homeTeam": "Greensboro",
       "homeScore": 3,
@@ -582,7 +512,7 @@
     },
     {
       "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 3,
       "homeScore": 4,
       "overtime": "SO",
@@ -692,7 +622,7 @@
     },
     {
       "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 4,
       "homeScore": 6,
       "overtime": null,
@@ -802,7 +732,7 @@
     },
     {
       "visitingTeam": "Maine",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 5,
       "homeScore": 3,
       "overtime": null,
@@ -911,7 +841,7 @@
       "date": "Mar 1, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Maine",
       "visitingScore": 2,
       "homeScore": 3,
@@ -971,7 +901,7 @@
       "date": "Mar 1, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Adirondack",
       "visitingScore": 4,
       "homeScore": 3,
@@ -1212,7 +1142,7 @@
     },
     {
       "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 2,
       "homeScore": 1,
       "overtime": null,
@@ -1402,7 +1332,7 @@
     },
     {
       "visitingTeam": "Toledo",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 3,
       "homeScore": 4,
       "overtime": "SO",
@@ -1552,7 +1482,7 @@
     },
     {
       "visitingTeam": "Toledo",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 4,
       "homeScore": 1,
       "overtime": null,
@@ -1672,7 +1602,7 @@
     },
     {
       "visitingTeam": "Toledo",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 3,
       "homeScore": 6,
       "overtime": null,
@@ -1861,7 +1791,7 @@
       "date": "Feb 15, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Worcester",
       "visitingScore": 4,
       "homeScore": 1,
@@ -2011,7 +1941,7 @@
       "date": "Feb 14, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Worcester",
       "visitingScore": 3,
       "homeScore": 2,
@@ -2161,7 +2091,7 @@
       "date": "Feb 13, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Worcester",
       "visitingScore": 2,
       "homeScore": 0,
@@ -2372,7 +2302,7 @@
     },
     {
       "visitingTeam": "Worcester",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 2,
       "homeScore": 3,
       "overtime": "OT",
@@ -2502,7 +2432,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 5,
       "homeScore": 3,
       "overtime": null,
@@ -2671,7 +2601,7 @@
       "date": "Feb 3, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Reading",
       "visitingScore": 2,
       "homeScore": 3,
@@ -2871,7 +2801,7 @@
       "date": "Jan 31, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Norfolk",
       "visitingScore": 6,
       "homeScore": 3,
@@ -3001,7 +2931,7 @@
       "date": "Jan 30, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Norfolk",
       "visitingScore": 2,
       "homeScore": 5,
@@ -3102,7 +3032,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 4,
       "homeScore": 1,
       "overtime": null,
@@ -3161,7 +3091,7 @@
       "date": "Jan 25, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Maine",
       "visitingScore": 2,
       "homeScore": 5,
@@ -3291,7 +3221,7 @@
       "date": "Jan 24, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Maine",
       "visitingScore": 1,
       "homeScore": 7,
@@ -3421,7 +3351,7 @@
       "date": "Jan 23, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Maine",
       "visitingScore": 3,
       "homeScore": 2,
@@ -3582,7 +3512,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 0,
       "homeScore": 3,
       "overtime": null,
@@ -3712,7 +3642,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 3,
       "homeScore": 1,
       "overtime": null,
@@ -3751,7 +3681,7 @@
       "date": "Jan 17, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Adirondack",
       "visitingScore": 3,
       "homeScore": 1,
@@ -4011,7 +3941,7 @@
       "date": "Jan 11, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Wheeling",
       "visitingScore": 2,
       "homeScore": 4,
@@ -4161,7 +4091,7 @@
       "date": "Jan 10, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Wheeling",
       "visitingScore": 0,
       "homeScore": 5,
@@ -4301,7 +4231,7 @@
       "date": "Jan 9, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Wheeling",
       "visitingScore": 3,
       "homeScore": 4,
@@ -4401,7 +4331,7 @@
       "date": "Jan 4, 2026"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Maine",
       "visitingScore": 2,
       "homeScore": 6,
@@ -4552,7 +4482,7 @@
     },
     {
       "visitingTeam": "Savannah",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 4,
       "homeScore": 0,
       "overtime": null,
@@ -4692,7 +4622,7 @@
     },
     {
       "visitingTeam": "Savannah",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 2,
       "homeScore": 1,
       "overtime": null,
@@ -4822,7 +4752,7 @@
     },
     {
       "visitingTeam": "Savannah",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 1,
       "homeScore": 3,
       "overtime": null,
@@ -5032,7 +4962,7 @@
     },
     {
       "visitingTeam": "Maine",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 0,
       "homeScore": 3,
       "overtime": null,
@@ -5182,7 +5112,7 @@
     },
     {
       "visitingTeam": "Maine",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 1,
       "homeScore": 3,
       "overtime": null,
@@ -5551,7 +5481,7 @@
       "date": "Dec 12, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Maine",
       "visitingScore": 1,
       "homeScore": 3,
@@ -5821,7 +5751,7 @@
       "date": "Dec 6, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Idaho",
       "visitingScore": 1,
       "homeScore": 4,
@@ -5981,7 +5911,7 @@
       "date": "Dec 5, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Idaho",
       "visitingScore": 1,
       "homeScore": 4,
@@ -6081,7 +6011,7 @@
       "date": "Dec 3, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Idaho",
       "visitingScore": 3,
       "homeScore": 4,
@@ -6202,7 +6132,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 1,
       "homeScore": 4,
       "overtime": null,
@@ -6312,7 +6242,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 0,
       "homeScore": 3,
       "overtime": null,
@@ -6472,7 +6402,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 1,
       "homeScore": 5,
       "overtime": null,
@@ -6501,7 +6431,7 @@
       "date": "Nov 27, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Adirondack",
       "visitingScore": 3,
       "homeScore": 2,
@@ -6752,7 +6682,7 @@
     },
     {
       "visitingTeam": "Norfolk",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 1,
       "homeScore": 6,
       "overtime": null,
@@ -6872,7 +6802,7 @@
     },
     {
       "visitingTeam": "Norfolk",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 4,
       "homeScore": 2,
       "overtime": null,
@@ -6962,7 +6892,7 @@
     },
     {
       "visitingTeam": "Norfolk",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 2,
       "homeScore": 5,
       "overtime": null,
@@ -7151,7 +7081,7 @@
       "date": "Nov 15, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Worcester",
       "visitingScore": 0,
       "homeScore": 2,
@@ -7301,7 +7231,7 @@
       "date": "Nov 14, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Worcester",
       "visitingScore": 4,
       "homeScore": 6,
@@ -7391,7 +7321,7 @@
       "date": "Nov 9, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Reading",
       "visitingScore": 2,
       "homeScore": 3,
@@ -7531,7 +7461,7 @@
       "date": "Nov 8, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Reading",
       "visitingScore": 2,
       "homeScore": 1,
@@ -7822,7 +7752,7 @@
     },
     {
       "visitingTeam": "Greensboro",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 5,
       "homeScore": 2,
       "overtime": null,
@@ -7932,7 +7862,7 @@
     },
     {
       "visitingTeam": "Greensboro",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 2,
       "homeScore": 1,
       "overtime": "SO",
@@ -8052,7 +7982,7 @@
     },
     {
       "visitingTeam": "Greensboro",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 3,
       "homeScore": 6,
       "overtime": null,
@@ -8201,7 +8131,7 @@
       "date": "Oct 26, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Adirondack",
       "visitingScore": 1,
       "homeScore": 4,
@@ -8422,7 +8352,7 @@
     },
     {
       "visitingTeam": "Adirondack",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 1,
       "homeScore": 3,
       "overtime": null,
@@ -8672,7 +8602,7 @@
     },
     {
       "visitingTeam": "Reading",
-      "homeTeam": "Trois-Rivi\u00e8res",
+      "homeTeam": "Trois-Rivières",
       "visitingScore": 5,
       "homeScore": 6,
       "overtime": "OT",
@@ -8781,7 +8711,7 @@
       "date": "Oct 11, 2025"
     },
     {
-      "visitingTeam": "Trois-Rivi\u00e8res",
+      "visitingTeam": "Trois-Rivières",
       "homeTeam": "Adirondack",
       "visitingScore": 0,
       "homeScore": 3,
