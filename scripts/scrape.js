@@ -1072,6 +1072,22 @@ async function main() {
   console.log("Parsing leaders and scores…");
   const { leaders, scores } = await scrapeLeadersAndScores(reportHtml, ydateStr);
 
+  // Augment leaders with full league scoring ranks derived from per-team player data
+  const allSkaters = Object.values(teamPlayers).flatMap((t) =>
+    (t.skaters || []).filter((p) => (p.gp ?? 0) > 0)
+  );
+  const rankBy = (arr, key) => {
+    const sorted = [...arr].sort((a, b) => (b[key] ?? 0) - (a[key] ?? 0));
+    let rank = 1;
+    return sorted.map((p, i) => {
+      if (i > 0 && (p[key] ?? 0) !== (sorted[i - 1][key] ?? 0)) rank = i + 1;
+      return { rank, name: p.player, value: p[key] ?? 0 };
+    });
+  };
+  leaders.allPoints  = rankBy(allSkaters, "pts");
+  leaders.allGoals   = rankBy(allSkaters, "g");
+  leaders.allAssists = rankBy(allSkaters, "a");
+
   if (writeJSON(path.join(DATA_DIR, "leaders.json"), { leaders, scrapedAt: now })) {
     console.log(`  ✓ leaders.json`);
     changed++;

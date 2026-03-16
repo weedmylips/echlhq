@@ -346,12 +346,12 @@ export default function TeamPage() {
               // Look up league rank for a skater in a stat category
               const normalize = (n) => (n || "").replace(/^x\s+/i, "").replace(/^\*\s*/i, "").trim().toLowerCase();
               const leagueRankFor = (name, cat) => {
-                const arr = cat === "PTS" ? leadersData?.leaders?.points
-                          : cat === "G"   ? leadersData?.leaders?.goals
-                          :                 leadersData?.leaders?.assists;
+                const arr = cat === "PTS" ? (leadersData?.leaders?.allPoints  ?? leadersData?.leaders?.points)
+                          : cat === "G"   ? (leadersData?.leaders?.allGoals   ?? leadersData?.leaders?.goals)
+                          :                 (leadersData?.leaders?.allAssists ?? leadersData?.leaders?.assists);
                 if (!arr) return null;
                 const entry = arr.find((e) => normalize(e.name) === normalize(name));
-                return (entry && entry.rank <= 30) ? entry.rank : null;
+                return (entry && entry.rank <= 15) ? entry.rank : null;
               };
               const leagueRankForGoalie = (name) => {
                 const arr = leadersData?.leaders?.svPct;
