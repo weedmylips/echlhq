@@ -1,6 +1,8036 @@
 {
   "scores": [
     {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Atlanta",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": 25195,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "0-1",
+      "gameId": 25196,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Greensboro",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25197,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25198,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 25199,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25200,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 25201,
+      "date": "Mar 15, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Adirondack",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 25095,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25096,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 25097,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Greensboro",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 25098,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Idaho",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25099,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 25100,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 25101,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Kansas City",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 25102,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Orlando",
+      "visitingScore": 6,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "6-1",
+      "gameId": 25103,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Reading",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "6-5 (OT)",
+      "gameId": 25104,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Savannah",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 25105,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Toledo",
+      "visitingScore": 0,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "0-5",
+      "gameId": 25106,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Tulsa",
+      "visitingScore": 5,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "5-7",
+      "gameId": 25107,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Utah",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25108,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 25109,
+      "date": "Feb 28, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 5,
+      "homeScore": 6,
+      "overtime": "SO",
+      "score": "5-6 (SO)",
+      "gameId": 24568,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Adirondack",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 25082,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 25083,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 25084,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 25085,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 25086,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Reading",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25088,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Savannah",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 25089,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25090,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 25091,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Tulsa",
+      "visitingScore": 0,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "0-2",
+      "gameId": 25092,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 25093,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "2-7",
+      "gameId": 25094,
+      "date": "Feb 27, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24726,
+      "date": "Feb 26, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24471,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Adirondack",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 25075,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 25076,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Idaho",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25077,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Kansas City",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 25078,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25079,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 8,
+      "overtime": null,
+      "score": "3-8",
+      "gameId": 25080,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Wheeling",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 25402,
+      "date": "Feb 25, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Atlanta",
+      "visitingScore": 4,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "4-7",
+      "gameId": 24701,
+      "date": "Feb 24, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 25074,
+      "date": "Feb 24, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 25068,
+      "date": "Feb 22, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Bloomington",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 25069,
+      "date": "Feb 22, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Greenville",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 25070,
+      "date": "Feb 22, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Savannah",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25071,
+      "date": "Feb 22, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": 25073,
+      "date": "Feb 22, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Orlando",
+      "visitingScore": 6,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "6-1",
+      "gameId": 25216,
+      "date": "Feb 22, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25050,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25055,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Allen",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 25056,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Bloomington",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 25057,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Florida",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 25058,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Greenville",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 25059,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 25060,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 25061,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Kansas City",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "0-1 (OT)",
+      "gameId": 25062,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Norfolk",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25063,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 25064,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "South Carolina",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 25065,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tahoe",
+      "visitingScore": 4,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "4-7",
+      "gameId": 25066,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25067,
+      "date": "Feb 21, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 25042,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Allen",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 25043,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Bloomington",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25044,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 25045,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Iowa",
+      "visitingScore": 0,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "0-2",
+      "gameId": 25046,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 25047,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Kansas City",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 25048,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Norfolk",
+      "visitingScore": 5,
+      "homeScore": 6,
+      "overtime": "OT",
+      "score": "5-6 (OT)",
+      "gameId": 25049,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Rapid City",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 25051,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "South Carolina",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 25052,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tahoe",
+      "visitingScore": 0,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "0-6",
+      "gameId": 25053,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 25054,
+      "date": "Feb 20, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Greenville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 25040,
+      "date": "Feb 19, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25041,
+      "date": "Feb 19, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 6,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "6-4",
+      "gameId": 24950,
+      "date": "Feb 18, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 25035,
+      "date": "Feb 18, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 25037,
+      "date": "Feb 18, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 25038,
+      "date": "Feb 18, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tahoe",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "SO",
+      "score": "2-1 (SO)",
+      "gameId": 25039,
+      "date": "Feb 18, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Atlanta",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "4-3 (SO)",
+      "gameId": 25032,
+      "date": "Feb 16, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 25033,
+      "date": "Feb 16, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Utah",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 25034,
+      "date": "Feb 16, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 25023,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Greenville",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 25024,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 25025,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 25026,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Toledo",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 25027,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 25028,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Wheeling",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 25029,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Wichita",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25030,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Worcester",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25031,
+      "date": "Feb 15, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Atlanta",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 25008,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Florida",
+      "visitingScore": 1,
+      "homeScore": 0,
+      "overtime": "SO",
+      "score": "1-0 (SO)",
+      "gameId": 25009,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Indy",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25010,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 25011,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 25012,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Norfolk",
+      "visitingScore": 7,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "7-4",
+      "gameId": 25013,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Orlando",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 25014,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 25015,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 5,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "5-7",
+      "gameId": 25016,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Toledo",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 25017,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 25018,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 25019,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Wheeling",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 25020,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Wichita",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 25021,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Worcester",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 25022,
+      "date": "Feb 14, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Atlanta",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24993,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24994,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24995,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24996,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Greensboro",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24997,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Greenville",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24998,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Iowa",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24999,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 25000,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 25001,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "3-0",
+      "gameId": 25002,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 0,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "0-2",
+      "gameId": 25003,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 25004,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Wheeling",
+      "visitingScore": 3,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "3-0",
+      "gameId": 25005,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Wichita",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 25006,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 25007,
+      "date": "Feb 13, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Allen",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24986,
+      "date": "Feb 11, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24987,
+      "date": "Feb 11, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Greenville",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24988,
+      "date": "Feb 11, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24989,
+      "date": "Feb 11, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Iowa",
+      "visitingScore": 7,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "7-3",
+      "gameId": 24990,
+      "date": "Feb 11, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24991,
+      "date": "Feb 11, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24992,
+      "date": "Feb 11, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Utah",
+      "visitingScore": 7,
+      "homeScore": 6,
+      "overtime": "OT",
+      "score": "7-6 (OT)",
+      "gameId": 24698,
+      "date": "Feb 10, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 25151,
+      "date": "Feb 8, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Wichita",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24957,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Allen",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 24972,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24973,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": 24974,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Idaho",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24975,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Indy",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24976,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24977,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Maine",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24978,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Savannah",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24979,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24980,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24981,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24982,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Wheeling",
+      "visitingScore": 0,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "0-6",
+      "gameId": 24984,
+      "date": "Feb 7, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Allen",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24958,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24959,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "2-7",
+      "gameId": 24960,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Greensboro",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24961,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Idaho",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 24962,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24963,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24964,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Maine",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24965,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Savannah",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24966,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 7,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "7-4",
+      "gameId": 24967,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Toledo",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24968,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24969,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Wheeling",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24970,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Wichita",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24971,
+      "date": "Feb 6, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24956,
+      "date": "Feb 5, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Tulsa",
+      "visitingScore": 1,
+      "homeScore": 0,
+      "overtime": "OT",
+      "score": "1-0 (OT)",
+      "gameId": 24983,
+      "date": "Feb 5, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Greensboro",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 25401,
+      "date": "Feb 5, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24947,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Allen",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24948,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24949,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24951,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Idaho",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24952,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24953,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Wichita",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24955,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 9,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "9-6",
+      "gameId": 24985,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 25036,
+      "date": "Feb 4, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Greensboro",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24944,
+      "date": "Feb 3, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24945,
+      "date": "Feb 3, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24946,
+      "date": "Feb 3, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24933,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Allen",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24934,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24935,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 6,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 24936,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24937,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 7,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "7-0",
+      "gameId": 24938,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "4-3 (SO)",
+      "gameId": 24939,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "1-6",
+      "gameId": 24940,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tulsa",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24941,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Wichita",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24942,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Worcester",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "0-1",
+      "gameId": 24943,
+      "date": "Feb 1, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Adirondack",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24918,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Allen",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24919,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24920,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Florida",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24921,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 0,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "0-6",
+      "gameId": 24922,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24923,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24924,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Kansas City",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24925,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Norfolk",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24926,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Reading",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24927,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24928,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Toledo",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24929,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tulsa",
+      "visitingScore": 6,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "6-1",
+      "gameId": 24930,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Utah",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24931,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24932,
+      "date": "Jan 31, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24905,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "4-5",
+      "gameId": 24906,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 6,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "6-0",
+      "gameId": 24907,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Florida",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 24908,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Iowa",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24909,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24910,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Norfolk",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24911,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24912,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Savannah",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24913,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24914,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tulsa",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24915,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24916,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Worcester",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24917,
+      "date": "Jan 30, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Bloomington",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24900,
+      "date": "Jan 28, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24901,
+      "date": "Jan 28, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Maine",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24902,
+      "date": "Jan 28, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24903,
+      "date": "Jan 28, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24904,
+      "date": "Jan 28, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Orlando",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 25154,
+      "date": "Jan 26, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24352,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Bloomington",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24889,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24892,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Maine",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24893,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24894,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24895,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "South Carolina",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24896,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24897,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Wichita",
+      "visitingScore": 5,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "5-7",
+      "gameId": 24899,
+      "date": "Jan 25, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Bloomington",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24874,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24875,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Greensboro",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24876,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Idaho",
+      "visitingScore": 5,
+      "homeScore": 6,
+      "overtime": "OT",
+      "score": "5-6 (OT)",
+      "gameId": 24878,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24879,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24880,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Kansas City",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24881,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Maine",
+      "visitingScore": 1,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "1-7",
+      "gameId": 24882,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Norfolk",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
+      "gameId": 24883,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Rapid City",
+      "visitingScore": 6,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 24885,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24886,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Wheeling",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24887,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Wichita",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "0-1",
+      "gameId": 24888,
+      "date": "Jan 24, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Bloomington",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24376,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Greensboro",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24861,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Greenville",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24862,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Idaho",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 24863,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24864,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24865,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Kansas City",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24866,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Maine",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24867,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24868,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24869,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Rapid City",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24870,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "South Carolina",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24871,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Toledo",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24872,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Wheeling",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24873,
+      "date": "Jan 23, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Orlando",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24450,
+      "date": "Jan 19, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24857,
+      "date": "Jan 19, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
+      "gameId": 24858,
+      "date": "Jan 19, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24859,
+      "date": "Jan 19, 2026"
+    },
+    {
+      "visitingTeam": "Stars",
+      "homeTeam": "Stripes",
+      "visitingScore": 12,
+      "homeScore": 17,
+      "overtime": null,
+      "score": "12-17",
+      "gameId": 25400,
+      "date": "Jan 19, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24851,
+      "date": "Jan 18, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24852,
+      "date": "Jan 18, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24853,
+      "date": "Jan 18, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Savannah",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24854,
+      "date": "Jan 18, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24855,
+      "date": "Jan 18, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "3-0",
+      "gameId": 24856,
+      "date": "Jan 18, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Wichita",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "4-3 (SO)",
+      "gameId": 24823,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24838,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Florida",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24839,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24840,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Indy",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24841,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Iowa",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24842,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Maine",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24843,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24844,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24845,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Reading",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24846,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "South Carolina",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24847,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24848,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24849,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Utah",
+      "visitingScore": 7,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "7-1",
+      "gameId": 24850,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Greenville",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 25270,
+      "date": "Jan 17, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24824,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24825,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Florida",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24826,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24827,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24828,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24829,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Norfolk",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24830,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Orlando",
+      "visitingScore": 3,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "3-0",
+      "gameId": 24831,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Reading",
+      "visitingScore": 0,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "0-6",
+      "gameId": 24832,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "South Carolina",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24833,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24834,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Utah",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24835,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Wichita",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24836,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Maine",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24837,
+      "date": "Jan 16, 2026"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Orlando",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24822,
+      "date": "Jan 15, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24819,
+      "date": "Jan 14, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24820,
+      "date": "Jan 14, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Worcester",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24821,
+      "date": "Jan 14, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25140,
+      "date": "Jan 14, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Orlando",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24464,
+      "date": "Jan 13, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Savannah",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24818,
+      "date": "Jan 13, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24810,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24811,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Rapid City",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24812,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Reading",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24813,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24814,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24815,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Wichita",
+      "visitingScore": 7,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "7-6",
+      "gameId": 24816,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Worcester",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24817,
+      "date": "Jan 11, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Adirondack",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24795,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Bloomington",
+      "visitingScore": 0,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "0-5",
+      "gameId": 24796,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Greenville",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24797,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Idaho",
+      "visitingScore": 4,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "4-7",
+      "gameId": 24798,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24799,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24800,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24801,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Rapid City",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24802,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24803,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Savannah",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24804,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 24805,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Toledo",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24806,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Wheeling",
+      "visitingScore": 0,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "0-5",
+      "gameId": 24807,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Wichita",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "5-4 (SO)",
+      "gameId": 24808,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24809,
+      "date": "Jan 10, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Adirondack",
+      "visitingScore": 6,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "6-1",
+      "gameId": 24782,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Allen",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 24783,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Atlanta",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24784,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 4,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "4-7",
+      "gameId": 24785,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Idaho",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24786,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24787,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24788,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Rapid City",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24789,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Reading",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24790,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24791,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24792,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Wheeling",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24793,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Worcester",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24794,
+      "date": "Jan 9, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Savannah",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24781,
+      "date": "Jan 8, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Adirondack",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24775,
+      "date": "Jan 7, 2026"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 24776,
+      "date": "Jan 7, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24777,
+      "date": "Jan 7, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Idaho",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24778,
+      "date": "Jan 7, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24780,
+      "date": "Jan 7, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Orlando",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24770,
+      "date": "Jan 5, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24768,
+      "date": "Jan 4, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Maine",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 24769,
+      "date": "Jan 4, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "South Carolina",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24771,
+      "date": "Jan 4, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tahoe",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24772,
+      "date": "Jan 4, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Toledo",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24773,
+      "date": "Jan 4, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Tulsa",
+      "visitingScore": 1,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "1-0",
+      "gameId": 24774,
+      "date": "Jan 4, 2026"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Atlanta",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24754,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 7,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "7-1",
+      "gameId": 24755,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24756,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Idaho",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24757,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24758,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24759,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Kansas City",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24760,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Maine",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24761,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Norfolk",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24762,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24763,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24764,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Tulsa",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24765,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Wheeling",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24766,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Wichita",
+      "visitingScore": 1,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "1-6",
+      "gameId": 24767,
+      "date": "Jan 3, 2026"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24740,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24741,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24742,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Greenville",
+      "visitingScore": 7,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "7-4",
+      "gameId": 24743,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Idaho",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24744,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Indy",
+      "visitingScore": 0,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "0-5",
+      "gameId": 24745,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24746,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Maine",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24747,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24748,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tahoe",
+      "visitingScore": 0,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "0-5",
+      "gameId": 24749,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24750,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Tulsa",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24751,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24752,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Wichita",
+      "visitingScore": 6,
+      "homeScore": 7,
+      "overtime": "OT",
+      "score": "6-7 (OT)",
+      "gameId": 24753,
+      "date": "Jan 2, 2026"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24728,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 8,
+      "overtime": null,
+      "score": "4-8",
+      "gameId": 24729,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24730,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24731,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Greenville",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24732,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24733,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24734,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": 24735,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Reading",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24736,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24737,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Wheeling",
+      "visitingScore": 7,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "7-2",
+      "gameId": 24738,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Wichita",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24739,
+      "date": "Dec 31, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Orlando",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24727,
+      "date": "Dec 30, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "3-7",
+      "gameId": 24680,
+      "date": "Dec 21, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24681,
+      "date": "Dec 21, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 24682,
+      "date": "Dec 21, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24683,
+      "date": "Dec 21, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "South Carolina",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24684,
+      "date": "Dec 21, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tulsa",
+      "visitingScore": 7,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "7-4",
+      "gameId": 24685,
+      "date": "Dec 21, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24666,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24667,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24668,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24669,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Greenville",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24670,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Idaho",
+      "visitingScore": 1,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "1-7",
+      "gameId": 24671,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24672,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Savannah",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24673,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "South Carolina",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 24674,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24675,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 8,
+      "overtime": null,
+      "score": "2-8",
+      "gameId": 24676,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24677,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 6,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "6-0",
+      "gameId": 24678,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Worcester",
+      "visitingScore": 3,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "3-0",
+      "gameId": 24679,
+      "date": "Dec 20, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24652,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24653,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 6,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 24654,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24655,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Greensboro",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24656,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Idaho",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24657,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Kansas City",
+      "visitingScore": 7,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "7-4",
+      "gameId": 24658,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Orlando",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24659,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Reading",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24660,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Savannah",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24661,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Tahoe",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24662,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24663,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24664,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24665,
+      "date": "Dec 19, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24642,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Bloomington",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24643,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24644,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Greenville",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24645,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Idaho",
+      "visitingScore": 1,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "1-7",
+      "gameId": 24646,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24647,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24648,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Reading",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24649,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Tahoe",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24650,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 24651,
+      "date": "Dec 17, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Bloomington",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24636,
+      "date": "Dec 14, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24637,
+      "date": "Dec 14, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Reading",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24638,
+      "date": "Dec 14, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24639,
+      "date": "Dec 14, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Tulsa",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24640,
+      "date": "Dec 14, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Wichita",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24641,
+      "date": "Dec 14, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Adirondack",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24623,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Bloomington",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24624,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "0-1 (OT)",
+      "gameId": 24625,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24626,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Greenville",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24627,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Indy",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24628,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24629,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24630,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Maine",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24631,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Rapid City",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24632,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Reading",
+      "visitingScore": 3,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "3-7",
+      "gameId": 24633,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Utah",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 24634,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Wichita",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24635,
+      "date": "Dec 13, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "3-0",
+      "gameId": 24610,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Bloomington",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24611,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24612,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24613,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24614,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24615,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Maine",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24616,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Norfolk",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24617,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Rapid City",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24618,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24619,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Tulsa",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24620,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Utah",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24621,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Wichita",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "5-4 (SO)",
+      "gameId": 24622,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 25342,
+      "date": "Dec 12, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Rapid City",
+      "visitingScore": 3,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "3-7",
+      "gameId": 24607,
+      "date": "Dec 11, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Savannah",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
+      "gameId": 24608,
+      "date": "Dec 11, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Tulsa",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24609,
+      "date": "Dec 11, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24601,
+      "date": "Dec 10, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24602,
+      "date": "Dec 10, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "5-4 (SO)",
+      "gameId": 24603,
+      "date": "Dec 10, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24604,
+      "date": "Dec 10, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "1-6",
+      "gameId": 24605,
+      "date": "Dec 10, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Utah",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24606,
+      "date": "Dec 10, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24593,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24594,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Norfolk",
+      "visitingScore": 6,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 24595,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24597,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24598,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Tulsa",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24599,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24600,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Savannah",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 25362,
+      "date": "Dec 7, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Allen",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24579,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24581,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Idaho",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24582,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Indy",
+      "visitingScore": 7,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "7-1",
+      "gameId": 24583,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Maine",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24584,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Norfolk",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24585,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Reading",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "4-5",
+      "gameId": 24586,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24587,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "South Carolina",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24588,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24589,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Toledo",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24590,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Wheeling",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24591,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Wichita",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24592,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 25081,
+      "date": "Dec 6, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Adirondack",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24566,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Allen",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24567,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24569,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Greenville",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24570,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Idaho",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24571,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "2-7",
+      "gameId": 24572,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Norfolk",
+      "visitingScore": 8,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "8-4",
+      "gameId": 24573,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24574,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Savannah",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24575,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Tahoe",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24576,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Tulsa",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24577,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Wheeling",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24578,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 7,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "7-2",
+      "gameId": 24779,
+      "date": "Dec 5, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Allen",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24559,
+      "date": "Dec 3, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Idaho",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": 24560,
+      "date": "Dec 3, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24561,
+      "date": "Dec 3, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24562,
+      "date": "Dec 3, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Reading",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24563,
+      "date": "Dec 3, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Tahoe",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24564,
+      "date": "Dec 3, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Toledo",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24565,
+      "date": "Dec 3, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24334,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Iowa",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24543,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Adirondack",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24553,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24554,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24555,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Tahoe",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24556,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24557,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24558,
+      "date": "Nov 30, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Adirondack",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24539,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24540,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24541,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24542,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24544,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Norfolk",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24545,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Orlando",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24546,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Rapid City",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24547,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "3-7",
+      "gameId": 24548,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24549,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Utah",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24550,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Wheeling",
+      "visitingScore": 3,
+      "homeScore": 8,
+      "overtime": null,
+      "score": "3-8",
+      "gameId": 24551,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Wichita",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24552,
+      "date": "Nov 29, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Adirondack",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24525,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Bloomington",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24526,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Florida",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24527,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Indy",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 24528,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24529,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Kansas City",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "0-1",
+      "gameId": 24530,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24531,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "4-5",
+      "gameId": 24532,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Rapid City",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 24533,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "South Carolina",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24534,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Tahoe",
+      "visitingScore": 2,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "2-7",
+      "gameId": 24535,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Toledo",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24536,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24537,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Utah",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24538,
+      "date": "Nov 28, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24524,
+      "date": "Nov 27, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24514,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Atlanta",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24515,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24516,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Greensboro",
+      "visitingScore": 8,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "8-1",
+      "gameId": 24517,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24518,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24519,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24520,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Rapid City",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24521,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Utah",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24522,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24523,
+      "date": "Nov 26, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24512,
+      "date": "Nov 24, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Atlanta",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24508,
+      "date": "Nov 23, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24509,
+      "date": "Nov 23, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24510,
+      "date": "Nov 23, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Maine",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24511,
+      "date": "Nov 23, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24513,
+      "date": "Nov 23, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24496,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24497,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Idaho",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24498,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Indy",
+      "visitingScore": 1,
+      "homeScore": 0,
+      "overtime": "SO",
+      "score": "1-0 (SO)",
+      "gameId": 24499,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "4-5",
+      "gameId": 24500,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Rapid City",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24501,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Reading",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24502,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24503,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Toledo",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "4-3 (SO)",
+      "gameId": 24504,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "1-6",
+      "gameId": 24505,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tulsa",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24506,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Worcester",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24507,
+      "date": "Nov 22, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24483,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24484,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Greenville",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24485,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Idaho",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24486,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Indy",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24487,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Iowa",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24488,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Rapid City",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24489,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 8,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "8-1",
+      "gameId": 24490,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Toledo",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24491,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24492,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Tulsa",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24493,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Wheeling",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24494,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "1-2 (OT)",
+      "gameId": 24495,
+      "date": "Nov 21, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Tahoe",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24482,
+      "date": "Nov 20, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Florida",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24477,
+      "date": "Nov 19, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Idaho",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24478,
+      "date": "Nov 19, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Indy",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24479,
+      "date": "Nov 19, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Iowa",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24480,
+      "date": "Nov 19, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24481,
+      "date": "Nov 19, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24474,
+      "date": "Nov 18, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24475,
+      "date": "Nov 18, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 24476,
+      "date": "Nov 18, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Idaho",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24470,
+      "date": "Nov 16, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24472,
+      "date": "Nov 16, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24473,
+      "date": "Nov 16, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24455,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Greenville",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24456,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Idaho",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24457,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Indy",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24458,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Iowa",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24459,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24460,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24461,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24462,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Norfolk",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24463,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Reading",
+      "visitingScore": 3,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "3-7",
+      "gameId": 24465,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Toledo",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24466,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Wheeling",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24467,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Worcester",
+      "visitingScore": 0,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "0-2",
+      "gameId": 24468,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Greensboro",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24469,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "South Carolina",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 25072,
+      "date": "Nov 15, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Adirondack",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24441,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Bloomington",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24442,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24443,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Greensboro",
+      "visitingScore": 0,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "0-2",
+      "gameId": 24444,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Greenville",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24445,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Indy",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 24446,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24447,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Kansas City",
+      "visitingScore": 6,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "6-3",
+      "gameId": 24448,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Norfolk",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24449,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "South Carolina",
+      "visitingScore": 0,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "0-1",
+      "gameId": 24451,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24452,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Wheeling",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24453,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Worcester",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 24454,
+      "date": "Nov 14, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24439,
+      "date": "Nov 13, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": 24440,
+      "date": "Nov 13, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Greenville",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 24435,
+      "date": "Nov 12, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Indy",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24436,
+      "date": "Nov 12, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24437,
+      "date": "Nov 12, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Wichita",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24438,
+      "date": "Nov 12, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": 24428,
+      "date": "Nov 9, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Norfolk",
+      "visitingScore": 6,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 24429,
+      "date": "Nov 9, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 24430,
+      "date": "Nov 9, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "South Carolina",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 24431,
+      "date": "Nov 9, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24432,
+      "date": "Nov 9, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 3,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "3-4 (OT)",
+      "gameId": 24433,
+      "date": "Nov 9, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24434,
+      "date": "Nov 9, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Bloomington",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24415,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 8,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "8-2",
+      "gameId": 24416,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Florida",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "4-3 (SO)",
+      "gameId": 24417,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Greensboro",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24418,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Greenville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24419,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24420,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24421,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Norfolk",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24422,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Rapid City",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24423,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Reading",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24424,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Savannah",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24425,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24426,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 8,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "8-1",
+      "gameId": 24427,
+      "date": "Nov 8, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 2,
+      "homeScore": 9,
+      "overtime": null,
+      "score": "2-9",
+      "gameId": 24403,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24404,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24405,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Indy",
+      "visitingScore": 0,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "0-5",
+      "gameId": 24406,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24407,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "4-5",
+      "gameId": 24408,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24409,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Maine",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 24410,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Norfolk",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24411,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Rapid City",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24412,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24413,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Wichita",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24414,
+      "date": "Nov 7, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Greensboro",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24401,
+      "date": "Nov 6, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Wichita",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 24402,
+      "date": "Nov 6, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 24394,
+      "date": "Nov 5, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Atlanta",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24395,
+      "date": "Nov 5, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Florida",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 24396,
+      "date": "Nov 5, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Indy",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24397,
+      "date": "Nov 5, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24398,
+      "date": "Nov 5, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Rapid City",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 24399,
+      "date": "Nov 5, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Savannah",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24400,
+      "date": "Nov 5, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24393,
+      "date": "Nov 4, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24387,
+      "date": "Nov 2, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24388,
+      "date": "Nov 2, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Maine",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 24389,
+      "date": "Nov 2, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24390,
+      "date": "Nov 2, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Tulsa",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24391,
+      "date": "Nov 2, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24392,
+      "date": "Nov 2, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Allen",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24374,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Atlanta",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24375,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Greenville",
+      "visitingScore": 0,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 24377,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Idaho",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24378,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Iowa",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24379,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24380,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Maine",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24381,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Toledo",
+      "visitingScore": 2,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "2-6",
+      "gameId": 24382,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "SO",
+      "score": "2-1 (SO)",
+      "gameId": 24383,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Wheeling",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24384,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Wichita",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24385,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Worcester",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24386,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24860,
+      "date": "Nov 1, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Adirondack",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "SO",
+      "score": "2-1 (SO)",
+      "gameId": 24363,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Allen",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24364,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24365,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Greenville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24366,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Idaho",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24367,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Iowa",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24368,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Kansas City",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24369,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24370,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "3-2",
+      "gameId": 24371,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Wichita",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24372,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Worcester",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "SO",
+      "score": "2-1 (SO)",
+      "gameId": 24373,
+      "date": "Oct 31, 2025"
+    },
+    {
+      "visitingTeam": "Indy",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24361,
+      "date": "Oct 30, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Utah",
+      "visitingScore": 4,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "4-6",
+      "gameId": 24362,
+      "date": "Oct 30, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Allen",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24355,
+      "date": "Oct 29, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Idaho",
+      "visitingScore": 2,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "2-5",
+      "gameId": 24356,
+      "date": "Oct 29, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Iowa",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24357,
+      "date": "Oct 29, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "South Carolina",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24358,
+      "date": "Oct 29, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24359,
+      "date": "Oct 29, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Wichita",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24360,
+      "date": "Oct 29, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Tulsa",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24354,
+      "date": "Oct 28, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Maine",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 24351,
+      "date": "Oct 26, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Tulsa",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24353,
+      "date": "Oct 26, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Adirondack",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24338,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24339,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 6,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 24340,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Greensboro",
+      "visitingScore": 8,
+      "homeScore": 7,
+      "overtime": "OT",
+      "score": "8-7 (OT)",
+      "gameId": 24341,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Greenville",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "2-1",
+      "gameId": 24342,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "homeTeam": "Indy",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "OT",
+      "score": "5-4 (OT)",
+      "gameId": 24343,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24344,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Maine",
+      "visitingScore": 3,
+      "homeScore": 7,
+      "overtime": null,
+      "score": "3-7",
+      "gameId": 24345,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Norfolk",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": 24346,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Rapid City",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 24348,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Savannah",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24349,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Utah",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24350,
+      "date": "Oct 25, 2025"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "homeTeam": "Allen",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24325,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Bloomington",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 24326,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24327,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "2-0",
+      "gameId": 24328,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Greensboro",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24329,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Greenville",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 24330,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Idaho",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 24331,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 5,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "5-1",
+      "gameId": 24332,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Norfolk",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24333,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Wichita",
+      "homeTeam": "Rapid City",
+      "visitingScore": 1,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "1-0",
+      "gameId": 24335,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 24336,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "Tahoe",
+      "homeTeam": "Tulsa",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24337,
+      "date": "Oct 24, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Savannah",
+      "visitingScore": 4,
+      "homeScore": 9,
+      "overtime": null,
+      "score": "4-9",
+      "gameId": 24324,
+      "date": "Oct 23, 2025"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "homeTeam": "Orlando",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24347,
+      "date": "Oct 23, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Orlando",
+      "visitingScore": 6,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "6-1",
+      "gameId": 25087,
+      "date": "Oct 21, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Atlanta",
+      "visitingScore": 1,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": 24317,
+      "date": "Oct 19, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Greensboro",
+      "visitingScore": 3,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "3-0",
+      "gameId": 24318,
+      "date": "Oct 19, 2025"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "homeTeam": "Greenville",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": 24319,
+      "date": "Oct 19, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Iowa",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": 24320,
+      "date": "Oct 19, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Maine",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24321,
+      "date": "Oct 19, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tahoe",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
+      "gameId": 24322,
+      "date": "Oct 19, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Worcester",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24323,
+      "date": "Oct 19, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Atlanta",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "2-3 (OT)",
+      "gameId": 24304,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Bloomington",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": "SO",
+      "score": "6-5 (SO)",
+      "gameId": 24305,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Cincinnati",
+      "visitingScore": 5,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 24306,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24307,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Jacksonville",
+      "homeTeam": "Greensboro",
+      "visitingScore": 2,
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": 24308,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Indy",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24309,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 6,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "6-5",
+      "gameId": 24310,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Kansas City",
+      "visitingScore": 5,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "5-2",
+      "gameId": 24311,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "homeTeam": "Savannah",
+      "visitingScore": 5,
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "5-4 (SO)",
+      "gameId": 24312,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24313,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tahoe",
+      "visitingScore": 6,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "6-4",
+      "gameId": 24314,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Wichita",
+      "visitingScore": 3,
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 24315,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 24316,
+      "date": "Oct 18, 2025"
+    },
+    {
+      "visitingTeam": "Reading",
+      "homeTeam": "Trois-Rivières",
+      "visitingScore": 5,
+      "homeScore": 6,
+      "overtime": "OT",
+      "score": "5-6 (OT)",
+      "gameId": 24296,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Greenville",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 24297,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Fort Wayne",
+      "homeTeam": "Indy",
+      "visitingScore": 4,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "4-0",
+      "gameId": 24298,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Iowa",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 24299,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "homeTeam": "Kansas City",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 24300,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Florida",
+      "homeTeam": "Orlando",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 24301,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "homeTeam": "Savannah",
+      "visitingScore": 4,
+      "homeScore": 3,
+      "overtime": "OT",
+      "score": "4-3 (OT)",
+      "gameId": 24302,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Tahoe",
+      "visitingScore": 3,
+      "homeScore": 6,
+      "overtime": null,
+      "score": "3-6",
+      "gameId": 24303,
+      "date": "Oct 17, 2025"
+    },
+    {
+      "visitingTeam": "Iowa",
+      "homeTeam": "Fort Wayne",
+      "visitingScore": 6,
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "6-2 (OT)",
+      "gameId": 25395,
+      "date": "Oct 12, 2025"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "homeTeam": "Indy",
+      "visitingScore": 1,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "1-2",
+      "gameId": 25388,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "homeTeam": "Maine",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": 25389,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "homeTeam": "Adirondack",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25390,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Wheeling",
+      "homeTeam": "Greenville",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25391,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Toledo",
+      "homeTeam": "Kalamazoo",
+      "visitingScore": 3,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": 25392,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Allen",
+      "homeTeam": "Tulsa",
+      "visitingScore": 5,
+      "homeScore": 0,
+      "overtime": null,
+      "score": "5-0",
+      "gameId": 25393,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Idaho",
+      "homeTeam": "Utah",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 25394,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Savannah",
+      "visitingScore": 1,
+      "homeScore": 5,
+      "overtime": null,
+      "score": "1-5",
+      "gameId": 25399,
+      "date": "Oct 11, 2025"
+    },
+    {
+      "visitingTeam": "Adirondack",
+      "homeTeam": "Reading",
+      "visitingScore": 3,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "3-1",
+      "gameId": 25383,
+      "date": "Oct 10, 2025"
+    },
+    {
+      "visitingTeam": "Maine",
+      "homeTeam": "Worcester",
+      "visitingScore": 4,
+      "homeScore": 2,
+      "overtime": null,
+      "score": "4-2",
+      "gameId": 25384,
+      "date": "Oct 10, 2025"
+    },
+    {
+      "visitingTeam": "Kalamazoo",
+      "homeTeam": "Toledo",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25385,
+      "date": "Oct 10, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 25386,
+      "date": "Oct 10, 2025"
+    },
+    {
+      "visitingTeam": "Utah",
+      "homeTeam": "Idaho",
+      "visitingScore": 2,
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": 25387,
+      "date": "Oct 10, 2025"
+    },
+    {
+      "visitingTeam": "Greensboro",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 4,
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25398,
+      "date": "Oct 10, 2025"
+    },
+    {
+      "visitingTeam": "Orlando",
+      "homeTeam": "Florida",
+      "visitingScore": 4,
+      "homeScore": 5,
+      "overtime": "OT",
+      "score": "4-5 (OT)",
+      "gameId": 25381,
+      "date": "Oct 9, 2025"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "homeTeam": "Allen",
+      "visitingScore": 0,
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25382,
+      "date": "Oct 9, 2025"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "homeTeam": "Jacksonville",
+      "visitingScore": 2,
+      "homeScore": 3,
+      "overtime": "SO",
+      "score": "2-3 (SO)",
+      "gameId": 25397,
+      "date": "Oct 9, 2025"
+    },
+    {
       "visitingTeam": "Iowa",
       "visitingScore": 2,
       "homeTeam": "Cincinnati",
@@ -1041,5 +9071,5 @@
       "date": "Mar 13, 2026"
     }
   ],
-  "scrapedAt": "2026-03-15T15:48:44.467Z"
+  "scrapedAt": "2026-03-16T13:56:13.558Z"
 }
