@@ -387,8 +387,8 @@ export default function TeamPage() {
                                    :                   p.stats?.a;
                         return (
                           <div key={i} className="mini-leader-row">
-                            <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-name">{p.player}</span>
+                            <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-team">{p.position}</span>
                             <span className="mini-leader-val">{val}</span>
                             {rank && <span className="league-rank-pill">#{rank}</span>}
@@ -404,8 +404,8 @@ export default function TeamPage() {
                         const gs = goalieStats(p.player);
                         return (
                           <div key={i} className="mini-leader-row">
-                            <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-name">{p.player}</span>
+                            <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-team">G</span>
                             {gs ? (
                               <>
