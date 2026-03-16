@@ -166,7 +166,7 @@
     },
     {
       "playerId": "11099",
-      "player": "Rasmus Ekström",
+      "player": "Rasmus Ekstr\u00f6m",
       "number": 70,
       "position": "F",
       "status": "active",
@@ -509,12 +509,12 @@
       "player": "Bobby Russell",
       "number": 15,
       "position": "D",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 3,
-      "suspensionGamesOriginal": 3,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": "Toledo",
       "acquiredDate": "2025-11-11",
       "stats": {
@@ -523,7 +523,7 @@
         "a": 11,
         "pts": 15
       },
-      "suspensionGpAtStart": 58
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "11082",
@@ -667,7 +667,7 @@
     },
     {
       "playerId": "11133",
-      "player": "Étienne Morin",
+      "player": "\u00c9tienne Morin",
       "number": 72,
       "position": "D",
       "status": "recalled_ahl",

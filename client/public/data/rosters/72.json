@@ -29,12 +29,12 @@
       "player": "Easton Armstrong",
       "number": 27,
       "position": "F",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 2,
-      "suspensionGamesOriginal": 2,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -43,7 +43,7 @@
         "a": 8,
         "pts": 24
       },
-      "suspensionGpAtStart": 58
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "10218",
@@ -271,12 +271,12 @@
       "player": "Jaxsen Wiebe",
       "number": 45,
       "position": "F",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 2,
-      "suspensionGamesOriginal": 2,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -285,7 +285,7 @@
         "a": 8,
         "pts": 11
       },
-      "suspensionGpAtStart": 58
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "9247",
@@ -370,7 +370,7 @@
     },
     {
       "playerId": "10408",
-      "player": "German Yavaş",
+      "player": "German Yava\u015f",
       "number": 26,
       "position": "F",
       "status": "active",
@@ -530,7 +530,7 @@
     },
     {
       "playerId": "10048",
-      "player": "Jérémie Biakabutuka",
+      "player": "J\u00e9r\u00e9mie Biakabutuka",
       "number": 39,
       "position": "D",
       "status": "active",
@@ -613,12 +613,12 @@
       "player": "Roman Kinal",
       "number": 42,
       "position": "D",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 1,
-      "suspensionGamesOriginal": 1,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -627,7 +627,7 @@
         "a": 7,
         "pts": 9
       },
-      "suspensionGpAtStart": 58
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "11150",

@@ -650,12 +650,12 @@
       "player": "Kylor Wall",
       "number": 49,
       "position": "D",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 1,
-      "suspensionGamesOriginal": 1,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -664,7 +664,7 @@
         "a": 6,
         "pts": 10
       },
-      "suspensionGpAtStart": 57
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "10250",

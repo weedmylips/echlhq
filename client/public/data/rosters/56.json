@@ -109,12 +109,12 @@
       "player": "Justin Janicke",
       "number": 28,
       "position": "F",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 1,
-      "suspensionGamesOriginal": 1,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -123,7 +123,7 @@
         "a": 18,
         "pts": 30
       },
-      "suspensionGpAtStart": 59
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "8994",
