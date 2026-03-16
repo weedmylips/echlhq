@@ -334,11 +334,12 @@ export default function TeamPage() {
           <div className="overview-sidebar">
             {/* Team Leaders card */}
             {rosterData?.roster && (() => {
+              const isOnTeam = (s) => s === "active" || s === "signed" || s === "loaned";
               const skaters = rosterData.roster.filter(
-                (p) => (p.status === "active" || p.status === "signed") && p.position !== "G" && (p.stats?.gp ?? 0) > 0
+                (p) => isOnTeam(p.status) && p.position !== "G" && (p.stats?.gp ?? 0) > 0
               );
               const goalies = rosterData.roster.filter(
-                (p) => (p.status === "active" || p.status === "signed") && p.position === "G" && (p.stats?.gp ?? 0) > 0
+                (p) => isOnTeam(p.status) && p.position === "G" && (p.stats?.gp ?? 0) > 0
               );
               const top = (arr, key, n = 3) =>
                 [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);

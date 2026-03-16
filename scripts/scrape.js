@@ -16,6 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "client", "public", "data");
 const BOXSCORES_DIR = path.join(DATA_DIR, "boxscores");
 const PLAYERS_DIR = path.join(DATA_DIR, "players");
+const ROSTERS_DIR = path.join(DATA_DIR, "rosters");
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 fs.mkdirSync(BOXSCORES_DIR, { recursive: true });
@@ -1073,8 +1074,20 @@ async function main() {
   const { leaders, scores } = await scrapeLeadersAndScores(reportHtml, ydateStr);
 
   // Augment leaders with full league scoring ranks derived from per-team player data
+  // Cross-reference roster files to exclude recalled_ahl players; loaned players stay in.
+  const recalledNames = new Set();
+  try {
+    for (const f of fs.readdirSync(ROSTERS_DIR)) {
+      try {
+        const r = JSON.parse(fs.readFileSync(path.join(ROSTERS_DIR, f), "utf8"));
+        for (const p of (r.roster || [])) {
+          if (p.status === "recalled_ahl") recalledNames.add(p.player.toLowerCase());
+        }
+      } catch {}
+    }
+  } catch {}
   const allSkaters = Object.values(teamPlayers).flatMap((t) =>
-    (t.skaters || []).filter((p) => (p.gp ?? 0) > 0 && p.isActive)
+    (t.skaters || []).filter((p) => (p.gp ?? 0) > 0 && !recalledNames.has(p.player.toLowerCase()))
   );
   const rankBy = (arr, key) => {
     const sorted = [...arr].sort((a, b) => (b[key] ?? 0) - (a[key] ?? 0));
