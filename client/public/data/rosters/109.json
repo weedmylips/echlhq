@@ -2,7 +2,7 @@
   "teamId": 109,
   "slug": "tahoe-knight-monsters",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-13",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "8745",
@@ -169,10 +169,10 @@
       "player": "Jordan Gustafson",
       "number": 38,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-11",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

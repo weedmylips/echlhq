@@ -2,7 +2,7 @@
   "teamId": 65,
   "slug": "indy-fuel",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-14",
+  "lastTransactionCheck": "2026-03-15",
   "roster": [
     {
       "playerId": "10082",
@@ -69,7 +69,7 @@
       "player": "Cody Laskosky",
       "number": 24,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -329,7 +329,7 @@
       "player": "Eric Martin",
       "number": 88,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
