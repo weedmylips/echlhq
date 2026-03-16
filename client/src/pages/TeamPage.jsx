@@ -340,7 +340,7 @@ export default function TeamPage() {
               const goalies = rosterData.roster.filter(
                 (p) => p.position === "G" && (p.stats?.gp ?? 0) > 0
               );
-              const top = (arr, key, n = 15) =>
+              const top = (arr, key, n = 3) =>
                 [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
 
               // Look up league rank for a skater in a stat category
