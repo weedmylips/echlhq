@@ -762,16 +762,19 @@ function PimCard({ ts, team, standing }) {
     );
   }
 
-  const pimLabelColor =
-    pimLabel === "Cleanest Team in Division" ? "var(--green)" :
-    pimLabel === "Most Penalized in the League" || pimLabel === "Most Penalized in Division" || pimLabel === "Among the Most Penalized in League" ? "var(--red)" :
-    "var(--text-muted)";
+  const isClean = pimLabel === "Cleanest Team in Division";
+  const isBad   = pimLabel === "Most Penalized in the League" || pimLabel === "Most Penalized in Division" || pimLabel === "Among the Most Penalized in League";
+  const pimBadgeStyle = isClean
+    ? { color: "var(--green)", background: "var(--green-bg)", border: "1px solid rgba(34,197,94,0.35)" }
+    : isBad
+    ? { color: "var(--red)",   background: "var(--red-bg)",   border: "1px solid rgba(239,68,68,0.35)" }
+    : {};
 
   return (
     <div className="card section-card">
       <div className="card-header">
         <span className="section-label" style={{ margin: 0 }}>Penalty Minutes</span>
-        <span className="pim-label-badge" style={{ color: pimLabelColor }}>{pimLabel}</span>
+        <span className="pim-label-badge" style={pimBadgeStyle}>{pimLabel}</span>
       </div>
       <div className="pim-body">
         <div className="pim-stat">
