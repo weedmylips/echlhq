@@ -452,7 +452,7 @@ export default function TeamPage() {
 
       {/* ── Roster Tab ── */}
       {activeTab === "roster" && (
-        <RosterTab playersData={playersData} />
+        <RosterTab playersData={playersData} rosterData={rosterData} />
       )}
 
       {selectedGameId && (
@@ -961,7 +961,7 @@ function Last10Strip({ lastTen, primaryColor, compact }) {
   );
 }
 
-function RosterTab({ playersData }) {
+function RosterTab({ playersData, rosterData }) {
   if (!playersData?.skaters) {
     return <p className="empty-msg" style={{ padding: "16px" }}>No roster data available.</p>;
   }
@@ -973,6 +973,13 @@ function RosterTab({ playersData }) {
   const goalies = (playersData.goalies || [])
     .filter((p) => p.isActive)
     .sort((a, b) => b.gp - a.gp);
+
+  const inactiveSections = [
+    { key: "ir",           label: "Injured Reserve", filter: (p) => p.status === "ir",           badge: "IR",       badgeClass: "status-badge-ir" },
+    { key: "reserve",      label: "Reserve",          filter: (p) => p.status === "reserve",      badge: "RES",      badgeClass: "status-badge-res" },
+    { key: "recalled_ahl", label: "With AHL Club",    filter: (p) => p.status === "recalled_ahl", badge: "\u2191AHL", badgeClass: "status-badge-ahl" },
+    { key: "suspended",    label: "Suspended",        filter: (p) => p.status === "suspended",    badge: "SUSP",     badgeClass: "status-badge-susp" },
+  ];
 
   return (
     <div className="roster-sections">
@@ -1054,6 +1061,51 @@ function RosterTab({ playersData }) {
           </div>
         </div>
       )}
+      {rosterData?.roster && inactiveSections.map(({ key, label, filter, badge, badgeClass }) => {
+        const players = rosterData.roster.filter(filter).sort(sortByPosition);
+        if (players.length === 0) return null;
+        return (
+          <div key={key} className="card section-card">
+            <div className="card-header">
+              <span className="section-label" style={{ margin: 0 }}>{label}</span>
+              <span className={`status-badge ${badgeClass}`}>{badge}</span>
+              <span className="roster-count">{players.length}</span>
+            </div>
+            <div className="table-wrap">
+              <table className="roster-table">
+                <thead>
+                  <tr>
+                    <th className="num-col">#</th>
+                    <th>Player</th>
+                    <th>Pos</th>
+                    <th className="num-col">GP</th>
+                    <th className="num-col">G</th>
+                    <th className="num-col">A</th>
+                    <th className="num-col">PTS</th>
+                    {key === "ir" && <th>IR Days</th>}
+                    {key === "suspended" && <th>Games</th>}
+                  </tr>
+                </thead>
+                <tbody>
+                  {players.map((p, i) => (
+                    <tr key={p.playerId || i}>
+                      <td className="num">{p.number ?? "—"}</td>
+                      <td className="roster-player-name">{p.player}</td>
+                      <td>{p.position}</td>
+                      <td className="num">{p.stats?.gp ?? 0}</td>
+                      <td className="num">{p.stats?.g ?? 0}</td>
+                      <td className="num">{p.stats?.a ?? 0}</td>
+                      <td className="num bold">{p.stats?.pts ?? 0}</td>
+                      {key === "ir" && <td>{p.irDays ? `${p.irDays}-day` : "—"}</td>}
+                      {key === "suspended" && <td>{p.suspensionGamesRemaining ?? "—"}</td>}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
