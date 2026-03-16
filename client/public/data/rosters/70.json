@@ -506,7 +506,7 @@
     },
     {
       "playerId": "10946",
-      "player": "Liam Soulière",
+      "player": "Liam Souli\u00e8re",
       "number": 70,
       "position": "G",
       "status": "active",
@@ -549,7 +549,7 @@
       "player": "Nolan Lalonde",
       "number": 33,
       "position": "G",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

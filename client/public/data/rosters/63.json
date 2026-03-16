@@ -26,7 +26,7 @@
     },
     {
       "playerId": "10689",
-      "player": "Kristóf Papp",
+      "player": "Krist\u00f3f Papp",
       "number": 24,
       "position": "F",
       "status": "active",
@@ -446,7 +446,7 @@
     },
     {
       "playerId": "10408",
-      "player": "German Yavaş",
+      "player": "German Yava\u015f",
       "number": 28,
       "position": "F",
       "status": "active",
@@ -809,7 +809,7 @@
       "player": "Isaac Poulter",
       "number": 30,
       "position": "G",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

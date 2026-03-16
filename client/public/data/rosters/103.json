@@ -126,7 +126,7 @@
     },
     {
       "playerId": "8807",
-      "player": "Cédric Desruisseaux",
+      "player": "C\u00e9dric Desruisseaux",
       "number": 21,
       "position": "F",
       "status": "active",
@@ -149,7 +149,7 @@
       "player": "Joe Dunlap",
       "number": 77,
       "position": "F",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -246,7 +246,7 @@
     },
     {
       "playerId": "8968",
-      "player": "Mathias Laferrière",
+      "player": "Mathias Laferri\u00e8re",
       "number": 20,
       "position": "F",
       "status": "active",
@@ -426,7 +426,7 @@
     },
     {
       "playerId": "11245",
-      "player": "Édouard Charron",
+      "player": "\u00c9douard Charron",
       "number": 7,
       "position": "F",
       "status": "active",
@@ -666,7 +666,7 @@
     },
     {
       "playerId": "11236",
-      "player": "Jérémy Michaud",
+      "player": "J\u00e9r\u00e9my Michaud",
       "number": 15,
       "position": "D",
       "status": "active",
@@ -706,7 +706,7 @@
     },
     {
       "playerId": "9692",
-      "player": "William Lavallière",
+      "player": "William Lavalli\u00e8re",
       "number": 1,
       "position": "G",
       "status": "active",

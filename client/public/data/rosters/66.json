@@ -269,7 +269,7 @@
       "player": "Sam Stange",
       "number": 44,
       "position": "F",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -647,7 +647,7 @@
     },
     {
       "playerId": "10484",
-      "player": "Djibril Touré",
+      "player": "Djibril Tour\u00e9",
       "number": 40,
       "position": "D",
       "status": "active",
