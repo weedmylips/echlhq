@@ -150,14 +150,16 @@ function computeTeamStats(id, standingsData, scoresData) {
         (matchCity(g.homeTeam, city) && matchCity(g.visitingTeam, oppCity)) ||
         (matchCity(g.visitingTeam, city) && matchCity(g.homeTeam, oppCity))
       );
-      let w = 0, l = 0;
+      let w = 0, l = 0, gfTotal = 0, gaTotal = 0;
       games.forEach((g) => {
         const isHome  = matchCity(g.homeTeam, city);
-        const myScore = isHome ? g.homeScore : g.visitingScore;
+        const myScore  = isHome ? g.homeScore  : g.visitingScore;
         const oppScore = isHome ? g.visitingScore : g.homeScore;
+        gfTotal += (myScore  || 0);
+        gaTotal += (oppScore || 0);
         if (myScore > oppScore) w++; else l++;
       });
-      return { teamId: opp.teamId, teamName: opp.teamName, logoUrl: opp.logoUrl, w, l, gp: games.length };
+      return { teamId: opp.teamId, teamName: opp.teamName, logoUrl: opp.logoUrl, w, l, gp: games.length, gfTotal, gaTotal, diff: gfTotal - gaTotal };
     });
 
   // ── 4: PIM ──────────────────────────────────────────────────────────────────
@@ -198,7 +200,7 @@ function computeTeamStats(id, standingsData, scoresData) {
     homeDiff > 0.10 ? "Home Team" :
     homeDiff < -0.10 ? "Road Warriors" : "Balanced";
 
-  // ── 7: Defensive Efficiency ─────────────────────────────────────────────────
+  // ── 7: Defensive + Offensive Efficiency ─────────────────────────────────────
   const gaPerGame = standing.gp > 0 ? standing.ga / standing.gp : 0;
   const gfPerGame = standing.gp > 0 ? standing.gf / standing.gp : 0;
   const leagueAvgGA = allStandings.length
@@ -209,6 +211,25 @@ function computeTeamStats(id, standingsData, scoresData) {
   const leagueGARank = sortedByGA.findIndex((t) => t.teamId === id) + 1;
   const divSortedByGA = [...divTeams].filter((t) => t.gp > 0).sort((a, b) => (a.ga / a.gp) - (b.ga / b.gp));
   const divGARank = divSortedByGA.findIndex((t) => t.teamId === id) + 1;
+  const sortedByGF = [...allStandings].filter((t) => t.gp > 0).sort((a, b) => (b.gf / b.gp) - (a.gf / a.gp));
+  const leagueGFRank = sortedByGF.findIndex((t) => t.teamId === id) + 1;
+  const divSortedByGF = [...divTeams].filter((t) => t.gp > 0).sort((a, b) => (b.gf / b.gp) - (a.gf / a.gp));
+  const divGFRank = divSortedByGF.findIndex((t) => t.teamId === id) + 1;
+
+  // ── 11: Special Teams Ranks ──────────────────────────────────────────────────
+  const hasST = allStandings.some((t) => (t.ppPct || 0) > 0);
+  const leagueAvgPP = hasST
+    ? allStandings.reduce((s, t) => s + (t.ppPct || 0), 0) / allStandings.length : 0;
+  const leagueAvgPK = hasST
+    ? allStandings.reduce((s, t) => s + (t.pkPct || 0), 0) / allStandings.length : 0;
+  const sortedByPP = [...allStandings].filter((t) => (t.ppPct || 0) > 0).sort((a, b) => b.ppPct - a.ppPct);
+  const leaguePPRank = hasST ? sortedByPP.findIndex((t) => t.teamId === id) + 1 : 0;
+  const divSortedByPP = [...divTeams].filter((t) => (t.ppPct || 0) > 0).sort((a, b) => b.ppPct - a.ppPct);
+  const divPPRank = hasST ? divSortedByPP.findIndex((t) => t.teamId === id) + 1 : 0;
+  const sortedByPK = [...allStandings].filter((t) => (t.pkPct || 0) > 0).sort((a, b) => b.pkPct - a.pkPct);
+  const leaguePKRank = hasST ? sortedByPK.findIndex((t) => t.teamId === id) + 1 : 0;
+  const divSortedByPK = [...divTeams].filter((t) => (t.pkPct || 0) > 0).sort((a, b) => b.pkPct - a.pkPct);
+  const divPKRank = hasST ? divSortedByPK.findIndex((t) => t.teamId === id) + 1 : 0;
 
   // ── 9: Season Arc ───────────────────────────────────────────────────────────
   const CHUNK = 3;
@@ -248,9 +269,11 @@ function computeTeamStats(id, standingsData, scoresData) {
     hasPim, pimPerGame, pimDivRank, pimLeagueRank, leagueAvgPim, pimLabel,
     // home ice
     homeStats, roadStats, divAvgHomePct, divAvgRoadPct, leagueAvgHomePct, leagueAvgRoadPct, homeDiff, homeAdvLabel,
-    // defense
-    gaPerGame, gfPerGame, leagueAvgGA, leagueAvgGF, leagueGARank, divGARank,
+    // defense + offense
+    gaPerGame, gfPerGame, leagueAvgGA, leagueAvgGF, leagueGARank, divGARank, leagueGFRank, divGFRank,
     leagueTotalTeams: allStandings.length, divTotalTeams: divTeams.length,
+    // special teams
+    hasST, leagueAvgPP, leagueAvgPK, leaguePPRank, divPPRank, leaguePKRank, divPKRank,
     // season arc
     seasonArc,
     // reg wins

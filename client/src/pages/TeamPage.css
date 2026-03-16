@@ -1101,6 +1101,94 @@ tr.playoff-cutoff td {
   font-size: 10px; color: var(--text-muted);
 }
 
+/* ── Special Teams Card ──────────────────────────────────────────── */
+.st-body {
+  display: flex;
+  align-items: stretch;
+}
+.st-half {
+  flex: 1;
+  padding: 14px 16px 16px;
+}
+.st-divider {
+  width: 1px;
+  background: var(--border);
+  align-self: stretch;
+}
+.st-half-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.st-pct {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.st-sub {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 3px;
+}
+.st-ranks {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.st-bar-track {
+  position: relative;
+  height: 6px;
+  background: rgba(156,163,175,0.15);
+  border-radius: 3px;
+  overflow: visible;
+}
+.st-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+.st-bar-avg {
+  position: absolute;
+  top: -3px;
+  width: 2px;
+  height: 12px;
+  background: var(--text-muted);
+  border-radius: 1px;
+  transform: translateX(-50%);
+}
+
+/* ── Defensive/Offensive Efficiency divider ──────────────────────── */
+.def-section-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 0 0;
+}
+
+/* ── League rank pill (Team Leaders) ─────────────────────────────── */
+.league-rank-pill {
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: rgba(156,163,175,0.12);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 5px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* ── Goalie SV% in Team Leaders ──────────────────────────────────── */
+.mini-goalie-sv {
+  font-size: 10px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  margin-left: 2px;
+}
+
 /* ── Division H2H ────────────────────────────────────────────── */
 .h2h-list { padding: 4px 0; }
 .h2h-row {
@@ -1126,6 +1214,9 @@ tr.playoff-cutoff td {
 .h2h-win  .h2h-record { color: var(--green); }
 .h2h-loss .h2h-record { color: var(--red); }
 .h2h-even .h2h-record { color: var(--amber); }
+.h2h-diff {
+  font-size: 12px; font-weight: 700; min-width: 32px; text-align: right; flex-shrink: 0;
+}
 
 /* ── PIM Card ────────────────────────────────────────────────── */
 .pim-label-badge {

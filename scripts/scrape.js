@@ -229,6 +229,65 @@ async function scrapeStandings(html) {
   return standings;
 }
 
+// ─── Special Teams ────────────────────────────────────────────────────────────
+
+function scrapeSpecialTeams(html) {
+  const $ = cheerio.load(html);
+  const byTeam = {}; // teamId → { ppPct, ppGoals, ppOpportunities, pkPct, pkGoalsAllowed, timesShorthanded }
+
+  // Build abbr → team config map
+  const abbrMap = {};
+  Object.values(TEAMS).forEach((t) => { abbrMap[t.abbr.toUpperCase()] = t; });
+
+  // The special teams sections use <span class="subheader"> as section titles inside <td>s.
+  // The data table immediately follows the span as a sibling within the same td.
+  function parseSTSection(sectionText, handler) {
+    let targetSpan = null;
+    $("span.subheader").each((_, el) => {
+      if ($(el).text().trim().toLowerCase().includes(sectionText.toLowerCase())) {
+        targetSpan = $(el);
+        return false;
+      }
+    });
+    if (!targetSpan) return;
+
+    const table = targetSpan.nextAll("table").first();
+    if (!table.length) return;
+
+    const rows = table.find("tr").toArray();
+    if (!rows.length) return;
+
+    // Row 0 is the column header row
+    const headers = $(rows[0]).find("th,td").map((_, c) => $(c).text().trim().toUpperCase()).get();
+    const ci = (key) => { const i = headers.indexOf(key); return i >= 0 ? i : null; };
+    const teamCol = ci("TEAM") ?? 1;
+
+    rows.slice(1).forEach((row) => {
+      const cells = $(row).find("td");
+      if (!cells.length) return;
+      const abbr = $(cells[teamCol]).text().trim().toUpperCase();
+      const team = abbrMap[abbr];
+      if (!team) return;
+      if (!byTeam[team.id]) byTeam[team.id] = {};
+      handler(cells, ci, byTeam[team.id]);
+    });
+  }
+
+  parseSTSection("overall power play record", (cells, ci, entry) => {
+    entry.ppGoals         = num($(cells[ci("PPGF") ?? 4]).text());
+    entry.ppOpportunities = num($(cells[ci("ADV")  ?? 3]).text());
+    entry.ppPct           = num($(cells[ci("PCT")  ?? 5]).text());
+  });
+
+  parseSTSection("overall penalty killing record", (cells, ci, entry) => {
+    entry.pkGoalsAllowed   = num($(cells[ci("PPGA") ?? 4]).text());
+    entry.timesShorthanded = num($(cells[ci("TSH")  ?? 3]).text());
+    entry.pkPct            = num($(cells[ci("PCT")  ?? 5]).text());
+  });
+
+  return byTeam;
+}
+
 // ─── Attendance ───────────────────────────────────────────────────────────────
 
 function scrapeAttendance(html) {
@@ -964,6 +1023,20 @@ async function main() {
       team.attendanceGames   = att.attendanceGames;
       team.attendanceTotal   = att.attendanceTotal;
       team.attendanceAverage = att.attendanceAverage;
+    }
+  });
+
+  // Merge special teams data into standings
+  const specialTeams = scrapeSpecialTeams(reportHtml);
+  standings.forEach((team) => {
+    const st = team.teamId ? specialTeams[team.teamId] : null;
+    if (st) {
+      team.ppPct            = st.ppPct            ?? null;
+      team.ppGoals          = st.ppGoals          ?? null;
+      team.ppOpportunities  = st.ppOpportunities  ?? null;
+      team.pkPct            = st.pkPct            ?? null;
+      team.pkGoalsAllowed   = st.pkGoalsAllowed   ?? null;
+      team.timesShorthanded = st.timesShorthanded ?? null;
     }
   });
 

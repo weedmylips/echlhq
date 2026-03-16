@@ -29,7 +29,13 @@
       "pim": 741,
       "attendanceGames": 31,
       "attendanceTotal": 77322,
-      "attendanceAverage": 2494
+      "attendanceAverage": 2494,
+      "ppPct": 22.7,
+      "ppGoals": 39,
+      "ppOpportunities": 172,
+      "pkPct": 83.1,
+      "pkGoalsAllowed": 34,
+      "timesShorthanded": 201
     },
     {
       "teamId": 101,
@@ -60,7 +66,13 @@
       "pim": 739,
       "attendanceGames": 26,
       "attendanceTotal": 121344,
-      "attendanceAverage": 4667
+      "attendanceAverage": 4667,
+      "ppPct": 20,
+      "ppGoals": 38,
+      "ppOpportunities": 190,
+      "pkPct": 83.4,
+      "pkGoalsAllowed": 32,
+      "timesShorthanded": 193
     },
     {
       "teamId": 74,
@@ -91,7 +103,13 @@
       "pim": 902,
       "attendanceGames": 28,
       "attendanceTotal": 122222,
-      "attendanceAverage": 4365
+      "attendanceAverage": 4365,
+      "ppPct": 17.4,
+      "ppGoals": 32,
+      "ppOpportunities": 184,
+      "pkPct": 79.8,
+      "pkGoalsAllowed": 40,
+      "timesShorthanded": 198
     },
     {
       "teamId": 55,
@@ -122,7 +140,13 @@
       "pim": 704,
       "attendanceGames": 28,
       "attendanceTotal": 86806,
-      "attendanceAverage": 3100
+      "attendanceAverage": 3100,
+      "ppPct": 15.3,
+      "ppGoals": 29,
+      "ppOpportunities": 189,
+      "pkPct": 84,
+      "pkGoalsAllowed": 30,
+      "timesShorthanded": 187
     },
     {
       "teamId": 103,
@@ -153,7 +177,13 @@
       "pim": 776,
       "attendanceGames": 28,
       "attendanceTotal": 60322,
-      "attendanceAverage": 2154
+      "attendanceAverage": 2154,
+      "ppPct": 19.3,
+      "ppGoals": 37,
+      "ppOpportunities": 192,
+      "pkPct": 85.1,
+      "pkGoalsAllowed": 29,
+      "timesShorthanded": 195
     },
     {
       "teamId": 104,
@@ -184,7 +214,13 @@
       "pim": 697,
       "attendanceGames": 29,
       "attendanceTotal": 113112,
-      "attendanceAverage": 3900
+      "attendanceAverage": 3900,
+      "ppPct": 16.8,
+      "ppGoals": 35,
+      "ppOpportunities": 208,
+      "pkPct": 77.3,
+      "pkGoalsAllowed": 39,
+      "timesShorthanded": 172
     },
     {
       "teamId": 63,
@@ -215,7 +251,13 @@
       "pim": 727,
       "attendanceGames": 31,
       "attendanceTotal": 151547,
-      "attendanceAverage": 4888
+      "attendanceAverage": 4888,
+      "ppPct": 19.9,
+      "ppGoals": 33,
+      "ppOpportunities": 166,
+      "pkPct": 77.1,
+      "pkGoalsAllowed": 41,
+      "timesShorthanded": 179
     },
     {
       "teamId": 108,
@@ -277,7 +319,13 @@
       "pim": 704,
       "attendanceGames": 28,
       "attendanceTotal": 179066,
-      "attendanceAverage": 6395
+      "attendanceAverage": 6395,
+      "ppPct": 17.8,
+      "ppGoals": 34,
+      "ppOpportunities": 191,
+      "pkPct": 88,
+      "pkGoalsAllowed": 22,
+      "timesShorthanded": 184
     },
     {
       "teamId": 50,
@@ -308,7 +356,13 @@
       "pim": 947,
       "attendanceGames": 31,
       "attendanceTotal": 162612,
-      "attendanceAverage": 5245
+      "attendanceAverage": 5245,
+      "ppPct": 19.5,
+      "ppGoals": 32,
+      "ppOpportunities": 164,
+      "pkPct": 86.4,
+      "pkGoalsAllowed": 28,
+      "timesShorthanded": 206
     },
     {
       "teamId": 10,
@@ -339,7 +393,13 @@
       "pim": 555,
       "attendanceGames": 27,
       "attendanceTotal": 127502,
-      "attendanceAverage": 4722
+      "attendanceAverage": 4722,
+      "ppPct": 18.2,
+      "ppGoals": 34,
+      "ppOpportunities": 187,
+      "pkPct": 81.8,
+      "pkGoalsAllowed": 31,
+      "timesShorthanded": 170
     },
     {
       "teamId": 97,
@@ -370,7 +430,13 @@
       "pim": 599,
       "attendanceGames": 30,
       "attendanceTotal": 224550,
-      "attendanceAverage": 7485
+      "attendanceAverage": 7485,
+      "ppPct": 15.4,
+      "ppGoals": 28,
+      "ppOpportunities": 182,
+      "pkPct": 86.1,
+      "pkGoalsAllowed": 25,
+      "timesShorthanded": 180
     },
     {
       "teamId": 13,
@@ -401,7 +467,13 @@
       "pim": 776,
       "attendanceGames": 31,
       "attendanceTotal": 212428,
-      "attendanceAverage": 6852
+      "attendanceAverage": 6852,
+      "ppPct": 21,
+      "ppGoals": 43,
+      "ppOpportunities": 205,
+      "pkPct": 79.3,
+      "pkGoalsAllowed": 37,
+      "timesShorthanded": 179
     },
     {
       "teamId": 52,
@@ -432,7 +504,13 @@
       "pim": 655,
       "attendanceGames": 26,
       "attendanceTotal": 136106,
-      "attendanceAverage": 5234
+      "attendanceAverage": 5234,
+      "ppPct": 14.7,
+      "ppGoals": 27,
+      "ppOpportunities": 184,
+      "pkPct": 83.1,
+      "pkGoalsAllowed": 30,
+      "timesShorthanded": 178
     },
     {
       "teamId": 79,
@@ -463,7 +541,13 @@
       "pim": 483,
       "attendanceGames": 28,
       "attendanceTotal": 260409,
-      "attendanceAverage": 9300
+      "attendanceAverage": 9300,
+      "ppPct": 13.9,
+      "ppGoals": 21,
+      "ppOpportunities": 151,
+      "pkPct": 76.7,
+      "pkGoalsAllowed": 41,
+      "timesShorthanded": 176
     },
     {
       "teamId": 70,
@@ -494,7 +578,13 @@
       "pim": 502,
       "attendanceGames": 27,
       "attendanceTotal": 217198,
-      "attendanceAverage": 8044
+      "attendanceAverage": 8044,
+      "ppPct": 27.9,
+      "ppGoals": 43,
+      "ppOpportunities": 154,
+      "pkPct": 84.1,
+      "pkGoalsAllowed": 27,
+      "timesShorthanded": 170
     },
     {
       "teamId": 60,
@@ -525,7 +615,13 @@
       "pim": 652,
       "attendanceGames": 26,
       "attendanceTotal": 206310,
-      "attendanceAverage": 7935
+      "attendanceAverage": 7935,
+      "ppPct": 22.3,
+      "ppGoals": 42,
+      "ppOpportunities": 188,
+      "pkPct": 79.2,
+      "pkGoalsAllowed": 36,
+      "timesShorthanded": 173
     },
     {
       "teamId": 65,
@@ -556,7 +652,13 @@
       "pim": 665,
       "attendanceGames": 30,
       "attendanceTotal": 152946,
-      "attendanceAverage": 5098
+      "attendanceAverage": 5098,
+      "ppPct": 13.9,
+      "ppGoals": 26,
+      "ppOpportunities": 187,
+      "pkPct": 80.3,
+      "pkGoalsAllowed": 40,
+      "timesShorthanded": 203
     },
     {
       "teamId": 107,
@@ -587,7 +689,13 @@
       "pim": 750,
       "attendanceGames": 29,
       "attendanceTotal": 89578,
-      "attendanceAverage": 3088
+      "attendanceAverage": 3088,
+      "ppPct": 17.6,
+      "ppGoals": 34,
+      "ppOpportunities": 193,
+      "pkPct": 80.9,
+      "pkGoalsAllowed": 37,
+      "timesShorthanded": 194
     },
     {
       "teamId": 5,
@@ -618,7 +726,13 @@
       "pim": 683,
       "attendanceGames": 30,
       "attendanceTotal": 195859,
-      "attendanceAverage": 6528
+      "attendanceAverage": 6528,
+      "ppPct": 20.9,
+      "ppGoals": 36,
+      "ppOpportunities": 172,
+      "pkPct": 73.1,
+      "pkGoalsAllowed": 49,
+      "timesShorthanded": 182
     },
     {
       "teamId": 53,
@@ -649,7 +763,13 @@
       "pim": 684,
       "attendanceGames": 30,
       "attendanceTotal": 95902,
-      "attendanceAverage": 3196
+      "attendanceAverage": 3196,
+      "ppPct": 21.1,
+      "ppGoals": 38,
+      "ppOpportunities": 180,
+      "pkPct": 78.8,
+      "pkGoalsAllowed": 35,
+      "timesShorthanded": 165
     },
     {
       "teamId": 98,
@@ -680,7 +800,13 @@
       "pim": 646,
       "attendanceGames": 28,
       "attendanceTotal": 42457,
-      "attendanceAverage": 1516
+      "attendanceAverage": 1516,
+      "ppPct": 15.9,
+      "ppGoals": 31,
+      "ppOpportunities": 195,
+      "pkPct": 82.3,
+      "pkGoalsAllowed": 34,
+      "timesShorthanded": 192
     },
     {
       "teamId": 56,
@@ -711,7 +837,13 @@
       "pim": 725,
       "attendanceGames": 33,
       "attendanceTotal": 144763,
-      "attendanceAverage": 4386
+      "attendanceAverage": 4386,
+      "ppPct": 24.4,
+      "ppGoals": 58,
+      "ppOpportunities": 238,
+      "pkPct": 89.4,
+      "pkGoalsAllowed": 23,
+      "timesShorthanded": 216
     },
     {
       "teamId": 11,
@@ -742,7 +874,13 @@
       "pim": 952,
       "attendanceGames": 27,
       "attendanceTotal": 140446,
-      "attendanceAverage": 5201
+      "attendanceAverage": 5201,
+      "ppPct": 17.6,
+      "ppGoals": 40,
+      "ppOpportunities": 227,
+      "pkPct": 79.2,
+      "pkGoalsAllowed": 46,
+      "timesShorthanded": 221
     },
     {
       "teamId": 66,
@@ -773,7 +911,13 @@
       "pim": 777,
       "attendanceGames": 29,
       "attendanceTotal": 138591,
-      "attendanceAverage": 4779
+      "attendanceAverage": 4779,
+      "ppPct": 19.9,
+      "ppGoals": 44,
+      "ppOpportunities": 221,
+      "pkPct": 84.5,
+      "pkGoalsAllowed": 32,
+      "timesShorthanded": 206
     },
     {
       "teamId": 109,
@@ -804,7 +948,13 @@
       "pim": 911,
       "attendanceGames": 30,
       "attendanceTotal": 108381,
-      "attendanceAverage": 3612
+      "attendanceAverage": 3612,
+      "ppPct": 22.7,
+      "ppGoals": 46,
+      "ppOpportunities": 203,
+      "pkPct": 79.6,
+      "pkGoalsAllowed": 46,
+      "timesShorthanded": 226
     },
     {
       "teamId": 96,
@@ -835,7 +985,13 @@
       "pim": 574,
       "attendanceGames": 28,
       "attendanceTotal": 120840,
-      "attendanceAverage": 4315
+      "attendanceAverage": 4315,
+      "ppPct": 17.5,
+      "ppGoals": 40,
+      "ppOpportunities": 228,
+      "pkPct": 83.9,
+      "pkGoalsAllowed": 28,
+      "timesShorthanded": 174
     },
     {
       "teamId": 106,
@@ -866,7 +1022,13 @@
       "pim": 601,
       "attendanceGames": 27,
       "attendanceTotal": 121114,
-      "attendanceAverage": 4485
+      "attendanceAverage": 4485,
+      "ppPct": 21.7,
+      "ppGoals": 45,
+      "ppOpportunities": 207,
+      "pkPct": 78.9,
+      "pkGoalsAllowed": 38,
+      "timesShorthanded": 180
     },
     {
       "teamId": 85,
@@ -897,7 +1059,13 @@
       "pim": 663,
       "attendanceGames": 31,
       "attendanceTotal": 99391,
-      "attendanceAverage": 3206
+      "attendanceAverage": 3206,
+      "ppPct": 15.8,
+      "ppGoals": 28,
+      "ppOpportunities": 177,
+      "pkPct": 74.5,
+      "pkGoalsAllowed": 48,
+      "timesShorthanded": 188
     },
     {
       "teamId": 72,
@@ -928,8 +1096,14 @@
       "pim": 826,
       "attendanceGames": 30,
       "attendanceTotal": 210495,
-      "attendanceAverage": 7016
+      "attendanceAverage": 7016,
+      "ppPct": 16.7,
+      "ppGoals": 26,
+      "ppOpportunities": 156,
+      "pkPct": 75.1,
+      "pkGoalsAllowed": 53,
+      "timesShorthanded": 213
     }
   ],
-  "scrapedAt": "2026-03-16T14:41:58.655Z"
+  "scrapedAt": "2026-03-16T21:11:16.793Z"
 }

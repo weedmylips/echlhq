@@ -4,7 +4,7 @@ import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
 } from "recharts";
-import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import "./TeamPage.css";
 
@@ -62,6 +62,7 @@ export default function TeamPage() {
   const { data: playersData } = useTeamPlayers(teamId);
   const { data: movesData } = useTeamMoves(teamId);
   const { data: teamStats } = useTeamStats(teamId);
+  const { data: leadersData } = useLeaders();
 
   if (isLoading) return <div className="loading-spinner">Loading team…</div>;
   if (error) return <div className="error-box">Error loading team: {error.message}</div>;
@@ -308,12 +309,15 @@ export default function TeamPage() {
               />
             )}
 
-            {/* Stacked: Defensive Efficiency + PIM */}
+            {/* Stacked: Defensive Efficiency + PIM + Special Teams */}
             <div className="stacked-cards">
               {teamStats && standing && (
                 <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
               )}
               {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
+              {teamStats && standing && teamStats.hasST && (
+                <SpecialTeamsCard ts={teamStats} standing={standing} />
+              )}
             </div>
 
             {/* Division Head-to-Head — full width */}
@@ -336,14 +340,34 @@ export default function TeamPage() {
               const top = (arr, key, n = 3) =>
                 [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
 
+              // Look up league rank for a skater in a stat category
+              const normalize = (n) => (n || "").replace(/^x\s+/i, "").replace(/^\*\s*/i, "").trim().toLowerCase();
+              const leagueRankFor = (name, cat) => {
+                const arr = cat === "PTS" ? leadersData?.leaders?.points
+                          : cat === "G"   ? leadersData?.leaders?.goals
+                          :                 leadersData?.leaders?.assists;
+                if (!arr) return null;
+                const entry = arr.find((e) => normalize(e.name) === normalize(name));
+                return (entry && entry.rank <= 30) ? entry.rank : null;
+              };
+
+              // Look up goalie's GAA / SV% from playersData
+              const goalieStats = (name) => {
+                const g = playersData?.goalies?.find(
+                  (g) => normalize(g.player) === normalize(name)
+                );
+                return g || null;
+              };
+
               const cats = [
                 { title: "PTS", players: top(skaters, "pts") },
                 { title: "G",   players: top(skaters, "g") },
                 { title: "A",   players: top(skaters, "a") },
-                ...(goalies.length ? [{ title: "GP (G)", players: top(goalies, "gp") }] : []),
               ].filter((c) => c.players.length > 0);
 
-              if (!cats.length) return null;
+              const topGoalies = [...goalies].sort((a, b) => (b.stats?.gp ?? 0) - (a.stats?.gp ?? 0)).slice(0, 3);
+
+              if (!cats.length && !topGoalies.length) return null;
               return (
                 <div className="card section-card">
                   <div className="card-header">
@@ -353,21 +377,46 @@ export default function TeamPage() {
                   {cats.map(({ title, players }) => (
                     <div key={title} className="mini-leader-block">
                       <div className="mini-leader-cat">{title}</div>
-                      {players.map((p, i) => (
-                        <div key={i} className="mini-leader-row">
-                          <span className="mini-leader-rank">{i + 1}</span>
-                          <span className="mini-leader-name">{p.player}</span>
-                          <span className="mini-leader-team">{p.position}</span>
-                          <span className="mini-leader-val">
-                            {title === "PTS" ? p.stats?.pts :
-                             title === "G"   ? p.stats?.g   :
-                             title === "A"   ? p.stats?.a   :
-                                              p.stats?.gp}
-                          </span>
-                        </div>
-                      ))}
+                      {players.map((p, i) => {
+                        const rank = leagueRankFor(p.player, title);
+                        const val  = title === "PTS" ? p.stats?.pts
+                                   : title === "G"   ? p.stats?.g
+                                   :                   p.stats?.a;
+                        return (
+                          <div key={i} className="mini-leader-row">
+                            <span className="mini-leader-rank">{i + 1}</span>
+                            <span className="mini-leader-name">{p.player}</span>
+                            <span className="mini-leader-team">{p.position}</span>
+                            <span className="mini-leader-val">{val}</span>
+                            {rank && <span className="league-rank-pill">#{rank}</span>}
+                          </div>
+                        );
+                      })}
                     </div>
                   ))}
+                  {topGoalies.length > 0 && (
+                    <div className="mini-leader-block">
+                      <div className="mini-leader-cat">Goalies</div>
+                      {topGoalies.map((p, i) => {
+                        const gs = goalieStats(p.player);
+                        return (
+                          <div key={i} className="mini-leader-row">
+                            <span className="mini-leader-rank">{i + 1}</span>
+                            <span className="mini-leader-name">{p.player}</span>
+                            <span className="mini-leader-team">G</span>
+                            {gs ? (
+                              <>
+                                <span className="mini-leader-val">{gs.gaa.toFixed(2)}</span>
+                                <span className="mini-goalie-sv">{(gs.svPct * 100).toFixed(1)}%</span>
+                              </>
+                            ) : (
+                              <span className="mini-leader-val">{p.stats?.gp}</span>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
               );
             })()}
@@ -609,10 +658,91 @@ function SeasonArcCard({ ts, team }) {
   );
 }
 
+// ─── Special Teams Card ───────────────────────────────────────────────────────
+function SpecialTeamsCard({ ts, standing }) {
+  const { leagueAvgPP, leagueAvgPK, leaguePPRank, divPPRank, leaguePKRank, divPKRank } = ts;
+  const ppPct = standing.ppPct ?? 0;
+  const pkPct = standing.pkPct ?? 0;
+  const ppAbove = ppPct >= leagueAvgPP;
+  const pkAbove = pkPct >= leagueAvgPK;
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Special Teams</span>
+      </div>
+      <div className="st-body">
+        {/* Power Play */}
+        <div className="st-half">
+          <div className="st-half-label">POWER PLAY</div>
+          <div className="st-pct" style={{ color: ppAbove ? "var(--green)" : "var(--red)" }}>
+            {ppPct.toFixed(1)}%
+          </div>
+          <div className="st-sub">
+            {standing.ppGoals ?? 0} PPG / {standing.ppOpportunities ?? 0} opp
+          </div>
+          <div className="st-ranks">
+            Div: {ordinal(divPPRank)} · League: {ordinal(leaguePPRank)}
+          </div>
+          <div className="st-bar-track">
+            <div
+              className="st-bar-fill"
+              style={{
+                width: `${Math.min(100, leagueAvgPP > 0 ? (ppPct / (leagueAvgPP * 2)) * 100 : 0)}%`,
+                background: ppAbove ? "var(--green)" : "var(--red)",
+              }}
+            />
+            {leagueAvgPP > 0 && (
+              <div
+                className="st-bar-avg"
+                style={{ left: `${Math.min(100, (leagueAvgPP / (leagueAvgPP * 2)) * 100)}%` }}
+                title={`League avg: ${leagueAvgPP.toFixed(1)}%`}
+              />
+            )}
+          </div>
+        </div>
+
+        <div className="st-divider" />
+
+        {/* Penalty Kill */}
+        <div className="st-half">
+          <div className="st-half-label">PENALTY KILL</div>
+          <div className="st-pct" style={{ color: pkAbove ? "var(--green)" : "var(--red)" }}>
+            {pkPct.toFixed(1)}%
+          </div>
+          <div className="st-sub">
+            {standing.pkGoalsAllowed ?? 0} GA / {standing.timesShorthanded ?? 0} SH
+          </div>
+          <div className="st-ranks">
+            Div: {ordinal(divPKRank)} · League: {ordinal(leaguePKRank)}
+          </div>
+          <div className="st-bar-track">
+            <div
+              className="st-bar-fill"
+              style={{
+                width: `${Math.min(100, leagueAvgPK > 0 ? (pkPct / (leagueAvgPK * 1.2)) * 100 : 0)}%`,
+                background: pkAbove ? "var(--green)" : "var(--red)",
+              }}
+            />
+            {leagueAvgPK > 0 && (
+              <div
+                className="st-bar-avg"
+                style={{ left: `${Math.min(100, (leagueAvgPK / (leagueAvgPK * 1.2)) * 100)}%` }}
+                title={`League avg: ${leagueAvgPK.toFixed(1)}%`}
+              />
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ─── Defensive Efficiency Card ────────────────────────────────────────────────
 function DefensiveEfficiencyCard({ ts, team, standing }) {
-  const { gaPerGame, gfPerGame, leagueAvgGA, leagueAvgGF, leagueGARank, divGARank, leagueTotalTeams, divTotalTeams } = ts;
+  const { gaPerGame, gfPerGame, leagueAvgGA, leagueAvgGF, leagueGARank, divGARank, leagueGFRank, divGFRank } = ts;
   const belowAvg = gaPerGame < leagueAvgGA;
+  const offAbove = gfPerGame > leagueAvgGF;
 
   return (
     <div className="card section-card">
@@ -660,6 +790,52 @@ function DefensiveEfficiencyCard({ ts, team, standing }) {
             className="def-bar-avg-marker"
             style={{ left: `${Math.min(100, (leagueAvgGA / (leagueAvgGA * 1.5)) * 100)}%` }}
             title={`League avg: ${leagueAvgGA.toFixed(2)}`}
+          />
+        </div>
+      </div>
+
+      {/* ── Offensive Efficiency section ── */}
+      <div className="def-section-divider" />
+      <div className="card-header" style={{ borderBottom: "none", paddingBottom: 0 }}>
+        <span className="section-label" style={{ margin: 0, fontSize: 11 }}>Offensive Efficiency</span>
+        <span className="def-badge" style={{ color: offAbove ? "var(--green)" : "var(--red)", background: offAbove ? "var(--green-bg)" : "var(--red-bg)" }}>
+          {offAbove ? "Above Average" : "Below Average"}
+        </span>
+      </div>
+      <div className="def-stats-row" style={{ borderBottom: "none" }}>
+        <div className="def-stat">
+          <div className="def-stat-val" style={{ color: offAbove ? "var(--green)" : "var(--red)" }}>
+            {gfPerGame.toFixed(2)}
+          </div>
+          <div className="def-stat-lbl">GF / Game</div>
+        </div>
+        <div className="def-stat">
+          <div className="def-stat-val">{leagueAvgGF.toFixed(2)}</div>
+          <div className="def-stat-lbl">League Avg GF</div>
+        </div>
+        <div className="def-stat">
+          <div className="def-stat-val">{ordinal(leagueGFRank)}</div>
+          <div className="def-stat-lbl">League Rank</div>
+        </div>
+        <div className="def-stat">
+          <div className="def-stat-val">{ordinal(divGFRank)}</div>
+          <div className="def-stat-lbl">Div Rank</div>
+        </div>
+      </div>
+      <div className="def-bar-wrap" style={{ paddingTop: 4 }}>
+        <span className="def-bar-label">GF/G vs League Average</span>
+        <div className="def-bar-track">
+          <div
+            className="def-bar-fill"
+            style={{
+              width: `${Math.min(100, (gfPerGame / (leagueAvgGF * 1.5)) * 100)}%`,
+              background: offAbove ? "var(--green)" : "var(--red)",
+            }}
+          />
+          <div
+            className="def-bar-avg-marker"
+            style={{ left: `${Math.min(100, (leagueAvgGF / (leagueAvgGF * 1.5)) * 100)}%` }}
+            title={`League avg: ${leagueAvgGF.toFixed(2)}`}
           />
         </div>
       </div>
@@ -735,6 +911,17 @@ function DivisionH2HCard({ ts, team, allStandings, navigate }) {
                 <span className="h2h-record">
                   {opp.gp > 0 ? `${opp.w}–${opp.l}` : "—"}
                 </span>
+                {opp.gp > 0 && (
+                  <span
+                    className="h2h-diff"
+                    style={{
+                      color: opp.diff > 0 ? "var(--green)" : opp.diff < 0 ? "var(--red)" : "var(--text-muted)",
+                    }}
+                  >
+                    {opp.diff > 0 ? `+${opp.diff}` : opp.diff}
+                  </span>
+                )}
+                {opp.gp === 0 && <span className="h2h-diff" />}
               </div>
             );
           })}
