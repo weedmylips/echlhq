@@ -869,7 +869,7 @@ async function main() {
   try { existingScores = JSON.parse(fs.readFileSync(scoresPath, "utf8")).scores || []; } catch (_) {}
   const existingIds = new Set(existingScores.filter(s => s.gameId).map(s => s.gameId));
   const newScores = resolvedScores.filter(s => !s.gameId || !existingIds.has(s.gameId));
-  const mergedScores = [...newScores, ...existingScores].slice(0, 500);
+  const mergedScores = [...newScores, ...existingScores].slice(0, 1500);
 
   if (writeJSON(scoresPath, { scores: mergedScores, scrapedAt: now })) {
     const withId = mergedScores.filter((s) => s.gameId).length;

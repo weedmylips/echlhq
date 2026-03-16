@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 /**
- * One-time backfill script — scrapes game scores from the beginning of the
- * current month by probing HockeyTech game report pages and merges them into
+ * One-time backfill script — scrapes game scores for the full 2025-26 ECHL
+ * season by probing HockeyTech game report pages and merges them into
  * client/public/data/scores.json.
  *
  * Usage: node scripts/backfill.js
  *
- * The script probes game IDs in a range (START_ID → END_ID). Each game report
- * page has a title like "Gamesheet: Visiting at Home - Mar 1, 2026" so we can
- * filter by date and extract teams + final score without needing the daily report.
+ * The script probes game IDs in a range (START_ID → END_ID) in batches of 5
+ * concurrent requests. Each game report page has a title like
+ * "Gamesheet: Visiting at Home - Mar 1, 2026" so we can filter by date and
+ * extract teams + final score without needing the daily report.
  */
 
 import * as cheerio from "cheerio";
@@ -30,11 +31,12 @@ const HEADERS = {
   Referer: "https://www.echl.com/",
 };
 
-// Probe window — START is a comfortable buffer before March 1, 2026.
-// Adjust if games are missing (lower START or raise END).
-const START_ID = 24700;
-const END_ID   = 25400;
-const DELAY_MS = 150; // polite delay between requests
+// Probe window — covers the full 2025-26 ECHL season (started Oct 17, 2025).
+// IDs are global across HockeyTech leagues; Oct 2025 games ≈ ID 20000 range.
+const START_ID  = 19000;
+const END_ID    = 25500;
+const BATCH     = 5;    // concurrent requests per batch
+const BATCH_DELAY_MS = 50; // pause between batches
 
 const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
@@ -122,13 +124,12 @@ async function fetchGameInfo(gameId) {
 }
 
 async function main() {
-  // Cutoff = first day of current month
-  const now = new Date();
-  const cutoff    = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1));
-  const cutoffStr = `${MONTH_NAMES[cutoff.getUTCMonth()]} 1, ${cutoff.getUTCFullYear()}`;
+  // Cutoff = ECHL 2025-26 season start (Oct 17, 2025); use Oct 1 as safe buffer
+  const cutoff    = new Date("2025-10-01T00:00:00Z");
+  const cutoffStr = "Oct 1, 2025";
 
-  console.log(`Backfilling ECHL scores from ${cutoffStr} onwards`);
-  console.log(`Probing game IDs ${START_ID}–${END_ID} (this may take a few minutes)…\n`);
+  console.log(`Backfilling full 2025-26 ECHL season scores (from ${cutoffStr})`);
+  console.log(`Probing game IDs ${START_ID}–${END_ID} in batches of ${BATCH}…\n`);
 
   // Load existing scores to skip already-known game IDs
   let existingScores = [];
@@ -140,53 +141,61 @@ async function main() {
   const found = [];
   let alreadyHave = 0, beforeCutoff = 0, notFound = 0;
 
-  for (let id = START_ID; id <= END_ID; id++) {
-    if (existingIds.has(id)) {
-      alreadyHave++;
-      continue;
+  for (let id = START_ID; id <= END_ID; id += BATCH) {
+    const batchIds = Array.from(
+      { length: Math.min(BATCH, END_ID - id + 1) },
+      (_, i) => id + i
+    ).filter(bid => !existingIds.has(bid));
+
+    // Count skipped IDs in this batch
+    alreadyHave += Math.min(BATCH, END_ID - id + 1) - batchIds.length;
+
+    if (batchIds.length === 0) continue;
+
+    const results = await Promise.all(batchIds.map(bid => fetchGameInfo(bid)));
+
+    for (let j = 0; j < batchIds.length; j++) {
+      const bid  = batchIds[j];
+      const info = results[j];
+
+      if (!info) { notFound++; continue; }
+
+      if (info._date < cutoff) {
+        beforeCutoff++;
+        continue;
+      }
+
+      const { _date, ...game } = info;
+      found.push(game);
+      const otStr = game.overtime ? ` (${game.overtime})` : "";
+      console.log(`  ✓ [${bid}] ${game.date}: ${game.visitingTeam} ${game.visitingScore}–${game.homeScore} ${game.homeTeam}${otStr}`);
     }
 
-    process.stdout.write(`  [${id}] `);
-    const info = await fetchGameInfo(id);
-
-    if (!info) {
-      process.stdout.write(`—\n`);
-      notFound++;
-      await new Promise(r => setTimeout(r, DELAY_MS));
-      continue;
+    // Progress every 100 IDs
+    if ((id - START_ID) % 100 === 0) {
+      const pct = Math.round((id - START_ID) / (END_ID - START_ID) * 100);
+      console.log(`  … ${pct}% (${id}/${END_ID}), ${found.length} games found so far`);
     }
 
-    if (info._date < cutoff) {
-      process.stdout.write(`${info.date} (before ${cutoffStr}, skip)\n`);
-      beforeCutoff++;
-      await new Promise(r => setTimeout(r, DELAY_MS));
-      continue;
-    }
-
-    const { _date, ...game } = info;
-    found.push(game);
-    const otStr = game.overtime ? ` (${game.overtime})` : "";
-    process.stdout.write(`✓ ${game.date}: ${game.visitingTeam} ${game.visitingScore}–${game.homeScore} ${game.homeTeam}${otStr}\n`);
-
-    await new Promise(r => setTimeout(r, DELAY_MS));
+    await new Promise(r => setTimeout(r, BATCH_DELAY_MS));
   }
 
   console.log(`\n─────────────────────────────────────`);
-  console.log(`Found:       ${found.length} new games`);
-  console.log(`Already had: ${alreadyHave} game IDs`);
+  console.log(`Found:        ${found.length} new games`);
+  console.log(`Already had:  ${alreadyHave} game IDs`);
   console.log(`Before cutoff: ${beforeCutoff}`);
-  console.log(`Not found:   ${notFound}`);
+  console.log(`Not found:    ${notFound}`);
 
   if (found.length === 0) {
     console.log("\nNothing new to write.");
     return;
   }
 
-  // Sort newest first, merge, deduplicate, cap at 500
+  // Sort newest first, merge, deduplicate, cap at 1500 (full season)
   found.sort((a, b) => new Date(b.date) - new Date(a.date));
   const merged = [...found, ...existingScores]
     .filter((s, i, arr) => !s.gameId || arr.findIndex(x => x.gameId === s.gameId) === i)
-    .slice(0, 500);
+    .slice(0, 1500);
 
   fs.writeFileSync(SCORES_PATH, JSON.stringify({ scores: merged, scrapedAt: new Date().toISOString() }, null, 2), "utf8");
   console.log(`\n✓ Wrote ${merged.length} total games to scores.json`);
