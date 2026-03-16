@@ -147,7 +147,7 @@ export default function TeamPage() {
               <div className="team-header-meta">
                 <span
                   className="division-badge"
-                  style={{ borderColor: team.primaryColor, color: team.primaryColor }}
+                  style={{ borderColor: team.primaryColor, color: "var(--text)" }}
                 >
                   {team.division || "—"} Division
                 </span>
@@ -228,74 +228,7 @@ export default function TeamPage() {
               )}
             </div>
 
-            {/* Playoff Picture — half width */}
-            {teamStats && <PlayoffPictureCard ts={teamStats} team={team} standing={standing} />}
-
-            {/* Recent Moves — half width */}
-            {movesData?.moves?.length > 0 && (
-              <div className="card section-card">
-                <div className="card-header">
-                  <span className="section-label" style={{ margin: 0 }}>Recent Moves</span>
-                </div>
-                <div className="recent-moves-list">
-                  {movesData.moves.slice(0, 10).map((move, i) => (
-                    <div key={i} className="move-row">
-                      <span className="move-icon">{MOVE_ICONS[move.type] || "\u2139\uFE0F"}</span>
-                      <span className="move-player">{move.player}</span>
-                      <span className="move-summary">{move.summary}</span>
-                      <span className="move-date">{move.date}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Home / Road Split — half width */}
-            {standing && (standing.homeRecord || standing.roadRecord) && (() => {
-              const hr = homeRoadRank("home");
-              const rr = homeRoadRank("road");
-              const divName = standing.division || team.division || "Div";
-              return (
-                <div className="card section-card">
-                  <div className="card-header">
-                    <span className="section-label" style={{ margin: 0 }}>Home / Road</span>
-                  </div>
-                  <div className="home-road-split">
-                    <div className="split-block">
-                      <div className="split-label">HOME</div>
-                      <div className="split-record" style={{ color: team.primaryColor }}>
-                        {standing.homeRecord || "—"}
-                      </div>
-                      <div className="split-sub">W–L–OTL–SOL</div>
-                      {(hr.div || hr.league) && (
-                        <div className="split-rank">
-                          {hr.div ? `${ordinal(hr.div)} in ${divName}` : ""}
-                          {hr.div && hr.league ? " · " : ""}
-                          {hr.league ? `${ordinal(hr.league)} in League` : ""}
-                        </div>
-                      )}
-                    </div>
-                    <div className="split-divider" />
-                    <div className="split-block">
-                      <div className="split-label">ROAD</div>
-                      <div className="split-record" style={{ color: team.primaryColor }}>
-                        {standing.roadRecord || "—"}
-                      </div>
-                      <div className="split-sub">W–L–OTL–SOL</div>
-                      {(rr.div || rr.league) && (
-                        <div className="split-rank">
-                          {rr.div ? `${ordinal(rr.div)} in ${divName}` : ""}
-                          {rr.div && rr.league ? " · " : ""}
-                          {rr.league ? `${ordinal(rr.league)} in League` : ""}
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              );
-            })()}
-
-            {/* Team Stats — half width */}
+            {/* Row: Team Stats (large) | Playoff Picture + Home/Road stacked (small) */}
             {standing && (
               <div className="card section-card">
                 <div className="card-header">
@@ -329,16 +262,83 @@ export default function TeamPage() {
               </div>
             )}
 
-            {/* Defensive Efficiency — half width (pairs with Team Stats) */}
-            {teamStats && standing && (
-              <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
-            )}
+            {/* Stacked: Playoff Picture + Home/Road Split */}
+            <div className="stacked-cards">
+              {teamStats && <PlayoffPictureCard ts={teamStats} team={team} standing={standing} />}
+              {standing && (standing.homeRecord || standing.roadRecord) && (() => {
+                const hr = homeRoadRank("home");
+                const rr = homeRoadRank("road");
+                const divName = standing.division || team.division || "Div";
+                return (
+                  <div className="card section-card">
+                    <div className="card-header">
+                      <span className="section-label" style={{ margin: 0 }}>Home / Road</span>
+                    </div>
+                    <div className="home-road-split">
+                      <div className="split-block">
+                        <div className="split-label">HOME</div>
+                        <div className="split-record">
+                          {standing.homeRecord || "—"}
+                        </div>
+                        <div className="split-sub">W–L–OTL–SOL</div>
+                        {(hr.div || hr.league) && (
+                          <div className="split-rank">
+                            {hr.div ? `${ordinal(hr.div)} in ${divName}` : ""}
+                            {hr.div && hr.league ? " · " : ""}
+                            {hr.league ? `${ordinal(hr.league)} in League` : ""}
+                          </div>
+                        )}
+                      </div>
+                      <div className="split-divider" />
+                      <div className="split-block">
+                        <div className="split-label">ROAD</div>
+                        <div className="split-record">
+                          {standing.roadRecord || "—"}
+                        </div>
+                        <div className="split-sub">W–L–OTL–SOL</div>
+                        {(rr.div || rr.league) && (
+                          <div className="split-rank">
+                            {rr.div ? `${ordinal(rr.div)} in ${divName}` : ""}
+                            {rr.div && rr.league ? " · " : ""}
+                            {rr.league ? `${ordinal(rr.league)} in League` : ""}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })()}
+            </div>
 
-            {/* PIM — half width */}
-            {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
-
-            {/* Home Ice Advantage — half width (pairs with PIM) */}
+            {/* Home Ice Advantage (large) */}
             {teamStats && standing && <HomeIceCard ts={teamStats} team={team} standing={standing} />}
+
+            {/* Stacked: Defensive Efficiency + PIM */}
+            <div className="stacked-cards">
+              {teamStats && standing && (
+                <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
+              )}
+              {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
+            </div>
+
+            {/* Recent Moves — full width */}
+            {movesData?.moves?.length > 0 && (
+              <div className="card section-card full-width">
+                <div className="card-header">
+                  <span className="section-label" style={{ margin: 0 }}>Recent Moves</span>
+                </div>
+                <div className="recent-moves-list">
+                  {movesData.moves.slice(0, 10).map((move, i) => (
+                    <div key={i} className="move-row">
+                      <span className="move-icon">{MOVE_ICONS[move.type] || "\u2139\uFE0F"}</span>
+                      <span className="move-player">{move.player}</span>
+                      <span className="move-summary">{move.summary}</span>
+                      <span className="move-date">{move.date}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Division Head-to-Head — full width */}
             {teamStats && (
@@ -433,8 +433,7 @@ export default function TeamPage() {
                             {t.logoUrl && <img src={t.logoUrl} alt="" className="mini-logo" />}
                             <span
                               className="mini-team-name"
-                              style={{ color: t.teamId === standing?.teamId ? team.primaryColor : undefined }}
-                            >{t.teamName}</span>
+                              >{t.teamName}</span>
                           </div>
                         </td>
                         <td className="num">{t.w}</td>
@@ -481,7 +480,7 @@ function PlayoffPictureCard({ ts, team, standing }) {
       </div>
       <div className="playoff-simple-body">
         <div className="playoff-rank-display">
-          <div className="playoff-rank-num" style={{ color: team.primaryColor }}>
+          <div className="playoff-rank-num">
             {ordinal(rank)}
           </div>
           <div className="playoff-rank-label">in {standing.division} Division</div>
@@ -562,7 +561,7 @@ function PctTrendCard({ ts, team, standing }) {
         {trendLabel && <span className="trend-badge" style={{ color: trendColor }}>{trendLabel}</span>}
       </div>
       <div className="chart-meta-row">
-        <span className="chart-meta-val" style={{ color: team.primaryColor }}>
+        <span className="chart-meta-val">
           {(lastPct * 100).toFixed(1)}%
         </span>
         <span className="chart-meta-lbl">Recent PCT</span>
@@ -661,13 +660,13 @@ function DefensiveEfficiencyCard({ ts, team, standing }) {
           <div className="def-stat-lbl">League Avg GA</div>
         </div>
         <div className="def-stat">
-          <div className="def-stat-val" style={{ color: team.primaryColor }}>
+          <div className="def-stat-val">
             {ordinal(leagueGARank)}
           </div>
           <div className="def-stat-lbl">League Rank</div>
         </div>
         <div className="def-stat">
-          <div className="def-stat-val" style={{ color: team.primaryColor }}>
+          <div className="def-stat-val">
             {ordinal(divGARank)}
           </div>
           <div className="def-stat-lbl">Div Rank</div>
@@ -705,7 +704,7 @@ function RegulationWinCard({ ts, team, standing }) {
         <span className="rw-label-badge">{rwLabel}</span>
       </div>
       <div className="rw-body">
-        <div className="rw-pct-display" style={{ color: team.primaryColor }}>
+        <div className="rw-pct-display">
           {rwPct.toFixed(1)}%
         </div>
         <div className="rw-sub">
@@ -797,7 +796,7 @@ function PimCard({ ts, team, standing }) {
       </div>
       <div className="pim-body">
         <div className="pim-stat">
-          <div className="pim-val" style={{ color: team.primaryColor }}>{standing.pim ?? "—"}</div>
+          <div className="pim-val">{standing.pim ?? "—"}</div>
           <div className="pim-lbl">Total PIM</div>
         </div>
         <div className="pim-stat">
@@ -844,7 +843,7 @@ function HomeIceCard({ ts, team, standing }) {
         <div className="home-ice-split">
           <div className="hi-col">
             <div className="hi-label">HOME</div>
-            <div className="hi-pct" style={{ color: team.primaryColor }}>{fmtPct(homeStats.pct)}</div>
+            <div className="hi-pct">{fmtPct(homeStats.pct)}</div>
             <div className="hi-record">{standing.homeRecord}</div>
             <div className="hi-vs-avg">Div avg: {fmtPct(divAvgHomePct)}</div>
             <div className="hi-bar-track">
@@ -855,7 +854,7 @@ function HomeIceCard({ ts, team, standing }) {
           <div className="hi-divider" />
           <div className="hi-col">
             <div className="hi-label">ROAD</div>
-            <div className="hi-pct" style={{ color: team.primaryColor }}>{fmtPct(roadStats.pct)}</div>
+            <div className="hi-pct">{fmtPct(roadStats.pct)}</div>
             <div className="hi-record">{standing.roadRecord}</div>
             <div className="hi-vs-avg">Div avg: {fmtPct(divAvgRoadPct)}</div>
             <div className="hi-bar-track">
