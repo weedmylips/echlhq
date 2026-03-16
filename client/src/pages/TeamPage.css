@@ -820,10 +820,17 @@ tr.playoff-cutoff td {
 
 /* ── Roster Tab ── */
 .roster-sections {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-top: 16px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .roster-sections {
+    grid-template-columns: 1fr;
+  }
 }
 
 .roster-count {
