@@ -975,6 +975,12 @@ function PimCard({ ts, team, standing }) {
           <div className="pim-val">{pimPerGame ?? "—"}</div>
           <div className="pim-lbl">PIM / Game</div>
         </div>
+        {leagueAvgPim && (
+          <div className="pim-stat">
+            <div className="pim-val">{leagueAvgPim}</div>
+            <div className="pim-lbl">League Avg</div>
+          </div>
+        )}
         <div className="pim-stat">
           <div className="pim-val">{ordinal(pimDivRank)}</div>
           <div className="pim-lbl">Div Rank</div>
@@ -983,12 +989,6 @@ function PimCard({ ts, team, standing }) {
           <div className="pim-val">{ordinal(pimLeagueRank)}</div>
           <div className="pim-lbl">League Rank</div>
         </div>
-        {leagueAvgPim && (
-          <div className="pim-stat">
-            <div className="pim-val">{leagueAvgPim}</div>
-            <div className="pim-lbl">League Avg</div>
-          </div>
-        )}
       </div>
     </div>
   );
