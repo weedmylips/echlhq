@@ -228,6 +228,25 @@ export default function TeamPage() {
               )}
             </div>
 
+            {/* Recent Moves — sits next to Recent Games */}
+            {movesData?.moves?.length > 0 && (
+              <div className="card section-card">
+                <div className="card-header">
+                  <span className="section-label" style={{ margin: 0 }}>Recent Moves</span>
+                </div>
+                <div className="recent-moves-list">
+                  {movesData.moves.slice(0, 10).map((move, i) => (
+                    <div key={i} className="move-row">
+                      <span className="move-icon">{MOVE_ICONS[move.type] || "\u2139\uFE0F"}</span>
+                      <span className="move-player">{move.player}</span>
+                      <span className="move-summary">{move.summary}</span>
+                      <span className="move-date">{move.date}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Row: Team Stats (large) | Playoff Picture + Home/Road stacked (small) */}
             {standing && (
               <div className="card section-card">
@@ -320,25 +339,6 @@ export default function TeamPage() {
               )}
               {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
             </div>
-
-            {/* Recent Moves */}
-            {movesData?.moves?.length > 0 && (
-              <div className="card section-card">
-                <div className="card-header">
-                  <span className="section-label" style={{ margin: 0 }}>Recent Moves</span>
-                </div>
-                <div className="recent-moves-list">
-                  {movesData.moves.slice(0, 10).map((move, i) => (
-                    <div key={i} className="move-row">
-                      <span className="move-icon">{MOVE_ICONS[move.type] || "\u2139\uFE0F"}</span>
-                      <span className="move-player">{move.player}</span>
-                      <span className="move-summary">{move.summary}</span>
-                      <span className="move-date">{move.date}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
 
             {/* Division Head-to-Head — full width */}
             {teamStats && (
