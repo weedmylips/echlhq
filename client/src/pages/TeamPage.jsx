@@ -961,33 +961,82 @@ function Last10Strip({ lastTen, primaryColor, compact }) {
   );
 }
 
+const INACTIVE_STATUSES = new Set(["ir", "reserve", "recalled_ahl", "loaned", "suspended", "leave"]);
+
+function statusBadge(p) {
+  if (!p._status || p._status === "active") return null;
+  if (p._status === "ir") {
+    const label = p._irDays ? `IR ${p._irDays}d` : "IR";
+    return <span className="status-badge status-badge-inline status-badge-ir">{label}</span>;
+  }
+  if (p._status === "reserve") return <span className="status-badge status-badge-inline status-badge-res">RES</span>;
+  if (p._status === "recalled_ahl" || p._status === "loaned") return <span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span>;
+  if (p._status === "suspended") return <span className="status-badge status-badge-inline status-badge-susp">SUSP</span>;
+  if (p._status === "leave") return <span className="status-badge status-badge-inline status-badge-res">LEAVE</span>;
+  return null;
+}
+
 function RosterTab({ playersData, rosterData }) {
   if (!playersData?.skaters) {
     return <p className="empty-msg" style={{ padding: "16px" }}>No roster data available.</p>;
   }
 
-  const skaters = playersData.skaters
-    .filter((p) => p.isActive)
-    .sort((a, b) => b.pts - a.pts);
+  // Build lookup: playerName (lower) → roster entry (for status info)
+  const rosterByName = {};
+  for (const p of (rosterData?.roster || [])) {
+    rosterByName[p.player.toLowerCase()] = p;
+  }
 
-  const goalies = (playersData.goalies || [])
+  // Active players from daily report
+  const activeSkaters = playersData.skaters
     .filter((p) => p.isActive)
-    .sort((a, b) => b.gp - a.gp);
+    .sort((a, b) => b.pts - a.pts)
+    .map((p) => {
+      const r = rosterByName[p.player.toLowerCase()];
+      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null };
+    });
 
-  const inactiveSections = [
-    { key: "ir",           label: "Injured Reserve", filter: (p) => p.status === "ir",           badge: "IR",       badgeClass: "status-badge-ir" },
-    { key: "reserve",      label: "Reserve",          filter: (p) => p.status === "reserve",      badge: "RES",      badgeClass: "status-badge-res" },
-    { key: "recalled_ahl", label: "With AHL Club",    filter: (p) => p.status === "recalled_ahl", badge: "\u2191AHL", badgeClass: "status-badge-ahl" },
-    { key: "suspended",    label: "Suspended",        filter: (p) => p.status === "suspended",    badge: "SUSP",     badgeClass: "status-badge-susp" },
-  ];
+  const activeGoalies = (playersData.goalies || [])
+    .filter((p) => p.isActive)
+    .sort((a, b) => b.gp - a.gp)
+    .map((p) => {
+      const r = rosterByName[p.player.toLowerCase()];
+      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null };
+    });
+
+  // Inactive players from roster data not already in the daily report
+  const activeSkatersNames = new Set(activeSkaters.map((p) => p.player.toLowerCase()));
+  const activeGoaliesNames = new Set(activeGoalies.map((p) => p.player.toLowerCase()));
+
+  const inactiveSkaters = (rosterData?.roster || [])
+    .filter((p) => INACTIVE_STATUSES.has(p.status) && p.position !== "G" && !activeSkatersNames.has(p.player.toLowerCase()))
+    .sort(sortByPosition)
+    .map((p) => ({
+      player: p.player, number: p.number, position: p.position,
+      gp: p.stats?.gp ?? 0, g: p.stats?.g ?? 0, a: p.stats?.a ?? 0, pts: p.stats?.pts ?? 0,
+      isRookie: false, _status: p.status, _irDays: p.irDays ?? null,
+    }));
+
+  const inactiveGoalies = (rosterData?.roster || [])
+    .filter((p) => INACTIVE_STATUSES.has(p.status) && p.position === "G" && !activeGoaliesNames.has(p.player.toLowerCase()))
+    .sort(sortByPosition)
+    .map((p) => ({
+      player: p.player, number: p.number, position: p.position,
+      gp: p.stats?.gp ?? 0, w: p.stats?.w ?? 0, l: p.stats?.l ?? 0,
+      gaa: p.stats?.gaa ?? 0, svPct: p.stats?.svPct ?? 0,
+      isRookie: false, _status: p.status, _irDays: p.irDays ?? null,
+    }));
+
+  const allSkaters = [...activeSkaters, ...inactiveSkaters];
+  const allGoalies = [...activeGoalies, ...inactiveGoalies];
 
   return (
     <div className="roster-sections">
-      {skaters.length > 0 && (
+      {allSkaters.length > 0 && (
         <div className="card section-card">
           <div className="card-header">
             <span className="section-label" style={{ margin: 0 }}>Skaters</span>
-            <span className="roster-count">{skaters.length}</span>
+            <span className="roster-count">{allSkaters.length}</span>
           </div>
           <div className="table-wrap">
             <table className="roster-table">
@@ -1003,12 +1052,13 @@ function RosterTab({ playersData, rosterData }) {
                 </tr>
               </thead>
               <tbody>
-                {skaters.map((p, i) => (
+                {allSkaters.map((p, i) => (
                   <tr key={i}>
                     <td className="num">{p.number ?? "—"}</td>
                     <td className="roster-player-name">
                       {p.player}
                       {p.isRookie && <span className="rookie-badge">R</span>}
+                      {statusBadge(p)}
                     </td>
                     <td>{p.position}</td>
                     <td className="num">{p.gp}</td>
@@ -1022,11 +1072,11 @@ function RosterTab({ playersData, rosterData }) {
           </div>
         </div>
       )}
-      {goalies.length > 0 && (
+      {allGoalies.length > 0 && (
         <div className="card section-card">
           <div className="card-header">
             <span className="section-label" style={{ margin: 0 }}>Goalies</span>
-            <span className="roster-count">{goalies.length}</span>
+            <span className="roster-count">{allGoalies.length}</span>
           </div>
           <div className="table-wrap">
             <table className="roster-table">
@@ -1042,18 +1092,19 @@ function RosterTab({ playersData, rosterData }) {
                 </tr>
               </thead>
               <tbody>
-                {goalies.map((p, i) => (
+                {allGoalies.map((p, i) => (
                   <tr key={i}>
                     <td className="num">{p.number ?? "—"}</td>
                     <td className="roster-player-name">
                       {p.player}
                       {p.isRookie && <span className="rookie-badge">R</span>}
+                      {statusBadge(p)}
                     </td>
                     <td className="num">{p.gp}</td>
                     <td className="num">{p.w}</td>
                     <td className="num">{p.l}</td>
-                    <td className="num">{p.gaa.toFixed(2)}</td>
-                    <td className="num">{(p.svPct * 100).toFixed(1)}%</td>
+                    <td className="num">{p.gaa?.toFixed(2) ?? "—"}</td>
+                    <td className="num">{p.svPct ? `${(p.svPct * 100).toFixed(1)}%` : "—"}</td>
                   </tr>
                 ))}
               </tbody>
@@ -1061,51 +1112,6 @@ function RosterTab({ playersData, rosterData }) {
           </div>
         </div>
       )}
-      {rosterData?.roster && inactiveSections.map(({ key, label, filter, badge, badgeClass }) => {
-        const players = rosterData.roster.filter(filter).sort(sortByPosition);
-        if (players.length === 0) return null;
-        return (
-          <div key={key} className="card section-card">
-            <div className="card-header">
-              <span className="section-label" style={{ margin: 0 }}>{label}</span>
-              <span className={`status-badge ${badgeClass}`}>{badge}</span>
-              <span className="roster-count">{players.length}</span>
-            </div>
-            <div className="table-wrap">
-              <table className="roster-table">
-                <thead>
-                  <tr>
-                    <th className="num-col">#</th>
-                    <th>Player</th>
-                    <th>Pos</th>
-                    <th className="num-col">GP</th>
-                    <th className="num-col">G</th>
-                    <th className="num-col">A</th>
-                    <th className="num-col">PTS</th>
-                    {key === "ir" && <th>IR Days</th>}
-                    {key === "suspended" && <th>Games</th>}
-                  </tr>
-                </thead>
-                <tbody>
-                  {players.map((p, i) => (
-                    <tr key={p.playerId || i}>
-                      <td className="num">{p.number ?? "—"}</td>
-                      <td className="roster-player-name">{p.player}</td>
-                      <td>{p.position}</td>
-                      <td className="num">{p.stats?.gp ?? 0}</td>
-                      <td className="num">{p.stats?.g ?? 0}</td>
-                      <td className="num">{p.stats?.a ?? 0}</td>
-                      <td className="num bold">{p.stats?.pts ?? 0}</td>
-                      {key === "ir" && <td>{p.irDays ? `${p.irDays}-day` : "—"}</td>}
-                      {key === "suspended" && <td>{p.suspensionGamesRemaining ?? "—"}</td>}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        );
-      })}
     </div>
   );
 }

@@ -881,6 +881,12 @@ tr.playoff-cutoff td {
   text-transform: uppercase;
 }
 
+.status-badge-inline {
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 9px;
+}
+
 .status-badge-ir {
   background: var(--red-bg);
   color: var(--red);

@@ -340,6 +340,37 @@ function applyStatus(player, status, extra, today) {
   }
 }
 
+// ─── Auto-expire stale IR entries ────────────────────────────────────────────
+
+function expireStaleIR(today) {
+  const files = fs.readdirSync(ROSTERS_DIR).filter((f) => f.endsWith(".json"));
+  let expired = 0;
+  for (const file of files) {
+    const rosterPath = path.join(ROSTERS_DIR, file);
+    const data = readJSON(rosterPath);
+    if (!data?.roster) continue;
+    let changed = false;
+    for (const p of data.roster) {
+      if (p.status !== "ir" || !p.irStartDate || !p.irDays) continue;
+      const expiry = new Date(p.irStartDate);
+      expiry.setDate(expiry.getDate() + p.irDays);
+      if (today >= expiry.toISOString().slice(0, 10)) {
+        p.status = "active";
+        p.irStartDate = null;
+        p.irDays = null;
+        changed = true;
+        console.log(`  ⏱ ${p.player} IR expired (team ${data.teamId})`);
+      }
+    }
+    if (changed) {
+      data.lastTransactionCheck = today;
+      writeJSON(rosterPath, data);
+      expired++;
+    }
+  }
+  return expired;
+}
+
 // ─── Fetch a single day's transactions ───────────────────────────────────────
 
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -398,7 +429,10 @@ async function main() {
     if (i > 0) await delay(1000);
   }
 
-  if (totalChanged === 0 && numDays === 1) {
+  const expired = expireStaleIR(now.toISOString().slice(0, 10));
+  if (expired) console.log(`\nAuto-expired IR for ${expired} roster file(s).`);
+
+  if (totalChanged === 0 && numDays === 1 && expired === 0) {
     console.log("\nNo transactions found. Exiting cleanly.");
   } else {
     console.log(`\nDone. ${totalChanged} roster files updated across ${numDays} day(s).`);
