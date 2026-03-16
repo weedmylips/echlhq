@@ -190,8 +190,8 @@ export default function TeamPage() {
           {/* ── Left/main column ── */}
           <div className="overview-main">
 
-            {/* Recent Games — full width */}
-            <div className="card section-card full-width">
+            {/* Recent Games */}
+            <div className="card section-card">
               <div className="card-header">
                 <span className="section-label" style={{ margin: 0 }}>Recent Games</span>
               </div>
@@ -321,9 +321,9 @@ export default function TeamPage() {
               {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
             </div>
 
-            {/* Recent Moves — full width */}
+            {/* Recent Moves */}
             {movesData?.moves?.length > 0 && (
-              <div className="card section-card full-width">
+              <div className="card section-card">
                 <div className="card-header">
                   <span className="section-label" style={{ margin: 0 }}>Recent Moves</span>
                 </div>
