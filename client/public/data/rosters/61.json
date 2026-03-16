@@ -2,7 +2,7 @@
   "teamId": 61,
   "slug": "wheeling-nailers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "10483",
@@ -809,26 +809,6 @@
       "player": "Randy Hernandez",
       "number": null,
       "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
-      "player": "Cole Tymkin",
-      "number": null,
-      "position": "F",
       "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
@@ -837,26 +817,6 @@
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
-      "player": "Eric Parker",
-      "number": null,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": "Norfolk",
-      "acquiredDate": "2025-10-30",
       "stats": {
         "gp": 0,
         "g": 0,

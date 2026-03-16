@@ -2,7 +2,7 @@
   "teamId": 79,
   "slug": "jacksonville-icemen",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-15",
   "roster": [
     {
       "playerId": "9618",
@@ -229,7 +229,7 @@
       "player": "Dalton Duhart",
       "number": 19,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
       "irStartDate": "2026-03-15",
       "irDays": 3,

@@ -2,7 +2,7 @@
   "teamId": 101,
   "slug": "maine-mariners",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "9425",
@@ -349,7 +349,7 @@
       "player": "Ben Raymond",
       "number": 37,
       "position": "F",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -689,7 +689,7 @@
       "player": "Loke Johansson",
       "number": 55,
       "position": "D",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

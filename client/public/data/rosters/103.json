@@ -2,7 +2,7 @@
   "teamId": 103,
   "slug": "trois-rivieres-lions",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-13",
   "roster": [
     {
       "playerId": "6458",
@@ -109,7 +109,7 @@
       "player": "Anthony Poulin",
       "number": 22,
       "position": "F",
-      "status": "active",
+      "status": "leave",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

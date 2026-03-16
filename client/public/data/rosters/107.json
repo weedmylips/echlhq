@@ -2,7 +2,7 @@
   "teamId": 107,
   "slug": "bloomington-bison",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "9981",
@@ -369,7 +369,7 @@
       "player": "Ilya Tsulygin",
       "number": 24,
       "position": "F",
-      "status": "signed",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

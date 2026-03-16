@@ -2,7 +2,7 @@
   "teamId": 70,
   "slug": "toledo-walleye",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2025-11-11",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "8180",
@@ -649,7 +649,7 @@
       "player": "Carter Gylander",
       "number": 31,
       "position": "G",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

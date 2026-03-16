@@ -2,7 +2,7 @@
   "teamId": 66,
   "slug": "allen-americans",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-15",
   "roster": [
     {
       "playerId": "8586",
@@ -689,7 +689,7 @@
       "player": "Jackson Parsons",
       "number": 31,
       "position": "G",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -829,7 +829,7 @@
       "player": "Braidan Simmons-Fisher",
       "number": null,
       "position": "D",
-      "status": "active",
+      "status": "loaned",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

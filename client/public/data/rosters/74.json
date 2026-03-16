@@ -2,7 +2,7 @@
   "teamId": 74,
   "slug": "adirondack-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-14",
   "roster": [
     {
       "playerId": "9607",
@@ -629,7 +629,7 @@
       "player": "Conner Hutchison",
       "number": 14,
       "position": "D",
-      "status": "reserve",
+      "status": "ir",
       "statusNote": null,
       "irStartDate": "2026-03-13",
       "irDays": 14,

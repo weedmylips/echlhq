@@ -2,7 +2,7 @@
   "teamId": 72,
   "slug": "tulsa-oilers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-15",
   "roster": [
     {
       "playerId": "10838",
@@ -669,7 +669,7 @@
       "player": "Michael Davies",
       "number": 21,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -729,7 +729,7 @@
       "player": "Cade McNelly",
       "number": 3,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
