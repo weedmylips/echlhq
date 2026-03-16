@@ -1047,6 +1047,30 @@ async function main() {
     }
   }
 
+  // Prune box scores — keep only the last 10 games per team
+  const keepIds = new Set();
+  const teamLastGames = {};
+  for (const s of mergedScores) {
+    if (!s.gameId) continue;
+    for (const t of [s.homeTeam, s.visitingTeam]) {
+      if (!t) continue;
+      if (!teamLastGames[t]) teamLastGames[t] = [];
+      if (teamLastGames[t].length < 10) teamLastGames[t].push(s.gameId);
+    }
+    if (Object.values(teamLastGames).every((g) => g.length >= 10)) break;
+  }
+  Object.values(teamLastGames).forEach((ids) => ids.forEach((id) => keepIds.add(id)));
+  const allBoxscoreFiles = fs.readdirSync(BOXSCORES_DIR).filter((f) => f.endsWith(".json"));
+  let pruned = 0;
+  for (const f of allBoxscoreFiles) {
+    const id = parseInt(f);
+    if (!keepIds.has(id)) {
+      fs.unlinkSync(path.join(BOXSCORES_DIR, f));
+      pruned++;
+    }
+  }
+  if (pruned > 0) console.log(`  ✓ pruned ${pruned} old box score(s) (keeping last 10 per team)`);
+
   // Write meta (persist lastGameId for next run's seed)
   writeJSON(metaPath, {
     updatedAt:   now,
