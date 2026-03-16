@@ -318,9 +318,7 @@ export default function TeamPage() {
 
             {/* Division Head-to-Head — full width */}
             {teamStats && (
-              <div className="full-width">
-                <DivisionH2HCard ts={teamStats} team={team} allStandings={allStandings} navigate={navigate} />
-              </div>
+              <DivisionH2HCard ts={teamStats} team={team} allStandings={allStandings} navigate={navigate} />
             )}
 
           </div>
