@@ -340,7 +340,7 @@ export default function TeamPage() {
               const goalies = rosterData.roster.filter(
                 (p) => p.position === "G" && (p.stats?.gp ?? 0) > 0
               );
-              const top = (arr, key, n = 3) =>
+              const top = (arr, key, n = 15) =>
                 [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
 
               // Look up league rank for a skater in a stat category
@@ -352,6 +352,12 @@ export default function TeamPage() {
                 if (!arr) return null;
                 const entry = arr.find((e) => normalize(e.name) === normalize(name));
                 return (entry && entry.rank <= 30) ? entry.rank : null;
+              };
+              const leagueRankForGoalie = (name) => {
+                const arr = leadersData?.leaders?.svPct;
+                if (!arr) return null;
+                const entry = arr.find((e) => normalize(e.name) === normalize(name));
+                return entry ? entry.rank : null;
               };
 
               // Look up goalie's GAA / SV% from playersData
@@ -368,7 +374,7 @@ export default function TeamPage() {
                 { title: "A",   players: top(skaters, "a") },
               ].filter((c) => c.players.length > 0);
 
-              const topGoalies = [...goalies].sort((a, b) => (b.stats?.gp ?? 0) - (a.stats?.gp ?? 0)).slice(0, 3);
+              const topGoalies = [...goalies].sort((a, b) => (b.stats?.gp ?? 0) - (a.stats?.gp ?? 0));
 
               if (!cats.length && !topGoalies.length) return null;
               return (
@@ -404,11 +410,13 @@ export default function TeamPage() {
                       <div className="mini-leader-cat">Goalies</div>
                       {topGoalies.map((p, i) => {
                         const gs = goalieStats(p.player);
+                        const gRank = leagueRankForGoalie(p.player);
                         return (
                           <div key={i} className="mini-leader-row">
+                            <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-name-group">
                               <span className="mini-leader-name">{p.player}</span>
-                              <span className="mini-leader-rank">{i + 1}</span>
+                              {gRank && <span className="league-rank-pill">#{gRank}</span>}
                             </span>
                             <span className="mini-leader-team">G</span>
                             {gs ? (
