@@ -107,18 +107,25 @@ function BoxScoreContent({ data }) {
         <div className="bs-section">
           <div className="bs-section-title">Three Stars</div>
           <div className="bs-stars">
-            {stars.map((s) => (
-              <div key={s.star} className="bs-star">
-                <span className="bs-star-num">{s.star === 1 ? "★" : s.star === 2 ? "★★" : "★★★"}</span>
-                <span className="bs-star-name">{s.name}</span>
-                <span className="bs-star-team">{s.team}</span>
-                {s.isGoalie && s.saves != null ? (
-                  <span className="bs-star-stats">{s.saves} SV · {(s.svPct * 100).toFixed(1)}%</span>
-                ) : s.pts != null ? (
-                  <span className="bs-star-stats">{s.g}G {s.a}A</span>
-                ) : null}
-              </div>
-            ))}
+            {(() => {
+              const allGoalies = [...(goalieStats?.visiting || []), ...(goalieStats?.home || [])];
+              const goalieMap = Object.fromEntries(allGoalies.filter(g => g.number).map(g => [g.name, g]));
+              return stars.map((s) => {
+                const gl = goalieMap[s.name];
+                return (
+                  <div key={s.star} className="bs-star">
+                    <span className="bs-star-num">{s.star === 1 ? "★" : s.star === 2 ? "★★" : "★★★"}</span>
+                    <span className="bs-star-name">{s.name}</span>
+                    <span className="bs-star-team">{s.team}</span>
+                    {gl ? (
+                      <span className="bs-star-stats">{gl.saves} SV · {(gl.svPct * 100).toFixed(1)}%</span>
+                    ) : s.pts != null ? (
+                      <span className="bs-star-stats">{s.g}G {s.a}A</span>
+                    ) : null}
+                  </div>
+                );
+              });
+            })()}
           </div>
         </div>
       )}
