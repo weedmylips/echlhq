@@ -193,7 +193,7 @@
       "player": "Chris Ortiz",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 20,
       "g": 2,
       "a": 10,
@@ -518,5 +518,5 @@
       "svPct": 0.848
     }
   ],
-  "scrapedAt": "2026-03-17T03:25:00.193Z"
+  "scrapedAt": "2026-03-17T14:52:17.015Z"
 }

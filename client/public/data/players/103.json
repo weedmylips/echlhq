@@ -49,7 +49,7 @@
       "number": 27,
       "player": "Jacob Dion",
       "position": "D",
-      "isRookie": false,
+      "isRookie": true,
       "isActive": true,
       "gp": 54,
       "g": 5,
@@ -391,7 +391,7 @@
       "player": "William Lavallière",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 5,
       "g": 0,
       "a": 0,
@@ -413,7 +413,7 @@
       "player": "Hunter Jones",
       "position": "G",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 23,
       "g": 0,
       "a": 0,
@@ -437,7 +437,7 @@
       "player": "William Lavallière",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 5,
       "w": 3,
       "l": 1,
@@ -450,7 +450,7 @@
       "player": "Hunter Jones",
       "position": "G",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 23,
       "w": 15,
       "l": 6,
@@ -485,5 +485,5 @@
       "svPct": 0.824
     }
   ],
-  "scrapedAt": "2026-03-17T03:25:00.193Z"
+  "scrapedAt": "2026-03-17T14:52:17.015Z"
 }

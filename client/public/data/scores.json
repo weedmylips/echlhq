@@ -1,6 +1,16 @@
 {
   "scores": [
     {
+      "visitingTeam": "Toledo",
+      "visitingScore": 5,
+      "homeTeam": "Savannah",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "5-4",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
       "visitingTeam": "Trois-Rivières",
       "visitingScore": 1,
       "homeTeam": "Greensboro",
@@ -8971,5 +8981,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-17T03:25:00.193Z"
+  "scrapedAt": "2026-03-17T14:52:17.015Z"
 }

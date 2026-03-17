@@ -134,17 +134,6 @@
       "pts": 17
     },
     {
-      "number": 26,
-      "player": "Nick Anderson",
-      "position": "D",
-      "isRookie": true,
-      "isActive": true,
-      "gp": 31,
-      "g": 4,
-      "a": 10,
-      "pts": 14
-    },
-    {
       "number": 15,
       "player": "Tristan Thompson",
       "position": "D",
@@ -154,6 +143,17 @@
       "g": 3,
       "a": 11,
       "pts": 14
+    },
+    {
+      "number": 26,
+      "player": "Nick Anderson",
+      "position": "D",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 31,
+      "g": 4,
+      "a": 9,
+      "pts": 13
     },
     {
       "number": 41,
@@ -174,8 +174,8 @@
       "isActive": true,
       "gp": 39,
       "g": 2,
-      "a": 9,
-      "pts": 11
+      "a": 10,
+      "pts": 12
     },
     {
       "number": 27,
@@ -527,5 +527,5 @@
       "svPct": 0.891
     }
   ],
-  "scrapedAt": "2026-03-17T03:25:00.193Z"
+  "scrapedAt": "2026-03-17T14:52:17.015Z"
 }

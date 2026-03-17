@@ -6,8 +6,8 @@
       "player": "Brandon Hawkins",
       "position": "F",
       "isRookie": false,
-      "isActive": false,
-      "gp": 54,
+      "isActive": true,
+      "gp": 55,
       "g": 25,
       "a": 35,
       "pts": 60
@@ -18,10 +18,10 @@
       "position": "F",
       "isRookie": false,
       "isActive": true,
-      "gp": 57,
-      "g": 18,
+      "gp": 58,
+      "g": 19,
       "a": 32,
-      "pts": 50
+      "pts": 51
     },
     {
       "number": 26,
@@ -29,7 +29,7 @@
       "position": "D",
       "isRookie": false,
       "isActive": true,
-      "gp": 57,
+      "gp": 58,
       "g": 6,
       "a": 40,
       "pts": 46
@@ -40,7 +40,7 @@
       "position": "F",
       "isRookie": true,
       "isActive": true,
-      "gp": 54,
+      "gp": 55,
       "g": 22,
       "a": 17,
       "pts": 39
@@ -51,10 +51,10 @@
       "position": "F",
       "isRookie": false,
       "isActive": true,
-      "gp": 53,
+      "gp": 54,
       "g": 15,
-      "a": 19,
-      "pts": 34
+      "a": 20,
+      "pts": 35
     },
     {
       "number": 67,
@@ -62,10 +62,10 @@
       "position": "F",
       "isRookie": false,
       "isActive": true,
-      "gp": 39,
+      "gp": 40,
       "g": 9,
-      "a": 24,
-      "pts": 33
+      "a": 26,
+      "pts": 35
     },
     {
       "number": 17,
@@ -84,21 +84,10 @@
       "position": "D",
       "isRookie": true,
       "isActive": true,
-      "gp": 57,
+      "gp": 58,
       "g": 3,
       "a": 20,
       "pts": 23
-    },
-    {
-      "number": 62,
-      "player": "Garrett Van Wyhe",
-      "position": "F",
-      "isRookie": false,
-      "isActive": true,
-      "gp": 41,
-      "g": 12,
-      "a": 8,
-      "pts": 20
     },
     {
       "number": 7,
@@ -106,10 +95,21 @@
       "position": "F",
       "isRookie": false,
       "isActive": true,
-      "gp": 55,
-      "g": 6,
-      "a": 14,
-      "pts": 20
+      "gp": 56,
+      "g": 7,
+      "a": 15,
+      "pts": 22
+    },
+    {
+      "number": 62,
+      "player": "Garrett Van Wyhe",
+      "position": "F",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 42,
+      "g": 12,
+      "a": 9,
+      "pts": 21
     },
     {
       "number": 79,
@@ -117,7 +117,7 @@
       "position": "F",
       "isRookie": true,
       "isActive": true,
-      "gp": 52,
+      "gp": 53,
       "g": 9,
       "a": 10,
       "pts": 19
@@ -149,7 +149,7 @@
       "player": "Jacob Truscott",
       "position": "D",
       "isRookie": true,
-      "isActive": false,
+      "isActive": true,
       "gp": 43,
       "g": 4,
       "a": 13,
@@ -172,10 +172,10 @@
       "position": "F",
       "isRookie": false,
       "isActive": true,
-      "gp": 47,
-      "g": 5,
+      "gp": 48,
+      "g": 6,
       "a": 9,
-      "pts": 14
+      "pts": 15
     },
     {
       "number": 24,
@@ -183,10 +183,10 @@
       "position": "D",
       "isRookie": false,
       "isActive": true,
-      "gp": 32,
+      "gp": 33,
       "g": 3,
-      "a": 11,
-      "pts": 14
+      "a": 12,
+      "pts": 15
     },
     {
       "number": 39,
@@ -205,10 +205,10 @@
       "position": "F",
       "isRookie": true,
       "isActive": true,
-      "gp": 16,
+      "gp": 17,
       "g": 6,
-      "a": 6,
-      "pts": 12
+      "a": 7,
+      "pts": 13
     },
     {
       "number": 13,
@@ -227,7 +227,7 @@
       "position": "D",
       "isRookie": true,
       "isActive": true,
-      "gp": 44,
+      "gp": 45,
       "g": 2,
       "a": 9,
       "pts": 11
@@ -244,12 +244,23 @@
       "pts": 10
     },
     {
+      "number": 11,
+      "player": "Brendon Michaelian",
+      "position": "D",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 29,
+      "g": 4,
+      "a": 4,
+      "pts": 8
+    },
+    {
       "number": 28,
       "player": "Brandon Kruse",
       "position": "F",
       "isRookie": false,
       "isActive": true,
-      "gp": 14,
+      "gp": 15,
       "g": 1,
       "a": 7,
       "pts": 8
@@ -263,17 +274,6 @@
       "gp": 12,
       "g": 5,
       "a": 2,
-      "pts": 7
-    },
-    {
-      "number": 11,
-      "player": "Brendon Michaelian",
-      "position": "D",
-      "isRookie": false,
-      "isActive": true,
-      "gp": 28,
-      "g": 3,
-      "a": 4,
       "pts": 7
     },
     {
@@ -304,7 +304,7 @@
       "position": "D",
       "isRookie": false,
       "isActive": true,
-      "gp": 29,
+      "gp": 30,
       "g": 1,
       "a": 4,
       "pts": 5
@@ -332,6 +332,17 @@
       "pts": 2
     },
     {
+      "number": 22,
+      "player": "Reilly Funk",
+      "position": "F",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 4,
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
       "number": 30,
       "player": "Matt Jurusik",
       "position": "G",
@@ -349,17 +360,6 @@
       "isRookie": true,
       "isActive": false,
       "gp": 1,
-      "g": 0,
-      "a": 0,
-      "pts": 0
-    },
-    {
-      "number": 22,
-      "player": "Reilly Funk",
-      "position": "F",
-      "isRookie": true,
-      "isActive": true,
-      "gp": 3,
       "g": 0,
       "a": 0,
       "pts": 0
@@ -391,7 +391,7 @@
       "player": "Nolan Lalonde",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 19,
       "g": 0,
       "a": 0,
@@ -403,7 +403,7 @@
       "position": "G",
       "isRookie": false,
       "isActive": true,
-      "gp": 25,
+      "gp": 26,
       "g": 0,
       "a": 0,
       "pts": 0
@@ -441,7 +441,7 @@
       "player": "Nolan Lalonde",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 19,
       "w": 10,
       "l": 3,
@@ -455,13 +455,13 @@
       "position": "G",
       "isRookie": false,
       "isActive": true,
-      "gp": 25,
-      "w": 15,
+      "gp": 26,
+      "w": 16,
       "l": 7,
-      "ga": 63,
-      "gaa": 2.51,
-      "svPct": 0.911
+      "ga": 67,
+      "gaa": 2.57,
+      "svPct": 0.909
     }
   ],
-  "scrapedAt": "2026-03-17T03:25:00.193Z"
+  "scrapedAt": "2026-03-17T14:52:17.015Z"
 }

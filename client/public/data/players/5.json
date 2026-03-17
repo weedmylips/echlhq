@@ -501,7 +501,7 @@
       "player": "Luke Pavicich",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 10,
       "g": 0,
       "a": 0,
@@ -514,7 +514,7 @@
       "player": "Luke Pavicich",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 10,
       "w": 4,
       "l": 5,
@@ -562,5 +562,5 @@
       "svPct": 0.85
     }
   ],
-  "scrapedAt": "2026-03-17T03:25:00.193Z"
+  "scrapedAt": "2026-03-17T14:52:17.015Z"
 }

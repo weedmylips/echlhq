@@ -157,14 +157,14 @@
       },
       {
         "rank": 18,
-        "name": "Austin Magera",
-        "team": "FW",
-        "value": 50
+        "name": "Tanner Dickinson",
+        "team": "TOL",
+        "value": 51
       },
       {
         "rank": 19,
-        "name": "Tanner Dickinson",
-        "team": "TOL",
+        "name": "Austin Magera",
+        "team": "FW",
         "value": 50
       }
     ],
@@ -312,15 +312,15 @@
       },
       {
         "rank": 3,
-        "name": "Michal Stinil",
-        "team": "WIC",
-        "value": 207
+        "name": "Brandon Hawkins",
+        "team": "TOL",
+        "value": 212
       },
       {
         "rank": 4,
-        "name": "Brandon Hawkins",
-        "team": "TOL",
-        "value": 206
+        "name": "Michal Stinil",
+        "team": "WIC",
+        "value": 207
       }
     ],
     "shootingPct": [],
@@ -609,17 +609,17 @@
       },
       {
         "rank": 12,
+        "name": "Tanner Dickinson",
+        "value": 51
+      },
+      {
+        "rank": 12,
         "name": "Casey Bailey",
         "value": 51
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "Austin Magera",
-        "value": 50
-      },
-      {
-        "rank": 16,
-        "name": "Tanner Dickinson",
         "value": 50
       },
       {
@@ -778,42 +778,42 @@
         "value": 41
       },
       {
-        "rank": 49,
+        "rank": 44,
+        "name": "Nicholas Zabaneh",
+        "value": 41
+      },
+      {
+        "rank": 50,
         "name": "Jack O'Brien",
         "value": 40
       },
       {
-        "rank": 49,
+        "rank": 50,
         "name": "Nolan Walker",
         "value": 40
       },
       {
-        "rank": 49,
+        "rank": 50,
         "name": "Kristóf Papp",
         "value": 40
       },
       {
-        "rank": 49,
+        "rank": 50,
         "name": "Matt Petgrave",
         "value": 40
       },
       {
-        "rank": 49,
+        "rank": 50,
         "name": "Ryan Chyzowski",
         "value": 40
       },
       {
-        "rank": 49,
+        "rank": 50,
         "name": "Quinn Olson",
         "value": 40
       },
       {
-        "rank": 49,
-        "name": "Nicholas Zabaneh",
-        "value": 40
-      },
-      {
-        "rank": 49,
+        "rank": 50,
         "name": "Sloan Stanick",
         "value": 40
       },
@@ -959,186 +959,186 @@
       },
       {
         "rank": 79,
+        "name": "Bryce Brodzinski",
+        "value": 36
+      },
+      {
+        "rank": 79,
         "name": "Anthony Callin",
         "value": 36
       },
       {
-        "rank": 86,
+        "rank": 87,
         "name": "Jack Adams",
         "value": 35
       },
       {
-        "rank": 86,
+        "rank": 87,
         "name": "Josh Atkinson",
         "value": 35
       },
       {
-        "rank": 86,
+        "rank": 87,
         "name": "Michael Gildon",
         "value": 35
       },
       {
-        "rank": 86,
-        "name": "Bryce Brodzinski",
+        "rank": 87,
+        "name": "Denis Smirnov",
         "value": 35
       },
       {
-        "rank": 86,
+        "rank": 87,
+        "name": "Mitch Lewandowski",
+        "value": 35
+      },
+      {
+        "rank": 87,
         "name": "Charles Martin",
         "value": 35
       },
       {
-        "rank": 86,
+        "rank": 87,
         "name": "Eddie Matsushima",
         "value": 35
       },
       {
-        "rank": 86,
+        "rank": 87,
         "name": "Tyler Weiss",
         "value": 35
       },
       {
-        "rank": 93,
+        "rank": 95,
         "name": "Anthony Bardaro",
         "value": 34
       },
       {
-        "rank": 93,
+        "rank": 95,
         "name": "Ryan O'Hara",
         "value": 34
       },
       {
-        "rank": 93,
+        "rank": 95,
         "name": "James Stefan",
         "value": 34
       },
       {
-        "rank": 93,
-        "name": "Denis Smirnov",
-        "value": 34
-      },
-      {
-        "rank": 97,
+        "rank": 98,
         "name": "Colin Bilek",
         "value": 33
       },
       {
-        "rank": 97,
+        "rank": 98,
         "name": "Brandon Saigeon",
         "value": 33
       },
       {
-        "rank": 97,
+        "rank": 98,
         "name": "Matthew Brown",
         "value": 33
       },
       {
-        "rank": 97,
-        "name": "Mitch Lewandowski",
+        "rank": 98,
+        "name": "Logan Drevitch",
         "value": 33
       },
       {
-        "rank": 97,
+        "rank": 98,
         "name": "Matt DeMelis",
         "value": 33
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Jake Johnson",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Ty Pelton-Byce",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Stanley Cooley",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Jalen Luypen",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Romain Rodzinski",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Andre Ghantous",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Davis Pennington",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Colby McAuley",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Jeremy Hanzel",
         "value": 32
       },
       {
-        "rank": 102,
+        "rank": 103,
         "name": "Dennis Cesana",
         "value": 32
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Tyler Bird",
         "value": 31
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Bobo Carpenter",
         "value": 31
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Justin Janicke",
         "value": 31
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Lee Lapid",
         "value": 31
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Andre Anania",
         "value": 31
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Adam McMaster",
         "value": 31
       },
       {
-        "rank": 112,
-        "name": "Logan Drevitch",
-        "value": 31
-      },
-      {
-        "rank": 112,
+        "rank": 113,
         "name": "Israel Mianscum",
         "value": 31
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Deni Goure",
         "value": 31
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Shane Ott",
         "value": 31
       },
@@ -1709,6 +1709,11 @@
       },
       {
         "rank": 229,
+        "name": "Sam Craggs",
+        "value": 22
+      },
+      {
+        "rank": 229,
         "name": "Nathan Dunkley",
         "value": 22
       },
@@ -1738,267 +1743,262 @@
         "value": 22
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Luke Grainger",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Justin Vaive",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Drake Burgin",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Max Graham",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Brody Crane",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Sahil Panwar",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Jadon Joseph",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Brett Budgell",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
+        "name": "Garrett Van Wyhe",
+        "value": 21
+      },
+      {
+        "rank": 242,
         "name": "Coulson Pitre",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Lincoln Griffin",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Rasmus Ekström",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Jaden Shields",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Kirby Proctor",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Max Patterson",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Cédric Desruisseaux",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Joe Dunlap",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Luc Salem",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Brett Budgell",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Brad Morrison",
         "value": 21
       },
       {
-        "rank": 241,
+        "rank": 242,
         "name": "Greg Smith",
         "value": 21
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Oliver Cooper",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Kyle Penney",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Mike McNamee",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Mitch Wahl",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Robbie Holmes",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Nick Canade",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Ludwig Persson",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Josh Groll",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Justin Young",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Owen Robinson",
         "value": 20
       },
       {
-        "rank": 261,
-        "name": "Garrett Van Wyhe",
-        "value": 20
-      },
-      {
-        "rank": 261,
-        "name": "Sam Craggs",
-        "value": 20
-      },
-      {
-        "rank": 261,
+        "rank": 263,
         "name": "Tyler Poulsen",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Grant Loven",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Chase Pauls",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
+        "name": "Matt Koopman",
+        "value": 20
+      },
+      {
+        "rank": 263,
         "name": "Evan Nause",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Andrew Nielsen",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Anthony Poulin",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Riku Ishida",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Chongmin Lee",
         "value": 20
       },
       {
-        "rank": 261,
+        "rank": 263,
         "name": "Blake Biondi",
         "value": 20
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Aaron Bohlinger",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Patrick Kyte",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "William Dufour",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Brayden Edwards",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Brett Moravec",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Nate Roy",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Patrick Grasso",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Donavan Houle",
         "value": 19
       },
       {
-        "rank": 282,
-        "name": "Matt Koopman",
-        "value": 19
-      },
-      {
-        "rank": 282,
+        "rank": 283,
         "name": "Sebastian Vidmar",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "John Gelatt",
         "value": 19
       },
       {
-        "rank": 282,
+        "rank": 283,
         "name": "Artyom Borshyov",
         "value": 19
       },
@@ -2089,6 +2089,11 @@
       },
       {
         "rank": 294,
+        "name": "Ryan Sullivan",
+        "value": 18
+      },
+      {
+        "rank": 294,
         "name": "Reece Vitelli",
         "value": 18
       },
@@ -2128,107 +2133,102 @@
         "value": 18
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Jett Jones",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Nick Portz",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Mason Nevers",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Jaden Shields",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Dean Loukus",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Brady Stonehouse",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Ryan Mahshie",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "David Breazeale",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Colby Ambrosio",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Will Hillman",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Jacob Truscott",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "T.J. Friedmann",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Taos Jordan",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Aidan Fulp",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Nick Nardecchia",
         "value": 17
       },
       {
-        "rank": 319,
-        "name": "Ryan Sullivan",
-        "value": 17
-      },
-      {
-        "rank": 319,
+        "rank": 320,
         "name": "Jaxon Bellamy",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Tommy Cormier",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Maxim Barbashev",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Parker Gavlas",
         "value": 17
       },
       {
-        "rank": 319,
+        "rank": 320,
         "name": "Noah Delmas",
         "value": 17
       },
@@ -2424,6 +2424,16 @@
       },
       {
         "rank": 365,
+        "name": "Conlan Keenan",
+        "value": 15
+      },
+      {
+        "rank": 365,
+        "name": "Colin Swoyer",
+        "value": 15
+      },
+      {
+        "rank": 365,
         "name": "Dylan Wendt",
         "value": 15
       },
@@ -2488,682 +2498,672 @@
         "value": 15
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Jeff Baum",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Connor Kurth",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "John Fusco",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Antonio Venuto",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Jimmy Glynn",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Anthony Petruzzelli",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Dru Krebs",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Brandon Schultz",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Brad Morrison",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Kevin Gursoy",
         "value": 14
       },
       {
-        "rank": 391,
-        "name": "Conlan Keenan",
-        "value": 14
-      },
-      {
-        "rank": 391,
-        "name": "Colin Swoyer",
-        "value": 14
-      },
-      {
-        "rank": 391,
+        "rank": 393,
         "name": "Duggie Lagrone",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Mike McKee",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Tyson Fawcett",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Chase McLane",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Garrett Van Wyhe",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Declan Smith",
         "value": 14
       },
       {
-        "rank": 391,
-        "name": "Nick Anderson",
-        "value": 14
-      },
-      {
-        "rank": 391,
+        "rank": 393,
         "name": "Tristan Thompson",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Riley Piercey",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Max Dorrington",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Ayden MacDonald",
         "value": 14
       },
       {
-        "rank": 391,
+        "rank": 393,
         "name": "Demetrios Koumontzis",
         "value": 14
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Jordan Kaplan",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Sam Stange",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Isaac Nurse",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Cole Kodsi",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Andrew Bruder",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Charlie Combs",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Lynden McCallum",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Harrison Rees",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Jack Works",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Thomas Caron",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Chad Hillebrand",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
+        "name": "Johnny Waldron",
+        "value": 13
+      },
+      {
+        "rank": 414,
         "name": "Andrei Bakanov",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Dylan Fitze",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Owen Lindmark",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Ryan Pitoscia",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "David Jankowski",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Holden Wale",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Peter Tischke",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Carter Wilkie",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Matt Crasa",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Tristan Amonte",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Nick Carabin",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
+        "name": "Nick Anderson",
+        "value": 13
+      },
+      {
+        "rank": 414,
         "name": "Riley Ginnell",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Mikhail Abramov",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Jordan Biro",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Connor Marritt",
         "value": 13
       },
       {
-        "rank": 415,
+        "rank": 414,
         "name": "Anthony Collins",
         "value": 13
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Mickey Burns",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Ryan Conroy",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Dyllan Gill",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Kade Landry",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Liam Devlin",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Tanner Andrew",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "David Drake",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jordan Martin",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Dustin Manz",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Trevor Zins",
         "value": 12
       },
       {
-        "rank": 442,
-        "name": "Johnny Waldron",
-        "value": 12
-      },
-      {
-        "rank": 442,
+        "rank": 443,
         "name": "Jacques Bouquot",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Brodi Stuart",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Sean Olson",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jake Ratzlaff",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jack Bar",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jaxsen Wiebe",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Mike Koster",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Mitch Deelstra",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
+        "name": "Owen Gallatin",
+        "value": 12
+      },
+      {
+        "rank": 443,
         "name": "Tyler Hylland",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Ross Mitton",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Colby Enns",
         "value": 12
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Chris Ortiz",
         "value": 12
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Brendan Less",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Jordan Steinmetz",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Matt Anderson",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Connor Punnett",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Ethan Szmagaj",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Nolan Krenzen",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Ryan Hofer",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Brent Pedersen",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Robby Drazner",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Matt Murphy",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Tyson Feist",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Daniel Laatsch",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Michael Marchesan",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Dylan Moulton",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Jaxsen Wiebe",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "J.C. Brassard",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Conner Hutchison",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Jacob Graves",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Brayden Hislop",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Jed Pietila",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Connor Joyce",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
+        "name": "Connor Gregga",
+        "value": 11
+      },
+      {
+        "rank": 466,
         "name": "Will Riedell",
         "value": 11
       },
       {
-        "rank": 465,
-        "name": "Owen Gallatin",
+        "rank": 466,
+        "name": "Chris Lipe",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Mathias Laferrière",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Jacob Paquette",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Wyatt McLeod",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Noah Ganske",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Andrew Noel",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Daniel Tedesco",
         "value": 11
       },
       {
-        "rank": 465,
+        "rank": 466,
         "name": "Matt Hubbarde",
         "value": 11
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Christian Felton",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Carson Gicewicz",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Logan Will",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Tate Singleton",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Jackson Kunz",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Kylor Wall",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Mikael Robidoux",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Matt Miller",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Tyler Inamoto",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Ryan McAllister",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "James Hardie",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Marko Reifenberger",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Christopher Cameron",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Braidan Simmons-Fischer",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Nolan Moyle",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "T.J. Friedmann",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Logan Cockerill",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Brody Crane",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Chris Grando",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Ian Pierce",
         "value": 10
       },
       {
-        "rank": 495,
-        "name": "Connor Gregga",
-        "value": 10
-      },
-      {
-        "rank": 495,
+        "rank": 497,
         "name": "Noah Carroll",
         "value": 10
       },
       {
-        "rank": 495,
-        "name": "Chris Lipe",
-        "value": 10
-      },
-      {
-        "rank": 495,
+        "rank": 497,
         "name": "Brandon Schultz",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Lynden McCallum",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Cam McDonald",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Mikael Robidoux",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Brenden Datema",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Dalton Skelly",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Patrick Kyte",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Olivier LeBlanc",
         "value": 10
       },
       {
-        "rank": 495,
+        "rank": 497,
         "name": "Linden Alger",
         "value": 10
       },
@@ -3254,6 +3254,11 @@
       },
       {
         "rank": 527,
+        "name": "Phip Waugh",
+        "value": 9
+      },
+      {
+        "rank": 527,
         "name": "Nolan Orzeck",
         "value": 9
       },
@@ -3293,272 +3298,267 @@
         "value": 9
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Shawn Kennedy",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Ben Brar",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Kade Landry",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Ethan Scardina",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Grant Silianoff",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Tommy Bergsland",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Jack Brackett",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "John Parker-Jones",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Derek Daschke",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Cam Cook",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Zach Bannister",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Miles Gendron",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Vincent Sevigny",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Hudson Wilson",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Nick Deakin-Poot",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Nathan Noel",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "David Jankowski",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Eric Martin",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Alex DiPaolo",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
+        "name": "Brendon Michaelian",
+        "value": 8
+      },
+      {
+        "rank": 553,
         "name": "Brandon Kruse",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Konnor Smith",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Lukas Jirousek",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Seth Fyten",
         "value": 8
       },
       {
-        "rank": 552,
-        "name": "Phip Waugh",
-        "value": 8
-      },
-      {
-        "rank": 552,
+        "rank": 553,
         "name": "Hunter Johannes",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Elliott McDermott",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Brandon Yeamans",
         "value": 8
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Trevor Zins",
         "value": 8
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "John Spetz",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Rhett Parsons",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Jack Matier",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Tristan De Jong",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Kishaun Gervais",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Evan Dougherty",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Garrett Devine",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Will Gavin",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "James Marooney",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Bogdans Hodass",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Eric Parker",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Jack Jaunich",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Tyson Feist",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Anthony Costantini",
         "value": 7
       },
       {
-        "rank": 580,
-        "name": "Brendon Michaelian",
-        "value": 7
-      },
-      {
-        "rank": 580,
+        "rank": 581,
         "name": "Jed Pietila",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Jackson van de Leest",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "John Spetz",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Mitchell Smith",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Ryan McGuire",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Cameron Butler",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Alex DiPaolo",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Ty Cheveldayoff",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Logan Nijhoff",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Garrett Pyke",
         "value": 7
       },
       {
-        "rank": 580,
+        "rank": 581,
         "name": "Blake Wells",
         "value": 7
       },
@@ -5014,6 +5014,11 @@
       },
       {
         "rank": 848,
+        "name": "Reilly Funk",
+        "value": 1
+      },
+      {
+        "rank": 848,
         "name": "Matt Jurusik",
         "value": 1
       },
@@ -5338,1132 +5343,1127 @@
         "value": 1
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Max Smolinski",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Austin Saint",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Brayden Stannard",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Luke Pavicich",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Hunter Sansbury",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "David Tendeck",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Andrei Bakanov",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kyle Neuber",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Carter McPhail",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Evan Orr",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Connor Galloway",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nick McCarry",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Cam Gaudette",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jack Robilotti",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Max Thiessen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Trevor Zins",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Beni Halasz",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Lucas Chard",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Alex Cohen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Niko Huuhtanen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Cody Schiavon",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Carson Focht",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Luke Bast",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Colby Muise",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Davis Bunz",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jake Hamilton",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mike Brown",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Alexis Gravel",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tyler Burnie",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Justin Nachbaur",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Billy Roche",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mitch Deelstra",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Garin Bjorklund",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Doug Scott",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tanner Edwards",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Aaron Chiarot",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ty Taylor",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mitchell Gibson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Seth Eisele",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Carter McPhail",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Bryan Moore",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Yaroslav Yevdokimov",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Caiden Gault",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Lordanthony Grissom",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Josh Zary",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Pierce Charleson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Isaiah Saville",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nathan Berke",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Garrett Devine",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Luke Morgan",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Colton Young",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Noah Kane",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Hunter Vorva",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ryan Dickinson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Luke Pavicich",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tyriq Outen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Aku Koskenvuo",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dillan Fox",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Sam Dabrowski",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Hayden Ford",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "James Marooney",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Austen Swankler",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Vinnie Purpura",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Emile Chouinard",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ian Shane",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Davis Bunz",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Yaniv Perets",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Luke Pavicich",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kyle Pow",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ian Shane",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Logan Terness",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Owen Gallatin",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Gustav Müller",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Thomas Sinclair",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jonathan Melee",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Alex Murray",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nico Blachman",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Cole Beamin",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Samuel Jonsson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nathaniel Day",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jaxon Castor",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Trevor LeDonne",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jake Smith",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Taylor Gauthier",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Eric Parker",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Logan Stein",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tanner Andrew",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jacob Julien",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Timofey Spitserov",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Johnny Curran",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jaxon Castor",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Andrei Bakanov",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Brandon McNally",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Christian Propp",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dilan Savenkov",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Alex Worthington",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kyle Aucoin",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Christian Sarlo",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kyle Bettens",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ryan Ouellette",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Owen Flores",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mitchell Weeks",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Djibril Touré",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mike Greco",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Malik Johnson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jackson Parsons",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Marco Costantini",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tanner Edwards",
         "value": 0
       },
       {
-        "rank": 961,
-        "name": "Reilly Funk",
-        "value": 0
-      },
-      {
-        "rank": 961,
+        "rank": 962,
         "name": "Darian Pilon",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Liam Soulière",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nolan Lalonde",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Carter Gylander",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Noah Giesbrecht",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jake Lee",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kyle Heitzner",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Troy Kobryn",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Christian Propp",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dmitri Toporowski",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Will van der Veen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dallas Comeau",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jake Sibell",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Matthew Henry",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dakota Seaman",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mac Jansen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jake Schultz",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Henry Welsch",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kyle Heitzner",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jakub Málek",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Benjamin Lindberg",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mathieu Boislard",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Topias Leinonen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Sasha Telguine",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Louka Henault",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Michael Bullion",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jack Bostedt",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jared Westcott",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Alexander Stensson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Aaron Chiarot",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Doug Scott",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Lucas Helland",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nathan Torchia",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Rico DiMatteo",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Danny Weight",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nikita Borodaenko",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Cameron Mitchell",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tyriq Outen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ryan Olsen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jonathan Melee",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Mason Reiners",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Michael Suda",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Noah Giesbrecht",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Michael Simpson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Evan Cormier",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Vinnie Purpura",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Samuel Hlavaj",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Sam Coatta",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ty Gibson",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kyle Osterberg",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dante Giannuzzi",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Zach Taylor",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Carter Allen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Zach Bannister",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Wyllum Deveaux",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Bryce Hatten",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Xavier Henry",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kylar Fenton",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Billy Girard",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tynan Ewart",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Luke Cavallin",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Anthony Beauchamp",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jérémy Michaud",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "William Lavallière",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Vincent Duplessis",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Benjamin Gaudreau",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Porter Schachle",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Hunter Hall",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "avier Jean-Louis",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Matt Myers",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "AJ Schlepp",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Brendan Dowler",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Max Dukovac",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Lazarus Kaebel",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jason Horvath",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tyler Kobryn",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Cole Fraser",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kabore Dunn",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Thomas Gale",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Henrik Tikkanen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tristan Lennox",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Connor Federkow",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Parker Gahagen",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Daniel Amesbury",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kasimir Kaskisuo",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Zach Plucinski",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Anson Thornton",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Josh Zinger",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Adam Berg",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jacob Mucitelli",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Nicholas Niemo",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Rilen Kovacevic",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dryden McKay",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Avery Winslow",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Hunter Miska",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Kabore Dunn",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jake Barczewski",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Noah Kane",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Max Neill",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Theo Calvas",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ivan Chukarov",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jacob Böll",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Hugo Ollas",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Callum Tung",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Christian Propp",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jake Sibell",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Dawson McKinney",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Drew Kuzma",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "C.J. Walker",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Billy Roche",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Ruslan Khazheyev",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Chris Brown",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Samuel Huo",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jacob Mucitelli",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jack Bostedt",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Tucker Ness",
         "value": 0
       },
       {
-        "rank": 961,
+        "rank": 962,
         "name": "Jordan Papirny",
         "value": 0
       }
@@ -6545,32 +6545,32 @@
         "value": 22
       },
       {
-        "rank": 16,
+        "rank": 13,
+        "name": "Nicholas Zabaneh",
+        "value": 22
+      },
+      {
+        "rank": 17,
         "name": "Ryan Kirwan",
         "value": 21
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "Jack O'Brien",
         "value": 21
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "Francesco Arcuri",
         "value": 21
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "David Cotton",
         "value": 21
       },
       {
-        "rank": 16,
-        "name": "Nicholas Zabaneh",
-        "value": 21
-      },
-      {
-        "rank": 16,
+        "rank": 17,
         "name": "Drew Callin",
         "value": 21
       },
@@ -6671,6 +6671,11 @@
       },
       {
         "rank": 35,
+        "name": "Tanner Dickinson",
+        "value": 19
+      },
+      {
+        "rank": 35,
         "name": "Jay Dickman",
         "value": 19
       },
@@ -6680,33 +6685,28 @@
         "value": 19
       },
       {
-        "rank": 43,
+        "rank": 44,
         "name": "Connor Lockhart",
         "value": 18
       },
       {
-        "rank": 43,
+        "rank": 44,
         "name": "Kristóf Papp",
         "value": 18
       },
       {
-        "rank": 43,
+        "rank": 44,
         "name": "Brandon Osmundson",
         "value": 18
       },
       {
-        "rank": 43,
+        "rank": 44,
         "name": "Colton Hargrove",
         "value": 18
       },
       {
-        "rank": 43,
+        "rank": 44,
         "name": "Colby McAuley",
-        "value": 18
-      },
-      {
-        "rank": 43,
-        "name": "Tanner Dickinson",
         "value": 18
       },
       {
@@ -7101,6 +7101,11 @@
       },
       {
         "rank": 119,
+        "name": "Bryce Brodzinski",
+        "value": 12
+      },
+      {
+        "rank": 119,
         "name": "Keltie Jeri-Leon",
         "value": 12
       },
@@ -7160,292 +7165,287 @@
         "value": 12
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Sam Stevens",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Hudson Elynuik",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Jack Adams",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Mitch Wahl",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Jack Adams",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Milo Roelens",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Ryan O'Hara",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Wade Murphy",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Alec Butcher",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Connor Kurth",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Matthew Brown",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Brody Crane",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Spencer Asuchak",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Colby Ambrosio",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Josh Nelson",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Adam McMaster",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Will Hillman",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Colby Ambrosio",
         "value": 11
       },
       {
-        "rank": 139,
-        "name": "Bryce Brodzinski",
-        "value": 11
-      },
-      {
-        "rank": 139,
+        "rank": 140,
         "name": "Riley Hughes",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Nick Granowicz",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
+        "name": "Ryan Sullivan",
+        "value": 11
+      },
+      {
+        "rank": 140,
         "name": "Jack O'Brien",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Linus Hemstrom",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Joel Teasdale",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Mark Kaleinikovas",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Lou-Félix Denis",
         "value": 11
       },
       {
-        "rank": 139,
+        "rank": 140,
         "name": "Greg Smith",
         "value": 11
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Elijah Vilio",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Ryan Nolan",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Ty Pelton-Byce",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Patrick Polino",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Dante Sheriff",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Nolan Burke",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Hunter Johannes",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Jeremy Michel",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Connor McMenamin",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Luke Loheit",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Trevor Janicke",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Mike Posma",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Max Graham",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Matt Petgrave",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Cody Laskosky",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Jadon Joseph",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Brett Moravec",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Jordan Ernst",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Brian Carrabes",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Patrick Grasso",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Lincoln Griffin",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Rasmus Ekström",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Spencer Blackwell",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Matt Koopman",
         "value": 10
       },
       {
-        "rank": 166,
-        "name": "Ryan Sullivan",
-        "value": 10
-      },
-      {
-        "rank": 166,
+        "rank": 167,
         "name": "Anthony Beauregard",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Isaac Dufort",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Anthony Poulin",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Ryan Miotto",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "John Gelatt",
         "value": 10
       },
       {
-        "rank": 166,
+        "rank": 167,
         "name": "Nikita Sedov",
         "value": 10
       },
@@ -7931,6 +7931,11 @@
       },
       {
         "rank": 277,
+        "name": "Sam Craggs",
+        "value": 7
+      },
+      {
+        "rank": 277,
         "name": "Chad Hillebrand",
         "value": 7
       },
@@ -8030,1097 +8035,1092 @@
         "value": 7
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Isaac Nurse",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Ryan Francis",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Mickey Burns",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Mason Nevers",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Jarid Lukosevicius",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Ben Hawerchuk",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Josh Atkinson",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Tim Lovell",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Parker Berge",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Jayden Lee",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Jackson Kunz",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Brady Stonehouse",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Ryan Mahshie",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Harrison Israels",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Sam Sedley",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Quinn Warmuth",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Riley McCourt",
         "value": 6
       },
       {
-        "rank": 313,
-        "name": "Sam Craggs",
+        "rank": 314,
+        "name": "Conlan Keenan",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Johnny Waldron",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Justin Michaelian",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Duggie Lagrone",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Dylan Wendt",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Declan Smith",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Dennis Cesana",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Reece Vitelli",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Josh Lopina",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Tristan Amonte",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Isaac Johnson",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Sebastian Vidmar",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Mathias Laferrière",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Riley Piercey",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Griffin Ness",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Mikhail Abramov",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Jake Durflinger",
         "value": 6
       },
       {
-        "rank": 313,
+        "rank": 314,
         "name": "Connor Marritt",
         "value": 6
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Jett Jones",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Carson Gicewicz",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Ben Brar",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Mike McNamee",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Charlie Dodero",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Chris Dodero",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Grant Silianoff",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Jordan Klimek",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Hudson Schandor",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Brent Pedersen",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "John Parker-Jones",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "David Keefer",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Antonio Venuto",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Derek Daschke",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Cam Cook",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Jimmy Glynn",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "James Hardie",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Marko Reifenberger",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Jack Jaunich",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Tyler Paquette",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Michael Marchesan",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Eric Martin",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Andre Anania",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Sam Stange",
         "value": 5
       },
       {
-        "rank": 348,
-        "name": "Conlan Keenan",
-        "value": 5
-      },
-      {
-        "rank": 348,
+        "rank": 349,
         "name": "Nolan Moyle",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Coulson Pitre",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Sean Olson",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "T.J. Friedmann",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Patrick Bajkov",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Taos Jordan",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Jaden Shields",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
+        "name": "Connor Gregga",
+        "value": 5
+      },
+      {
+        "rank": 349,
         "name": "Will Riedell",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Yuki Miura",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Liam Coughlin",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Jacob Dion",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Tyler Hylland",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Jacob Paquette",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Riley Ginnell",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Ross Mitton",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Demetrios Koumontzis",
         "value": 5
       },
       {
-        "rank": 348,
+        "rank": 349,
         "name": "Nate Kallen",
         "value": 5
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Logan Will",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jaden Shields",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jordan Steinmetz",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Andrew Bruder",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Nolan Krenzen",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Tate Singleton",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Collin Saccoman",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Kylor Wall",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Zach Bannister",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Luke LaMaster",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jake McLaughlin",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Will Gavin",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Reece Harsch",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Harrison Rees",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Tristan Thompson",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "David Breazeale",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Cole Tymkin",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Justin Young",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Dawson Barteaux",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Brandon Schultz",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jordan Martin",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Dustin Manz",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Brad Morrison",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Thomas Caron",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jacob Truscott",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
+        "name": "Brendon Michaelian",
+        "value": 4
+      },
+      {
+        "rank": 391,
         "name": "Owen Lindmark",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Connor Fedorek",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Chase McLane",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jackson van de Leest",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Adrien Beraldo",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jacques Bouquot",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "David Jankowski",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Logan Cockerill",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Brody Crane",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Bobby Russell",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Nick Nardecchia",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Evan Nause",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Jaxsen Wiebe",
         "value": 4
       },
       {
-        "rank": 390,
-        "name": "Connor Gregga",
-        "value": 4
-      },
-      {
-        "rank": 390,
+        "rank": 391,
         "name": "Noah Carroll",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Ryan McGuire",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Nick Anderson",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Mitch Deelstra",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Liam Gorman",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "MacAuley Carson",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Aiden Hansen-Bukata",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Robbie Stucker",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Colby Enns",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Daniel Tedesco",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Brandon Yeamans",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Wade Murphy",
         "value": 4
       },
       {
-        "rank": 390,
+        "rank": 391,
         "name": "Adam Pitters",
         "value": 4
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jordan Kaplan",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Christian Felton",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Patrick Kyte",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Connor Doherty",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Ryan Conroy",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Brendan Less",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Anthony Firriolo",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Ethan Scardina",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Tyler Drevitch",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Connor Moore",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Lynden Breen",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Patrick Thomas",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Garrett Pyke",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Tim Rego",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Ben Poisson",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Remy Parker",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Davis Pennington",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Kishaun Gervais",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Evan Dougherty",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Nick Capone",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Artem Kulakov",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Garrett Devine",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jordan Frasca",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Hudson Wilson",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Dru Krebs",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Matt Miller",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Zach Jordan",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Tommy Budnick",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Tanner Andrew",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Daniel Laatsch",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Ryan McAllister",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Aidan Sutter",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Carson Musser",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Connor Fedorek",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Alex DiPaolo",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Mark Duarte",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Nick Andrews",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Colin Swoyer",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jacques Bouquot",
         "value": 3
       },
       {
-        "rank": 442,
-        "name": "Brendon Michaelian",
-        "value": 3
-      },
-      {
-        "rank": 442,
+        "rank": 443,
         "name": "Jed Pietila",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jérémie Biakabutuka",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jaxsen Wiebe",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Lukas Jirousek",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Michael Davies",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Cade McNelly",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jeremy Hanzel",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Luke Reid",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jimmy Dowd Jr.",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Aidan Fulp",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Brayden Hislop",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jed Pietila",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Chris Grando",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "James Hardie",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Adrien Beraldo",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Kolby Johnson",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Chase Pauls",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "avier Bernard",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Connor Joyce",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Seth Fyten",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Parker Bowman",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Nolan Kneen",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jake Wahlin",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Christophe Fillion",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Chris Lipe",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Phip Waugh",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Nick Carabin",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Mike Koster",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Brandon Schultz",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Nolan Orzeck",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Luke Mobley",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Jaxon Bellamy",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Tristan Thompson",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Alex DiPaolo",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Logan Nijhoff",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Mathieu Bizier",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Michael Suda",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Max Dorrington",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Khristian Acosta",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Cam Berg",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Noah Ganske",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Andrew Noel",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Christian Felton",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Garrett Pyke",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Yaroslav Yevdokimov",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Matt Hubbarde",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Artyom Borshyov",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Anthony Collins",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Blake Wells",
         "value": 3
       },
       {
-        "rank": 442,
+        "rank": 443,
         "name": "Cody Laskosky",
         "value": 3
       },
@@ -10021,6 +10021,11 @@
       },
       {
         "rank": 627,
+        "name": "Reilly Funk",
+        "value": 1
+      },
+      {
+        "rank": 627,
         "name": "Brodi Stuart",
         "value": 1
       },
@@ -10400,2002 +10405,1997 @@
         "value": 1
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ken Appleby",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kurtis Henry",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Max Helgeson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle McClellan",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nick Carabin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Adam Robbins",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Liam Kidney",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Hayden Ford",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tommy Scarfone",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cole Fraser",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Aaron Chiarot",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Max Smolinski",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Austin Saint",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Brayden Stannard",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Luke Pavicich",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kade Landry",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kurtis Henry",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Anthony Beauchamp",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle McClellan",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cam Johnson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cole Moberg",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Naumovski",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Hunter Sansbury",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "David Tendeck",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Andrei Bakanov",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Neuber",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Andrew Jarvis",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ethan Haider",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "T.J. Semptimphelter",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dylan Carabia",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Carter McPhail",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Evan Orr",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Connor Galloway",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nick McCarry",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cam Gaudette",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jack Robilotti",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jeff Baum",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jason Horvath",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Barczewski",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nolan Maier",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Max Thiessen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Trevor Zins",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Beni Halasz",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Carter Allen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Eric Olson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Dickinson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ethan Langenegger",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Alton McDermott",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nick Anderson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mark Cooper",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jon Gillies",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lucas Chard",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Alex Cohen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Niko Huuhtanen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cody Schiavon",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Carson Focht",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Luke Bast",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Colby Muise",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Davis Bunz",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Hamilton",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Orgel",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nicky Leivermann",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Bryan Moore",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Porter Schachle",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Hunter",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Scott Docherty",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cole Beamin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mike Brown",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Alexis Gravel",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tyler Burnie",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Justin Nachbaur",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Billy Roche",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mitch Deelstra",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Garin Bjorklund",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Doug Scott",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tanner Edwards",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Aaron Chiarot",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ty Taylor",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mitchell Gibson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Seth Eisele",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cole Fraser",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jordan Power",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mattias Sholl",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Carter McPhail",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Bryan Moore",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Yaroslav Yevdokimov",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Caiden Gault",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lordanthony Grissom",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Josh Zary",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Pierce Charleson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Isaiah Saville",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Todd Skirving",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Helliwell",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jonathan Lemieux",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nathan Berke",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Garrett Devine",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Luke Morgan",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Colton Young",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Noah Kane",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Hunter Vorva",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Dickinson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Luke Pavicich",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tyriq Outen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Aku Koskenvuo",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ethan Szmagaj",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Keith Petruzzelli",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Chris McCarthy",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dillan Fox",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Sam Dabrowski",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Hayden Ford",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "James Marooney",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Austen Swankler",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Vinnie Purpura",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Emile Chouinard",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ian Shane",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Davis Bunz",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Yaniv Perets",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tyler Schleppe",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jakov Novak",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jack LaFontaine",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dylan Wells",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Luke Pavicich",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Pow",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ian Shane",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Logan Terness",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ian Pierce",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dillon Hamaliuk",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Connor Milburn",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Louka Henault",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Owen Gallatin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Gustav Müller",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Thomas Sinclair",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jonathan Melee",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Alex Murray",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nico Blachman",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cole Beamin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Samuel Jonsson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nathaniel Day",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Finn Harding",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Alexander Kuqali",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Maxim Pavlenko",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jaxon Castor",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Trevor LeDonne",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Smith",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Taylor Gauthier",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Killian Kiecker-Olson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Will Magnuson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dustin Geregach",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jace Isley",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cole Beamin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jack Pascucci",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Brayden Nicholetts",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "German Yavaş",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Isaac Poulter",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Eric Parker",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Logan Stein",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tanner Andrew",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jacob Julien",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Timofey Spitserov",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Johnny Curran",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jaxon Castor",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Andrei Bakanov",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Brandon McNally",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Christian Propp",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dilan Savenkov",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Alex Worthington",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Christian Berger",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Connor Joyce",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Holden Wale",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cody Schiavon",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kaleb Tiessen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Aucoin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Christian Sarlo",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Bettens",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Ouellette",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Owen Flores",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mitchell Weeks",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lukas Sillinger",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "David Tendeck",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Timofey Spitserov",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Djibril Touré",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mike Greco",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Malik Johnson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jackson Parsons",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Marco Costantini",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Bobby Russell",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Matt Jurusik",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tanner Edwards",
         "value": 0
       },
       {
-        "rank": 787,
-        "name": "Reilly Funk",
-        "value": 0
-      },
-      {
-        "rank": 787,
+        "rank": 788,
         "name": "Darian Pilon",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Liam Soulière",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nolan Lalonde",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Carter Gylander",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kevin Gursoy",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "David Tendeck",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Will Francis",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jackson Niedermayer",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Matt Koethe",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jeff Faith",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Vyacheslav Buteyets",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Noah Giesbrecht",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Lee",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Heitzner",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Troy Kobryn",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Christian Propp",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dmitri Toporowski",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Will van der Veen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dallas Comeau",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Sibell",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Matthew Henry",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dakota Seaman",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jacob Graves",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Orgel",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jace Isley",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Pierson Brandon",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jeremy Brodeur",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kevin O'Neil",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Gavin Yates",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Daniel Amesbury",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tyler Brennan",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lucas Helland",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mac Jansen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Schultz",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Henry Welsch",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Heitzner",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jakub Málek",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Benjamin Lindberg",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mathieu Boislard",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cameron Supryka",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lordanthony Grissom",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "MacAuley Carson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Steve Oleksy",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cameron Rowe",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Topias Leinonen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Sasha Telguine",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Louka Henault",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Michael Bullion",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ian Pierce",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Billy Constantinou",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Connor Murphy",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Zacharie Giroux",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Kuzmich",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mike Van Unen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Arsenii Sergeev",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kaleb Tiessen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jack Bostedt",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jared Westcott",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Alexander Stensson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Aaron Chiarot",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Doug Scott",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lucas Helland",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nathan Torchia",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Rico DiMatteo",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Masters",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tyler Jette",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Oliver Tarr",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tian Rask",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Matt Davis",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Roddy Ross",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Danny Weight",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nikita Borodaenko",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cameron Mitchell",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tyriq Outen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Olsen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jonathan Melee",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Eamon Powell",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan McAllister",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mason Reiners",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Michael Suda",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Noah Giesbrecht",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Michael Simpson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Evan Cormier",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Vinnie Purpura",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Noah Massie",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lordanthony Grissom",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jack Robilotti",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Matt Hubbarde",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Riley Mercer",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Isaiah Fox",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Will Zmolek",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nikita Borodaenko",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nathan Noel",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lucas Helland",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Samuel Hlavaj",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Sam Coatta",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ty Gibson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kyle Osterberg",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dante Giannuzzi",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Zach Taylor",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Carter Allen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Michael Underwood",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Zackary Jones",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ben Raymond",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jackson Stewart",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Kuzmich",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Brad Arvanitis",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Zach Bannister",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Wyllum Deveaux",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Bryce Hatten",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Xavier Henry",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kylar Fenton",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Billy Girard",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tynan Ewart",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Luke Cavallin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Andrew Coxhead",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Noah Massie",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Landon Fuller",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Anthony Beauchamp",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jérémy Michaud",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "William Lavallière",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Vincent Duplessis",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Benjamin Gaudreau",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cam McDonald",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Adam Samuelsson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Anthony Hora",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "T.J. Walsh",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Michael Ferrandino",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Case McCarthy",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tanner Schachle",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Porter Schachle",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Hunter Hall",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "avier Jean-Louis",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Matt Myers",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "AJ Schlepp",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Brendan Dowler",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Max Dukovac",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Lazarus Kaebel",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jason Horvath",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tyler Kobryn",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cole Fraser",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kabore Dunn",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Thomas Gale",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Henrik Tikkanen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tristan Lennox",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Connor Federkow",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Parker Gahagen",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cooper Gay",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Saige Weinstein",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mathieu Boislard",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Luke LaMaster",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "J.C. Campagna",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Mick Messner",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "T.J. Sneath",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dominic Basse",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dylan Wells",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Daniel Amesbury",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kasimir Kaskisuo",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Zach Plucinski",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Anson Thornton",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Josh Zinger",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Adam Berg",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jacob Mucitelli",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nicholas Niemo",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Rilen Kovacevic",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dryden McKay",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Avery Winslow",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Hunter Miska",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kabore Dunn",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cullen Ferguson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ilya Tsulygin",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Cooper Moore",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tanner Schachle",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dryden McKay",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Barczewski",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Noah Kane",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Max Neill",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Theo Calvas",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ivan Chukarov",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jacob Böll",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Hugo Ollas",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Callum Tung",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Bryce Montgomery",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tian Rask",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "True Crowe",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Blake Swetlikoff",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Andrius Kulbis-Marino",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Nikita Quapp",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Rider McCallum",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Kenny Johnson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Gabe Blanchard",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Christian Propp",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jake Sibell",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dawson McKinney",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Drew Kuzma",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "C.J. Walker",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Billy Roche",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ruslan Khazheyev",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "C.J. Valerian",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Ryan Dickinson",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Craig McCabe",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dawson McKinney",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Zane McIntyre",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Benjamin Lindberg",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Dominic Basse",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Chris Brown",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Samuel Huo",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jacob Mucitelli",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jack Bostedt",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Tucker Ness",
         "value": 0
       },
       {
-        "rank": 787,
+        "rank": 788,
         "name": "Jordan Papirny",
         "value": 0
       }
@@ -12643,6 +12643,11 @@
       },
       {
         "rank": 44,
+        "name": "Mitch Lewandowski",
+        "value": 26
+      },
+      {
+        "rank": 44,
         "name": "Dennis Cesana",
         "value": 26
       },
@@ -12662,102 +12667,97 @@
         "value": 26
       },
       {
-        "rank": 53,
+        "rank": 54,
         "name": "Sam Stevens",
         "value": 25
       },
       {
-        "rank": 53,
+        "rank": 54,
         "name": "Jack Randl",
         "value": 25
       },
       {
-        "rank": 53,
+        "rank": 54,
         "name": "Austin Magera",
         "value": 25
       },
       {
-        "rank": 53,
+        "rank": 54,
         "name": "Brady Fleurent",
         "value": 25
       },
       {
-        "rank": 57,
+        "rank": 54,
+        "name": "Logan Drevitch",
+        "value": 25
+      },
+      {
+        "rank": 59,
         "name": "Oliver Chau",
         "value": 24
       },
       {
-        "rank": 57,
+        "rank": 59,
         "name": "Jack Adams",
         "value": 24
       },
       {
-        "rank": 57,
+        "rank": 59,
         "name": "Nolan Walker",
         "value": 24
       },
       {
-        "rank": 57,
+        "rank": 59,
         "name": "Jaydon Dureau",
         "value": 24
       },
       {
-        "rank": 57,
-        "name": "Mitch Lewandowski",
-        "value": 24
-      },
-      {
-        "rank": 57,
+        "rank": 59,
         "name": "Bryce Brodzinski",
         "value": 24
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Josh Wilkins",
         "value": 23
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Romain Rodzinski",
         "value": 23
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Ryan O'Hara",
         "value": 23
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Connor Lockhart",
         "value": 23
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Bennett MacArthur",
         "value": 23
       },
       {
-        "rank": 63,
-        "name": "Logan Drevitch",
-        "value": 23
-      },
-      {
-        "rank": 63,
+        "rank": 64,
         "name": "Charles Martin",
         "value": 23
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Reed Lebster",
         "value": 23
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Sloan Stanick",
         "value": 23
       },
       {
-        "rank": 63,
+        "rank": 64,
         "name": "Nate Kallen",
         "value": 23
       },
@@ -12948,6 +12948,11 @@
       },
       {
         "rank": 99,
+        "name": "Denis Smirnov",
+        "value": 20
+      },
+      {
+        "rank": 99,
         "name": "Nick Andrews",
         "value": 20
       },
@@ -12957,67 +12962,62 @@
         "value": 20
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Jack O'Brien",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Isak Walther",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Brendan Hoffmann",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Jalen Luypen",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Neil Shea",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Casey Carreau",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Danny Katic",
         "value": 19
       },
       {
-        "rank": 112,
-        "name": "Denis Smirnov",
-        "value": 19
-      },
-      {
-        "rank": 112,
+        "rank": 113,
         "name": "Nicholas Zabaneh",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Anthony Firriolo",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Ryan Miotto",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Luc Salem",
         "value": 19
       },
       {
-        "rank": 112,
+        "rank": 113,
         "name": "Eddie Matsushima",
         "value": 19
       },
@@ -13423,6 +13423,11 @@
       },
       {
         "rank": 194,
+        "name": "Sam Craggs",
+        "value": 15
+      },
+      {
+        "rank": 194,
         "name": "Josh Nelson",
         "value": 15
       },
@@ -13477,177 +13482,172 @@
         "value": 15
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Nick Rhéaume",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Elijah Vilio",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Zack Trott",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Reid Duke",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Hudson Elynuik",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Sean Allen",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Joey Cipollone",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Ryan Nolan",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Angus MacDonell",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Jeff Baum",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Dustin Geregach",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Jake Murray",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Alec Butcher",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Trevor Janicke",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Reece Harsch",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Matthew Quercia",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Colby McAuley",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Brett Budgell",
         "value": 14
       },
       {
-        "rank": 216,
-        "name": "Sam Craggs",
-        "value": 14
-      },
-      {
-        "rank": 216,
+        "rank": 217,
         "name": "Nathan Dunkley",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Brian Carrabes",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Craig Martin",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Will Hillman",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Nathan Dunkley",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Aidan Fulp",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Riley Hughes",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Keaton Pehrson",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Matthew Sop",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Keltie Jeri-Leon",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Jaxon Bellamy",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Isaac Dufort",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Brett Budgell",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Brad Morrison",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Anthony Rinaldi",
         "value": 14
       },
       {
-        "rank": 216,
+        "rank": 217,
         "name": "Adam Pitters",
         "value": 14
       },
@@ -13833,6 +13833,11 @@
       },
       {
         "rank": 273,
+        "name": "Colin Swoyer",
+        "value": 12
+      },
+      {
+        "rank": 273,
         "name": "Mike McKee",
         "value": 12
       },
@@ -13887,192 +13892,187 @@
         "value": 12
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Oliver Cooper",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Kyle Penney",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Robbie Holmes",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Mason Nevers",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Kade Landry",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Jackson Berezowski",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Luke LaMaster",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Jake McLaughlin",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Josh Groll",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Brady Stonehouse",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Dru Krebs",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Max Graham",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Ryan Mahshie",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "David Drake",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Jadon Joseph",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Owen Robinson",
         "value": 11
       },
       {
-        "rank": 298,
-        "name": "Colin Swoyer",
-        "value": 11
-      },
-      {
-        "rank": 298,
+        "rank": 299,
         "name": "Tyler Poulsen",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Tyrell Goulbourne",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Brodi Stuart",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Justin Taylor",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Jacob Graves",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Lincoln Griffin",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Holden Wale",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Peter Tischke",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Rasmus Ekström",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Bobby Russell",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Kyle Jeffers",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Nick Granowicz",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Jack O'Brien",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Zach Jordan",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Tristan Thompson",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Lincoln Hatten",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "MacAuley Carson",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Max Dorrington",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Robbie Stucker",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Blake Biondi",
         "value": 11
       },
       {
-        "rank": 298,
+        "rank": 299,
         "name": "Jordan Biro",
         "value": 11
       },
@@ -14193,6 +14193,11 @@
       },
       {
         "rank": 336,
+        "name": "Matt Koopman",
+        "value": 10
+      },
+      {
+        "rank": 336,
         "name": "Jonny Sorenson",
         "value": 10
       },
@@ -14213,7 +14218,7 @@
       },
       {
         "rank": 336,
-        "name": "Nick Anderson",
+        "name": "Owen Gallatin",
         "value": 10
       },
       {
@@ -14252,1147 +14257,1142 @@
         "value": 10
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Justin Vaive",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Lincoln Griffin",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Carson Denomie",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Ryan Conroy",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Mitch Wahl",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Nick Portz",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Andrew Bruder",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Ethan Szmagaj",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Ben Hawerchuk",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Ryan O'Reilly",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Ryan Cox",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Antonio Venuto",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Robby Drazner",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Jimmy Glynn",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Harrison Rees",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Matt Murphy",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Tyler Inamoto",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Randy Hernández",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Tanner Andrew",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Brett Moravec",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Kevin Lombardi",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Harrison Israels",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Christopher Cameron",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Ty Prefontaine",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Quinn Warmuth",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Thomas Caron",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Braidan Simmons-Fischer",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
+        "name": "Garrett Van Wyhe",
+        "value": 9
+      },
+      {
+        "rank": 372,
         "name": "Will Hillman",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Conlan Keenan",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Jacques Bouquot",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Dylan Moulton",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Owen Lindmark",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Patrick Grasso",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Dylan Wendt",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Conner Hutchison",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "David Jankowski",
         "value": 9
       },
       {
-        "rank": 371,
-        "name": "Matt Koopman",
-        "value": 9
-      },
-      {
-        "rank": 371,
+        "rank": 372,
         "name": "Josh Lopina",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Mike Koster",
         "value": 9
       },
       {
-        "rank": 371,
-        "name": "Owen Gallatin",
+        "rank": 372,
+        "name": "Nick Anderson",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Wyatt McLeod",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "John Gelatt",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Griffin Ness",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Zach Faremouth",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Parker Gavlas",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Cullen Ferguson",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Zach Faremouth",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Demetrios Koumontzis",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Patrick Kyte",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Jake Durflinger",
         "value": 9
       },
       {
-        "rank": 371,
+        "rank": 372,
         "name": "Linden Alger",
         "value": 9
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Luke Grainger",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Kyle Betts",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Logan Lambdin",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Kade Landry",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Brendan Less",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Tony Follmer",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Carter Savoie",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Austin Saint",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Mikael Robidoux",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Carter Berger",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Victor Hadfield",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Daniel Laatsch",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Jordan Martin",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Dustin Manz",
         "value": 8
       },
       {
-        "rank": 422,
-        "name": "Garrett Van Wyhe",
-        "value": 8
-      },
-      {
-        "rank": 422,
+        "rank": 423,
         "name": "Easton Armstrong",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Duggie Lagrone",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Jaxsen Wiebe",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Zachary Brooks",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "T.J. Friedmann",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Dalton Duhart",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Brayden Hislop",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Jed Pietila",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Cameron Buhl",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Connor Joyce",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Spencer Blackwell",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Declan Smith",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "T.J. Lloyd",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Jaxsen Wiebe",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
+        "name": "Chris Lipe",
+        "value": 8
+      },
+      {
+        "rank": 423,
         "name": "Mitch Deelstra",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Mark Estapa",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Jesse Pulkkinen",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Riley Piercey",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Riley Ginnell",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Reilly Connors",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Colby Enns",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Noah Ganske",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Andrew Noel",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Matt Hubbarde",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Mikael Robidoux",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Brenden Datema",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Dalton Skelly",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Jake McGrew",
         "value": 8
       },
       {
-        "rank": 422,
+        "rank": 423,
         "name": "Olivier LeBlanc",
         "value": 8
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Christian Felton",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Andrew Noel",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Shawn Kennedy",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Isaac Nurse",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Jordan Steinmetz",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Milo Roelens",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Nolan Krenzen",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Connor Mayer",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Powell Connor",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Vincent Sevigny",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Anthony Petruzzelli",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Matt Miller",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Nick Deakin-Poot",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Ryan McAllister",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "David Jankowski",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Sahil Panwar",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Terry Broadhurst",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
+        "name": "Johnny Waldron",
+        "value": 7
+      },
+      {
+        "rank": 467,
         "name": "Brandon Kruse",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Adam McMaster",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Roman Kinal",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Sean Olson",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Colby Ambrosio",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Chris Grando",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Jaden Condotta",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Tanner Palocsik",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Ryan Sullivan",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Tristan Amonte",
         "value": 7
       },
       {
-        "rank": 466,
-        "name": "Chris Lipe",
-        "value": 7
-      },
-      {
-        "rank": 466,
+        "rank": 467,
         "name": "Hunter Johannes",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Brandon Schultz",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Alexander Stensson",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Elliott McDermott",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Joel Teasdale",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Tyler Hylland",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Egor Goriunov",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Ross Mitton",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Mikhail Abramov",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Daniel Tedesco",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Colton Leiter",
         "value": 7
       },
       {
-        "rank": 466,
+        "rank": 467,
         "name": "Connor Marritt",
         "value": 7
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "John Spetz",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Rhett Parsons",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Logan Will",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Mickey Burns",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Anthony Firriolo",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Andrew Jarvis",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Tommy Bergsland",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Garrett Pyke",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Brent Pedersen",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Tate Singleton",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Tristan De Jong",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Kylor Wall",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Nick Capone",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Artem Kulakov",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Miles Gendron",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Nathan Noel",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Michael Marchesan",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Tyson Feist",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Anthony Costantini",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Colby Ambrosio",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Jordan Ernst",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Chad Hillebrand",
         "value": 6
       },
       {
-        "rank": 506,
-        "name": "Johnny Waldron",
-        "value": 6
-      },
-      {
-        "rank": 506,
+        "rank": 507,
         "name": "Dylan Fitze",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Tyson Fawcett",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Garrett Van Wyhe",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Ryan Pitoscia",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Logan Cockerill",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Brody Crane",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "John Spetz",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Carter Wilkie",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Mitchell Smith",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Billy Constantinou",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Robert Mastrosimone",
         "value": 6
       },
       {
-        "rank": 506,
-        "name": "Will Riedell",
-        "value": 6
-      },
-      {
-        "rank": 506,
+        "rank": 507,
         "name": "Connor Gregga",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
+        "name": "Will Riedell",
+        "value": 6
+      },
+      {
+        "rank": 507,
         "name": "Noah Carroll",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
+        "name": "Phip Waugh",
+        "value": 6
+      },
+      {
+        "rank": 507,
         "name": "Thomas Stewart",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Nolan Orzeck",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Luke Mobley",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Jacob Paquette",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Adam Samuelsson",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Christian Felton",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Ayden MacDonald",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "David Gagnon",
         "value": 6
       },
       {
-        "rank": 506,
+        "rank": 507,
         "name": "Trevor Zins",
         "value": 6
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Ryan McCleary",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Carson Gicewicz",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Quinton Burns",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Ethan Scardina",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Jack Matier",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Jason Horvath",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Connor Kurth",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Cole Kodsi",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Carter Allen",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Charlie Combs",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Matt Berry",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Colson Gengenbach",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Connor Kurth",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Hudson Wilson",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "James Marooney",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Thomas Farrell",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Lynden McCallum",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Matt Berry",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Cole Tymkin",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Bogdans Hodass",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Eric Parker",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Zach Gallant",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Jordan Kaplan",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "James Hardie",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Marko Reifenberger",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Dawson Barteaux",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Alex DiPaolo",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Jackson Decker",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Lukas Sillinger",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Nolan Moyle",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Tanner Palocsik",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Lukas Jirousek",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Kevin Gursoy",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "T.J. Friedmann",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Nathan Berke",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Seth Fyten",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Matt Crasa",
         "value": 5
       },
       {
-        "rank": 552,
-        "name": "Phip Waugh",
-        "value": 5
-      },
-      {
-        "rank": 552,
+        "rank": 553,
         "name": "Cameron Butler",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Ty Cheveldayoff",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Zachary Massicotte",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Caden Villegas",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Michael Underwood",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Mathias Laferrière",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Seung Jae Lee",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Wade Murphy",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Braden Doyle",
         "value": 5
       },
       {
-        "rank": 552,
+        "rank": 553,
         "name": "Mike Van Unen",
         "value": 5
       },
@@ -17588,12 +17588,12 @@
       },
       {
         "rank": 916,
-        "name": "Tanner Edwards",
+        "name": "Reilly Funk",
         "value": 0
       },
       {
         "rank": 916,
-        "name": "Reilly Funk",
+        "name": "Tanner Edwards",
         "value": 0
       },
       {
@@ -18333,5 +18333,5 @@
       }
     ]
   },
-  "scrapedAt": "2026-03-17T03:25:00.193Z"
+  "scrapedAt": "2026-03-17T14:52:17.015Z"
 }
