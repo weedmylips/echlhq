@@ -1263,7 +1263,7 @@ function RosterTab({ playersData, rosterData }) {
     }));
 
   const byPts = (a, b) => b.pts - a.pts;
-  const forwards   = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position === "F").sort(byPts);
+  const forwards   = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position !== "D" && p.position !== "G").sort(byPts);
   const defensemen = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position === "D").sort(byPts);
   const allGoalies = [...activeGoalies, ...inactiveGoalies];
 
