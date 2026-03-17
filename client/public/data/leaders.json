@@ -14034,12 +14034,5212 @@
         "position": "F"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "Dru Krebs",
         "team": "FW",
         "value": 28,
         "isRookie": false,
         "position": "D"
+      },
+      {
+        "rank": 5,
+        "name": "Samuel Jardine",
+        "team": "IDH",
+        "value": 22,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 6,
+        "name": "Kyle Penney",
+        "team": "FLA",
+        "value": 21,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 6,
+        "name": "Connor Doherty",
+        "team": "FLA",
+        "value": 21,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 6,
+        "name": "Jalen Smereck",
+        "team": "FW",
+        "value": 21,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 9,
+        "name": "Brendan Less",
+        "team": "ATL",
+        "value": 20,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 9,
+        "name": "Casey Carreau",
+        "team": "KC",
+        "value": 20,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 11,
+        "name": "Chad Nychuk",
+        "team": "ATL",
+        "value": 19,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 11,
+        "name": "Kirill Tyutyayev",
+        "team": "FW",
+        "value": 19,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 13,
+        "name": "Jesse Lansdell",
+        "team": "FLA",
+        "value": 18,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 13,
+        "name": "David Cotton",
+        "team": "KC",
+        "value": 18,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 13,
+        "name": "Blake Murray",
+        "team": "FW",
+        "value": 18,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 13,
+        "name": "Alex Aleardi",
+        "team": "FW",
+        "value": 18,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 13,
+        "name": "David Breazeale",
+        "team": "WHL",
+        "value": 18,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 13,
+        "name": "Christopher Cameron",
+        "team": "IND",
+        "value": 18,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 13,
+        "name": "Jacob Graves",
+        "team": "ADK",
+        "value": 18,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 20,
+        "name": "Tarun Fizer",
+        "team": "FLA",
+        "value": 17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 20,
+        "name": "Jack Randl",
+        "team": "KC",
+        "value": 17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 20,
+        "name": "Logan Pietila",
+        "team": "WHL",
+        "value": 17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 20,
+        "name": "Craig Armstrong",
+        "team": "WHL",
+        "value": 17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 20,
+        "name": "Robert Cronin",
+        "team": "MNE",
+        "value": 17,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 20,
+        "name": "Sullivan Mack",
+        "team": "BLM",
+        "value": 17,
+        "isRookie": true,
+        "position": "LW"
+      },
+      {
+        "rank": 26,
+        "name": "Oliver Cooper",
+        "team": "FLA",
+        "value": 16,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 26,
+        "name": "Connor Punnett",
+        "team": "IDH",
+        "value": 16,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 26,
+        "name": "Trevor Janicke",
+        "team": "FW",
+        "value": 16,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 26,
+        "name": "Mike Posma",
+        "team": "WHL",
+        "value": 16,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 26,
+        "name": "Dylan Moulton",
+        "team": "TOL",
+        "value": 16,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 26,
+        "name": "Brannon McManus",
+        "team": "ADK",
+        "value": 16,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 26,
+        "name": "Nick Granowicz",
+        "team": "SAV",
+        "value": 16,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 34,
+        "name": "Justin Janicke",
+        "team": "KC",
+        "value": 15,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 34,
+        "name": "Tyler Inamoto",
+        "team": "FW",
+        "value": 15,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 34,
+        "name": "Nick Grima",
+        "team": "IND",
+        "value": 15,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 34,
+        "name": "Christian Berger",
+        "team": "IND",
+        "value": 15,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 34,
+        "name": "Ty Prefontaine",
+        "team": "ALN",
+        "value": 15,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 34,
+        "name": "Jaxon Bellamy",
+        "team": "MNE",
+        "value": 15,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 40,
+        "name": "Nolan Krenzen",
+        "team": "SC",
+        "value": 14,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 40,
+        "name": "Hudson Wilson",
+        "team": "KC",
+        "value": 14,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 40,
+        "name": "Harrison Rees",
+        "team": "FW",
+        "value": 14,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 40,
+        "name": "Brehdan Engum",
+        "team": "NOR",
+        "value": 14,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 40,
+        "name": "Mitch Lewandowski",
+        "team": "TOL",
+        "value": 14,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 45,
+        "name": "Craig Needham",
+        "team": "FLA",
+        "value": 13,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 45,
+        "name": "Gianfranco Cassaro",
+        "team": "FLA",
+        "value": 13,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 45,
+        "name": "Sean Allen",
+        "team": "FLA",
+        "value": 13,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 45,
+        "name": "Isak Walther",
+        "team": "ATL",
+        "value": 13,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 45,
+        "name": "Alec Butcher",
+        "team": "REA",
+        "value": 13,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 45,
+        "name": "Matt Copponi",
+        "team": "FW",
+        "value": 13,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 45,
+        "name": "Colton Hargrove",
+        "team": "ALN",
+        "value": 13,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 45,
+        "name": "avier Bernard",
+        "team": "RC",
+        "value": 13,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 45,
+        "name": "Michael Underwood",
+        "team": "MNE",
+        "value": 13,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 54,
+        "name": "Oliver Chau",
+        "team": "FLA",
+        "value": 12,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 54,
+        "name": "Stanley Cooley",
+        "team": "SC",
+        "value": 12,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 54,
+        "name": "Connor Mayer",
+        "team": "SC",
+        "value": 12,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 54,
+        "name": "Brent Johnson",
+        "team": "WHL",
+        "value": 12,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 54,
+        "name": "Daniel Laatsch",
+        "team": "WHL",
+        "value": 12,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 54,
+        "name": "Tanner Kelly",
+        "team": "TOL",
+        "value": 12,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 54,
+        "name": "Ryan Wheeler",
+        "team": "ADK",
+        "value": 12,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 54,
+        "name": "Zachary Massicotte",
+        "team": "MNE",
+        "value": 12,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 65,
+        "name": "Alex Young",
+        "team": "ATL",
+        "value": 11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 65,
+        "name": "Jade Miller",
+        "team": "IDH",
+        "value": 11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 65,
+        "name": "Romain Rodzinski",
+        "team": "SC",
+        "value": 11,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 65,
+        "name": "Ludwig Persson",
+        "team": "SC",
+        "value": 11,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 65,
+        "name": "Connor Lockhart",
+        "team": "WHL",
+        "value": 11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 65,
+        "name": "Tommy Budnick",
+        "team": "WHL",
+        "value": 11,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 65,
+        "name": "Andre Anania",
+        "team": "ALN",
+        "value": 11,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 65,
+        "name": "Colin Swoyer",
+        "team": "TOL",
+        "value": 11,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 65,
+        "name": "Alex Campbell",
+        "team": "ADK",
+        "value": 11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 65,
+        "name": "Jake Ratzlaff",
+        "team": "RC",
+        "value": 11,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 75,
+        "name": "Hudson Elynuik",
+        "team": "FLA",
+        "value": 10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 75,
+        "name": "Cody Sylvester",
+        "team": "ATL",
+        "value": 10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 75,
+        "name": "Angus MacDonell",
+        "team": "IDH",
+        "value": 10,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 75,
+        "name": "Simon Pinard",
+        "team": "SC",
+        "value": 10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 75,
+        "name": "Jake Murray",
+        "team": "GVL",
+        "value": 10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 75,
+        "name": "Austin Magera",
+        "team": "FW",
+        "value": 10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 75,
+        "name": "Matthew Brown",
+        "team": "FW",
+        "value": 10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 75,
+        "name": "Michael Gildon",
+        "team": "ALN",
+        "value": 10,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 75,
+        "name": "Will MacKinnon",
+        "team": "TOL",
+        "value": 10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 75,
+        "name": "Chris Lipe",
+        "team": "SAV",
+        "value": 10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 75,
+        "name": "Jacob Perreault",
+        "team": "MNE",
+        "value": 10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 75,
+        "name": "Nikita Sedov",
+        "team": "BLM",
+        "value": 10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 87,
+        "name": "Sam Stevens",
+        "team": "CIN",
+        "value": 9,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Ben Brar",
+        "team": "FLA",
+        "value": 9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Ryan Nolan",
+        "team": "ATL",
+        "value": 9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Chris Dodero",
+        "team": "IDH",
+        "value": 9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Bobo Carpenter",
+        "team": "KC",
+        "value": 9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Reece Harsch",
+        "team": "FW",
+        "value": 9,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 87,
+        "name": "Denis Smirnov",
+        "team": "TOL",
+        "value": 9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Nate Roy",
+        "team": "TOL",
+        "value": 9,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Luke Reid",
+        "team": "ADK",
+        "value": 9,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 87,
+        "name": "Liam Walsh",
+        "team": "SAV",
+        "value": 9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 87,
+        "name": "Keaton Pehrson",
+        "team": "SAV",
+        "value": 9,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 87,
+        "name": "Tristan Amonte",
+        "team": "SAV",
+        "value": 9,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Reid Duke",
+        "team": "FLA",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Isaac Nurse",
+        "team": "FLA",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Tommy Bergsland",
+        "team": "IDH",
+        "value": 8,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 100,
+        "name": "Ben Meehan",
+        "team": "REA",
+        "value": 8,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 100,
+        "name": "Jackson Berezowski",
+        "team": "KC",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Matty De St. Phalle",
+        "team": "WHL",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Randy Hernández",
+        "team": "WHL",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Grant Hebert",
+        "team": "NOR",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Danny Katic",
+        "team": "ALN",
+        "value": 8,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 100,
+        "name": "Nick Andrews",
+        "team": "TOL",
+        "value": 8,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 100,
+        "name": "Brendon Michaelian",
+        "team": "TOL",
+        "value": 8,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 100,
+        "name": "Chaz Smedsrud",
+        "team": "RC",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Seth Fyten",
+        "team": "RC",
+        "value": 8,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Luke Manning",
+        "team": "UTA",
+        "value": 8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 100,
+        "name": "Maxim Barbashev",
+        "team": "UTA",
+        "value": 8,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 117,
+        "name": "Grant Silianoff",
+        "team": "IDH",
+        "value": 7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Josh Wilkins",
+        "team": "SC",
+        "value": 7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Patrick Guzzo",
+        "team": "SC",
+        "value": 7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Jordan Klimek",
+        "team": "SC",
+        "value": 7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 117,
+        "name": "Artem Kulakov",
+        "team": "REA",
+        "value": 7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 117,
+        "name": "Lucas Sowder",
+        "team": "KC",
+        "value": 7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Jimmy Glynn",
+        "team": "KC",
+        "value": 7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Lee Lapid",
+        "team": "IND",
+        "value": 7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Brian Carrabes",
+        "team": "ADK",
+        "value": 7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Jack Bar",
+        "team": "WIC",
+        "value": 7,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 117,
+        "name": "Jordan Gustafson",
+        "team": "TAH",
+        "value": 7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 117,
+        "name": "Anthony Collins",
+        "team": "TAH",
+        "value": 7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Ross MacDougall",
+        "team": "FLA",
+        "value": 6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 132,
+        "name": "Jeremy Michel",
+        "team": "REA",
+        "value": 6,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Miles Gendron",
+        "team": "REA",
+        "value": 6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 132,
+        "name": "Landon McCallum",
+        "team": "KC",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Nolan Sullivan",
+        "team": "KC",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "James Stefan",
+        "team": "FW",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Jack Works",
+        "team": "WHL",
+        "value": 6,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Tyler Paquette",
+        "team": "IND",
+        "value": 6,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Harrison Blaisdell",
+        "team": "ALN",
+        "value": 6,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 132,
+        "name": "Brandon Hawkins",
+        "team": "TOL",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Jacob Truscott",
+        "team": "TOL",
+        "value": 6,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 132,
+        "name": "Kirby Proctor",
+        "team": "WIC",
+        "value": 6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 132,
+        "name": "Matt Koopman",
+        "team": "SAV",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Noah Carroll",
+        "team": "SAV",
+        "value": 6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 132,
+        "name": "Brooklyn Kalmikov",
+        "team": "MNE",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Max Andreev",
+        "team": "MNE",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Israel Mianscum",
+        "team": "TR",
+        "value": 6,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 132,
+        "name": "Parker Gavlas",
+        "team": "BLM",
+        "value": 6,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 132,
+        "name": "Brenden Datema",
+        "team": "BLM",
+        "value": 6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 132,
+        "name": "Kevin Wall",
+        "team": "TAH",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 132,
+        "name": "Sloan Stanick",
+        "team": "TAH",
+        "value": 6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Elijah Vilio",
+        "team": "CIN",
+        "value": 5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 158,
+        "name": "Logan Lambdin",
+        "team": "FLA",
+        "value": 5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Charlie Dodero",
+        "team": "IDH",
+        "value": 5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 158,
+        "name": "Aidan Hreschuk",
+        "team": "IDH",
+        "value": 5,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 158,
+        "name": "Jake Boltmann",
+        "team": "IDH",
+        "value": 5,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 158,
+        "name": "Will Gavin",
+        "team": "KC",
+        "value": 5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Matt Petgrave",
+        "team": "IND",
+        "value": 5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 158,
+        "name": "Jacob Hudson",
+        "team": "MNE",
+        "value": 5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Linus Hemstrom",
+        "team": "MNE",
+        "value": 5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Sebastian Vidmar",
+        "team": "MNE",
+        "value": 5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Anthony Poulin",
+        "team": "TR",
+        "value": 5,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Anthony Callin",
+        "team": "WOR",
+        "value": 5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 158,
+        "name": "Jesse Pulkkinen",
+        "team": "WOR",
+        "value": 5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 158,
+        "name": "Luc Salem",
+        "team": "UTA",
+        "value": 5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 158,
+        "name": "Luke Antonacci",
+        "team": "UTA",
+        "value": 5,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 178,
+        "name": "John Jaworski",
+        "team": "CIN",
+        "value": 4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Hunter Strand",
+        "team": "KAL",
+        "value": 4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Jake McLaughlin",
+        "team": "KC",
+        "value": 4,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 178,
+        "name": "Grant Loven",
+        "team": "ADK",
+        "value": 4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Chase McLane",
+        "team": "ADK",
+        "value": 4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Sean Olson",
+        "team": "ADK",
+        "value": 4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Dennis Cesana",
+        "team": "SAV",
+        "value": 4,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 178,
+        "name": "Connor Gregga",
+        "team": "SAV",
+        "value": 4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Dylan Massie",
+        "team": "IA",
+        "value": 4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "ander Lamppa",
+        "team": "MNE",
+        "value": 4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Mark Estapa",
+        "team": "TR",
+        "value": 4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 178,
+        "name": "Dylan Gratton",
+        "team": "UTA",
+        "value": 4,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 178,
+        "name": "C.J. Valerian",
+        "team": "TAH",
+        "value": 4,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Ryan Kirwan",
+        "team": "CIN",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Aaron Bohlinger",
+        "team": "CIN",
+        "value": 3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Joey Cipollone",
+        "team": "ATL",
+        "value": 3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Max Grondin",
+        "team": "ATL",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Jordan Steinmetz",
+        "team": "IDH",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Cole Kodsi",
+        "team": "ORL",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Lynden Breen",
+        "team": "SC",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Patrick Thomas",
+        "team": "SC",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Ryan O'Hara",
+        "team": "GVL",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Nolan Burke",
+        "team": "REA",
+        "value": 3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Raivis Ansons",
+        "team": "WHL",
+        "value": 3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Owen Robinson",
+        "team": "IND",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Chase Maxwell",
+        "team": "ALN",
+        "value": 3,
+        "isRookie": true,
+        "position": "LW"
+      },
+      {
+        "rank": 192,
+        "name": "Sasha Mutala",
+        "team": "TUL",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Justin Taylor",
+        "team": "ADK",
+        "value": 3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Ryan Chyzowski",
+        "team": "RC",
+        "value": 3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Chase Pauls",
+        "team": "RC",
+        "value": 3,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Braden Birnie",
+        "team": "RC",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Nolan Kneen",
+        "team": "WIC",
+        "value": 3,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Ty Cheveldayoff",
+        "team": "MNE",
+        "value": 3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Loke Johansson",
+        "team": "MNE",
+        "value": 3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Mathias Laferrière",
+        "team": "TR",
+        "value": 3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Jake Gravelle",
+        "team": "TR",
+        "value": 3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Khristian Acosta",
+        "team": "WOR",
+        "value": 3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 192,
+        "name": "Anthony Hora",
+        "team": "WOR",
+        "value": 3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Colby Enns",
+        "team": "UTA",
+        "value": 3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Josh Zinger",
+        "team": "UTA",
+        "value": 3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 192,
+        "name": "Kaelan Taylor",
+        "team": "TAH",
+        "value": 3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Nick Rhéaume",
+        "team": "CIN",
+        "value": 2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Kyle Betts",
+        "team": "FLA",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Cam Gaudette",
+        "team": "ATL",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Mason Nevers",
+        "team": "IDH",
+        "value": 2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Tony Follmer",
+        "team": "ORL",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Kyler Kupka",
+        "team": "SC",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Connor Moore",
+        "team": "SC",
+        "value": 2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Dean Loukus",
+        "team": "SC",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "John Fusco",
+        "team": "SC",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Hudson Schandor",
+        "team": "GVL",
+        "value": 2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Quinn Preston",
+        "team": "KAL",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Zach Okabe",
+        "team": "KAL",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Orlando Mainolfi",
+        "team": "KAL",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Nick Capone",
+        "team": "REA",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Josh Groll",
+        "team": "FW",
+        "value": 2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Anthony Petruzzelli",
+        "team": "FW",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Matt Murphy",
+        "team": "FW",
+        "value": 2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Josh McDougall",
+        "team": "NOR",
+        "value": 2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Brett Moravec",
+        "team": "IND",
+        "value": 2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Braidan Simmons-Fischer",
+        "team": "ALN",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Brandon Kruse",
+        "team": "TOL",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Tyrell Goulbourne",
+        "team": "TUL",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Will Francis",
+        "team": "TUL",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Conner Hutchison",
+        "team": "ADK",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Pierson Brandon",
+        "team": "ADK",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Bennett MacArthur",
+        "team": "JAX",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Tyler Coffey",
+        "team": "JAX",
+        "value": 2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Cameron Buhl",
+        "team": "RC",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Garrett Klotz",
+        "team": "RC",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Lincoln Hatten",
+        "team": "WOR",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 226,
+        "name": "Cam McDonald",
+        "team": "WOR",
+        "value": 2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Adam Samuelsson",
+        "team": "WOR",
+        "value": 2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Artyom Borshyov",
+        "team": "GRN",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "True Crowe",
+        "team": "GRN",
+        "value": 2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 226,
+        "name": "Casey Bailey",
+        "team": "TAH",
+        "value": 2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Jaxson Murray",
+        "team": "CIN",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Adam Kydd",
+        "team": "CIN",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Liam Kidney",
+        "team": "CIN",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Hunter Sansbury",
+        "team": "FLA",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Ryan Francis",
+        "team": "ATL",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Carson Denomie",
+        "team": "ATL",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Ryan Conroy",
+        "team": "ATL",
+        "value": 1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Andrew Jarvis",
+        "team": "ATL",
+        "value": 1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Ty Pelton-Byce",
+        "team": "IDH",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Mitch Wahl",
+        "team": "IDH",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Nick Portz",
+        "team": "IDH",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Alton McDermott",
+        "team": "ORL",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Jordan Frasca",
+        "team": "REA",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Yvan Mongo",
+        "team": "REA",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Luke Loheit",
+        "team": "KC",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Tyler Schleppe",
+        "team": "KC",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Brady Stonehouse",
+        "team": "FW",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Connor Milburn",
+        "team": "FW",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Aidan Sutter",
+        "team": "WHL",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Killian Kiecker-Olson",
+        "team": "NOR",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Jack Pascucci",
+        "team": "NOR",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Terry Broadhurst",
+        "team": "IND",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Colby McAuley",
+        "team": "ALN",
+        "value": 1,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 267,
+        "name": "Johnny Waldron",
+        "team": "TOL",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Lukas Jirousek",
+        "team": "TUL",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Jake Lee",
+        "team": "TUL",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Jeremy Hanzel",
+        "team": "ADK",
+        "value": 1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Shane Harper",
+        "team": "ADK",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Taos Jordan",
+        "team": "JAX",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Trevor Griebel",
+        "team": "JAX",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Briley Wood",
+        "team": "RC",
+        "value": 1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Zacharie Giroux",
+        "team": "RC",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Will Riedell",
+        "team": "SAV",
+        "value": 1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Jacob Dion",
+        "team": "TR",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Connor Federkow",
+        "team": "WOR",
+        "value": 1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 267,
+        "name": "Eddie Matsushima",
+        "team": "BLM",
+        "value": 1,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 267,
+        "name": "Trent Swick",
+        "team": "TAH",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 267,
+        "name": "Blake Wells",
+        "team": "TAH",
+        "value": 1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Ken Appleby",
+        "team": "CIN",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Max Helgeson",
+        "team": "CIN",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Tommy Scarfone",
+        "team": "CIN",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Max Smolinski",
+        "team": "CIN",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Jett Jones",
+        "team": "FLA",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Cam Johnson",
+        "team": "FLA",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Cole Moberg",
+        "team": "FLA",
+        "value": 0,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Ethan Haider",
+        "team": "ATL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "T.J. Semptimphelter",
+        "team": "ATL",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Francesco Arcuri",
+        "team": "IDH",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Nick Canade",
+        "team": "IDH",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Beni Halasz",
+        "team": "IDH",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Luciano Wilson",
+        "team": "ORL",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Jon Gillies",
+        "team": "ORL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Colby Muise",
+        "team": "ORL",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Alexis Gravel",
+        "team": "SC",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Ty Taylor",
+        "team": "SC",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Seth Eisele",
+        "team": "SC",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Mattias Sholl",
+        "team": "GVL",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Pierce Charleson",
+        "team": "GVL",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Isaiah Saville",
+        "team": "GVL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Spencer Kennedy",
+        "team": "KAL",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Jonathan Lemieux",
+        "team": "KAL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Hunter Vorva",
+        "team": "KAL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Aku Koskenvuo",
+        "team": "KAL",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Victor Hadfield",
+        "team": "REA",
+        "value": 0,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Keith Petruzzelli",
+        "team": "REA",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Yaniv Perets",
+        "team": "REA",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Jack LaFontaine",
+        "team": "KC",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Logan Terness",
+        "team": "KC",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Samuel Jonsson",
+        "team": "FW",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Nathaniel Day",
+        "team": "FW",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Maxim Pavlenko",
+        "team": "WHL",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Taylor Gauthier",
+        "team": "WHL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Kristóf Papp",
+        "team": "NOR",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Isaac Poulter",
+        "team": "NOR",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Alex Worthington",
+        "team": "NOR",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Eric Martin",
+        "team": "IND",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Kyle Aucoin",
+        "team": "IND",
+        "value": 0,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Kyle Bettens",
+        "team": "IND",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Ryan Ouellette",
+        "team": "IND",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Owen Flores",
+        "team": "IND",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Mitchell Weeks",
+        "team": "IND",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Avery Smith",
+        "team": "ALN",
+        "value": 0,
+        "isRookie": true,
+        "position": "RW"
+      },
+      {
+        "rank": 308,
+        "name": "Jackson Parsons",
+        "team": "ALN",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Marco Costantini",
+        "team": "ALN",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Matt Jurusik",
+        "team": "TOL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Carter Gylander",
+        "team": "TOL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Justin Michaelian",
+        "team": "TUL",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Vyacheslav Buteyets",
+        "team": "TUL",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Jeremy Brodeur",
+        "team": "ADK",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Tyler Brennan",
+        "team": "ADK",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Henry Welsch",
+        "team": "ADK",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Logan Cockerill",
+        "team": "JAX",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Cameron Rowe",
+        "team": "JAX",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Sasha Telguine",
+        "team": "JAX",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Michael Bullion",
+        "team": "JAX",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Quinn Olson",
+        "team": "RC",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Connor Murphy",
+        "team": "RC",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Nathan Torchia",
+        "team": "RC",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Rico DiMatteo",
+        "team": "RC",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Peter Bates",
+        "team": "WIC",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Oliver Tarr",
+        "team": "WIC",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Gavin Best",
+        "team": "WIC",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Matt Davis",
+        "team": "WIC",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Roddy Ross",
+        "team": "WIC",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Cameron Mitchell",
+        "team": "WIC",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Mason Reiners",
+        "team": "SAV",
+        "value": 0,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Evan Cormier",
+        "team": "SAV",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Riley Mercer",
+        "team": "IA",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Dante Giannuzzi",
+        "team": "IA",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Liam Gorman",
+        "team": "MNE",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Jackson Stewart",
+        "team": "MNE",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Brad Arvanitis",
+        "team": "MNE",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Wyllum Deveaux",
+        "team": "MNE",
+        "value": 0,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Billy Girard",
+        "team": "MNE",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Luke Cavallin",
+        "team": "MNE",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Benjamin Gaudreau",
+        "team": "TR",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Declan McDonnell",
+        "team": "WOR",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "AJ Schlepp",
+        "team": "WOR",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Thomas Gale",
+        "team": "WOR",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Tristan Lennox",
+        "team": "WOR",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Parker Gahagen",
+        "team": "WOR",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Anson Thornton",
+        "team": "UTA",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Nicholas Niemo",
+        "team": "UTA",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Hunter Miska",
+        "team": "UTA",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Mikhail Abramov",
+        "team": "BLM",
+        "value": 0,
+        "isRookie": false,
+        "position": "RW"
+      },
+      {
+        "rank": 308,
+        "name": "Cullen Ferguson",
+        "team": "BLM",
+        "value": 0,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Seung Jae Lee",
+        "team": "BLM",
+        "value": 0,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Grant Porter",
+        "team": "BLM",
+        "value": 0,
+        "isRookie": true,
+        "position": "RW"
+      },
+      {
+        "rank": 308,
+        "name": "Hugo Ollas",
+        "team": "BLM",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Callum Tung",
+        "team": "BLM",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Ethan Leyh",
+        "team": "GRN",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Bryce Montgomery",
+        "team": "GRN",
+        "value": 0,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Nikita Quapp",
+        "team": "GRN",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Drew Kuzma",
+        "team": "GRN",
+        "value": 0,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 308,
+        "name": "Ruslan Khazheyev",
+        "team": "GRN",
+        "value": 0,
+        "isRookie": true,
+        "position": "G"
+      },
+      {
+        "rank": 308,
+        "name": "Brennan Kapcheck",
+        "team": "TAH",
+        "value": 0,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Linden Alger",
+        "team": "TAH",
+        "value": 0,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Tucker Ness",
+        "team": "TAH",
+        "value": 0,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 308,
+        "name": "Jordan Papirny",
+        "team": "TAH",
+        "value": 0,
+        "isRookie": false,
+        "position": "G"
+      },
+      {
+        "rank": 428,
+        "name": "Gunnarwolfe Fontaine",
+        "team": "CIN",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Gabriel Bernier",
+        "team": "CIN",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Carson Gicewicz",
+        "team": "FLA",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Kyle Neuber",
+        "team": "FLA",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Zach Yoder",
+        "team": "ATL",
+        "value": -1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Evan Orr",
+        "team": "ATL",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Dyllan Gill",
+        "team": "ORL",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Mike Brown",
+        "team": "SC",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Caiden Gault",
+        "team": "GVL",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Josh Zary",
+        "team": "GVL",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Colton Young",
+        "team": "KAL",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Connor McMenamin",
+        "team": "REA",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Drake Burgin",
+        "team": "KC",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Chase Brand",
+        "team": "KC",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Thomas Sinclair",
+        "team": "FW",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Caleb Price",
+        "team": "NOR",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Jesse Tucker",
+        "team": "IND",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Jadon Joseph",
+        "team": "IND",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Quinn Warmuth",
+        "team": "ALN",
+        "value": -1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Matt Register",
+        "team": "ALN",
+        "value": -1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Riley McCourt",
+        "team": "TOL",
+        "value": -1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Tyler Poulsen",
+        "team": "TUL",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Duggie Lagrone",
+        "team": "TUL",
+        "value": -1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Zachary Murray",
+        "team": "TUL",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Jonny Hooker",
+        "team": "TUL",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Jackson Niedermayer",
+        "team": "TUL",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Tag Bertuzzi",
+        "team": "ADK",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Dylan Wendt",
+        "team": "ADK",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Kevin O'Neil",
+        "team": "ADK",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Maurizio Colella",
+        "team": "RC",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Jay Dickman",
+        "team": "WIC",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Kyle Jeffers",
+        "team": "WIC",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Logan Drevitch",
+        "team": "SAV",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Ryan Sullivan",
+        "team": "SAV",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Tynan Ewart",
+        "team": "MNE",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Egor Goriunov",
+        "team": "TR",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Nicholas Girouard",
+        "team": "TR",
+        "value": -1,
+        "isRookie": true,
+        "position": "LW"
+      },
+      {
+        "rank": 428,
+        "name": "Jérémy Michaud",
+        "team": "TR",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Drew Callin",
+        "team": "WOR",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Matt DeMelis",
+        "team": "WOR",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "avier Jean-Louis",
+        "team": "WOR",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Rilen Kovacevic",
+        "team": "UTA",
+        "value": -1,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Chongmin Lee",
+        "team": "BLM",
+        "value": -1,
+        "isRookie": false,
+        "position": "RW"
+      },
+      {
+        "rank": 428,
+        "name": "Max Neill",
+        "team": "BLM",
+        "value": -1,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 428,
+        "name": "Blake Swetlikoff",
+        "team": "GRN",
+        "value": -1,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 428,
+        "name": "Blake Dangos",
+        "team": "GRN",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Rider McCallum",
+        "team": "GRN",
+        "value": -1,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 428,
+        "name": "Olivier LeBlanc",
+        "team": "TAH",
+        "value": -1,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 483,
+        "name": "Zack Trott",
+        "team": "CIN",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Mickey Burns",
+        "team": "ATL",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Robbie Holmes",
+        "team": "IDH",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Charlie Combs",
+        "team": "SC",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Josh Atkinson",
+        "team": "GVL",
+        "value": -2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 483,
+        "name": "Brent Pedersen",
+        "team": "GVL",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Jack Brackett",
+        "team": "GVL",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Tim Rego",
+        "team": "GVL",
+        "value": -2,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 483,
+        "name": "Evan Dougherty",
+        "team": "KAL",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Colson Gengenbach",
+        "team": "KAL",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Liam Devlin",
+        "team": "REA",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Ryan Mahshie",
+        "team": "WHL",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Jaydon Dureau",
+        "team": "NOR",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Brandon Osmundson",
+        "team": "NOR",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Jeremie Bucheler",
+        "team": "IND",
+        "value": -2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 483,
+        "name": "Brayden Watts",
+        "team": "ALN",
+        "value": -2,
+        "isRookie": false,
+        "position": "RW"
+      },
+      {
+        "rank": 483,
+        "name": "Sam Craggs",
+        "team": "TOL",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Reilly Funk",
+        "team": "TOL",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Dallas Comeau",
+        "team": "TUL",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Jackson van de Leest",
+        "team": "ADK",
+        "value": -2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 483,
+        "name": "Rasmus Ekström",
+        "team": "RC",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Phip Waugh",
+        "team": "SAV",
+        "value": -2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 483,
+        "name": "Morgan Adams-Moisan",
+        "team": "TR",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Mathieu Bizier",
+        "team": "TR",
+        "value": -2,
+        "isRookie": true,
+        "position": "C"
+      },
+      {
+        "rank": 483,
+        "name": "Édouard Charron",
+        "team": "TR",
+        "value": -2,
+        "isRookie": true,
+        "position": "C"
+      },
+      {
+        "rank": 483,
+        "name": "Sean Gulka",
+        "team": "TR",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Riley Ginnell",
+        "team": "WOR",
+        "value": -2,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Noah Ganske",
+        "team": "UTA",
+        "value": -2,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 483,
+        "name": "Mike Gelatt",
+        "team": "UTA",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 483,
+        "name": "Jacob Böll",
+        "team": "BLM",
+        "value": -2,
+        "isRookie": true,
+        "position": "LW"
+      },
+      {
+        "rank": 483,
+        "name": "Samuel Huo",
+        "team": "TAH",
+        "value": -2,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Mike McNamee",
+        "team": "ATL",
+        "value": -3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Jeff Baum",
+        "team": "IDH",
+        "value": -3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Tyler Bird",
+        "team": "ORL",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Ryan Hofer",
+        "team": "SC",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Cam Hausinger",
+        "team": "GVL",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Collin Saccoman",
+        "team": "KAL",
+        "value": -3,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Kyle Haskins",
+        "team": "REA",
+        "value": -3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Jack Page",
+        "team": "REA",
+        "value": -3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Matt Miller",
+        "team": "FW",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Max Graham",
+        "team": "WHL",
+        "value": -3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Alexander Kuqali",
+        "team": "WHL",
+        "value": -3,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Will Ennis",
+        "team": "IND",
+        "value": -3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Lukas Sillinger",
+        "team": "ALN",
+        "value": -3,
+        "isRookie": true,
+        "position": "LW"
+      },
+      {
+        "rank": 521,
+        "name": "Troy Murray",
+        "team": "ALN",
+        "value": -3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Ryan Lautenbach",
+        "team": "TUL",
+        "value": -3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Tanner Faith",
+        "team": "TUL",
+        "value": -3,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Matt Salhany",
+        "team": "ADK",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Patrick Grasso",
+        "team": "ADK",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Dan Ebrahim",
+        "team": "ADK",
+        "value": -3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Craig Martin",
+        "team": "JAX",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Peter Tischke",
+        "team": "JAX",
+        "value": -3,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Bryce Brodzinski",
+        "team": "SAV",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Riley Hughes",
+        "team": "SAV",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Josh Lopina",
+        "team": "SAV",
+        "value": -3,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Jacob Paquette",
+        "team": "TR",
+        "value": -3,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 521,
+        "name": "Max Dukovac",
+        "team": "WOR",
+        "value": -3,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 521,
+        "name": "Mark Kaleinikovas",
+        "team": "BLM",
+        "value": -3,
+        "isRookie": true,
+        "position": "RW"
+      },
+      {
+        "rank": 521,
+        "name": "Jonny Evans",
+        "team": "BLM",
+        "value": -3,
+        "isRookie": false,
+        "position": "RW"
+      },
+      {
+        "rank": 557,
+        "name": "Marko Sikic",
+        "team": "CIN",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Tyler Drevitch",
+        "team": "ORL",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Vincent Sevigny",
+        "team": "REA",
+        "value": -4,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 557,
+        "name": "Emile Chouinard",
+        "team": "REA",
+        "value": -4,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 557,
+        "name": "Matthew Quercia",
+        "team": "WHL",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Jack O'Leary",
+        "team": "NOR",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Andre Sutter",
+        "team": "NOR",
+        "value": -4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Brayden Nicholetts",
+        "team": "NOR",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Jackson Decker",
+        "team": "ALN",
+        "value": -4,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 557,
+        "name": "Conlan Keenan",
+        "team": "TOL",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Easton Armstrong",
+        "team": "TUL",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Robert Kincaid",
+        "team": "WIC",
+        "value": -4,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 557,
+        "name": "Nicholas Zabaneh",
+        "team": "SAV",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Cristophe Tellier",
+        "team": "SAV",
+        "value": -4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Ryan McGuire",
+        "team": "IA",
+        "value": -4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Cole Donhauser",
+        "team": "WOR",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Logan Nelson",
+        "team": "GRN",
+        "value": -4,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 557,
+        "name": "Connor Marritt",
+        "team": "TAH",
+        "value": -4,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Jake Johnson",
+        "team": "CIN",
+        "value": -5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 580,
+        "name": "Logan Britt",
+        "team": "ORL",
+        "value": -5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 580,
+        "name": "Tim Lovell",
+        "team": "GVL",
+        "value": -5,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 580,
+        "name": "David Keefer",
+        "team": "KAL",
+        "value": -5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Robby Drazner",
+        "team": "KAL",
+        "value": -5,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 580,
+        "name": "Dustyn McFaul",
+        "team": "FW",
+        "value": -5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 580,
+        "name": "Brayden Edwards",
+        "team": "WHL",
+        "value": -5,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Carson Musser",
+        "team": "NOR",
+        "value": -5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 580,
+        "name": "Sahil Panwar",
+        "team": "IND",
+        "value": -5,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 580,
+        "name": "Jordan Martin",
+        "team": "IND",
+        "value": -5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Matthew Henry",
+        "team": "TUL",
+        "value": -5,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Tyson Fawcett",
+        "team": "ADK",
+        "value": -5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Andrew Nielsen",
+        "team": "MNE",
+        "value": -5,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 580,
+        "name": "Cédric Desruisseaux",
+        "team": "TR",
+        "value": -5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Ilya Tsulygin",
+        "team": "BLM",
+        "value": -5,
+        "isRookie": true,
+        "position": "RW"
+      },
+      {
+        "rank": 580,
+        "name": "Blake Biondi",
+        "team": "GRN",
+        "value": -5,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Demetrios Koumontzis",
+        "team": "GRN",
+        "value": -5,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 580,
+        "name": "Braden Doyle",
+        "team": "GRN",
+        "value": -5,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 607,
+        "name": "Mark Cooper",
+        "team": "ORL",
+        "value": -6,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 607,
+        "name": "Dante Sheriff",
+        "team": "GVL",
+        "value": -6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 607,
+        "name": "Cam Cook",
+        "team": "REA",
+        "value": -6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 607,
+        "name": "Jérémie Biakabutuka",
+        "team": "TUL",
+        "value": -6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 607,
+        "name": "Owen Lindmark",
+        "team": "TUL",
+        "value": -6,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 607,
+        "name": "Cameron Supryka",
+        "team": "JAX",
+        "value": -6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 607,
+        "name": "Parker Bowman",
+        "team": "RC",
+        "value": -6,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 607,
+        "name": "Jake Wahlin",
+        "team": "WIC",
+        "value": -6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 607,
+        "name": "Tyler Jette",
+        "team": "WIC",
+        "value": -6,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 607,
+        "name": "Isaac Dufort",
+        "team": "TR",
+        "value": -6,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 607,
+        "name": "Joe Dunlap",
+        "team": "TR",
+        "value": -6,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 607,
+        "name": "Michael Ferrandino",
+        "team": "WOR",
+        "value": -6,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 607,
+        "name": "Brandon Yeamans",
+        "team": "BLM",
+        "value": -6,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 625,
+        "name": "Ethan Scardina",
+        "team": "ATL",
+        "value": -7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Ryley Appelt",
+        "team": "ATL",
+        "value": -7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Milo Roelens",
+        "team": "ORL",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Ben Hawerchuk",
+        "team": "SC",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Ben Poisson",
+        "team": "GVL",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Jacob Modry",
+        "team": "GVL",
+        "value": -7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 625,
+        "name": "Powell Connor",
+        "team": "KAL",
+        "value": -7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 625,
+        "name": "Jacob Frasca",
+        "team": "REA",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Thomas Farrell",
+        "team": "KC",
+        "value": -7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 625,
+        "name": "Nick Deakin-Poot",
+        "team": "FW",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Brady Fleurent",
+        "team": "NOR",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Marko Reifenberger",
+        "team": "NOR",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Spencer Asuchak",
+        "team": "ALN",
+        "value": -7,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 625,
+        "name": "Anthony Costantini",
+        "team": "ALN",
+        "value": -7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 625,
+        "name": "Michael Davies",
+        "team": "TUL",
+        "value": -7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 625,
+        "name": "Ryan Pitoscia",
+        "team": "JAX",
+        "value": -7,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Chris Grando",
+        "team": "JAX",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Elliot Desnoyers",
+        "team": "IA",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Cameron Butler",
+        "team": "IA",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Charles Martin",
+        "team": "TR",
+        "value": -7,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 625,
+        "name": "Riley Piercey",
+        "team": "WOR",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 625,
+        "name": "Devon Paliani",
+        "team": "TAH",
+        "value": -7,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Spencer Cox",
+        "team": "CIN",
+        "value": -8,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 650,
+        "name": "Justin Portillo",
+        "team": "CIN",
+        "value": -8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Will Magnuson",
+        "team": "NOR",
+        "value": -8,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 650,
+        "name": "Dustin Manz",
+        "team": "IND",
+        "value": -8,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 650,
+        "name": "Brett Davis",
+        "team": "RC",
+        "value": -8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Jaxon Nelson",
+        "team": "IA",
+        "value": -8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Isaac Johnson",
+        "team": "IA",
+        "value": -8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Landon Fuller",
+        "team": "TR",
+        "value": -8,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 650,
+        "name": "Reed Lebster",
+        "team": "UTA",
+        "value": -8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Mikey Colella",
+        "team": "UTA",
+        "value": -8,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Ayden MacDonald",
+        "team": "BLM",
+        "value": -8,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 650,
+        "name": "Ivan Chukarov",
+        "team": "BLM",
+        "value": -8,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 650,
+        "name": "Anthony Rinaldi",
+        "team": "GRN",
+        "value": -8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 650,
+        "name": "Adam Pitters",
+        "team": "TAH",
+        "value": -8,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Justin Vaive",
+        "team": "CIN",
+        "value": -9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Davis Pennington",
+        "team": "KAL",
+        "value": -9,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 670,
+        "name": "Ryan Cox",
+        "team": "KAL",
+        "value": -9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Jackson Kunz",
+        "team": "KAL",
+        "value": -9,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Michael Marchesan",
+        "team": "IND",
+        "value": -9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Patrick Bajkov",
+        "team": "JAX",
+        "value": -9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Ryan Finnegan",
+        "team": "WIC",
+        "value": -9,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Spencer Blackwell",
+        "team": "WIC",
+        "value": -9,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 670,
+        "name": "Evan Nause",
+        "team": "SAV",
+        "value": -9,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 670,
+        "name": "Reilly Connors",
+        "team": "UTA",
+        "value": -9,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 682,
+        "name": "Liam Malmquist",
+        "team": "IDH",
+        "value": -10,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 682,
+        "name": "Andrew Bruder",
+        "team": "ORL",
+        "value": -10,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 682,
+        "name": "John Parker-Jones",
+        "team": "GVL",
+        "value": -10,
+        "isRookie": false,
+        "position": "RW"
+      },
+      {
+        "rank": 682,
+        "name": "Jayden Lee",
+        "team": "KAL",
+        "value": -10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 682,
+        "name": "Cam Knuble",
+        "team": "KAL",
+        "value": -10,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 682,
+        "name": "David Drake",
+        "team": "NOR",
+        "value": -10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 682,
+        "name": "Hank Crone",
+        "team": "ALN",
+        "value": -10,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 682,
+        "name": "Josh Nelson",
+        "team": "TUL",
+        "value": -10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 682,
+        "name": "Jaden Condotta",
+        "team": "JAX",
+        "value": -10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 682,
+        "name": "T.J. Lloyd",
+        "team": "WIC",
+        "value": -10,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 682,
+        "name": "Luke Mobley",
+        "team": "IA",
+        "value": -10,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 682,
+        "name": "Danny Dzhaniyev",
+        "team": "UTA",
+        "value": -10,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 682,
+        "name": "Lou-Félix Denis",
+        "team": "BLM",
+        "value": -10,
+        "isRookie": false,
+        "position": "C"
+      },
+      {
+        "rank": 682,
+        "name": "Samuel Mayer",
+        "team": "TAH",
+        "value": -10,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 682,
+        "name": "Jake Durflinger",
+        "team": "TAH",
+        "value": -10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Jarid Lukosevicius",
+        "team": "ORL",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Parker Berge",
+        "team": "GVL",
+        "value": -11,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 700,
+        "name": "Nolan Walker",
+        "team": "KAL",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Brandon Saigeon",
+        "team": "REA",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Mike McKee",
+        "team": "TUL",
+        "value": -11,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 700,
+        "name": "Dylan Fitze",
+        "team": "TUL",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Mitchell Smith",
+        "team": "RC",
+        "value": -11,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 700,
+        "name": "Reece Vitelli",
+        "team": "SAV",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Zach Krajnik",
+        "team": "SAV",
+        "value": -11,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Jonny Sorenson",
+        "team": "IA",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Max Patterson",
+        "team": "IA",
+        "value": -11,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Thomas Stewart",
+        "team": "IA",
+        "value": -11,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 700,
+        "name": "Mike Koster",
+        "team": "IA",
+        "value": -11,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 700,
+        "name": "Anthony Beauregard",
+        "team": "TR",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Ryan Miotto",
+        "team": "WOR",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Jordan Biro",
+        "team": "GRN",
+        "value": -11,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 700,
+        "name": "Mike O'Leary",
+        "team": "TAH",
+        "value": -11,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 719,
+        "name": "Rhett Parsons",
+        "team": "CIN",
+        "value": -12,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 719,
+        "name": "Dylan Carabia",
+        "team": "ATL",
+        "value": -12,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 719,
+        "name": "Todd Skirving",
+        "team": "KAL",
+        "value": -12,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 719,
+        "name": "Justin Young",
+        "team": "NOR",
+        "value": -12,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 719,
+        "name": "Adam Capannelli",
+        "team": "IA",
+        "value": -12,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 719,
+        "name": "Emmett Serensits",
+        "team": "TR",
+        "value": -12,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 726,
+        "name": "Ryan O'Reilly",
+        "team": "GVL",
+        "value": -13,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 726,
+        "name": "Jake Willets",
+        "team": "REA",
+        "value": -13,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 726,
+        "name": "Cade McNelly",
+        "team": "TUL",
+        "value": -13,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 726,
+        "name": "Dakota Seaman",
+        "team": "TUL",
+        "value": -13,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 726,
+        "name": "Keltie Jeri-Leon",
+        "team": "IA",
+        "value": -13,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 726,
+        "name": "Saige Weinstein",
+        "team": "UTA",
+        "value": -13,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 734,
+        "name": "Kylor Wall",
+        "team": "KAL",
+        "value": -14,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 734,
+        "name": "Jeff Faith",
+        "team": "TUL",
+        "value": -14,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 734,
+        "name": "Yuki Miura",
+        "team": "IA",
+        "value": -14,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 734,
+        "name": "Anthony Repaci",
+        "team": "WOR",
+        "value": -14,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 741,
+        "name": "Nick Nardecchia",
+        "team": "WIC",
+        "value": -15,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 741,
+        "name": "Declan Smith",
+        "team": "WIC",
+        "value": -15,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 741,
+        "name": "Ross Mitton",
+        "team": "WOR",
+        "value": -15,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 741,
+        "name": "Aiden Hansen-Bukata",
+        "team": "UTA",
+        "value": -15,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 741,
+        "name": "Evan Friesen",
+        "team": "UTA",
+        "value": -15,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 747,
+        "name": "Colin Bilek",
+        "team": "KAL",
+        "value": -16,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 747,
+        "name": "Nico Somerville",
+        "team": "WIC",
+        "value": -16,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 747,
+        "name": "Riku Ishida",
+        "team": "BLM",
+        "value": -16,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 747,
+        "name": "Colton Leiter",
+        "team": "GRN",
+        "value": -16,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 751,
+        "name": "Aaron Luchuk",
+        "team": "ORL",
+        "value": -17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 751,
+        "name": "Tristan De Jong",
+        "team": "GVL",
+        "value": -17,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 751,
+        "name": "Konnor Smith",
+        "team": "TUL",
+        "value": -17,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 751,
+        "name": "Dalton Duhart",
+        "team": "JAX",
+        "value": -17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 751,
+        "name": "Ryan Wagner",
+        "team": "RC",
+        "value": -17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 751,
+        "name": "Max Dorrington",
+        "team": "WOR",
+        "value": -17,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 751,
+        "name": "John Gelatt",
+        "team": "UTA",
+        "value": -17,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 751,
+        "name": "Jake McGrew",
+        "team": "TAH",
+        "value": -17,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 761,
+        "name": "Patrick Polino",
+        "team": "GVL",
+        "value": -18,
+        "isRookie": false,
+        "position": "LW"
+      },
+      {
+        "rank": 761,
+        "name": "Tyler Gratton",
+        "team": "UTA",
+        "value": -18,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 764,
+        "name": "Andre Ghantous",
+        "team": "KAL",
+        "value": -19,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 764,
+        "name": "Patrick Newell",
+        "team": "GRN",
+        "value": -19,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 766,
+        "name": "Michal Stinil",
+        "team": "WIC",
+        "value": -20,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 766,
+        "name": "David Gagnon",
+        "team": "GRN",
+        "value": -20,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 766,
+        "name": "Ryan Richardson",
+        "team": "GRN",
+        "value": -20,
+        "isRookie": true,
+        "position": "F"
+      },
+      {
+        "rank": 769,
+        "name": "Luke Grainger",
+        "team": "CIN",
+        "value": -21,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 769,
+        "name": "Shane Ott",
+        "team": "BLM",
+        "value": -21,
+        "isRookie": true,
+        "position": "LW"
+      },
+      {
+        "rank": 769,
+        "name": "Noah Delmas",
+        "team": "GRN",
+        "value": -21,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 774,
+        "name": "Anthony Bardaro",
+        "team": "ORL",
+        "value": -23,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 774,
+        "name": "Dalton Skelly",
+        "team": "GRN",
+        "value": -23,
+        "isRookie": false,
+        "position": "D"
+      },
+      {
+        "rank": 777,
+        "name": "Matthew Sop",
+        "team": "IA",
+        "value": -25,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 777,
+        "name": "Elliott McDermott",
+        "team": "IA",
+        "value": -25,
+        "isRookie": true,
+        "position": "D"
+      },
+      {
+        "rank": 779,
+        "name": "Luke Adam",
+        "team": "TAH",
+        "value": -26,
+        "isRookie": false,
+        "position": "C"
       }
     ],
     "shots": [
@@ -39457,5 +44657,5 @@
       }
     ]
   },
-  "scrapedAt": "2026-03-17T16:32:36.960Z"
+  "scrapedAt": "2026-03-17T16:36:01.171Z"
 }
