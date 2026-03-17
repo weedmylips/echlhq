@@ -11,7 +11,7 @@ const SKATER_CARDS = [
   { key: "gwg",         label: "GWG",               stat: "GWG"  },
   { key: "shots",       label: "SHOTS",              stat: "SOG"  },
   // Row 3
-  { key: "shootingPct", label: "SHOOTING %",         stat: "SH%", isPct: true },
+  { key: "shootingPct", label: "SHOOTING %",         stat: "SH%", isPct: true, note: "min 50 shots" },
   { key: "ppg",         label: "PP GOALS",           stat: "PPG"  },
   { key: "ppp",         label: "PP POINTS",          stat: "PPP"  },
   // Row 4
@@ -23,7 +23,7 @@ const SKATER_CARDS = [
   { key: "majors",      label: "MAJOR PENALTIES",    stat: "MAJ"  },
   { key: "soGoals",     label: "SO GOALS",           stat: "SOG"  },
   // Row 6
-  { key: "soPct",       label: "SO %",               stat: "SO%", isPct: true },
+  { key: "soPct",       label: "SO %",               stat: "SO%", isPct: true, note: "min 3 attempts" },
   { key: "ppa",         label: "PP ASSISTS",         stat: "PPA"  },
   { key: "sha",         label: "SH ASSISTS",         stat: "SHA"  },
 ];
@@ -60,7 +60,10 @@ function StatCard({ cat, leaders }) {
 
   return (
     <div className="stat-card">
-      <div className="stat-card-header">{cat.label}</div>
+      <div className="stat-card-header">
+        {cat.label}
+        {cat.note && <span className="stat-card-note">{cat.note}</span>}
+      </div>
       {top5.length === 0 ? (
         <div className="stat-card-empty">No data</div>
       ) : (
