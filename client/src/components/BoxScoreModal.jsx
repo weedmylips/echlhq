@@ -146,7 +146,7 @@ function BoxScoreContent({ data }) {
                       <tr><th>#</th><th>GOALIE</th><th>MIN</th><th>SV</th><th>SA</th><th>GA</th><th>SV%</th></tr>
                     </thead>
                     <tbody>
-                      {goalieStats[side].map((g, i) => (
+                      {goalieStats[side].filter(g => g.name !== "Totals:").map((g, i) => (
                         <tr key={i}>
                           <td>{g.number}</td>
                           <td className="bold">{g.name}</td>
