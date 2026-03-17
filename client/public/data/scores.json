@@ -1,6 +1,76 @@
 {
   "scores": [
     {
+      "visitingTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeTeam": "Greensboro",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "1-4",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "visitingScore": 2,
+      "homeTeam": "Jacksonville",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "2-3",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
+      "visitingTeam": "Greenville",
+      "visitingScore": 1,
+      "homeTeam": "Orlando",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "visitingScore": 2,
+      "homeTeam": "Reading",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "2-4",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "visitingScore": 3,
+      "homeTeam": "Atlanta",
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "visitingScore": 0,
+      "homeTeam": "Fort Wayne",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "0-1",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
+      "visitingTeam": "Tulsa",
+      "visitingScore": 3,
+      "homeTeam": "Utah",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "3-4",
+      "gameId": null,
+      "date": "Mar 16, 2026"
+    },
+    {
       "visitingTeam": "South Carolina",
       "visitingScore": 3,
       "homeTeam": "Atlanta",
@@ -8901,5 +8971,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-16T22:24:35.305Z"
+  "scrapedAt": "2026-03-17T03:25:00.193Z"
 }
