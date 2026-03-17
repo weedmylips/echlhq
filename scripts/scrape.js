@@ -1114,7 +1114,7 @@ async function main() {
   const allSkaters = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.skaters || [])
-      .filter((p) => (p.gp ?? 0) > 0 && !recalledNames.has(p.player.toLowerCase()))
+      .filter((p) => (p.gp ?? 0) > 0 && !recalledNames.has(p.player.toLowerCase()) && p.isActive !== false)
       .map((p) => ({ ...p, team: abbr }));
   });
 
@@ -1122,7 +1122,7 @@ async function main() {
   const allGoalies = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.goalies || [])
-      .filter((p) => (p.gp ?? 0) >= 10)
+      .filter((p) => (p.gp ?? 0) >= 10 && p.isActive !== false)
       .map((p) => ({ ...p, team: abbr }));
   });
 
@@ -1170,20 +1170,27 @@ async function main() {
   leaders.dPts       = rankByDesc(allSkaters.filter((p) => p.position === "D"), "pts");
   leaders.dGoals     = rankByDesc(allSkaters.filter((p) => p.position === "D"), "g");
 
-  // Build a lookup map from player name → { isRookie, position } for enriching scraped leader entries
+  // Build lookup maps from player name for enriching and filtering scraped leader entries
   const playerMeta = new Map();
-  for (const p of allSkaters) {
-    playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: p.position ?? "F" });
-  }
-  for (const p of allGoalies) {
-    playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G" });
+  const inactiveNames = new Set();
+  for (const [, t] of Object.entries(teamPlayers)) {
+    for (const p of (t.skaters || [])) {
+      if (p.isActive === false) inactiveNames.add(p.player.toLowerCase());
+      else playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: p.position ?? "F" });
+    }
+    for (const p of (t.goalies || [])) {
+      if (p.isActive === false) inactiveNames.add(p.player.toLowerCase());
+      else playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G" });
+    }
   }
   for (const key of Object.keys(leaders)) {
-    leaders[key] = leaders[key].map((entry) => {
-      if (entry.isRookie !== undefined) return entry; // already enriched (computed entries)
-      const meta = playerMeta.get(entry.name);
-      return meta ? { ...entry, isRookie: meta.isRookie, position: meta.position } : { ...entry, isRookie: false, position: "" };
-    });
+    leaders[key] = leaders[key]
+      .filter((entry) => !inactiveNames.has(entry.name.toLowerCase()))
+      .map((entry) => {
+        if (entry.isRookie !== undefined) return entry; // already enriched (computed entries)
+        const meta = playerMeta.get(entry.name);
+        return meta ? { ...entry, isRookie: meta.isRookie, position: meta.position } : { ...entry, isRookie: false, position: "" };
+      });
   }
 
   if (writeJSON(path.join(DATA_DIR, "leaders.json"), { leaders, scrapedAt: now })) {
