@@ -335,17 +335,19 @@ export default function TeamPage() {
             {/* Team Leaders card */}
             {rosterData?.roster && (() => {
               const isOnTeam = (s) => s === "active" || s === "signed" || s === "loaned";
+              const normalize = (n) => (n || "").replace(/^x\s+/i, "").replace(/^\*\s*/i, "").trim().toLowerCase();
               const skaters = rosterData.roster.filter(
                 (p) => isOnTeam(p.status) && p.position !== "G" && (p.stats?.gp ?? 0) > 0
               );
-              const goalies = rosterData.roster.filter(
-                (p) => isOnTeam(p.status) && p.position === "G" && (p.stats?.gp ?? 0) > 0
-              );
+              const goalies = rosterData.roster.filter((p) => {
+                if (!isOnTeam(p.status) || p.position !== "G" || (p.stats?.gp ?? 0) === 0) return false;
+                const pd = playersData?.goalies?.find((g) => normalize(g.player) === normalize(p.player));
+                return pd ? pd.isActive : true;
+              });
               const top = (arr, key, n = 3) =>
                 [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
 
               // Look up league rank for a skater in a stat category
-              const normalize = (n) => (n || "").replace(/^x\s+/i, "").replace(/^\*\s*/i, "").trim().toLowerCase();
               const leagueRankFor = (name, cat) => {
                 const arr = cat === "PTS" ? (leadersData?.leaders?.allPoints  ?? leadersData?.leaders?.points)
                           : cat === "G"   ? (leadersData?.leaders?.allGoals   ?? leadersData?.leaders?.goals)
