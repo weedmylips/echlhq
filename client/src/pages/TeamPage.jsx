@@ -336,9 +336,11 @@ export default function TeamPage() {
             {rosterData?.roster && (() => {
               const isOnTeam = (s) => s === "active" || s === "signed" || s === "loaned";
               const normalize = (n) => (n || "").replace(/^x\s+/i, "").replace(/^\*\s*/i, "").trim().toLowerCase();
-              const skaters = rosterData.roster.filter(
-                (p) => isOnTeam(p.status) && p.position !== "G" && (p.stats?.gp ?? 0) > 0
-              );
+              const skaters = rosterData.roster.filter((p) => {
+                if (!isOnTeam(p.status) || p.position === "G" || (p.stats?.gp ?? 0) === 0) return false;
+                const pd = playersData?.skaters?.find((s) => normalize(s.player) === normalize(p.player));
+                return pd ? pd.isActive : true;
+              });
               const goalies = rosterData.roster.filter((p) => {
                 if ((!isOnTeam(p.status) && p.status !== "reserve") || p.position !== "G" || (p.stats?.gp ?? 0) === 0) return false;
                 const pd = playersData?.goalies?.find((g) => normalize(g.player) === normalize(p.player));
