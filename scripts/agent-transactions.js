@@ -302,14 +302,23 @@ function applyTransactions(transactions, today) {
         }
       }
 
-      // Record move
-      movesData.moves.unshift({
-        date: today,
-        player,
-        position,
-        type: status,
-        summary: description,
-      });
+      // Record move (skip if already recorded for same date/player/type/summary)
+      const alreadyRecorded = movesData.moves.some(
+        (m) =>
+          m.date === today &&
+          m.player.toLowerCase() === player.toLowerCase() &&
+          m.type === status &&
+          m.summary === description
+      );
+      if (!alreadyRecorded) {
+        movesData.moves.unshift({
+          date: today,
+          player,
+          position,
+          type: status,
+          summary: description,
+        });
+      }
     }
 
     // Keep only last 20 moves
