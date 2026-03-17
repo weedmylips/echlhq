@@ -943,7 +943,7 @@ function DivisionH2HCard({ ts, team, allStandings, navigate }) {
           })}
         </div>
       )}
-      <div className="chart-sub">From rolling recent game history only</div>
+
     </div>
   );
 }
