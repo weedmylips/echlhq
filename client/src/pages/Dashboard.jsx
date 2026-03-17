@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useScores, useStandings, useLeaders } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
@@ -11,6 +11,8 @@ export default function Dashboard() {
   const [selectedGameId, setSelectedGameId] = useState(null);
   const [sortCol, setSortCol] = useState("pts");
   const [sortDir, setSortDir] = useState("desc");
+  const stripRef = useRef(null);
+  const scroll = (dir) => stripRef.current?.scrollBy({ left: dir * 600, behavior: "smooth" });
 
   const navigate = useNavigate();
   const { data: scoresData, isLoading: scoresLoading } = useScores();
@@ -72,10 +74,14 @@ export default function Dashboard() {
         ) : scores.length === 0 ? (
           <p className="empty-msg">No recent scores.</p>
         ) : (
-          <div className="scores-strip">
-            {scores.map((g, i) => (
-              <ScoreChip key={i} game={g} onClick={() => g.gameId && setSelectedGameId(g.gameId)} />
-            ))}
+          <div className="scores-strip-wrap">
+            <button className="scroll-btn scroll-btn-left" onClick={() => scroll(-1)}>&#8249;</button>
+            <div className="scores-strip" ref={stripRef}>
+              {scores.map((g, i) => (
+                <ScoreChip key={i} game={g} onClick={() => g.gameId && setSelectedGameId(g.gameId)} />
+              ))}
+            </div>
+            <button className="scroll-btn scroll-btn-right" onClick={() => scroll(1)}>&#8250;</button>
           </div>
         )}
       </section>

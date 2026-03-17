@@ -12,17 +12,40 @@
   padding: 16px;
 }
 
+.scores-strip-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.scroll-btn {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.scroll-btn:hover { background: var(--bg-card); }
+
 .scores-strip {
   display: flex;
+  flex: 1;
   gap: 8px;
   overflow-x: auto;
-  padding-bottom: 6px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border) transparent;
+  padding-bottom: 4px;
+  scrollbar-width: none;
 }
-.scores-strip::-webkit-scrollbar { height: 4px; }
-.scores-strip::-webkit-scrollbar-track { background: transparent; }
-.scores-strip::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.scores-strip::-webkit-scrollbar { display: none; }
 
 .score-chip {
   display: flex;
