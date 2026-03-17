@@ -350,20 +350,22 @@ export default function TeamPage() {
                 [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
 
               // Look up league rank for a skater in a stat category
+              const rankFrom = (arr, name) => {
+                if (!arr) return null;
+                const entry = arr.find((e) => normalize(e.name) === normalize(name));
+                return (entry && entry.rank <= 15) ? entry.rank : null;
+              };
               const leagueRankFor = (name, cat) => {
-                const arr = cat === "PTS" ? (leadersData?.leaders?.allPoints  ?? leadersData?.leaders?.points)
-                          : cat === "G"   ? (leadersData?.leaders?.allGoals   ?? leadersData?.leaders?.goals)
-                          :                 (leadersData?.leaders?.allAssists ?? leadersData?.leaders?.assists);
-                if (!arr) return null;
-                const entry = arr.find((e) => normalize(e.name) === normalize(name));
-                return (entry && entry.rank <= 15) ? entry.rank : null;
+                const leaders = leadersData?.leaders;
+                const arr = cat === "PTS" ? leaders?.allPoints
+                          : cat === "G"   ? leaders?.goals
+                          :                 leaders?.assists;
+                return rankFrom(arr, name);
               };
-              const leagueRankForGoalie = (name) => {
-                const arr = leadersData?.leaders?.svPct;
-                if (!arr) return null;
-                const entry = arr.find((e) => normalize(e.name) === normalize(name));
-                return (entry && entry.rank <= 15) ? entry.rank : null;
-              };
+              const goalieRanks = (name) => ({
+                svPct: rankFrom(leadersData?.leaders?.svPct, name),
+                gaa:   rankFrom(leadersData?.leaders?.gaa,   name),
+              });
 
               // Look up goalie's GAA / SV% from playersData
               const goalieStats = (name) => {
@@ -415,13 +417,14 @@ export default function TeamPage() {
                       <div className="mini-leader-cat">Goalies</div>
                       {topGoalies.map((p, i) => {
                         const gs = goalieStats(p.player);
-                        const gRank = leagueRankForGoalie(p.player);
+                        const gRanks = goalieRanks(p.player);
                         return (
                           <div key={i} className="mini-leader-row">
                             <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-name-group">
                               <span className="mini-leader-name">{p.player}</span>
-                              {gRank && <span className="league-rank-pill">#{gRank}</span>}
+                              {gRanks.gaa   && <span className="league-rank-pill">#{gRanks.gaa} GAA</span>}
+                              {gRanks.svPct && <span className="league-rank-pill">#{gRanks.svPct} SV%</span>}
                             </span>
                             <span className="mini-leader-team">G</span>
                             {gs ? (
