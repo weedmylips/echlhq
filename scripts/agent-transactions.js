@@ -741,7 +741,9 @@ async function main() {
   const daysArg = process.argv.indexOf("--days");
   const numDays = daysArg >= 0 ? parseInt(process.argv[daysArg + 1]) || 1 : 1;
 
-  const now = new Date();
+  // GitHub Actions runner is UTC. At 1am UTC = 8pm ET (previous calendar day in UTC terms).
+  // Use Eastern Time date so we fetch the correct day's transactions.
+  const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }));
   let totalChanged = 0;
 
   // Process days from oldest to newest so status updates apply in order
