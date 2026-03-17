@@ -380,7 +380,11 @@ export default function TeamPage() {
                 { title: "A",   players: top(skaters, "a") },
               ].filter((c) => c.players.length > 0);
 
-              const topGoalies = [...goalies].sort((a, b) => (b.stats?.gp ?? 0) - (a.stats?.gp ?? 0)).slice(0, 3);
+              const topGoalies = [...goalies].sort((a, b) => {
+                const gsA = goalieStats(a.player);
+                const gsB = goalieStats(b.player);
+                return (gsB?.svPct ?? 0) - (gsA?.svPct ?? 0);
+              }).slice(0, 3);
 
               if (!cats.length && !topGoalies.length) return null;
               return (
