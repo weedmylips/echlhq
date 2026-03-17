@@ -36,10 +36,6 @@ const GOALIE_CARDS = [
   { key: "soRecord",   label: "SO SAVE %",  stat: "SO%", isPct: true, note: "min 3 attempts" },
 ];
 
-const DEFENSEMAN_CARDS = [
-  { key: "dPts",   label: "POINTS", stat: "PTS" },
-  { key: "dGoals", label: "GOALS",  stat: "G"   },
-];
 
 function fmtVal(value, cat) {
   if (value == null) return "—";
@@ -123,12 +119,7 @@ export default function LeadersPage() {
             ))}
           </div>
 
-          <div className="leaders-section-label">DEFENSEMEN</div>
-          <div className="leaders-grid leaders-grid--skaters">
-            {DEFENSEMAN_CARDS.map((cat) => (
-              <StatCard key={cat.key} cat={cat} leaders={leaders} />
-            ))}
-          </div>
+
         </>
       )}
     </div>
