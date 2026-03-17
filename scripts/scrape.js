@@ -955,9 +955,18 @@ function scrapeTeamPlayers(html) {
         const gIdx   = headers.indexOf("G");
         const aIdx   = headers.indexOf("A");
         const ptsIdx = headers.indexOf("PTS");
-        const gwIdx  = headers.indexOf("GW");
-        const pmIdx  = headers.findIndex((h) => h === "+/-" || h === "PM");
-        const shIdx  = headers.indexOf("SH");
+        const gwIdx   = headers.indexOf("GW");
+        const pmIdx   = headers.findIndex((h) => h === "+/-" || h === "PM");
+        const shIdx   = headers.indexOf("SH");
+        const shPctIdx = headers.indexOf("SH%");
+        const ppIdx   = headers.indexOf("PP");
+        const ppaIdx  = headers.indexOf("PPA");
+        const shgIdx  = headers.indexOf("SHG");
+        const shaIdx  = headers.indexOf("SHA");
+        const pimIdx  = headers.indexOf("PIM");
+        const sogIdx  = headers.indexOf("SOG");
+        const soaIdx  = headers.indexOf("SOA");
+        const soPctIdx = headers.indexOf("SO%");
         $(table).find("tr").each((i, row) => {
           if (i === 0) return;
           const cells = $(row).find("td");
@@ -977,9 +986,20 @@ function scrapeTeamPlayers(html) {
             g:   gIdx   >= 0 ? num($(cells[gIdx]).text())   : 0,
             a:   aIdx   >= 0 ? num($(cells[aIdx]).text())   : 0,
             pts: ptsIdx >= 0 ? num($(cells[ptsIdx]).text()) : 0,
-            gwg: gwIdx  >= 0 ? num($(cells[gwIdx]).text())  : 0,
-            pm:  pmIdx  >= 0 ? num($(cells[pmIdx]).text())  : 0,
-            sh:  shIdx  >= 0 ? num($(cells[shIdx]).text())  : 0,
+            ppp:   (ppIdx  >= 0 ? num($(cells[ppIdx]).text())  : 0) + (ppaIdx >= 0 ? num($(cells[ppaIdx]).text()) : 0),
+            shp:   (shgIdx >= 0 ? num($(cells[shgIdx]).text()) : 0) + (shaIdx >= 0 ? num($(cells[shaIdx]).text()) : 0),
+            gwg:   gwIdx   >= 0 ? num($(cells[gwIdx]).text())   : 0,
+            pm:    pmIdx   >= 0 ? num($(cells[pmIdx]).text())   : 0,
+            sh:    shIdx   >= 0 ? num($(cells[shIdx]).text())   : 0,
+            shPct: shPctIdx >= 0 ? num($(cells[shPctIdx]).text()) : 0,
+            pp:    ppIdx   >= 0 ? num($(cells[ppIdx]).text())   : 0,
+            ppa:   ppaIdx  >= 0 ? num($(cells[ppaIdx]).text())  : 0,
+            shg:   shgIdx  >= 0 ? num($(cells[shgIdx]).text())  : 0,
+            sha:   shaIdx  >= 0 ? num($(cells[shaIdx]).text())  : 0,
+            pim:   pimIdx  >= 0 ? num($(cells[pimIdx]).text())  : 0,
+            sog:   sogIdx  >= 0 ? num($(cells[sogIdx]).text())  : 0,
+            soa:   soaIdx  >= 0 ? num($(cells[soaIdx]).text())  : 0,
+            soPct: soPctIdx >= 0 ? num($(cells[soPctIdx]).text()) : 0,
           });
         });
       } else if (isGoalie) {
@@ -1169,8 +1189,18 @@ async function main() {
   // New computed-only categories
   leaders.goalieWins = rankByDesc(allGoalies, "w");
   leaders.gwg        = rankByDesc(allSkaters.filter((p) => (p.gwg ?? 0) > 0), "gwg");
-  leaders.plusMinus  = rankByDesc(allSkaters, "pm");
-  leaders.shots      = rankByDesc(allSkaters.filter((p) => (p.sh ?? 0) > 0), "sh");
+  leaders.plusMinus    = rankByDesc(allSkaters, "pm");
+  leaders.shots        = rankByDesc(allSkaters.filter((p) => (p.sh ?? 0) > 0), "sh");
+  leaders.shootingPct  = rankByDesc(allSkaters.filter((p) => (p.sh ?? 0) >= 50), "shPct");
+  leaders.ppg          = rankByDesc(allSkaters.filter((p) => (p.pp ?? 0) > 0), "pp");
+  leaders.ppp          = rankByDesc(allSkaters.filter((p) => ((p.pp ?? 0) + (p.ppa ?? 0)) > 0), "ppp");
+  leaders.ppa          = rankByDesc(allSkaters.filter((p) => (p.ppa ?? 0) > 0), "ppa");
+  leaders.shg          = rankByDesc(allSkaters.filter((p) => (p.shg ?? 0) > 0), "shg");
+  leaders.shp          = rankByDesc(allSkaters.filter((p) => ((p.shg ?? 0) + (p.sha ?? 0)) > 0), "shp");
+  leaders.sha          = rankByDesc(allSkaters.filter((p) => (p.sha ?? 0) > 0), "sha");
+  leaders.pim          = rankByDesc(allSkaters.filter((p) => (p.pim ?? 0) > 0), "pim");
+  leaders.soGoals      = rankByDesc(allSkaters.filter((p) => (p.sog ?? 0) > 0), "sog");
+  leaders.soPct        = rankByDesc(allSkaters.filter((p) => (p.soa ?? 0) >= 3), "soPct");
   leaders.rookiePts  = rankByDesc(allSkaters.filter((p) => p.isRookie), "pts");
   leaders.rookieG    = rankByDesc(allSkaters.filter((p) => p.isRookie), "g");
   leaders.rookieA    = rankByDesc(allSkaters.filter((p) => p.isRookie), "a");
