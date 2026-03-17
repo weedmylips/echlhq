@@ -1131,7 +1131,7 @@ async function main() {
     let rank = 1;
     return sorted.map((p, i) => {
       if (i > 0 && (p[key] ?? 0) !== (sorted[i - 1][key] ?? 0)) rank = i + 1;
-      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0 };
+      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0, isRookie: p.isRookie ?? false, position: p.position ?? "" };
     });
   };
 
@@ -1140,7 +1140,7 @@ async function main() {
     let rank = 1;
     return sorted.map((p, i) => {
       if (i > 0 && (p[key] ?? 0) !== (sorted[i - 1][key] ?? 0)) rank = i + 1;
-      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0 };
+      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0, isRookie: p.isRookie ?? false, position: p.position ?? "" };
     });
   };
 
@@ -1169,6 +1169,22 @@ async function main() {
   leaders.rookieA    = rankByDesc(allSkaters.filter((p) => p.isRookie), "a");
   leaders.dPts       = rankByDesc(allSkaters.filter((p) => p.position === "D"), "pts");
   leaders.dGoals     = rankByDesc(allSkaters.filter((p) => p.position === "D"), "g");
+
+  // Build a lookup map from player name → { isRookie, position } for enriching scraped leader entries
+  const playerMeta = new Map();
+  for (const p of allSkaters) {
+    playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: p.position ?? "F" });
+  }
+  for (const p of allGoalies) {
+    playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G" });
+  }
+  for (const key of Object.keys(leaders)) {
+    leaders[key] = leaders[key].map((entry) => {
+      if (entry.isRookie !== undefined) return entry; // already enriched (computed entries)
+      const meta = playerMeta.get(entry.name);
+      return meta ? { ...entry, isRookie: meta.isRookie, position: meta.position } : { ...entry, isRookie: false, position: "" };
+    });
+  }
 
   if (writeJSON(path.join(DATA_DIR, "leaders.json"), { leaders, scrapedAt: now })) {
     console.log(`  ✓ leaders.json`);

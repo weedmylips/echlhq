@@ -36,12 +36,6 @@ const GOALIE_CARDS = [
   { key: "soRecord",   label: "SO SAVE %",  stat: "SO%", isPct: true },
 ];
 
-const ROOKIE_CARDS = [
-  { key: "rookiePts", label: "POINTS",  stat: "PTS" },
-  { key: "rookieG",   label: "GOALS",   stat: "G"   },
-  { key: "rookieA",   label: "ASSISTS", stat: "A"   },
-];
-
 const DEFENSEMAN_CARDS = [
   { key: "dPts",   label: "POINTS", stat: "PTS" },
   { key: "dGoals", label: "GOALS",  stat: "G"   },
@@ -77,7 +71,11 @@ function StatCard({ cat, leaders }) {
               className={`stat-row${i === 0 ? " stat-row--first" : ""}${i % 2 !== 0 ? " stat-row--alt" : ""}`}
             >
               <span className="stat-rank">{i + 1}</span>
-              <span className="stat-name">{p.name}</span>
+              <span className="stat-name">
+                {p.name}
+                {p.isRookie && <span className="stat-rookie">R</span>}
+                {p.position && <span className="stat-position">{p.position}</span>}
+              </span>
               <span className="stat-team">{p.team}</span>
               <span
                 className={`stat-val${cat.plusMinus ? (p.value >= 0 ? " plus" : " minus") : ""}`}
@@ -118,13 +116,6 @@ export default function LeadersPage() {
           <div className="leaders-section-label">GOALTENDERS</div>
           <div className="leaders-grid leaders-grid--goalies">
             {GOALIE_CARDS.map((cat) => (
-              <StatCard key={cat.key} cat={cat} leaders={leaders} />
-            ))}
-          </div>
-
-          <div className="leaders-section-label">ROOKIES</div>
-          <div className="leaders-grid leaders-grid--skaters">
-            {ROOKIE_CARDS.map((cat) => (
               <StatCard key={cat.key} cat={cat} leaders={leaders} />
             ))}
           </div>
