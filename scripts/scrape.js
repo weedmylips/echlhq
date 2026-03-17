@@ -1220,9 +1220,11 @@ async function main() {
       else playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G" });
     }
   }
+  // minors/majors can't be computed from player data — trust the scraped leader table as-is
+  const skipInactiveFilter = new Set(["minors", "majors"]);
   for (const key of Object.keys(leaders)) {
     leaders[key] = leaders[key]
-      .filter((entry) => !inactiveNames.has(entry.name.toLowerCase()))
+      .filter((entry) => skipInactiveFilter.has(key) || !inactiveNames.has(entry.name.toLowerCase()))
       .map((entry) => {
         if (entry.isRookie !== undefined) return entry; // already enriched (computed entries)
         const meta = playerMeta.get(entry.name);

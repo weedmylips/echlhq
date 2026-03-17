@@ -42734,6 +42734,14 @@
         "position": "D"
       },
       {
+        "rank": 4,
+        "name": "Mikael Robidoux",
+        "team": "REA",
+        "value": 30,
+        "isRookie": false,
+        "position": "RW"
+      },
+      {
         "rank": 5,
         "name": "Trent Swick",
         "team": "TAH",
@@ -42743,6 +42751,22 @@
       }
     ],
     "majors": [
+      {
+        "rank": 1,
+        "name": "Daniel Amesbury",
+        "team": "ADK",
+        "value": 10,
+        "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 2,
+        "name": "Cole Fraser",
+        "team": "GVL",
+        "value": 9,
+        "isRookie": false,
+        "position": "D"
+      },
       {
         "rank": 3,
         "name": "Cade McNelly",
@@ -42757,6 +42781,14 @@
         "team": "FLA",
         "value": 8,
         "isRookie": false,
+        "position": "F"
+      },
+      {
+        "rank": 5,
+        "name": "Tanner Edwards",
+        "team": "ADK",
+        "value": 8,
+        "isRookie": true,
         "position": "F"
       }
     ],
@@ -68694,5 +68726,5 @@
       }
     ]
   },
-  "scrapedAt": "2026-03-17T16:42:36.630Z"
+  "scrapedAt": "2026-03-17T16:50:29.179Z"
 }
