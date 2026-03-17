@@ -16,10 +16,13 @@
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding-bottom: 4px;
-  scrollbar-width: none;
+  padding-bottom: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
 }
-.scores-strip::-webkit-scrollbar { display: none; }
+.scores-strip::-webkit-scrollbar { height: 4px; }
+.scores-strip::-webkit-scrollbar-track { background: transparent; }
+.scores-strip::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
 .score-chip {
   display: flex;

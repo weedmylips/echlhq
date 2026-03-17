@@ -66,7 +66,7 @@ export default function Dashboard() {
     <div className="dashboard">
       {/* ── Scores Strip ── */}
       <section className="scores-section">
-        <div className="section-label">Yesterday's Scores</div>
+        <div className="section-label">Recent Scores</div>
         {scoresLoading ? (
           <div className="loading-spinner">Loading…</div>
         ) : scores.length === 0 ? (
