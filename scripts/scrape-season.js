@@ -37,8 +37,8 @@ const HEADERS = {
 
 const START_ID    = parseInt(process.env.START_ID) || 24000;
 const END_ID      = parseInt(process.env.END_ID)   || 25600;
-const DELAY_MS    = parseInt(process.env.DELAY_MS) || 120;
-const CONCURRENCY = parseInt(process.env.CONCURRENCY) || 5;
+const DELAY_MS    = parseInt(process.env.DELAY_MS) || 80;
+const CONCURRENCY = parseInt(process.env.CONCURRENCY) || 10;
 
 // Season opener: October 17, 2025
 const SEASON_START = new Date(Date.UTC(2025, 9, 17)); // months are 0-indexed
@@ -77,7 +77,7 @@ async function fetchGameInfo(gameId) {
   try {
     const res = await fetch(`${BOXSCORE_BASE}${gameId}`, {
       headers: HEADERS,
-      timeout: 15000,
+      timeout: 5000,
     });
     if (!res.ok) return null;
     html = await res.text();
