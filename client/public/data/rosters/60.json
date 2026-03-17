@@ -2,7 +2,7 @@
   "teamId": 60,
   "slug": "fort-wayne-komets",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "9725",
@@ -169,10 +169,10 @@
       "player": "Josh Groll",
       "number": 7,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-14",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -406,7 +406,7 @@
     },
     {
       "playerId": "10660",
-      "player": "Gustav M\u00fcller",
+      "player": "Gustav Müller",
       "number": 71,
       "position": "F",
       "status": "active",

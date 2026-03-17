@@ -2,7 +2,7 @@
   "teamId": 53,
   "slug": "kalamazoo-wings",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "9297",
@@ -731,10 +731,10 @@
       "player": "Brendan Dowler",
       "number": 25,
       "position": "D",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-03",
-      "irDays": 14,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

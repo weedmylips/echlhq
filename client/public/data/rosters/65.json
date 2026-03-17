@@ -2,7 +2,7 @@
   "teamId": 65,
   "slug": "indy-fuel",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "10082",
@@ -709,10 +709,10 @@
       "player": "Kyle Aucoin",
       "number": 6,
       "position": "D",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-14",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

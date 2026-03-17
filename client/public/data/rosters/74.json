@@ -2,7 +2,7 @@
   "teamId": 74,
   "slug": "adirondack-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-14",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "9607",
@@ -469,10 +469,10 @@
       "player": "Daniel Amesbury",
       "number": 27,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-14",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -826,7 +826,7 @@
     },
     {
       "playerId": "11153",
-      "player": "Jakub M\u00e1lek",
+      "player": "Jakub Málek",
       "number": 31,
       "position": "G",
       "status": "active",
