@@ -33,7 +33,7 @@
       "time": "9:41",
       "team": "JAX",
       "scorer": "T. Friedmann (9)",
-      "assists": "",
+      "assists": "D. Jankowski",
       "strength": "EV"
     },
     {
@@ -113,7 +113,7 @@
         "g": 0,
         "a": 0,
         "pts": 0,
-        "plusMinus": -1,
+        "plusMinus": 0,
         "shots": 2,
         "pim": 0
       },
@@ -157,7 +157,7 @@
         "g": 0,
         "a": 1,
         "pts": 1,
-        "plusMinus": 0,
+        "plusMinus": -1,
         "shots": 0,
         "pim": 2
       },
@@ -399,8 +399,8 @@
         "name": "D. Jankowski",
         "pos": "",
         "g": 0,
-        "a": 0,
-        "pts": 0,
+        "a": 1,
+        "pts": 1,
         "plusMinus": 1,
         "shots": 0,
         "pim": 0
@@ -553,8 +553,8 @@
         "name": "Totals:",
         "pos": "",
         "g": 3,
-        "a": 3,
-        "pts": 6,
+        "a": 4,
+        "pts": 7,
         "plusMinus": 0,
         "shots": 21,
         "pim": 4
@@ -664,5 +664,5 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-16T14:39:42.894Z"
+  "scrapedAt": "2026-03-17T15:24:05.729Z"
 }

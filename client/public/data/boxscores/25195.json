@@ -354,7 +354,7 @@
         "g": 0,
         "a": 0,
         "pts": 0,
-        "plusMinus": 0,
+        "plusMinus": 1,
         "shots": 1,
         "pim": 0
       },
@@ -409,7 +409,7 @@
         "g": 0,
         "a": 0,
         "pts": 0,
-        "plusMinus": 0,
+        "plusMinus": -1,
         "shots": 3,
         "pim": 0
       },
@@ -680,5 +680,5 @@
     }
   ],
   "isFinal": true,
-  "scrapedAt": "2026-03-16T14:42:03.921Z"
+  "scrapedAt": "2026-03-17T15:24:03.339Z"
 }
