@@ -336,18 +336,14 @@ export default function TeamPage() {
             {rosterData?.roster && (() => {
               const isOnTeam = (s) => s === "active" || s === "signed" || s === "loaned";
               const normalize = (n) => (n || "").replace(/^x\s+/i, "").replace(/^\*\s*/i, "").trim().toLowerCase();
-              const skaters = rosterData.roster.filter((p) => {
-                if (!isOnTeam(p.status) || p.position === "G" || (p.stats?.gp ?? 0) === 0) return false;
-                const pd = playersData?.skaters?.find((s) => normalize(s.player) === normalize(p.player));
-                return pd ? pd.isActive : true;
-              });
+              const skaters = (playersData?.skaters || []).filter((p) => p.isActive && (p.gp ?? 0) > 0);
               const goalies = rosterData.roster.filter((p) => {
                 if ((!isOnTeam(p.status) && p.status !== "reserve") || p.position !== "G" || (p.stats?.gp ?? 0) === 0) return false;
                 const pd = playersData?.goalies?.find((g) => normalize(g.player) === normalize(p.player));
                 return pd ? pd.isActive : true;
               });
               const top = (arr, key, n = 3) =>
-                [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
+                [...arr].sort((a, b) => (b[key] ?? 0) - (a[key] ?? 0)).slice(0, n);
 
               // Look up league rank for a skater in a stat category
               const rankFrom = (arr, name) => {
@@ -398,9 +394,9 @@ export default function TeamPage() {
                       <div className="mini-leader-cat">{title}</div>
                       {players.map((p, i) => {
                         const rank = leagueRankFor(p.player, title);
-                        const val  = title === "PTS" ? p.stats?.pts
-                                   : title === "G"   ? p.stats?.g
-                                   :                   p.stats?.a;
+                        const val  = title === "PTS" ? p.pts
+                                   : title === "G"   ? p.g
+                                   :                   p.a;
                         return (
                           <div key={i} className="mini-leader-row">
                             <span className="mini-leader-rank">{i + 1}</span>
