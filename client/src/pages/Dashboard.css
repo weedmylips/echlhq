@@ -37,6 +37,10 @@
 }
 .scroll-btn:hover { background: var(--bg-card); }
 
+@media (max-width: 600px) {
+  .scroll-btn { display: none; }
+}
+
 .scores-strip {
   display: flex;
   flex: 1;
