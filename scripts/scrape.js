@@ -1010,6 +1010,12 @@ function scrapeTeamPlayers(html) {
         const gaIdx     = headers.indexOf("GA");
         const gaaIdx    = headers.indexOf("GAA");
         const svIdx     = headers.indexOf("SV%");
+        const soIdx     = headers.indexOf("SO");
+        const sowIdx    = headers.indexOf("SOW");
+        const solIdx    = headers.indexOf("SOL");
+        const soaIdx    = headers.indexOf("SOA");
+        const soPctIdx  = headers.indexOf("SO%");
+        const saIdx     = headers.indexOf("SA");
         $(table).find("tr").each((i, row) => {
           if (i === 0) return;
           const cells = $(row).find("td");
@@ -1025,12 +1031,18 @@ function scrapeTeamPlayers(html) {
             position: "G",
             isRookie,
             isActive,
-            gp:    gpIdx  >= 0 ? num($(cells[gpIdx]).text())  : 0,
-            w:     wIdx   >= 0 ? num($(cells[wIdx]).text())   : 0,
-            l:     lIdx   >= 0 ? num($(cells[lIdx]).text())   : 0,
-            ga:    gaIdx  >= 0 ? num($(cells[gaIdx]).text())  : 0,
-            gaa:   gaaIdx >= 0 ? num($(cells[gaaIdx]).text()) : 0,
-            svPct: svIdx  >= 0 ? num($(cells[svIdx]).text())  : 0,
+            gp:     gpIdx    >= 0 ? num($(cells[gpIdx]).text())    : 0,
+            w:      wIdx     >= 0 ? num($(cells[wIdx]).text())     : 0,
+            l:      lIdx     >= 0 ? num($(cells[lIdx]).text())     : 0,
+            ga:     gaIdx    >= 0 ? num($(cells[gaIdx]).text())    : 0,
+            gaa:    gaaIdx   >= 0 ? num($(cells[gaaIdx]).text())   : 0,
+            svPct:  svIdx    >= 0 ? num($(cells[svIdx]).text())    : 0,
+            shutouts: soIdx  >= 0 ? num($(cells[soIdx]).text())    : 0,
+            sow:    sowIdx   >= 0 ? num($(cells[sowIdx]).text())   : 0,
+            sol:    solIdx   >= 0 ? num($(cells[solIdx]).text())   : 0,
+            soa:    soaIdx   >= 0 ? num($(cells[soaIdx]).text())   : 0,
+            soSvPct: soPctIdx >= 0 ? num($(cells[soPctIdx]).text()) : 0,
+            sa:     saIdx    >= 0 ? num($(cells[saIdx]).text())    : 0,
           });
         });
       }
@@ -1182,12 +1194,12 @@ async function main() {
   if (leaders.goals.length   < 5) leaders.goals   = computedGoals;
   if (leaders.assists.length < 5) leaders.assists = computedAssists;
 
-  // Goalie leaders from player data (fill in when scrape didn't get them)
-  if (!leaders.gaa.length   && allGoalies.length) leaders.gaa   = rankByAsc(allGoalies,  "gaa");
-  if (!leaders.svPct.length && allGoalies.length) leaders.svPct = rankByDesc(allGoalies, "svPct");
-
-  // New computed-only categories
+  // Compute all goalie leaders from player data
+  leaders.gaa       = rankByAsc(allGoalies, "gaa");
+  leaders.svPct     = rankByDesc(allGoalies, "svPct");
+  leaders.shutouts  = rankByDesc(allGoalies.filter((p) => (p.shutouts ?? 0) > 0), "shutouts");
   leaders.goalieWins = rankByDesc(allGoalies, "w");
+  leaders.soRecord  = rankByDesc(allGoalies.filter((p) => (p.soa ?? 0) >= 3), "soSvPct");
   leaders.gwg        = rankByDesc(allSkaters.filter((p) => (p.gwg ?? 0) > 0), "gwg");
   leaders.plusMinus    = rankByDesc(allSkaters, "pm");
   leaders.shots        = rankByDesc(allSkaters.filter((p) => (p.sh ?? 0) > 0), "sh");

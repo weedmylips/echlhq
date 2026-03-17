@@ -864,7 +864,13 @@
       "l": 1,
       "ga": 26,
       "gaa": 2.32,
-      "svPct": 0.926
+      "svPct": 0.926,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 1,
+      "soa": 2,
+      "soSvPct": 0,
+      "sa": 353
     },
     {
       "number": 33,
@@ -877,7 +883,13 @@
       "l": 6,
       "ga": 49,
       "gaa": 2.61,
-      "svPct": 0.916
+      "svPct": 0.916,
+      "shutouts": 1,
+      "sow": 1,
+      "sol": 0,
+      "soa": 4,
+      "soSvPct": 0.5,
+      "sa": 581
     },
     {
       "number": 30,
@@ -890,7 +902,13 @@
       "l": 8,
       "ga": 70,
       "gaa": 3.18,
-      "svPct": 0.906
+      "svPct": 0.906,
+      "shutouts": 0,
+      "sow": 3,
+      "sol": 0,
+      "soa": 16,
+      "soSvPct": 0.813,
+      "sa": 741
     },
     {
       "number": 33,
@@ -903,7 +921,13 @@
       "l": 3,
       "ga": 27,
       "gaa": 3.89,
-      "svPct": 0.877
+      "svPct": 0.877,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 219
     },
     {
       "number": 30,
@@ -916,8 +940,14 @@
       "l": 1,
       "ga": 9,
       "gaa": 5.83,
-      "svPct": 0.791
+      "svPct": 0.791,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 43
     }
   ],
-  "scrapedAt": "2026-03-17T16:50:29.179Z"
+  "scrapedAt": "2026-03-17T17:00:05.237Z"
 }

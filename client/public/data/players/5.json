@@ -1164,7 +1164,13 @@
       "l": 5,
       "ga": 27,
       "gaa": 3.02,
-      "svPct": 0.907
+      "svPct": 0.907,
+      "shutouts": 0,
+      "sow": 1,
+      "sol": 0,
+      "soa": 2,
+      "soSvPct": 1,
+      "sa": 291
     },
     {
       "number": 35,
@@ -1177,7 +1183,13 @@
       "l": 12,
       "ga": 90,
       "gaa": 3.07,
-      "svPct": 0.899
+      "svPct": 0.899,
+      "shutouts": 1,
+      "sow": 1,
+      "sol": 0,
+      "soa": 20,
+      "soSvPct": 0.9,
+      "sa": 889
     },
     {
       "number": 30,
@@ -1190,7 +1202,13 @@
       "l": 7,
       "ga": 58,
       "gaa": 3.59,
-      "svPct": 0.883
+      "svPct": 0.883,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 496
     },
     {
       "number": 31,
@@ -1203,8 +1221,14 @@
       "l": 6,
       "ga": 45,
       "gaa": 4.47,
-      "svPct": 0.85
+      "svPct": 0.85,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 300
     }
   ],
-  "scrapedAt": "2026-03-17T16:50:29.179Z"
+  "scrapedAt": "2026-03-17T17:00:05.237Z"
 }

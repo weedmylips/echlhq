@@ -1364,7 +1364,13 @@
       "l": 0,
       "ga": 0,
       "gaa": 0,
-      "svPct": 1
+      "svPct": 1,
+      "shutouts": 1,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 20
     },
     {
       "number": 29,
@@ -1377,7 +1383,13 @@
       "l": 0,
       "ga": 1,
       "gaa": 1.52,
-      "svPct": 0.97
+      "svPct": 0.97,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 33
     },
     {
       "number": 35,
@@ -1390,7 +1402,13 @@
       "l": 2,
       "ga": 17,
       "gaa": 2.31,
-      "svPct": 0.927
+      "svPct": 0.927,
+      "shutouts": 1,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 233
     },
     {
       "number": 38,
@@ -1403,7 +1421,13 @@
       "l": 4,
       "ga": 28,
       "gaa": 2.43,
-      "svPct": 0.917
+      "svPct": 0.917,
+      "shutouts": 1,
+      "sow": 0,
+      "sol": 1,
+      "soa": 20,
+      "soSvPct": 0.85,
+      "sa": 339
     },
     {
       "number": 29,
@@ -1416,7 +1440,13 @@
       "l": 3,
       "ga": 11,
       "gaa": 2.8,
-      "svPct": 0.905
+      "svPct": 0.905,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 116
     },
     {
       "number": 35,
@@ -1429,7 +1459,13 @@
       "l": 6,
       "ga": 51,
       "gaa": 3.81,
-      "svPct": 0.875
+      "svPct": 0.875,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 408
     },
     {
       "number": 32,
@@ -1442,7 +1478,13 @@
       "l": 13,
       "ga": 89,
       "gaa": 4.24,
-      "svPct": 0.874
+      "svPct": 0.874,
+      "shutouts": 1,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 705
     },
     {
       "number": 32,
@@ -1455,8 +1497,14 @@
       "l": 0,
       "ga": 8,
       "gaa": 5.39,
-      "svPct": 0.795
+      "svPct": 0.795,
+      "shutouts": 0,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 39
     }
   ],
-  "scrapedAt": "2026-03-17T16:50:29.179Z"
+  "scrapedAt": "2026-03-17T17:00:05.237Z"
 }

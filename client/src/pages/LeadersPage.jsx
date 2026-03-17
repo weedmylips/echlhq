@@ -29,11 +29,11 @@ const SKATER_CARDS = [
 ];
 
 const GOALIE_CARDS = [
-  { key: "gaa",        label: "GAA",        stat: "GAA", lower: true },
-  { key: "svPct",      label: "SV %",       stat: "SV%", isPct: true },
+  { key: "gaa",        label: "GAA",        stat: "GAA", lower: true, note: "min 10 GP" },
+  { key: "svPct",      label: "SV %",       stat: "SV%", isPct: true, note: "min 10 GP" },
   { key: "shutouts",   label: "SHUTOUTS",   stat: "SO"   },
   { key: "goalieWins", label: "WINS",       stat: "W"    },
-  { key: "soRecord",   label: "SO SAVE %",  stat: "SO%", isPct: true },
+  { key: "soRecord",   label: "SO SAVE %",  stat: "SO%", isPct: true, note: "min 3 attempts" },
 ];
 
 const DEFENSEMAN_CARDS = [
