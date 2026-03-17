@@ -1237,7 +1237,7 @@ function RosterTab({ playersData, rosterData }) {
 
   const activeGoalies = (playersData.goalies || [])
     .filter((p) => p.isActive)
-    .sort((a, b) => b.gp - a.gp)
+    .sort((a, b) => (b.svPct ?? 0) - (a.svPct ?? 0))
     .map((p) => {
       const r = rosterByName[p.player.toLowerCase()];
       return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null, _suspensionGamesRemaining: r?.suspensionGamesRemaining ?? null };
@@ -1269,7 +1269,7 @@ function RosterTab({ playersData, rosterData }) {
   const byPts = (a, b) => b.pts - a.pts;
   const forwards   = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position !== "D" && p.position !== "G").sort(byPts);
   const defensemen = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position === "D").sort(byPts);
-  const allGoalies = [...activeGoalies, ...inactiveGoalies];
+  const allGoalies = [...activeGoalies, ...inactiveGoalies].sort((a, b) => (b.svPct ?? 0) - (a.svPct ?? 0));
 
   const skaterTable = (players) => (
     <div className="table-wrap">
