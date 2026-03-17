@@ -957,6 +957,7 @@ function scrapeTeamPlayers(html) {
         const ptsIdx = headers.indexOf("PTS");
         const gwIdx  = headers.indexOf("GW");
         const pmIdx  = headers.findIndex((h) => h === "+/-" || h === "PM");
+        const shIdx  = headers.indexOf("SH");
         $(table).find("tr").each((i, row) => {
           if (i === 0) return;
           const cells = $(row).find("td");
@@ -978,6 +979,7 @@ function scrapeTeamPlayers(html) {
             pts: ptsIdx >= 0 ? num($(cells[ptsIdx]).text()) : 0,
             gwg: gwIdx  >= 0 ? num($(cells[gwIdx]).text())  : 0,
             pm:  pmIdx  >= 0 ? num($(cells[pmIdx]).text())  : 0,
+            sh:  shIdx  >= 0 ? num($(cells[shIdx]).text())  : 0,
           });
         });
       } else if (isGoalie) {
@@ -1168,6 +1170,7 @@ async function main() {
   leaders.goalieWins = rankByDesc(allGoalies, "w");
   leaders.gwg        = rankByDesc(allSkaters.filter((p) => (p.gwg ?? 0) > 0), "gwg");
   leaders.plusMinus  = rankByDesc(allSkaters, "pm");
+  leaders.shots      = rankByDesc(allSkaters.filter((p) => (p.sh ?? 0) > 0), "sh");
   leaders.rookiePts  = rankByDesc(allSkaters.filter((p) => p.isRookie), "pts");
   leaders.rookieG    = rankByDesc(allSkaters.filter((p) => p.isRookie), "g");
   leaders.rookieA    = rankByDesc(allSkaters.filter((p) => p.isRookie), "a");
