@@ -431,7 +431,8 @@ async function scrapeLeadersAndScores(html, ydateStr) {
   const leaders = {
     goals: [], assists: [], points: [],
     gaa: [], svPct: [], shutouts: [], goalieWins: [],
-    gwg: [], plusMinus: [], shots: [], shootingPct: [],
+    gwg: [],
+    plusMinus: [], shots: [], shootingPct: [],
     ppg: [], ppp: [], ppa: [],
     shg: [], shp: [], sha: [],
     pim: [], minors: [], majors: [],
@@ -480,9 +481,6 @@ async function scrapeLeadersAndScores(html, ydateStr) {
           }
 
           // ── New skater categories ──────────────────────────────────────
-          if (has("GWG") && !leaders.gwg.length)
-            leaders.gwg = parseLeaderTableByIdx($, table, "GWG");
-
           if (hasAny("+/-", "PM") && !leaders.plusMinus.length)
             leaders.plusMinus = parseLeaderTableByIdx($, table, has("+/-") ? "+/-" : "PM");
 
@@ -957,6 +955,7 @@ function scrapeTeamPlayers(html) {
         const gIdx   = headers.indexOf("G");
         const aIdx   = headers.indexOf("A");
         const ptsIdx = headers.indexOf("PTS");
+        const gwIdx  = headers.indexOf("GW");
         $(table).find("tr").each((i, row) => {
           if (i === 0) return;
           const cells = $(row).find("td");
@@ -976,6 +975,7 @@ function scrapeTeamPlayers(html) {
             g:   gIdx   >= 0 ? num($(cells[gIdx]).text())   : 0,
             a:   aIdx   >= 0 ? num($(cells[aIdx]).text())   : 0,
             pts: ptsIdx >= 0 ? num($(cells[ptsIdx]).text()) : 0,
+            gwg: gwIdx  >= 0 ? num($(cells[gwIdx]).text())  : 0,
           });
         });
       } else if (isGoalie) {
@@ -1164,6 +1164,7 @@ async function main() {
 
   // New computed-only categories
   leaders.goalieWins = rankByDesc(allGoalies, "w");
+  leaders.gwg        = rankByDesc(allSkaters.filter((p) => (p.gwg ?? 0) > 0), "gwg");
   leaders.rookiePts  = rankByDesc(allSkaters.filter((p) => p.isRookie), "pts");
   leaders.rookieG    = rankByDesc(allSkaters.filter((p) => p.isRookie), "g");
   leaders.rookieA    = rankByDesc(allSkaters.filter((p) => p.isRookie), "a");
