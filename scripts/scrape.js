@@ -860,35 +860,40 @@ async function resolveGameIds(scores, seedId) {
   const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const ydStr2 = `${monthNames[yd.getUTCMonth()]} ${String(yd.getUTCDate()).padStart(2," ")}, ${yd.getUTCFullYear()}`;
 
-  // Probe a window: seedId-5 to seedId+40
+  // Probe a window: seedId-5 to seedId+300
   const start = Math.max(1, seedId - 5);
-  const end   = seedId + 60;
+  const end   = seedId + 300;
   let maxId = seedId;
 
   console.log(`  Probing game IDs ${start}–${end} for ${ydStr2.trim()}…`);
 
-  for (let id = start; id <= end; id++) {
-    const title = await fetchGameTitle(id);
-    if (!title || !title.startsWith("Gamesheet:")) continue;
-    if (!title.includes(ydStr2.trim())) continue; // only yesterday's games
+  const BATCH = 20;
+  const ids = Array.from({ length: end - start + 1 }, (_, i) => start + i);
+  for (let i = 0; i < ids.length; i += BATCH) {
+    const batch = ids.slice(i, i + BATCH);
+    const results = await Promise.all(batch.map(async (id) => ({ id, title: await fetchGameTitle(id) })));
+    for (const { id, title } of results) {
+      if (!title || !title.startsWith("Gamesheet:")) continue;
+      if (!title.includes(ydStr2.trim())) continue; // only yesterday's games
 
-    maxId = Math.max(maxId, id);
+      maxId = Math.max(maxId, id);
 
-    // Parse "Gamesheet: Visiting at Home - Date"
-    const m = title.match(/^Gamesheet:\s+(.+?)\s+at\s+(.+?)\s+-\s+/);
-    if (!m) continue;
-    const visiting = normName(m[1]);
-    const home     = normName(m[2]);
+      // Parse "Gamesheet: Visiting at Home - Date"
+      const m = title.match(/^Gamesheet:\s+(.+?)\s+at\s+(.+?)\s+-\s+/);
+      if (!m) continue;
+      const visiting = normName(m[1]);
+      const home     = normName(m[2]);
 
-    // Match to a parsed score
-    const score = scores.find(
-      (s) => s.gameId === null &&
-             normName(s.visitingTeam).includes(visiting.slice(0, 5)) &&
-             normName(s.homeTeam).includes(home.slice(0, 5))
-    );
-    if (score) {
-      score.gameId = id;
-      console.log(`    ✓ ${id} → ${m[1]} at ${m[2]}`);
+      // Match to a parsed score
+      const score = scores.find(
+        (s) => s.gameId === null &&
+               normName(s.visitingTeam).includes(visiting.slice(0, 5)) &&
+               normName(s.homeTeam).includes(home.slice(0, 5))
+      );
+      if (score) {
+        score.gameId = id;
+        console.log(`    ✓ ${id} → ${m[1]} at ${m[2]}`);
+      }
     }
   }
 
