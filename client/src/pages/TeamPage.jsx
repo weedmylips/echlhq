@@ -340,7 +340,7 @@ export default function TeamPage() {
                 (p) => isOnTeam(p.status) && p.position !== "G" && (p.stats?.gp ?? 0) > 0
               );
               const goalies = rosterData.roster.filter((p) =>
-                isOnTeam(p.status) && p.position === "G" && (p.stats?.gp ?? 0) > 0
+                (isOnTeam(p.status) || p.status === "reserve") && p.position === "G" && (p.stats?.gp ?? 0) > 0
               );
               const top = (arr, key, n = 3) =>
                 [...arr].sort((a, b) => (b.stats?.[key] ?? 0) - (a.stats?.[key] ?? 0)).slice(0, n);
