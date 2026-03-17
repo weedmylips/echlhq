@@ -430,13 +430,15 @@ async function scrapeLeadersAndScores(html, ydateStr) {
   const $ = cheerio.load(html);
   const leaders = {
     goals: [], assists: [], points: [],
-    gaa: [], svPct: [], shutouts: [],
+    gaa: [], svPct: [], shutouts: [], goalieWins: [],
     gwg: [], plusMinus: [], shots: [], shootingPct: [],
     ppg: [], ppp: [], ppa: [],
     shg: [], shp: [], sha: [],
     pim: [], minors: [], majors: [],
     soGoals: [], soPct: [],
     soRecord: [],
+    rookiePts: [], rookieG: [], rookieA: [],
+    dPts: [], dGoals: [],
   };
 
   // Overall Leaders section
@@ -1090,7 +1092,7 @@ async function main() {
   console.log("Parsing leaders and scores…");
   const { leaders, scores } = await scrapeLeadersAndScores(reportHtml, ydateStr);
 
-  // Augment leaders with full league scoring ranks derived from per-team player data
+  // Augment leaders with computed stats derived from per-team player data.
   // Cross-reference roster files to exclude recalled_ahl players; loaned players stay in.
   const recalledNames = new Set();
   try {
@@ -1103,20 +1105,70 @@ async function main() {
       } catch {}
     }
   } catch {}
-  const allSkaters = Object.values(teamPlayers).flatMap((t) =>
-    (t.skaters || []).filter((p) => (p.gp ?? 0) > 0 && !recalledNames.has(p.player.toLowerCase()))
-  );
-  const rankBy = (arr, key) => {
+
+  // Build team abbr lookup
+  const teamAbbrMap = {};
+  Object.values(TEAMS).forEach((t) => { teamAbbrMap[t.id] = t.abbr; });
+
+  // Flat skater list with team abbr attached
+  const allSkaters = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
+    const abbr = teamAbbrMap[parseInt(teamId)] || "";
+    return (t.skaters || [])
+      .filter((p) => (p.gp ?? 0) > 0 && !recalledNames.has(p.player.toLowerCase()))
+      .map((p) => ({ ...p, team: abbr }));
+  });
+
+  // Flat goalie list with team abbr — minimum 10 GP to qualify
+  const allGoalies = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
+    const abbr = teamAbbrMap[parseInt(teamId)] || "";
+    return (t.goalies || [])
+      .filter((p) => (p.gp ?? 0) >= 10)
+      .map((p) => ({ ...p, team: abbr }));
+  });
+
+  const rankByDesc = (arr, key) => {
     const sorted = [...arr].sort((a, b) => (b[key] ?? 0) - (a[key] ?? 0));
     let rank = 1;
     return sorted.map((p, i) => {
       if (i > 0 && (p[key] ?? 0) !== (sorted[i - 1][key] ?? 0)) rank = i + 1;
-      return { rank, name: p.player, value: p[key] ?? 0 };
+      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0 };
     });
   };
-  leaders.allPoints  = rankBy(allSkaters, "pts");
-  leaders.allGoals   = rankBy(allSkaters, "g");
-  leaders.allAssists = rankBy(allSkaters, "a");
+
+  const rankByAsc = (arr, key) => {
+    const sorted = [...arr].sort((a, b) => (a[key] ?? 0) - (b[key] ?? 0));
+    let rank = 1;
+    return sorted.map((p, i) => {
+      if (i > 0 && (p[key] ?? 0) !== (sorted[i - 1][key] ?? 0)) rank = i + 1;
+      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0 };
+    });
+  };
+
+  // Full league scoring ranks (used as fallback when scraped lists are sparse)
+  const computedPoints  = rankByDesc(allSkaters, "pts");
+  const computedGoals   = rankByDesc(allSkaters, "g");
+  const computedAssists = rankByDesc(allSkaters, "a");
+
+  leaders.allPoints  = computedPoints;
+  leaders.allGoals   = computedGoals;
+  leaders.allAssists = computedAssists;
+
+  // Use computed data when scraped leaders lists are missing or sparse
+  if (leaders.points.length  < 5) leaders.points  = computedPoints;
+  if (leaders.goals.length   < 5) leaders.goals   = computedGoals;
+  if (leaders.assists.length < 5) leaders.assists = computedAssists;
+
+  // Goalie leaders from player data (fill in when scrape didn't get them)
+  if (!leaders.gaa.length   && allGoalies.length) leaders.gaa   = rankByAsc(allGoalies,  "gaa");
+  if (!leaders.svPct.length && allGoalies.length) leaders.svPct = rankByDesc(allGoalies, "svPct");
+
+  // New computed-only categories
+  leaders.goalieWins = rankByDesc(allGoalies, "w");
+  leaders.rookiePts  = rankByDesc(allSkaters.filter((p) => p.isRookie), "pts");
+  leaders.rookieG    = rankByDesc(allSkaters.filter((p) => p.isRookie), "g");
+  leaders.rookieA    = rankByDesc(allSkaters.filter((p) => p.isRookie), "a");
+  leaders.dPts       = rankByDesc(allSkaters.filter((p) => p.position === "D"), "pts");
+  leaders.dGoals     = rankByDesc(allSkaters.filter((p) => p.position === "D"), "g");
 
   if (writeJSON(path.join(DATA_DIR, "leaders.json"), { leaders, scrapedAt: now })) {
     console.log(`  ✓ leaders.json`);

@@ -23,7 +23,6 @@ const TABLE_COLS = [
 
 export default function StandingsPage() {
   const { data, isLoading, error } = useStandings();
-  const [view, setView] = useState("division");
   const [sortCol, setSortCol] = useState("pts");
   const [sortDir, setSortDir] = useState("desc");
   const navigate = useNavigate();
@@ -49,29 +48,17 @@ export default function StandingsPage() {
   }
 
   const grouped = standings.reduce((acc, t) => {
-    const g = view === "division" ? (t.division || "Other") : (t.conference || "Other");
+    const g = t.division || "Other";
     (acc[g] = acc[g] || []).push(t);
     return acc;
   }, {});
 
-  const groupOrder = view === "division"
-    ? DIVISION_ORDER.filter((d) => grouped[d]?.length)
-    : ["Eastern", "Western"].filter((c) => grouped[c]?.length);
+  const groupOrder = DIVISION_ORDER.filter((d) => grouped[d]?.length);
 
   return (
     <div className="standings-page">
       <div className="standings-page-header">
         <h1 className="page-title">Standings</h1>
-        <div className="view-tabs">
-          <button
-            className={`view-tab${view === "division" ? " active" : ""}`}
-            onClick={() => setView("division")}
-          >Division</button>
-          <button
-            className={`view-tab${view === "conference" ? " active" : ""}`}
-            onClick={() => setView("conference")}
-          >Conference</button>
-        </div>
       </div>
 
       {data?.stale && <div className="stale-banner">⚠ Showing cached data — live data temporarily unavailable</div>}
@@ -87,7 +74,7 @@ export default function StandingsPage() {
               <div key={groupName} className="standings-group card">
                 <div className="group-header">
                   <span className="group-name">
-                    {groupName} {view === "division" ? "Division" : "Conference"}
+                    {groupName} Division
                   </span>
                   <span className="playoff-legend">
                     <span className="playoff-dot" /> Top {PLAYOFF_SPOTS} advance to playoffs

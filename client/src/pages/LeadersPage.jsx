@@ -29,10 +29,22 @@ const SKATER_CARDS = [
 ];
 
 const GOALIE_CARDS = [
-  { key: "gaa",      label: "GAA",        stat: "GAA", lower: true },
-  { key: "svPct",    label: "SV %",       stat: "SV%", isPct: true },
-  { key: "shutouts", label: "SHUTOUTS",   stat: "SO"   },
-  { key: "soRecord", label: "SO SAVE %",  stat: "SO%", isPct: true },
+  { key: "gaa",        label: "GAA",        stat: "GAA", lower: true },
+  { key: "svPct",      label: "SV %",       stat: "SV%", isPct: true },
+  { key: "shutouts",   label: "SHUTOUTS",   stat: "SO"   },
+  { key: "goalieWins", label: "WINS",       stat: "W"    },
+  { key: "soRecord",   label: "SO SAVE %",  stat: "SO%", isPct: true },
+];
+
+const ROOKIE_CARDS = [
+  { key: "rookiePts", label: "POINTS",  stat: "PTS" },
+  { key: "rookieG",   label: "GOALS",   stat: "G"   },
+  { key: "rookieA",   label: "ASSISTS", stat: "A"   },
+];
+
+const DEFENSEMAN_CARDS = [
+  { key: "dPts",   label: "POINTS", stat: "PTS" },
+  { key: "dGoals", label: "GOALS",  stat: "G"   },
 ];
 
 function fmtVal(value, cat) {
@@ -106,6 +118,20 @@ export default function LeadersPage() {
           <div className="leaders-section-label">GOALTENDERS</div>
           <div className="leaders-grid leaders-grid--goalies">
             {GOALIE_CARDS.map((cat) => (
+              <StatCard key={cat.key} cat={cat} leaders={leaders} />
+            ))}
+          </div>
+
+          <div className="leaders-section-label">ROOKIES</div>
+          <div className="leaders-grid leaders-grid--skaters">
+            {ROOKIE_CARDS.map((cat) => (
+              <StatCard key={cat.key} cat={cat} leaders={leaders} />
+            ))}
+          </div>
+
+          <div className="leaders-section-label">DEFENSEMEN</div>
+          <div className="leaders-grid leaders-grid--skaters">
+            {DEFENSEMAN_CARDS.map((cat) => (
               <StatCard key={cat.key} cat={cat} leaders={leaders} />
             ))}
           </div>
