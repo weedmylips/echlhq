@@ -742,19 +742,7 @@ tr.playoff-cutoff td {
     border-bottom: 1px solid var(--border);
   }
   .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .stats-grid .stat-block:nth-child(3n) {
-    border-right: 1px solid var(--border);
-  }
-  .stats-grid .stat-block:nth-child(2n) {
-    border-right: none;
-  }
-  .stats-grid .stat-block:nth-last-child(-n+3) {
-    border-bottom: 1px solid var(--border);
-  }
-  .stats-grid .stat-block:nth-last-child(-n+2) {
-    border-bottom: none;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
