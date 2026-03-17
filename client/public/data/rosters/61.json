@@ -206,7 +206,7 @@
     },
     {
       "playerId": "10472",
-      "player": "Randy Hern\u00e1ndez",
+      "player": "Randy Hernández",
       "number": 19,
       "position": "F",
       "status": "active",
@@ -509,7 +509,7 @@
       "player": "Emil Pieniniemi",
       "number": 79,
       "position": "D",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

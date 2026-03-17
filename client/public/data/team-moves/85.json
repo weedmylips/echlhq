@@ -2,6 +2,20 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-03-16",
+      "player": "Parker Bowman",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Cole Tymkin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-14",
       "player": "Jake Ratzlaff",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Jake Ratzlaff",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Braden Birnie",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

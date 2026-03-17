@@ -109,7 +109,7 @@
       "player": "Anthony Poulin",
       "number": 22,
       "position": "F",
-      "status": "leave",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -126,7 +126,7 @@
     },
     {
       "playerId": "8807",
-      "player": "C\u00e9dric Desruisseaux",
+      "player": "Cédric Desruisseaux",
       "number": 21,
       "position": "F",
       "status": "active",
@@ -246,7 +246,7 @@
     },
     {
       "playerId": "8968",
-      "player": "Mathias Laferri\u00e8re",
+      "player": "Mathias Laferrière",
       "number": 20,
       "position": "F",
       "status": "active",
@@ -426,7 +426,7 @@
     },
     {
       "playerId": "11245",
-      "player": "\u00c9douard Charron",
+      "player": "Édouard Charron",
       "number": 7,
       "position": "F",
       "status": "active",
@@ -666,7 +666,7 @@
     },
     {
       "playerId": "11236",
-      "player": "J\u00e9r\u00e9my Michaud",
+      "player": "Jérémy Michaud",
       "number": 15,
       "position": "D",
       "status": "active",
@@ -706,7 +706,7 @@
     },
     {
       "playerId": "9692",
-      "player": "William Lavalli\u00e8re",
+      "player": "William Lavallière",
       "number": 1,
       "position": "G",
       "status": "active",

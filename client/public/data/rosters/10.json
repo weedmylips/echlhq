@@ -2,7 +2,7 @@
   "teamId": 10,
   "slug": "atlanta-gladiators",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-16",
   "roster": [
     {
       "playerId": "10331",
@@ -329,7 +329,7 @@
       "player": "Max Grondin",
       "number": 21,
       "position": "F",
-      "status": "active",
+      "status": "loaned",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -549,7 +549,7 @@
       "player": "Cam Gaudette",
       "number": 10,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

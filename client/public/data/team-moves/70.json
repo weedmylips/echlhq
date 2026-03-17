@@ -2,6 +2,20 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-16",
+      "player": "Brandon Hawkins",
+      "position": "F",
+      "type": "active",
+      "summary": "Returned From Loan by Grand Rapids"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Jacob Truscott",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-14",
       "player": "Nolan Lalonde",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "loaned",
       "summary": "Loaned to Providence"
-    },
-    {
-      "date": "2026-03-04",
-      "player": "Carter Gylander",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Grand Rapids by Detroit"
-    },
-    {
-      "date": "2026-02-24",
-      "player": "Dylan Moulton",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Manitoba"
     }
   ]
 }
