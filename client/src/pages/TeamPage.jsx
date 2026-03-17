@@ -364,7 +364,6 @@ export default function TeamPage() {
               };
               const goalieRanks = (name) => ({
                 svPct: rankFrom(leadersData?.leaders?.svPct, name),
-                gaa:   rankFrom(leadersData?.leaders?.gaa,   name),
               });
 
               // Look up goalie's GAA / SV% from playersData
@@ -423,7 +422,6 @@ export default function TeamPage() {
                             <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-name-group">
                               <span className="mini-leader-name">{p.player}</span>
-                              {gRanks.gaa   && <span className="league-rank-pill">#{gRanks.gaa} GAA</span>}
                               {gRanks.svPct && <span className="league-rank-pill">#{gRanks.svPct} SV%</span>}
                             </span>
                             <span className="mini-leader-team">G</span>
