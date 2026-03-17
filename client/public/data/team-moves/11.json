@@ -9,6 +9,13 @@
       "summary": "Recalled to Texas by Dallas"
     },
     {
+      "date": "2026-03-16",
+      "player": "Arno Tiefensee",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Texas by Dallas"
+    },
+    {
       "date": "2026-03-15",
       "player": "Jake Boltmann",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Nicholas Canade",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

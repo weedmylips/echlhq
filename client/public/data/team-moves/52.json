@@ -2,6 +2,13 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Josh Atkinson",
+      "position": "D",
+      "type": "suspended",
+      "summary": "Suspended 3 Games"
+    },
+    {
       "date": "2026-03-15",
       "player": "Hudson Schandor",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-03",
-      "player": "Neil Shea",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

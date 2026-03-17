@@ -9,6 +9,13 @@
       "summary": "Recalled to Wilkes-Barre/Scranton by Pittsburgh"
     },
     {
+      "date": "2026-03-16",
+      "player": "Emil Pieniniemi",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Wilkes-Barre/Scranton by Pittsburgh"
+    },
+    {
       "date": "2026-03-14",
       "player": "Randy Hernandez",
       "position": "F",
@@ -131,13 +138,6 @@
       "date": "2026-03-04",
       "player": "Alexander Kuqali",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-04",
-      "player": "Raivis Ansons",
-      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

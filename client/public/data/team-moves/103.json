@@ -16,6 +16,20 @@
       "summary": "Activated from Family/Bereavement Leave"
     },
     {
+      "date": "2026-03-16",
+      "player": "Anthony Poulin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Anthony Poulin",
+      "position": "F",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
       "date": "2026-03-13",
       "player": "Anthony Poulin",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Sean Gulka",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

@@ -23,6 +23,27 @@
       "summary": "Signed ECHL SPC"
     },
     {
+      "date": "2026-03-16",
+      "player": "Luke Pavicich",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Kaidan Mbereko",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Kaidan Mbereko",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-14",
       "player": "Nick Rhéaume",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Max Helgeson",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Ryan Kirwan",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Toronto Marlies"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Max Smolinski",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

@@ -486,7 +486,7 @@ async function scrapeSuspensions(today) {
         // Extract article date: look for "DayName, Month Nth" or "(Month Day)" in text
         const fullText = lines.join(" ");
         // Fall back to first day of the URL's month so old posts aren't treated as fresh
-        const articleDate = extractArticleDate(fullText, year) ?? `${year}-${mm}-01`;
+        const articleDate = extractArticleDate(fullText, year, today) ?? `${year}-${mm}-01`;
 
         const suspensions = parseSuspensionLines(lines);
         console.log(`  📋 ${url} — ${suspensions.length} suspension(s) found (article date: ${articleDate})`);
@@ -578,7 +578,7 @@ const MONTH_NAMES_MAP = {
   july: "07", jul: "07", august: "08", aug: "08", september: "09", sep: "09", sept: "09",
   october: "10", oct: "10", november: "11", nov: "11", december: "12", dec: "12",
 };
-function extractArticleDate(text, year) {
+function extractArticleDate(text, year, todayStr) {
   // Try "tonight/today (Month.? Day)" e.g. "tonight (Feb. 21)" or "today (March 15)"
   const m2 = text.match(/(?:tonight|today)[^(]*\(([A-Z][a-z]+\.?)\s+(\d+)\)/);
   if (m2) {
@@ -590,6 +590,16 @@ function extractArticleDate(text, year) {
   if (m1) {
     const mon = MONTH_NAMES_MAP[m1[2].replace(".", "").toLowerCase()];
     if (mon) return `${year}-${mon}-${String(m1[3]).padStart(2, "0")}`;
+  }
+  // Try "on DayName announced" e.g. "on Monday announced" — compute most recent past occurrence
+  const DAY_NAMES = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const m3 = text.match(/\bon\s+(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)\b/i);
+  if (m3 && todayStr) {
+    const targetDay = DAY_NAMES.findIndex(d => d.toLowerCase() === m3[1].toLowerCase());
+    const ref = new Date(todayStr + "T12:00:00Z"); // noon UTC avoids DST/timezone date shifts
+    const diff = (ref.getUTCDay() - targetDay + 7) % 7;
+    const ms = ref.getTime() - diff * 86400000;
+    return new Date(ms).toISOString().slice(0, 10);
   }
   return null;
 }

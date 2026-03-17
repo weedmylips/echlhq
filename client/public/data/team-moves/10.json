@@ -16,6 +16,20 @@
       "summary": "Activated from Reserve"
     },
     {
+      "date": "2026-03-16",
+      "player": "Max Grondin",
+      "position": "F",
+      "type": "loaned",
+      "summary": "Loaned to Syracuse"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Cam Gaudette",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-15",
       "player": "Ryan Nolan",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled to Milwaukee by Nashville"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Max Grondin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Ethan Scardina",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

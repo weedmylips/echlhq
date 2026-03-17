@@ -9,6 +9,13 @@
       "summary": "Activated from Family/Bereavement Leave"
     },
     {
+      "date": "2026-03-16",
+      "player": "Nolan Sullivan",
+      "position": "F",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
       "date": "2026-03-13",
       "player": "James Marooney",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-04",
-      "player": "Will Gavin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

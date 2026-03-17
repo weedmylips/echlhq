@@ -9,6 +9,13 @@
       "summary": "Recalled by Hartford"
     },
     {
+      "date": "2026-03-16",
+      "player": "Chris Merisier-Ortiz",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Hartford"
+    },
+    {
       "date": "2026-03-14",
       "player": "Shane Ott",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Acquired from Greensboro 3/7"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Seung Jae Lee",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

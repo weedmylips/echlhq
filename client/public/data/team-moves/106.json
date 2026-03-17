@@ -30,6 +30,34 @@
       "summary": "Placed on IR 3 Day"
     },
     {
+      "date": "2026-03-16",
+      "player": "Stepan Timofeyev",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Ryan Rosborough",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Aiden Hansen-Bukata",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Colorado Eagles"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Tyler Gratton",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-15",
       "player": "Yaroslav Yevdokimov",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Noah Ganske",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Stepan Timofeyev",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Nicholas Niemo",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jacob Mucitelli",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

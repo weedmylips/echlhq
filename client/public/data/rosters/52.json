@@ -2,7 +2,7 @@
   "teamId": 52,
   "slug": "greenville-swamp-rabbits",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "10051",
@@ -449,12 +449,12 @@
       "player": "Josh Atkinson",
       "number": 59,
       "position": "D",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 3,
+      "suspensionGamesOriginal": 3,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -462,7 +462,8 @@
         "g": 6,
         "a": 28,
         "pts": 34
-      }
+      },
+      "suspensionGpAtStart": 57
     },
     {
       "playerId": "11083",
