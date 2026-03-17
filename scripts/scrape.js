@@ -29,6 +29,18 @@ const HEADERS = {
   Referer: "https://www.echl.com/",
 };
 
+// Returns a Date object representing "now" adjusted to Eastern Time,
+// so date math (yesterday, today) is correct regardless of server timezone.
+function nowEastern() {
+  const ET_OFFSET_MS = -5 * 60 * 60 * 1000; // EST base (UTC-5)
+  const now = new Date();
+  // Use Intl to detect whether we're currently in EDT (UTC-4) or EST (UTC-5)
+  const etHour = parseInt(new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", hour: "numeric", hour12: false }).format(now), 10);
+  const utcHour = now.getUTCHours();
+  const isDST = ((utcHour - etHour + 24) % 24) === 4;
+  return new Date(now.getTime() + (isDST ? -4 : -5) * 60 * 60 * 1000);
+}
+
 const DAILY_REPORT_URL =
   "https://cluster.leaguestat.com/download.php?client_code=echl&file_path=daily-report/daily-report.html";
 
@@ -855,8 +867,8 @@ function normName(s) {
 async function resolveGameIds(scores, seedId) {
   if (!scores.length) return { scores, maxId: seedId };
 
-  // Build yesterday's date string in the title format "Mar 13, 2026"
-  const yd = new Date(Date.now() - 86400000);
+  // Build yesterday's date string in the title format "Mar 13, 2026" (Eastern Time)
+  const yd = new Date(nowEastern().getTime() - 86400000);
   const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const ydStr2 = `${monthNames[yd.getUTCMonth()]} ${String(yd.getUTCDate()).padStart(2," ")}, ${yd.getUTCFullYear()}`;
 
@@ -1069,8 +1081,8 @@ async function main() {
   }
   console.log(`  ${playerFilesChanged > 0 ? "✓" : "–"} players/ (${Object.keys(teamPlayers).length} teams, ${playerFilesChanged} changed)`);
 
-  // Yesterday's date string for labelling scores
-  const yd = new Date(Date.now() - 86400000);
+  // Yesterday's date string for labelling scores (Eastern Time)
+  const yd = new Date(nowEastern().getTime() - 86400000);
   const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const ydateStr = `${monthNames[yd.getUTCMonth()]} ${yd.getUTCDate()}, ${yd.getUTCFullYear()}`;
 
