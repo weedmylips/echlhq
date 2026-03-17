@@ -56,6 +56,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No transaction changes to commit."
           else
-            git commit -m "chore: update ECHL rosters [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git commit -m "chore: update ECHL rosters [$(TZ='America/New_York' date '+%Y-%m-%d %H:%M ET')]"
             git push
           fi
