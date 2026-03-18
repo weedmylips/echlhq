@@ -181,7 +181,7 @@ function BoxScoreContent({ data }) {
                     <td>{p.period}</td>
                     <td>{p.team}</td>
                     <td className="bold">{p.player}</td>
-                    <td>{p.infraction}</td>
+                    <td>{p.infraction.replace(/\s*\([^)]*\)\s*$/, "")}</td>
                     <td className="num">{p.minutes}</td>
                   </tr>
                 ))}
