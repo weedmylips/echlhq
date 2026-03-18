@@ -1376,11 +1376,7 @@ function RosterTab({ playersData, rosterData }) {
 }
 
 function AttendanceCard({ standing, allStandings }) {
-  const teamsWithAtt = [...allStandings]
-    .filter((t) => t.attendanceAverage > 0)
-    .sort((a, b) => b.attendanceAverage - a.attendanceAverage);
-  const rank  = teamsWithAtt.findIndex((t) => t.teamId === standing.teamId) + 1;
-  const total = teamsWithAtt.length;
+  const teamsWithAtt = [...allStandings].filter((t) => t.attendanceAverage > 0);
   const fmt   = (n) => n ? Number(n).toLocaleString() : "—";
   const teamConfig = TEAMS[standing.teamId];
   const capacity = teamConfig?.arenaCapacity;
@@ -1388,27 +1384,45 @@ function AttendanceCard({ standing, allStandings }) {
     ? Math.round((standing.attendanceAverage / capacity) * 100)
     : null;
 
+  const rankBy = (sortFn) => {
+    const sorted = [...teamsWithAtt].sort(sortFn);
+    return sorted.findIndex((t) => t.teamId === standing.teamId) + 1;
+  };
+  const avgRank   = rankBy((a, b) => b.attendanceAverage - a.attendanceAverage);
+  const totalRank = rankBy((a, b) => b.attendanceTotal - a.attendanceTotal);
+  const capRank   = capacityPct != null
+    ? rankBy((a, b) => {
+        const capA = TEAMS[a.teamId]?.arenaCapacity;
+        const capB = TEAMS[b.teamId]?.arenaCapacity;
+        const pctA = capA ? a.attendanceAverage / capA : 0;
+        const pctB = capB ? b.attendanceAverage / capB : 0;
+        return pctB - pctA;
+      })
+    : null;
+
   return (
     <div className="card section-card">
       <div className="card-header">
         <span className="section-label" style={{ margin: 0 }}>Attendance</span>
-        {rank > 0 && <span className="attendance-rank">#{rank} of {total}</span>}
       </div>
       <div className="attendance-body">
         <div className="att-stat">
           <div className="att-value">{fmt(standing.attendanceAverage)}</div>
           <div className="att-label">Avg / Game</div>
+          {avgRank > 0 && <div className="att-rank">#{avgRank}</div>}
         </div>
         <div className="att-divider" />
         <div className="att-stat">
           <div className="att-value">{fmt(standing.attendanceTotal)}</div>
           <div className="att-label">Season Total</div>
+          {totalRank > 0 && <div className="att-rank">#{totalRank}</div>}
         </div>
         {capacityPct != null && <>
           <div className="att-divider" />
           <div className="att-stat">
             <div className="att-value">{capacityPct}%</div>
             <div className="att-label">{fmt(capacity)} Cap.</div>
+            {capRank > 0 && <div className="att-rank">#{capRank}</div>}
           </div>
         </>}
       </div>

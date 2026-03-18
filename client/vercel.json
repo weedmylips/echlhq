@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/((?!data/).*)", "destination": "/index.html" }
+    { "source": "/((?!data/|.*\\.(?:webmanifest|js|png|ico|svg|json)$).*)", "destination": "/index.html" }
   ]
 }

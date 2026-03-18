@@ -723,6 +723,13 @@ tr.playoff-cutoff td {
   margin-top: 4px;
 }
 
+.att-rank {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-top: 3px;
+}
+
 @media (max-width: 900px) {
   .overview-layout {
     grid-template-columns: 1fr;
