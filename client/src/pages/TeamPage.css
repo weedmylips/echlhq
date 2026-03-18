@@ -684,11 +684,6 @@ tr.playoff-cutoff td {
 }
 
 /* ── Attendance Card ── */
-.attendance-rank {
-  font-size: 11px;
-  color: var(--text-secondary);
-}
-
 .attendance-body {
   display: flex;
   align-items: center;
