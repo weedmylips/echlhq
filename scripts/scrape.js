@@ -1392,6 +1392,32 @@ async function main() {
     }
   }
 
+  // Build top-games.json from all boxscores (before pruning)
+  const allCurrentBoxscores = fs.readdirSync(BOXSCORES_DIR)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => {
+      try { return JSON.parse(fs.readFileSync(path.join(BOXSCORES_DIR, f), "utf8")); }
+      catch (_) { return null; }
+    })
+    .filter(Boolean);
+  const topGames = allCurrentBoxscores
+    .filter((b) => b.gameInfo?.attendance > 0)
+    .map((b) => ({
+      gameId: b.gameInfo.gameId,
+      homeTeam: b.gameInfo.homeTeam,
+      visitingTeam: b.gameInfo.visitingTeam,
+      date: b.gameInfo.date,
+      arena: b.gameInfo.arena,
+      attendance: b.gameInfo.attendance,
+      score: `${b.gameInfo.finalScore?.visiting ?? "?"}-${b.gameInfo.finalScore?.home ?? "?"}`,
+    }))
+    .sort((a, b) => b.attendance - a.attendance)
+    .slice(0, 20);
+  if (writeJSON(path.join(DATA_DIR, "top-games.json"), { topGames, scrapedAt: now })) {
+    console.log(`  ✓ top-games.json (${topGames.length} games)`);
+    changed++;
+  }
+
   // Prune box scores — keep only the last 10 games per team
   const keepIds = new Set();
   const teamLastGames = {};

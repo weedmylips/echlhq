@@ -29,6 +29,14 @@ export function useScores() {
   });
 }
 
+export function useTopGames() {
+  return useQuery({
+    queryKey: ["topGames"],
+    queryFn: api.topGames,
+    staleTime: STALE,
+  });
+}
+
 export function useBoxscore(gameId) {
   return useQuery({
     queryKey: ["boxscore", gameId],
