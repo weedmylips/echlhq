@@ -2,7 +2,7 @@
   "teamId": 108,
   "slug": "greensboro-gargoyles",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "10082",
@@ -22,26 +22,6 @@
         "g": 15,
         "a": 20,
         "pts": 35
-      }
-    },
-    {
-      "playerId": "5546",
-      "player": "Logan Nelson",
-      "number": 28,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 37,
-        "g": 14,
-        "a": 15,
-        "pts": 29
       }
     },
     {
@@ -82,26 +62,6 @@
         "g": 12,
         "a": 15,
         "pts": 27
-      }
-    },
-    {
-      "playerId": "8496",
-      "player": "Anthony Rinaldi",
-      "number": 17,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 54,
-        "g": 12,
-        "a": 14,
-        "pts": 26
       }
     },
     {
@@ -309,7 +269,7 @@
       "player": "Tian Rask",
       "number": 78,
       "position": "F",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -839,6 +799,27 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": "Florida",
       "acquiredDate": "2026-02-05",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Nate Hanley",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
       "stats": {
         "gp": 0,
         "g": 0,

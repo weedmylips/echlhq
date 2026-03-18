@@ -2,6 +2,34 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Nathan Berke",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Peter Tischke",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Holden Wale",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Jack Babbage",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-15",
       "player": "Nathan Berke",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Returned From Loan by Rochester"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Christopher Brown",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Toledo"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Garrett VanWyhe",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Toledo"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Colby Ambrosio",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Toledo"
-    },
-    {
-      "date": "2026-02-23",
-      "player": "Will Hillman",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Toledo"
     }
   ]
 }

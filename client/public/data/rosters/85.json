@@ -2,7 +2,7 @@
   "teamId": 85,
   "slug": "rapid-city-rush",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-18",
   "roster": [
     {
       "playerId": "8199",
@@ -970,10 +970,10 @@
       "player": "Rasmus Ekstrom",
       "number": null,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-05",
-      "irDays": 14,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

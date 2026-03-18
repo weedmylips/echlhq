@@ -2,7 +2,7 @@
   "teamId": 106,
   "slug": "utah-grizzlies",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "10860",
@@ -1148,6 +1148,27 @@
     {
       "playerId": null,
       "player": "Ryan Rosborough",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Cy LeClerc",
       "number": null,
       "position": "F",
       "status": "signed",

@@ -2,6 +2,20 @@
   "teamId": 8,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Gianfranco Cassaro",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Cole Moberg",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-15",
       "player": "Anthony Romano",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Ryan Naumovski",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Kade Landry",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Idaho"
     }
   ]
 }

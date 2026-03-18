@@ -905,6 +905,27 @@
         "a": 0,
         "pts": 0
       }
+    },
+    {
+      "playerId": null,
+      "player": "Logan Nelson",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Greensboro",
+      "acquiredDate": "2026-03-17",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
     }
   ]
 }

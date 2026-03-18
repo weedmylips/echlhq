@@ -2,7 +2,7 @@
   "teamId": 8,
   "slug": "florida-everblades",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "11033",
@@ -355,7 +355,7 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": "Trois-Rivi\u00e8res",
+      "acquiredFrom": "Trois-Rivières",
       "acquiredDate": "2025-11-06",
       "stats": {
         "gp": 6,
@@ -469,7 +469,7 @@
       "player": "Gianfranco Cassaro",
       "number": 23,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -629,7 +629,7 @@
       "player": "Cole Moberg",
       "number": 2,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

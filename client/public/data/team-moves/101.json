@@ -2,6 +2,20 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Loke Johansson",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Brandon Chabrier",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-14",
       "player": "Antonio Venuto",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "recalled_ahl",
       "summary": "Recalled to Providence by Boston"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Alex DiPaolo",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Indy"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Alex DiPaolo",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

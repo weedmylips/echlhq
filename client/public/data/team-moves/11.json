@@ -2,6 +2,13 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Adam Ingram",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
       "date": "2026-03-16",
       "player": "Arno Tiefensee",
       "position": "G",

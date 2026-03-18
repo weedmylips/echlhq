@@ -2,6 +2,20 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Joe Mack",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Joe Mack",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-16",
       "player": "Max Grondin",
       "position": "F",

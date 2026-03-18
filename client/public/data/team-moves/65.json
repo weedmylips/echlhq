@@ -2,6 +2,34 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Kyle Aucoin",
+      "position": "D",
+      "type": "active",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Owen Flores",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Rockford"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Cody Schiavon",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Ryan Ouellette",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-15",
       "player": "Cody Laskosky",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve 3/9"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Sahil Panwar",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Terry Broadhurst",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Kaleb Tiessen",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Brandon Schultz",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

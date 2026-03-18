@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-17",
   "roster": [
     {
       "playerId": "9064",
@@ -109,10 +109,10 @@
       "player": "Jarid Lukosevicius",
       "number": 57,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-17",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -306,7 +306,7 @@
     },
     {
       "playerId": "10660",
-      "player": "Gustav M\u00fcller",
+      "player": "Gustav Müller",
       "number": 28,
       "position": "F",
       "status": "active",

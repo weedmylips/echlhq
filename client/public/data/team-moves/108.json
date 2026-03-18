@@ -2,6 +2,34 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-17",
+      "player": "Anthony Rinaldi",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to South Carolina"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Logan Nelson",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Fort Wayne"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Tian Rask",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Nate Hanley",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-15",
       "player": "Tian Rask",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Zach Faremouth",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Bloomington 3/7"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Deni Goure",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Chicago Wolves"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Blake Swetlikoff",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "David Gagnon",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }
