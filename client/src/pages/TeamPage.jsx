@@ -1404,11 +1404,6 @@ function AttendanceCard({ standing, allStandings }) {
           <div className="att-value">{fmt(standing.attendanceTotal)}</div>
           <div className="att-label">Season Total</div>
         </div>
-        <div className="att-divider" />
-        <div className="att-stat">
-          <div className="att-value">{standing.attendanceGames || "—"}</div>
-          <div className="att-label">Home Games</div>
-        </div>
         {capacityPct != null && <>
           <div className="att-divider" />
           <div className="att-stat">
