@@ -3,6 +3,20 @@
   "moves": [
     {
       "date": "2026-03-17",
+      "player": "Justin Nachbaur",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Hershey"
+    },
+    {
+      "date": "2026-03-17",
+      "player": "Kaden Bohlsen",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Hershey"
+    },
+    {
+      "date": "2026-03-17",
       "player": "Anthony Rinaldi",
       "position": "F",
       "type": "active",

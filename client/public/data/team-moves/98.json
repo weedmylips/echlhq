@@ -3,6 +3,13 @@
   "moves": [
     {
       "date": "2026-03-17",
+      "player": "Stevie Leskovar",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned from Iowa Wild by Minnesota"
+    },
+    {
+      "date": "2026-03-17",
       "player": "TJ Schweighardt",
       "position": "D",
       "type": "signed",
