@@ -6,6 +6,7 @@ import {
 } from "recharts";
 import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
+import { TEAMS } from "../config/teamConfig.js";
 import "./TeamPage.css";
 
 const MOVE_ICONS = {
@@ -1381,6 +1382,11 @@ function AttendanceCard({ standing, allStandings }) {
   const rank  = teamsWithAtt.findIndex((t) => t.teamId === standing.teamId) + 1;
   const total = teamsWithAtt.length;
   const fmt   = (n) => n ? Number(n).toLocaleString() : "—";
+  const teamConfig = TEAMS[standing.teamId];
+  const capacity = teamConfig?.arenaCapacity;
+  const capacityPct = capacity && standing.attendanceAverage
+    ? Math.round((standing.attendanceAverage / capacity) * 100)
+    : null;
 
   return (
     <div className="card section-card">
@@ -1403,6 +1409,13 @@ function AttendanceCard({ standing, allStandings }) {
           <div className="att-value">{standing.attendanceGames || "—"}</div>
           <div className="att-label">Home Games</div>
         </div>
+        {capacityPct != null && <>
+          <div className="att-divider" />
+          <div className="att-stat">
+            <div className="att-value">{capacityPct}%</div>
+            <div className="att-label">{fmt(capacity)} Cap.</div>
+          </div>
+        </>}
       </div>
     </div>
   );
