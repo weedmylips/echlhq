@@ -185,6 +185,6 @@
 @media (max-width: 540px) {
   .leaders-grid--skaters,
   .leaders-grid--goalies {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
