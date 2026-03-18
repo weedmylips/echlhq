@@ -11,7 +11,7 @@
   flex-wrap: wrap;
 }
 
-.page-title {
+.leaders-page .page-title {
   font-size: 22px;
   font-weight: 800;
   color: var(--text);

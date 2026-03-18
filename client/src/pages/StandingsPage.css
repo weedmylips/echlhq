@@ -12,7 +12,7 @@
   gap: 12px;
 }
 
-.page-title {
+.standings-page .page-title {
   font-size: 22px;
   font-weight: 800;
   color: var(--text);
@@ -95,14 +95,14 @@
 }
 
 /* Table layout */
-.rank-col { width: 36px; }
-.team-col { min-width: 200px; }
-.num-col { text-align: right; }
-td.num { text-align: right; }
+.standings-page .rank-col { width: 36px; }
+.standings-page .team-col { min-width: 200px; }
+.standings-page .num-col { text-align: right; }
+.standings-page td.num { text-align: right; }
 
-.rank-cell { text-align: center; }
+.standings-page .rank-cell { text-align: center; }
 
-.rank-num {
+.standings-page .rank-num {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -114,19 +114,19 @@ td.num { text-align: right; }
   color: var(--text-muted);
 }
 
-.rank-num.in-playoffs {
+.standings-page .rank-num.in-playoffs {
   background: var(--green-bg);
   color: var(--green);
   border: 1px solid rgba(34, 197, 94, 0.25);
 }
 
-.team-name-cell {
+.standings-page .team-name-cell {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.row-logo {
+.standings-page .row-logo {
   width: 22px;
   height: 22px;
   object-fit: contain;
@@ -138,9 +138,9 @@ td.num { text-align: right; }
   font-size: 13px;
 }
 
-.team-row { cursor: pointer; }
+.standings-page .team-row { cursor: pointer; }
 
-.sort-icon {
+.standings-page .sort-icon {
   font-size: 10px;
   margin-left: 3px;
   opacity: 0.6;
@@ -153,13 +153,13 @@ tr.playoff-cutoff td {
 
 @media (max-width: 640px) {
   .standings-page-header { flex-direction: column; align-items: flex-start; }
-  .page-title { font-size: 18px; }
-  .team-col { min-width: 130px; }
+  .standings-page .page-title { font-size: 18px; }
+  .standings-page .team-col { min-width: 130px; }
   .group-header { padding: 8px 12px; flex-direction: column; align-items: flex-start; gap: 4px; }
   .playoff-legend { font-size: 10px; }
 }
 
 @media (max-width: 480px) {
-  .team-col { min-width: 110px; }
-  .rank-col { width: 28px; }
+  .standings-page .team-col { min-width: 110px; }
+  .standings-page .rank-col { width: 28px; }
 }

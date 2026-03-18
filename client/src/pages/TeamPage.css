@@ -214,13 +214,13 @@
   border-bottom: 1px solid var(--border);
 }
 
-.see-all-link {
+.team-page .see-all-link {
   font-size: 11px;
   color: var(--text-muted);
   text-decoration: none;
   transition: color 0.15s;
 }
-.see-all-link:hover { color: var(--text-secondary); }
+.team-page .see-all-link:hover { color: var(--text-secondary); }
 
 /* ── Recent Games ── */
 .recent-games-list {
@@ -487,22 +487,22 @@
 }
 
 /* Shared */
-.team-name-cell {
+.team-page .team-name-cell {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.row-logo {
+.team-page .row-logo {
   width: 22px;
   height: 22px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-.rank-cell { text-align: center; }
+.team-page .rank-cell { text-align: center; }
 
-.rank-num {
+.team-page .rank-num {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -514,21 +514,21 @@
   color: var(--text-muted);
 }
 
-.rank-num.in-playoffs {
+.team-page .rank-num.in-playoffs {
   background: var(--green-bg);
   color: var(--green);
   border: 1px solid rgba(34, 197, 94, 0.25);
 }
 
-.num-col { text-align: right; }
-td.num { text-align: right; }
-.team-row { cursor: pointer; }
+.team-page .num-col { text-align: right; }
+.team-page td.num { text-align: right; }
+.team-page .team-row { cursor: pointer; }
 
 tr.playoff-cutoff td {
   border-bottom: 2px dashed rgba(245, 158, 11, 0.4) !important;
 }
 
-.empty-msg {
+.team-page .empty-msg {
   color: var(--text-muted);
   font-size: 13px;
 }

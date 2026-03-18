@@ -131,7 +131,7 @@
   letter-spacing: 0.06em;
 }
 
-.empty-msg {
+.dashboard .empty-msg {
   color: var(--text-muted);
   font-size: 13px;
   padding: 8px 0;
@@ -172,26 +172,26 @@
   color: var(--text-secondary);
 }
 
-.team-col { min-width: 160px; }
-.num-col { text-align: right; }
-td.num { text-align: right; }
+.dashboard .team-col { min-width: 160px; }
+.dashboard .num-col { text-align: right; }
+.dashboard td.num { text-align: right; }
 
-.team-name-cell {
+.dashboard .team-name-cell {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.row-logo {
+.dashboard .row-logo {
   width: 20px;
   height: 20px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-.team-row { cursor: pointer; }
+.dashboard .team-row { cursor: pointer; }
 
-.sort-icon {
+.dashboard .sort-icon {
   font-size: 10px;
   margin-left: 2px;
   opacity: 0.7;
@@ -214,13 +214,13 @@ td.num { text-align: right; }
   margin-bottom: 12px;
 }
 
-.see-all-link {
+.dashboard .see-all-link {
   font-size: 11px;
   color: var(--text-muted);
   text-decoration: none;
   transition: color 0.15s;
 }
-.see-all-link:hover { color: var(--text-secondary); }
+.dashboard .see-all-link:hover { color: var(--text-secondary); }
 
 .leader-mini {
   padding: 10px 0;
@@ -301,6 +301,6 @@ td.num { text-align: right; }
   .division-card-header { padding: 8px 12px; }
   .division-name { font-size: 11px; }
 
-  .team-col { min-width: 120px; }
+  .dashboard .team-col { min-width: 120px; }
   .leaders-card { padding: 12px; }
 }
