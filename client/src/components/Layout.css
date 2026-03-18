@@ -174,13 +174,13 @@
 
 /* ===== Mobile ===== */
 @media (max-width: 640px) {
-  .top-bar { height: 40px; }
+  .top-bar { height: 50px; }
   .top-bar-inner { gap: 12px; }
-  .logo-text { font-size: 13px; }
+  .header-logo { height: 36px; }
 
   .page-nav-link { padding: 4px 8px; font-size: 12px; }
 
-  .team-nav-bar { top: 40px; }
+  .team-nav-bar { top: 50px; }
 
   .team-nav-scroll { padding: 0 8px; }
   .team-nav-btn { min-width: 34px; padding: 4px 3px; }
