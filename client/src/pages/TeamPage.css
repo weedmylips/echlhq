@@ -1264,6 +1264,8 @@ tr.playoff-cutoff td {
   .def-stat          { min-width: 40%; }
   .pim-body          { flex-wrap: wrap; }
   .pim-stat          { min-width: calc(33% - 1px); }
-  .home-ice-split    { flex-direction: column; gap: 14px; }
-  .hi-divider        { width: 100%; height: 1px; margin: 0; }
+  .home-ice-body     { padding: 10px 12px 12px; }
+  .hi-divider        { margin: 0 10px; }
+  .hi-pct            { font-size: 1.3rem; }
+  .hi-vs-avg         { font-size: 10px; }
 }
