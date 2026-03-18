@@ -71,7 +71,7 @@ function StatCard({ cat, leaders }) {
             >
               <span className="stat-rank">{i + 1}</span>
               <span className="stat-name">
-                {p.name}
+                {p.name.includes(" ") ? p.name[0] + ". " + p.name.split(" ").slice(1).join(" ") : p.name}
                 {p.isRookie && <span className="stat-rookie">R</span>}
                 {p.position && <span className="stat-position">{p.position}</span>}
               </span>
