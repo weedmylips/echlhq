@@ -204,6 +204,11 @@
 /* ── Section Cards ── */
 .section-card {
   overflow: hidden;
+  border-color: #3a3a3a;
+}
+
+.section-card .section-label {
+  color: var(--text-secondary);
 }
 
 .card-header {
@@ -211,7 +216,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid #3a3a3a;
 }
 
 .team-page .see-all-link {
@@ -681,7 +686,7 @@ tr.playoff-cutoff td {
 /* ── Attendance Card ── */
 .attendance-rank {
   font-size: 11px;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 .attendance-body {
@@ -714,7 +719,7 @@ tr.playoff-cutoff td {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   margin-top: 4px;
 }
 
