@@ -1125,6 +1125,31 @@
       "sog": 0,
       "soa": 0,
       "soPct": 0
+    },
+    {
+      "number": 20,
+      "player": "Justin Nachbaur",
+      "position": "F",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 3,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "ppp": 0,
+      "shp": 0,
+      "gwg": 0,
+      "pm": 0,
+      "sh": 0,
+      "shPct": 0,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 0,
+      "pim": 0,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
     }
   ],
   "goalies": [
