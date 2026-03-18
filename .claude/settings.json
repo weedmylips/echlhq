@@ -4,7 +4,12 @@
       "Bash(node -e \":*)",
       "Bash(node -e \"const d = require\\(''./client/public/data/players/60.json''\\); console.log\\(JSON.stringify\\(d.goalies[0], null, 2\\)\\);\")",
       "Bash(node -e \"const d = require\\(''./leaders.json''\\); Object.keys\\(d.leaders\\).forEach\\(k => console.log\\(k, d.leaders[k].length, ''entries, max rank:'', Math.max\\(...d.leaders[k].map\\(e=>e.rank||0\\)\\)\\)\\)\")",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(node -e \"const d = require\\(''./client/public/data/scores.json''\\); console.log\\(Object.keys\\(d\\)\\); console.log\\(typeof d.games, Array.isArray\\(d\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''./client/public/data/scores.json''\\); const games = d.scores; const mar17 = games.filter\\(g => g.date === ''2026-03-17''\\); console.log\\(''Mar 17 games:'', mar17.length\\); mar17.slice\\(0,3\\).forEach\\(g => console.log\\(JSON.stringify\\(g\\)\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''./client/public/data/scores.json''\\); console.log\\(''Total games:'', d.scores.length\\); const dates = [...new Set\\(d.scores.map\\(g => g.date\\)\\)].sort\\(\\(a,b\\) => new Date\\(b\\)-new Date\\(a\\)\\); console.log\\(''Unique dates:'', dates.length\\); console.log\\(''First 10:'', dates.slice\\(0,10\\)\\); console.log\\(''Last 10:'', dates.slice\\(-10\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''./client/public/data/scores.json''\\); const mar17 = d.scores.filter\\(g => g.date === ''Mar 17, 2026''\\); console.log\\(''Mar 17 games:'', mar17.length\\); mar17.forEach\\(g => console.log\\(g.visitingTeam, g.visitingScore, ''at'', g.homeTeam, g.homeScore, ''| gameId:'', g.gameId\\)\\);\")",
+      "Bash(node --input-type=module -e \":*)"
     ]
   }
 }

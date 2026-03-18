@@ -115,9 +115,9 @@ function parsePlayerName(raw) {
   const isRookie = s.startsWith("*");
   // Strip * before checking for x
   const afterStar = isRookie ? s.replace(/^\*\s*/, "").trim() : s;
-  const isActive = !/^x\s/i.test(afterStar);
+  const isActive = !/^x\s/.test(afterStar);
   const name = afterStar
-    .replace(/^x\s*/i, "")
+    .replace(/^x\s*/, "")
     .replace(/\s*\(total\)\s*$/i, "")
     .trim();
   return { name, isRookie, isActive };
@@ -595,38 +595,84 @@ async function scrapeLeadersAndScores(html, ydateStr) {
     }
   });
 
-  // Scores: first `.smallertext` cell with "X at Y" score patterns
+  // Scores: walk table rows looking for date headers and score cells.
+  // The daily report groups recent results under date headers like "WED, MARCH 11".
   const scores = [];
-  $("td").each((_, el) => {
-    const html = $(el).html() || "";
-    if (!html.includes(" at ")) return;
-    // Try to extract a game_id from any anchor tag in this cell or its row
-    const hrefAttr = $(el).find('a[href*="game_id"]').first().attr('href')
-                  || $(el).closest('tr').find('a[href*="game_id"]').first().attr('href')
-                  || "";
-    const idMatch = hrefAttr.match(/game_id=(\d+)/i);
-    const cellGameId = idMatch ? parseInt(idMatch[1]) : null;
+  const monthMap = { JANUARY: 0, FEBRUARY: 1, MARCH: 2, APRIL: 3, MAY: 4, JUNE: 5,
+                     JULY: 6, AUGUST: 7, SEPTEMBER: 8, OCTOBER: 9, NOVEMBER: 10, DECEMBER: 11 };
+  const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
-    const lines = html.split(/<br\s*\/?>/i);
-    let found = false;
-    lines.forEach((line) => {
-      const text = cheerio.load(line).text().trim();
-      const m = text.match(/^(.+?)\s+(\d+)\s+at\s+(.+?)\s+(\d+)(?:\s*\((OT|SO)\))?/);
-      if (m) {
-        found = true;
-        scores.push({
-          visitingTeam:  m[1].trim(),
-          visitingScore: parseInt(m[2]),
-          homeTeam:      m[3].trim(),
-          homeScore:     parseInt(m[4]),
-          overtime:      m[5] || null,
-          score:         `${m[2]}-${m[4]}${m[5] ? ` (${m[5]})` : ""}`,
-          gameId:        cellGameId,
-          date:          ydateStr,
-        });
+  // Determine season years: Oct-Dec = previous year, Jan-Jun = current year
+  const eastern = nowEastern();
+  const curYear = eastern.getUTCFullYear();
+  const curMonth = eastern.getUTCMonth();
+
+  function headerToDateStr(headerText) {
+    // e.g. "WED, MARCH 11" → "Mar 11, 2026"
+    const m = headerText.match(/([A-Z]+)\s+(\d+)/);
+    if (!m) return null;
+    const mon = monthMap[m[1]];
+    if (mon === undefined) return null;
+    const day = parseInt(m[2]);
+    // Season spans Oct–Apr: Oct-Dec use prior year if we're now in Jan-Jun
+    const year = (mon >= 9 && curMonth <= 5) ? curYear - 1 : curYear;
+    return `${monthNames[mon]} ${day}, ${year}`;
+  }
+
+  // Find the table that contains date-header rows (e.g. "WED, MARCH 11").
+  // The scores table is nested inside a wrapper table, so we must skip wrapper
+  // tables and only parse tables whose direct rows include date headers.
+  const dateHeaderRe = /^(MON|TUE|WED|THU|FRI|SAT|SUN),\s/;
+  $("table").each((_, table) => {
+    const rows = $(table).children("tbody").children("tr").add($(table).children("tr"));
+    // Pre-check: skip wrapper tables — only parse tables with 3+ direct rows
+    // that include date-header rows (the scores table has ~14 rows, wrappers have 1-2).
+    if (rows.length < 3) return;
+    let hasDateHeaders = false;
+    rows.each((_, row) => {
+      const cells = $(row).children("td");
+      if (cells.length <= 2 && dateHeaderRe.test($(cells[0]).text().trim().toUpperCase())) {
+        hasDateHeaders = true;
+        return false;
       }
     });
-    if (found) return false;
+    if (!hasDateHeaders) return; // skip this table, continue to next
+
+    let currentDate = ydateStr; // fallback
+    let foundAny = false;
+    rows.each((_, row) => {
+      const cells = $(row).children("td");
+      if (cells.length === 1 || (cells.length === 2 && $(cells[0]).attr("colspan"))) {
+        // Potential date header row
+        const text = $(cells.length === 1 ? cells[0] : cells[0]).text().trim().toUpperCase();
+        const parsed = headerToDateStr(text);
+        if (parsed) { currentDate = parsed; return; }
+      }
+      // Check for score lines in any cell
+      cells.each((_, cell) => {
+        const cellHtml = $(cell).html() || "";
+        if (!cellHtml.includes(" at ")) return;
+        const lines = cellHtml.split(/<br\s*\/?>/i);
+        lines.forEach((line) => {
+          const text = cheerio.load(line).text().trim();
+          const sm = text.match(/^(.+?)\s+(\d+)\s+at\s+(.+?)\s+(\d+)(?:\s*\((OT|SO)\))?$/);
+          if (sm) {
+            foundAny = true;
+            scores.push({
+              visitingTeam:  sm[1].trim(),
+              visitingScore: parseInt(sm[2]),
+              homeTeam:      sm[3].trim(),
+              homeScore:     parseInt(sm[4]),
+              overtime:      sm[5] || null,
+              score:         `${sm[2]}-${sm[4]}${sm[5] ? ` (${sm[5]})` : ""}`,
+              gameId:        null,
+              date:          currentDate,
+            });
+          }
+        });
+      });
+    });
+    if (foundAny) return false; // stop after finding the scores table
   });
 
   // Deduplicate: if the same game appears twice (once with gameId, once without),
@@ -867,17 +913,22 @@ function normName(s) {
 async function resolveGameIds(scores, seedId) {
   if (!scores.length) return { scores, maxId: seedId };
 
-  // Build yesterday's date string in the title format "Mar 13, 2026" (Eastern Time)
-  const yd = new Date(nowEastern().getTime() - 86400000);
-  const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-  const ydStr2 = `${monthNames[yd.getUTCMonth()]} ${String(yd.getUTCDate()).padStart(2," ")}, ${yd.getUTCFullYear()}`;
+  // Build set of date strings (in title format "Mar 13, 2026") for all unresolved scores
+  const scoreDates = new Set(scores.filter(s => !s.gameId).map(s => {
+    // Convert "Mar 13, 2026" to padded format used in game titles: "Mar 13, 2026"
+    const d = new Date(s.date);
+    if (isNaN(d)) return s.date;
+    const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    return `${monthNames[d.getMonth()]} ${String(d.getDate()).padStart(2," ")}, ${d.getFullYear()}`;
+  }));
 
   // Probe a window: seedId-5 to seedId+300
   const start = Math.max(1, seedId - 5);
   const end   = seedId + 300;
   let maxId = seedId;
 
-  console.log(`  Probing game IDs ${start}–${end} for ${ydStr2.trim()}…`);
+  const dateList = [...scoreDates].map(d => d.trim()).join(", ");
+  console.log(`  Probing game IDs ${start}–${end} for ${dateList}…`);
 
   const BATCH = 20;
   const ids = Array.from({ length: end - start + 1 }, (_, i) => start + i);
@@ -886,7 +937,8 @@ async function resolveGameIds(scores, seedId) {
     const results = await Promise.all(batch.map(async (id) => ({ id, title: await fetchGameTitle(id) })));
     for (const { id, title } of results) {
       if (!title || !title.startsWith("Gamesheet:")) continue;
-      if (!title.includes(ydStr2.trim())) continue; // only yesterday's games
+      // Check if this game's date matches any of our score dates
+      if (![...scoreDates].some(d => title.includes(d.trim()))) continue;
 
       maxId = Math.max(maxId, id);
 
@@ -1260,9 +1312,37 @@ async function main() {
   const scoresPath = path.join(DATA_DIR, "scores.json");
   let existingScores = [];
   try { existingScores = JSON.parse(fs.readFileSync(scoresPath, "utf8")).scores || []; } catch (_) {}
-  const existingIds = new Set(existingScores.filter(s => s.gameId).map(s => s.gameId));
+
+  // Remove existing entries whose date falls within the new scrape's date range
+  // but were not produced by this scrape (stale entries from prior bad scrapes)
+  const newDates = new Set(resolvedScores.map(s => s.date));
+  // Also remove entries with malformed team names (from prior parser bug)
+  const dayPrefixRe = /^(MON|TUE|WED|THU|FRI|SAT|SUN),?\s/i;
+  const dayAnywhereRe = /(MON|TUE|WED|THU|FRI|SAT|SUN),?\s+(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+\d/i;
+  // Build a set of matchup keys for all entries that have a gameId (across all dates)
+  // so we can drop orphaned no-gameId duplicates from prior bad scrapes
+  const allWithIdKeys = new Set(
+    existingScores.filter(s => s.gameId)
+      .map(s => `${s.visitingTeam}|${s.homeTeam}|${s.visitingScore}|${s.homeScore}|${s.overtime || ""}`)
+  );
+  const cleanedExisting = existingScores.filter(s => {
+    // Drop entries with corrupted team names (day-of-week text in team name)
+    if (dayPrefixRe.test(s.visitingTeam) || dayPrefixRe.test(s.homeTeam)) return false;
+    if (dayAnywhereRe.test(s.visitingTeam) || dayAnywhereRe.test(s.homeTeam)) return false;
+    // Drop no-gameId entries that are duplicates of resolved entries (likely from a prior bad scrape)
+    if (!s.gameId) {
+      const key = `${s.visitingTeam}|${s.homeTeam}|${s.visitingScore}|${s.homeScore}|${s.overtime || ""}`;
+      if (allWithIdKeys.has(key)) return false;
+    }
+    // Keep entries outside the new scrape's date range
+    if (!newDates.has(s.date)) return true;
+    // Within the range: keep only if it has a gameId (already resolved)
+    return !!s.gameId;
+  });
+
+  const existingIds = new Set(cleanedExisting.filter(s => s.gameId).map(s => s.gameId));
   const newScores = resolvedScores.filter(s => !s.gameId || !existingIds.has(s.gameId));
-  const raw = [...newScores, ...existingScores].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const raw = [...newScores, ...cleanedExisting].sort((a, b) => new Date(b.date) - new Date(a.date));
   // Deduplicate: prefer entry with gameId over null-gameId for same game
   const resolvedGameKeys = new Set(
     raw.filter(s => s.gameId).map(s => `${s.date}|${s.visitingTeam}|${s.homeTeam}`)

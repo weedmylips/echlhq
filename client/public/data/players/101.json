@@ -178,7 +178,7 @@
     },
     {
       "number": 19,
-      "player": "ander Lamppa",
+      "player": "Xander Lamppa",
       "position": "F",
       "isRookie": false,
       "isActive": true,
@@ -1161,5 +1161,5 @@
       "sa": 46
     }
   ],
-  "scrapedAt": "2026-03-18T14:40:09.578Z"
+  "scrapedAt": "2026-03-18T15:25:41.035Z"
 }
