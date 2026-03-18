@@ -870,24 +870,15 @@ tr.playoff-cutoff td {
 }
 
 .roster-sections {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 16px;
   margin-top: 16px;
-  align-items: start;
 }
 
 .roster-sections > .card {
   min-width: 0;
-}
-
-@media (max-width: 900px) {
-  .roster-sections {
-    grid-template-columns: 1fr;
-  }
-  .roster-sections > .card {
-    min-width: 0;
-  }
+  width: 100%;
 }
 
 .roster-count {
