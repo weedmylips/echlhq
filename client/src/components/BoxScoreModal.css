@@ -13,7 +13,7 @@
 
 .modal {
   background: var(--bg-card);
-  border: 1px solid var(--border);
+  border: 1.5px solid var(--border); /* Thicker and bolder outer border */
   border-radius: var(--radius);
   width: 100%;
   max-width: 860px;
@@ -128,12 +128,12 @@
   font-size: 12px;
   color: var(--text-muted);
   padding: 0 16px 16px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-light); /* Lighter divider */
 }
 
 /* Sections */
 .bs-section {
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-light); /* Lighter divider */
   padding: 16px;
 }
 
@@ -246,7 +246,7 @@
   gap: 10px 16px;
   margin-top: 10px;
   padding-top: 10px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--border-light); /* Lighter divider */
   font-size: 11px;
   color: var(--text-muted);
 }
