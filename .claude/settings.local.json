@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd //c \"where node\")",
+      "Bash(node -e \":*)",
+      "Bash(node scrape.js)",
+      "Bash(grep -E \"\\\\.\\(js|py\\)$\")",
+      "Bash(find '/c/Users/Michael/Fun Projects/ECHL/echlhq' -type d -not -path */node_modules/* -not -path */.git/*)",
+      "Bash(node -e \"const d = require\\(''./client/public/data/leaders.json''\\); const p = d.leaders.points[0]; console.log\\(JSON.stringify\\(p, null, 2\\)\\);\")",
+      "Bash(node scripts/scrape.js --leaders-only)",
+      "Bash(node scripts/scrape.js)",
+      "Bash(node -e \"const d = require\\(''./client/public/data/leaders.json''\\); console.log\\(JSON.stringify\\(d.leaders.points.slice\\(0,2\\), null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''./client/public/data/leaders.json''\\); console.log\\(''gwg count:'', d.leaders.gwg?.length\\); console.log\\(JSON.stringify\\(d.leaders.gwg?.slice\\(0,5\\), null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''''./client/public/data/players/60.json''''\\); console.log\\(JSON.stringify\\(d.skaters[0], null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''''./client/public/data/leaders.json''''\\); console.log\\(''''gwg count:'''', d.leaders.gwg.length\\); console.log\\(JSON.stringify\\(d.leaders.gwg.slice\\(0,5\\), null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''./client/public/data/leaders.json''\\); console.log\\(''plusMinus count:'', d.leaders.plusMinus.length\\); console.log\\(JSON.stringify\\(d.leaders.plusMinus.slice\\(0,10\\), null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''''./client/public/data/leaders.json''''\\); console.log\\(''''plusMinus count:'''', d.leaders.plusMinus.length\\); console.log\\(JSON.stringify\\(d.leaders.plusMinus.slice\\(0,6\\), null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''./client/public/data/leaders.json''\\); console.log\\(''shots count:'', d.leaders.shots?.length\\); console.log\\(JSON.stringify\\(d.leaders.shots?.slice\\(0,6\\), null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''''./client/public/data/leaders.json''''\\); console.log\\(''''shots count:'''', d.leaders.shots.length\\); console.log\\(JSON.stringify\\(d.leaders.shots.slice\\(0,6\\), null, 2\\)\\);\")",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebSearch",
+      "WebFetch(domain:echl.com)"
+    ]
+  }
+}
