@@ -33,11 +33,11 @@
 }
 
 .leaders-grid--skaters {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .leaders-grid--goalies {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 /* ── Stat Card ────────────────────────────────────────────────────── */
@@ -166,6 +166,12 @@
 .stat-val.minus { color: #ef4444; }
 
 /* ── Responsive ───────────────────────────────────────────────────── */
+
+@media (max-width: 1200px) {
+  .leaders-grid--skaters {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 
 @media (max-width: 1100px) {
   .leaders-grid--skaters {
