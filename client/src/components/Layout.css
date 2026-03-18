@@ -31,12 +31,19 @@
   align-items: center;
 }
 
-.logo-text {
-  font-size: 15px;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  color: #fff;
-  text-transform: uppercase;
+.header-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+.logo-link:hover .header-logo {
+  transform: scale(1.05);
+}
+
+@media (max-width: 640px) {
+  .header-logo { height: 26px; }
 }
 
 .page-nav {

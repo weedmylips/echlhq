@@ -69,7 +69,7 @@ export default function Layout() {
       <header className="top-bar">
         <div className="top-bar-inner">
           <NavLink to="/" className="logo-link">
-            <span className="logo-text">ECHL</span>
+            <img src="/icon-192.png" alt="ECHL Stats" className="header-logo" />
           </NavLink>
           <nav className="page-nav">
             <NavLink to="/" end className={({ isActive }) => "page-nav-link" + (isActive ? " active" : "")}>
