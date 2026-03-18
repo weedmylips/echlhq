@@ -8,6 +8,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["icon-192.png", "icon-512.png"],
+      manifestFilename: "manifest.json",
       manifest: {
         name: "ECHL Stats Dashboard",
         short_name: "ECHL Stats",
