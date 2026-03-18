@@ -1392,7 +1392,7 @@ async function main() {
     }
   }
 
-  // Build top-games.json from all boxscores (before pruning)
+  // Build top-games.json and sellouts.json from all boxscores (before pruning)
   const allCurrentBoxscores = fs.readdirSync(BOXSCORES_DIR)
     .filter((f) => f.endsWith(".json"))
     .map((f) => {
@@ -1400,21 +1400,32 @@ async function main() {
       catch (_) { return null; }
     })
     .filter(Boolean);
-  const topGames = allCurrentBoxscores
-    .filter((b) => b.gameInfo?.attendance > 0)
-    .map((b) => ({
-      gameId: b.gameInfo.gameId,
-      homeTeam: b.gameInfo.homeTeam,
-      visitingTeam: b.gameInfo.visitingTeam,
-      date: b.gameInfo.date,
-      arena: b.gameInfo.arena,
-      attendance: b.gameInfo.attendance,
-      score: `${b.gameInfo.finalScore?.visiting ?? "?"}-${b.gameInfo.finalScore?.home ?? "?"}`,
-    }))
-    .sort((a, b) => b.attendance - a.attendance)
-    .slice(0, 20);
-  if (writeJSON(path.join(DATA_DIR, "top-games.json"), { topGames, scrapedAt: now })) {
-    console.log(`  ✓ top-games.json (${topGames.length} games)`);
+  // Build persistent game-attendance.json (merge new games into existing)
+  const gameAttPath = path.join(DATA_DIR, "game-attendance.json");
+  let gameAttData;
+  try { gameAttData = JSON.parse(fs.readFileSync(gameAttPath, "utf8")); }
+  catch (_) { gameAttData = { games: [] }; }
+  const existingGameIds = new Set(gameAttData.games.map((g) => g.gameId));
+  const newGamesAtt = allCurrentBoxscores
+    .filter((b) => b.gameInfo?.attendance > 0 && b.gameInfo?.gameId && !existingGameIds.has(b.gameInfo.gameId))
+    .map((b) => {
+      const homeConfig = findTeamByName(b.gameInfo.homeTeam);
+      return {
+        gameId: b.gameInfo.gameId,
+        homeTeam: b.gameInfo.homeTeam,
+        homeTeamId: homeConfig?.id || null,
+        visitingTeam: b.gameInfo.visitingTeam,
+        date: b.gameInfo.date,
+        arena: b.gameInfo.arena,
+        attendance: b.gameInfo.attendance,
+        score: `${b.gameInfo.finalScore?.visiting ?? "?"}-${b.gameInfo.finalScore?.home ?? "?"}`,
+      };
+    });
+  gameAttData.games = [...gameAttData.games, ...newGamesAtt]
+    .sort((a, b) => b.attendance - a.attendance);
+  gameAttData.scrapedAt = now;
+  if (writeJSON(gameAttPath, gameAttData)) {
+    console.log(`  ✓ game-attendance.json (${gameAttData.games.length} games, ${newGamesAtt.length} new)`);
     changed++;
   }
 

@@ -29,10 +29,10 @@ export function useScores() {
   });
 }
 
-export function useTopGames() {
+export function useGameAttendance() {
   return useQuery({
-    queryKey: ["topGames"],
-    queryFn: api.topGames,
+    queryKey: ["gameAttendance"],
+    queryFn: api.gameAttendance,
     staleTime: STALE,
   });
 }

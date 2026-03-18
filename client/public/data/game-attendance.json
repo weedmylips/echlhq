@@ -1,0 +1,1525 @@
+{
+  "games": [
+    {
+      "gameId": 25107,
+      "homeTeam": "Tulsa",
+      "homeTeamId": 72,
+      "visitingTeam": "Rapid City",
+      "date": "Feb 28, 2026",
+      "arena": "BOK Center",
+      "attendance": 15199,
+      "score": "5-7"
+    },
+    {
+      "gameId": 25101,
+      "homeTeam": "Jacksonville",
+      "homeTeamId": 79,
+      "visitingTeam": "South Carolina",
+      "date": "Feb 28, 2026",
+      "arena": "VyStar Veterans Memorial Arena",
+      "attendance": 14268,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25112,
+      "homeTeam": "Jacksonville",
+      "homeTeamId": 79,
+      "visitingTeam": "Florida",
+      "date": "Mar 1, 2026",
+      "arena": "VyStar Veterans Memorial Arena",
+      "attendance": 10974,
+      "score": "4-1"
+    },
+    {
+      "gameId": 25083,
+      "homeTeam": "Fort Wayne",
+      "homeTeamId": 60,
+      "visitingTeam": "Cincinnati",
+      "date": "Feb 27, 2026",
+      "arena": "Memorial Coliseum",
+      "attendance": 9860,
+      "score": "2-1"
+    },
+    {
+      "gameId": 25185,
+      "homeTeam": "Jacksonville",
+      "homeTeamId": 79,
+      "visitingTeam": "Florida",
+      "date": "Mar 14, 2026",
+      "arena": "VyStar Veterans Memorial Arena",
+      "attendance": 9823,
+      "score": "4-2"
+    },
+    {
+      "gameId": 25097,
+      "homeTeam": "Fort Wayne",
+      "homeTeamId": 60,
+      "visitingTeam": "Wheeling",
+      "date": "Feb 28, 2026",
+      "arena": "Memorial Coliseum",
+      "attendance": 9763,
+      "score": "4-6"
+    },
+    {
+      "gameId": 25096,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Kalamazoo",
+      "date": "Feb 28, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 9354,
+      "score": "2-4"
+    },
+    {
+      "gameId": 25103,
+      "homeTeam": "Orlando",
+      "homeTeamId": 13,
+      "visitingTeam": "Florida",
+      "date": "Feb 28, 2026",
+      "arena": "Kia Center",
+      "attendance": 8668,
+      "score": "6-1"
+    },
+    {
+      "gameId": 25065,
+      "homeTeam": "South Carolina",
+      "homeTeamId": 50,
+      "visitingTeam": "Atlanta",
+      "date": "Feb 21, 2026",
+      "arena": "North Charleston Coliseum",
+      "attendance": 8467,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25138,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Utah",
+      "date": "Mar 7, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 8358,
+      "score": "5-0"
+    },
+    {
+      "gameId": 25196,
+      "homeTeam": "Fort Wayne",
+      "homeTeamId": 60,
+      "visitingTeam": "Indy",
+      "date": "Mar 15, 2026",
+      "arena": "Memorial Coliseum",
+      "attendance": 8307,
+      "score": "0-1"
+    },
+    {
+      "gameId": 25106,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Bloomington",
+      "date": "Feb 28, 2026",
+      "arena": "Huntington Center",
+      "attendance": 8300,
+      "score": "0-5"
+    },
+    {
+      "gameId": 25145,
+      "homeTeam": "Norfolk",
+      "homeTeamId": 63,
+      "visitingTeam": "Idaho",
+      "date": "Mar 7, 2026",
+      "arena": "Norfolk Scope",
+      "attendance": 8165,
+      "score": "1-3"
+    },
+    {
+      "gameId": 25090,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Bloomington",
+      "date": "Feb 27, 2026",
+      "arena": "Huntington Center",
+      "attendance": 8092,
+      "score": "2-4"
+    },
+    {
+      "gameId": 25160,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Florida",
+      "date": "Mar 11, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 8067,
+      "score": "1-4"
+    },
+    {
+      "gameId": 25135,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Cincinnati",
+      "date": "Mar 6, 2026",
+      "arena": "Huntington Center",
+      "attendance": 8024,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25173,
+      "homeTeam": "Jacksonville",
+      "homeTeamId": 79,
+      "visitingTeam": "Greenville",
+      "date": "Mar 13, 2026",
+      "arena": "VyStar Veterans Memorial Arena",
+      "attendance": 7878,
+      "score": "1-2"
+    },
+    {
+      "gameId": 25115,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Iowa",
+      "date": "Mar 1, 2026",
+      "arena": "Huntington Center",
+      "attendance": 7862,
+      "score": "0-3"
+    },
+    {
+      "gameId": 25184,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Trois-Rivières",
+      "date": "Mar 14, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 7834,
+      "score": "6-0"
+    },
+    {
+      "gameId": 25156,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Wichita",
+      "date": "Mar 8, 2026",
+      "arena": "Huntington Center",
+      "attendance": 7764,
+      "score": "1-5"
+    },
+    {
+      "gameId": 25188,
+      "homeTeam": "Orlando",
+      "homeTeamId": 13,
+      "visitingTeam": "Greenville",
+      "date": "Mar 14, 2026",
+      "arena": "Kia Center",
+      "attendance": 7576,
+      "score": "5-3"
+    },
+    {
+      "gameId": 25071,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "Atlanta",
+      "date": "Feb 22, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "0-3"
+    },
+    {
+      "gameId": 25089,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "South Carolina",
+      "date": "Feb 27, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "4-0"
+    },
+    {
+      "gameId": 25105,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "Atlanta",
+      "date": "Feb 28, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "1-3"
+    },
+    {
+      "gameId": 25124,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "Greensboro",
+      "date": "Mar 5, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "3-6"
+    },
+    {
+      "gameId": 25167,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "Toledo",
+      "date": "Mar 12, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "5-3"
+    },
+    {
+      "gameId": 25176,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "Orlando",
+      "date": "Mar 13, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "5-0"
+    },
+    {
+      "gameId": 25202,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "Toledo",
+      "date": "Mar 16, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "5-4"
+    },
+    {
+      "gameId": 25199,
+      "homeTeam": "Orlando",
+      "homeTeamId": 13,
+      "visitingTeam": "Greenville",
+      "date": "Mar 15, 2026",
+      "arena": "Kia Center",
+      "attendance": 7234,
+      "score": "1-3"
+    },
+    {
+      "gameId": 25139,
+      "homeTeam": "Florida",
+      "homeTeamId": 8,
+      "visitingTeam": "Orlando",
+      "date": "Mar 7, 2026",
+      "arena": "Hertz Arena",
+      "attendance": 6938,
+      "score": "1-2"
+    },
+    {
+      "gameId": 25198,
+      "homeTeam": "Jacksonville",
+      "homeTeamId": 79,
+      "visitingTeam": "Florida",
+      "date": "Mar 15, 2026",
+      "arena": "VyStar Veterans Memorial Arena",
+      "attendance": 6932,
+      "score": "2-3"
+    },
+    {
+      "gameId": 24568,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Jacksonville",
+      "date": "Feb 27, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 6907,
+      "score": "5-6"
+    },
+    {
+      "gameId": 25104,
+      "homeTeam": "Reading",
+      "homeTeamId": 55,
+      "visitingTeam": "Greenville",
+      "date": "Feb 28, 2026",
+      "arena": "Santander Arena",
+      "attendance": 6828,
+      "score": "6-5"
+    },
+    {
+      "gameId": 25108,
+      "homeTeam": "Utah",
+      "homeTeamId": 106,
+      "visitingTeam": "Tahoe",
+      "date": "Feb 28, 2026",
+      "arena": "Maverik Center",
+      "attendance": 6723,
+      "score": "4-1"
+    },
+    {
+      "gameId": 25063,
+      "homeTeam": "Norfolk",
+      "homeTeamId": 63,
+      "visitingTeam": "Fort Wayne",
+      "date": "Feb 21, 2026",
+      "arena": "Norfolk Scope",
+      "attendance": 6669,
+      "score": "4-1"
+    },
+    {
+      "gameId": 25195,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "South Carolina",
+      "date": "Mar 15, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 6621,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25216,
+      "homeTeam": "Orlando",
+      "homeTeamId": 13,
+      "visitingTeam": "Florida",
+      "date": "Feb 22, 2026",
+      "arena": "Kia Center",
+      "attendance": 6607,
+      "score": "6-1"
+    },
+    {
+      "gameId": 25100,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Iowa",
+      "date": "Feb 28, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 6572,
+      "score": "2-0"
+    },
+    {
+      "gameId": 25098,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Norfolk",
+      "date": "Feb 28, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 6532,
+      "score": "4-2"
+    },
+    {
+      "gameId": 24884,
+      "homeTeam": "Orlando",
+      "homeTeamId": 13,
+      "visitingTeam": "Atlanta",
+      "date": "Mar 4, 2026",
+      "arena": "Kia Center",
+      "attendance": 6376,
+      "score": "1-5"
+    },
+    {
+      "gameId": 25116,
+      "homeTeam": "Tulsa",
+      "homeTeamId": 72,
+      "visitingTeam": "Rapid City",
+      "date": "Mar 1, 2026",
+      "arena": "BOK Center",
+      "attendance": 6281,
+      "score": "3-6"
+    },
+    {
+      "gameId": 25181,
+      "homeTeam": "Allen",
+      "homeTeamId": 66,
+      "visitingTeam": "Idaho",
+      "date": "Mar 14, 2026",
+      "arena": "Credit Union of Texas Event Center",
+      "attendance": 6275,
+      "score": "2-1"
+    },
+    {
+      "gameId": 25158,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Indy",
+      "date": "Mar 10, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 6230,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25183,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Iowa",
+      "date": "Mar 14, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 6218,
+      "score": "2-4"
+    },
+    {
+      "gameId": 25159,
+      "homeTeam": "Maine",
+      "homeTeamId": 101,
+      "visitingTeam": "Adirondack",
+      "date": "Mar 10, 2026",
+      "arena": "Cross Insurance Arena",
+      "attendance": 6194,
+      "score": "1-2"
+    },
+    {
+      "gameId": 25142,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Wichita",
+      "date": "Mar 7, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 6167,
+      "score": "1-2"
+    },
+    {
+      "gameId": 25161,
+      "homeTeam": "Fort Wayne",
+      "homeTeamId": 60,
+      "visitingTeam": "Iowa",
+      "date": "Mar 11, 2026",
+      "arena": "Memorial Coliseum",
+      "attendance": 6154,
+      "score": "2-5"
+    },
+    {
+      "gameId": 25043,
+      "homeTeam": "Allen",
+      "homeTeamId": 66,
+      "visitingTeam": "Utah",
+      "date": "Feb 20, 2026",
+      "arena": "Credit Union of Texas Event Center",
+      "attendance": 6037,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25074,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Kalamazoo",
+      "date": "Feb 24, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 6002,
+      "score": "2-6"
+    },
+    {
+      "gameId": 25127,
+      "homeTeam": "Florida",
+      "homeTeamId": 8,
+      "visitingTeam": "Greenville",
+      "date": "Mar 6, 2026",
+      "arena": "Hertz Arena",
+      "attendance": 5994,
+      "score": "0-4"
+    },
+    {
+      "gameId": 25193,
+      "homeTeam": "Utah",
+      "homeTeamId": 106,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 14, 2026",
+      "arena": "Maverik Center",
+      "attendance": 5983,
+      "score": "4-3"
+    },
+    {
+      "gameId": 25187,
+      "homeTeam": "Maine",
+      "homeTeamId": 101,
+      "visitingTeam": "Norfolk",
+      "date": "Mar 14, 2026",
+      "arena": "Cross Insurance Arena",
+      "attendance": 5943,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25113,
+      "homeTeam": "Maine",
+      "homeTeamId": 101,
+      "visitingTeam": "Trois-Rivières",
+      "date": "Mar 1, 2026",
+      "arena": "Cross Insurance Arena",
+      "attendance": 5939,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25125,
+      "homeTeam": "Allen",
+      "homeTeamId": 66,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 6, 2026",
+      "arena": "Credit Union of Texas Event Center",
+      "attendance": 5933,
+      "score": "4-1"
+    },
+    {
+      "gameId": 25093,
+      "homeTeam": "Utah",
+      "homeTeamId": 106,
+      "visitingTeam": "Tahoe",
+      "date": "Feb 27, 2026",
+      "arena": "Maverik Center",
+      "attendance": 5883,
+      "score": "3-1"
+    },
+    {
+      "gameId": 25084,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Norfolk",
+      "date": "Feb 27, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 5865,
+      "score": "3-5"
+    },
+    {
+      "gameId": 25062,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Wichita",
+      "date": "Feb 21, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 5863,
+      "score": "0-1"
+    },
+    {
+      "gameId": 25170,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Iowa",
+      "date": "Mar 13, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 5770,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25109,
+      "homeTeam": "Worcester",
+      "homeTeamId": 104,
+      "visitingTeam": "Maine",
+      "date": "Feb 28, 2026",
+      "arena": "DCU Center",
+      "attendance": 5720,
+      "score": "2-1"
+    },
+    {
+      "gameId": 24726,
+      "homeTeam": "Florida",
+      "homeTeamId": 8,
+      "visitingTeam": "Orlando",
+      "date": "Feb 26, 2026",
+      "arena": "Hertz Arena",
+      "attendance": 5692,
+      "score": "1-4"
+    },
+    {
+      "gameId": 25172,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Fort Wayne",
+      "date": "Mar 13, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 5642,
+      "score": "1-2"
+    },
+    {
+      "gameId": 25114,
+      "homeTeam": "South Carolina",
+      "homeTeamId": 50,
+      "visitingTeam": "Savannah",
+      "date": "Mar 1, 2026",
+      "arena": "North Charleston Coliseum",
+      "attendance": 5564,
+      "score": "1-7"
+    },
+    {
+      "gameId": 25085,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Iowa",
+      "date": "Feb 27, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 5557,
+      "score": "2-5"
+    },
+    {
+      "gameId": 25119,
+      "homeTeam": "Florida",
+      "homeTeamId": 8,
+      "visitingTeam": "Greenville",
+      "date": "Mar 4, 2026",
+      "arena": "Hertz Arena",
+      "attendance": 5494,
+      "score": "0-3"
+    },
+    {
+      "gameId": 25144,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Tahoe",
+      "date": "Mar 7, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 5482,
+      "score": "3-5"
+    },
+    {
+      "gameId": 25070,
+      "homeTeam": "Greenville",
+      "homeTeamId": 52,
+      "visitingTeam": "Tulsa",
+      "date": "Feb 22, 2026",
+      "arena": "Bon Secours Wellness Arena",
+      "attendance": 5480,
+      "score": "5-2"
+    },
+    {
+      "gameId": 25095,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Trois-Rivières",
+      "date": "Feb 28, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 5460,
+      "score": "4-3"
+    },
+    {
+      "gameId": 25102,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Allen",
+      "date": "Feb 28, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 5425,
+      "score": "5-2"
+    },
+    {
+      "gameId": 25191,
+      "homeTeam": "South Carolina",
+      "homeTeamId": 50,
+      "visitingTeam": "Toledo",
+      "date": "Mar 14, 2026",
+      "arena": "North Charleston Coliseum",
+      "attendance": 5370,
+      "score": "4-3"
+    },
+    {
+      "gameId": 25141,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Reading",
+      "date": "Mar 7, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 5347,
+      "score": "2-1"
+    },
+    {
+      "gameId": 25131,
+      "homeTeam": "Norfolk",
+      "homeTeamId": 63,
+      "visitingTeam": "Idaho",
+      "date": "Mar 6, 2026",
+      "arena": "Norfolk Scope",
+      "attendance": 5333,
+      "score": "4-3"
+    },
+    {
+      "gameId": 25099,
+      "homeTeam": "Idaho",
+      "homeTeamId": 11,
+      "visitingTeam": "Wichita",
+      "date": "Feb 28, 2026",
+      "arena": "Idaho Central Arena",
+      "attendance": 5267,
+      "score": "1-4"
+    },
+    {
+      "gameId": 25077,
+      "homeTeam": "Idaho",
+      "homeTeamId": 11,
+      "visitingTeam": "Wichita",
+      "date": "Feb 25, 2026",
+      "arena": "Idaho Central Arena",
+      "attendance": 5210,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25056,
+      "homeTeam": "Allen",
+      "homeTeamId": 66,
+      "visitingTeam": "Utah",
+      "date": "Feb 21, 2026",
+      "arena": "Credit Union of Texas Event Center",
+      "attendance": 5203,
+      "score": "1-2"
+    },
+    {
+      "gameId": 25186,
+      "homeTeam": "Kalamazoo",
+      "homeTeamId": 53,
+      "visitingTeam": "Indy",
+      "date": "Mar 14, 2026",
+      "arena": "Wings Event Center",
+      "attendance": 5177,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25111,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Atlanta",
+      "date": "Mar 1, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 5172,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25147,
+      "homeTeam": "Rapid City",
+      "homeTeamId": 85,
+      "visitingTeam": "Wheeling",
+      "date": "Mar 7, 2026",
+      "arena": "The Monument",
+      "attendance": 5119,
+      "score": "3-1"
+    },
+    {
+      "gameId": 25146,
+      "homeTeam": "Orlando",
+      "homeTeamId": 13,
+      "visitingTeam": "Greenville",
+      "date": "Mar 10, 2026",
+      "arena": "Kia Center",
+      "attendance": 5112,
+      "score": "1-3"
+    },
+    {
+      "gameId": 25055,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Greensboro",
+      "date": "Feb 21, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 5079,
+      "score": "2-4"
+    },
+    {
+      "gameId": 25068,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Greensboro",
+      "date": "Feb 22, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 5043,
+      "score": "2-5"
+    },
+    {
+      "gameId": 25082,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Maine",
+      "date": "Feb 27, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 5038,
+      "score": "5-0"
+    },
+    {
+      "gameId": 25197,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Trois-Rivières",
+      "date": "Mar 15, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 5012,
+      "score": "1-4"
+    },
+    {
+      "gameId": 25293,
+      "homeTeam": "Maine",
+      "homeTeamId": 101,
+      "visitingTeam": "Adirondack",
+      "date": "Mar 8, 2026",
+      "arena": "Cross Insurance Arena",
+      "attendance": 4993,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25155,
+      "homeTeam": "South Carolina",
+      "homeTeamId": 50,
+      "visitingTeam": "Savannah",
+      "date": "Mar 8, 2026",
+      "arena": "North Charleston Coliseum",
+      "attendance": 4972,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25118,
+      "homeTeam": "Worcester",
+      "homeTeamId": 104,
+      "visitingTeam": "Adirondack",
+      "date": "Mar 1, 2026",
+      "arena": "DCU Center",
+      "attendance": 4931,
+      "score": "0-1"
+    },
+    {
+      "gameId": 25128,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Wichita",
+      "date": "Mar 6, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 4882,
+      "score": "1-0"
+    },
+    {
+      "gameId": 25064,
+      "homeTeam": "Rapid City",
+      "homeTeamId": 85,
+      "visitingTeam": "Worcester",
+      "date": "Feb 21, 2026",
+      "arena": "The Monument",
+      "attendance": 4810,
+      "score": "3-5"
+    },
+    {
+      "gameId": 25163,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Reading",
+      "date": "Mar 11, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 4803,
+      "score": "1-0"
+    },
+    {
+      "gameId": 25152,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Reading",
+      "date": "Mar 8, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 4783,
+      "score": "2-6"
+    },
+    {
+      "gameId": 25130,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Tahoe",
+      "date": "Mar 6, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 4675,
+      "score": "2-5"
+    },
+    {
+      "gameId": 25086,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Allen",
+      "date": "Feb 27, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 4650,
+      "score": "2-1"
+    },
+    {
+      "gameId": 25171,
+      "homeTeam": "Greensboro",
+      "homeTeamId": 108,
+      "visitingTeam": "Trois-Rivières",
+      "date": "Mar 13, 2026",
+      "arena": "First Horizon Coliseum",
+      "attendance": 4633,
+      "score": "6-3"
+    },
+    {
+      "gameId": 25076,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Toledo",
+      "date": "Feb 25, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 4409,
+      "score": "0-4"
+    },
+    {
+      "gameId": 25189,
+      "homeTeam": "Rapid City",
+      "homeTeamId": 85,
+      "visitingTeam": "Wichita",
+      "date": "Mar 14, 2026",
+      "arena": "The Monument",
+      "attendance": 4389,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25088,
+      "homeTeam": "Reading",
+      "homeTeamId": 55,
+      "visitingTeam": "Greenville",
+      "date": "Feb 27, 2026",
+      "arena": "Santander Arena",
+      "attendance": 4351,
+      "score": "1-4"
+    },
+    {
+      "gameId": 25134,
+      "homeTeam": "South Carolina",
+      "homeTeamId": 50,
+      "visitingTeam": "Atlanta",
+      "date": "Mar 6, 2026",
+      "arena": "North Charleston Coliseum",
+      "attendance": 4319,
+      "score": "1-4"
+    },
+    {
+      "gameId": 25174,
+      "homeTeam": "Maine",
+      "homeTeamId": 101,
+      "visitingTeam": "Norfolk",
+      "date": "Mar 13, 2026",
+      "arena": "Cross Insurance Arena",
+      "attendance": 4300,
+      "score": "4-1"
+    },
+    {
+      "gameId": 25190,
+      "homeTeam": "Reading",
+      "homeTeamId": 55,
+      "visitingTeam": "Worcester",
+      "date": "Mar 14, 2026",
+      "arena": "Santander Arena",
+      "attendance": 4299,
+      "score": "5-2"
+    },
+    {
+      "gameId": 25177,
+      "homeTeam": "South Carolina",
+      "homeTeamId": 50,
+      "visitingTeam": "Toledo",
+      "date": "Mar 13, 2026",
+      "arena": "North Charleston Coliseum",
+      "attendance": 4282,
+      "score": "1-5"
+    },
+    {
+      "gameId": 25066,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Idaho",
+      "date": "Feb 21, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 4203,
+      "score": "4-7"
+    },
+    {
+      "gameId": 25192,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Kansas City",
+      "date": "Mar 14, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 4203,
+      "score": "8-1"
+    },
+    {
+      "gameId": 25201,
+      "homeTeam": "Utah",
+      "homeTeamId": 106,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 15, 2026",
+      "arena": "Maverik Center",
+      "attendance": 4154,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25110,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Kalamazoo",
+      "date": "Mar 1, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 4071,
+      "score": "6-5"
+    },
+    {
+      "gameId": 25057,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Maine",
+      "date": "Feb 21, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 4070,
+      "score": "4-3"
+    },
+    {
+      "gameId": 25060,
+      "homeTeam": "Iowa",
+      "homeTeamId": 98,
+      "visitingTeam": "Cincinnati",
+      "date": "Feb 21, 2026",
+      "arena": "Xtream Arena",
+      "attendance": 4008,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25137,
+      "homeTeam": "Allen",
+      "homeTeamId": 66,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 7, 2026",
+      "arena": "Credit Union of Texas Event Center",
+      "attendance": 3920,
+      "score": "4-6"
+    },
+    {
+      "gameId": 25078,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Allen",
+      "date": "Feb 25, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 3894,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25143,
+      "homeTeam": "Kalamazoo",
+      "homeTeamId": 53,
+      "visitingTeam": "Jacksonville",
+      "date": "Mar 7, 2026",
+      "arena": "Wings Event Center",
+      "attendance": 3888,
+      "score": "6-3"
+    },
+    {
+      "gameId": 25168,
+      "homeTeam": "Allen",
+      "homeTeamId": 66,
+      "visitingTeam": "Idaho",
+      "date": "Mar 13, 2026",
+      "arena": "Credit Union of Texas Event Center",
+      "attendance": 3860,
+      "score": "1-2"
+    },
+    {
+      "gameId": 25069,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Maine",
+      "date": "Feb 22, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 3750,
+      "score": "5-2"
+    },
+    {
+      "gameId": 25162,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Kansas City",
+      "date": "Mar 11, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 3687,
+      "score": "2-4"
+    },
+    {
+      "gameId": 25178,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Kansas City",
+      "date": "Mar 13, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 3687,
+      "score": "6-5"
+    },
+    {
+      "gameId": 25121,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 4, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 3676,
+      "score": "1-6"
+    },
+    {
+      "gameId": 25149,
+      "homeTeam": "Allen",
+      "homeTeamId": 66,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 8, 2026",
+      "arena": "Credit Union of Texas Event Center",
+      "attendance": 3640,
+      "score": "1-7"
+    },
+    {
+      "gameId": 25129,
+      "homeTeam": "Kalamazoo",
+      "homeTeamId": 53,
+      "visitingTeam": "Jacksonville",
+      "date": "Mar 6, 2026",
+      "arena": "Wings Event Center",
+      "attendance": 3617,
+      "score": "5-6"
+    },
+    {
+      "gameId": 25194,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Adirondack",
+      "date": "Mar 14, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 3584,
+      "score": "2-4"
+    },
+    {
+      "gameId": 25061,
+      "homeTeam": "Kalamazoo",
+      "homeTeamId": 53,
+      "visitingTeam": "Indy",
+      "date": "Feb 21, 2026",
+      "arena": "Wings Event Center",
+      "attendance": 3553,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25150,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Utah",
+      "date": "Mar 8, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 3531,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25053,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Idaho",
+      "date": "Feb 20, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 3468,
+      "score": "0-6"
+    },
+    {
+      "gameId": 25091,
+      "homeTeam": "Trois-Rivières",
+      "homeTeamId": 103,
+      "visitingTeam": "Worcester",
+      "date": "Feb 27, 2026",
+      "arena": "Colisée Vidéotron",
+      "attendance": 3420,
+      "score": "2-1"
+    },
+    {
+      "gameId": 25120,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Wichita",
+      "date": "Mar 4, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 3314,
+      "score": "2-3"
+    },
+    {
+      "gameId": 24701,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Savannah",
+      "date": "Feb 24, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 3266,
+      "score": "4-7"
+    },
+    {
+      "gameId": 25122,
+      "homeTeam": "Norfolk",
+      "homeTeamId": 63,
+      "visitingTeam": "Idaho",
+      "date": "Mar 4, 2026",
+      "arena": "Norfolk Scope",
+      "attendance": 3125,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25126,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Utah",
+      "date": "Mar 6, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 3125,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25200,
+      "homeTeam": "Reading",
+      "homeTeamId": 55,
+      "visitingTeam": "Worcester",
+      "date": "Mar 15, 2026",
+      "arena": "Santander Arena",
+      "attendance": 3066,
+      "score": "2-4"
+    },
+    {
+      "gameId": 25182,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Fort Wayne",
+      "date": "Mar 14, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 3053,
+      "score": "2-3"
+    },
+    {
+      "gameId": 25079,
+      "homeTeam": "Norfolk",
+      "homeTeamId": 63,
+      "visitingTeam": "Greensboro",
+      "date": "Feb 25, 2026",
+      "arena": "Norfolk Scope",
+      "attendance": 2984,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25133,
+      "homeTeam": "Rapid City",
+      "homeTeamId": 85,
+      "visitingTeam": "Wheeling",
+      "date": "Mar 6, 2026",
+      "arena": "The Monument",
+      "attendance": 2911,
+      "score": "4-3"
+    },
+    {
+      "gameId": 25179,
+      "homeTeam": "Utah",
+      "homeTeamId": 106,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 12, 2026",
+      "arena": "Maverik Center",
+      "attendance": 2860,
+      "score": "1-7"
+    },
+    {
+      "gameId": 25044,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Maine",
+      "date": "Feb 20, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 2858,
+      "score": "4-1"
+    },
+    {
+      "gameId": 25075,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Reading",
+      "date": "Feb 25, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 2786,
+      "score": "4-5"
+    },
+    {
+      "gameId": 25169,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Kalamazoo",
+      "date": "Mar 13, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 2742,
+      "score": "6-2"
+    },
+    {
+      "gameId": 25039,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Idaho",
+      "date": "Feb 18, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 2735,
+      "score": "2-1"
+    },
+    {
+      "gameId": 25153,
+      "homeTeam": "Kalamazoo",
+      "homeTeamId": 53,
+      "visitingTeam": "Jacksonville",
+      "date": "Mar 8, 2026",
+      "arena": "Wings Event Center",
+      "attendance": 2716,
+      "score": "1-4"
+    },
+    {
+      "gameId": 25175,
+      "homeTeam": "Rapid City",
+      "homeTeamId": 85,
+      "visitingTeam": "Wichita",
+      "date": "Mar 13, 2026",
+      "arena": "The Monument",
+      "attendance": 2658,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25094,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Kalamazoo",
+      "date": "Feb 27, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 2639,
+      "score": "2-7"
+    },
+    {
+      "gameId": 25080,
+      "homeTeam": "Utah",
+      "homeTeamId": 106,
+      "visitingTeam": "Tahoe",
+      "date": "Feb 25, 2026",
+      "arena": "Maverik Center",
+      "attendance": 2587,
+      "score": "3-8"
+    },
+    {
+      "gameId": 25165,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Florida",
+      "date": "Mar 12, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 2519,
+      "score": "5-1"
+    },
+    {
+      "gameId": 25180,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Adirondack",
+      "date": "Mar 13, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 2308,
+      "score": "0-4"
+    },
+    {
+      "gameId": 25117,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Fort Wayne",
+      "date": "Mar 1, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 2304,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25148,
+      "homeTeam": "Trois-Rivières",
+      "homeTeamId": 103,
+      "visitingTeam": "Worcester",
+      "date": "Mar 7, 2026",
+      "arena": "Colisée Vidéotron",
+      "attendance": 2237,
+      "score": "4-6"
+    },
+    {
+      "gameId": 25136,
+      "homeTeam": "Trois-Rivières",
+      "homeTeamId": 103,
+      "visitingTeam": "Maine",
+      "date": "Mar 6, 2026",
+      "arena": "Colisée Vidéotron",
+      "attendance": 2078,
+      "score": "5-3"
+    },
+    {
+      "gameId": 25157,
+      "homeTeam": "Trois-Rivières",
+      "homeTeamId": 103,
+      "visitingTeam": "Worcester",
+      "date": "Mar 8, 2026",
+      "arena": "Colisée Vidéotron",
+      "attendance": 2010,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25166,
+      "homeTeam": "Rapid City",
+      "homeTeamId": 85,
+      "visitingTeam": "Wichita",
+      "date": "Mar 12, 2026",
+      "arena": "The Monument",
+      "attendance": 1951,
+      "score": "3-4"
+    },
+    {
+      "gameId": 25029,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Reading",
+      "date": "Feb 15, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 1937,
+      "score": "3-2"
+    },
+    {
+      "gameId": 25164,
+      "homeTeam": "Worcester",
+      "homeTeamId": 104,
+      "visitingTeam": "Norfolk",
+      "date": "Mar 11, 2026",
+      "arena": "DCU Center",
+      "attendance": 1670,
+      "score": "5-2"
+    },
+    {
+      "gameId": 25046,
+      "homeTeam": "Iowa",
+      "homeTeamId": 98,
+      "visitingTeam": "Cincinnati",
+      "date": "Feb 20, 2026",
+      "arena": "Xtream Arena",
+      "attendance": 1522,
+      "score": "0-2"
+    },
+    {
+      "gameId": 25123,
+      "homeTeam": "Rapid City",
+      "homeTeamId": 85,
+      "visitingTeam": "Wheeling",
+      "date": "Mar 4, 2026",
+      "arena": "The Monument",
+      "attendance": 1419,
+      "score": "4-3"
+    },
+    {
+      "gameId": 25402,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Fort Wayne",
+      "date": "Feb 25, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 1347,
+      "score": "6-3"
+    },
+    {
+      "gameId": 25092,
+      "homeTeam": "Tulsa",
+      "homeTeamId": 72,
+      "visitingTeam": "Rapid City",
+      "date": "Feb 27, 2026",
+      "arena": "WeStreet Ice Center",
+      "attendance": 1026,
+      "score": "0-2"
+    },
+    {
+      "gameId": 25035,
+      "homeTeam": "Iowa",
+      "homeTeamId": 98,
+      "visitingTeam": "Wichita",
+      "date": "Feb 18, 2026",
+      "arena": "Xtream Arena",
+      "attendance": 886,
+      "score": "3-6"
+    },
+    {
+      "gameId": 24471,
+      "homeTeam": "Iowa",
+      "homeTeamId": 98,
+      "visitingTeam": "Bloomington",
+      "date": "Feb 25, 2026",
+      "arena": "Xtream Arena",
+      "attendance": 832,
+      "score": "3-5"
+    }
+  ],
+  "scrapedAt": "2026-03-18T18:41:18.037Z"
+}
