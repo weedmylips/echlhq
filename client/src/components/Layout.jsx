@@ -79,10 +79,10 @@ export default function Layout() {
               Standings
             </NavLink>
             <NavLink to="/leaders" className={({ isActive }) => "page-nav-link" + (isActive ? " active" : "")}>
-              Leaders
+              League Leaders
             </NavLink>
             <NavLink to="/attendance" className={({ isActive }) => "page-nav-link" + (isActive ? " active" : "")}>
-              Attendance
+              Attendance Stats
             </NavLink>
           </nav>
         </div>

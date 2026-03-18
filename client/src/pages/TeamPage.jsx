@@ -1404,6 +1404,7 @@ function AttendanceCard({ standing, allStandings }) {
     <div className="card section-card">
       <div className="card-header">
         <span className="section-label" style={{ margin: 0 }}>Attendance</span>
+        <a href="/attendance" className="see-all-link">Stats →</a>
       </div>
       <div className="attendance-body">
         <div className="att-stat">
