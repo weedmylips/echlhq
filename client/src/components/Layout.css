@@ -50,7 +50,11 @@
 .page-nav {
   display: flex;
   gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+
+.page-nav::-webkit-scrollbar { display: none; }
 
 .page-nav-link {
   padding: 5px 12px;
@@ -60,6 +64,7 @@
   color: var(--text-muted);
   transition: color 0.15s, background 0.15s;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .page-nav-link:hover {

@@ -1213,9 +1213,19 @@ function statusBadge(p) {
 }
 
 function RosterTab({ playersData, rosterData }) {
+  const [sortCol, setSortCol] = useState("pts");
+  const [sortDesc, setSortDesc] = useState(true);
+
   if (!playersData?.skaters) {
     return <p className="empty-msg" style={{ padding: "16px" }}>No roster data available.</p>;
   }
+
+  const handleSort = (col) => {
+    if (sortCol === col) setSortDesc(!sortDesc);
+    else { setSortCol(col); setSortDesc(true); }
+  };
+
+  const sortIcon = (col) => sortCol === col ? <span className="sort-icon" style={{marginLeft: 4}}>{sortDesc ? "↓" : "↑"}</span> : null;
 
   // Build lookup: playerName (lower) → roster entry (for status info)
   const rosterByName = {};
@@ -1250,6 +1260,7 @@ function RosterTab({ playersData, rosterData }) {
     .map((p) => ({
       player: p.player, number: p.number, position: p.position,
       gp: p.stats?.gp ?? 0, g: p.stats?.g ?? 0, a: p.stats?.a ?? 0, pts: p.stats?.pts ?? 0,
+      pm: p.stats?.plusMinus ?? p.stats?.pm ?? 0, pim: p.stats?.pim ?? 0,
       isRookie: false, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
     }));
 
@@ -1263,7 +1274,12 @@ function RosterTab({ playersData, rosterData }) {
       isRookie: false, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
     }));
 
-  const byPts = (a, b) => b.pts - a.pts;
+  const byPts = (a, b) => {
+    let result = 0;
+    if (sortCol === "player") result = a.player.localeCompare(b.player);
+    else result = (a[sortCol] ?? 0) - (b[sortCol] ?? 0);
+    return sortDesc ? -result : result;
+  };
   const forwards   = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position !== "D" && p.position !== "G").sort(byPts);
   const defensemen = [...activeSkaters, ...inactiveSkaters].filter((p) => p.position === "D").sort(byPts);
   const allGoalies = [...activeGoalies, ...inactiveGoalies].sort((a, b) => (b.svPct ?? 0) - (a.svPct ?? 0));
@@ -1274,11 +1290,13 @@ function RosterTab({ playersData, rosterData }) {
         <thead>
           <tr>
             <th className="num-col">#</th>
-            <th>Player</th>
-            <th className="num-col">GP</th>
-            <th className="num-col">G</th>
-            <th className="num-col">A</th>
-            <th className="num-col">PTS</th>
+            <th onClick={() => handleSort("player")} style={{ cursor: "pointer" }}>Player{sortIcon("player")}</th>
+            <th className="num-col" onClick={() => handleSort("gp")} style={{ cursor: "pointer" }}>GP{sortIcon("gp")}</th>
+            <th className="num-col" onClick={() => handleSort("g")} style={{ cursor: "pointer" }}>G{sortIcon("g")}</th>
+            <th className="num-col" onClick={() => handleSort("a")} style={{ cursor: "pointer" }}>A{sortIcon("a")}</th>
+            <th className="num-col" onClick={() => handleSort("pts")} style={{ cursor: "pointer" }}>PTS{sortIcon("pts")}</th>
+            <th className="num-col" onClick={() => handleSort("pm")} style={{ cursor: "pointer" }}>+/-{sortIcon("pm")}</th>
+            <th className="num-col" onClick={() => handleSort("pim")} style={{ cursor: "pointer" }}>PIM{sortIcon("pim")}</th>
           </tr>
         </thead>
         <tbody>
@@ -1294,6 +1312,8 @@ function RosterTab({ playersData, rosterData }) {
               <td className="num">{p.g}</td>
               <td className="num">{p.a}</td>
               <td className="num bold">{p.pts}</td>
+              <td className={`num ${p.pm > 0 ? "pos" : p.pm < 0 ? "neg" : ""}`}>{p.pm > 0 ? `+${p.pm}` : p.pm}</td>
+              <td className="num">{p.pim}</td>
             </tr>
           ))}
         </tbody>
