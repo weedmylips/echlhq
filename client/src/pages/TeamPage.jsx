@@ -179,10 +179,10 @@ export default function TeamPage() {
                   )}
                 </div>
               )}
-              {(standing?.lastTen || recentScores?.length > 0) && (
+              {standing?.lastTen && (
                 <div className="header-last10">
                   <span className="header-last10-label">L10</span>
-                  <Last10Strip lastTen={standing.lastTen} recentScores={recentScores} city={team.city} compact />
+                  <span className="record-text">{standing.lastTen}</span>
                 </div>
               )}
             </div>
