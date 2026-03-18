@@ -2,6 +2,27 @@
   "teamId": 63,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Grant Hebert",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Andre Sutter",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Valtteri Piironen",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
       "date": "2026-03-14",
       "player": "William Magnuson",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jack Pascucci",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Killian KieckerOlson",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Christian Propp",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

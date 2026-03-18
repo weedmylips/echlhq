@@ -2,6 +2,27 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Jason Ahearn",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Lane Brockhoff",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Jason Ahearn",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-17",
       "player": "Kyle Aucoin",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Kaleb Tiessen",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Brett Moravec",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/9"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Jadon Joseph",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve 3/9"
     }
   ]
 }

@@ -2,6 +2,34 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Thomas Scarfone",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Kaidan Mbereko",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Shawn Kennedy",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Sam Stevens",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-16",
       "player": "Luke Pavicich",
       "position": "G",
@@ -112,13 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Justin Portillo",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

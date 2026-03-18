@@ -2,7 +2,7 @@
   "teamId": 65,
   "slug": "indy-fuel",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-17",
+  "lastTransactionCheck": "2026-03-18",
   "roster": [
     {
       "playerId": "10082",
@@ -875,6 +875,48 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Lane Brockhoff",
+      "number": null,
+      "position": "D",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Jason Ahearn",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

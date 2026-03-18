@@ -2,6 +2,20 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Dylan Carabia",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Joe Mack",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-17",
       "player": "Joe Mack",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Evan Orr",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Kalan Lind",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Milwaukee by Nashville"
     }
   ]
 }

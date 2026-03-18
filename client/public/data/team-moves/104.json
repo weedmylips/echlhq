@@ -2,6 +2,27 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Max Ruoho",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Connor Federkow",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Max Ruoho",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-12",
       "player": "Cole Donhauser",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Connor Federkow",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Ross Mitton",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Michael Ferrandino",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

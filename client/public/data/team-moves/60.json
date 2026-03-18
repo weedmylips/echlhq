@@ -2,6 +2,41 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Josh Groll",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Greensboro"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Josh Groll",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Alex Aleardi",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Matt Miller",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Jens Richards",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-17",
       "player": "Logan Nelson",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Jayden Grubbe",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Louka Henault",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Nick Deakin-Poot",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Matt Murphy",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Harrison Rees",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

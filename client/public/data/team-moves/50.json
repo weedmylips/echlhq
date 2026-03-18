@@ -2,6 +2,27 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "DJ King",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Hershey 3/17"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Ludwig Persson",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day 3/17"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Charlie Combs",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-17",
       "player": "Justin Nachbaur",
       "position": "F",
@@ -119,41 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Michael Brown",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Ryan Orgel",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Cole Beamin",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Cole Beamin",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Ryan Orgel",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

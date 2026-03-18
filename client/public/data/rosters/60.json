@@ -2,7 +2,7 @@
   "teamId": 60,
   "slug": "fort-wayne-komets",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-17",
+  "lastTransactionCheck": "2026-03-18",
   "roster": [
     {
       "playerId": "9725",
@@ -69,10 +69,10 @@
       "player": "Alex Aleardi",
       "number": 42,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-18",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -162,26 +162,6 @@
         "g": 7,
         "a": 15,
         "pts": 22
-      }
-    },
-    {
-      "playerId": "10829",
-      "player": "Josh Groll",
-      "number": 7,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 41,
-        "g": 9,
-        "a": 11,
-        "pts": 20
       }
     },
     {
@@ -289,10 +269,10 @@
       "player": "Matt Miller",
       "number": 28,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-18",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -920,6 +900,27 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": "Greensboro",
       "acquiredDate": "2026-03-17",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Jens Richards",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
       "stats": {
         "gp": 0,
         "g": 0,

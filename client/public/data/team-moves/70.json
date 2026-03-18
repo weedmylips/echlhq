@@ -2,6 +2,41 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Jacob Truscott",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Grand Rapids"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Cam Hausinger",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Greenville"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Denis Smirnov",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Greenville"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Nolan Lalonde",
+      "position": "G",
+      "type": "active",
+      "summary": "Assigned from Cleveland by Columbus"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Matt Jurusik",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-16",
       "player": "Brandon Hawkins",
       "position": "F",
@@ -105,27 +140,6 @@
       "position": "D",
       "type": "recalled_ahl",
       "summary": "Recalled by Grand Rapids"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Matt Jurusik",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Nolan Lalonde",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Mitch Lewandowski",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

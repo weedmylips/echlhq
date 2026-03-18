@@ -2,7 +2,7 @@
   "teamId": 70,
   "slug": "toledo-walleye",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-18",
   "roster": [
     {
       "playerId": "8180",
@@ -62,26 +62,6 @@
         "g": 22,
         "a": 17,
         "pts": 39
-      }
-    },
-    {
-      "playerId": "8550",
-      "player": "Denis Smirnov",
-      "number": 8,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 52,
-        "g": 15,
-        "a": 19,
-        "pts": 34
       }
     },
     {
@@ -409,7 +389,7 @@
       "player": "Jacob Truscott",
       "number": 20,
       "position": "D",
-      "status": "reserve",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -529,7 +509,7 @@
       "player": "Matt Jurusik",
       "number": 30,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -800,6 +780,27 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Cam Hausinger",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Greenville",
+      "acquiredDate": "2026-03-18",
       "stats": {
         "gp": 0,
         "g": 0,

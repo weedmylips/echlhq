@@ -2,6 +2,55 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "True Crowe",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Patrick Newell",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Kalamazoo"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Josh Groll",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Fort Wayne"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Austen May",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Austen May",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Tian Rask",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Jack Seymour",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-17",
       "player": "Anthony Rinaldi",
       "position": "F",
@@ -91,55 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Returned From Loan by Chicago Wolves"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "True Crowe",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Blake Dangos",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "True Crowe",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "True Crowe",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Drew Kuzma",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Noah Delmas",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Drew Kuzma",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

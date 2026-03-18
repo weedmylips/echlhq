@@ -2,7 +2,7 @@
   "teamId": 52,
   "slug": "greenville-swamp-rabbits",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-17",
+  "lastTransactionCheck": "2026-03-18",
   "roster": [
     {
       "playerId": "10051",
@@ -122,26 +122,6 @@
         "g": 8,
         "a": 16,
         "pts": 24
-      }
-    },
-    {
-      "playerId": "8454",
-      "player": "Cam Hausinger",
-      "number": 38,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 48,
-        "g": 13,
-        "a": 10,
-        "pts": 23
       }
     },
     {
@@ -840,6 +820,27 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Denis Smirnov",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Toledo",
+      "acquiredDate": "2026-03-18",
       "stats": {
         "gp": 0,
         "g": 0,

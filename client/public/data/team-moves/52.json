@@ -2,6 +2,20 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Cam Hausinger",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Toledo"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Denis Smirnov",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Toledo"
+    },
+    {
       "date": "2026-03-17",
       "player": "Hunter Andrew",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Cam Hausinger",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Kenta Isogai",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Ontario"
     }
   ]
 }

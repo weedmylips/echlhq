@@ -2,6 +2,27 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-18",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Antonio Venuto",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-18",
+      "player": "Tynan Ewart",
+      "position": "D",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
       "date": "2026-03-17",
       "player": "Loke Johansson",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve 3/7"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Mitchel Deelstra",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Tynan Ewart",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jackson Edward",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Providence by Boston"
     }
   ]
 }
