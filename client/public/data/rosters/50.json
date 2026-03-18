@@ -2,7 +2,7 @@
   "teamId": 50,
   "slug": "south-carolina-stingrays",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-15",
+  "lastTransactionCheck": "2026-03-18",
   "roster": [
     {
       "playerId": "10045",
@@ -29,10 +29,10 @@
       "player": "Josh Wilkins",
       "number": 15,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-15",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -756,7 +756,7 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": "Trois-Rivi\u00e8res",
+      "acquiredFrom": "Trois-Rivières",
       "acquiredDate": "2026-03-03",
       "stats": {
         "gp": 1,
