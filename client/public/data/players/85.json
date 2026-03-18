@@ -427,6 +427,31 @@
       "soPct": 0
     },
     {
+      "number": 91,
+      "player": "Cole Tymkin",
+      "position": "F",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 38,
+      "g": 4,
+      "a": 5,
+      "pts": 9,
+      "ppp": 0,
+      "shp": 0,
+      "gwg": 1,
+      "pm": 3,
+      "sh": 22,
+      "shPct": 18.2,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 0,
+      "pim": 82,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
       "number": 26,
       "player": "Seth Fyten",
       "position": "F",
@@ -472,6 +497,31 @@
       "shg": 0,
       "sha": 0,
       "pim": 0,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
+      "number": 23,
+      "player": "Eric Parker",
+      "position": "D",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 41,
+      "g": 2,
+      "a": 5,
+      "pts": 7,
+      "ppp": 0,
+      "shp": 1,
+      "gwg": 0,
+      "pm": 9,
+      "sh": 59,
+      "shPct": 3.4,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 1,
+      "pim": 20,
       "sog": 0,
       "soa": 0,
       "soPct": 0
@@ -1224,5 +1274,5 @@
       "sa": 156
     }
   ],
-  "scrapedAt": "2026-03-17T17:00:05.237Z"
+  "scrapedAt": "2026-03-18T14:40:09.578Z"
 }

@@ -402,6 +402,31 @@
       "soPct": 0
     },
     {
+      "number": 12,
+      "player": "David Jankowski",
+      "position": "F",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 48,
+      "g": 4,
+      "a": 10,
+      "pts": 14,
+      "ppp": 1,
+      "shp": 1,
+      "gwg": 1,
+      "pm": -14,
+      "sh": 59,
+      "shPct": 6.8,
+      "pp": 1,
+      "ppa": 0,
+      "shg": 1,
+      "sha": 0,
+      "pim": 0,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
       "number": 6,
       "player": "Ryan Pitoscia",
       "position": "F",
@@ -422,31 +447,6 @@
       "shg": 0,
       "sha": 0,
       "pim": 12,
-      "sog": 0,
-      "soa": 0,
-      "soPct": 0
-    },
-    {
-      "number": 12,
-      "player": "David Jankowski",
-      "position": "F",
-      "isRookie": false,
-      "isActive": true,
-      "gp": 48,
-      "g": 4,
-      "a": 9,
-      "pts": 13,
-      "ppp": 1,
-      "shp": 1,
-      "gwg": 1,
-      "pm": -14,
-      "sh": 59,
-      "shPct": 6.8,
-      "pp": 1,
-      "ppa": 0,
-      "shg": 1,
-      "sha": 0,
-      "pim": 0,
       "sog": 0,
       "soa": 0,
       "soPct": 0
@@ -1205,5 +1205,5 @@
       "sa": 18
     }
   ],
-  "scrapedAt": "2026-03-17T17:00:05.237Z"
+  "scrapedAt": "2026-03-18T14:40:09.578Z"
 }

@@ -431,7 +431,7 @@
       "player": "Jake Boltmann",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 53,
       "g": 1,
       "a": 15,
@@ -777,7 +777,7 @@
       "soPct": 0
     },
     {
-      "number": 30,
+      "number": 35,
       "player": "Beni Halasz",
       "position": "G",
       "isRookie": true,
@@ -806,7 +806,7 @@
       "player": "Arno Tiefensee",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 11,
       "g": 0,
       "a": 0,
@@ -831,7 +831,7 @@
       "player": "Ben Kraws",
       "position": "G",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 23,
       "g": 0,
       "a": 0,
@@ -858,7 +858,7 @@
       "player": "Arno Tiefensee",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 11,
       "w": 7,
       "l": 1,
@@ -896,7 +896,7 @@
       "player": "Ben Kraws",
       "position": "G",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 23,
       "w": 13,
       "l": 8,
@@ -930,7 +930,7 @@
       "sa": 219
     },
     {
-      "number": 30,
+      "number": 35,
       "player": "Beni Halasz",
       "position": "G",
       "isRookie": true,
@@ -949,5 +949,5 @@
       "sa": 43
     }
   ],
-  "scrapedAt": "2026-03-17T17:00:05.237Z"
+  "scrapedAt": "2026-03-18T14:40:09.578Z"
 }

@@ -556,7 +556,7 @@
       "player": "Max Grondin",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 3,
       "g": 1,
       "a": 2,
@@ -911,5 +911,5 @@
       "sa": 969
     }
   ],
-  "scrapedAt": "2026-03-17T17:00:05.237Z"
+  "scrapedAt": "2026-03-18T14:40:09.578Z"
 }

@@ -56,7 +56,7 @@
       "player": "Aiden Hansen-Bukata",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 56,
       "g": 4,
       "a": 35,
@@ -1506,5 +1506,5 @@
       "sa": 39
     }
   ],
-  "scrapedAt": "2026-03-17T17:00:05.237Z"
+  "scrapedAt": "2026-03-18T14:40:09.578Z"
 }

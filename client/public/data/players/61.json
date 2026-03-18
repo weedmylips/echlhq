@@ -582,16 +582,16 @@
       "position": "D",
       "isRookie": true,
       "isActive": false,
-      "gp": 41,
+      "gp": 40,
       "g": 2,
       "a": 5,
       "pts": 7,
       "ppp": 0,
       "shp": 1,
       "gwg": 0,
-      "pm": 9,
-      "sh": 59,
-      "shPct": 3.4,
+      "pm": 8,
+      "sh": 57,
+      "shPct": 3.5,
       "pp": 0,
       "ppa": 0,
       "shg": 0,
@@ -1005,5 +1005,5 @@
       "sa": 618
     }
   ],
-  "scrapedAt": "2026-03-17T17:00:05.237Z"
+  "scrapedAt": "2026-03-18T14:40:09.578Z"
 }

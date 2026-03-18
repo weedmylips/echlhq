@@ -106,7 +106,7 @@
       "player": "Anthony Rinaldi",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 56,
       "g": 12,
       "a": 14,
@@ -1149,5 +1149,5 @@
       "sa": 36
     }
   ],
-  "scrapedAt": "2026-03-17T17:00:05.237Z"
+  "scrapedAt": "2026-03-18T14:40:09.578Z"
 }
