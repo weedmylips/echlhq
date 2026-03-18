@@ -2,8 +2,8 @@ name: ECHL Transactions
 
 on:
   schedule:
-    # 8pm ET / 0am UTC daily — transactions are posted around 6-7pm ET
-    - cron: "0 0 * * *"
+    # 9pm UTC daily (5pm ET / shifted 4h earlier)
+    - cron: "0 21 * * *"
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 permissions:
@@ -38,8 +38,6 @@ jobs:
           fi
 
       - name: Run transaction agent
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ ! -f client/public/data/rosters/74.json ]; then
             echo "Seeding just completed — backfilling last 7 days..."

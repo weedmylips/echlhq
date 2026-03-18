@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \":*)",
+      "Bash(node -e \"const d = require\\(''./client/public/data/players/60.json''\\); console.log\\(JSON.stringify\\(d.goalies[0], null, 2\\)\\);\")",
+      "Bash(node -e \"const d = require\\(''./leaders.json''\\); Object.keys\\(d.leaders\\).forEach\\(k => console.log\\(k, d.leaders[k].length, ''entries, max rank:'', Math.max\\(...d.leaders[k].map\\(e=>e.rank||0\\)\\)\\)\\)\")",
+      "Bash(npm install:*)"
+    ]
+  }
+}
