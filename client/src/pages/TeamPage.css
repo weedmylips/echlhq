@@ -877,9 +877,16 @@ tr.playoff-cutoff td {
   align-items: start;
 }
 
+.roster-sections > .card {
+  min-width: 0;
+}
+
 @media (max-width: 900px) {
   .roster-sections {
     grid-template-columns: 1fr;
+  }
+  .roster-sections > .card {
+    min-width: 0;
   }
 }
 

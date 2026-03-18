@@ -222,7 +222,7 @@ function LeaderMini({ title, players, limit = 5, lower = false }) {
           <span className="leader-mini-rank">{i + 1}</span>
           <span className="leader-mini-name">{p.name}</span>
           <span className="leader-mini-team">{p.team}</span>
-          <span className="leader-mini-val">{p.value}</span>
+          <span className="leader-mini-val">{title === "SV%" ? p.value.toFixed(3).replace(/^0/, "") : p.value}</span>
         </div>
       ))}
     </div>

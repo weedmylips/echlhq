@@ -118,7 +118,7 @@ function BoxScoreContent({ data }) {
                     <span className="bs-star-name">{s.name}</span>
                     <span className="bs-star-team">{s.team}</span>
                     {gl ? (
-                      <span className="bs-star-stats">{gl.saves} SV · {(gl.svPct * 100).toFixed(1)}%</span>
+                      <span className="bs-star-stats">{gl.saves} SV · {gl.svPct.toFixed(3).replace(/^0/, "")}</span>
                     ) : s.pts != null ? (
                       <span className="bs-star-stats">{s.g}G {s.a}A</span>
                     ) : null}
@@ -154,7 +154,7 @@ function BoxScoreContent({ data }) {
                           <td className="num">{g.saves}</td>
                           <td className="num">{g.shotsAgainst}</td>
                           <td className="num">{g.ga}</td>
-                          <td className="num bold">{g.svPct}</td>
+                          <td className="num bold">{typeof g.svPct === "number" ? g.svPct.toFixed(3).replace(/^0/, "") : g.svPct}</td>
                         </tr>
                       ))}
                     </tbody>

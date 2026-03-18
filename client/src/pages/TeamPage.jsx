@@ -429,7 +429,7 @@ export default function TeamPage() {
                             {gs ? (
                               <>
                                 <span className="mini-leader-val">{gs.gaa.toFixed(2)}</span>
-                                <span className="mini-goalie-sv">{(gs.svPct * 100).toFixed(1)}%</span>
+                                <span className="mini-goalie-sv">{gs.svPct.toFixed(3).replace(/^0/, "")}</span>
                               </>
                             ) : (
                               <span className="mini-leader-val">{p.stats?.gp}</span>
@@ -1374,7 +1374,7 @@ function RosterTab({ playersData, rosterData }) {
                     <td className="num">{p.w}</td>
                     <td className="num">{p.l}</td>
                     <td className="num">{p.gaa?.toFixed(2) ?? "—"}</td>
-                    <td className="num">{p.svPct ? `${(p.svPct * 100).toFixed(1)}%` : "—"}</td>
+                    <td className="num">{p.svPct ? p.svPct.toFixed(3).replace(/^0/, "") : "—"}</td>
                   </tr>
                 ))}
               </tbody>
