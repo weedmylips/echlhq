@@ -5,7 +5,7 @@ import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
 } from "recharts";
-import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useGameAttendance } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
 import ShareButton from "../components/ShareButton.jsx";
@@ -74,6 +74,7 @@ export default function TeamPage() {
   const { data: teamStats } = useTeamStats(teamId);
   const { data: leadersData } = useLeaders();
   const { data: upcomingData } = useUpcoming();
+  const { data: attendanceData } = useGameAttendance();
 
   if (isLoading) return <div className="loading-spinner">Loading team…</div>;
   if (error) return <div className="error-box">Error loading team: {error.message}</div>;
@@ -351,6 +352,11 @@ export default function TeamPage() {
               <DivisionH2HCard ts={teamStats} team={team} allStandings={allStandings} navigate={navigate} />
             )}
 
+            {/* Attendance Card */}
+            {standing?.attendanceAverage > 0 && (
+              <AttendanceCard standing={standing} allStandings={allStandings} attendanceGames={attendanceData?.games} teamId={parseInt(teamId, 10)} />
+            )}
+
           </div>
 
           {/* ── Right sidebar — DO NOT MODIFY ── */}
@@ -464,11 +470,6 @@ export default function TeamPage() {
                 </div>
               );
             })()}
-
-            {/* Attendance Card */}
-            {standing?.attendanceAverage > 0 && (
-              <AttendanceCard standing={standing} allStandings={allStandings} />
-            )}
 
             {/* Division Standings mini-table */}
             {divisionTeams.length > 0 && (
@@ -1498,7 +1499,7 @@ function RosterTab({ playersData, rosterData }) {
   );
 }
 
-function AttendanceCard({ standing, allStandings }) {
+function AttendanceCard({ standing, allStandings, attendanceGames, teamId }) {
   const teamsWithAtt = [...allStandings].filter((t) => t.attendanceAverage > 0);
   const fmt   = (n) => n ? Number(n).toLocaleString() : "—";
   const teamConfig = TEAMS[standing.teamId];
@@ -1522,6 +1523,11 @@ function AttendanceCard({ standing, allStandings }) {
         return pctB - pctA;
       })
     : null;
+
+  const topGames = (attendanceGames || [])
+    .filter((g) => g.homeTeamId === teamId)
+    .sort((a, b) => b.attendance - a.attendance)
+    .slice(0, 10);
 
   return (
     <div className="card section-card">
@@ -1550,6 +1556,19 @@ function AttendanceCard({ standing, allStandings }) {
           </div>
         </>}
       </div>
+      {topGames.length > 0 && (
+        <div className="att-top-games">
+          <div className="att-top-games-header">Top 10 Attended Games</div>
+          {topGames.map((g, i) => (
+            <div key={g.gameId} className="att-game-row">
+              <span className="att-game-rank">{i + 1}</span>
+              <span className="att-game-opponent">vs {g.visitingTeam}</span>
+              <span className="att-game-date">{g.date}</span>
+              <span className="att-game-count">{fmt(g.attendance)}</span>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
