@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { Helmet } from "react-helmet-async";
 import { useScores, useUpcoming, useLeaders } from "../hooks/useECHL.js";
 import { TEAMS, findTeamByName } from "../config/teamConfig.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
@@ -29,6 +30,12 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard">
+      <Helmet>
+        <title>ECHL Stats — Dashboard</title>
+        <meta name="description" content="Scores, upcoming games, and league leaders" />
+        <meta property="og:title" content="ECHL Stats — Dashboard" />
+        <meta property="og:description" content="Scores, upcoming games, and league leaders" />
+      </Helmet>
       {/* ── Scores Strip ── */}
       <section className="scores-section">
         <div className="section-label">Recent Scores</div>

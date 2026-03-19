@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import { useStandings } from "../hooks/useECHL.js";
 import "./StandingsPage.css";
@@ -57,6 +58,12 @@ export default function StandingsPage() {
 
   return (
     <div className="standings-page">
+      <Helmet>
+        <title>ECHL Standings 2025–26</title>
+        <meta name="description" content="Full ECHL standings with playoff picture" />
+        <meta property="og:title" content="ECHL Standings 2025–26" />
+        <meta property="og:description" content="Full ECHL standings with playoff picture" />
+      </Helmet>
       <div className="standings-page-header">
         <h1 className="page-title">Standings</h1>
       </div>

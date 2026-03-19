@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useStandings, useGameAttendance } from "../hooks/useECHL.js";
 import { TEAMS } from "../config/teamConfig.js";
 import "./AttendancePage.css";
@@ -150,6 +151,12 @@ export default function AttendancePage() {
 
   return (
     <div className="attendance-page">
+      <Helmet>
+        <title>ECHL Attendance 2025–26</title>
+        <meta name="description" content="Game-by-game attendance figures" />
+        <meta property="og:title" content="ECHL Attendance 2025–26" />
+        <meta property="og:description" content="Game-by-game attendance figures" />
+      </Helmet>
       <div className="attendance-page-header">
         <h1 className="page-title">Attendance</h1>
       </div>

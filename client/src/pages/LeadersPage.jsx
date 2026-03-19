@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useLeaders } from "../hooks/useECHL.js";
 import "./LeadersPage.css";
 
@@ -99,6 +100,12 @@ export default function LeadersPage() {
 
   return (
     <div className="leaders-page">
+      <Helmet>
+        <title>ECHL Leaders 2025–26</title>
+        <meta name="description" content="Points, goals, assists, and goalie leaders" />
+        <meta property="og:title" content="ECHL Leaders 2025–26" />
+        <meta property="og:description" content="Points, goals, assists, and goalie leaders" />
+      </Helmet>
       <div className="leaders-header">
         <h1 className="page-title">League Leaders</h1>
         {data?.stale && <div className="stale-banner">⚠ Showing cached data</div>}
