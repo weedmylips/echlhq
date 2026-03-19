@@ -1,5 +1,5 @@
 import { useEffect, useRef, useMemo } from "react";
-import { useStandings, useScores, useLeaders, useMatchupPlayers } from "../hooks/useECHL.js";
+import { useStandings, useScores, useLeaders, useUpcoming, useMatchupPlayers } from "../hooks/useECHL.js";
 import { TEAMS } from "../config/teamConfig.js";
 import "./MatchupModal.css";
 
@@ -59,21 +59,24 @@ function convertTime(timeStr, dateStr, targetTz) {
 // Milestones to check for goals and points
 const MILESTONES = [20, 30, 40, 50, 60, 70, 80];
 
-function daysUntilGame(dateStr) {
-  if (!dateStr) return 0;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const game = new Date(dateStr);
-  game.setHours(0, 0, 0, 0);
-  return Math.round((game - today) / (1000 * 60 * 60 * 24));
-}
-
 export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, onClose }) {
   const { data: standingsData } = useStandings();
   const { data: scoresData } = useScores();
   const { data: leadersData } = useLeaders();
-  const isNearGame = daysUntilGame(date) <= 3;
+  const { data: upcomingData } = useUpcoming();
   const { team1, team2, isLoading: playersLoading } = useMatchupPlayers(visitingTeamId, homeTeamId);
+
+  // Show last-5 stats only if this game is the very next scheduled game for both teams
+  const isNearGame = useMemo(() => {
+    const games = upcomingData?.games || [];
+    const nextFor = (teamId) =>
+      games.find((g) => g.visitingTeamId === teamId || g.homeTeamId === teamId);
+    const nextV = nextFor(visitingTeamId);
+    const nextH = nextFor(homeTeamId);
+    const isNextV = nextV && nextV.date === date && (nextV.visitingTeamId === visitingTeamId || nextV.homeTeamId === visitingTeamId);
+    const isNextH = nextH && nextH.date === date && (nextH.visitingTeamId === homeTeamId || nextH.homeTeamId === homeTeamId);
+    return !!(isNextV && isNextH);
+  }, [upcomingData, visitingTeamId, homeTeamId, date]);
 
   const overlayRef = useRef(null);
 
@@ -106,7 +109,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
   const homeAbbr = homeConfig?.abbr || "";
 
   const seasonPlayers = useMemo(() => {
-    if (isNearGame || !leaders.allPoints) return { visiting: [], home: [], milestones: [] };
+    if (!leaders.allPoints) return { visiting: [], home: [], milestones: [] };
 
     function topThree(abbr) {
       const pts = (leaders.allPoints || []).filter((p) => p.team === abbr);
@@ -278,59 +281,35 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
             </div>
           </div>
 
-          {/* Players section — near games get last-5 stats, far games get season totals */}
+          {/* Players section — next game gets last-5 stats + milestones, later games get season totals */}
           {isNearGame ? (
-            <div className="matchup-section">
-              <div className="matchup-section-title">Players to Watch <span className="matchup-subtitle">Last 5 Games</span></div>
-              {playersLoading ? (
-                <div className="loading-spinner" style={{ padding: 12 }}>Loading...</div>
-              ) : (
-                <div className="matchup-players">
-                  <div className="matchup-players-col">
-                    {team1.length === 0 && <span className="matchup-muted">No data</span>}
-                    {team1.map((p) => (
-                      <div key={p.name} className="matchup-player">
-                        <span className="matchup-player-name">{p.name}</span>
-                        <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="matchup-players-col matchup-players-right">
-                    {team2.length === 0 && <span className="matchup-muted">No data</span>}
-                    {team2.map((p) => (
-                      <div key={p.name} className="matchup-player">
-                        <span className="matchup-player-name">{p.name}</span>
-                        <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          ) : (
             <>
               <div className="matchup-section">
-                <div className="matchup-section-title">Key Players <span className="matchup-subtitle">Season Stats</span></div>
-                <div className="matchup-players">
-                  <div className="matchup-players-col">
-                    {seasonPlayers.visiting.length === 0 && <span className="matchup-muted">No data</span>}
-                    {seasonPlayers.visiting.map((p) => (
-                      <div key={p.name} className="matchup-player">
-                        <span className="matchup-player-name">{p.name}</span>
-                        <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
-                      </div>
-                    ))}
+                <div className="matchup-section-title">Players to Watch <span className="matchup-subtitle">Last 5 Games</span></div>
+                {playersLoading ? (
+                  <div className="loading-spinner" style={{ padding: 12 }}>Loading...</div>
+                ) : (
+                  <div className="matchup-players">
+                    <div className="matchup-players-col">
+                      {team1.length === 0 && <span className="matchup-muted">No data</span>}
+                      {team1.map((p) => (
+                        <div key={p.name} className="matchup-player">
+                          <span className="matchup-player-name">{p.name}</span>
+                          <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="matchup-players-col matchup-players-right">
+                      {team2.length === 0 && <span className="matchup-muted">No data</span>}
+                      {team2.map((p) => (
+                        <div key={p.name} className="matchup-player">
+                          <span className="matchup-player-name">{p.name}</span>
+                          <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                  <div className="matchup-players-col matchup-players-right">
-                    {seasonPlayers.home.length === 0 && <span className="matchup-muted">No data</span>}
-                    {seasonPlayers.home.map((p) => (
-                      <div key={p.name} className="matchup-player">
-                        <span className="matchup-player-name">{p.name}</span>
-                        <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+                )}
               </div>
               {seasonPlayers.milestones.length > 0 && (
                 <div className="matchup-section">
@@ -364,6 +343,30 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
                 </div>
               )}
             </>
+          ) : (
+            <div className="matchup-section">
+              <div className="matchup-section-title">Key Players <span className="matchup-subtitle">Season Stats</span></div>
+              <div className="matchup-players">
+                <div className="matchup-players-col">
+                  {seasonPlayers.visiting.length === 0 && <span className="matchup-muted">No data</span>}
+                  {seasonPlayers.visiting.map((p) => (
+                    <div key={p.name} className="matchup-player">
+                      <span className="matchup-player-name">{p.name}</span>
+                      <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="matchup-players-col matchup-players-right">
+                  {seasonPlayers.home.length === 0 && <span className="matchup-muted">No data</span>}
+                  {seasonPlayers.home.map((p) => (
+                    <div key={p.name} className="matchup-player">
+                      <span className="matchup-player-name">{p.name}</span>
+                      <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           )}
 
           {/* Team Stats Comparison with color bars */}
