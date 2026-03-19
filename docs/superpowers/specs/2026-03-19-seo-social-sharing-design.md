@@ -9,7 +9,7 @@ The site has no per-page titles, meta descriptions, or Open Graph tags. Modals (
 - **Modal URL strategy**: Hybrid routes + modal overlay (dedicated URLs that open as modals over the dashboard)
 - **Social sharing**: Edge middleware injects OG tags into raw HTML (no Puppeteer, no build-time pre-rendering)
 - **OG image strategy**: Text-only cards (title + description, no generated images)
-- **Hosting**: Netlify or Vercel (edge functions available)
+- **Hosting**: Vercel (middleware available)
 
 ## Design
 
@@ -60,9 +60,7 @@ OG tags set per page:
 
 A single edge function handles OG tag injection for social media crawlers. It runs on every HTML page request.
 
-**File location:**
-- Netlify: `netlify/edge-functions/og-injector.js`
-- Vercel: `middleware.js` (or `middleware.ts`)
+**File location:** `middleware.ts` at project root (Vercel middleware convention)
 
 **Logic:**
 
@@ -112,10 +110,16 @@ A Node script (`scripts/generate-sitemap.js`) runs as a post-build step.
 | `client/src/pages/AttendancePage.jsx` | Add `<Helmet>` |
 | `client/src/pages/TeamPage.jsx` | Add `<Helmet>` with team-specific title |
 | `client/index.html` | Update default `<title>` and add fallback OG tags |
-| `netlify/edge-functions/og-injector.js` (or `middleware.js`) | New: edge middleware for OG injection |
+| `middleware.ts` | New: Vercel middleware for OG injection |
 | `scripts/generate-sitemap.js` | New: sitemap generator |
 | `client/public/robots.txt` | New: points to sitemap |
 | `package.json` | Add `react-helmet-async` dependency, add postbuild script |
+
+## Implementation Notes
+
+- **Hosting target**: Vercel (middleware runs at the edge before static file serving)
+- **Team config duplication**: The middleware hardcodes a minimal team map. A build script can extract this from `teamConfig.js` to prevent drift — but manual sync is acceptable for 28 static teams.
+- **SPA routing**: A `vercel.json` with rewrites (`{ "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }] }`) is required so that `/game/:gameId` and `/matchup/...` don't 404 on direct navigation. The middleware runs before rewrites.
 
 ## Out of Scope
 
