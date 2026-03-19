@@ -1,0 +1,869 @@
+{
+  "games": [
+    {
+      "visitingTeamId": 106,
+      "visitingTeam": "Utah",
+      "homeTeamId": 65,
+      "homeTeam": "Indy",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 10,
+      "visitingTeam": "Atlanta",
+      "homeTeamId": 79,
+      "homeTeam": "Jacksonville",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 85,
+      "visitingTeam": "Rapid City",
+      "homeTeamId": 53,
+      "homeTeam": "Kalamazoo",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 74,
+      "visitingTeam": "Adirondack",
+      "homeTeamId": 55,
+      "homeTeam": "Reading",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 52,
+      "visitingTeam": "Greenville",
+      "homeTeamId": 97,
+      "homeTeam": "Savannah",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 61,
+      "visitingTeam": "Wheeling",
+      "homeTeamId": 103,
+      "homeTeam": "Trois-Rivières",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 63,
+      "homeTeam": "Norfolk",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 50,
+      "homeTeam": "South Carolina",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 101,
+      "visitingTeam": "Maine",
+      "homeTeamId": 104,
+      "homeTeam": "Worcester",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 109,
+      "visitingTeam": "Tahoe",
+      "homeTeamId": 70,
+      "homeTeam": "Toledo",
+      "date": "Mar 20, 2026",
+      "time": "7:15 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 60,
+      "visitingTeam": "Fort Wayne",
+      "homeTeamId": 5,
+      "homeTeam": "Cincinnati",
+      "date": "Mar 20, 2026",
+      "time": "7:35 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 98,
+      "visitingTeam": "Iowa",
+      "homeTeamId": 107,
+      "homeTeam": "Bloomington",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 56,
+      "visitingTeam": "Kansas City",
+      "homeTeamId": 96,
+      "homeTeam": "Wichita",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 72,
+      "visitingTeam": "Tulsa",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho",
+      "date": "Mar 20, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 10,
+      "visitingTeam": "Atlanta",
+      "homeTeamId": 79,
+      "homeTeam": "Jacksonville",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 85,
+      "visitingTeam": "Rapid City",
+      "homeTeamId": 53,
+      "homeTeam": "Kalamazoo",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 74,
+      "visitingTeam": "Adirondack",
+      "homeTeamId": 55,
+      "homeTeam": "Reading",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 52,
+      "visitingTeam": "Greenville",
+      "homeTeamId": 97,
+      "homeTeam": "Savannah",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 61,
+      "visitingTeam": "Wheeling",
+      "homeTeamId": 103,
+      "homeTeam": "Trois-Rivières",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 63,
+      "homeTeam": "Norfolk",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 50,
+      "homeTeam": "South Carolina",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 101,
+      "visitingTeam": "Maine",
+      "homeTeamId": 104,
+      "homeTeam": "Worcester",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 109,
+      "visitingTeam": "Tahoe",
+      "homeTeamId": 70,
+      "homeTeam": "Toledo",
+      "date": "Mar 20, 2026",
+      "time": "7:15 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 60,
+      "visitingTeam": "Fort Wayne",
+      "homeTeamId": 5,
+      "homeTeam": "Cincinnati",
+      "date": "Mar 20, 2026",
+      "time": "7:35 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 98,
+      "visitingTeam": "Iowa",
+      "homeTeamId": 107,
+      "homeTeam": "Bloomington",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 56,
+      "visitingTeam": "Kansas City",
+      "homeTeamId": 96,
+      "homeTeam": "Wichita",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 72,
+      "visitingTeam": "Tulsa",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho - 7:10 PM MDTSAT, MARCH 21 Wheeling at Trois-Rivières",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 85,
+      "visitingTeam": "Rapid City",
+      "homeTeamId": 53,
+      "homeTeam": "Kalamazoo",
+      "date": "Mar 20, 2026",
+      "time": "4:30 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 104,
+      "visitingTeam": "Worcester",
+      "homeTeamId": 101,
+      "homeTeam": "Maine",
+      "date": "Mar 20, 2026",
+      "time": "6:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 50,
+      "homeTeam": "South Carolina",
+      "date": "Mar 20, 2026",
+      "time": "6:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 55,
+      "visitingTeam": "Reading",
+      "homeTeamId": 74,
+      "homeTeam": "Adirondack",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 13,
+      "visitingTeam": "Orlando",
+      "homeTeamId": 8,
+      "homeTeam": "Florida",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 106,
+      "visitingTeam": "Utah",
+      "homeTeamId": 65,
+      "homeTeam": "Indy",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 52,
+      "visitingTeam": "Greenville",
+      "homeTeamId": 97,
+      "homeTeam": "Savannah",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 63,
+      "homeTeam": "Norfolk",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 79,
+      "visitingTeam": "Jacksonville",
+      "homeTeamId": 10,
+      "homeTeam": "Atlanta",
+      "date": "Mar 20, 2026",
+      "time": "7:10 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 109,
+      "visitingTeam": "Tahoe",
+      "homeTeamId": 70,
+      "homeTeam": "Toledo",
+      "date": "Mar 20, 2026",
+      "time": "7:15 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 60,
+      "visitingTeam": "Fort Wayne",
+      "homeTeamId": 5,
+      "homeTeam": "Cincinnati",
+      "date": "Mar 20, 2026",
+      "time": "7:35 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 98,
+      "visitingTeam": "Iowa",
+      "homeTeamId": 107,
+      "homeTeam": "Bloomington",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 72,
+      "visitingTeam": "Tulsa",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho - 7:10 PM MDTSUN, MARCH 22 Rapid City at Kalamazoo",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 55,
+      "visitingTeam": "Reading",
+      "homeTeamId": 101,
+      "homeTeam": "Maine",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 10,
+      "visitingTeam": "Atlanta",
+      "homeTeamId": 97,
+      "homeTeam": "Savannah",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 61,
+      "visitingTeam": "Wheeling",
+      "homeTeamId": 103,
+      "homeTeam": "Trois-Rivières",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 63,
+      "homeTeam": "Norfolk",
+      "date": "Mar 20, 2026",
+      "time": "3:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 50,
+      "homeTeam": "South Carolina",
+      "date": "Mar 20, 2026",
+      "time": "3:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 74,
+      "visitingTeam": "Adirondack",
+      "homeTeamId": 104,
+      "homeTeam": "Worcester",
+      "date": "Mar 20, 2026",
+      "time": "3:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 106,
+      "visitingTeam": "Utah",
+      "homeTeamId": 65,
+      "homeTeam": "Indy",
+      "date": "Mar 20, 2026",
+      "time": "4:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 98,
+      "visitingTeam": "Iowa",
+      "homeTeamId": 107,
+      "homeTeam": "Bloomington",
+      "date": "Mar 20, 2026",
+      "time": "4:00 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 52,
+      "visitingTeam": "Greenville",
+      "homeTeamId": 79,
+      "homeTeam": "Jacksonville",
+      "date": "Mar 20, 2026",
+      "time": "5:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 97,
+      "visitingTeam": "Savannah",
+      "homeTeamId": 8,
+      "homeTeam": "Florida",
+      "date": "Mar 20, 2026",
+      "time": "7:30 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 103,
+      "visitingTeam": "Trois-Rivières",
+      "homeTeamId": 72,
+      "homeTeam": "Tulsa",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 50,
+      "visitingTeam": "South Carolina",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho",
+      "date": "Mar 20, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 106,
+      "visitingTeam": "Utah",
+      "homeTeamId": 65,
+      "homeTeam": "Indy",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 10,
+      "visitingTeam": "Atlanta",
+      "homeTeamId": 79,
+      "homeTeam": "Jacksonville",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 85,
+      "visitingTeam": "Rapid City",
+      "homeTeamId": 53,
+      "homeTeam": "Kalamazoo",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 74,
+      "visitingTeam": "Adirondack",
+      "homeTeamId": 55,
+      "homeTeam": "Reading",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 52,
+      "visitingTeam": "Greenville",
+      "homeTeamId": 97,
+      "homeTeam": "Savannah",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 61,
+      "visitingTeam": "Wheeling",
+      "homeTeamId": 103,
+      "homeTeam": "Trois-Rivières",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 63,
+      "homeTeam": "Norfolk",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 50,
+      "homeTeam": "South Carolina",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 101,
+      "visitingTeam": "Maine",
+      "homeTeamId": 104,
+      "homeTeam": "Worcester",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 109,
+      "visitingTeam": "Tahoe",
+      "homeTeamId": 70,
+      "homeTeam": "Toledo",
+      "date": "Mar 20, 2026",
+      "time": "7:15 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 60,
+      "visitingTeam": "Fort Wayne",
+      "homeTeamId": 5,
+      "homeTeam": "Cincinnati",
+      "date": "Mar 20, 2026",
+      "time": "7:35 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 98,
+      "visitingTeam": "Iowa",
+      "homeTeamId": 107,
+      "homeTeam": "Bloomington",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 56,
+      "visitingTeam": "Kansas City",
+      "homeTeamId": 96,
+      "homeTeam": "Wichita",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 72,
+      "visitingTeam": "Tulsa",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho",
+      "date": "Mar 20, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 61,
+      "visitingTeam": "Wheeling",
+      "homeTeamId": 103,
+      "homeTeam": "Trois-Rivières",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 85,
+      "visitingTeam": "Rapid City",
+      "homeTeamId": 53,
+      "homeTeam": "Kalamazoo",
+      "date": "Mar 20, 2026",
+      "time": "4:30 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 104,
+      "visitingTeam": "Worcester",
+      "homeTeamId": 101,
+      "homeTeam": "Maine",
+      "date": "Mar 20, 2026",
+      "time": "6:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 50,
+      "homeTeam": "South Carolina",
+      "date": "Mar 20, 2026",
+      "time": "6:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 55,
+      "visitingTeam": "Reading",
+      "homeTeamId": 74,
+      "homeTeam": "Adirondack",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 13,
+      "visitingTeam": "Orlando",
+      "homeTeamId": 8,
+      "homeTeam": "Florida",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 106,
+      "visitingTeam": "Utah",
+      "homeTeamId": 65,
+      "homeTeam": "Indy",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 52,
+      "visitingTeam": "Greenville",
+      "homeTeamId": 97,
+      "homeTeam": "Savannah",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 63,
+      "homeTeam": "Norfolk",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 79,
+      "visitingTeam": "Jacksonville",
+      "homeTeamId": 10,
+      "homeTeam": "Atlanta",
+      "date": "Mar 20, 2026",
+      "time": "7:10 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 109,
+      "visitingTeam": "Tahoe",
+      "homeTeamId": 70,
+      "homeTeam": "Toledo",
+      "date": "Mar 20, 2026",
+      "time": "7:15 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 60,
+      "visitingTeam": "Fort Wayne",
+      "homeTeamId": 5,
+      "homeTeam": "Cincinnati",
+      "date": "Mar 20, 2026",
+      "time": "7:35 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 98,
+      "visitingTeam": "Iowa",
+      "homeTeamId": 107,
+      "homeTeam": "Bloomington",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 72,
+      "visitingTeam": "Tulsa",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho",
+      "date": "Mar 20, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 85,
+      "visitingTeam": "Rapid City",
+      "homeTeamId": 53,
+      "homeTeam": "Kalamazoo",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 55,
+      "visitingTeam": "Reading",
+      "homeTeamId": 101,
+      "homeTeam": "Maine",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 10,
+      "visitingTeam": "Atlanta",
+      "homeTeamId": 97,
+      "homeTeam": "Savannah",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 61,
+      "visitingTeam": "Wheeling",
+      "homeTeamId": 103,
+      "homeTeam": "Trois-Rivières",
+      "date": "Mar 20, 2026",
+      "time": "3:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 63,
+      "homeTeam": "Norfolk",
+      "date": "Mar 20, 2026",
+      "time": "3:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 50,
+      "homeTeam": "South Carolina",
+      "date": "Mar 20, 2026",
+      "time": "3:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 74,
+      "visitingTeam": "Adirondack",
+      "homeTeamId": 104,
+      "homeTeam": "Worcester",
+      "date": "Mar 20, 2026",
+      "time": "3:05 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 106,
+      "visitingTeam": "Utah",
+      "homeTeamId": 65,
+      "homeTeam": "Indy",
+      "date": "Mar 20, 2026",
+      "time": "4:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 98,
+      "visitingTeam": "Iowa",
+      "homeTeamId": 107,
+      "homeTeam": "Bloomington",
+      "date": "Mar 20, 2026",
+      "time": "4:00 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 52,
+      "visitingTeam": "Greenville",
+      "homeTeamId": 79,
+      "homeTeam": "Jacksonville",
+      "date": "Mar 20, 2026",
+      "time": "5:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 109,
+      "visitingTeam": "Tahoe",
+      "homeTeamId": 70,
+      "homeTeam": "Toledo",
+      "date": "Mar 20, 2026",
+      "time": "5:15 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 56,
+      "visitingTeam": "Kansas City",
+      "homeTeamId": 96,
+      "homeTeam": "Wichita",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 63,
+      "visitingTeam": "Norfolk",
+      "homeTeamId": 55,
+      "homeTeam": "Reading",
+      "date": "Mar 20, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 97,
+      "visitingTeam": "Savannah",
+      "homeTeamId": 8,
+      "homeTeam": "Florida",
+      "date": "Mar 20, 2026",
+      "time": "7:30 PM EDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 103,
+      "visitingTeam": "Trois-Rivières",
+      "homeTeamId": 72,
+      "homeTeam": "Tulsa",
+      "date": "Mar 20, 2026",
+      "time": "7:05 PM CDT",
+      "dayLabel": "Friday"
+    },
+    {
+      "visitingTeamId": 50,
+      "visitingTeam": "South Carolina",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho",
+      "date": "Mar 20, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Friday"
+    }
+  ],
+  "scrapedAt": "2026-03-19T14:20:31.814Z"
+}

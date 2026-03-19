@@ -1,0 +1,255 @@
+.matchup-modal {
+  max-width: 560px;
+}
+
+.matchup-body {
+  padding: 0;
+}
+
+/* ── Team Header ── */
+.matchup-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.matchup-team-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+
+.matchup-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.matchup-team-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  text-align: center;
+}
+
+.matchup-record {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.matchup-vs {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* ── Sections ── */
+.matchup-section {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.matchup-section:last-child {
+  border-bottom: none;
+}
+
+.matchup-section-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.matchup-subtitle {
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-left: 6px;
+  opacity: 0.7;
+}
+
+.matchup-muted {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* ── Players to Watch ── */
+.matchup-players {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.matchup-players-col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.matchup-players-right {
+  text-align: right;
+}
+
+.matchup-player {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.matchup-players-right .matchup-player {
+  align-items: flex-end;
+}
+
+.matchup-player-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.matchup-player-stats {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Stats Comparison ── */
+.matchup-stats-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.matchup-stat-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.matchup-stat-row:last-child {
+  border-bottom: none;
+}
+
+.matchup-stat-val {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.matchup-stat-left {
+  justify-content: flex-start;
+}
+
+.matchup-stat-right {
+  justify-content: flex-end;
+}
+
+.matchup-stat-num {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.matchup-stat-rank {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.matchup-stat-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+  min-width: 48px;
+}
+
+/* ── Records ── */
+.matchup-records {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.matchup-record-section {
+  border-bottom: none;
+}
+
+.matchup-records > :first-child {
+  border-right: 1px solid var(--border);
+}
+
+.matchup-last10 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.matchup-last10-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.matchup-last10-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.matchup-last10-val {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── H2H ── */
+.matchup-h2h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.matchup-h2h-team {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.matchup-h2h-sep {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+/* ── Mobile ── */
+@media (max-width: 500px) {
+  .matchup-header {
+    gap: 12px;
+    padding: 14px 16px;
+  }
+  .matchup-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .matchup-team-name {
+    font-size: 13px;
+  }
+  .matchup-section {
+    padding: 12px 14px;
+  }
+  .matchup-stat-num {
+    font-size: 13px;
+  }
+}

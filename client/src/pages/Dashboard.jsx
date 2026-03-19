@@ -1,68 +1,31 @@
 import { useState, useRef } from "react";
-import { useNavigate } from "react-router-dom";
-import { useScores, useStandings, useLeaders } from "../hooks/useECHL.js";
+import { useScores, useUpcoming, useLeaders } from "../hooks/useECHL.js";
+import { TEAMS } from "../config/teamConfig.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
+import MatchupModal from "../components/MatchupModal.jsx";
 import "./Dashboard.css";
-
-const DIVISION_ORDER = ["North", "South", "Central", "Mountain"];
-const PLAYOFF_SPOTS = 4; // top 4 per division make playoffs
 
 export default function Dashboard() {
   const [selectedGameId, setSelectedGameId] = useState(null);
-  const [sortCol, setSortCol] = useState("pts");
-  const [sortDir, setSortDir] = useState("desc");
+  const [selectedMatchup, setSelectedMatchup] = useState(null);
   const stripRef = useRef(null);
   const scroll = (dir) => stripRef.current?.scrollBy({ left: dir * 600, behavior: "smooth" });
 
-  const navigate = useNavigate();
   const { data: scoresData, isLoading: scoresLoading } = useScores();
-  const { data: standingsData, isLoading: standingsLoading } = useStandings();
+  const { data: upcomingData, isLoading: upcomingLoading } = useUpcoming();
   const { data: leadersData, isLoading: leadersLoading } = useLeaders();
 
   const scores = scoresData?.scores || [];
-  const standings = standingsData?.standings || [];
+  const upcomingGames = upcomingData?.games || [];
   const leaders = leadersData?.leaders || {};
 
-  const byDivision = standings.reduce((acc, t) => {
-    const d = t.division || "Other";
-    (acc[d] = acc[d] || []).push(t);
+  // Group upcoming games by day
+  const byDay = upcomingGames.reduce((acc, g) => {
+    const key = g.dayLabel || g.date;
+    (acc[key] = acc[key] || []).push(g);
     return acc;
   }, {});
-
-  const divisions = DIVISION_ORDER.filter((d) => byDivision[d]?.length);
-
-  function handleSort(col) {
-    if (sortCol === col) setSortDir((d) => (d === "desc" ? "asc" : "desc"));
-    else { setSortCol(col); setSortDir("desc"); }
-  }
-
-  function sorted(teams) {
-    return [...teams].sort((a, b) => {
-      let av = a[sortCol] ?? 0, bv = b[sortCol] ?? 0;
-      if (typeof av === "string") { av = av.toLowerCase(); bv = bv.toLowerCase(); }
-      return sortDir === "desc" ? (av < bv ? 1 : -1) : (av > bv ? 1 : -1);
-    });
-  }
-
-  function sortIcon(col) {
-    if (sortCol !== col) return null;
-    return <span className="sort-icon">{sortDir === "desc" ? "↓" : "↑"}</span>;
-  }
-
-  const COLS = [
-    { key: "gp",          label: "GP" },
-    { key: "w",           label: "W" },
-    { key: "l",           label: "L" },
-    { key: "otl",         label: "OT" },
-    { key: "pts",         label: "PTS" },
-    { key: "pct",         label: "PCT",  hideSmall: true },
-    { key: "gf",          label: "GF",   hideSmall: true },
-    { key: "ga",          label: "GA",   hideSmall: true },
-    { key: "diff",        label: "DIFF", hideSmall: true },
-    { key: "homeRecord",  label: "HOME", hideMobile: true },
-    { key: "roadRecord",  label: "ROAD", hideMobile: true },
-    { key: "streak",      label: "STRK", hideMobile: true },
-  ];
+  const dayOrder = [...new Set(upcomingGames.map((g) => g.dayLabel || g.date))];
 
   return (
     <div className="dashboard">
@@ -70,7 +33,7 @@ export default function Dashboard() {
       <section className="scores-section">
         <div className="section-label">Recent Scores</div>
         {scoresLoading ? (
-          <div className="loading-spinner">Loading…</div>
+          <div className="loading-spinner">Loading...</div>
         ) : scores.length === 0 ? (
           <p className="empty-msg">No recent scores.</p>
         ) : (
@@ -87,74 +50,49 @@ export default function Dashboard() {
       </section>
 
       <div className="dashboard-body">
-        {/* ── Standings ── */}
-        <section className="standings-section">
-          {standingsLoading ? (
-            <div className="loading-spinner">Loading standings…</div>
+        {/* ── Upcoming Games ── */}
+        <section className="upcoming-section">
+          <div className="section-label">Upcoming Games</div>
+          {upcomingLoading ? (
+            <div className="loading-spinner">Loading...</div>
+          ) : upcomingGames.length === 0 ? (
+            <p className="empty-msg">No upcoming games scheduled.</p>
           ) : (
-            divisions.map((divName) => {
-              const teams = sorted(byDivision[divName] || []);
-              return (
-                <div key={divName} className="division-card card">
-                  <div className="division-card-header">
-                    <span className="division-name">{divName} Division</span>
-                  </div>
-                  <div className="table-wrap">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th className="team-col">Team</th>
-                          {COLS.map((col) => (
-                            <th
-                              key={col.key}
-                              onClick={() => handleSort(col.key)}
-                              className={`num-col${col.hideMobile ? " hide-mobile" : ""}${col.hideSmall ? " hide-sm" : ""}`}
-                            >
-                              {col.label}{sortIcon(col.key)}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {teams.map((team, i) => {
-                          const isPlayoffCutoff = i === PLAYOFF_SPOTS - 1;
-                          return (
-                            <tr
-                              key={team.teamId || i}
-                              className={`team-row${isPlayoffCutoff ? " playoff-cutoff" : ""}`}
-                              onClick={() => team.teamId && navigate(`/team/${team.teamId}`)}
-                            >
-                              <td className="team-name-cell">
-                                {team.logoUrl && (
-                                  <img src={team.logoUrl} alt="" className="row-logo" />
-                                )}
-                                <span style={{ fontWeight: 600 }}>
-                                  {team.teamName}
-                                </span>
-                              </td>
-                              <td className="num">{team.gp}</td>
-                              <td className="num bold">{team.w}</td>
-                              <td className="num">{team.l}</td>
-                              <td className="num">{team.otl}</td>
-                              <td className="num bold">{team.pts}</td>
-                              <td className="num hide-sm">{team.pct}</td>
-                              <td className="num hide-sm">{team.gf}</td>
-                              <td className="num hide-sm">{team.ga}</td>
-                              <td className={`num hide-sm ${team.diff > 0 ? "pos" : team.diff < 0 ? "neg" : ""}`}>
-                                {team.diff > 0 ? `+${team.diff}` : team.diff}
-                              </td>
-                              <td className="num hide-mobile">{team.homeRecord}</td>
-                              <td className="num hide-mobile">{team.roadRecord}</td>
-                              <td className="num hide-mobile">{team.streak}</td>
-                            </tr>
-                          );
-                        })}
-                      </tbody>
-                    </table>
-                  </div>
+            dayOrder.map((day) => (
+              <div key={day} className="upcoming-day">
+                <div className="upcoming-day-header">{day}</div>
+                <div className="upcoming-day-games">
+                  {(byDay[day] || []).map((g, i) => {
+                    const visitingConfig = TEAMS[g.visitingTeamId];
+                    const homeConfig = TEAMS[g.homeTeamId];
+                    return (
+                      <button
+                        key={i}
+                        className="upcoming-game-row"
+                        onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
+                      >
+                        <div className="upcoming-team upcoming-away">
+                          {visitingConfig?.logoUrl && (
+                            <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
+                          )}
+                          <span className="upcoming-name">{g.visitingTeam}</span>
+                        </div>
+                        <div className="upcoming-center">
+                          <span className="upcoming-at">@</span>
+                          <span className="upcoming-time">{g.time}</span>
+                        </div>
+                        <div className="upcoming-team upcoming-home">
+                          <span className="upcoming-name">{g.homeTeam}</span>
+                          {homeConfig?.logoUrl && (
+                            <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
+                          )}
+                        </div>
+                      </button>
+                    );
+                  })}
                 </div>
-              );
-            })
+              </div>
+            ))
           )}
         </section>
 
@@ -163,11 +101,11 @@ export default function Dashboard() {
           <div className="card leaders-card">
             <div className="leaders-card-header">
               <span className="section-label" style={{ margin: 0 }}>League Leaders</span>
-              <a href="/leaders" className="see-all-link">All →</a>
+              <a href="/leaders" className="see-all-link">All &rarr;</a>
             </div>
 
             {leadersLoading ? (
-              <div className="loading-spinner" style={{ padding: 24 }}>Loading…</div>
+              <div className="loading-spinner" style={{ padding: 24 }}>Loading...</div>
             ) : (
               <>
                 <LeaderMini title="Points" players={leaders.points} limit={5} />
@@ -183,6 +121,13 @@ export default function Dashboard() {
 
       {selectedGameId && (
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
+      )}
+      {selectedMatchup && (
+        <MatchupModal
+          visitingTeamId={selectedMatchup.visitingTeamId}
+          homeTeamId={selectedMatchup.homeTeamId}
+          onClose={() => setSelectedMatchup(null)}
+        />
       )}
     </div>
   );

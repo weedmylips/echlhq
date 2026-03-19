@@ -689,6 +689,76 @@ async function scrapeLeadersAndScores(html, ydateStr) {
   return { leaders, scores: deduped };
 }
 
+// ─── Upcoming Games ──────────────────────────────────────────────────────────
+
+function scrapeUpcomingGames(html) {
+  const $ = cheerio.load(html);
+  const upcoming = [];
+
+  // Day name → next occurrence date mapping
+  const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const eastern = nowEastern();
+
+  function nextDateForDay(dayName) {
+    const targetDay = dayNames.indexOf(dayName);
+    if (targetDay === -1) return null;
+    const today = eastern.getUTCDay();
+    let daysAhead = (targetDay - today + 7) % 7;
+    if (daysAhead === 0) daysAhead = 0; // today is valid for upcoming
+    const d = new Date(eastern.getTime() + daysAhead * 86400000);
+    return `${monthNames[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+  }
+
+  // Look for "Day's Games" headers followed by game lines
+  // Headers: "Thursday's Games", "Friday's Games", etc.
+  const dayHeaderRe = /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)'s\s+Games$/i;
+  // Game line: "Utah at Indy - 7:00 PM EDT"
+  const gameLineRe = /^(.+?)\s+at\s+(.+?)\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM)\s*\w+)$/i;
+
+  // Walk all text content looking for these patterns
+  // They can appear in table cells, paragraphs, or other elements
+  const allText = [];
+  $("td, p, div, span").each((_, el) => {
+    const html = $(el).html() || "";
+    // Split on <br> to get individual lines
+    html.split(/<br\s*\/?>/i).forEach((frag) => {
+      const text = cheerio.load(frag).text().trim();
+      if (text) allText.push(text);
+    });
+  });
+
+  let currentDay = null;
+  let currentDate = null;
+  for (const text of allText) {
+    const dayMatch = text.match(dayHeaderRe);
+    if (dayMatch) {
+      currentDay = dayMatch[1];
+      currentDate = nextDateForDay(currentDay);
+      continue;
+    }
+    if (!currentDay || !currentDate) continue;
+    if (/no\s+games?\s+scheduled/i.test(text)) continue;
+
+    const gm = text.match(gameLineRe);
+    if (gm) {
+      const visiting = findTeamByName(gm[1].trim());
+      const home = findTeamByName(gm[2].trim());
+      upcoming.push({
+        visitingTeamId: visiting?.id || null,
+        visitingTeam: gm[1].trim(),
+        homeTeamId: home?.id || null,
+        homeTeam: gm[2].trim(),
+        date: currentDate,
+        time: gm[3].trim(),
+        dayLabel: currentDay,
+      });
+    }
+  }
+
+  return upcoming;
+}
+
 // ─── Box Score ───────────────────────────────────────────────────────────────
 
 // Normalize text: collapse whitespace + non-breaking spaces.
@@ -1301,6 +1371,16 @@ async function main() {
     changed++;
   } else {
     console.log("  – leaders.json unchanged");
+  }
+
+  // Upcoming games
+  console.log("Parsing upcoming games…");
+  const upcomingGames = scrapeUpcomingGames(reportHtml);
+  if (writeJSON(path.join(DATA_DIR, "upcoming.json"), { games: upcomingGames, scrapedAt: now })) {
+    console.log(`  ✓ upcoming.json (${upcomingGames.length} games)`);
+    changed++;
+  } else {
+    console.log("  – upcoming.json unchanged");
   }
 
   // Resolve game IDs by probing HockeyTech game report pages

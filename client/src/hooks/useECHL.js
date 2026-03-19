@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueries } from "@tanstack/react-query";
 import { api } from "../lib/api.js";
 import { TEAMS } from "../config/teamConfig.js";
 
@@ -329,4 +329,88 @@ export function useTeamStats(teamId) {
   const id = teamId ? parseInt(teamId) : null;
   const data = (standingsData && id) ? computeTeamStats(id, standingsData, scoresData) : null;
   return { data };
+}
+
+export function useUpcoming() {
+  return useQuery({
+    queryKey: ["upcoming"],
+    queryFn: api.upcoming,
+    staleTime: STALE,
+  });
+}
+
+// Fetches last-5-game boxscores for two teams and aggregates per-player stats.
+// Returns { team1: [...top3], team2: [...top3], isLoading }
+export function useMatchupPlayers(teamId1, teamId2) {
+  const { data: scoresData } = useScores();
+  const scores = scoresData?.scores || [];
+
+  const city1 = TEAMS[teamId1]?.city?.toLowerCase() || "";
+  const city2 = TEAMS[teamId2]?.city?.toLowerCase() || "";
+
+  const gameIds1 = scores
+    .filter((g) => matchCity(g.homeTeam, city1) || matchCity(g.visitingTeam, city1))
+    .slice(0, 5)
+    .map((g) => g.gameId)
+    .filter(Boolean);
+
+  const gameIds2 = scores
+    .filter((g) => matchCity(g.homeTeam, city2) || matchCity(g.visitingTeam, city2))
+    .slice(0, 5)
+    .map((g) => g.gameId)
+    .filter(Boolean);
+
+  const allIds = [...new Set([...gameIds1, ...gameIds2])];
+
+  const boxscoreQueries = useQueries({
+    queries: allIds.map((id) => ({
+      queryKey: ["boxscore", id],
+      queryFn: () => api.boxscore(id),
+      staleTime: 60 * 1000,
+      enabled: !!id,
+      retry: 1,
+    })),
+  });
+
+  const isLoading = boxscoreQueries.some((q) => q.isLoading);
+  const boxscoreMap = {};
+  boxscoreQueries.forEach((q) => {
+    if (q.data?.gameInfo?.gameId) boxscoreMap[q.data.gameInfo.gameId] = q.data;
+  });
+
+  function aggregatePlayers(city, gameIds) {
+    const playerMap = {};
+    for (const gid of gameIds) {
+      const bs = boxscoreMap[gid];
+      if (!bs) continue;
+      const isHome = matchCity(bs.gameInfo.homeTeam || "", city);
+      const skaters = isHome ? bs.skaterStats?.home : bs.skaterStats?.visiting;
+      if (!skaters) continue;
+      for (const p of skaters) {
+        if (!p.name) continue;
+        if (!playerMap[p.name]) playerMap[p.name] = { name: p.name, g: 0, a: 0, pts: 0, gp: 0 };
+        playerMap[p.name].g   += (p.g || 0);
+        playerMap[p.name].a   += (p.a || 0);
+        playerMap[p.name].pts += (p.pts || 0);
+        playerMap[p.name].gp  += 1;
+      }
+    }
+    // Pick 3 distinct players: top pts, top goals (not already picked), top assists (not already picked)
+    const players = Object.values(playerMap).filter((p) => p.pts > 0 || p.g > 0 || p.a > 0);
+    const picked = [];
+    const byPts = [...players].sort((a, b) => b.pts - a.pts || b.g - a.g);
+    if (byPts[0]) picked.push({ ...byPts[0], highlight: "pts" });
+    const byGoals = [...players].sort((a, b) => b.g - a.g || b.pts - a.pts)
+      .filter((p) => !picked.find((x) => x.name === p.name));
+    if (byGoals[0]) picked.push({ ...byGoals[0], highlight: "g" });
+    const byAssists = [...players].sort((a, b) => b.a - a.a || b.pts - a.pts)
+      .filter((p) => !picked.find((x) => x.name === p.name));
+    if (byAssists[0]) picked.push({ ...byAssists[0], highlight: "a" });
+    return picked;
+  }
+
+  const team1Players = isLoading ? [] : aggregatePlayers(city1, gameIds1);
+  const team2Players = isLoading ? [] : aggregatePlayers(city2, gameIds2);
+
+  return { team1: team1Players, team2: team2Players, isLoading };
 }

@@ -145,56 +145,103 @@
   align-items: start;
 }
 
-/* ── Standings ── */
-.standings-section {
+/* ── Upcoming Games ── */
+.upcoming-section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
-.division-card {
+.upcoming-day {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   overflow: hidden;
 }
 
-.division-card-header {
-  padding: 12px 16px;
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.division-name {
-  font-size: 12px;
+.upcoming-day-header {
+  padding: 10px 16px;
+  font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
 }
 
-.dashboard .team-col { min-width: 160px; }
-.dashboard .num-col { text-align: right; }
-.dashboard td.num { text-align: right; }
+.upcoming-day-games {
+  display: flex;
+  flex-direction: column;
+}
 
-.dashboard .team-name-cell {
+.upcoming-game-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+  width: 100%;
+  text-align: left;
+}
+
+.upcoming-game-row:last-child {
+  border-bottom: none;
+}
+
+.upcoming-game-row:hover {
+  background: var(--bg-elevated);
+}
+
+.upcoming-team {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.dashboard .row-logo {
-  width: 20px;
-  height: 20px;
+.upcoming-home {
+  justify-content: flex-end;
+}
+
+.upcoming-logo {
+  width: 24px;
+  height: 24px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-.dashboard .team-row { cursor: pointer; }
+.upcoming-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
-.dashboard .sort-icon {
+.upcoming-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.upcoming-at {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.upcoming-time {
   font-size: 10px;
-  margin-left: 2px;
-  opacity: 0.7;
+  color: var(--text-muted);
+  white-space: nowrap;
 }
 
 /* ── Leaders Sidebar ── */
@@ -298,9 +345,10 @@
   .chip-name { font-size: 11px; }
 
   .scores-section { padding: 10px 12px; }
-  .division-card-header { padding: 8px 12px; }
-  .division-name { font-size: 11px; }
+  .upcoming-day-header { padding: 8px 12px; font-size: 10px; }
+  .upcoming-game-row { padding: 8px 12px; }
+  .upcoming-name { font-size: 12px; }
+  .upcoming-logo { width: 20px; height: 20px; }
 
-  .dashboard .team-col { min-width: 120px; }
   .leaders-card { padding: 12px; }
 }
