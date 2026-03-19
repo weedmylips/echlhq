@@ -66,9 +66,15 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
   useEffect(() => {
     const handler = (e) => { if (e.key === "Escape") onClose(); };
     window.addEventListener("keydown", handler);
-    // Scroll overlay to top so modal is visible on mobile
-    if (overlayRef.current) overlayRef.current.scrollTop = 0;
-    return () => window.removeEventListener("keydown", handler);
+    // Lock body scroll and reset overlay scroll position on mobile
+    document.body.style.overflow = "hidden";
+    requestAnimationFrame(() => {
+      if (overlayRef.current) overlayRef.current.scrollTop = 0;
+    });
+    return () => {
+      window.removeEventListener("keydown", handler);
+      document.body.style.overflow = "";
+    };
   }, [onClose]);
 
   const standings = standingsData?.standings || [];
@@ -159,7 +165,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
   const visitingTime = showVisitingTime ? convertTime(time, date, visitingTz) : null;
 
   return (
-    <div className="modal-overlay" ref={overlayRef} onClick={(e) => e.target === e.currentTarget && onClose()}>
+    <div className="modal-overlay matchup-overlay" ref={overlayRef} onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className="modal matchup-modal">
         <div className="modal-header">
           <span className="modal-title">Matchup Preview</span>
