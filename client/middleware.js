@@ -54,6 +54,50 @@ function escapeHtml(s) {
   return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+function getMeta(pathname) {
+  // Static pages
+  if (STATIC_META[pathname]) {
+    return STATIC_META[pathname];
+  }
+
+  // Team page: /team/:teamId
+  const teamMatch = pathname.match(/^\/team\/(\d+)$/);
+  if (teamMatch) {
+    const team = TEAMS[teamMatch[1]];
+    if (team) {
+      return {
+        title: escapeHtml(`${team.name} — ECHL Stats`),
+        desc: escapeHtml(`Roster, stats, and recent results for ${team.name}`),
+      };
+    }
+  }
+
+  // Matchup: /matchup/:visitingTeamId/:homeTeamId/:date
+  const matchupMatch = pathname.match(/^\/matchup\/(\d+)\/(\d+)\/(.+)$/);
+  if (matchupMatch) {
+    const vTeam = TEAMS[matchupMatch[1]];
+    const hTeam = TEAMS[matchupMatch[2]];
+    const date = decodeURIComponent(matchupMatch[3]);
+    if (vTeam && hTeam) {
+      return {
+        title: escapeHtml(`${vTeam.city} vs ${hTeam.city} Matchup Preview · ${date}`),
+        desc: escapeHtml(`${vTeam.name} vs ${hTeam.name} — H2H record, special teams, players to watch`),
+      };
+    }
+  }
+
+  // Box score: /game/:gameId — use generic title (no async fetch needed)
+  const gameMatch = pathname.match(/^\/game\/(\d+)$/);
+  if (gameMatch) {
+    return {
+      title: "ECHL Box Score",
+      desc: "Period scoring, skater stats, goalie stats",
+    };
+  }
+
+  return null;
+}
+
 export const config = {
   matcher: [
     "/",
@@ -66,82 +110,35 @@ export const config = {
   ],
 };
 
-export default async function middleware(request) {
+export default function middleware(request) {
   const url = new URL(request.url);
-  const pathname = url.pathname;
+  const meta = getMeta(url.pathname);
 
-  // Skip non-page requests (static files, data, etc.)
-  if (pathname.match(/\.(js|css|png|jpg|svg|ico|json|webmanifest|txt|xml)$/)) {
-    return;
-  }
+  // No meta found — let the request pass through unchanged
+  if (!meta) return;
 
-  let title = null;
-  let desc = null;
-
-  // Static pages
-  if (STATIC_META[pathname]) {
-    title = STATIC_META[pathname].title;
-    desc = STATIC_META[pathname].desc;
-  }
-
-  // Team page: /team/:teamId
-  const teamMatch = pathname.match(/^\/team\/(\d+)$/);
-  if (teamMatch) {
-    const team = TEAMS[teamMatch[1]];
-    if (team) {
-      title = escapeHtml(`${team.name} — ECHL Stats`);
-      desc = escapeHtml(`Roster, stats, and recent results for ${team.name}`);
-    }
-  }
-
-  // Box score: /game/:gameId
-  const gameMatch = pathname.match(/^\/game\/(\d+)$/);
-  if (gameMatch) {
-    try {
-      const dataUrl = new URL(`/data/boxscores/${gameMatch[1]}.json`, request.url);
-      const res = await fetch(dataUrl);
-      if (res.ok) {
-        const data = await res.json();
-        const gi = data.gameInfo;
-        const vScore = gi.finalScore?.visiting ?? "";
-        const hScore = gi.finalScore?.home ?? "";
-        title = escapeHtml(`${gi.visitingTeam} ${vScore}, ${gi.homeTeam} ${hScore} — Box Score`);
-        desc = escapeHtml(`Period scoring, skater stats, goalie stats — ${gi.visitingTeam} vs ${gi.homeTeam}`);
-      }
-    } catch {
-      // Fall through to default
-    }
-  }
-
-  // Matchup: /matchup/:visitingTeamId/:homeTeamId/:date
-  const matchupMatch = pathname.match(/^\/matchup\/(\d+)\/(\d+)\/(.+)$/);
-  if (matchupMatch) {
-    const vTeam = TEAMS[matchupMatch[1]];
-    const hTeam = TEAMS[matchupMatch[2]];
-    const date = decodeURIComponent(matchupMatch[3]);
-    if (vTeam && hTeam) {
-      title = escapeHtml(`${vTeam.city} vs ${hTeam.city} Matchup Preview · ${date}`);
-      desc = escapeHtml(`${vTeam.name} vs ${hTeam.name} — H2H record, special teams, players to watch`);
-    }
-  }
-
-  // If no meta found, let the request pass through unchanged
-  if (!title) return;
-
-  // Fetch index.html explicitly (NOT fetch(request) — that causes infinite loops)
+  // Rewrite the request to index.html, then modify the response
   const indexUrl = new URL("/index.html", request.url);
-  const response = await fetch(indexUrl);
-  const html = await response.text();
+  return fetch(indexUrl).then((response) => {
+    // If fetch failed, let the request pass through
+    if (!response.ok) return;
 
-  const ogTags = buildOgTags(title, desc, url.href);
+    return response.text().then((html) => {
+      const ogTags = buildOgTags(meta.title, meta.desc, url.href);
+      const modifiedHtml = html
+        .replace(/<title>[^<]*<\/title>/, "")
+        .replace("</head>", `    ${ogTags}\n  </head>`);
 
-  // Replace existing title and inject OG tags
-  const modifiedHtml = html
-    .replace(/<title>[^<]*<\/title>/, "")
-    .replace("</head>", `    ${ogTags}\n  </head>`);
-
-  return new Response(modifiedHtml, {
-    status: 200,
-    headers: { "content-type": "text/html; charset=utf-8" },
+      return new Response(modifiedHtml, {
+        status: 200,
+        headers: {
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=0, must-revalidate",
+        },
+      });
+    });
+  }).catch(() => {
+    // On any error, let the request pass through to default handling
+    return undefined;
   });
 }
