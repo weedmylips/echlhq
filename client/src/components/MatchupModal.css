@@ -195,6 +195,9 @@
   border-radius: 4px;
   flex-shrink: 0;
   letter-spacing: 0.04em;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .matchup-milestone-away {
@@ -216,7 +219,7 @@
   height: 100%;
   border-radius: 3px;
   transition: width 0.4s ease;
-  opacity: 0.85;
+  background: #60a5fa;
 }
 
 .matchup-milestone-range {

@@ -341,23 +341,17 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
                       const prevMilestone = MILESTONES.slice().reverse().find((v) => v < m.milestone) || 0;
                       const range = m.milestone - prevMilestone;
                       const pct = Math.min(100, Math.round(((current - prevMilestone) / range) * 100));
-                      const teamConfig = Object.values(TEAMS).find((t) => t.abbr === m.teamAbbr);
-                      const color = teamConfig?.primaryColor || "#3b82f6";
                       return (
                         <div key={`${m.name}-${m.stat}`} className="matchup-milestone">
                           <div className="matchup-milestone-top">
                             <span className="matchup-milestone-name">{m.name}</span>
-                            <span className="matchup-milestone-tag"
-                              style={{ background: `${color}22`, color: color, border: `1px solid ${color}44` }}>
-                              {m.teamAbbr}
-                            </span>
+                            <span className="matchup-milestone-tag">{m.teamAbbr}</span>
                             <span className="matchup-milestone-away">
                               {m.away} {m.stat === "goals" ? "G" : "PTS"} from {m.milestone}
                             </span>
                           </div>
                           <div className="matchup-milestone-bar-bg">
-                            <div className="matchup-milestone-bar"
-                              style={{ width: `${pct}%`, background: color }} />
+                            <div className="matchup-milestone-bar" style={{ width: `${pct}%` }} />
                           </div>
                           <div className="matchup-milestone-range">
                             <span>{prevMilestone}</span>
