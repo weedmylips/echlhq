@@ -158,6 +158,31 @@
   font-size: 11px;
 }
 
+/* ── Milestone Chasers ── */
+.matchup-milestones {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.matchup-milestone {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.matchup-milestone-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.matchup-milestone-detail {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
 /* ── Stats Comparison with Color Bars ── */
 .matchup-stats-table {
   display: flex;
