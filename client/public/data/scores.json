@@ -141,76 +141,6 @@
       "date": "Mar 16, 2026"
     },
     {
-      "visitingTeam": "South Carolina",
-      "homeTeam": "Atlanta",
-      "visitingScore": 3,
-      "homeScore": 4,
-      "overtime": "SO",
-      "score": "3-4 (SO)",
-      "gameId": 25195,
-      "date": "Mar 15, 2026"
-    },
-    {
-      "visitingTeam": "Indy",
-      "homeTeam": "Fort Wayne",
-      "visitingScore": 0,
-      "homeScore": 1,
-      "overtime": null,
-      "score": "0-1",
-      "gameId": 25196,
-      "date": "Mar 15, 2026"
-    },
-    {
-      "visitingTeam": "Trois-Rivières",
-      "homeTeam": "Greensboro",
-      "visitingScore": 1,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "1-4",
-      "gameId": 25197,
-      "date": "Mar 15, 2026"
-    },
-    {
-      "visitingTeam": "Florida",
-      "homeTeam": "Jacksonville",
-      "visitingScore": 2,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "2-3",
-      "gameId": 25198,
-      "date": "Mar 15, 2026"
-    },
-    {
-      "visitingTeam": "Greenville",
-      "homeTeam": "Orlando",
-      "visitingScore": 1,
-      "homeScore": 3,
-      "overtime": null,
-      "score": "1-3",
-      "gameId": 25199,
-      "date": "Mar 15, 2026"
-    },
-    {
-      "visitingTeam": "Worcester",
-      "homeTeam": "Reading",
-      "visitingScore": 2,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "2-4",
-      "gameId": 25200,
-      "date": "Mar 15, 2026"
-    },
-    {
-      "visitingTeam": "Tulsa",
-      "homeTeam": "Utah",
-      "visitingScore": 3,
-      "homeScore": 4,
-      "overtime": null,
-      "score": "3-4",
-      "gameId": 25201,
-      "date": "Mar 15, 2026"
-    },
-    {
       "visitingTeam": "Iowa",
       "visitingScore": 2,
       "homeTeam": "Cincinnati",
@@ -9001,5 +8931,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-19T14:40:14.235Z"
+  "scrapedAt": "2026-03-19T17:38:36.154Z"
 }

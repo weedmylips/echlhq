@@ -1443,11 +1443,19 @@ async function main() {
   const existingIds = new Set(cleanedExisting.filter(s => s.gameId).map(s => s.gameId));
   const newScores = resolvedScores.filter(s => !s.gameId || !existingIds.has(s.gameId));
   const raw = [...newScores, ...cleanedExisting].sort((a, b) => new Date(b.date) - new Date(a.date));
+  // Deduplicate by gameId first (same gameId appearing with different dates)
+  const seenGameIds = new Set();
+  const dedupedByGameId = raw.filter(s => {
+    if (!s.gameId) return true;
+    if (seenGameIds.has(s.gameId)) return false;
+    seenGameIds.add(s.gameId);
+    return true;
+  });
   // Deduplicate: prefer entry with gameId over null-gameId for same game
   const resolvedGameKeys = new Set(
-    raw.filter(s => s.gameId).map(s => `${s.date}|${s.visitingTeam}|${s.homeTeam}`)
+    dedupedByGameId.filter(s => s.gameId).map(s => `${s.date}|${s.visitingTeam}|${s.homeTeam}`)
   );
-  const mergedScores = raw
+  const mergedScores = dedupedByGameId
     .filter(s => s.gameId || !resolvedGameKeys.has(`${s.date}|${s.visitingTeam}|${s.homeTeam}`))
     .slice(0, 1500);
 
