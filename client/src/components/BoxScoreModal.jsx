@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { useBoxscore } from "../hooks/useECHL.js";
 import { findTeamByName } from "../config/teamConfig.js";
 import "./BoxScoreModal.css";
@@ -15,6 +16,16 @@ export default function BoxScoreModal({ gameId, onClose }) {
   return (
     <div className="modal-overlay" onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className="modal">
+        {data && (
+          <Helmet>
+            <title>
+              {data.gameInfo.visitingTeam} {data.gameInfo.finalScore?.visiting ?? ""}, {data.gameInfo.homeTeam} {data.gameInfo.finalScore?.home ?? ""} — Box Score{data.gameInfo.date ? ` · ${data.gameInfo.date}` : ""}
+            </title>
+            <meta name="description" content={`Period scoring, skater stats, goalie stats — ${data.gameInfo.visitingTeam} vs ${data.gameInfo.homeTeam}`} />
+            <meta property="og:title" content={`${data.gameInfo.visitingTeam} ${data.gameInfo.finalScore?.visiting ?? ""}, ${data.gameInfo.homeTeam} ${data.gameInfo.finalScore?.home ?? ""} — Box Score`} />
+            <meta property="og:description" content={`Period scoring, skater stats, goalie stats — ${data.gameInfo.visitingTeam} vs ${data.gameInfo.homeTeam}`} />
+          </Helmet>
+        )}
         <div className="modal-header">
           <span className="modal-title">Box Score</span>
           <button className="modal-close" onClick={onClose}>✕</button>
