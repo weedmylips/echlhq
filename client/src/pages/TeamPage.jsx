@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
@@ -57,7 +57,12 @@ function ordinal(n) {
 export default function TeamPage() {
   const { teamId } = useParams();
   const navigate = useNavigate();
-  const [activeTab, setActiveTab] = useState("overview");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const activeTab = searchParams.get("tab") || "overview";
+  const setActiveTab = (tab) => {
+    if (tab === "overview") setSearchParams({}, { replace: true });
+    else setSearchParams({ tab }, { replace: true });
+  };
   const [selectedGameId, setSelectedGameId] = useState(null);
   const [selectedMatchup, setSelectedMatchup] = useState(null);
 
@@ -158,7 +163,7 @@ export default function TeamPage() {
             <div className="team-header-info">
               <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <h1 className="team-header-name">{team.name}</h1>
-                <ShareButton title={`${team.name} — ECHL Stats`} />
+                <ShareButton title={`${team.name}${activeTab !== "overview" ? ` — ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}` : ""} — ECHL Stats`} />
               </div>
               <div className="team-header-meta">
                 <span
