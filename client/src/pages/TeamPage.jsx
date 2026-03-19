@@ -4,8 +4,9 @@ import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
 } from "recharts";
-import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
+import MatchupModal from "../components/MatchupModal.jsx";
 import { TEAMS } from "../config/teamConfig.js";
 import "./TeamPage.css";
 
@@ -56,6 +57,7 @@ export default function TeamPage() {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("overview");
   const [selectedGameId, setSelectedGameId] = useState(null);
+  const [selectedMatchup, setSelectedMatchup] = useState(null);
 
   const { data, isLoading, error } = useTeam(teamId);
   const { data: standingsData } = useStandings();
@@ -64,6 +66,7 @@ export default function TeamPage() {
   const { data: movesData } = useTeamMoves(teamId);
   const { data: teamStats } = useTeamStats(teamId);
   const { data: leadersData } = useLeaders();
+  const { data: upcomingData } = useUpcoming();
 
   if (isLoading) return <div className="loading-spinner">Loading team…</div>;
   if (error) return <div className="error-box">Error loading team: {error.message}</div>;
@@ -206,14 +209,14 @@ export default function TeamPage() {
 
       {/* ── Tabs ── */}
       <div className="team-tabs">
-        {["overview", "roster"].map((tab) => (
+        {[["overview", "Overview"], ["roster", "Roster"], ["stats", "Team Stats"], ["schedule", "Schedule"]].map(([tab, label]) => (
           <button
             key={tab}
             className={`team-tab${activeTab === tab ? " active" : ""}`}
             style={activeTab === tab ? { borderBottomColor: team.primaryColor } : {}}
             onClick={() => setActiveTab(tab)}
           >
-            {tab.charAt(0).toUpperCase() + tab.slice(1)}
+            {label}
           </button>
         ))}
       </div>
@@ -280,62 +283,6 @@ export default function TeamPage() {
                 </div>
               </div>
             )}
-
-            {/* Row: Team Stats (large) | Playoff Picture + Home/Road stacked (small) */}
-            {standing && (
-              <div className="card section-card">
-                <div className="card-header">
-                  <span className="section-label" style={{ margin: 0 }}>Team Stats</span>
-                </div>
-                <div className="stats-grid">
-                  <StatBlock label="GF / Game" value={gfPerGame} rank={divisionSuffix(divRank("gf"))} />
-                  <StatBlock label="GA / Game" value={gaPerGame} rank={divisionSuffix(divRank("ga", true))} />
-                  <StatBlock
-                    label="Goal Diff"
-                    value={standing.diff > 0 ? `+${standing.diff}` : standing.diff}
-                    valueColor={standing.diff > 0 ? "#4ade80" : standing.diff < 0 ? "#f87171" : undefined}
-                    rank={leagueRank("diff") ? `${ordinal(leagueRank("diff"))} in League` : undefined}
-                  />
-                </div>
-                <div className="season-record-strip">
-                  {[
-                    { label: "GP",  value: standing.gp },
-                    { label: "W",   value: standing.w },
-                    { label: "L",   value: standing.l },
-                    { label: "OTL", value: standing.otl },
-                    { label: "SOL", value: standing.sol },
-                    { label: "PTS", value: standing.pts },
-                  ].map(({ label, value }) => (
-                    <div key={label} className="record-item">
-                      <div className="record-value">{value}</div>
-                      <div className="record-label">{label}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Home Ice Advantage */}
-            {teamStats && standing && (
-              <HomeIceCard
-                ts={teamStats}
-                team={team}
-                standing={standing}
-                homeRank={homeRoadRank("home")}
-                roadRank={homeRoadRank("road")}
-              />
-            )}
-
-            {/* Stacked: Defensive Efficiency + PIM + Special Teams */}
-            <div className="stacked-cards">
-              {teamStats && standing && (
-                <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
-              )}
-              {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
-              {teamStats && standing && teamStats.hasST && (
-                <SpecialTeamsCard ts={teamStats} standing={standing} />
-              )}
-            </div>
 
             {/* Division Head-to-Head — full width */}
             {teamStats && (
@@ -512,8 +459,140 @@ export default function TeamPage() {
         <RosterTab playersData={playersData} rosterData={rosterData} />
       )}
 
+      {/* ── Stats Tab ── */}
+      {activeTab === "stats" && (
+        <div className="overview-layout stats-layout">
+          <div className="overview-main">
+
+            {/* Team Stats */}
+            {standing && (
+              <div className="card section-card">
+                <div className="card-header">
+                  <span className="section-label" style={{ margin: 0 }}>Team Stats</span>
+                </div>
+                <div className="stats-grid">
+                  <StatBlock label="GF / Game" value={gfPerGame} rank={divisionSuffix(divRank("gf"))} />
+                  <StatBlock label="GA / Game" value={gaPerGame} rank={divisionSuffix(divRank("ga", true))} />
+                  <StatBlock
+                    label="Goal Diff"
+                    value={standing.diff > 0 ? `+${standing.diff}` : standing.diff}
+                    valueColor={standing.diff > 0 ? "#4ade80" : standing.diff < 0 ? "#f87171" : undefined}
+                    rank={leagueRank("diff") ? `${ordinal(leagueRank("diff"))} in League` : undefined}
+                  />
+                </div>
+                <div className="season-record-strip">
+                  {[
+                    { label: "GP",  value: standing.gp },
+                    { label: "W",   value: standing.w },
+                    { label: "L",   value: standing.l },
+                    { label: "OTL", value: standing.otl },
+                    { label: "SOL", value: standing.sol },
+                    { label: "PTS", value: standing.pts },
+                  ].map(({ label, value }) => (
+                    <div key={label} className="record-item">
+                      <div className="record-value">{value}</div>
+                      <div className="record-label">{label}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Home Ice Advantage */}
+            {teamStats && standing && (
+              <HomeIceCard
+                ts={teamStats}
+                team={team}
+                standing={standing}
+                homeRank={homeRoadRank("home")}
+                roadRank={homeRoadRank("road")}
+              />
+            )}
+
+            {/* Defensive Efficiency + PIM + Special Teams */}
+            {teamStats && standing && (
+              <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
+            )}
+            {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
+            {teamStats && standing && teamStats.hasST && (
+              <SpecialTeamsCard ts={teamStats} standing={standing} />
+            )}
+
+          </div>
+        </div>
+      )}
+
+      {/* ── Schedule Tab ── */}
+      {activeTab === "schedule" && (() => {
+        const teamGames = (upcomingData?.games || []).filter(
+          (g) => g.visitingTeamId === teamId || g.homeTeamId === teamId
+        );
+        const byDay = teamGames.reduce((acc, g) => {
+          const key = `${g.dayLabel}|${g.date}`;
+          if (!acc[key]) acc[key] = [];
+          acc[key].push(g);
+          return acc;
+        }, {});
+        const dayOrder = [...new Set(teamGames.map((g) => `${g.dayLabel}|${g.date}`))];
+        return (
+          <div className="schedule-tab">
+            {teamGames.length === 0 ? (
+              <div className="card section-card">
+                <p className="empty-msg" style={{ padding: "24px 16px", textAlign: "center" }}>
+                  No upcoming games scheduled.
+                </p>
+              </div>
+            ) : (
+              dayOrder.map((dayKey) => {
+                const [dayLabel, dayDate] = dayKey.split("|");
+                return (
+                  <div key={dayKey} className="upcoming-day card">
+                    <div className="upcoming-day-header">
+                      {dayLabel} <span className="upcoming-day-date">{dayDate}</span>
+                    </div>
+                    <div className="upcoming-day-games">
+                      {(byDay[dayKey] || []).map((g, i) => {
+                        const visitingConfig = TEAMS[g.visitingTeamId];
+                        const homeConfig = TEAMS[g.homeTeamId];
+                        return (
+                          <button
+                            key={i}
+                            className="upcoming-game-row"
+                            onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
+                          >
+                            <div className="upcoming-team upcoming-away">
+                              {visitingConfig?.logoUrl && (
+                                <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
+                              )}
+                              <span className="upcoming-name">{g.visitingTeam}</span>
+                            </div>
+                            <div className="upcoming-center">
+                              <span className="upcoming-at">@</span>
+                              <span className="upcoming-time">{g.time}</span>
+                            </div>
+                            <div className="upcoming-team upcoming-home">
+                              <span className="upcoming-name">{g.homeTeam}</span>
+                              {homeConfig?.logoUrl && (
+                                <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
+                              )}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })
+            )}
+          </div>
+        );
+      })()}
+
       {selectedGameId && (
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
+      )}
+      {selectedMatchup && (
+        <MatchupModal game={selectedMatchup} onClose={() => setSelectedMatchup(null)} />
       )}
     </div>
   );
