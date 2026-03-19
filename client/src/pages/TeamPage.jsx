@@ -8,6 +8,7 @@ import {
 import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
+import ShareButton from "../components/ShareButton.jsx";
 import { TEAMS } from "../config/teamConfig.js";
 import "./TeamPage.css";
 
@@ -155,7 +156,10 @@ export default function TeamPage() {
               />
             )}
             <div className="team-header-info">
-              <h1 className="team-header-name">{team.name}</h1>
+              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                <h1 className="team-header-name">{team.name}</h1>
+                <ShareButton title={`${team.name} — ECHL Stats`} />
+              </div>
               <div className="team-header-meta">
                 <span
                   className="division-badge"
