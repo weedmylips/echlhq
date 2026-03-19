@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { useStandings, useGameAttendance } from "../hooks/useECHL.js";
 import { TEAMS } from "../config/teamConfig.js";
+import ShareButton from "../components/ShareButton.jsx";
 import "./AttendancePage.css";
 
 const fmt = (n) => (n ? Number(n).toLocaleString() : "—");
@@ -159,6 +160,7 @@ export default function AttendancePage() {
       </Helmet>
       <div className="attendance-page-header">
         <h1 className="page-title">Attendance</h1>
+        <ShareButton title="ECHL Attendance" />
       </div>
 
       {isLoading && <div className="loading-spinner">Loading attendance...</div>}

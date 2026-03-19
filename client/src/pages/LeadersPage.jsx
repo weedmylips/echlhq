@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { useLeaders } from "../hooks/useECHL.js";
+import ShareButton from "../components/ShareButton.jsx";
 import "./LeadersPage.css";
 
 const SKATER_CARDS = [
@@ -108,6 +109,7 @@ export default function LeadersPage() {
       </Helmet>
       <div className="leaders-header">
         <h1 className="page-title">League Leaders</h1>
+        <ShareButton title="ECHL Leaders" />
         {data?.stale && <div className="stale-banner">⚠ Showing cached data</div>}
       </div>
 
