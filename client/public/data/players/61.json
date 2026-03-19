@@ -2,6 +2,31 @@
   "teamId": 61,
   "skaters": [
     {
+      "number": 9,
+      "player": "Blake Bennett",
+      "position": "F",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 56,
+      "g": 22,
+      "a": 29,
+      "pts": 51,
+      "ppp": 20,
+      "shp": 0,
+      "gwg": 3,
+      "pm": -17,
+      "sh": 198,
+      "shPct": 11.1,
+      "pp": 6,
+      "ppa": 14,
+      "shg": 0,
+      "sha": 0,
+      "pim": 65,
+      "sog": 2,
+      "soa": 3,
+      "soPct": 66.7
+    },
+    {
       "number": 13,
       "player": "Logan Pietila",
       "position": "F",
@@ -506,7 +531,7 @@
       "player": "Emil Pieniniemi",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 18,
       "g": 4,
       "a": 5,
@@ -1005,5 +1030,5 @@
       "sa": 618
     }
   ],
-  "scrapedAt": "2026-03-18T15:25:41.035Z"
+  "scrapedAt": "2026-03-19T11:24:33.345Z"
 }

@@ -2041,6 +2041,16 @@
       "score": "4-3"
     },
     {
+      "gameId": 25208,
+      "homeTeam": "Orlando",
+      "homeTeamId": 13,
+      "visitingTeam": "Florida",
+      "date": "Mar 18, 2026",
+      "arena": "Kia Center",
+      "attendance": 6512,
+      "score": "4-1"
+    },
+    {
       "gameId": 24316,
       "homeTeam": "Worcester",
       "homeTeamId": 104,
@@ -3269,6 +3279,16 @@
       "arena": "Kia Center",
       "attendance": 5326,
       "score": "5-3"
+    },
+    {
+      "gameId": 25206,
+      "homeTeam": "Idaho",
+      "homeTeamId": 11,
+      "visitingTeam": "Tulsa",
+      "date": "Mar 18, 2026",
+      "arena": "Idaho Central Arena",
+      "attendance": 5324,
+      "score": "3-1"
     },
     {
       "gameId": 24878,
@@ -6441,6 +6461,16 @@
       "score": "2-6"
     },
     {
+      "gameId": 25203,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Maine",
+      "date": "Mar 18, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 3285,
+      "score": "1-2"
+    },
+    {
       "gameId": 24551,
       "homeTeam": "Wheeling",
       "homeTeamId": 61,
@@ -7201,6 +7231,16 @@
       "score": "2-3"
     },
     {
+      "gameId": 25205,
+      "homeTeam": "Cincinnati",
+      "homeTeamId": 5,
+      "visitingTeam": "Bloomington",
+      "date": "Mar 18, 2026",
+      "arena": "Heritage Bank Center",
+      "attendance": 2720,
+      "score": "1-2"
+    },
+    {
       "gameId": 25153,
       "homeTeam": "Kalamazoo",
       "homeTeamId": 53,
@@ -7499,6 +7539,16 @@
       "arena": "DCU Center",
       "attendance": 2481,
       "score": "4-2"
+    },
+    {
+      "gameId": 25204,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Jacksonville",
+      "date": "Mar 18, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 2471,
+      "score": "2-0"
     },
     {
       "gameId": 24564,
@@ -8431,6 +8481,16 @@
       "score": "2-4"
     },
     {
+      "gameId": 25207,
+      "homeTeam": "Iowa",
+      "homeTeamId": 98,
+      "visitingTeam": "Kansas City",
+      "date": "Mar 18, 2026",
+      "arena": "Xtream Arena",
+      "attendance": 1561,
+      "score": "4-0"
+    },
+    {
       "gameId": 24537,
       "homeTeam": "Trois-Rivières",
       "homeTeamId": 103,
@@ -8801,5 +8861,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-18T18:53:54.689Z"
+  "scrapedAt": "2026-03-19T11:24:33.345Z"
 }

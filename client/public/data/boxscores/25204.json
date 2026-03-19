@@ -1,0 +1,669 @@
+{
+  "gameInfo": {
+    "gameId": 25204,
+    "visitingTeam": "Jacksonville",
+    "homeTeam": "Atlanta",
+    "date": "Mar 18, 2026",
+    "arena": "Gas South Arena",
+    "attendance": 2471,
+    "finalScore": {
+      "visiting": 2,
+      "home": 0
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "2nd",
+      "time": "18:47",
+      "team": "JAX",
+      "scorer": "T. Friedmann (10)",
+      "assists": "L. Griffin, D. Jankowski",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "17:46",
+      "team": "JAX",
+      "scorer": "A. McMaster (16)",
+      "assists": "L. Cockerill, J. Condotta",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Jacksonville",
+      "p1": 5,
+      "p2": 9,
+      "p3": 7,
+      "ot": 0,
+      "total": 21
+    },
+    {
+      "team": "Atlanta",
+      "p1": 14,
+      "p2": 8,
+      "p3": 16,
+      "ot": 0,
+      "total": 38
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "C. Rowe",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "40",
+        "name": "T. Leinonen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "T. Griebel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "L. Grissom",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "R. Pitoscia",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "9",
+        "name": "L. Cockerill",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "D. Jankowski",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "C. Grando",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "A. McMaster",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "T. Kopff",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "H. Wale",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "T. Jordan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "T. Friedmann",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "C. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "36",
+        "name": "J. Pietila",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "43",
+        "name": "J. Bouquot",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "49",
+        "name": "W. Hillman",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "58",
+        "name": "S. Telguine",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "63",
+        "name": "J. Condotta",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "70",
+        "name": "L. Griffin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 2,
+        "a": 4,
+        "pts": 6,
+        "plusMinus": 10,
+        "shots": 21,
+        "pim": 8
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "E. Haider",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "T. Semptimphelter",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "B. Less",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "J. Mack",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "A. Jarvis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "M. Burns",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "R. Conroy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "C. Gaudette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "A. Young",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "E. Orr",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "C. Sylvester",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "C. Denomie",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "J. O'Brien",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "22",
+        "name": "I. Walther",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "R. Appelt",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "M. McNamee",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "E. Scardina",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "C. Nychuk",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "71",
+        "name": "J. Cipollone",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "86",
+        "name": "R. Francis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -11,
+        "shots": 38,
+        "pim": 4
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "C. Rowe",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 38,
+        "saves": 38,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 38,
+        "saves": 38,
+        "ga": 0,
+        "svPct": 1
+      }
+    ],
+    "home": [
+      {
+        "number": "35",
+        "name": "T. Semptimphelter",
+        "minsPlayed": "57:50",
+        "shotsAgainst": 20,
+        "saves": 19,
+        "ga": 1,
+        "svPct": 0.95
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "57:50",
+        "shotsAgainst": 21,
+        "saves": 19,
+        "ga": 2,
+        "svPct": 0.905
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Cipollone",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "19:40"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Pietila",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "19:05"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Martin",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "1:53"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Martin",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "6:42"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "R. Pitoscia",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "9:16"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. O'Brien",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "9:38"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "JAX",
+      "name": "C. Rowe",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 2,
+      "team": "JAX",
+      "name": "T. Friedmann",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "ATL",
+      "name": "T. Semptimphelter",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-19T11:24:39.357Z"
+}

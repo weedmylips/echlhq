@@ -406,7 +406,7 @@
       "player": "Braidan Simmons-Fischer",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 40,
       "g": 1,
       "a": 9,
@@ -731,7 +731,7 @@
       "player": "Avery Smith",
       "position": "RW",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 7,
       "g": 1,
       "a": 0,
@@ -986,5 +986,5 @@
       "sa": 543
     }
   ],
-  "scrapedAt": "2026-03-18T15:25:41.035Z"
+  "scrapedAt": "2026-03-19T11:24:33.345Z"
 }
