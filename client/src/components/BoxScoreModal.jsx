@@ -19,9 +19,7 @@ export default function BoxScoreModal({ gameId, onClose }) {
       <div className="modal">
         {data && (
           <Helmet>
-            <title>
-              {data.gameInfo.visitingTeam} {data.gameInfo.finalScore?.visiting ?? ""}, {data.gameInfo.homeTeam} {data.gameInfo.finalScore?.home ?? ""} — Box Score{data.gameInfo.date ? ` · ${data.gameInfo.date}` : ""}
-            </title>
+            <title>{`${data.gameInfo.visitingTeam} ${data.gameInfo.finalScore?.visiting ?? ""}, ${data.gameInfo.homeTeam} ${data.gameInfo.finalScore?.home ?? ""} — Box Score${data.gameInfo.date ? ` · ${data.gameInfo.date}` : ""}`}</title>
             <meta name="description" content={`Period scoring, skater stats, goalie stats — ${data.gameInfo.visitingTeam} vs ${data.gameInfo.homeTeam}`} />
             <meta property="og:title" content={`${data.gameInfo.visitingTeam} ${data.gameInfo.finalScore?.visiting ?? ""}, ${data.gameInfo.homeTeam} ${data.gameInfo.finalScore?.home ?? ""} — Box Score`} />
             <meta property="og:description" content={`Period scoring, skater stats, goalie stats — ${data.gameInfo.visitingTeam} vs ${data.gameInfo.homeTeam}`} />
