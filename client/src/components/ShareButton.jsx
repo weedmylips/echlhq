@@ -38,9 +38,9 @@ export default function ShareButton({ title }) {
         ta.style.opacity = "0";
         document.body.appendChild(ta);
         ta.select();
-        document.execCommand("copy");
+        const ok = document.execCommand("copy");
         document.body.removeChild(ta);
-        setState("copied");
+        setState(ok ? "copied" : "failed");
       } catch {
         setState("failed");
       }
@@ -51,6 +51,7 @@ export default function ShareButton({ title }) {
 
   return (
     <button
+      type="button"
       className={`share-btn${state === "failed" ? " share-btn-failed" : ""}`}
       onClick={handleClick}
       aria-label={label}
