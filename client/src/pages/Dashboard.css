@@ -96,27 +96,27 @@
 }
 
 .chip-logo {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
   transition: transform 0.2s;
 }
 
 .score-chip:hover .chip-logo {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .chip-logo-placeholder {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   background: var(--bg-elevated);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
   color: var(--text-muted);
   border: 1px solid var(--border);
 }
@@ -409,7 +409,7 @@
   .dashboard { gap: 12px; }
 
   .score-chip { min-width: 120px; padding: 10px; gap: 8px; }
-  .chip-logo, .chip-logo-placeholder { width: 32px; height: 32px; font-size: 14px; }
+  .chip-logo, .chip-logo-placeholder { width: 28px; height: 28px; font-size: 12px; }
   .chip-score { font-size: 16px; }
   .chip-vs { font-size: 8px; padding: 1px 4px; }
 
