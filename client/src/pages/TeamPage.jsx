@@ -174,28 +174,30 @@ export default function TeamPage() {
                   )}
                 </div>
               )}
-              {standing?.lastTen && (
-                <div className="header-last10">
-                  <span className="header-last10-label">L10</span>
-                  <span className="record-text">{standing.lastTen}</span>
-                </div>
-              )}
-              {standing?.gamesRemaining != null && (
-                <div className="header-last10">
-                  <span className="header-last10-label">GAMES LEFT</span>
-                  <span className="record-text">{standing.gamesRemaining}</span>
-                </div>
-              )}
-              {standing?.homeRecord && (() => {
-                const homeGamesPlayed = standing.homeRecord.split("-").reduce((acc, v) => acc + parseInt(v || "0", 10), 0);
-                const homeGamesLeft = Math.max(0, 36 - homeGamesPlayed);
-                return (
+              <div className="header-stats-stack">
+                {standing?.lastTen && (
                   <div className="header-last10">
-                    <span className="header-last10-label">HOME LEFT</span>
-                    <span className="record-text">{homeGamesLeft}</span>
+                    <span className="header-last10-label">L10</span>
+                    <span className="record-text">{standing.lastTen}</span>
                   </div>
-                );
-              })()}
+                )}
+                {standing?.gamesRemaining != null && (
+                  <div className="header-last10">
+                    <span className="header-last10-label">GAMES LEFT</span>
+                    <span className="record-text">{standing.gamesRemaining}</span>
+                  </div>
+                )}
+                {standing?.homeRecord && (() => {
+                  const homeGamesPlayed = standing.homeRecord.split("-").reduce((acc, v) => acc + parseInt(v || "0", 10), 0);
+                  const homeGamesLeft = Math.max(0, 36 - homeGamesPlayed);
+                  return (
+                    <div className="header-last10">
+                      <span className="header-last10-label">HOME LEFT</span>
+                      <span className="record-text">{homeGamesLeft}</span>
+                    </div>
+                  );
+                })()}
+              </div>
             </div>
           </div>
           <button className="back-btn" onClick={() => navigate(-1)}>← Back</button>
