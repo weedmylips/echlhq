@@ -187,9 +187,8 @@
 .upcoming-section {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 16px;
   min-width: 0;
-  overflow: hidden;
 }
 
 .upcoming-header {
@@ -198,15 +197,21 @@
   background: var(--bg-card);
 }
 
-.upcoming-day {
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  min-width: 0;
+.upcoming-header-sep {
+  color: var(--text-muted);
+  opacity: 0.5;
 }
 
-.upcoming-day:not(:first-child) {
-  border-top: 1.5px solid var(--border);
+.upcoming-header-date {
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.upcoming-day {
+  min-width: 0;
+  overflow: hidden;
 }
 
 .upcoming-day-header {
