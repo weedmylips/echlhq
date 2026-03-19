@@ -172,17 +172,18 @@ export default function TeamPage() {
                       {ordinal(leagueRank("pts"))} in League
                     </span>
                   )}
-                  {standing.gamesRemaining != null && (
-                    <span className="header-standing-item">
-                      {standing.gamesRemaining} Games Left
-                    </span>
-                  )}
                 </div>
               )}
               {standing?.lastTen && (
                 <div className="header-last10">
                   <span className="header-last10-label">L10</span>
                   <span className="record-text">{standing.lastTen}</span>
+                </div>
+              )}
+              {standing?.gamesRemaining != null && (
+                <div className="header-last10">
+                  <span className="header-last10-label">GAMES LEFT</span>
+                  <span className="record-text">{standing.gamesRemaining}</span>
                 </div>
               )}
               {standing?.homeRecord && (() => {
