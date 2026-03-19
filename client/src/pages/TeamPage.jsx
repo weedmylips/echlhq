@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useParams, useNavigate } from "react-router-dom";
 import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
@@ -124,6 +125,12 @@ export default function TeamPage() {
 
   return (
     <div className="team-page">
+      <Helmet>
+        <title>{team?.name || "Team"} — ECHL Stats</title>
+        <meta name="description" content={`Roster, stats, and recent results for ${team?.name || "team"}`} />
+        <meta property="og:title" content={`${team?.name || "Team"} — ECHL Stats`} />
+        <meta property="og:description" content={`Roster, stats, and recent results for ${team?.name || "team"}`} />
+      </Helmet>
       {/* ── Header ── */}
       <div
         className="team-header"
