@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { useScores, useUpcoming, useLeaders } from "../hooks/useECHL.js";
-import { TEAMS } from "../config/teamConfig.js";
+import { TEAMS, findTeamByName } from "../config/teamConfig.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
 import "./Dashboard.css";
@@ -139,20 +139,41 @@ export default function Dashboard() {
 }
 
 function ScoreChip({ game, onClick }) {
+  const awayTeam = findTeamByName(game.visitingTeam);
+  const homeTeam = findTeamByName(game.homeTeam);
+
   return (
     <button className="score-chip" onClick={onClick} disabled={!game.gameId}>
-      <div className="chip-team chip-away">
-        <span className="chip-name">{game.visitingTeam}</span>
-        <span className="chip-score">{game.visitingScore}</span>
+      <div className="chip-content">
+        <div className="chip-team chip-away">
+          {awayTeam?.logoUrl ? (
+            <img src={awayTeam.logoUrl} alt="" className="chip-logo" />
+          ) : (
+            <div className="chip-logo-placeholder">{game.visitingTeam[0]}</div>
+          )}
+          <div className="chip-score-box">
+             <span className="chip-score">{game.visitingScore}</span>
+             <span className="chip-abbr">{awayTeam?.abbr || game.visitingTeam}</span>
+          </div>
+        </div>
+        
+        <div className="chip-vs">vs</div>
+
+        <div className="chip-team chip-home">
+          {homeTeam?.logoUrl ? (
+            <img src={homeTeam.logoUrl} alt="" className="chip-logo" />
+          ) : (
+            <div className="chip-logo-placeholder">{game.homeTeam[0]}</div>
+          )}
+          <div className="chip-score-box">
+             <span className="chip-score">{game.homeScore}</span>
+             <span className="chip-abbr">{homeTeam?.abbr || game.homeTeam}</span>
+          </div>
+        </div>
       </div>
-      <div className="chip-sep">
-        {game.overtime ? <span className="chip-ot">{game.overtime}</span> : <span className="chip-at">@</span>}
+      <div className="chip-status">
+        Final{game.overtime ? ` (${game.overtime})` : ""}
       </div>
-      <div className="chip-team chip-home">
-        <span className="chip-score">{game.homeScore}</span>
-        <span className="chip-name">{game.homeTeam}</span>
-      </div>
-      <div className="chip-status">Final{game.overtime ? ` (${game.overtime})` : ""}</div>
     </button>
   );
 }

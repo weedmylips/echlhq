@@ -55,80 +55,118 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  padding: 10px 14px;
-  background: var(--bg-elevated);
+  gap: 10px;
+  padding: 12px 16px;
+  background: var(--bg-card); /* Changed to card bg to contrast with elevated parent if any, or vice-versa */
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 12px;
   cursor: pointer;
-  min-width: 180px;
-  transition: border-color 0.15s, background 0.15s;
+  min-width: 140px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   font-family: inherit;
   color: inherit;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .score-chip:hover:not(:disabled) {
-  border-color: var(--border-light);
-  background: #282828;
+  border-color: var(--accent);
+  background: var(--bg-elevated);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
 }
 
 .score-chip:disabled {
   cursor: default;
-  opacity: 0.7;
+}
+
+.chip-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
 }
 
 .chip-team {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  gap: 8px;
-}
-
-.chip-name {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-secondary);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  gap: 6px;
   flex: 1;
 }
 
-.chip-away .chip-name { text-align: left; }
-.chip-home .chip-name { text-align: right; }
-
-.chip-score {
-  font-size: 18px;
-  font-weight: 800;
-  color: var(--text);
-  min-width: 20px;
-  text-align: center;
+.chip-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+  transition: transform 0.2s;
 }
 
-.chip-sep {
+.score-chip:hover .chip-logo {
+  transform: scale(1.1);
+}
+
+.chip-logo-placeholder {
+  width: 44px;
+  height: 44px;
+  background: var(--bg-elevated);
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-}
-
-.chip-at {
-  font-size: 11px;
+  font-weight: 800;
+  font-size: 20px;
   color: var(--text-muted);
+  border: 1px solid var(--border);
 }
 
-.chip-ot {
-  font-size: 11px;
+.chip-score-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.chip-score {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--text-primary);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.chip-abbr {
+  font-size: 10px;
   font-weight: 700;
-  color: var(--amber);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.chip-vs {
+  font-size: 9px;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  background: var(--bg-elevated);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  opacity: 0.6;
 }
 
 .chip-status {
-  font-size: 10px;
+  font-size: 9px;
+  font-weight: 700;
   color: var(--text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .dashboard .empty-msg {
@@ -355,9 +393,10 @@
 @media (max-width: 640px) {
   .dashboard { gap: 12px; }
 
-  .score-chip { min-width: 140px; padding: 8px 10px; }
-  .chip-score { font-size: 14px; }
-  .chip-name { font-size: 11px; }
+  .score-chip { min-width: 120px; padding: 10px; gap: 8px; }
+  .chip-logo, .chip-logo-placeholder { width: 32px; height: 32px; font-size: 14px; }
+  .chip-score { font-size: 16px; }
+  .chip-vs { font-size: 8px; padding: 1px 4px; }
 
   .scores-section { padding: 10px 12px; }
   .upcoming-day-header { padding: 8px 12px; font-size: 10px; }
