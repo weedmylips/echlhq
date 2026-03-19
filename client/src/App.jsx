@@ -15,6 +15,8 @@ export default function App() {
         <Route path="leaders" element={<LeadersPage />} />
         <Route path="attendance" element={<AttendancePage />} />
         <Route path="team/:teamId" element={<TeamPage />} />
+        <Route path="game/:gameId" element={<Dashboard />} />
+        <Route path="matchup/:visitingTeamId/:homeTeamId/:date" element={<Dashboard />} />
       </Route>
     </Routes>
   );

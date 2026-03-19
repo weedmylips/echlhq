@@ -1,4 +1,5 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useScores, useUpcoming, useLeaders } from "../hooks/useECHL.js";
 import { TEAMS, findTeamByName } from "../config/teamConfig.js";
@@ -7,8 +8,14 @@ import MatchupModal from "../components/MatchupModal.jsx";
 import "./Dashboard.css";
 
 export default function Dashboard() {
-  const [selectedGameId, setSelectedGameId] = useState(null);
-  const [selectedMatchup, setSelectedMatchup] = useState(null);
+  const { gameId, visitingTeamId, homeTeamId, date } = useParams();
+  const navigate = useNavigate();
+
+  const selectedGameId = gameId || null;
+  const selectedMatchup = (visitingTeamId && homeTeamId && date)
+    ? { visitingTeamId: Number(visitingTeamId), homeTeamId: Number(homeTeamId), date: decodeURIComponent(date) }
+    : null;
+
   const stripRef = useRef(null);
   const scroll = (dir) => stripRef.current?.scrollBy({ left: dir * 600, behavior: "smooth" });
 
@@ -48,7 +55,7 @@ export default function Dashboard() {
             <button className="scroll-btn scroll-btn-left" onClick={() => scroll(-1)}>&#8249;</button>
             <div className="scores-strip" ref={stripRef}>
               {scores.map((g, i) => (
-                <ScoreChip key={i} game={g} onClick={() => g.gameId && setSelectedGameId(g.gameId)} />
+                <ScoreChip key={i} game={g} onClick={() => g.gameId && navigate(`/game/${g.gameId}`)} />
               ))}
             </div>
             <button className="scroll-btn scroll-btn-right" onClick={() => scroll(1)}>&#8250;</button>
@@ -94,7 +101,7 @@ export default function Dashboard() {
                         <button
                           key={i}
                           className="upcoming-game-row"
-                          onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
+                          onClick={() => g.visitingTeamId && g.homeTeamId && navigate(`/matchup/${g.visitingTeamId}/${g.homeTeamId}/${encodeURIComponent(g.date)}`)}
                         >
                           <div className="upcoming-team upcoming-away">
                             {visitingConfig?.logoUrl && (
@@ -146,17 +153,24 @@ export default function Dashboard() {
       </div>
 
       {selectedGameId && (
-        <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
+        <BoxScoreModal gameId={selectedGameId} onClose={() => navigate("/")} />
       )}
-      {selectedMatchup && (
-        <MatchupModal
-          visitingTeamId={selectedMatchup.visitingTeamId}
-          homeTeamId={selectedMatchup.homeTeamId}
-          date={selectedMatchup.date}
-          time={selectedMatchup.time}
-          onClose={() => setSelectedMatchup(null)}
-        />
-      )}
+      {selectedMatchup && (() => {
+        const upcomingGame = upcomingGames.find(
+          (g) => g.visitingTeamId === selectedMatchup.visitingTeamId
+            && g.homeTeamId === selectedMatchup.homeTeamId
+            && g.date === selectedMatchup.date
+        );
+        return (
+          <MatchupModal
+            visitingTeamId={selectedMatchup.visitingTeamId}
+            homeTeamId={selectedMatchup.homeTeamId}
+            date={selectedMatchup.date}
+            time={upcomingGame?.time || ""}
+            onClose={() => navigate("/")}
+          />
+        );
+      })()}
     </div>
   );
 }
