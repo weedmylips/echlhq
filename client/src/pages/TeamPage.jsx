@@ -235,7 +235,7 @@ export default function TeamPage() {
               );
               if (!teamGames.length) return null;
               return (
-                <div className="card section-card">
+                <div className="card section-card" style={{ gridColumn: "1 / -1" }}>
                   <div className="card-header">
                     <span className="section-label" style={{ margin: 0 }}>Upcoming Games</span>
                   </div>
