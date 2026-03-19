@@ -769,6 +769,9 @@ tr.playoff-cutoff td {
   .overview-main {
     grid-template-columns: 1fr;
   }
+  .stats-layout .overview-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .overview-main > .full-width {
     grid-column: 1;
   }
@@ -788,6 +791,9 @@ tr.playoff-cutoff td {
 }
 
 @media (max-width: 600px) {
+  .stats-layout .overview-main {
+    grid-template-columns: 1fr;
+  }
   .team-header-logo { width: 48px; height: 48px; }
   .team-header-content { padding: 12px 14px; gap: 8px; }
   .team-header-name { font-size: 16px; }

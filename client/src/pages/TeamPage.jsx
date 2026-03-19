@@ -509,14 +509,17 @@ export default function TeamPage() {
               />
             )}
 
-            {/* Defensive Efficiency + PIM + Special Teams */}
-            {teamStats && standing && (
-              <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
-            )}
-            {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
+            {/* Special Teams + Defensive + Offensive Efficiency + PIM */}
             {teamStats && standing && teamStats.hasST && (
               <SpecialTeamsCard ts={teamStats} standing={standing} />
             )}
+            {teamStats && standing && (
+              <DefensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
+            )}
+            {teamStats && standing && (
+              <OffensiveEfficiencyCard ts={teamStats} team={team} standing={standing} />
+            )}
+            {teamStats && standing && <PimCard ts={teamStats} team={team} standing={standing} />}
 
           </div>
         </div>
@@ -524,8 +527,9 @@ export default function TeamPage() {
 
       {/* ── Schedule Tab ── */}
       {activeTab === "schedule" && (() => {
+        const tid = parseInt(teamId, 10);
         const teamGames = (upcomingData?.games || []).filter(
-          (g) => g.visitingTeamId === teamId || g.homeTeamId === teamId
+          (g) => g.visitingTeamId === tid || g.homeTeamId === tid
         );
         const byDay = teamGames.reduce((acc, g) => {
           const key = `${g.dayLabel}|${g.date}`;
@@ -854,9 +858,8 @@ function SpecialTeamsCard({ ts, standing }) {
 
 // ─── Defensive Efficiency Card ────────────────────────────────────────────────
 function DefensiveEfficiencyCard({ ts, team, standing }) {
-  const { gaPerGame, gfPerGame, leagueAvgGA, leagueAvgGF, leagueGARank, divGARank, leagueGFRank, divGFRank } = ts;
+  const { gaPerGame, leagueAvgGA, leagueGARank, divGARank } = ts;
   const belowAvg = gaPerGame < leagueAvgGA;
-  const offAbove = gfPerGame > leagueAvgGF;
 
   return (
     <div className="card section-card">
@@ -907,16 +910,23 @@ function DefensiveEfficiencyCard({ ts, team, standing }) {
           />
         </div>
       </div>
+    </div>
+  );
+}
 
-      {/* ── Offensive Efficiency section ── */}
-      <div className="def-section-divider" />
-      <div className="card-header" style={{ borderBottom: "none", paddingBottom: 0 }}>
-        <span className="section-label" style={{ margin: 0, fontSize: 11 }}>Offensive Efficiency</span>
+function OffensiveEfficiencyCard({ ts, team, standing }) {
+  const { gfPerGame, leagueAvgGF, leagueGFRank, divGFRank } = ts;
+  const offAbove = gfPerGame > leagueAvgGF;
+
+  return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>Offensive Efficiency</span>
         <span className="def-badge" style={{ color: offAbove ? "var(--green)" : "var(--red)", background: offAbove ? "var(--green-bg)" : "var(--red-bg)" }}>
           {offAbove ? "Above Average" : "Below Average"}
         </span>
       </div>
-      <div className="def-stats-row" style={{ borderBottom: "none" }}>
+      <div className="def-stats-row">
         <div className="def-stat">
           <div className="def-stat-val" style={{ color: offAbove ? "var(--green)" : "var(--red)" }}>
             {gfPerGame.toFixed(2)}
@@ -936,7 +946,7 @@ function DefensiveEfficiencyCard({ ts, team, standing }) {
           <div className="def-stat-lbl">Div Rank</div>
         </div>
       </div>
-      <div className="def-bar-wrap" style={{ paddingTop: 4 }}>
+      <div className="def-bar-wrap">
         <span className="def-bar-label">GF/G vs League Average</span>
         <div className="def-bar-track">
           <div
