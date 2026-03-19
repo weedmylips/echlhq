@@ -150,6 +150,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  min-width: 0;
 }
 
 .upcoming-day {
@@ -157,6 +158,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
+  min-width: 0;
 }
 
 .upcoming-day-header {
@@ -167,6 +169,16 @@
   letter-spacing: 0.1em;
   color: var(--text-secondary);
   border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.upcoming-day-date {
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .upcoming-day-games {
@@ -188,6 +200,7 @@
   cursor: pointer;
   transition: background 0.15s;
   width: 100%;
+  min-width: 0;
   text-align: left;
 }
 
@@ -203,6 +216,8 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .upcoming-home {

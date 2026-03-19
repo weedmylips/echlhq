@@ -695,46 +695,61 @@ function scrapeUpcomingGames(html) {
   const $ = cheerio.load(html);
   const upcoming = [];
 
-  // Day name → next occurrence date mapping
-  const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const monthMap = { JANUARY: 0, FEBRUARY: 1, MARCH: 2, APRIL: 3, MAY: 4, JUNE: 5,
+                     JULY: 6, AUGUST: 7, SEPTEMBER: 8, OCTOBER: 9, NOVEMBER: 10, DECEMBER: 11 };
   const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const dayFullNames = { MON: "Monday", TUE: "Tuesday", WED: "Wednesday", THU: "Thursday",
+                         FRI: "Friday", SAT: "Saturday", SUN: "Sunday" };
   const eastern = nowEastern();
+  const curYear = eastern.getUTCFullYear();
+  const curMonth = eastern.getUTCMonth();
 
-  function nextDateForDay(dayName) {
-    const targetDay = dayNames.indexOf(dayName);
-    if (targetDay === -1) return null;
-    const today = eastern.getUTCDay();
-    let daysAhead = (targetDay - today + 7) % 7;
-    if (daysAhead === 0) daysAhead = 0; // today is valid for upcoming
-    const d = new Date(eastern.getTime() + daysAhead * 86400000);
-    return `${monthNames[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+  // "SAT, MARCH 21" → { dayLabel: "Saturday", date: "Mar 21, 2026" }
+  function parseDateHeader(text) {
+    const m = text.match(/^(MON|TUE|WED|THU|FRI|SAT|SUN),\s+([A-Z]+)\s+(\d+)$/);
+    if (!m) return null;
+    const dayLabel = dayFullNames[m[1]];
+    const mon = monthMap[m[2]];
+    if (mon === undefined || !dayLabel) return null;
+    const day = parseInt(m[3]);
+    const year = (mon >= 9 && curMonth <= 5) ? curYear - 1 : curYear;
+    return { dayLabel, date: `${monthNames[mon]} ${day}, ${year}` };
   }
 
-  // Look for "Day's Games" headers followed by game lines
-  // Headers: "Thursday's Games", "Friday's Games", etc.
-  const dayHeaderRe = /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)'s\s+Games$/i;
+  // "Day's Games" header
+  const dayGamesRe = /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)'s\s+Games$/i;
   // Game line: "Utah at Indy - 7:00 PM EDT"
   const gameLineRe = /^(.+?)\s+at\s+(.+?)\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM)\s*\w+)$/i;
+  // Inline day boundary: split text at "MON|TUE|..." boundaries that run together
+  const daySplitRe = /(?=(?:MON|TUE|WED|THU|FRI|SAT|SUN),\s+(?:JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+\d)/;
 
-  // Walk all text content looking for these patterns
-  // They can appear in table cells, paragraphs, or other elements
+  // Extract all text fragments from td elements, splitting on <br> and inline day headers
   const allText = [];
-  $("td, p, div, span").each((_, el) => {
-    const html = $(el).html() || "";
-    // Split on <br> to get individual lines
-    html.split(/<br\s*\/?>/i).forEach((frag) => {
+  $("td").each((_, el) => {
+    const raw = $(el).html() || "";
+    raw.split(/<br\s*\/?>/i).forEach((frag) => {
       const text = cheerio.load(frag).text().trim();
-      if (text) allText.push(text);
+      if (!text) return;
+      // Further split on inline day-of-week boundaries (e.g., "7:10 PM MDTSAT, MARCH 21")
+      const parts = text.split(daySplitRe);
+      parts.forEach((p) => { if (p.trim()) allText.push(p.trim()); });
     });
   });
 
   let currentDay = null;
   let currentDate = null;
   for (const text of allText) {
-    const dayMatch = text.match(dayHeaderRe);
-    if (dayMatch) {
-      currentDay = dayMatch[1];
-      currentDate = nextDateForDay(currentDay);
+    // Check for "Day's Games" header
+    const dgMatch = text.match(dayGamesRe);
+    if (dgMatch) {
+      // Use as context hint but wait for the date header for exact date
+      continue;
+    }
+    // Check for "SAT, MARCH 21" date header
+    const dateInfo = parseDateHeader(text.toUpperCase());
+    if (dateInfo) {
+      currentDay = dateInfo.dayLabel;
+      currentDate = dateInfo.date;
       continue;
     }
     if (!currentDay || !currentDate) continue;
@@ -744,19 +759,24 @@ function scrapeUpcomingGames(html) {
     if (gm) {
       const visiting = findTeamByName(gm[1].trim());
       const home = findTeamByName(gm[2].trim());
-      upcoming.push({
-        visitingTeamId: visiting?.id || null,
-        visitingTeam: gm[1].trim(),
-        homeTeamId: home?.id || null,
-        homeTeam: gm[2].trim(),
-        date: currentDate,
-        time: gm[3].trim(),
-        dayLabel: currentDay,
-      });
+      if (visiting && home) {
+        upcoming.push({
+          visitingTeamId: visiting.id,
+          visitingTeam: visiting.city,
+          homeTeamId: home.id,
+          homeTeam: home.city,
+          date: currentDate,
+          time: gm[3].trim(),
+          dayLabel: currentDay,
+        });
+      }
     }
   }
 
-  return upcoming;
+  // Filter out games with dates in the past (today or later only)
+  const todayStr = `${monthNames[eastern.getUTCMonth()]} ${eastern.getUTCDate()}, ${eastern.getUTCFullYear()}`;
+  const todayMs = new Date(todayStr).getTime();
+  return upcoming.filter((g) => new Date(g.date).getTime() >= todayMs);
 }
 
 // ─── Box Score ───────────────────────────────────────────────────────────────

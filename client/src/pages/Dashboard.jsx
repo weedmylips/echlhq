@@ -19,13 +19,13 @@ export default function Dashboard() {
   const upcomingGames = upcomingData?.games || [];
   const leaders = leadersData?.leaders || {};
 
-  // Group upcoming games by day
+  // Group upcoming games by day+date
   const byDay = upcomingGames.reduce((acc, g) => {
-    const key = g.dayLabel || g.date;
+    const key = `${g.dayLabel}|${g.date}`;
     (acc[key] = acc[key] || []).push(g);
     return acc;
   }, {});
-  const dayOrder = [...new Set(upcomingGames.map((g) => g.dayLabel || g.date))];
+  const dayOrder = [...new Set(upcomingGames.map((g) => `${g.dayLabel}|${g.date}`))];
 
   return (
     <div className="dashboard">
@@ -58,11 +58,13 @@ export default function Dashboard() {
           ) : upcomingGames.length === 0 ? (
             <p className="empty-msg">No upcoming games scheduled.</p>
           ) : (
-            dayOrder.map((day) => (
-              <div key={day} className="upcoming-day">
-                <div className="upcoming-day-header">{day}</div>
+            dayOrder.map((dayKey) => {
+              const [dayLabel, dayDate] = dayKey.split("|");
+              return (
+              <div key={dayKey} className="upcoming-day">
+                <div className="upcoming-day-header">{dayLabel} <span className="upcoming-day-date">{dayDate}</span></div>
                 <div className="upcoming-day-games">
-                  {(byDay[day] || []).map((g, i) => {
+                  {(byDay[dayKey] || []).map((g, i) => {
                     const visitingConfig = TEAMS[g.visitingTeamId];
                     const homeConfig = TEAMS[g.homeTeamId];
                     return (
@@ -92,7 +94,8 @@ export default function Dashboard() {
                   })}
                 </div>
               </div>
-            ))
+            );
+            })
           )}
         </section>
 
@@ -126,6 +129,8 @@ export default function Dashboard() {
         <MatchupModal
           visitingTeamId={selectedMatchup.visitingTeamId}
           homeTeamId={selectedMatchup.homeTeamId}
+          date={selectedMatchup.date}
+          time={selectedMatchup.time}
           onClose={() => setSelectedMatchup(null)}
         />
       )}

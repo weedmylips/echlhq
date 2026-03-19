@@ -6,12 +6,24 @@
   padding: 0;
 }
 
-/* ── Team Header ── */
-.matchup-header {
+/* ── Date & Time ── */
+.matchup-datetime {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 12px;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Team Header ── */
+.matchup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
   padding: 20px 24px;
   border-bottom: 1px solid var(--border);
 }
@@ -20,7 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   flex: 1;
 }
 
@@ -43,11 +55,31 @@
   font-variant-numeric: tabular-nums;
 }
 
+.matchup-last10 {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.matchup-vs-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  padding-top: 16px;
+}
+
 .matchup-vs {
   font-size: 14px;
   font-weight: 600;
   color: var(--text-muted);
-  flex-shrink: 0;
+}
+
+.matchup-h2h-inline {
+  font-size: 11px;
+  color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 /* ── Sections ── */
@@ -92,7 +124,7 @@
 .matchup-players-col {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .matchup-players-right {
@@ -115,13 +147,14 @@
   color: var(--text);
 }
 
-.matchup-player-stats {
+.matchup-player-highlight {
   font-size: 11px;
   color: var(--text-secondary);
   font-variant-numeric: tabular-nums;
+  font-style: italic;
 }
 
-/* ── Stats Comparison ── */
+/* ── Stats Comparison with Color Bars ── */
 .matchup-stats-table {
   display: flex;
   flex-direction: column;
@@ -133,7 +166,7 @@
   grid-template-columns: 1fr auto 1fr;
   gap: 12px;
   align-items: center;
-  padding: 6px 0;
+  padding: 8px 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -143,26 +176,66 @@
 
 .matchup-stat-val {
   display: flex;
-  align-items: baseline;
-  gap: 6px;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
 }
 
 .matchup-stat-left {
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .matchup-stat-right {
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-.matchup-stat-num {
+/* Color bar background */
+.stat-bar-bg {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.matchup-stat-left .stat-bar-bg {
+  direction: rtl;
+}
+
+.stat-bar {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+.stat-bar-good {
+  background: #22c55e;
+}
+
+.stat-bar-bad {
+  background: #ef4444;
+}
+
+.stat-bar-neutral {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Stat value text */
+.matchup-stat-val .matchup-stat-num {
   font-size: 15px;
   font-weight: 700;
-  color: var(--text);
   font-variant-numeric: tabular-nums;
 }
 
-.matchup-stat-rank {
+.stat-better .matchup-stat-num {
+  color: #4ade80;
+}
+
+.stat-worse .matchup-stat-num {
+  color: #f87171;
+}
+
+.matchup-stat-val .matchup-stat-rank {
   font-size: 10px;
   color: var(--text-muted);
 }
@@ -175,68 +248,10 @@
   min-width: 48px;
 }
 
-/* ── Records ── */
-.matchup-records {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.matchup-record-section {
-  border-bottom: none;
-}
-
-.matchup-records > :first-child {
-  border-right: 1px solid var(--border);
-}
-
-.matchup-last10 {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.matchup-last10-side {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.matchup-last10-label {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-secondary);
-}
-
-.matchup-last10-val {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--text);
-  font-variant-numeric: tabular-nums;
-}
-
-/* ── H2H ── */
-.matchup-h2h {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-.matchup-h2h-team {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.matchup-h2h-sep {
-  font-size: 14px;
-  color: var(--text-muted);
-}
-
 /* ── Mobile ── */
 @media (max-width: 500px) {
   .matchup-header {
-    gap: 12px;
+    gap: 10px;
     padding: 14px 16px;
   }
   .matchup-logo {
@@ -249,7 +264,10 @@
   .matchup-section {
     padding: 12px 14px;
   }
-  .matchup-stat-num {
+  .matchup-stat-val .matchup-stat-num {
     font-size: 13px;
+  }
+  .matchup-datetime {
+    padding: 8px 14px;
   }
 }
