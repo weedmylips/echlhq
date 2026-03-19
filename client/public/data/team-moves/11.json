@@ -2,6 +2,41 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Jordan Steinmetz",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Charlie Dodero",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Robbie Holmes",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Adam Ingram",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Nick Young",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-18",
       "player": "Morgan Winters",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Chris Dodero",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Jordan Steinmetz",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Jaden Shields",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day 3/8"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Jaden Shields",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Rapid City 3/8"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Kade Landry",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Orlando"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 107,
   "slug": "bloomington-bison",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "9981",
@@ -705,26 +705,6 @@
       }
     },
     {
-      "playerId": "7939",
-      "player": "Ivan Chukarov",
-      "number": 26,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 7,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
       "playerId": "9459",
       "player": "Dryden McKay",
       "number": 30,
@@ -769,7 +749,7 @@
       "player": "Callum Tung",
       "number": 35,
       "position": "G",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

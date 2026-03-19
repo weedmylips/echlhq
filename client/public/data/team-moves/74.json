@@ -2,6 +2,20 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Tag Bertuzzi",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Utica"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Shane Harper",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-18",
       "player": "Henry Welsch",
       "position": "G",
@@ -124,20 +138,6 @@
       "date": "2026-03-13",
       "player": "Sean Olson",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kevin O'Neil",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Henry Welsch",
-      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

@@ -2,6 +2,55 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Dalton Duhart",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Chris Grando",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Indy"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Dalton Duhart",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Indy"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Peter Tischke",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Daniel Panetta",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Simon Labelle",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Simon Labelle",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
       "date": "2026-03-18",
       "player": "Michael Bullion",
       "position": "G",
@@ -91,55 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Nathan Berke",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Sasha Teleguine",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Trevor Griebel",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Nathan Berke",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Chris Grando",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Colby Ambrosio",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Tyler Coffey",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

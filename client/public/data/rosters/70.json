@@ -2,7 +2,7 @@
   "teamId": 70,
   "slug": "toledo-walleye",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "8180",
@@ -801,6 +801,27 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": "Greenville",
       "acquiredDate": "2026-03-18",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Jonathan Ziskie",
+      "number": null,
+      "position": "D",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
       "stats": {
         "gp": 0,
         "g": 0,

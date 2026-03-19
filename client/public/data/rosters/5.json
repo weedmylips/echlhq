@@ -2,7 +2,7 @@
   "teamId": 5,
   "slug": "cincinnati-cyclones",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "11094",
@@ -89,12 +89,12 @@
       "player": "Nick Rhéaume",
       "number": 26,
       "position": "F",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 1,
-      "suspensionGamesOriginal": 1,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -103,7 +103,7 @@
         "a": 14,
         "pts": 27
       },
-      "suspensionGpAtStart": 57
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "11012",
@@ -690,7 +690,7 @@
       "player": "Spencer Cox",
       "number": 16,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -790,7 +790,7 @@
       "player": "Aaron Chiarot",
       "number": 6,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1012,6 +1012,27 @@
       "number": null,
       "position": "G",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Griffin Ludtke",
+      "number": null,
+      "position": "D",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

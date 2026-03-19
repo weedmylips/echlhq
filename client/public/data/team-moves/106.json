@@ -2,6 +2,20 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Maksim Barbashev",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Tucson 3/18"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Ryan Taylor",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-17",
       "player": "Cy LeClerc",
       "position": "F",

@@ -2,7 +2,7 @@
   "teamId": 97,
   "slug": "savannah-ghost-pirates",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "10584",
@@ -571,7 +571,7 @@
       "player": "Phip Waugh",
       "number": 57,
       "position": "D",
-      "status": "active",
+      "status": "loaned",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -819,6 +819,27 @@
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Ivan Chukarov",
+      "number": null,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Bloomington",
+      "acquiredDate": "2026-03-19",
       "stats": {
         "gp": 0,
         "g": 0,

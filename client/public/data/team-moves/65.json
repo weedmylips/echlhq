@@ -2,6 +2,27 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Chris Grando",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Jacksonville"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Dalton Duhart",
+      "position": "F",
+      "type": "active",
+      "summary": "Acquired from Jacksonville"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Dalton Duhart",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Worcester"
+    },
+    {
       "date": "2026-03-18",
       "player": "Jason Ahearn",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Ryan Ouellette",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Jeremie Bucheler",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Nick Grima",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

@@ -2,6 +2,20 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Phip Waugh",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Hartford"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Ivan Chukarov",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Bloomington"
+    },
+    {
       "date": "2026-03-16",
       "player": "Jaxsen Wiebe",
       "position": "F",

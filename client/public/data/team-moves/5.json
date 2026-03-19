@@ -2,6 +2,27 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Aaron Chiarot",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Spencer Cox",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Griffin Ludtke",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-18",
       "player": "Thomas Scarfone",
       "position": "G",
@@ -119,27 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jordan Kaplan",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Luke Grainger",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "John Jaworski",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

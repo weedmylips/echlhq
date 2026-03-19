@@ -2,7 +2,7 @@
   "teamId": 60,
   "slug": "fort-wayne-komets",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "9725",
@@ -365,26 +365,6 @@
       }
     },
     {
-      "playerId": "11285",
-      "player": "Connor Milburn",
-      "number": 37,
-      "position": "F",
-      "status": "signed",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 1,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
       "playerId": "10660",
       "player": "Gustav Müller",
       "number": 71,
@@ -622,26 +602,6 @@
         "gp": 4,
         "g": 1,
         "a": 0,
-        "pts": 1
-      }
-    },
-    {
-      "playerId": "9498",
-      "player": "Louka Henault",
-      "number": 61,
-      "position": "D",
-      "status": "ir",
-      "statusNote": null,
-      "irStartDate": "2026-03-14",
-      "irDays": 14,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 14,
-        "g": 0,
-        "a": 1,
         "pts": 1
       }
     },
@@ -921,6 +881,48 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Louka Henault",
+      "number": null,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Josh Atkinson",
+      "number": null,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Greenville",
+      "acquiredDate": "2026-03-19",
       "stats": {
         "gp": 0,
         "g": 0,

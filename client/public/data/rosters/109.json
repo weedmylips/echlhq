@@ -2,7 +2,7 @@
   "teamId": 109,
   "slug": "tahoe-knight-monsters",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "8745",
@@ -938,6 +938,27 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Louka Henault",
+      "number": null,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Fort Wayne",
+      "acquiredDate": "2026-03-19",
       "stats": {
         "gp": 0,
         "g": 0,

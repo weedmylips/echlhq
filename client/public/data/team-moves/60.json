@@ -2,6 +2,34 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Connor Milburn",
+      "position": "F",
+      "type": "traded",
+      "summary": "Traded to Greenville"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Josh Atkinson",
+      "position": "D",
+      "type": "active",
+      "summary": "Acquired from Greenville"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Louka Henault",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Louka Henault",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Tahoe Knight"
+    },
+    {
       "date": "2026-03-18",
       "player": "Josh Groll",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled to Bakersfield by Edmonton"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Josh Groll",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Nick Deakin-Poot",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Anthony Petruzzelli",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Connor Milburn",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

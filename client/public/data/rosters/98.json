@@ -2,7 +2,7 @@
   "teamId": 98,
   "slug": "iowa-heartlanders",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "10444",
@@ -49,7 +49,7 @@
       "player": "Elliot Desnoyers",
       "number": 91,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -809,7 +809,7 @@
       "player": "William Rousseau",
       "number": 35,
       "position": "G",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,6 +2,20 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Callum Tung",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Hartford by New York Rangers"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Ivan Chukarov",
+      "position": "D",
+      "type": "traded",
+      "summary": "Traded to Savannah"
+    },
+    {
       "date": "2026-03-18",
       "player": "Ivan Chukarov",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Deni Goure",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Zach Faremouth",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Greensboro 3/7"
     }
   ]
 }

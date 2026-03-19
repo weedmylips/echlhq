@@ -2,7 +2,7 @@
   "teamId": 79,
   "slug": "jacksonville-icemen",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "9618",
@@ -185,26 +185,6 @@
       }
     },
     {
-      "playerId": "10525",
-      "player": "Dalton Duhart",
-      "number": 19,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 54,
-        "g": 8,
-        "a": 8,
-        "pts": 16
-      }
-    },
-    {
       "playerId": "10297",
       "player": "Jacques Bouquot",
       "number": 43,
@@ -301,26 +281,6 @@
         "gp": 27,
         "g": 4,
         "a": 6,
-        "pts": 10
-      }
-    },
-    {
-      "playerId": "9756",
-      "player": "Chris Grando",
-      "number": 13,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 25,
-        "g": 3,
-        "a": 7,
         "pts": 10
       }
     },
@@ -549,10 +509,10 @@
       "player": "Peter Tischke",
       "number": 16,
       "position": "D",
-      "status": "reserve",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-19",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -989,6 +949,69 @@
     {
       "playerId": null,
       "player": "Tyler Kopff",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Simon Labelle",
+      "number": null,
+      "position": "F",
+      "status": "reserve",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Daniel Panetta",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Dalton Duhart",
       "number": null,
       "position": "F",
       "status": "active",

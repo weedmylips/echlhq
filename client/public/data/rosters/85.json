@@ -2,7 +2,7 @@
   "teamId": 85,
   "slug": "rapid-city-rush",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "8199",
@@ -790,7 +790,7 @@
       "player": "Connor Murphy",
       "number": 31,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -830,7 +830,7 @@
       "player": "Nathan Torchia",
       "number": 35,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

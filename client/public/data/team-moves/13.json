@@ -2,6 +2,27 @@
   "teamId": 13,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Jon Gillies",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/18"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Colby Muise",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve 3/18"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Luc Wilson",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
       "date": "2026-03-18",
       "player": "Milo Roelens",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Kade Landry",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Idaho"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Jack Adams",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Idaho"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Lucas Chard",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

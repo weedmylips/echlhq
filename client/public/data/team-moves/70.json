@@ -2,6 +2,20 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-19",
+      "player": "Jonathan Ziskie",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-19",
+      "player": "Jonathan Ziskie",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-18",
       "player": "Jacob Truscott",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Matt Jurusik",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Nicklas Andrews",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Grand Rapids"
     }
   ]
 }

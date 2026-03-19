@@ -2,7 +2,7 @@
   "teamId": 52,
   "slug": "greenville-swamp-rabbits",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-18",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "10051",
@@ -69,10 +69,10 @@
       "player": "Dante Sheriff",
       "number": 26,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-19",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": "Utah",
@@ -425,27 +425,6 @@
       }
     },
     {
-      "playerId": "6412",
-      "player": "Josh Atkinson",
-      "number": 59,
-      "position": "D",
-      "status": "suspended",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": 3,
-      "suspensionGamesOriginal": 3,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 53,
-        "g": 6,
-        "a": 28,
-        "pts": 34
-      },
-      "suspensionGpAtStart": 57
-    },
-    {
       "playerId": "11083",
       "player": "Tim Lovell",
       "number": 43,
@@ -510,7 +489,7 @@
       "player": "Tristan De Jong",
       "number": 7,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -841,6 +820,48 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": "Toledo",
       "acquiredDate": "2026-03-18",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Connor Milburn",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": "Fort Wayne",
+      "acquiredDate": "2026-03-19",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Josh Atkinson",
+      "number": null,
+      "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
       "stats": {
         "gp": 0,
         "g": 0,

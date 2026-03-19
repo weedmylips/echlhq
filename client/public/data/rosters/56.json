@@ -2,7 +2,7 @@
   "teamId": 56,
   "slug": "kansas-city-mavericks",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-17",
+  "lastTransactionCheck": "2026-03-19",
   "roster": [
     {
       "playerId": "11080",
@@ -390,7 +390,7 @@
       "player": "Jake McLaughlin",
       "number": 27,
       "position": "D",
-      "status": "active",
+      "status": "leave",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -430,7 +430,7 @@
       "player": "James Marooney",
       "number": 3,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
