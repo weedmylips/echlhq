@@ -7,19 +7,28 @@
 
 Add a reusable ShareButton component to make it easy to share box scores, matchups, team pages, and standings. Uses the Web Share API on supported platforms (mobile), falls back to copy-to-clipboard on desktop.
 
+**Out of scope:** Leaders page and Attendance page — these can be added later if desired.
+
 ## ShareButton Component
 
 **Location:** `client/src/components/ShareButton.jsx` + `ShareButton.css`
 
 **Props:**
-- `url` (string) — full URL to share; defaults to `window.location.href`
-- `title` (string) — text for Web Share API's `title` param
+- `title` (string) — text for Web Share API's `title` and `text` params
+
+**URL handling:** Always use `window.location.href` — no manual URL construction needed. React Router already puts the correct shareable URL in the address bar for all four placements (modals navigate to `/game/:id` and `/matchup/...`, pages are at `/team/:id` and `/standings`).
 
 **Behavior:**
 1. On click, check `navigator.share` availability
-2. If available → `navigator.share({ url, title })`
-3. If not → `navigator.clipboard.writeText(url)`
+2. If available → `navigator.share({ url: window.location.href, title, text: title })`
+3. If not → copy URL to clipboard via `navigator.clipboard.writeText()`, with fallback to `document.execCommand('copy')` + temporary textarea if clipboard API is unavailable
 4. On clipboard copy, show "Copied!" state (checkmark icon) for 1.5 seconds
+5. If clipboard copy fails, show brief "Failed" error state
+6. Clean up the 1.5s timeout on component unmount
+
+**Accessibility:**
+- `aria-label="Share"` on the button (updates to "Link copied" during Copied state)
+- Use `aria-live="polite"` region for the state change announcement
 
 **Visual style:**
 - 28×28px icon button matching existing modal close button style
@@ -31,22 +40,20 @@ Add a reusable ShareButton component to make it easy to share box scores, matchu
 
 ### Box Score Modal (`BoxScoreModal.jsx`)
 - In the modal header, to the left of the close (×) button
-- URL: `window.location.origin + /game/${gameId}`
-- Title: e.g., "Thunder 4, Royals 2 — Box Score"
+- Title: e.g., "Thunder 4, Royals 2 — Box Score" (from `data.gameInfo.visitingTeam`, `homeTeam`, `finalScore`)
+- Show button always (URL works from route params); use generic "ECHL Box Score" title until data loads
 
 ### Matchup Modal (`MatchupModal.jsx`)
 - In the modal header, to the left of the close (×) button
-- URL: `window.location.origin + /matchup/${visitingTeamId}/${homeTeamId}/${encodeURIComponent(date)}`
-- Title: e.g., "Thunder vs. Royals — Matchup Preview"
+- Title: e.g., "Thunder vs. Royals — Matchup Preview" (from team config lookups on the route params)
+- Show button always; use generic "ECHL Matchup Preview" title until data loads
 
 ### Team Page (`TeamPage.jsx`)
 - In the team header area, near the team name
-- URL: `window.location.origin + /team/${teamId}`
 - Title: e.g., "Adirondack Thunder — ECHL Stats"
 
 ### Standings Page (`StandingsPage.jsx`)
 - In the page header
-- URL: `window.location.origin + /standings`
 - Title: "ECHL Standings"
 
 ## Technical Details
@@ -62,7 +69,5 @@ Add a reusable ShareButton component to make it easy to share box scores, matchu
 - `client/src/components/MatchupModal.jsx` — add ShareButton to modal header
 - `client/src/pages/TeamPage.jsx` — add ShareButton to team header
 - `client/src/pages/StandingsPage.jsx` — add ShareButton to page header
-
-**URL construction:** `window.location.origin + path` — no hardcoded domain.
 
 **No routing, hook, or data changes required.** OG tags are already handled by Helmet + Vercel middleware.
