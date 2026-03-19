@@ -187,16 +187,26 @@
 .upcoming-section {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0;
   min-width: 0;
+  overflow: hidden;
+}
+
+.upcoming-header {
+  padding: 14px 16px;
+  border-bottom: 1.5px solid var(--border);
+  background: var(--bg-card);
 }
 
 .upcoming-day {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
+  background: transparent;
+  border: none;
+  border-radius: 0;
   min-width: 0;
+}
+
+.upcoming-day:not(:first-child) {
+  border-top: 1.5px solid var(--border);
 }
 
 .upcoming-day-header {
@@ -399,6 +409,7 @@
   .chip-vs { font-size: 8px; padding: 1px 4px; }
 
   .scores-section { padding: 10px 12px; }
+  .upcoming-header { padding: 10px 12px; }
   .upcoming-day-header { padding: 8px 12px; font-size: 10px; }
   .upcoming-game-row { padding: 8px 12px; }
   .upcoming-name { font-size: 12px; }

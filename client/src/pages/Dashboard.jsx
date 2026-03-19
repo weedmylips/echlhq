@@ -51,51 +51,60 @@ export default function Dashboard() {
 
       <div className="dashboard-body">
         {/* ── Upcoming Games ── */}
-        <section className="upcoming-section">
-          <div className="section-label">Upcoming Games</div>
+        <section className="upcoming-section card">
+          <div className="upcoming-header">
+            <div className="section-label" style={{ margin: 0 }}>Upcoming Games</div>
+          </div>
+
           {upcomingLoading ? (
             <div className="loading-spinner">Loading...</div>
           ) : upcomingGames.length === 0 ? (
-            <p className="empty-msg">No upcoming games scheduled.</p>
+            <p className="empty-msg" style={{ padding: '24px 16px', textAlign: 'center' }}>
+              No upcoming games scheduled.
+            </p>
           ) : (
-            dayOrder.map((dayKey) => {
-              const [dayLabel, dayDate] = dayKey.split("|");
-              return (
-              <div key={dayKey} className="upcoming-day">
-                <div className="upcoming-day-header">{dayLabel} <span className="upcoming-day-date">{dayDate}</span></div>
-                <div className="upcoming-day-games">
-                  {(byDay[dayKey] || []).map((g, i) => {
-                    const visitingConfig = TEAMS[g.visitingTeamId];
-                    const homeConfig = TEAMS[g.homeTeamId];
-                    return (
-                      <button
-                        key={i}
-                        className="upcoming-game-row"
-                        onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
-                      >
-                        <div className="upcoming-team upcoming-away">
-                          {visitingConfig?.logoUrl && (
-                            <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
-                          )}
-                          <span className="upcoming-name">{g.visitingTeam}</span>
-                        </div>
-                        <div className="upcoming-center">
-                          <span className="upcoming-at">@</span>
-                          <span className="upcoming-time">{g.time}</span>
-                        </div>
-                        <div className="upcoming-team upcoming-home">
-                          <span className="upcoming-name">{g.homeTeam}</span>
-                          {homeConfig?.logoUrl && (
-                            <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
-                          )}
-                        </div>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            );
-            })
+            <div className="upcoming-days-list">
+              {dayOrder.map((dayKey) => {
+                const [dayLabel, dayDate] = dayKey.split("|");
+                return (
+                  <div key={dayKey} className="upcoming-day">
+                    <div className="upcoming-day-header">
+                      {dayLabel} <span className="upcoming-day-date">{dayDate}</span>
+                    </div>
+                    <div className="upcoming-day-games">
+                      {(byDay[dayKey] || []).map((g, i) => {
+                        const visitingConfig = TEAMS[g.visitingTeamId];
+                        const homeConfig = TEAMS[g.homeTeamId];
+                        return (
+                          <button
+                            key={i}
+                            className="upcoming-game-row"
+                            onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
+                          >
+                            <div className="upcoming-team upcoming-away">
+                              {visitingConfig?.logoUrl && (
+                                <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
+                              )}
+                              <span className="upcoming-name">{g.visitingTeam}</span>
+                            </div>
+                            <div className="upcoming-center">
+                              <span className="upcoming-at">@</span>
+                              <span className="upcoming-time">{g.time}</span>
+                            </div>
+                            <div className="upcoming-team upcoming-home">
+                              <span className="upcoming-name">{g.homeTeam}</span>
+                              {homeConfig?.logoUrl && (
+                                <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
+                              )}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           )}
         </section>
 

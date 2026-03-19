@@ -20,7 +20,10 @@
       "WebFetch(domain:en.wikipedia.org)",
       "WebFetch(domain:www.facebook.com)",
       "WebSearch",
-      "WebFetch(domain:echl.com)"
+      "WebFetch(domain:echl.com)",
+      "WebFetch(domain:cluster.leaguestat.com)",
+      "Bash(timeout 8 npm run dev)",
+      "Bash(npm run:*)"
     ]
   }
 }
