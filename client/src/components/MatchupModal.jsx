@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useStandings, useScores, useMatchupPlayers } from "../hooks/useECHL.js";
 import { TEAMS } from "../config/teamConfig.js";
 import "./MatchupModal.css";
@@ -61,9 +61,13 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
   const { data: scoresData } = useScores();
   const { team1, team2, isLoading: playersLoading } = useMatchupPlayers(visitingTeamId, homeTeamId);
 
+  const overlayRef = useRef(null);
+
   useEffect(() => {
     const handler = (e) => { if (e.key === "Escape") onClose(); };
     window.addEventListener("keydown", handler);
+    // Scroll overlay to top so modal is visible on mobile
+    if (overlayRef.current) overlayRef.current.scrollTop = 0;
     return () => window.removeEventListener("keydown", handler);
   }, [onClose]);
 
@@ -155,7 +159,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
   const visitingTime = showVisitingTime ? convertTime(time, date, visitingTz) : null;
 
   return (
-    <div className="modal-overlay" onClick={(e) => e.target === e.currentTarget && onClose()}>
+    <div className="modal-overlay" ref={overlayRef} onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className="modal matchup-modal">
         <div className="modal-header">
           <span className="modal-title">Matchup Preview</span>

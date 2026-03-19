@@ -253,6 +253,17 @@
 }
 
 /* ── Mobile ── */
+@media (max-width: 640px) {
+  .matchup-modal {
+    margin-top: 0;
+  }
+  /* Override BoxScoreModal's flex-end alignment for matchup modal */
+  .modal-overlay:has(.matchup-modal) {
+    align-items: flex-start;
+    padding: 0;
+  }
+}
+
 @media (max-width: 500px) {
   .matchup-header {
     gap: 10px;
