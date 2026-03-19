@@ -575,7 +575,13 @@ export default function TeamPage() {
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
       )}
       {selectedMatchup && (
-        <MatchupModal game={selectedMatchup} onClose={() => setSelectedMatchup(null)} />
+        <MatchupModal
+          visitingTeamId={selectedMatchup.visitingTeamId}
+          homeTeamId={selectedMatchup.homeTeamId}
+          date={selectedMatchup.date}
+          time={selectedMatchup.time}
+          onClose={() => setSelectedMatchup(null)}
+        />
       )}
     </div>
   );
