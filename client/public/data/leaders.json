@@ -708,7 +708,7 @@
       {
         "rank": 80,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 14,
         "isRookie": false,
         "position": "F"
@@ -956,7 +956,7 @@
       {
         "rank": 111,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12,
         "isRookie": true,
         "position": "F"
@@ -964,7 +964,7 @@
       {
         "rank": 111,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12,
         "isRookie": true,
         "position": "F"
@@ -1508,7 +1508,7 @@
       {
         "rank": 181,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": true,
         "position": "F"
@@ -1516,7 +1516,7 @@
       {
         "rank": 181,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": true,
         "position": "F"
@@ -1772,7 +1772,7 @@
       {
         "rank": 215,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": false,
         "position": "F"
@@ -2452,7 +2452,7 @@
       {
         "rank": 308,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 5,
         "isRookie": false,
         "position": "F"
@@ -3028,7 +3028,7 @@
       {
         "rank": 380,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": true,
         "position": "D"
@@ -3428,7 +3428,7 @@
       {
         "rank": 442,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -3436,7 +3436,7 @@
       {
         "rank": 442,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -3444,7 +3444,7 @@
       {
         "rank": 442,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -3996,7 +3996,7 @@
       {
         "rank": 510,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "D"
@@ -4004,7 +4004,7 @@
       {
         "rank": 510,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -4012,7 +4012,7 @@
       {
         "rank": 510,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -5164,7 +5164,7 @@
       {
         "rank": 598,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": false,
         "position": "D"
@@ -5172,7 +5172,7 @@
       {
         "rank": 598,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -5180,7 +5180,7 @@
       {
         "rank": 598,
         "name": "Blake Swetlikoff",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": false,
         "position": "F"
@@ -5188,7 +5188,7 @@
       {
         "rank": 598,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -5196,7 +5196,7 @@
       {
         "rank": 598,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -5204,7 +5204,7 @@
       {
         "rank": 598,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -5212,7 +5212,7 @@
       {
         "rank": 598,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -5934,7 +5934,7 @@
       {
         "rank": 79,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 21,
         "isRookie": false,
         "position": "F"
@@ -6542,7 +6542,7 @@
       {
         "rank": 153,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": false,
         "position": "F"
@@ -6550,7 +6550,7 @@
       {
         "rank": 153,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": true,
         "position": "D"
@@ -6558,7 +6558,7 @@
       {
         "rank": 153,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": false,
         "position": "D"
@@ -6694,7 +6694,7 @@
       {
         "rank": 181,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 15,
         "isRookie": true,
         "position": "F"
@@ -7398,7 +7398,7 @@
       {
         "rank": 273,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 11,
         "isRookie": true,
         "position": "F"
@@ -7406,7 +7406,7 @@
       {
         "rank": 273,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 11,
         "isRookie": true,
         "position": "F"
@@ -7822,7 +7822,7 @@
       {
         "rank": 333,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": false,
         "position": "F"
@@ -8054,7 +8054,7 @@
       {
         "rank": 372,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": false,
         "position": "D"
@@ -8270,7 +8270,7 @@
       {
         "rank": 408,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 7,
         "isRookie": false,
         "position": "D"
@@ -8494,7 +8494,7 @@
       {
         "rank": 439,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "F"
@@ -8630,7 +8630,7 @@
       {
         "rank": 467,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 5,
         "isRookie": true,
         "position": "D"
@@ -8798,7 +8798,7 @@
       {
         "rank": 495,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -8806,7 +8806,7 @@
       {
         "rank": 495,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": false,
         "position": "D"
@@ -9358,7 +9358,7 @@
       {
         "rank": 571,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -9366,7 +9366,7 @@
       {
         "rank": 571,
         "name": "Blake Swetlikoff",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -9374,7 +9374,7 @@
       {
         "rank": 571,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "G"
@@ -9718,7 +9718,7 @@
       {
         "rank": 621,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -10454,7 +10454,7 @@
       {
         "rank": 676,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -10462,7 +10462,7 @@
       {
         "rank": 676,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -10470,7 +10470,7 @@
       {
         "rank": 676,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -10978,7 +10978,7 @@
       {
         "rank": 50,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3.26,
         "isRookie": true,
         "position": "G"
@@ -11002,7 +11002,7 @@
       {
         "rank": 55,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3.56,
         "isRookie": true,
         "position": "G"
@@ -11348,7 +11348,7 @@
       {
         "rank": 45,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0.899,
         "isRookie": true,
         "position": "G"
@@ -11428,7 +11428,7 @@
       {
         "rank": 54,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0.883,
         "isRookie": true,
         "position": "G"
@@ -11742,7 +11742,7 @@
       {
         "rank": 23,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "G"
@@ -12072,7 +12072,7 @@
       {
         "rank": 41,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": true,
         "position": "G"
@@ -12104,7 +12104,7 @@
       {
         "rank": 47,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 7,
         "isRookie": true,
         "position": "G"
@@ -13450,7 +13450,7 @@
       {
         "rank": 91,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -14602,7 +14602,7 @@
       {
         "rank": 177,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -14610,7 +14610,7 @@
       {
         "rank": 177,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -14618,7 +14618,7 @@
       {
         "rank": 177,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "D"
@@ -14626,7 +14626,7 @@
       {
         "rank": 177,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -16436,7 +16436,7 @@
       {
         "rank": 221,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -16444,7 +16444,7 @@
       {
         "rank": 221,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -17572,7 +17572,7 @@
       {
         "rank": 302,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -17580,7 +17580,7 @@
       {
         "rank": 302,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": false,
         "position": "D"
@@ -17588,7 +17588,7 @@
       {
         "rank": 302,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -17596,7 +17596,7 @@
       {
         "rank": 302,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -17604,7 +17604,7 @@
       {
         "rank": 302,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -17988,7 +17988,7 @@
       {
         "rank": 429,
         "name": "Blake Swetlikoff",
-        "team": "GRN",
+        "team": "GSO",
         "value": -1,
         "isRookie": false,
         "position": "F"
@@ -17996,7 +17996,7 @@
       {
         "rank": 429,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": -1,
         "isRookie": true,
         "position": "D"
@@ -18004,7 +18004,7 @@
       {
         "rank": 429,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": -1,
         "isRookie": true,
         "position": "D"
@@ -18636,7 +18636,7 @@
       {
         "rank": 563,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": -4,
         "isRookie": false,
         "position": "F"
@@ -18780,7 +18780,7 @@
       {
         "rank": 583,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": -5,
         "isRookie": true,
         "position": "F"
@@ -18788,7 +18788,7 @@
       {
         "rank": 583,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": -5,
         "isRookie": false,
         "position": "F"
@@ -18796,7 +18796,7 @@
       {
         "rank": 583,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": -5,
         "isRookie": true,
         "position": "D"
@@ -19484,7 +19484,7 @@
       {
         "rank": 698,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": -11,
         "isRookie": true,
         "position": "F"
@@ -19708,7 +19708,7 @@
       {
         "rank": 749,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": -16,
         "isRookie": false,
         "position": "D"
@@ -19796,7 +19796,7 @@
       {
         "rank": 766,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": -19,
         "isRookie": false,
         "position": "F"
@@ -19812,7 +19812,7 @@
       {
         "rank": 768,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": -20,
         "isRookie": true,
         "position": "F"
@@ -19820,7 +19820,7 @@
       {
         "rank": 768,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": -20,
         "isRookie": true,
         "position": "F"
@@ -19844,7 +19844,7 @@
       {
         "rank": 771,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": -21,
         "isRookie": false,
         "position": "D"
@@ -19860,7 +19860,7 @@
       {
         "rank": 776,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": -23,
         "isRookie": false,
         "position": "D"
@@ -20598,7 +20598,7 @@
       {
         "rank": 89,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 114,
         "isRookie": false,
         "position": "F"
@@ -21086,7 +21086,7 @@
       {
         "rank": 161,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 97,
         "isRookie": true,
         "position": "F"
@@ -21158,7 +21158,7 @@
       {
         "rank": 172,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 93,
         "isRookie": true,
         "position": "F"
@@ -21566,7 +21566,7 @@
       {
         "rank": 231,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 79,
         "isRookie": true,
         "position": "F"
@@ -21646,7 +21646,7 @@
       {
         "rank": 236,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 77,
         "isRookie": true,
         "position": "D"
@@ -21742,7 +21742,7 @@
       {
         "rank": 245,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 76,
         "isRookie": false,
         "position": "F"
@@ -22382,7 +22382,7 @@
       {
         "rank": 338,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 61,
         "isRookie": true,
         "position": "F"
@@ -22454,7 +22454,7 @@
       {
         "rank": 350,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 59,
         "isRookie": false,
         "position": "D"
@@ -22694,7 +22694,7 @@
       {
         "rank": 389,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 54,
         "isRookie": false,
         "position": "D"
@@ -22894,7 +22894,7 @@
       {
         "rank": 416,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 49,
         "isRookie": false,
         "position": "D"
@@ -22958,7 +22958,7 @@
       {
         "rank": 424,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 48,
         "isRookie": true,
         "position": "F"
@@ -23014,7 +23014,7 @@
       {
         "rank": 438,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 46,
         "isRookie": false,
         "position": "D"
@@ -23046,7 +23046,7 @@
       {
         "rank": 448,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 44,
         "isRookie": false,
         "position": "F"
@@ -23694,7 +23694,7 @@
       {
         "rank": 571,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 18,
         "isRookie": true,
         "position": "D"
@@ -24174,7 +24174,7 @@
       {
         "rank": 644,
         "name": "Blake Swetlikoff",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": false,
         "position": "F"
@@ -24318,7 +24318,7 @@
       {
         "rank": 657,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "D"
@@ -24326,7 +24326,7 @@
       {
         "rank": 657,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -24382,7 +24382,7 @@
       {
         "rank": 667,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": true,
         "position": "D"
@@ -24462,7 +24462,7 @@
       {
         "rank": 674,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -24992,7 +24992,7 @@
       {
         "rank": 55,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 14.8,
         "isRookie": true,
         "position": "F"
@@ -25400,7 +25400,7 @@
       {
         "rank": 113,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12.9,
         "isRookie": true,
         "position": "F"
@@ -25504,7 +25504,7 @@
       {
         "rank": 130,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12.4,
         "isRookie": true,
         "position": "F"
@@ -25552,7 +25552,7 @@
       {
         "rank": 131,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12.3,
         "isRookie": false,
         "position": "F"
@@ -25760,7 +25760,7 @@
       {
         "rank": 161,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 11.4,
         "isRookie": true,
         "position": "F"
@@ -25952,7 +25952,7 @@
       {
         "rank": 184,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 10.5,
         "isRookie": false,
         "position": "F"
@@ -27144,7 +27144,7 @@
       {
         "rank": 357,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3.9,
         "isRookie": true,
         "position": "D"
@@ -27232,7 +27232,7 @@
       {
         "rank": 371,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3.4,
         "isRookie": false,
         "position": "D"
@@ -27416,7 +27416,7 @@
       {
         "rank": 398,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1.9,
         "isRookie": false,
         "position": "D"
@@ -28250,7 +28250,7 @@
       {
         "rank": 65,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -28522,7 +28522,7 @@
       {
         "rank": 97,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": false,
         "position": "F"
@@ -28530,7 +28530,7 @@
       {
         "rank": 97,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": true,
         "position": "F"
@@ -28922,7 +28922,7 @@
       {
         "rank": 139,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -28930,7 +28930,7 @@
       {
         "rank": 139,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -28938,7 +28938,7 @@
       {
         "rank": 139,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -29570,7 +29570,7 @@
       {
         "rank": 201,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "D"
@@ -30396,7 +30396,7 @@
       {
         "rank": 90,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": false,
         "position": "D"
@@ -30492,7 +30492,7 @@
       {
         "rank": 108,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": false,
         "position": "F"
@@ -30500,7 +30500,7 @@
       {
         "rank": 108,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": false,
         "position": "F"
@@ -30956,7 +30956,7 @@
       {
         "rank": 158,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "F"
@@ -30964,7 +30964,7 @@
       {
         "rank": 158,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "F"
@@ -30972,7 +30972,7 @@
       {
         "rank": 158,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "F"
@@ -31388,7 +31388,7 @@
       {
         "rank": 214,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -31620,7 +31620,7 @@
       {
         "rank": 256,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": false,
         "position": "D"
@@ -31628,7 +31628,7 @@
       {
         "rank": 256,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": false,
         "position": "D"
@@ -31988,7 +31988,7 @@
       {
         "rank": 293,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -32524,7 +32524,7 @@
       {
         "rank": 348,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -32910,7 +32910,7 @@
       {
         "rank": 39,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": false,
         "position": "D"
@@ -33302,7 +33302,7 @@
       {
         "rank": 82,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": false,
         "position": "F"
@@ -33542,7 +33542,7 @@
       {
         "rank": 104,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 5,
         "isRookie": false,
         "position": "F"
@@ -33790,7 +33790,7 @@
       {
         "rank": 139,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -34094,7 +34094,7 @@
       {
         "rank": 178,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": true,
         "position": "F"
@@ -34102,7 +34102,7 @@
       {
         "rank": 178,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": false,
         "position": "D"
@@ -34574,7 +34574,7 @@
       {
         "rank": 221,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -34582,7 +34582,7 @@
       {
         "rank": 221,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -34590,7 +34590,7 @@
       {
         "rank": 221,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -34598,7 +34598,7 @@
       {
         "rank": 221,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -35310,7 +35310,7 @@
       {
         "rank": 295,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -35512,7 +35512,7 @@
       {
         "rank": 6,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -36096,7 +36096,7 @@
       {
         "rank": 31,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -36104,7 +36104,7 @@
       {
         "rank": 31,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -36626,7 +36626,7 @@
       {
         "rank": 18,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -36634,7 +36634,7 @@
       {
         "rank": 18,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -37530,7 +37530,7 @@
       {
         "rank": 74,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "F"
@@ -37538,7 +37538,7 @@
       {
         "rank": 74,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -37546,7 +37546,7 @@
       {
         "rank": 74,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -37554,7 +37554,7 @@
       {
         "rank": 74,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "F"
@@ -37562,7 +37562,7 @@
       {
         "rank": 74,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -37570,7 +37570,7 @@
       {
         "rank": 74,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "D"
@@ -38484,7 +38484,7 @@
       {
         "rank": 23,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "F"
@@ -38492,7 +38492,7 @@
       {
         "rank": 23,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -38500,7 +38500,7 @@
       {
         "rank": 23,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -38508,7 +38508,7 @@
       {
         "rank": 23,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "F"
@@ -38516,7 +38516,7 @@
       {
         "rank": 23,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -38524,7 +38524,7 @@
       {
         "rank": 23,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "D"
@@ -39270,7 +39270,7 @@
       {
         "rank": 105,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 48,
         "isRookie": false,
         "position": "F"
@@ -39518,7 +39518,7 @@
       {
         "rank": 142,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 39,
         "isRookie": true,
         "position": "D"
@@ -39830,7 +39830,7 @@
       {
         "rank": 181,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 34,
         "isRookie": false,
         "position": "D"
@@ -40270,7 +40270,7 @@
       {
         "rank": 247,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 27,
         "isRookie": true,
         "position": "F"
@@ -40582,7 +40582,7 @@
       {
         "rank": 294,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 23,
         "isRookie": true,
         "position": "F"
@@ -41086,7 +41086,7 @@
       {
         "rank": 355,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 18,
         "isRookie": false,
         "position": "F"
@@ -41094,7 +41094,7 @@
       {
         "rank": 355,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 18,
         "isRookie": true,
         "position": "F"
@@ -41182,7 +41182,7 @@
       {
         "rank": 379,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 17,
         "isRookie": false,
         "position": "F"
@@ -41190,7 +41190,7 @@
       {
         "rank": 379,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 17,
         "isRookie": true,
         "position": "G"
@@ -41558,7 +41558,7 @@
       {
         "rank": 426,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 14,
         "isRookie": true,
         "position": "F"
@@ -41566,7 +41566,7 @@
       {
         "rank": 426,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 14,
         "isRookie": false,
         "position": "D"
@@ -42158,7 +42158,7 @@
       {
         "rank": 510,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": false,
         "position": "D"
@@ -42166,7 +42166,7 @@
       {
         "rank": 510,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": true,
         "position": "D"
@@ -42598,7 +42598,7 @@
       {
         "rank": 573,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -42990,7 +42990,7 @@
       {
         "rank": 607,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -42998,7 +42998,7 @@
       {
         "rank": 607,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -43006,7 +43006,7 @@
       {
         "rank": 607,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -43572,7 +43572,7 @@
       {
         "rank": 17,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "F"
@@ -43960,7 +43960,7 @@
       {
         "rank": 11,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0.8,
         "isRookie": true,
         "position": "G"
@@ -44378,7 +44378,7 @@
       {
         "rank": 36,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 24,
         "isRookie": true,
         "position": "F"
@@ -44562,7 +44562,7 @@
       {
         "rank": 52,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 20,
         "isRookie": true,
         "position": "F"
@@ -44610,7 +44610,7 @@
       {
         "rank": 61,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 19,
         "isRookie": true,
         "position": "D"
@@ -44666,7 +44666,7 @@
       {
         "rank": 68,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 18,
         "isRookie": true,
         "position": "F"
@@ -44746,7 +44746,7 @@
       {
         "rank": 85,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": true,
         "position": "F"
@@ -44874,7 +44874,7 @@
       {
         "rank": 100,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 13,
         "isRookie": true,
         "position": "F"
@@ -45186,7 +45186,7 @@
       {
         "rank": 155,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "D"
@@ -45554,7 +45554,7 @@
       {
         "rank": 204,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -45562,7 +45562,7 @@
       {
         "rank": 204,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "G"
@@ -45762,7 +45762,7 @@
       {
         "rank": 223,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -45770,7 +45770,7 @@
       {
         "rank": 223,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -46178,7 +46178,7 @@
       {
         "rank": 253,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -46186,7 +46186,7 @@
       {
         "rank": 253,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -46348,7 +46348,7 @@
       {
         "rank": 19,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12,
         "isRookie": true,
         "position": "F"
@@ -46356,7 +46356,7 @@
       {
         "rank": 19,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12,
         "isRookie": true,
         "position": "F"
@@ -46564,7 +46564,7 @@
       {
         "rank": 39,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": true,
         "position": "F"
@@ -46572,7 +46572,7 @@
       {
         "rank": 39,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": true,
         "position": "F"
@@ -47084,7 +47084,7 @@
       {
         "rank": 107,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": true,
         "position": "D"
@@ -47268,7 +47268,7 @@
       {
         "rank": 132,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -47572,7 +47572,7 @@
       {
         "rank": 163,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -47580,7 +47580,7 @@
       {
         "rank": 163,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -48236,7 +48236,7 @@
       {
         "rank": 211,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -48244,7 +48244,7 @@
       {
         "rank": 211,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -48252,7 +48252,7 @@
       {
         "rank": 211,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -48260,7 +48260,7 @@
       {
         "rank": 211,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -48268,7 +48268,7 @@
       {
         "rank": 211,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -48526,7 +48526,7 @@
       {
         "rank": 28,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": true,
         "position": "D"
@@ -48598,7 +48598,7 @@
       {
         "rank": 36,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 15,
         "isRookie": true,
         "position": "F"
@@ -48830,7 +48830,7 @@
       {
         "rank": 67,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 11,
         "isRookie": true,
         "position": "F"
@@ -48838,7 +48838,7 @@
       {
         "rank": 67,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 11,
         "isRookie": true,
         "position": "F"
@@ -49198,7 +49198,7 @@
       {
         "rank": 129,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "F"
@@ -49270,7 +49270,7 @@
       {
         "rank": 135,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 5,
         "isRookie": true,
         "position": "D"
@@ -49342,7 +49342,7 @@
       {
         "rank": 149,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -49654,7 +49654,7 @@
       {
         "rank": 186,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -49662,7 +49662,7 @@
       {
         "rank": 186,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "G"
@@ -49846,7 +49846,7 @@
       {
         "rank": 213,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -50334,7 +50334,7 @@
       {
         "rank": 242,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -50342,7 +50342,7 @@
       {
         "rank": 242,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -50350,7 +50350,7 @@
       {
         "rank": 242,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -50640,7 +50640,7 @@
       {
         "rank": 38,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 19,
         "isRookie": true,
         "position": "D"
@@ -50736,7 +50736,7 @@
       {
         "rank": 48,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 17,
         "isRookie": false,
         "position": "D"
@@ -51192,7 +51192,7 @@
       {
         "rank": 117,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 10,
         "isRookie": false,
         "position": "D"
@@ -51304,7 +51304,7 @@
       {
         "rank": 127,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": false,
         "position": "D"
@@ -51456,7 +51456,7 @@
       {
         "rank": 153,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "D"
@@ -51592,7 +51592,7 @@
       {
         "rank": 177,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": false,
         "position": "D"
@@ -51720,7 +51720,7 @@
       {
         "rank": 205,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -51824,7 +51824,7 @@
       {
         "rank": 214,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -51832,7 +51832,7 @@
       {
         "rank": 214,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -52554,7 +52554,7 @@
       {
         "rank": 57,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": true,
         "position": "D"
@@ -52810,7 +52810,7 @@
       {
         "rank": 90,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -52818,7 +52818,7 @@
       {
         "rank": 90,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -53162,7 +53162,7 @@
       {
         "rank": 136,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "D"
@@ -53170,7 +53170,7 @@
       {
         "rank": 136,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -53178,7 +53178,7 @@
       {
         "rank": 136,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -53522,7 +53522,7 @@
       {
         "rank": 188,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": false,
         "position": "D"
@@ -53530,7 +53530,7 @@
       {
         "rank": 188,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -53538,7 +53538,7 @@
       {
         "rank": 188,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -54452,7 +54452,7 @@
       {
         "rank": 114,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 30,
         "isRookie": false,
         "position": "F"
@@ -54508,7 +54508,7 @@
       {
         "rank": 118,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 29,
         "isRookie": false,
         "position": "F"
@@ -55004,7 +55004,7 @@
       {
         "rank": 188,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 24,
         "isRookie": true,
         "position": "F"
@@ -55444,7 +55444,7 @@
       {
         "rank": 240,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 20,
         "isRookie": true,
         "position": "F"
@@ -55500,7 +55500,7 @@
       {
         "rank": 262,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 19,
         "isRookie": true,
         "position": "D"
@@ -55636,7 +55636,7 @@
       {
         "rank": 270,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 18,
         "isRookie": true,
         "position": "F"
@@ -55748,7 +55748,7 @@
       {
         "rank": 291,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 17,
         "isRookie": false,
         "position": "D"
@@ -55900,7 +55900,7 @@
       {
         "rank": 304,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": true,
         "position": "F"
@@ -56156,7 +56156,7 @@
       {
         "rank": 350,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 14,
         "isRookie": false,
         "position": "F"
@@ -56268,7 +56268,7 @@
       {
         "rank": 366,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 13,
         "isRookie": true,
         "position": "F"
@@ -56652,7 +56652,7 @@
       {
         "rank": 433,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 10,
         "isRookie": false,
         "position": "D"
@@ -56788,7 +56788,7 @@
       {
         "rank": 451,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": false,
         "position": "D"
@@ -57132,7 +57132,7 @@
       {
         "rank": 504,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "D"
@@ -57412,7 +57412,7 @@
       {
         "rank": 550,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": false,
         "position": "D"
@@ -57796,7 +57796,7 @@
       {
         "rank": 609,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -57804,7 +57804,7 @@
       {
         "rank": 609,
         "name": "Blake Swetlikoff",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -57812,7 +57812,7 @@
       {
         "rank": 609,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "G"
@@ -58132,7 +58132,7 @@
       {
         "rank": 643,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -58140,7 +58140,7 @@
       {
         "rank": 643,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -58772,7 +58772,7 @@
       {
         "rank": 692,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -58780,7 +58780,7 @@
       {
         "rank": 692,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -59518,7 +59518,7 @@
       {
         "rank": 80,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 14,
         "isRookie": false,
         "position": "F"
@@ -59766,7 +59766,7 @@
       {
         "rank": 111,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12,
         "isRookie": true,
         "position": "F"
@@ -59774,7 +59774,7 @@
       {
         "rank": 111,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 12,
         "isRookie": true,
         "position": "F"
@@ -60318,7 +60318,7 @@
       {
         "rank": 181,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": true,
         "position": "F"
@@ -60326,7 +60326,7 @@
       {
         "rank": 181,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": true,
         "position": "F"
@@ -60582,7 +60582,7 @@
       {
         "rank": 215,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": false,
         "position": "F"
@@ -61262,7 +61262,7 @@
       {
         "rank": 308,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 5,
         "isRookie": false,
         "position": "F"
@@ -61838,7 +61838,7 @@
       {
         "rank": 380,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 3,
         "isRookie": true,
         "position": "D"
@@ -62238,7 +62238,7 @@
       {
         "rank": 442,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "F"
@@ -62246,7 +62246,7 @@
       {
         "rank": 442,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -62254,7 +62254,7 @@
       {
         "rank": 442,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "D"
@@ -62806,7 +62806,7 @@
       {
         "rank": 510,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": false,
         "position": "D"
@@ -62814,7 +62814,7 @@
       {
         "rank": 510,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -62822,7 +62822,7 @@
       {
         "rank": 510,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -63974,7 +63974,7 @@
       {
         "rank": 598,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": false,
         "position": "D"
@@ -63982,7 +63982,7 @@
       {
         "rank": 598,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -63990,7 +63990,7 @@
       {
         "rank": 598,
         "name": "Blake Swetlikoff",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": false,
         "position": "F"
@@ -63998,7 +63998,7 @@
       {
         "rank": 598,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -64006,7 +64006,7 @@
       {
         "rank": 598,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -64014,7 +64014,7 @@
       {
         "rank": 598,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -64022,7 +64022,7 @@
       {
         "rank": 598,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -64744,7 +64744,7 @@
       {
         "rank": 79,
         "name": "Patrick Newell",
-        "team": "GRN",
+        "team": "GSO",
         "value": 21,
         "isRookie": false,
         "position": "F"
@@ -65352,7 +65352,7 @@
       {
         "rank": 153,
         "name": "Logan Nelson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": false,
         "position": "F"
@@ -65360,7 +65360,7 @@
       {
         "rank": 153,
         "name": "Artyom Borshyov",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": true,
         "position": "D"
@@ -65368,7 +65368,7 @@
       {
         "rank": 153,
         "name": "Noah Delmas",
-        "team": "GRN",
+        "team": "GSO",
         "value": 16,
         "isRookie": false,
         "position": "D"
@@ -65504,7 +65504,7 @@
       {
         "rank": 181,
         "name": "Ethan Leyh",
-        "team": "GRN",
+        "team": "GSO",
         "value": 15,
         "isRookie": true,
         "position": "F"
@@ -66208,7 +66208,7 @@
       {
         "rank": 273,
         "name": "Blake Biondi",
-        "team": "GRN",
+        "team": "GSO",
         "value": 11,
         "isRookie": true,
         "position": "F"
@@ -66216,7 +66216,7 @@
       {
         "rank": 273,
         "name": "Jordan Biro",
-        "team": "GRN",
+        "team": "GSO",
         "value": 11,
         "isRookie": true,
         "position": "F"
@@ -66632,7 +66632,7 @@
       {
         "rank": 333,
         "name": "Demetrios Koumontzis",
-        "team": "GRN",
+        "team": "GSO",
         "value": 9,
         "isRookie": false,
         "position": "F"
@@ -66864,7 +66864,7 @@
       {
         "rank": 372,
         "name": "Dalton Skelly",
-        "team": "GRN",
+        "team": "GSO",
         "value": 8,
         "isRookie": false,
         "position": "D"
@@ -67080,7 +67080,7 @@
       {
         "rank": 408,
         "name": "Colton Leiter",
-        "team": "GRN",
+        "team": "GSO",
         "value": 7,
         "isRookie": false,
         "position": "D"
@@ -67304,7 +67304,7 @@
       {
         "rank": 439,
         "name": "David Gagnon",
-        "team": "GRN",
+        "team": "GSO",
         "value": 6,
         "isRookie": true,
         "position": "F"
@@ -67440,7 +67440,7 @@
       {
         "rank": 467,
         "name": "Braden Doyle",
-        "team": "GRN",
+        "team": "GSO",
         "value": 5,
         "isRookie": true,
         "position": "D"
@@ -67608,7 +67608,7 @@
       {
         "rank": 495,
         "name": "Ryan Richardson",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": true,
         "position": "F"
@@ -67616,7 +67616,7 @@
       {
         "rank": 495,
         "name": "Bryce Montgomery",
-        "team": "GRN",
+        "team": "GSO",
         "value": 4,
         "isRookie": false,
         "position": "D"
@@ -68168,7 +68168,7 @@
       {
         "rank": 571,
         "name": "True Crowe",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "D"
@@ -68176,7 +68176,7 @@
       {
         "rank": 571,
         "name": "Blake Swetlikoff",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": false,
         "position": "F"
@@ -68184,7 +68184,7 @@
       {
         "rank": 571,
         "name": "Nikita Quapp",
-        "team": "GRN",
+        "team": "GSO",
         "value": 2,
         "isRookie": true,
         "position": "G"
@@ -68528,7 +68528,7 @@
       {
         "rank": 621,
         "name": "Rider McCallum",
-        "team": "GRN",
+        "team": "GSO",
         "value": 1,
         "isRookie": true,
         "position": "D"
@@ -69264,7 +69264,7 @@
       {
         "rank": 676,
         "name": "Blake Dangos",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "D"
@@ -69272,7 +69272,7 @@
       {
         "rank": 676,
         "name": "Drew Kuzma",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "F"
@@ -69280,7 +69280,7 @@
       {
         "rank": 676,
         "name": "Ruslan Khazheyev",
-        "team": "GRN",
+        "team": "GSO",
         "value": 0,
         "isRookie": true,
         "position": "G"
@@ -69311,5 +69311,5 @@
       }
     ]
   },
-  "scrapedAt": "2026-03-19T14:40:14.235Z"
+  "scrapedAt": "2026-03-19T17:38:36.154Z"
 }
