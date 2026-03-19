@@ -196,8 +196,8 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
   const statRows = visiting && home ? [
     {
       label: "PP%",
-      vVal: `${visiting.ppPct}%`,
-      hVal: `${home.ppPct}%`,
+      vVal: visiting.ppPct != null ? `${visiting.ppPct}%` : "—",
+      hVal: home.ppPct != null ? `${home.ppPct}%` : "—",
       vRank: leagueRank(visitingTeamId, (t) => t.ppPct || 0),
       hRank: leagueRank(homeTeamId, (t) => t.ppPct || 0),
       vBetter: (visiting.ppPct || 0) > (home.ppPct || 0),
@@ -205,8 +205,8 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
     },
     {
       label: "PK%",
-      vVal: `${visiting.pkPct}%`,
-      hVal: `${home.pkPct}%`,
+      vVal: visiting.pkPct != null ? `${visiting.pkPct}%` : "—",
+      hVal: home.pkPct != null ? `${home.pkPct}%` : "—",
       vRank: leagueRank(visitingTeamId, (t) => t.pkPct || 0),
       hRank: leagueRank(homeTeamId, (t) => t.pkPct || 0),
       vBetter: (visiting.pkPct || 0) > (home.pkPct || 0),

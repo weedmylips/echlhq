@@ -57,7 +57,7 @@ const TEAMS = {
   5:   { id: 5,   name: "Cincinnati Cyclones",       city: "Cincinnati",    abbr: "CIN", division: "Central",  conference: "Western", primaryColor: "#003DA5", secondaryColor: "#FC4C02" },
   8:   { id: 8,   name: "Florida Everblades",        city: "Florida",       abbr: "FLA", division: "South",    conference: "Eastern", primaryColor: "#00703C", secondaryColor: "#C8A951" },
   60:  { id: 60,  name: "Fort Wayne Komets",         city: "Fort Wayne",    abbr: "FW",  division: "Central",  conference: "Western", primaryColor: "#F47920", secondaryColor: "#231F20" },
-  108: { id: 108, name: "Greensboro Gargoyles",      city: "Greensboro",    abbr: "GRN", division: "North",    conference: "Eastern", primaryColor: "#005EB8", secondaryColor: "#9B2335" },
+  108: { id: 108, name: "Greensboro Gargoyles",      city: "Greensboro",    abbr: "GSO", division: "North",    conference: "Eastern", primaryColor: "#005EB8", secondaryColor: "#9B2335" },
   52:  { id: 52,  name: "Greenville Swamp Rabbits",  city: "Greenville",    abbr: "GVL", division: "South",    conference: "Eastern", primaryColor: "#00563F", secondaryColor: "#A2AAAD" },
   11:  { id: 11,  name: "Idaho Steelheads",          city: "Idaho",         abbr: "IDH", division: "Mountain", conference: "Western", primaryColor: "#003DA5", secondaryColor: "#C8102E" },
   65:  { id: 65,  name: "Indy Fuel",                 city: "Indy",          abbr: "IND", division: "Central",  conference: "Western", primaryColor: "#002868", secondaryColor: "#BF0D3E" },

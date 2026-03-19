@@ -288,7 +288,13 @@
       "pim": 631,
       "attendanceGames": 30,
       "attendanceTotal": 170317,
-      "attendanceAverage": 5677
+      "attendanceAverage": 5677,
+      "ppPct": 15.5,
+      "ppGoals": 30,
+      "ppOpportunities": 193,
+      "pkPct": 79.2,
+      "pkGoalsAllowed": 38,
+      "timesShorthanded": 183
     },
     {
       "teamId": 8,
@@ -1105,5 +1111,5 @@
       "timesShorthanded": 214
     }
   ],
-  "scrapedAt": "2026-03-19T14:40:14.235Z"
+  "scrapedAt": "2026-03-19T17:38:36.154Z"
 }

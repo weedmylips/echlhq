@@ -244,10 +244,10 @@
   object-fit: contain;
 }
 .matchup-stats-logos .matchup-stats-logo:first-child {
-  justify-self: end;
+  justify-self: center;
 }
 .matchup-stats-logos .matchup-stats-logo:last-child {
-  justify-self: start;
+  justify-self: center;
 }
 
 .matchup-stats-table {
