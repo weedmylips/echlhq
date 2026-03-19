@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useBoxscore } from "../hooks/useECHL.js";
+import { findTeamByName } from "../config/teamConfig.js";
 import "./BoxScoreModal.css";
 
 export default function BoxScoreModal({ gameId, onClose }) {
@@ -33,11 +34,19 @@ function BoxScoreContent({ data }) {
   const hasData = periodScoring.length > 0 || shotsByPeriod.length > 0 ||
     skaterStats.home?.length > 0 || skaterStats.visiting?.length > 0;
 
+  const awayTeam = findTeamByName(gameInfo.visitingTeam);
+  const homeTeam = findTeamByName(gameInfo.homeTeam);
+
   return (
     <div className="boxscore">
       {/* Score Header */}
       <div className="bs-scoreboard">
         <div className="bs-team-side">
+          {awayTeam?.logoUrl ? (
+            <img src={awayTeam.logoUrl} alt="" className="bs-team-logo" />
+          ) : (
+            <div className="bs-team-logo-placeholder">{gameInfo.visitingTeam?.[0] || "V"}</div>
+          )}
           <span className="bs-team-name">{gameInfo.visitingTeam || "Visiting"}</span>
           <span className="bs-team-score">{gameInfo.finalScore?.visiting ?? "—"}</span>
           {shotsByPeriod.find(s => s.team === gameInfo.visitingTeam)?.total != null && (
@@ -48,8 +57,13 @@ function BoxScoreContent({ data }) {
           <span className="bs-final-label">{data.isFinal ? "Final" : "In Progress"}</span>
         </div>
         <div className="bs-team-side bs-team-home">
-          <span className="bs-team-score">{gameInfo.finalScore?.home ?? "—"}</span>
+          {homeTeam?.logoUrl ? (
+            <img src={homeTeam.logoUrl} alt="" className="bs-team-logo" />
+          ) : (
+            <div className="bs-team-logo-placeholder">{gameInfo.homeTeam?.[0] || "H"}</div>
+          )}
           <span className="bs-team-name">{gameInfo.homeTeam || "Home"}</span>
+          <span className="bs-team-score">{gameInfo.finalScore?.home ?? "—"}</span>
           {shotsByPeriod.find(s => s.team === gameInfo.homeTeam)?.total != null && (
             <span className="bs-shots">{shotsByPeriod.find(s => s.team === gameInfo.homeTeam).total} SOG</span>
           )}
@@ -112,16 +126,24 @@ function BoxScoreContent({ data }) {
               const goalieMap = Object.fromEntries(allGoalies.filter(g => g.number).map(g => [g.name, g]));
               return stars.map((s) => {
                 const gl = goalieMap[s.name];
+                const starTeam = findTeamByName(s.team);
                 return (
                   <div key={s.star} className="bs-star">
                     <span className="bs-star-num">{s.star === 1 ? "★" : s.star === 2 ? "★★" : "★★★"}</span>
-                    <span className="bs-star-name">{s.name}</span>
-                    <span className="bs-star-team">{s.team}</span>
-                    {gl ? (
-                      <span className="bs-star-stats">{gl.saves} SV · {gl.svPct.toFixed(3).replace(/^0/, "")}</span>
-                    ) : s.pts != null ? (
-                      <span className="bs-star-stats">{s.g}G {s.a}A</span>
-                    ) : null}
+                    <div className="bs-star-info">
+                      <div className="bs-star-main">
+                        <span className="bs-star-name">{s.name}</span>
+                        <div className="bs-star-team-row">
+                          {starTeam?.logoUrl && <img src={starTeam.logoUrl} alt="" className="bs-star-logo" />}
+                          <span className="bs-star-team">{s.team}</span>
+                        </div>
+                      </div>
+                      {gl ? (
+                        <span className="bs-star-stats">{gl.saves} SV · {gl.svPct.toFixed(3).replace(/^0/, "")}</span>
+                      ) : s.pts != null ? (
+                        <span className="bs-star-stats">{s.g}G {s.a}A</span>
+                      ) : null}
+                    </div>
                   </div>
                 );
               });
@@ -134,11 +156,15 @@ function BoxScoreContent({ data }) {
       {(goalieStats.visiting?.length > 0 || goalieStats.home?.length > 0) && (
         <div className="bs-section">
           <div className="bs-section-title">Goalie Stats</div>
-          {["visiting", "home"].map((side) =>
-            goalieStats[side]?.length > 0 ? (
+          {["visiting", "home"].map((side) => {
+            const teamInfo = side === "visiting" ? awayTeam : homeTeam;
+            const teamName = side === "visiting" ? (gameInfo.visitingTeam || "Visiting") : (gameInfo.homeTeam || "Home");
+            
+            return goalieStats[side]?.length > 0 ? (
               <div key={side} className="bs-team-block">
                 <div className="bs-team-label">
-                  {side === "visiting" ? (gameInfo.visitingTeam || "Visiting") : (gameInfo.homeTeam || "Home")}
+                  {teamInfo?.logoUrl && <img src={teamInfo.logoUrl} alt="" className="bs-team-logo-tiny" />}
+                  {teamName}
                 </div>
                 <div className="table-wrap">
                   <table>
@@ -161,8 +187,8 @@ function BoxScoreContent({ data }) {
                   </table>
                 </div>
               </div>
-            ) : null
-          )}
+            ) : null;
+          })}
         </div>
       )}
 

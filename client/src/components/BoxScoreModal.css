@@ -67,31 +67,50 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
-  padding: 24px 16px 16px;
+  gap: 40px;
+  padding: 32px 16px 24px;
 }
 
 .bs-team-side {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 12px;
   flex: 1;
 }
 
-.bs-team-home {
+.bs-team-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+}
+
+.bs-team-logo-placeholder {
+  width: 64px;
+  height: 64px;
+  background: var(--bg-elevated);
+  border: 1.5px dashed var(--border);
+  border-radius: 50%;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-muted);
 }
 
 .bs-team-name {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
   color: var(--text-secondary);
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .bs-team-score {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 900;
   color: var(--text);
   line-height: 1;
@@ -101,8 +120,11 @@
 .bs-shots {
   font-size: 11px;
   color: var(--text-muted);
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 4px 8px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 4px;
 }
 
 .bs-sep {
@@ -173,8 +195,11 @@
   .modal-body { max-height: 75vh; }
 
   .bs-scoreboard { gap: 16px; padding: 16px 12px 12px; }
+  .bs-team-logo, .bs-team-logo-placeholder { width: 40px; height: 40px; font-size: 16px; }
+  .bs-team-side { gap: 8px; }
   .bs-team-score { font-size: 36px; }
-  .bs-team-name { font-size: 12px; }
+  .bs-team-name { font-size: 11px; }
+  .bs-shots { font-size: 10px; padding: 2px 6px; }
 }
 
 /* Three Stars */
@@ -187,39 +212,87 @@
 .bs-star {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
+  gap: 12px;
+  padding: 10px 14px;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
 }
 
 .bs-star-num {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--amber);
-  min-width: 28px;
+  min-width: 32px;
   letter-spacing: -1px;
+}
+
+.bs-star-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  gap: 12px;
+}
+
+.bs-star-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .bs-star-name {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text);
-  flex: 1;
+}
+
+.bs-star-team-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bs-star-logo {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
 }
 
 .bs-star-team {
   font-size: 11px;
   color: var(--text-muted);
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .bs-star-stats {
   font-size: 12px;
   color: var(--text-secondary);
-  font-weight: 600;
-  min-width: 60px;
+  font-weight: 700;
   text-align: right;
+  background: rgba(255,255,255,0.05);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Tiny logo for goalie headers */
+.bs-team-logo-tiny {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.bs-team-label {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
 }
 
 /* Strength badges */
