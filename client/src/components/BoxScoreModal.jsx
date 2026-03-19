@@ -29,6 +29,7 @@ export default function BoxScoreModal({ gameId, onClose }) {
           <span className="modal-title">Box Score</span>
           <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
             <ShareButton
+              url={`${window.location.origin}/game/${gameId}`}
               title={
                 data
                   ? `${data.gameInfo.visitingTeam} ${data.gameInfo.finalScore?.visiting ?? ""}, ${data.gameInfo.homeTeam} ${data.gameInfo.finalScore?.home ?? ""} — Box Score`

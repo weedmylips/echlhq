@@ -255,6 +255,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
           <span className="modal-title">Matchup Preview</span>
           <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
             <ShareButton
+              url={`${window.location.origin}/matchup/${visitingTeamId}/${homeTeamId}/${encodeURIComponent(date)}`}
               title={`${visitingConfig?.city || "Away"} vs ${homeConfig?.city || "Home"} — Matchup Preview`}
             />
             <button className="modal-close" onClick={onClose}>&#10005;</button>

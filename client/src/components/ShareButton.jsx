@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import "./ShareButton.css";
 
-export default function ShareButton({ title }) {
+export default function ShareButton({ title, url: urlProp }) {
   // "idle" | "copied" | "failed"
   const [state, setState] = useState("idle");
 
@@ -12,7 +12,7 @@ export default function ShareButton({ title }) {
   }, [state]);
 
   const handleClick = useCallback(async () => {
-    const url = window.location.href;
+    const url = urlProp || window.location.href;
 
     // Try native share first
     if (navigator.share) {
@@ -45,7 +45,7 @@ export default function ShareButton({ title }) {
         setState("failed");
       }
     }
-  }, [title]);
+  }, [title, urlProp]);
 
   const label = state === "copied" ? "Link copied" : state === "failed" ? "Failed to copy" : "Share";
 
