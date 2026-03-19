@@ -147,11 +147,15 @@
   color: var(--text);
 }
 
-.matchup-player-highlight {
+.matchup-player-stats {
   font-size: 11px;
   color: var(--text-secondary);
   font-variant-numeric: tabular-nums;
-  font-style: italic;
+}
+
+.matchup-alt-time {
+  color: var(--text-muted);
+  font-size: 11px;
 }
 
 /* ── Stats Comparison with Color Bars ── */

@@ -395,18 +395,9 @@ export function useMatchupPlayers(teamId1, teamId2) {
         playerMap[p.name].gp  += 1;
       }
     }
-    // Pick 3 distinct players: top pts, top goals (not already picked), top assists (not already picked)
+    // Top 3 players sorted by points
     const players = Object.values(playerMap).filter((p) => p.pts > 0 || p.g > 0 || p.a > 0);
-    const picked = [];
-    const byPts = [...players].sort((a, b) => b.pts - a.pts || b.g - a.g);
-    if (byPts[0]) picked.push({ ...byPts[0], highlight: "pts" });
-    const byGoals = [...players].sort((a, b) => b.g - a.g || b.pts - a.pts)
-      .filter((p) => !picked.find((x) => x.name === p.name));
-    if (byGoals[0]) picked.push({ ...byGoals[0], highlight: "g" });
-    const byAssists = [...players].sort((a, b) => b.a - a.a || b.pts - a.pts)
-      .filter((p) => !picked.find((x) => x.name === p.name));
-    if (byAssists[0]) picked.push({ ...byAssists[0], highlight: "a" });
-    return picked;
+    return [...players].sort((a, b) => b.pts - a.pts || b.g - a.g).slice(0, 3);
   }
 
   const team1Players = isLoading ? [] : aggregatePlayers(city1, gameIds1);

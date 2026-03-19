@@ -11,9 +11,8 @@ const TEAM_TIMEZONES = {
   101: "America/New_York", 63: "America/New_York", 13: "America/New_York",
   55: "America/New_York", 97: "America/New_York", 50: "America/New_York",
   61: "America/New_York", 104: "America/New_York",
-  // Eastern (OH/MI)
+  // Eastern (OH/MI/Quebec)
   5: "America/New_York", 53: "America/New_York", 70: "America/New_York",
-  // Quebec
   103: "America/New_York",
   // Central
   107: "America/Chicago", 60: "America/Chicago", 65: "America/Chicago",
@@ -24,40 +23,36 @@ const TEAM_TIMEZONES = {
   109: "America/Los_Angeles",
 };
 
-function formatGameTime(timeStr, homeTeamId) {
-  // Parse "7:00 PM EDT" → convert to home team's timezone
-  const tz = TEAM_TIMEZONES[homeTeamId];
-  if (!tz) return timeStr;
+const TZ_OFFSETS = { EST: -5, EDT: -4, CST: -6, CDT: -5, MST: -7, MDT: -6, PST: -8, PDT: -7 };
 
-  // Extract hour, minute, ampm from the time string
+// Convert a time string like "7:00 PM EDT" to a given IANA timezone, using
+// a reference date string (e.g. "Mar 20, 2026") for correct DST handling.
+function convertTime(timeStr, dateStr, targetTz) {
   const m = timeStr.match(/(\d{1,2}):(\d{2})\s*(AM|PM)\s*(\w+)/i);
-  if (!m) return timeStr;
-
-  const [, hourStr, minStr, ampm, srcTz] = m;
+  if (!m) return null;
+  const [, hourStr, minStr, ampm, srcTzAbbr] = m;
   let hour = parseInt(hourStr);
   const min = parseInt(minStr);
   if (ampm.toUpperCase() === "PM" && hour !== 12) hour += 12;
   if (ampm.toUpperCase() === "AM" && hour === 12) hour = 0;
 
-  // Map source timezone abbreviation to offset
-  const tzOffsets = { EST: -5, EDT: -4, CST: -6, CDT: -5, MST: -7, MDT: -6, PST: -8, PDT: -7 };
-  const srcOffset = tzOffsets[srcTz.toUpperCase()];
-  if (srcOffset === undefined) return timeStr;
+  const srcOffset = TZ_OFFSETS[srcTzAbbr.toUpperCase()];
+  if (srcOffset === undefined) return null;
 
-  // Convert to UTC then to target timezone using Intl
-  const utcMs = Date.UTC(2026, 0, 1, hour - srcOffset, min);
+  // Use a date near the game for correct DST in the target timezone
+  const refDate = dateStr ? new Date(dateStr) : new Date(2026, 2, 15);
+  const utcMs = Date.UTC(refDate.getFullYear(), refDate.getMonth(), refDate.getDate(), hour - srcOffset, min);
   const d = new Date(utcMs);
   const formatted = d.toLocaleTimeString("en-US", {
-    timeZone: tz,
+    timeZone: targetTz,
     hour: "numeric",
     minute: "2-digit",
     hour12: true,
   });
   const tzAbbr = d.toLocaleTimeString("en-US", {
-    timeZone: tz,
+    timeZone: targetTz,
     timeZoneName: "short",
   }).split(" ").pop();
-
   return `${formatted} ${tzAbbr}`;
 }
 
@@ -152,7 +147,12 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
     },
   ] : [];
 
-  const localTime = time ? formatGameTime(time, homeTeamId) : null;
+  // Time display: the time from data is already the home team's local time.
+  // If visiting team is in a different timezone, also show their local time.
+  const homeTz = TEAM_TIMEZONES[homeTeamId];
+  const visitingTz = TEAM_TIMEZONES[visitingTeamId];
+  const showVisitingTime = time && visitingTz && homeTz && visitingTz !== homeTz;
+  const visitingTime = showVisitingTime ? convertTime(time, date, visitingTz) : null;
 
   return (
     <div className="modal-overlay" onClick={(e) => e.target === e.currentTarget && onClose()}>
@@ -163,10 +163,11 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
         </div>
         <div className="modal-body matchup-body">
           {/* Date & Time */}
-          {(date || localTime) && (
+          {(date || time) && (
             <div className="matchup-datetime">
               {date && <span>{date}</span>}
-              {localTime && <span>{localTime}</span>}
+              {time && <span>{time}</span>}
+              {visitingTime && <span className="matchup-alt-time">({visitingTime})</span>}
             </div>
           )}
 
@@ -206,11 +207,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
                   {team1.map((p) => (
                     <div key={p.name} className="matchup-player">
                       <span className="matchup-player-name">{p.name}</span>
-                      <span className="matchup-player-highlight">
-                        {p.highlight === "pts" && `${p.pts} pts`}
-                        {p.highlight === "g" && `${p.g} goals`}
-                        {p.highlight === "a" && `${p.a} assists`}
-                      </span>
+                      <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
                     </div>
                   ))}
                 </div>
@@ -219,11 +216,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
                   {team2.map((p) => (
                     <div key={p.name} className="matchup-player">
                       <span className="matchup-player-name">{p.name}</span>
-                      <span className="matchup-player-highlight">
-                        {p.highlight === "pts" && `${p.pts} pts`}
-                        {p.highlight === "g" && `${p.g} goals`}
-                        {p.highlight === "a" && `${p.a} assists`}
-                      </span>
+                      <span className="matchup-player-stats">{p.g}G {p.a}A {p.pts}PTS</span>
                     </div>
                   ))}
                 </div>
