@@ -153,7 +153,9 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
       visiting: topThree(visitingAbbr),
       home: topThree(homeAbbr),
       milestones: [...findMilestones(visitingAbbr).map((m) => ({ ...m, teamAbbr: visitingAbbr })),
-                   ...findMilestones(homeAbbr).map((m) => ({ ...m, teamAbbr: homeAbbr }))],
+                   ...findMilestones(homeAbbr).map((m) => ({ ...m, teamAbbr: homeAbbr }))]
+                   .sort((a, b) => a.away - b.away)
+                   .slice(0, 5),
     };
   }, [isNearGame, leaders, visitingAbbr, homeAbbr]);
 
@@ -334,14 +336,36 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
                 <div className="matchup-section">
                   <div className="matchup-section-title">Milestone Chasers</div>
                   <div className="matchup-milestones">
-                    {seasonPlayers.milestones.map((m) => (
-                      <div key={`${m.name}-${m.stat}`} className="matchup-milestone">
-                        <span className="matchup-milestone-name">{m.name}</span>
-                        <span className="matchup-milestone-detail">
-                          {m.away} {m.stat === "goals" ? "goals" : "pts"} from {m.milestone} on the season
-                        </span>
-                      </div>
-                    ))}
+                    {seasonPlayers.milestones.map((m) => {
+                      const current = m.milestone - m.away;
+                      const prevMilestone = MILESTONES.slice().reverse().find((v) => v < m.milestone) || 0;
+                      const range = m.milestone - prevMilestone;
+                      const pct = Math.min(100, Math.round(((current - prevMilestone) / range) * 100));
+                      const teamConfig = Object.values(TEAMS).find((t) => t.abbr === m.teamAbbr);
+                      const color = teamConfig?.primaryColor || "#3b82f6";
+                      return (
+                        <div key={`${m.name}-${m.stat}`} className="matchup-milestone">
+                          <div className="matchup-milestone-top">
+                            <span className="matchup-milestone-name">{m.name}</span>
+                            <span className="matchup-milestone-tag"
+                              style={{ background: `${color}22`, color: color, border: `1px solid ${color}44` }}>
+                              {m.teamAbbr}
+                            </span>
+                            <span className="matchup-milestone-away">
+                              {m.away} {m.stat === "goals" ? "G" : "PTS"} from {m.milestone}
+                            </span>
+                          </div>
+                          <div className="matchup-milestone-bar-bg">
+                            <div className="matchup-milestone-bar"
+                              style={{ width: `${pct}%`, background: color }} />
+                          </div>
+                          <div className="matchup-milestone-range">
+                            <span>{prevMilestone}</span>
+                            <span>{current} / {m.milestone}</span>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               )}

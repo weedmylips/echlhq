@@ -162,12 +162,18 @@
 .matchup-milestones {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
 
 .matchup-milestone {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.matchup-milestone-top {
+  display: flex;
+  align-items: center;
   gap: 6px;
 }
 
@@ -175,12 +181,50 @@
   font-size: 13px;
   font-weight: 600;
   color: var(--text);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.matchup-milestone-detail {
+.matchup-milestone-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+}
+
+.matchup-milestone-away {
   font-size: 11px;
   color: var(--text-secondary);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.matchup-milestone-bar-bg {
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.matchup-milestone-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+  opacity: 0.85;
+}
+
+.matchup-milestone-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ── Stats Comparison with Color Bars ── */
