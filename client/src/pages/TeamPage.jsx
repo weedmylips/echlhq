@@ -209,7 +209,7 @@ export default function TeamPage() {
 
       {/* ── Tabs ── */}
       <div className="team-tabs">
-        {[["overview", "Overview"], ["roster", "Roster"], ["stats", "Team Stats"], ["schedule", "Schedule"]].map(([tab, label]) => (
+        {[["overview", "Overview"], ["roster", "Roster"], ["stats", "Team Stats"]].map(([tab, label]) => (
           <button
             key={tab}
             className={`team-tab${activeTab === tab ? " active" : ""}`}
@@ -226,6 +226,52 @@ export default function TeamPage() {
         <div className="overview-layout">
           {/* ── Left/main column ── */}
           <div className="overview-main">
+
+            {/* Upcoming Games */}
+            {(() => {
+              const tid = parseInt(teamId, 10);
+              const teamGames = (upcomingData?.games || []).filter(
+                (g) => g.visitingTeamId === tid || g.homeTeamId === tid
+              );
+              if (!teamGames.length) return null;
+              return (
+                <div className="card section-card">
+                  <div className="card-header">
+                    <span className="section-label" style={{ margin: 0 }}>Upcoming Games</span>
+                  </div>
+                  <div className="upcoming-day-games">
+                    {teamGames.map((g, i) => {
+                      const visitingConfig = TEAMS[g.visitingTeamId];
+                      const homeConfig = TEAMS[g.homeTeamId];
+                      return (
+                        <button
+                          key={i}
+                          className="upcoming-game-row"
+                          onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
+                        >
+                          <div className="upcoming-team upcoming-away">
+                            {visitingConfig?.logoUrl && (
+                              <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
+                            )}
+                            <span className="upcoming-name">{g.visitingTeam}</span>
+                          </div>
+                          <div className="upcoming-center">
+                            <span className="upcoming-at">@</span>
+                            <span className="upcoming-time">{g.time}</span>
+                          </div>
+                          <div className="upcoming-team upcoming-home">
+                            <span className="upcoming-name">{g.homeTeam}</span>
+                            {homeConfig?.logoUrl && (
+                              <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
+                            )}
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })()}
 
             {/* Recent Games */}
             <div className="card section-card">
@@ -524,73 +570,6 @@ export default function TeamPage() {
           </div>
         </div>
       )}
-
-      {/* ── Schedule Tab ── */}
-      {activeTab === "schedule" && (() => {
-        const tid = parseInt(teamId, 10);
-        const teamGames = (upcomingData?.games || []).filter(
-          (g) => g.visitingTeamId === tid || g.homeTeamId === tid
-        );
-        const byDay = teamGames.reduce((acc, g) => {
-          const key = `${g.dayLabel}|${g.date}`;
-          if (!acc[key]) acc[key] = [];
-          acc[key].push(g);
-          return acc;
-        }, {});
-        const dayOrder = [...new Set(teamGames.map((g) => `${g.dayLabel}|${g.date}`))];
-        return (
-          <div className="schedule-tab">
-            {teamGames.length === 0 ? (
-              <div className="card section-card">
-                <p className="empty-msg" style={{ padding: "24px 16px", textAlign: "center" }}>
-                  No upcoming games scheduled.
-                </p>
-              </div>
-            ) : (
-              dayOrder.map((dayKey) => {
-                const [dayLabel, dayDate] = dayKey.split("|");
-                return (
-                  <div key={dayKey} className="upcoming-day card">
-                    <div className="upcoming-day-header">
-                      {dayLabel} <span className="upcoming-day-date">{dayDate}</span>
-                    </div>
-                    <div className="upcoming-day-games">
-                      {(byDay[dayKey] || []).map((g, i) => {
-                        const visitingConfig = TEAMS[g.visitingTeamId];
-                        const homeConfig = TEAMS[g.homeTeamId];
-                        return (
-                          <button
-                            key={i}
-                            className="upcoming-game-row"
-                            onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
-                          >
-                            <div className="upcoming-team upcoming-away">
-                              {visitingConfig?.logoUrl && (
-                                <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
-                              )}
-                              <span className="upcoming-name">{g.visitingTeam}</span>
-                            </div>
-                            <div className="upcoming-center">
-                              <span className="upcoming-at">@</span>
-                              <span className="upcoming-time">{g.time}</span>
-                            </div>
-                            <div className="upcoming-team upcoming-home">
-                              <span className="upcoming-name">{g.homeTeam}</span>
-                              {homeConfig?.logoUrl && (
-                                <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
-                              )}
-                            </div>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })
-            )}
-          </div>
-        );
-      })()}
 
       {selectedGameId && (
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />

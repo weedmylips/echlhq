@@ -194,14 +194,6 @@
   align-items: start;
 }
 
-.schedule-tab {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-top: 16px;
-  max-width: 700px;
-}
-
 .overview-layout.stats-layout {
   grid-template-columns: 1fr;
 }
