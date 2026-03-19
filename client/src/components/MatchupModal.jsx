@@ -2,6 +2,7 @@ import { useEffect, useRef, useMemo } from "react";
 import { Helmet } from "react-helmet-async";
 import { useStandings, useScores, useLeaders, useUpcoming, useMatchupPlayers } from "../hooks/useECHL.js";
 import { TEAMS } from "../config/teamConfig.js";
+import ShareButton from "./ShareButton.jsx";
 import "./MatchupModal.css";
 
 // Map team timezone based on arena location
@@ -252,7 +253,12 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
         </Helmet>
         <div className="modal-header">
           <span className="modal-title">Matchup Preview</span>
-          <button className="modal-close" onClick={onClose}>&#10005;</button>
+          <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
+            <ShareButton
+              title={`${visitingConfig?.city || "Away"} vs ${homeConfig?.city || "Home"} — Matchup Preview`}
+            />
+            <button className="modal-close" onClick={onClose}>&#10005;</button>
+          </div>
         </div>
         <div className="modal-body matchup-body">
           {/* Date & Time */}
