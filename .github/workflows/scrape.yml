@@ -2,8 +2,8 @@ name: Scrape ECHL Data
 
 on:
   schedule:
-    # Daily at 9:30 UTC (5:30am ET / shifted 4h earlier)
-    - cron: "30 9 * * *"
+    # Daily at 10:30 UTC (6:30am ET / shifted 3h earlier)
+    - cron: "30 10 * * *"
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 permissions:

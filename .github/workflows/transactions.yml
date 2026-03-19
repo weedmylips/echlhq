@@ -2,8 +2,8 @@ name: ECHL Transactions
 
 on:
   schedule:
-    # 9pm UTC daily (5pm ET / shifted 4h earlier)
-    - cron: "0 21 * * *"
+    # 10pm UTC daily (6pm ET / shifted 4h earlier)
+    - cron: "0 22 * * *"
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 permissions:
