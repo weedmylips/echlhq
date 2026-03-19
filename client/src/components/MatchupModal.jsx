@@ -1,4 +1,5 @@
 import { useEffect, useRef, useMemo } from "react";
+import { Helmet } from "react-helmet-async";
 import { useStandings, useScores, useLeaders, useUpcoming, useMatchupPlayers } from "../hooks/useECHL.js";
 import { TEAMS } from "../config/teamConfig.js";
 import "./MatchupModal.css";
@@ -243,6 +244,12 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
   return (
     <div className="modal-overlay matchup-overlay" ref={overlayRef} onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className="modal matchup-modal">
+        <Helmet>
+          <title>{visitingConfig?.city || "Away"} vs {homeConfig?.city || "Home"} Matchup Preview{date ? ` · ${date}` : ""}</title>
+          <meta name="description" content={`${visitingConfig?.name || "Away"} (${visiting?.w ?? 0}-${visiting?.l ?? 0}-${visiting?.otl ?? 0}) vs ${homeConfig?.name || "Home"} (${home?.w ?? 0}-${home?.l ?? 0}-${home?.otl ?? 0}) — H2H record, special teams, players to watch`} />
+          <meta property="og:title" content={`${visitingConfig?.city || "Away"} vs ${homeConfig?.city || "Home"} Matchup Preview`} />
+          <meta property="og:description" content={`${visitingConfig?.name || "Away"} vs ${homeConfig?.name || "Home"} — H2H record, special teams, players to watch`} />
+        </Helmet>
         <div className="modal-header">
           <span className="modal-title">Matchup Preview</span>
           <button className="modal-close" onClick={onClose}>&#10005;</button>
