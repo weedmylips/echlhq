@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import { useStandings } from "../hooks/useECHL.js";
+import ShareButton from "../components/ShareButton.jsx";
 import "./StandingsPage.css";
 
 const DIVISION_ORDER = ["North", "South", "Central", "Mountain"];
@@ -66,6 +67,7 @@ export default function StandingsPage() {
       </Helmet>
       <div className="standings-page-header">
         <h1 className="page-title">Standings</h1>
+        <ShareButton title="ECHL Standings" />
       </div>
 
       {data?.stale && <div className="stale-banner">⚠ Showing cached data — live data temporarily unavailable</div>}
