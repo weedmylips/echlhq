@@ -387,7 +387,7 @@ export function useMatchupPlayers(teamId1, teamId2) {
       const skaters = isHome ? bs.skaterStats?.home : bs.skaterStats?.visiting;
       if (!skaters) continue;
       for (const p of skaters) {
-        if (!p.name) continue;
+        if (!p.name || p.name === "Totals:" || p.name === "Team:") continue;
         if (!playerMap[p.name]) playerMap[p.name] = { name: p.name, g: 0, a: 0, pts: 0, gp: 0 };
         playerMap[p.name].g   += (p.g || 0);
         playerMap[p.name].a   += (p.a || 0);
