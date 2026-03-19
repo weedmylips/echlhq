@@ -231,6 +231,25 @@
 }
 
 /* ── Stats Comparison with Color Bars ── */
+.matchup-stats-logos {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 4px 0 8px;
+}
+.matchup-stats-logos .matchup-stats-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.matchup-stats-logos .matchup-stats-logo:first-child {
+  justify-self: end;
+}
+.matchup-stats-logos .matchup-stats-logo:last-child {
+  justify-self: start;
+}
+
 .matchup-stats-table {
   display: flex;
   flex-direction: column;

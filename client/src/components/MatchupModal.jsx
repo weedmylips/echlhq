@@ -157,7 +157,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
       home: topThree(homeAbbr),
       milestones: [...findMilestones(visitingAbbr).map((m) => ({ ...m, teamAbbr: visitingAbbr })),
                    ...findMilestones(homeAbbr).map((m) => ({ ...m, teamAbbr: homeAbbr }))]
-                   .sort((a, b) => a.away - b.away)
+                   .sort((a, b) => b.milestone - a.milestone)
                    .slice(0, 5),
     };
   }, [isNearGame, leaders, visitingAbbr, homeAbbr]);
@@ -373,6 +373,11 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
           {statRows.length > 0 && (
             <div className="matchup-section">
               <div className="matchup-section-title">Team Stats</div>
+              <div className="matchup-stats-logos">
+                <img src={visitingConfig?.logoUrl} alt={visitingConfig?.city || ""} className="matchup-stats-logo" />
+                <span />
+                <img src={homeConfig?.logoUrl} alt={homeConfig?.city || ""} className="matchup-stats-logo" />
+              </div>
               <div className="matchup-stats-table">
                 {statRows.map((row) => (
                   <div key={row.label} className="matchup-stat-row">
