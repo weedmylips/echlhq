@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { useBoxscore } from "../hooks/useECHL.js";
 import { findTeamByName } from "../config/teamConfig.js";
+import ShareButton from "./ShareButton.jsx";
 import "./BoxScoreModal.css";
 
 export default function BoxScoreModal({ gameId, onClose }) {
@@ -28,7 +29,16 @@ export default function BoxScoreModal({ gameId, onClose }) {
         )}
         <div className="modal-header">
           <span className="modal-title">Box Score</span>
-          <button className="modal-close" onClick={onClose}>✕</button>
+          <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
+            <ShareButton
+              title={
+                data
+                  ? `${data.gameInfo.visitingTeam} ${data.gameInfo.finalScore?.visiting ?? ""}, ${data.gameInfo.homeTeam} ${data.gameInfo.finalScore?.home ?? ""} — Box Score`
+                  : "ECHL Box Score"
+              }
+            />
+            <button className="modal-close" onClick={onClose}>✕</button>
+          </div>
         </div>
         <div className="modal-body">
           {isLoading && <div className="loading-spinner">Loading box score…</div>}
