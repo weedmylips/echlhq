@@ -472,9 +472,18 @@ export default function TeamPage() {
                         return full.split(" ").slice(1).join(" ") === fmLast && full[0] === fmInit;
                       });
                     };
-                    const teamFighters = (fightingMajorsData?.leaders || [])
+                    const allFighters = fightingMajorsData?.leaders || [];
+                    const fmLeagueRank = (name) => {
+                      const idx = allFighters.findIndex((f) => f.name === name);
+                      if (idx < 0) return null;
+                      // Account for ties — rank = first index with same value + 1
+                      const val = allFighters[idx].fightingMajors;
+                      const rank = allFighters.findIndex((f) => f.fightingMajors === val) + 1;
+                      return rank <= 15 ? rank : null;
+                    };
+                    const teamFighters = allFighters
                       .filter((p) => p.team.toLowerCase() === team.city.toLowerCase())
-                      .map((p) => ({ ...p, skater: matchSkater(p.name) }))
+                      .map((p) => ({ ...p, skater: matchSkater(p.name), leagueRank: fmLeagueRank(p.name) }))
                       .filter((p) => p.skater)
                       .slice(0, 5);
                     if (teamFighters.length === 0) return null;
@@ -486,6 +495,7 @@ export default function TeamPage() {
                             <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-name-group">
                               <span className="mini-leader-name">{p.skater.player}</span>
+                              {p.leagueRank && <span className="league-rank-pill">#{p.leagueRank}</span>}
                             </span>
                             <span className="mini-leader-val">{p.fightingMajors}</span>
                           </div>
