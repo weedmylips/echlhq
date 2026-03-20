@@ -464,20 +464,18 @@ export default function TeamPage() {
                     </div>
                   )}
                   {(() => {
+                    const matchSkater = (abbr) => {
+                      const fmLast = abbr.split(" ").slice(1).join(" ").toLowerCase();
+                      const fmInit = abbr[0]?.toLowerCase();
+                      return skaters.find((s) => {
+                        const full = normalize(s.player);
+                        return full.split(" ").slice(1).join(" ") === fmLast && full[0] === fmInit;
+                      });
+                    };
                     const teamFighters = (fightingMajorsData?.leaders || [])
-                      .filter((p) => {
-                        if (p.team.toLowerCase() !== team.city.toLowerCase()) return false;
-                        // Fighting majors uses "C. McNelly", players uses "Cade McNelly"
-                        const fmLast = p.name.split(" ").slice(1).join(" ").toLowerCase();
-                        const fmInit = p.name[0]?.toLowerCase();
-                        const onRoster = skaters.some((s) => {
-                          const full = normalize(s.player);
-                          const sLast = full.split(" ").slice(1).join(" ");
-                          const sInit = full[0];
-                          return sLast === fmLast && sInit === fmInit;
-                        });
-                        return onRoster;
-                      })
+                      .filter((p) => p.team.toLowerCase() === team.city.toLowerCase())
+                      .map((p) => ({ ...p, skater: matchSkater(p.name) }))
+                      .filter((p) => p.skater)
                       .slice(0, 5);
                     if (teamFighters.length === 0) return null;
                     return (
@@ -487,7 +485,7 @@ export default function TeamPage() {
                           <div key={i} className="mini-leader-row">
                             <span className="mini-leader-rank">{i + 1}</span>
                             <span className="mini-leader-name-group">
-                              <span className="mini-leader-name">{p.name}</span>
+                              <span className="mini-leader-name">{p.skater.player}</span>
                             </span>
                             <span className="mini-leader-val">{p.fightingMajors}</span>
                           </div>
