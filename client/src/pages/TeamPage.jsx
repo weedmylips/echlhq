@@ -165,10 +165,7 @@ export default function TeamPage() {
                 <ShareButton title={`${team.name}${activeTab !== "overview" ? ` — ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}` : ""} — ECHL Stats`} />
               </div>
               <div className="team-header-meta">
-                <span
-                  className="division-badge"
-                  style={{ borderColor: team.primaryColor, color: "var(--text)" }}
-                >
+                <span className="division-badge">
                   {team.division || "—"}
                 </span>
                 {standing && (
