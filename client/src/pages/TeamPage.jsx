@@ -131,7 +131,12 @@ export default function TeamPage() {
     ? `${(standing.pct * 100).toFixed(1)}%` : "—";
 
   return (
-    <div className="team-page">
+    <div className="team-page" style={{
+      "--team-primary": team.primaryColor || "#1a6aff",
+      "--team-secondary": team.secondaryColor || "#ff8c00",
+      "--team-primary-light": `color-mix(in srgb, ${team.primaryColor || "#1a6aff"} 60%, #ffffff)`,
+      "--team-secondary-light": `color-mix(in srgb, ${team.secondaryColor || "#ff8c00"} 60%, #ffffff)`,
+    }}>
       <Helmet>
         <title>{team?.name || "Team"} — ECHL Stats</title>
         <meta name="description" content={`Roster, stats, and recent results for ${team?.name || "team"}`} />
@@ -139,14 +144,7 @@ export default function TeamPage() {
         <meta property="og:description" content={`Roster, stats, and recent results for ${team?.name || "team"}`} />
       </Helmet>
       {/* ── Header ── */}
-      <div
-        className="team-header"
-        style={{
-          "--team-primary": team.primaryColor || "#333",
-          "--team-secondary": team.secondaryColor || "#555",
-          borderColor: team.primaryColor || "#333",
-        }}
-      >
+      <div className="team-header">
         <div
           className="team-header-accent"
           style={{ background: `linear-gradient(135deg, ${team.primaryColor}55 0%, transparent 60%)` }}

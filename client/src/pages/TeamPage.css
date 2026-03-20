@@ -9,7 +9,7 @@
   position: relative;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-top: 3px solid var(--team-primary, #3b82f6);
+  border-top: 4px solid var(--team-primary, #3b82f6);
   border-radius: var(--radius);
   margin-bottom: 0;
   overflow: hidden;
