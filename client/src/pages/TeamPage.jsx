@@ -463,33 +463,30 @@ export default function TeamPage() {
                       })}
                     </div>
                   )}
-                </div>
-              );
-            })()}
-
-            {/* Fighting Leaders card */}
-            {(() => {
-              const teamFighters = (fightingMajorsData?.leaders || [])
-                .filter((p) => p.team.toLowerCase() === team.city.toLowerCase())
-                .slice(0, 5);
-              if (teamFighters.length === 0) return null;
-              return (
-                <div className="card section-card">
-                  <div className="card-header">
-                    <span className="section-label" style={{ margin: 0 }}>Fighting Leaders</span>
-                  </div>
-                  <ol className="stat-card-list">
-                    {teamFighters.map((p, i) => (
-                      <li
-                        key={i}
-                        className={`stat-row${i === 0 ? " stat-row--first" : ""}${i % 2 !== 0 ? " stat-row--alt" : ""}`}
-                      >
-                        <span className="stat-rank">{i + 1}</span>
-                        <span className="stat-name">{p.name}</span>
-                        <span className="stat-val">{p.fightingMajors}</span>
-                      </li>
-                    ))}
-                  </ol>
+                  {(() => {
+                    const teamFighters = (fightingMajorsData?.leaders || [])
+                      .filter((p) => {
+                        if (p.team.toLowerCase() !== team.city.toLowerCase()) return false;
+                        const onRoster = skaters.some((s) => normalize(s.player) === normalize(p.name));
+                        return onRoster;
+                      })
+                      .slice(0, 5);
+                    if (teamFighters.length === 0) return null;
+                    return (
+                      <div className="mini-leader-block">
+                        <div className="mini-leader-cat">Fighting Majors</div>
+                        {teamFighters.map((p, i) => (
+                          <div key={i} className="mini-leader-row">
+                            <span className="mini-leader-rank">{i + 1}</span>
+                            <span className="mini-leader-name-group">
+                              <span className="mini-leader-name">{p.name}</span>
+                            </span>
+                            <span className="mini-leader-val">{p.fightingMajors}</span>
+                          </div>
+                        ))}
+                      </div>
+                    );
+                  })()}
                 </div>
               );
             })()}

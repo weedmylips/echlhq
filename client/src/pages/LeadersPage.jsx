@@ -1,3 +1,4 @@
+import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useLeaders, useFightingMajors } from "../hooks/useECHL.js";
 import ShareButton from "../components/ShareButton.jsx";
@@ -148,9 +149,11 @@ export default function LeadersPage() {
           <div className="leaders-section-label">SKATERS</div>
           <div className="leaders-grid leaders-grid--skaters">
             {SKATER_CARDS.map((cat) => (
-              <StatCard key={cat.key} cat={cat} leaders={leaders} />
+              <React.Fragment key={cat.key}>
+                <StatCard cat={cat} leaders={leaders} />
+                {cat.key === "majors" && <FightingMajorsCard data={fmData} />}
+              </React.Fragment>
             ))}
-            <FightingMajorsCard data={fmData} />
           </div>
 
           <div className="leaders-section-label">GOALTENDERS</div>
