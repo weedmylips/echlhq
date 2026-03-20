@@ -1,0 +1,5264 @@
+{
+  "processedGames": [
+    24296,
+    24297,
+    24298,
+    24299,
+    24300,
+    24301,
+    24302,
+    24303,
+    24304,
+    24305,
+    24306,
+    24307,
+    24308,
+    24309,
+    24310,
+    24311,
+    24312,
+    24313,
+    24314,
+    24315,
+    24316,
+    24317,
+    24318,
+    24319,
+    24320,
+    24321,
+    24322,
+    24323,
+    24324,
+    24325,
+    24326,
+    24327,
+    24328,
+    24329,
+    24330,
+    24331,
+    24332,
+    24333,
+    24334,
+    24335,
+    24336,
+    24337,
+    24338,
+    24339,
+    24340,
+    24341,
+    24342,
+    24343,
+    24344,
+    24345,
+    24346,
+    24347,
+    24348,
+    24349,
+    24350,
+    24351,
+    24352,
+    24353,
+    24354,
+    24355,
+    24356,
+    24357,
+    24358,
+    24359,
+    24360,
+    24361,
+    24362,
+    24363,
+    24364,
+    24365,
+    24366,
+    24367,
+    24368,
+    24369,
+    24370,
+    24371,
+    24372,
+    24373,
+    24374,
+    24375,
+    24376,
+    24377,
+    24378,
+    24379,
+    24380,
+    24381,
+    24382,
+    24383,
+    24384,
+    24385,
+    24386,
+    24387,
+    24388,
+    24389,
+    24390,
+    24391,
+    24392,
+    24393,
+    24394,
+    24395,
+    24396,
+    24397,
+    24398,
+    24399,
+    24400,
+    24401,
+    24402,
+    24403,
+    24404,
+    24405,
+    24406,
+    24407,
+    24408,
+    24409,
+    24410,
+    24411,
+    24412,
+    24413,
+    24414,
+    24415,
+    24416,
+    24417,
+    24418,
+    24419,
+    24420,
+    24421,
+    24422,
+    24423,
+    24424,
+    24425,
+    24426,
+    24427,
+    24428,
+    24429,
+    24430,
+    24431,
+    24432,
+    24433,
+    24434,
+    24435,
+    24436,
+    24437,
+    24438,
+    24439,
+    24440,
+    24441,
+    24442,
+    24443,
+    24444,
+    24445,
+    24446,
+    24447,
+    24448,
+    24449,
+    24450,
+    24451,
+    24452,
+    24453,
+    24454,
+    24455,
+    24456,
+    24457,
+    24458,
+    24459,
+    24460,
+    24461,
+    24462,
+    24463,
+    24464,
+    24465,
+    24466,
+    24467,
+    24468,
+    24469,
+    24470,
+    24471,
+    24472,
+    24473,
+    24474,
+    24475,
+    24476,
+    24477,
+    24478,
+    24479,
+    24480,
+    24481,
+    24482,
+    24483,
+    24484,
+    24485,
+    24486,
+    24487,
+    24488,
+    24489,
+    24490,
+    24491,
+    24492,
+    24493,
+    24494,
+    24495,
+    24496,
+    24497,
+    24498,
+    24499,
+    24500,
+    24501,
+    24502,
+    24503,
+    24504,
+    24505,
+    24506,
+    24507,
+    24508,
+    24509,
+    24510,
+    24511,
+    24512,
+    24513,
+    24514,
+    24515,
+    24516,
+    24517,
+    24518,
+    24519,
+    24520,
+    24521,
+    24522,
+    24523,
+    24524,
+    24525,
+    24526,
+    24527,
+    24528,
+    24529,
+    24530,
+    24531,
+    24532,
+    24533,
+    24534,
+    24535,
+    24536,
+    24537,
+    24538,
+    24539,
+    24540,
+    24541,
+    24542,
+    24543,
+    24544,
+    24545,
+    24546,
+    24547,
+    24548,
+    24549,
+    24550,
+    24551,
+    24552,
+    24553,
+    24554,
+    24555,
+    24556,
+    24557,
+    24558,
+    24559,
+    24560,
+    24561,
+    24562,
+    24563,
+    24564,
+    24565,
+    24566,
+    24567,
+    24568,
+    24569,
+    24570,
+    24571,
+    24572,
+    24573,
+    24574,
+    24575,
+    24576,
+    24577,
+    24578,
+    24579,
+    24581,
+    24582,
+    24583,
+    24584,
+    24585,
+    24586,
+    24587,
+    24588,
+    24589,
+    24590,
+    24591,
+    24592,
+    24593,
+    24594,
+    24595,
+    24597,
+    24598,
+    24599,
+    24600,
+    24601,
+    24602,
+    24603,
+    24604,
+    24605,
+    24606,
+    24607,
+    24608,
+    24609,
+    24610,
+    24611,
+    24612,
+    24613,
+    24614,
+    24615,
+    24616,
+    24617,
+    24618,
+    24619,
+    24620,
+    24621,
+    24622,
+    24623,
+    24624,
+    24625,
+    24626,
+    24627,
+    24628,
+    24629,
+    24630,
+    24631,
+    24632,
+    24633,
+    24634,
+    24635,
+    24636,
+    24637,
+    24638,
+    24639,
+    24640,
+    24641,
+    24642,
+    24643,
+    24644,
+    24645,
+    24646,
+    24647,
+    24648,
+    24649,
+    24650,
+    24651,
+    24652,
+    24653,
+    24654,
+    24655,
+    24656,
+    24657,
+    24658,
+    24659,
+    24660,
+    24661,
+    24662,
+    24663,
+    24664,
+    24665,
+    24666,
+    24667,
+    24668,
+    24669,
+    24670,
+    24671,
+    24672,
+    24673,
+    24674,
+    24675,
+    24676,
+    24677,
+    24678,
+    24679,
+    24680,
+    24681,
+    24682,
+    24683,
+    24684,
+    24685,
+    24698,
+    24701,
+    24726,
+    24727,
+    24728,
+    24729,
+    24730,
+    24731,
+    24732,
+    24733,
+    24734,
+    24735,
+    24736,
+    24737,
+    24738,
+    24739,
+    24740,
+    24741,
+    24742,
+    24743,
+    24744,
+    24745,
+    24746,
+    24747,
+    24748,
+    24749,
+    24750,
+    24751,
+    24752,
+    24753,
+    24754,
+    24755,
+    24756,
+    24757,
+    24758,
+    24759,
+    24760,
+    24761,
+    24762,
+    24763,
+    24764,
+    24765,
+    24766,
+    24767,
+    24768,
+    24769,
+    24770,
+    24771,
+    24772,
+    24773,
+    24774,
+    24775,
+    24776,
+    24777,
+    24778,
+    24779,
+    24780,
+    24781,
+    24782,
+    24783,
+    24784,
+    24785,
+    24786,
+    24787,
+    24788,
+    24789,
+    24790,
+    24791,
+    24792,
+    24793,
+    24794,
+    24795,
+    24796,
+    24797,
+    24798,
+    24799,
+    24800,
+    24801,
+    24802,
+    24803,
+    24804,
+    24805,
+    24806,
+    24807,
+    24808,
+    24809,
+    24810,
+    24811,
+    24812,
+    24813,
+    24814,
+    24815,
+    24816,
+    24817,
+    24818,
+    24819,
+    24820,
+    24821,
+    24822,
+    24823,
+    24824,
+    24825,
+    24826,
+    24827,
+    24828,
+    24829,
+    24830,
+    24831,
+    24832,
+    24833,
+    24834,
+    24835,
+    24836,
+    24837,
+    24838,
+    24839,
+    24840,
+    24841,
+    24842,
+    24843,
+    24844,
+    24845,
+    24846,
+    24847,
+    24848,
+    24849,
+    24850,
+    24851,
+    24852,
+    24853,
+    24854,
+    24855,
+    24856,
+    24857,
+    24858,
+    24859,
+    24860,
+    24861,
+    24862,
+    24863,
+    24864,
+    24865,
+    24866,
+    24867,
+    24868,
+    24869,
+    24870,
+    24871,
+    24872,
+    24873,
+    24874,
+    24875,
+    24876,
+    24878,
+    24879,
+    24880,
+    24881,
+    24882,
+    24883,
+    24884,
+    24885,
+    24886,
+    24887,
+    24888,
+    24889,
+    24892,
+    24893,
+    24894,
+    24895,
+    24896,
+    24897,
+    24899,
+    24900,
+    24901,
+    24902,
+    24903,
+    24904,
+    24905,
+    24906,
+    24907,
+    24908,
+    24909,
+    24910,
+    24911,
+    24912,
+    24913,
+    24914,
+    24915,
+    24916,
+    24917,
+    24918,
+    24919,
+    24920,
+    24921,
+    24922,
+    24923,
+    24924,
+    24925,
+    24926,
+    24927,
+    24928,
+    24929,
+    24930,
+    24931,
+    24932,
+    24933,
+    24934,
+    24935,
+    24936,
+    24937,
+    24938,
+    24939,
+    24940,
+    24941,
+    24942,
+    24943,
+    24944,
+    24945,
+    24946,
+    24947,
+    24948,
+    24949,
+    24950,
+    24951,
+    24952,
+    24953,
+    24955,
+    24956,
+    24957,
+    24958,
+    24959,
+    24960,
+    24961,
+    24962,
+    24963,
+    24964,
+    24965,
+    24966,
+    24967,
+    24968,
+    24969,
+    24970,
+    24971,
+    24972,
+    24973,
+    24974,
+    24975,
+    24976,
+    24977,
+    24978,
+    24979,
+    24980,
+    24981,
+    24982,
+    24983,
+    24984,
+    24985,
+    24986,
+    24987,
+    24988,
+    24989,
+    24990,
+    24991,
+    24992,
+    24993,
+    24994,
+    24995,
+    24996,
+    24997,
+    24998,
+    24999,
+    25000,
+    25001,
+    25002,
+    25003,
+    25004,
+    25005,
+    25006,
+    25007,
+    25008,
+    25009,
+    25010,
+    25011,
+    25012,
+    25013,
+    25014,
+    25015,
+    25016,
+    25017,
+    25018,
+    25019,
+    25020,
+    25021,
+    25022,
+    25023,
+    25024,
+    25025,
+    25026,
+    25027,
+    25028,
+    25029,
+    25030,
+    25031,
+    25032,
+    25033,
+    25034,
+    25035,
+    25036,
+    25037,
+    25038,
+    25039,
+    25040,
+    25041,
+    25042,
+    25043,
+    25044,
+    25045,
+    25046,
+    25047,
+    25048,
+    25049,
+    25050,
+    25051,
+    25052,
+    25053,
+    25054,
+    25055,
+    25056,
+    25057,
+    25058,
+    25059,
+    25060,
+    25061,
+    25062,
+    25063,
+    25064,
+    25065,
+    25066,
+    25067,
+    25068,
+    25069,
+    25070,
+    25071,
+    25072,
+    25073,
+    25074,
+    25075,
+    25076,
+    25077,
+    25078,
+    25079,
+    25080,
+    25081,
+    25082,
+    25083,
+    25084,
+    25085,
+    25086,
+    25087,
+    25088,
+    25089,
+    25090,
+    25091,
+    25092,
+    25093,
+    25094,
+    25095,
+    25096,
+    25097,
+    25098,
+    25099,
+    25100,
+    25101,
+    25102,
+    25103,
+    25104,
+    25105,
+    25106,
+    25107,
+    25108,
+    25109,
+    25110,
+    25111,
+    25112,
+    25113,
+    25114,
+    25115,
+    25116,
+    25117,
+    25118,
+    25119,
+    25120,
+    25121,
+    25122,
+    25123,
+    25124,
+    25125,
+    25126,
+    25127,
+    25128,
+    25129,
+    25130,
+    25131,
+    25133,
+    25134,
+    25135,
+    25136,
+    25137,
+    25138,
+    25139,
+    25140,
+    25141,
+    25142,
+    25143,
+    25144,
+    25145,
+    25146,
+    25147,
+    25148,
+    25149,
+    25150,
+    25151,
+    25152,
+    25153,
+    25154,
+    25155,
+    25156,
+    25157,
+    25158,
+    25159,
+    25160,
+    25161,
+    25162,
+    25163,
+    25164,
+    25165,
+    25166,
+    25167,
+    25168,
+    25169,
+    25170,
+    25171,
+    25172,
+    25173,
+    25174,
+    25175,
+    25176,
+    25177,
+    25178,
+    25179,
+    25180,
+    25181,
+    25182,
+    25183,
+    25184,
+    25185,
+    25186,
+    25187,
+    25188,
+    25189,
+    25190,
+    25191,
+    25192,
+    25193,
+    25194,
+    25195,
+    25196,
+    25197,
+    25198,
+    25199,
+    25200,
+    25201,
+    25202,
+    25203,
+    25204,
+    25205,
+    25206,
+    25207,
+    25208,
+    25216,
+    25270,
+    25293,
+    25342,
+    25362,
+    25381,
+    25382,
+    25383,
+    25384,
+    25385,
+    25386,
+    25387,
+    25388,
+    25389,
+    25390,
+    25391,
+    25392,
+    25393,
+    25394,
+    25395,
+    25397,
+    25398,
+    25399,
+    25400,
+    25401,
+    25402
+  ],
+  "players": {
+    "T. Hylland|TR": {
+      "minors": 5,
+      "majors": 0
+    },
+    "K. Haskins|REA": {
+      "minors": 7,
+      "majors": 1
+    },
+    "V. Hadfield|REA": {
+      "minors": 11,
+      "majors": 1
+    },
+    "I. Dufort|TR": {
+      "minors": 9,
+      "majors": 4
+    },
+    "J. Dunlap|TR": {
+      "minors": 12,
+      "majors": 0
+    },
+    "E. Goriunov|TR": {
+      "minors": 6,
+      "majors": 1
+    },
+    "P. Moynihan|REA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Saint|GVL": {
+      "minors": 1,
+      "majors": 1
+    },
+    "C. Hausinger|GVL": {
+      "minors": 14,
+      "majors": 5
+    },
+    "T. Gratton|UTA": {
+      "minors": 18,
+      "majors": 1
+    },
+    "H. Schandor|GVL": {
+      "minors": 13,
+      "majors": 0
+    },
+    "J. Power|GVL": {
+      "minors": 5,
+      "majors": 1
+    },
+    "M. Marchesan|IND": {
+      "minors": 19,
+      "majors": 4
+    },
+    "J. Joseph|IND": {
+      "minors": 21,
+      "majors": 2
+    },
+    "W. Ennis|IND": {
+      "minors": 11,
+      "majors": 0
+    },
+    "M. Miller|FW": {
+      "minors": 5,
+      "majors": 0
+    },
+    "B. Moravec|IND": {
+      "minors": 4,
+      "majors": 0
+    },
+    "N. Deakin-Poot|FW": {
+      "minors": 14,
+      "majors": 2
+    },
+    "M. Brown|FW": {
+      "minors": 3,
+      "majors": 0
+    },
+    "C. Joyce|IND": {
+      "minors": 3,
+      "majors": 0
+    },
+    "H. Wale|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Stefan|FW": {
+      "minors": 5,
+      "majors": 0
+    },
+    "J. O'Brien|IA": {
+      "minors": 6,
+      "majors": 0
+    },
+    "M. Henry|TUL": {
+      "minors": 12,
+      "majors": 6
+    },
+    "N. Noel|IA": {
+      "minors": 14,
+      "majors": 3
+    },
+    "J. Faith|TUL": {
+      "minors": 8,
+      "majors": 1
+    },
+    "W. Francis|TUL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Allen|IA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "B. Bennett|RC": {
+      "minors": 15,
+      "majors": 1
+    },
+    "B. Wood|RC": {
+      "minors": 5,
+      "majors": 2
+    },
+    "P. Bowman|RC": {
+      "minors": 7,
+      "majors": 4
+    },
+    "L. Loheit|KC": {
+      "minors": 23,
+      "majors": 1
+    },
+    "C. Brand|KC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "Q. Olson|RC": {
+      "minors": 8,
+      "majors": 0
+    },
+    "B. Carpenter|KC": {
+      "minors": 7,
+      "majors": 0
+    },
+    "B. Davis|RC": {
+      "minors": 5,
+      "majors": 1
+    },
+    "L. McCallum|KC": {
+      "minors": 16,
+      "majors": 0
+    },
+    "R. Chyzowski|RC": {
+      "minors": 29,
+      "majors": 1
+    },
+    "Z. Uens|KC": {
+      "minors": 13,
+      "majors": 0
+    },
+    "A. Bardaro|ORL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "C. Harpur|ORL": {
+      "minors": 4,
+      "majors": 1
+    },
+    "Z. Berzolla|FLA": {
+      "minors": 12,
+      "majors": 1
+    },
+    "T. Drevitch|ORL": {
+      "minors": 21,
+      "majors": 2
+    },
+    "S. Allen|FLA": {
+      "minors": 31,
+      "majors": 3
+    },
+    "S. Kersten|ORL": {
+      "minors": 10,
+      "majors": 0
+    },
+    "R. Duke|FLA": {
+      "minors": 11,
+      "majors": 0
+    },
+    "C. Doherty|FLA": {
+      "minors": 33,
+      "majors": 1
+    },
+    "T. Bird|ORL": {
+      "minors": 22,
+      "majors": 0
+    },
+    "R. Newkirk|ORL": {
+      "minors": 14,
+      "majors": 2
+    },
+    "J. McDougall|NOR": {
+      "minors": 7,
+      "majors": 0
+    },
+    "J. Isley|NOR": {
+      "minors": 6,
+      "majors": 0
+    },
+    "G. Hebert|NOR": {
+      "minors": 14,
+      "majors": 2
+    },
+    "L. Drevitch|SAV": {
+      "minors": 29,
+      "majors": 6
+    },
+    "L. Walsh|SAV": {
+      "minors": 17,
+      "majors": 0
+    },
+    "E. Nause|SAV": {
+      "minors": 23,
+      "majors": 1
+    },
+    "J. Dureau|NOR": {
+      "minors": 15,
+      "majors": 1
+    },
+    "D. Cesana|SAV": {
+      "minors": 11,
+      "majors": 0
+    },
+    "C. Fedorek|NOR": {
+      "minors": 9,
+      "majors": 0
+    },
+    "O. LeBlanc|TAH": {
+      "minors": 14,
+      "majors": 0
+    },
+    "J. Miller|IDH": {
+      "minors": 17,
+      "majors": 2
+    },
+    "T. Zins|IDH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Mayer|TAH": {
+      "minors": 28,
+      "majors": 3
+    },
+    "D. Paliani|TAH": {
+      "minors": 14,
+      "majors": 3
+    },
+    "K. Pearson|IDH": {
+      "minors": 27,
+      "majors": 3
+    },
+    "M. O'Leary|TAH": {
+      "minors": 18,
+      "majors": 1
+    },
+    "Served by J. Gelatt|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "I. Walther|ATL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "J. Ricketts|UTA": {
+      "minors": 18,
+      "majors": 0
+    },
+    "D. Tedesco|BLM": {
+      "minors": 9,
+      "majors": 0
+    },
+    "L. Grissom|IA": {
+      "minors": 8,
+      "majors": 0
+    },
+    "M. Robidoux|BLM": {
+      "minors": 30,
+      "majors": 5
+    },
+    "I. Johnson|IA": {
+      "minors": 6,
+      "majors": 0
+    },
+    "B. Budgell|BLM": {
+      "minors": 6,
+      "majors": 0
+    },
+    "P. Gavlas|BLM": {
+      "minors": 16,
+      "majors": 3
+    },
+    "B. Yeamans|BLM": {
+      "minors": 17,
+      "majors": 6
+    },
+    "J. Sorenson|IA": {
+      "minors": 13,
+      "majors": 1
+    },
+    "C. Tymkin|WHL": {
+      "minors": 17,
+      "majors": 6
+    },
+    "J. Portillo|CIN": {
+      "minors": 15,
+      "majors": 3
+    },
+    "A. Sutter|WHL": {
+      "minors": 15,
+      "majors": 2
+    },
+    "N. Rhéaume|CIN": {
+      "minors": 26,
+      "majors": 7
+    },
+    "M. Quercia|WHL": {
+      "minors": 21,
+      "majors": 4
+    },
+    "A. Noel|CIN": {
+      "minors": 15,
+      "majors": 1
+    },
+    "J. Johnson|CIN": {
+      "minors": 10,
+      "majors": 0
+    },
+    "M. Graham|WHL": {
+      "minors": 16,
+      "majors": 6
+    },
+    "J. Lukosevicius|ORL": {
+      "minors": 17,
+      "majors": 4
+    },
+    "O. Cooper|FLA": {
+      "minors": 16,
+      "majors": 8
+    },
+    "C. Gicewicz|FLA": {
+      "minors": 12,
+      "majors": 0
+    },
+    "J. Hamilton|ORL": {
+      "minors": 3,
+      "majors": 4
+    },
+    "B. MacArthur|JAX": {
+      "minors": 9,
+      "majors": 0
+    },
+    "B. Doyle|GSO": {
+      "minors": 4,
+      "majors": 0
+    },
+    "J. Condotta|JAX": {
+      "minors": 23,
+      "majors": 3
+    },
+    "L. Henault|JAX": {
+      "minors": 1,
+      "majors": 1
+    },
+    "R. Savage|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "G. Van Wyhe|JAX": {
+      "minors": 17,
+      "majors": 1
+    },
+    "D. Llewellyn|TOL": {
+      "minors": 5,
+      "majors": 2
+    },
+    "S. Craggs|TOL": {
+      "minors": 19,
+      "majors": 0
+    },
+    "C. Keenan|TOL": {
+      "minors": 7,
+      "majors": 1
+    },
+    "T. Feist|IND": {
+      "minors": 2,
+      "majors": 1
+    },
+    "C. Swoyer|TOL": {
+      "minors": 13,
+      "majors": 3
+    },
+    "K. Lombardi|IND": {
+      "minors": 9,
+      "majors": 0
+    },
+    "Served by J. Martin|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Ambrosio|TOL": {
+      "minors": 9,
+      "majors": 0
+    },
+    "L. Lapid|IND": {
+      "minors": 10,
+      "majors": 0
+    },
+    "D. Pennington|KAL": {
+      "minors": 16,
+      "majors": 0
+    },
+    "T. Inamoto|FW": {
+      "minors": 13,
+      "majors": 0
+    },
+    "C. Saccoman|KAL": {
+      "minors": 13,
+      "majors": 2
+    },
+    "H. Rees|FW": {
+      "minors": 8,
+      "majors": 0
+    },
+    "A. Aleardi|FW": {
+      "minors": 24,
+      "majors": 0
+    },
+    "R. Wagner|RC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Randl|KC": {
+      "minors": 8,
+      "majors": 0
+    },
+    "C. Wilkie|RC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "X. Bernard|RC": {
+      "minors": 19,
+      "majors": 0
+    },
+    "J. Janicke|KC": {
+      "minors": 13,
+      "majors": 1
+    },
+    "R. O'Hara|GVL": {
+      "minors": 17,
+      "majors": 0
+    },
+    "R. Hughes|SAV": {
+      "minors": 11,
+      "majors": 0
+    },
+    "R. O'Reilly|GVL": {
+      "minors": 9,
+      "majors": 1
+    },
+    "N. Zabaneh|SAV": {
+      "minors": 9,
+      "majors": 0
+    },
+    "H. Johannes|SAV": {
+      "minors": 8,
+      "majors": 0
+    },
+    "R. Rodzinski|SC": {
+      "minors": 14,
+      "majors": 1
+    },
+    "G. Yavaş|NOR": {
+      "minors": 10,
+      "majors": 3
+    },
+    "R. Hofer|SC": {
+      "minors": 14,
+      "majors": 4
+    },
+    "D. Geregach|NOR": {
+      "minors": 2,
+      "majors": 2
+    },
+    "K. Kupka|SC": {
+      "minors": 15,
+      "majors": 1
+    },
+    "B. Osmundson|NOR": {
+      "minors": 19,
+      "majors": 0
+    },
+    "L. Breen|SC": {
+      "minors": 11,
+      "majors": 0
+    },
+    "C. Dodero|IDH": {
+      "minors": 33,
+      "majors": 2
+    },
+    "R. Holmes|IDH": {
+      "minors": 22,
+      "majors": 4
+    },
+    "M. Anderson|IDH": {
+      "minors": 6,
+      "majors": 0
+    },
+    "C. Bailey|TAH": {
+      "minors": 18,
+      "majors": 0
+    },
+    "K. Wall|TAH": {
+      "minors": 13,
+      "majors": 2
+    },
+    "N. Kallen|TAH": {
+      "minors": 6,
+      "majors": 0
+    },
+    "T. Caron|ALN": {
+      "minors": 11,
+      "majors": 2
+    },
+    "T. Rask|WIC": {
+      "minors": 8,
+      "majors": 1
+    },
+    "C. Hargrove|ALN": {
+      "minors": 15,
+      "majors": 1
+    },
+    "N. Nardecchia|WIC": {
+      "minors": 16,
+      "majors": 0
+    },
+    "N. Beck|WIC": {
+      "minors": 11,
+      "majors": 0
+    },
+    "K. Jeffers|WIC": {
+      "minors": 7,
+      "majors": 0
+    },
+    "J. Bar|WIC": {
+      "minors": 8,
+      "majors": 0
+    },
+    "D. Smith|WIC": {
+      "minors": 15,
+      "majors": 5
+    },
+    "J. Decker|ALN": {
+      "minors": 10,
+      "majors": 0
+    },
+    "K. Dunn|WOR": {
+      "minors": 4,
+      "majors": 0
+    },
+    "A. Hora|WOR": {
+      "minors": 4,
+      "majors": 0
+    },
+    "D. Callin|WOR": {
+      "minors": 12,
+      "majors": 0
+    },
+    "L. McCallum|MNE": {
+      "minors": 5,
+      "majors": 0
+    },
+    "T. Cheveldayoff|MNE": {
+      "minors": 14,
+      "majors": 4
+    },
+    "K. Johnson|WOR": {
+      "minors": 2,
+      "majors": 1
+    },
+    "Z. Massicotte|MNE": {
+      "minors": 7,
+      "majors": 2
+    },
+    "C. Fraser|WOR": {
+      "minors": 1,
+      "majors": 2
+    },
+    "S. Element|MNE": {
+      "minors": 6,
+      "majors": 3
+    },
+    "A. Firriolo|ATL": {
+      "minors": 4,
+      "majors": 1
+    },
+    "A. Jarvis|ATL": {
+      "minors": 9,
+      "majors": 3
+    },
+    "R. Francis|ATL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "M. Messner|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "P. Newell|GSO": {
+      "minors": 9,
+      "majors": 0
+    },
+    "M. Carson|JAX": {
+      "minors": 6,
+      "majors": 0
+    },
+    "B. Crane|JAX": {
+      "minors": 4,
+      "majors": 0
+    },
+    "D. Goure|GSO": {
+      "minors": 11,
+      "majors": 0
+    },
+    "W. Murphy|GSO": {
+      "minors": 10,
+      "majors": 1
+    },
+    "T. Weiss|GSO": {
+      "minors": 16,
+      "majors": 0
+    },
+    "A. Kulbis-Marino|GSO": {
+      "minors": 2,
+      "majors": 0
+    },
+    "S. Pinard|SC": {
+      "minors": 10,
+      "majors": 0
+    },
+    "S. Docherty|SC": {
+      "minors": 3,
+      "majors": 3
+    },
+    "T. De Jong|GVL": {
+      "minors": 5,
+      "majors": 3
+    },
+    "A. Keller|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "L. Helland|IA": {
+      "minors": 13,
+      "majors": 3
+    },
+    "R. Kinal|TUL": {
+      "minors": 10,
+      "majors": 1
+    },
+    "M. McKee|TUL": {
+      "minors": 23,
+      "majors": 4
+    },
+    "E. Armstrong|TUL": {
+      "minors": 14,
+      "majors": 0
+    },
+    "I. Fox|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Faith|TUL": {
+      "minors": 12,
+      "majors": 1
+    },
+    "K. Iverson|TUL": {
+      "minors": 11,
+      "majors": 1
+    },
+    "J. Perreault|MNE": {
+      "minors": 16,
+      "majors": 0
+    },
+    "C. McMenamin|REA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "N. Capone|REA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Kulakov|REA": {
+      "minors": 26,
+      "majors": 5
+    },
+    "X. Lamppa|MNE": {
+      "minors": 9,
+      "majors": 0
+    },
+    "J. Frasca|REA": {
+      "minors": 16,
+      "majors": 5
+    },
+    "N. Canade|IDH": {
+      "minors": 23,
+      "majors": 2
+    },
+    "T. Pelton-Byce|IDH": {
+      "minors": 6,
+      "majors": 2
+    },
+    "B. Kapcheck|TAH": {
+      "minors": 10,
+      "majors": 0
+    },
+    "C. Punnett|IDH": {
+      "minors": 21,
+      "majors": 2
+    },
+    "C. Laskosky|TAH": {
+      "minors": 3,
+      "majors": 0
+    },
+    "T. Walsh|WOR": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Graves|ADK": {
+      "minors": 40,
+      "majors": 6
+    },
+    "L. Reid|ADK": {
+      "minors": 12,
+      "majors": 0
+    },
+    "R. Wheeler|ADK": {
+      "minors": 14,
+      "majors": 2
+    },
+    "J. Fusco|SC": {
+      "minors": 13,
+      "majors": 0
+    },
+    "B. Hawerchuk|SC": {
+      "minors": 21,
+      "majors": 8
+    },
+    "J. Davies|SAV": {
+      "minors": 13,
+      "majors": 3
+    },
+    "J. Wilkins|SC": {
+      "minors": 7,
+      "majors": 1
+    },
+    "J. Lopina|SAV": {
+      "minors": 10,
+      "majors": 0
+    },
+    "R. Mastrosimone|SAV": {
+      "minors": 3,
+      "majors": 0
+    },
+    "P. Waugh|SAV": {
+      "minors": 4,
+      "majors": 1
+    },
+    "J. McLaughlin|KC": {
+      "minors": 28,
+      "majors": 1
+    },
+    "S. Asuchak|ALN": {
+      "minors": 18,
+      "majors": 0
+    },
+    "Served by B. Morrison|ALN": {
+      "minors": 2,
+      "majors": 0
+    },
+    "B. Morrison|ALN": {
+      "minors": 6,
+      "majors": 3
+    },
+    "J. Jutting|KC": {
+      "minors": 9,
+      "majors": 0
+    },
+    "C. Hillebrand|TOL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "R. Ishida|BLM": {
+      "minors": 7,
+      "majors": 0
+    },
+    "C. Lee|BLM": {
+      "minors": 11,
+      "majors": 0
+    },
+    "Z. Jordan|FW": {
+      "minors": 12,
+      "majors": 0
+    },
+    "B. Kressler|CIN": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Robilotti|ATL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "C. Nychuk|ATL": {
+      "minors": 13,
+      "majors": 0
+    },
+    "G. Cassaro|FLA": {
+      "minors": 7,
+      "majors": 0
+    },
+    "A. Romano|FLA": {
+      "minors": 6,
+      "majors": 0
+    },
+    "L. Boudon|ATL": {
+      "minors": 4,
+      "majors": 1
+    },
+    "J. Sambrook|FLA": {
+      "minors": 16,
+      "majors": 0
+    },
+    "Z. Faremouth|GSO": {
+      "minors": 12,
+      "majors": 2
+    },
+    "B. Saigeon|REA": {
+      "minors": 14,
+      "majors": 1
+    },
+    "B. Hislop|JAX": {
+      "minors": 10,
+      "majors": 0
+    },
+    "C. Supryka|JAX": {
+      "minors": 9,
+      "majors": 0
+    },
+    "C. Grando|JAX": {
+      "minors": 2,
+      "majors": 0
+    },
+    "N. Dunkley|JAX": {
+      "minors": 10,
+      "majors": 0
+    },
+    "T. Lovell|GVL": {
+      "minors": 16,
+      "majors": 1
+    },
+    "M. Wahl|IDH": {
+      "minors": 12,
+      "majors": 1
+    },
+    "N. Ganske|UTA": {
+      "minors": 12,
+      "majors": 0
+    },
+    "C. Felton|UTA": {
+      "minors": 5,
+      "majors": 1
+    },
+    "N. Shea|UTA": {
+      "minors": 7,
+      "majors": 0
+    },
+    "G. Pyke|UTA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "L. Manning|UTA": {
+      "minors": 6,
+      "majors": 1
+    },
+    "B. Hoffmann|IDH": {
+      "minors": 14,
+      "majors": 1
+    },
+    "G. Ness|UTA": {
+      "minors": 9,
+      "majors": 2
+    },
+    "L. Salem|UTA": {
+      "minors": 12,
+      "majors": 1
+    },
+    "A. MacDonell|IDH": {
+      "minors": 11,
+      "majors": 0
+    },
+    "B. Schultz|IA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Bilek|KAL": {
+      "minors": 27,
+      "majors": 3
+    },
+    "Q. Preston|KAL": {
+      "minors": 19,
+      "majors": 2
+    },
+    "Served by A. Capannelli|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Koster|IA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "P. Connor|KAL": {
+      "minors": 11,
+      "majors": 5
+    },
+    "R. Helliwell|KAL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Mitton|WOR": {
+      "minors": 4,
+      "majors": 0
+    },
+    "A. Callin|WOR": {
+      "minors": 14,
+      "majors": 1
+    },
+    "R. Miotto|WOR": {
+      "minors": 11,
+      "majors": 1
+    },
+    "M. Koopman|SAV": {
+      "minors": 7,
+      "majors": 0
+    },
+    "R. Vitelli|SAV": {
+      "minors": 6,
+      "majors": 1
+    },
+    "Served by M. Stinil|WIC": {
+      "minors": 6,
+      "majors": 0
+    },
+    "J. Dickman|WIC": {
+      "minors": 6,
+      "majors": 0
+    },
+    "S. Blackwell|WIC": {
+      "minors": 13,
+      "majors": 5
+    },
+    "N. Kneen|WIC": {
+      "minors": 14,
+      "majors": 1
+    },
+    "A. Coxhead|TR": {
+      "minors": 8,
+      "majors": 0
+    },
+    "K. Gervais|ADK": {
+      "minors": 9,
+      "majors": 5
+    },
+    "L. Fuller|TR": {
+      "minors": 9,
+      "majors": 7
+    },
+    "N. Massie|TR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Taylor|ADK": {
+      "minors": 20,
+      "majors": 0
+    },
+    "J. Biakabutuka|TUL": {
+      "minors": 10,
+      "majors": 0
+    },
+    "A. Collins|TAH": {
+      "minors": 3,
+      "majors": 5
+    },
+    "C. McNelly|TUL": {
+      "minors": 14,
+      "majors": 9
+    },
+    "J. Durflinger|TAH": {
+      "minors": 21,
+      "majors": 2
+    },
+    "J. Hanzel|ADK": {
+      "minors": 4,
+      "majors": 0
+    },
+    "C. Martin|TR": {
+      "minors": 17,
+      "majors": 0
+    },
+    "T. Fawcett|ADK": {
+      "minors": 10,
+      "majors": 3
+    },
+    "M. Estapa|TR": {
+      "minors": 19,
+      "majors": 0
+    },
+    "B. Carrabes|ADK": {
+      "minors": 7,
+      "majors": 0
+    },
+    "W. McLeod|TR": {
+      "minors": 11,
+      "majors": 1
+    },
+    "M. Adams-Moisan|TR": {
+      "minors": 16,
+      "majors": 4
+    },
+    "T. Cormier|TR": {
+      "minors": 8,
+      "majors": 0
+    },
+    "J. Paquette|TR": {
+      "minors": 9,
+      "majors": 2
+    },
+    "C. McLane|ADK": {
+      "minors": 12,
+      "majors": 3
+    },
+    "A. Poulin|TR": {
+      "minors": 9,
+      "majors": 3
+    },
+    "S. Olson|ADK": {
+      "minors": 7,
+      "majors": 1
+    },
+    "B. Simmons-Fischer|ALN": {
+      "minors": 22,
+      "majors": 6
+    },
+    "S. Sedley|ALN": {
+      "minors": 11,
+      "majors": 0
+    },
+    "W. Gavin|KC": {
+      "minors": 17,
+      "majors": 1
+    },
+    "M. Register|ALN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Murray|ALN": {
+      "minors": 6,
+      "majors": 4
+    },
+    "I. Shane|KC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "H. Blaisdell|ALN": {
+      "minors": 9,
+      "majors": 0
+    },
+    "B. Datema|BLM": {
+      "minors": 19,
+      "majors": 2
+    },
+    "N. Moyle|TOL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Barczewski|BLM": {
+      "minors": 0,
+      "majors": 0
+    },
+    "C. Ferguson|BLM": {
+      "minors": 15,
+      "majors": 0
+    },
+    "J. Evans|BLM": {
+      "minors": 2,
+      "majors": 0
+    },
+    "T. Edwards|TOL": {
+      "minors": 0,
+      "majors": 1
+    },
+    "T. Palocsik|TOL": {
+      "minors": 3,
+      "majors": 1
+    },
+    "L. Denis|BLM": {
+      "minors": 20,
+      "majors": 2
+    },
+    "Y. Mongo|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Borshyov|GSO": {
+      "minors": 12,
+      "majors": 3
+    },
+    "D. Koumontzis|GSO": {
+      "minors": 6,
+      "majors": 1
+    },
+    "G. Blanchard|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Burke|REA": {
+      "minors": 9,
+      "majors": 1
+    },
+    "L. Nelson|GSO": {
+      "minors": 15,
+      "majors": 2
+    },
+    "J. Brackett|GVL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "M. Deelstra|SC": {
+      "minors": 1,
+      "majors": 1
+    },
+    "J. Martin|IND": {
+      "minors": 9,
+      "majors": 1
+    },
+    "A. Bohlinger|CIN": {
+      "minors": 8,
+      "majors": 0
+    },
+    "O. Flores|IND": {
+      "minors": 3,
+      "majors": 0
+    },
+    "K. Wall|KAL": {
+      "minors": 15,
+      "majors": 2
+    },
+    "E. McDermott|IA": {
+      "minors": 11,
+      "majors": 0
+    },
+    "T. Skirving|KAL": {
+      "minors": 7,
+      "majors": 0
+    },
+    "M. Sop|IA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "B. Christensen|KAL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Z. Okabe|KAL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "D. Laatsch|WHL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "B. Johnson|WHL": {
+      "minors": 20,
+      "majors": 0
+    },
+    "M. Andreev|MNE": {
+      "minors": 17,
+      "majors": 1
+    },
+    "C. Lockhart|WHL": {
+      "minors": 16,
+      "majors": 1
+    },
+    "P. Beaulieu|MNE": {
+      "minors": 2,
+      "majors": 0
+    },
+    "L. Hatten|WOR": {
+      "minors": 13,
+      "majors": 6
+    },
+    "B. Nicholetts|NOR": {
+      "minors": 3,
+      "majors": 2
+    },
+    "M. Reifenberger|NOR": {
+      "minors": 22,
+      "majors": 1
+    },
+    "M. Dorrington|WOR": {
+      "minors": 12,
+      "majors": 3
+    },
+    "M. Ferrandino|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Young|NOR": {
+      "minors": 14,
+      "majors": 0
+    },
+    "Served by C. Focht|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Lind|ATL": {
+      "minors": 17,
+      "majors": 0
+    },
+    "Served by M. Roelens|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. McNamee|ATL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "J. Matier|ATL": {
+      "minors": 8,
+      "majors": 0
+    },
+    "C. Denomie|ATL": {
+      "minors": 9,
+      "majors": 1
+    },
+    "M. Smith|RC": {
+      "minors": 7,
+      "majors": 0
+    },
+    "S. Fyten|RC": {
+      "minors": 10,
+      "majors": 0
+    },
+    "J. Wahlin|WIC": {
+      "minors": 6,
+      "majors": 0
+    },
+    "B. Brodzinski|SAV": {
+      "minors": 9,
+      "majors": 1
+    },
+    "P. Bajkov|JAX": {
+      "minors": 12,
+      "majors": 0
+    },
+    "A. Beraldo|JAX": {
+      "minors": 10,
+      "majors": 2
+    },
+    "P. Tischke|JAX": {
+      "minors": 5,
+      "majors": 1
+    },
+    "N. Portz|IDH": {
+      "minors": 9,
+      "majors": 0
+    },
+    "A. Hreschuk|IDH": {
+      "minors": 8,
+      "majors": 0
+    },
+    "T. Voit|UTA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "S. Jardine|IDH": {
+      "minors": 17,
+      "majors": 1
+    },
+    "A. Hansen-Bukata|UTA": {
+      "minors": 10,
+      "majors": 0
+    },
+    "Z. Gallant|WHL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "J. Bellamy|MNE": {
+      "minors": 11,
+      "majors": 5
+    },
+    "D. Breazeale|WHL": {
+      "minors": 8,
+      "majors": 0
+    },
+    "T. Budnick|WHL": {
+      "minors": 12,
+      "majors": 3
+    },
+    "J. Hudson|MNE": {
+      "minors": 7,
+      "majors": 2
+    },
+    "B. Hodass|WHL": {
+      "minors": 13,
+      "majors": 3
+    },
+    "L. Johansson|MNE": {
+      "minors": 10,
+      "majors": 0
+    },
+    "C. Flinton|ORL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "M. Roelens|ORL": {
+      "minors": 14,
+      "majors": 1
+    },
+    "C. Sylvester|ATL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "T. Follmer|ORL": {
+      "minors": 9,
+      "majors": 0
+    },
+    "D. Gill|ORL": {
+      "minors": 5,
+      "majors": 1
+    },
+    "L. Adam|TAH": {
+      "minors": 16,
+      "majors": 0
+    },
+    "J. Wiebe|TUL": {
+      "minors": 7,
+      "majors": 1
+    },
+    "T. Swick|TAH": {
+      "minors": 30,
+      "majors": 1
+    },
+    "D. Lagrone|TUL": {
+      "minors": 8,
+      "majors": 0
+    },
+    "K. Pow|KC": {
+      "minors": 4,
+      "majors": 2
+    },
+    "M. Crawford|KC": {
+      "minors": 33,
+      "majors": 1
+    },
+    "Z. Brooks|TUL": {
+      "minors": 6,
+      "majors": 0
+    },
+    "D. Cotton|KC": {
+      "minors": 13,
+      "majors": 0
+    },
+    "M. Gildon|ALN": {
+      "minors": 18,
+      "majors": 0
+    },
+    "B. Constantinou|RC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Costantini|ALN": {
+      "minors": 5,
+      "majors": 0
+    },
+    "K. Spinozzi|ALN": {
+      "minors": 6,
+      "majors": 0
+    },
+    "L. Alger|TAH": {
+      "minors": 19,
+      "majors": 1
+    },
+    "Served by A. Collins|TAH": {
+      "minors": 3,
+      "majors": 0
+    },
+    "A. Petruzzelli|FW": {
+      "minors": 9,
+      "majors": 0
+    },
+    "J. Smereck|FW": {
+      "minors": 24,
+      "majors": 1
+    },
+    "J. Grubbe|FW": {
+      "minors": 8,
+      "majors": 1
+    },
+    "C. Schiavon|ORL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "K. Bohlsen|SC": {
+      "minors": 10,
+      "majors": 1
+    },
+    "C. Mayer|SC": {
+      "minors": 14,
+      "majors": 0
+    },
+    "R. Webb|SC": {
+      "minors": 16,
+      "majors": 0
+    },
+    "L. Britt|ORL": {
+      "minors": 8,
+      "majors": 0
+    },
+    "S. Cooley|SC": {
+      "minors": 13,
+      "majors": 2
+    },
+    "M. Stinil|WIC": {
+      "minors": 24,
+      "majors": 0
+    },
+    "L. Vanroboys|WIC": {
+      "minors": 18,
+      "majors": 0
+    },
+    "Served by A. Romano|FLA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Sikic|CIN": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Tucker|IND": {
+      "minors": 16,
+      "majors": 3
+    },
+    "R. Parsons|CIN": {
+      "minors": 11,
+      "majors": 5
+    },
+    "C. Berger|IND": {
+      "minors": 6,
+      "majors": 3
+    },
+    "C. Cameron|IND": {
+      "minors": 28,
+      "majors": 3
+    },
+    "G. Fontaine|CIN": {
+      "minors": 8,
+      "majors": 0
+    },
+    "B. King|CIN": {
+      "minors": 15,
+      "majors": 0
+    },
+    "D. Ebrahim|ADK": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Sergeev|RC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Q. Warmuth|ALN": {
+      "minors": 4,
+      "majors": 0
+    },
+    "A. Anania|ALN": {
+      "minors": 17,
+      "majors": 2
+    },
+    "H. Crone|ALN": {
+      "minors": 12,
+      "majors": 0
+    },
+    "O. Mainolfi|KAL": {
+      "minors": 5,
+      "majors": 1
+    },
+    "J. Solomon-Frisell|BLM": {
+      "minors": 4,
+      "majors": 0
+    },
+    "M. Kaleinikovas|BLM": {
+      "minors": 9,
+      "majors": 2
+    },
+    "T. Singleton|GVL": {
+      "minors": 3,
+      "majors": 1
+    },
+    "J. Boltmann|IDH": {
+      "minors": 20,
+      "majors": 0
+    },
+    "K. Taylor|TAH": {
+      "minors": 8,
+      "majors": 0
+    },
+    "A. Cholach|TAH": {
+      "minors": 4,
+      "majors": 1
+    },
+    "A. Magera|FW": {
+      "minors": 20,
+      "majors": 1
+    },
+    "W. Rousseau|IA": {
+      "minors": 1,
+      "majors": 1
+    },
+    "T. Stewart|IA": {
+      "minors": 9,
+      "majors": 0
+    },
+    "M. Patterson|IA": {
+      "minors": 6,
+      "majors": 3
+    },
+    "A. Capannelli|IA": {
+      "minors": 5,
+      "majors": 1
+    },
+    "C. Pitre|TUL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "N. Sullivan|KC": {
+      "minors": 17,
+      "majors": 0
+    },
+    "W. Dineen|TR": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Elmer|GSO": {
+      "minors": 5,
+      "majors": 0
+    },
+    "N. Delmas|GSO": {
+      "minors": 7,
+      "majors": 0
+    },
+    "J. Hardie|JAX": {
+      "minors": 3,
+      "majors": 1
+    },
+    "S. Timofeyev|UTA": {
+      "minors": 9,
+      "majors": 2
+    },
+    "R. Lebster|UTA": {
+      "minors": 12,
+      "majors": 1
+    },
+    "S. Weinstein|UTA": {
+      "minors": 9,
+      "majors": 0
+    },
+    "E. Friesen|UTA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "C. Brown|JAX": {
+      "minors": 8,
+      "majors": 0
+    },
+    "R. Kovacevic|UTA": {
+      "minors": 1,
+      "majors": 3
+    },
+    "T. Lloyd|WIC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "J. Lansdell|FLA": {
+      "minors": 25,
+      "majors": 1
+    },
+    "R. Piercey|WOR": {
+      "minors": 8,
+      "majors": 2
+    },
+    "C. Golder|REA": {
+      "minors": 6,
+      "majors": 1
+    },
+    "J. Michel|REA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "A. Butcher|REA": {
+      "minors": 9,
+      "majors": 2
+    },
+    "J. Ratzlaff|RC": {
+      "minors": 13,
+      "majors": 0
+    },
+    "C. Pauls|RC": {
+      "minors": 3,
+      "majors": 1
+    },
+    "N. Carroll|SAV": {
+      "minors": 17,
+      "majors": 1
+    },
+    "N. Granowicz|SAV": {
+      "minors": 5,
+      "majors": 1
+    },
+    "R. Conroy|ATL": {
+      "minors": 19,
+      "majors": 2
+    },
+    "J. Vaive|CIN": {
+      "minors": 6,
+      "majors": 1
+    },
+    "T. Schachle|BLM": {
+      "minors": 4,
+      "majors": 0
+    },
+    "J. Kaplan|CIN": {
+      "minors": 4,
+      "majors": 0
+    },
+    "I. Tsulygin|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Ott|BLM": {
+      "minors": 9,
+      "majors": 1
+    },
+    "J. Atkinson|GVL": {
+      "minors": 21,
+      "majors": 4
+    },
+    "Served by M. Nevers|IDH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Krebs|FW": {
+      "minors": 8,
+      "majors": 0
+    },
+    "E. Desnoyers|IA": {
+      "minors": 13,
+      "majors": 1
+    },
+    "J. Michaelian|TUL": {
+      "minors": 9,
+      "majors": 1
+    },
+    "L. Hemstrom|MNE": {
+      "minors": 8,
+      "majors": 1
+    },
+    "T. Friedmann|ADK": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Hutchison|ADK": {
+      "minors": 9,
+      "majors": 0
+    },
+    "D. Moulton|TOL": {
+      "minors": 12,
+      "majors": 1
+    },
+    "M. Petgrave|IND": {
+      "minors": 16,
+      "majors": 0
+    },
+    "J. Bucheler|IND": {
+      "minors": 7,
+      "majors": 0
+    },
+    "T. Dickinson|TOL": {
+      "minors": 9,
+      "majors": 0
+    },
+    "R. Kidney|TR": {
+      "minors": 9,
+      "majors": 0
+    },
+    "C. Desruisseaux|TR": {
+      "minors": 10,
+      "majors": 0
+    },
+    "T. Zins|GSO": {
+      "minors": 12,
+      "majors": 0
+    },
+    "A. Beauregard|TR": {
+      "minors": 8,
+      "majors": 0
+    },
+    "M. Crasa|NOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Zloty|NOR": {
+      "minors": 9,
+      "majors": 0
+    },
+    "J. Kaplan|WHL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Engum|NOR": {
+      "minors": 20,
+      "majors": 0
+    },
+    "K. Proctor|WIC": {
+      "minors": 8,
+      "majors": 0
+    },
+    "C. Needham|FLA": {
+      "minors": 11,
+      "majors": 0
+    },
+    "B. Brar|FLA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "S. Boulton|REA": {
+      "minors": 2,
+      "majors": 3
+    },
+    "B. Meehan|REA": {
+      "minors": 15,
+      "majors": 1
+    },
+    "A. Swankler|REA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Horvath|WOR": {
+      "minors": 2,
+      "majors": 1
+    },
+    "Served by M. Dorrington|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Donhauser|WOR": {
+      "minors": 16,
+      "majors": 1
+    },
+    "C. Cook|REA": {
+      "minors": 7,
+      "majors": 1
+    },
+    "D. Loukus|SC": {
+      "minors": 12,
+      "majors": 0
+    },
+    "C. Moore|SC": {
+      "minors": 7,
+      "majors": 0
+    },
+    "A. Young|ATL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "Served by B. Moravec|IND": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by K. Lombardi|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Kennedy|KAL": {
+      "minors": 17,
+      "majors": 5
+    },
+    "J. Page|REA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "R. Stucker|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by L. McCallum|MNE": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Rizzo|REA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "R. O'Rourke|TR": {
+      "minors": 6,
+      "majors": 0
+    },
+    "D. Gagnon|GSO": {
+      "minors": 7,
+      "majors": 0
+    },
+    "M. Koethe|TUL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Stuart|TUL": {
+      "minors": 6,
+      "majors": 0
+    },
+    "A. McMaster|TUL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Kodsi|ORL": {
+      "minors": 9,
+      "majors": 5
+    },
+    "L. Bast|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "P. Bates|WIC": {
+      "minors": 8,
+      "majors": 0
+    },
+    "C. Savoie|GVL": {
+      "minors": 8,
+      "majors": 0
+    },
+    "S. Mack|BLM": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Berezowski|KC": {
+      "minors": 14,
+      "majors": 1
+    },
+    "C. Carreau|KC": {
+      "minors": 11,
+      "majors": 0
+    },
+    "J. Steinmetz|IDH": {
+      "minors": 10,
+      "majors": 1
+    },
+    "Served by A. Pitters|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Stanick|TAH": {
+      "minors": 11,
+      "majors": 0
+    },
+    "C. Fraser|CIN": {
+      "minors": 10,
+      "majors": 5
+    },
+    "R. McCleary|CIN": {
+      "minors": 5,
+      "majors": 0
+    },
+    "R. Harsch|FW": {
+      "minors": 12,
+      "majors": 0
+    },
+    "B. Murray|FW": {
+      "minors": 15,
+      "majors": 0
+    },
+    "O. Chau|FLA": {
+      "minors": 8,
+      "majors": 0
+    },
+    "B. Stonehouse|FW": {
+      "minors": 9,
+      "majors": 1
+    },
+    "C. Leiter|GSO": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by R. Hernández|WHL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "R. Mahshie|WHL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "M. Posma|WHL": {
+      "minors": 11,
+      "majors": 1
+    },
+    "E. Parker|WHL": {
+      "minors": 10,
+      "majors": 0
+    },
+    "S. Lee|BLM": {
+      "minors": 4,
+      "majors": 0
+    },
+    "N. Sedov|BLM": {
+      "minors": 11,
+      "majors": 0
+    },
+    "N. Grima|IND": {
+      "minors": 21,
+      "majors": 0
+    },
+    "Z. Karpa|BLM": {
+      "minors": 6,
+      "majors": 1
+    },
+    "K. Sato|BLM": {
+      "minors": 3,
+      "majors": 0
+    },
+    "D. Duhart|JAX": {
+      "minors": 6,
+      "majors": 1
+    },
+    "Served by R. Francis|ATL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "M. Burns|ATL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "D. Pilon|TOL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "H. Wilson|KC": {
+      "minors": 12,
+      "majors": 5
+    },
+    "P. Schachle|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. DiPaolo|MNE": {
+      "minors": 10,
+      "majors": 0
+    },
+    "C. Buhl|RC": {
+      "minors": 7,
+      "majors": 0
+    },
+    "A. Chiarot|RC": {
+      "minors": 0,
+      "majors": 1
+    },
+    "J. McGrew|TAH": {
+      "minors": 5,
+      "majors": 1
+    },
+    "M. Hubbarde|RC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "B. Watts|ALN": {
+      "minors": 4,
+      "majors": 0
+    },
+    "Served by N. Nardecchia|WIC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Dzhaniyev|UTA": {
+      "minors": 7,
+      "majors": 0
+    },
+    "K. Jackson|BLM": {
+      "minors": 6,
+      "majors": 0
+    },
+    "E. Vilio|CIN": {
+      "minors": 9,
+      "majors": 0
+    },
+    "J. Nelson|IA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "A. Stensson|IA": {
+      "minors": 11,
+      "majors": 1
+    },
+    "E. Leyh|GSO": {
+      "minors": 9,
+      "majors": 1
+    },
+    "P. Kyte|GSO": {
+      "minors": 7,
+      "majors": 1
+    },
+    "T. Andrew|WHL": {
+      "minors": 9,
+      "majors": 0
+    },
+    "J. Brassard|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Bruder|ORL": {
+      "minors": 11,
+      "majors": 2
+    },
+    "Served by P. Laviolette|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "P. Polino|GVL": {
+      "minors": 8,
+      "majors": 1
+    },
+    "C. Kurth|ORL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "P. Berge|GVL": {
+      "minors": 12,
+      "majors": 1
+    },
+    "T. Edwards|SC": {
+      "minors": 0,
+      "majors": 3
+    },
+    "J. Shields|IDH": {
+      "minors": 7,
+      "majors": 0
+    },
+    "F. Arcuri|IDH": {
+      "minors": 15,
+      "majors": 0
+    },
+    "G. Smith|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "G. Loven|ADK": {
+      "minors": 17,
+      "majors": 0
+    },
+    "E. Szmagaj|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Willets|REA": {
+      "minors": 11,
+      "majors": 3
+    },
+    "R. Nolan|ATL": {
+      "minors": 15,
+      "majors": 3
+    },
+    "M. Russell|SAV": {
+      "minors": 3,
+      "majors": 0
+    },
+    "N. Andrews|TOL": {
+      "minors": 7,
+      "majors": 1
+    },
+    "E. Dougherty|KAL": {
+      "minors": 14,
+      "majors": 2
+    },
+    "R. McCourt|TOL": {
+      "minors": 17,
+      "majors": 0
+    },
+    "J. Pietila|TOL": {
+      "minors": 6,
+      "majors": 0
+    },
+    "R. Cox|KAL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "B. Kalmikov|MNE": {
+      "minors": 9,
+      "majors": 0
+    },
+    "T. Schachle|WOR": {
+      "minors": 7,
+      "majors": 0
+    },
+    "Served by A. Repaci|WOR": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Marooney|MNE": {
+      "minors": 4,
+      "majors": 0
+    },
+    "T. Kobryn|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by S. Ott|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Squires|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Krenzen|SC": {
+      "minors": 6,
+      "majors": 0
+    },
+    "D. King|SC": {
+      "minors": 11,
+      "majors": 0
+    },
+    "D. Katic|ALN": {
+      "minors": 28,
+      "majors": 1
+    },
+    "T. Suchanek|TUL": {
+      "minors": 0,
+      "majors": 1
+    },
+    "R. Lautenbach|TUL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "T. Goulbourne|TUL": {
+      "minors": 9,
+      "majors": 1
+    },
+    "J. Nurmi|WOR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "O. Gallatin|MNE": {
+      "minors": 6,
+      "majors": 1
+    },
+    "A. Repaci|WOR": {
+      "minors": 6,
+      "majors": 0
+    },
+    "K. Landry|FLA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "K. Henry|FLA": {
+      "minors": 16,
+      "majors": 2
+    },
+    "J. Jones|FLA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "W. MacKinnon|TOL": {
+      "minors": 7,
+      "majors": 4
+    },
+    "D. Smirnov|TOL": {
+      "minors": 10,
+      "majors": 0
+    },
+    "Served by N. Roy|TOL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Glynn|KC": {
+      "minors": 6,
+      "majors": 0
+    },
+    "R. Richardson|GSO": {
+      "minors": 5,
+      "majors": 2
+    },
+    "J. Adams|ORL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "D. Wendt|ADK": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Ortiz|BLM": {
+      "minors": 8,
+      "majors": 0
+    },
+    "Z. Taylor|IA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Ernst|TOL": {
+      "minors": 10,
+      "majors": 0
+    },
+    "Z. Trott|CIN": {
+      "minors": 10,
+      "majors": 0
+    },
+    "T. Kelly|TOL": {
+      "minors": 15,
+      "majors": 0
+    },
+    "D. Skelly|GSO": {
+      "minors": 4,
+      "majors": 0
+    },
+    "C. Johnson|FLA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Pilon|RC": {
+      "minors": 15,
+      "majors": 3
+    },
+    "A. Venuto|KAL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "N. Walker|KAL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "M. Murphy|FW": {
+      "minors": 4,
+      "majors": 0
+    },
+    "K. Tyutyayev|FW": {
+      "minors": 11,
+      "majors": 0
+    },
+    "E. Olson|ORL": {
+      "minors": 1,
+      "majors": 2
+    },
+    "E. Szmagaj|ORL": {
+      "minors": 9,
+      "majors": 0
+    },
+    "D. Geregach|ORL": {
+      "minors": 9,
+      "majors": 1
+    },
+    "H. Wale|JAX": {
+      "minors": 5,
+      "majors": 0
+    },
+    "J. Cipollone|ATL": {
+      "minors": 7,
+      "majors": 0
+    },
+    "J. Luypen|SC": {
+      "minors": 8,
+      "majors": 0
+    },
+    "P. Guzzo|SC": {
+      "minors": 6,
+      "majors": 0
+    },
+    "B. Raymond|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Vidmar|MNE": {
+      "minors": 6,
+      "majors": 1
+    },
+    "D. Louis-Jean|TR": {
+      "minors": 9,
+      "majors": 0
+    },
+    "M. Suda|WOR": {
+      "minors": 9,
+      "majors": 0
+    },
+    "R. Ginnell|WOR": {
+      "minors": 7,
+      "majors": 1
+    },
+    "I. Mianscum|TR": {
+      "minors": 18,
+      "majors": 2
+    },
+    "C. Odelius|WOR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "D. Elliott|TUL": {
+      "minors": 6,
+      "majors": 1
+    },
+    "K. Betts|FLA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "T. Jordan|JAX": {
+      "minors": 16,
+      "majors": 0
+    },
+    "J. Spetz|JAX": {
+      "minors": 6,
+      "majors": 0
+    },
+    "P. Morgan|ATL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "E. Scardina|ATL": {
+      "minors": 6,
+      "majors": 1
+    },
+    "Served by Z. Trott|CIN": {
+      "minors": 2,
+      "majors": 0
+    },
+    "T. Farrell|KC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "W. Riedell|SAV": {
+      "minors": 6,
+      "majors": 1
+    },
+    "D. Drake|NOR": {
+      "minors": 8,
+      "majors": 0
+    },
+    "Served by J. Wilkins|SC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "A. Chiarot|SC": {
+      "minors": 6,
+      "majors": 2
+    },
+    "Served by J. Michel|REA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Nielsen|MNE": {
+      "minors": 10,
+      "majors": 2
+    },
+    "D. Wells|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Kelley|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Leskovar|IA": {
+      "minors": 14,
+      "majors": 2
+    },
+    "N. Carabin|IA": {
+      "minors": 8,
+      "majors": 1
+    },
+    "E. Matsushima|BLM": {
+      "minors": 11,
+      "majors": 0
+    },
+    "A. Ghantous|KAL": {
+      "minors": 20,
+      "majors": 0
+    },
+    "J. Jaworski|CIN": {
+      "minors": 6,
+      "majors": 1
+    },
+    "Served by C. Lockhart|WHL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "L. Griffin|CIN": {
+      "minors": 5,
+      "majors": 0
+    },
+    "M. Pavlenko|WHL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Works|WHL": {
+      "minors": 13,
+      "majors": 2
+    },
+    "Q. Burns|FLA": {
+      "minors": 6,
+      "majors": 1
+    },
+    "Served by P. Thomas|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Panwar|IND": {
+      "minors": 11,
+      "majors": 0
+    },
+    "Y. Miura|IA": {
+      "minors": 10,
+      "majors": 0
+    },
+    "J. Lee|KAL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "J. Jaunich|KAL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Papp|NOR": {
+      "minors": 7,
+      "majors": 1
+    },
+    "C. Tellier|SAV": {
+      "minors": 16,
+      "majors": 0
+    },
+    "H. Elynuik|FLA": {
+      "minors": 8,
+      "majors": 1
+    },
+    "A. MacDonald|BLM": {
+      "minors": 9,
+      "majors": 1
+    },
+    "N. Blachman|FW": {
+      "minors": 4,
+      "majors": 2
+    },
+    "L. Mobley|IA": {
+      "minors": 6,
+      "majors": 2
+    },
+    "S. Stevens|CIN": {
+      "minors": 19,
+      "majors": 0
+    },
+    "R. Ekström|RC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "C. Krygier|SAV": {
+      "minors": 4,
+      "majors": 2
+    },
+    "B. Hawkins|TOL": {
+      "minors": 9,
+      "majors": 0
+    },
+    "N. Somerville|WIC": {
+      "minors": 8,
+      "majors": 1
+    },
+    "B. McNally|NOR": {
+      "minors": 5,
+      "majors": 2
+    },
+    "S. Gulka|TR": {
+      "minors": 7,
+      "majors": 7
+    },
+    "J. Dion|TR": {
+      "minors": 7,
+      "majors": 0
+    },
+    "J. O'Leary|NOR": {
+      "minors": 6,
+      "majors": 0
+    },
+    "C. Yoder|NOR": {
+      "minors": 19,
+      "majors": 0
+    },
+    "Served by M. Crasa|NOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "E. Serensits|TR": {
+      "minors": 10,
+      "majors": 3
+    },
+    "C. Fillion|UTA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by Z. Jones|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. McDonald|WOR": {
+      "minors": 12,
+      "majors": 0
+    },
+    "D. Sheriff|GVL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "C. McAuley|ALN": {
+      "minors": 7,
+      "majors": 3
+    },
+    "J. Horvath|IDH": {
+      "minors": 13,
+      "majors": 1
+    },
+    "J. Filmon|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Laskosky|IND": {
+      "minors": 3,
+      "majors": 0
+    },
+    "H. Israels|IND": {
+      "minors": 4,
+      "majors": 1
+    },
+    "A. Fulp|JAX": {
+      "minors": 3,
+      "majors": 0
+    },
+    "B. Russell|RC": {
+      "minors": 19,
+      "majors": 1
+    },
+    "L. Devlin|REA": {
+      "minors": 12,
+      "majors": 1
+    },
+    "K. Pehrson|SAV": {
+      "minors": 3,
+      "majors": 0
+    },
+    "A. Pitters|TAH": {
+      "minors": 6,
+      "majors": 0
+    },
+    "Served by C. Ambrosio|TOL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "N. Roy|TOL": {
+      "minors": 7,
+      "majors": 0
+    },
+    "D. Barteaux|NOR": {
+      "minors": 4,
+      "majors": 0
+    },
+    "T. Jette|WIC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "C. Villegas|MNE": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Allen|ORL": {
+      "minors": 8,
+      "majors": 0
+    },
+    "R. Dickinson|ORL": {
+      "minors": 11,
+      "majors": 1
+    },
+    "D. Bunz|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Samuelsson|WOR": {
+      "minors": 11,
+      "majors": 2
+    },
+    "G. Smith|GSO": {
+      "minors": 11,
+      "majors": 0
+    },
+    "T. Bertuzzi|ADK": {
+      "minors": 9,
+      "majors": 1
+    },
+    "P. Thomas|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Murray|GVL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "J. Modry|GVL": {
+      "minors": 11,
+      "majors": 0
+    },
+    "D. McKinney|GSO": {
+      "minors": 5,
+      "majors": 0
+    },
+    "K. Johnson|JAX": {
+      "minors": 6,
+      "majors": 3
+    },
+    "J. Campagna|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by S. Panwar|IND": {
+      "minors": 2,
+      "majors": 0
+    },
+    "L. Pietila|WHL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "T. Janicke|FW": {
+      "minors": 3,
+      "majors": 1
+    },
+    "Served by K. Tyutyayev|FW": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Carson|WOR": {
+      "minors": 5,
+      "majors": 2
+    },
+    "D. Manz|IND": {
+      "minors": 9,
+      "majors": 2
+    },
+    "L. Grainger|CIN": {
+      "minors": 9,
+      "majors": 0
+    },
+    "Served by C. Villegas|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Z. Jones|MNE": {
+      "minors": 3,
+      "majors": 1
+    },
+    "Served by G. Yavaş|NOR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Murphy|RC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Klimek|SC": {
+      "minors": 6,
+      "majors": 4
+    },
+    "D. Seaman|TUL": {
+      "minors": 9,
+      "majors": 4
+    },
+    "S. Brickey|WHL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "B. Edwards|WHL": {
+      "minors": 6,
+      "majors": 0
+    },
+    "B. Michaelian|TOL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "C. Armstrong|WHL": {
+      "minors": 11,
+      "majors": 0
+    },
+    "M. Boislard|ADK": {
+      "minors": 7,
+      "majors": 2
+    },
+    "B. McManus|ADK": {
+      "minors": 9,
+      "majors": 0
+    },
+    "C. Walker|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Conley|NOR": {
+      "minors": 3,
+      "majors": 1
+    },
+    "D. Houle|WIC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "G. Veremyev|WOR": {
+      "minors": 6,
+      "majors": 0
+    },
+    "P. Brandon|ADK": {
+      "minors": 1,
+      "majors": 1
+    },
+    "Served by R. Miotto|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Mastrodonato|GVL": {
+      "minors": 5,
+      "majors": 1
+    },
+    "B. Less|ATL": {
+      "minors": 1,
+      "majors": 1
+    },
+    "Served by D. Sheriff|GVL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Teasdale|TR": {
+      "minors": 7,
+      "majors": 1
+    },
+    "R. Hernández|WHL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "M. Barbashev|UTA": {
+      "minors": 11,
+      "majors": 1
+    },
+    "L. Malmquist|IDH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Burgin|KC": {
+      "minors": 13,
+      "majors": 0
+    },
+    "C. Enns|UTA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "T. LeDonne|ALN": {
+      "minors": 8,
+      "majors": 0
+    },
+    "M. Johnson|ALN": {
+      "minors": 2,
+      "majors": 1
+    },
+    "J. Bouquot|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Carabia|ATL": {
+      "minors": 6,
+      "majors": 1
+    },
+    "Served by Z. Okabe|KAL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. LeGuerrier|IND": {
+      "minors": 3,
+      "majors": 0
+    },
+    "O. Robinson|IND": {
+      "minors": 7,
+      "majors": 0
+    },
+    "Served by P. Moynihan|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Gendron|REA": {
+      "minors": 10,
+      "majors": 2
+    },
+    "A. Bergmanis|RC": {
+      "minors": 1,
+      "majors": 1
+    },
+    "Served by J. Biro|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "F. Harding|WHL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "D. Amesbury|UTA": {
+      "minors": 1,
+      "majors": 1
+    },
+    "J. van de Leest|ADK": {
+      "minors": 4,
+      "majors": 1
+    },
+    "N. Anderson|MNE": {
+      "minors": 3,
+      "majors": 0
+    },
+    "T. Fizer|FLA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "A. Guryev|REA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "C. Berger|REA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by J. Adams|ORL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by B. Brodzinski|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Z. Funk|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Pedersen|GVL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "Served by M. Hubbarde|RC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by A. Aleardi|FW": {
+      "minors": 5,
+      "majors": 0
+    },
+    "M. Lewandowski|TOL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "J. Biro|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Gormley|WIC": {
+      "minors": 7,
+      "majors": 3
+    },
+    "R. Parker|CIN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Parker-Jones|GVL": {
+      "minors": 13,
+      "majors": 7
+    },
+    "C. Combs|SC": {
+      "minors": 19,
+      "majors": 1
+    },
+    "Served by L. McCallum|KC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "K. Smith|TUL": {
+      "minors": 7,
+      "majors": 1
+    },
+    "K. Johnson|GSO": {
+      "minors": 5,
+      "majors": 3
+    },
+    "Served by G. Veremyev|WOR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "R. McGuire|IA": {
+      "minors": 12,
+      "majors": 1
+    },
+    "J. Novak|KC": {
+      "minors": 2,
+      "majors": 0
+    },
+    "H. Strand|KAL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "Z. Yoder|ATL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "D. Fitze|TUL": {
+      "minors": 10,
+      "majors": 0
+    },
+    "J. Brassard|TUL": {
+      "minors": 13,
+      "majors": 0
+    },
+    "Served by B. Carrabes|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Truscott|TOL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "T. Thompson|MNE": {
+      "minors": 6,
+      "majors": 0
+    },
+    "M. Deelstra|MNE": {
+      "minors": 8,
+      "majors": 1
+    },
+    "B. Poisson|GVL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by C. Brown|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Crnkovic|WIC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "S. Harper|ADK": {
+      "minors": 2,
+      "majors": 0
+    },
+    "D. Daschke|KAL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Gengenbach|KAL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "D. McFaul|FW": {
+      "minors": 3,
+      "majors": 1
+    },
+    "Served by R. Richardson|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Kirwan|CIN": {
+      "minors": 3,
+      "majors": 0
+    },
+    "S. Cox|CIN": {
+      "minors": 7,
+      "majors": 0
+    },
+    "K. Stewart|IA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "W. Hillman|TOL": {
+      "minors": 12,
+      "majors": 0
+    },
+    "N. Orzeck|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "G. Blanchard|WOR": {
+      "minors": 2,
+      "majors": 1
+    },
+    "R. Cronin|MNE": {
+      "minors": 13,
+      "majors": 1
+    },
+    "B. Fleurent|NOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. LaFontaine|KC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "E. Powell|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by C. Tellier|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Gregga|SAV": {
+      "minors": 9,
+      "majors": 2
+    },
+    "V. Buteyets|TUL": {
+      "minors": 0,
+      "majors": 0
+    },
+    "T. Feist|FW": {
+      "minors": 4,
+      "majors": 0
+    },
+    "G. Silianoff|IDH": {
+      "minors": 3,
+      "majors": 0
+    },
+    "C. Martin|JAX": {
+      "minors": 8,
+      "majors": 0
+    },
+    "A. Luchuk|ORL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "M. Bullion|JAX": {
+      "minors": 5,
+      "majors": 0
+    },
+    "K. Heitzner|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Poulsen|TUL": {
+      "minors": 8,
+      "majors": 1
+    },
+    "R. Connors|UTA": {
+      "minors": 11,
+      "majors": 1
+    },
+    "B. Lindberg|ADK": {
+      "minors": 6,
+      "majors": 0
+    },
+    "H. Johannes|REA": {
+      "minors": 8,
+      "majors": 0
+    },
+    "C. Valerian|TAH": {
+      "minors": 8,
+      "majors": 1
+    },
+    "M. Koethe|IA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Jaunich|NOR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by B. McManus|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by C. Golder|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Carabin|CIN": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. De St. Phalle|WHL": {
+      "minors": 10,
+      "majors": 0
+    },
+    "Served by D. Goure|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Tiessen|RC": {
+      "minors": 5,
+      "majors": 0
+    },
+    "Served by N. Portz|IDH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Gelatt|UTA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "Served by J. Lukosevicius|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Gustafson|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by M. Sop|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Edward|MNE": {
+      "minors": 9,
+      "majors": 2
+    },
+    "Served by E. Armstrong|TUL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by J. Parker-Jones|GVL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Sullivan|SAV": {
+      "minors": 3,
+      "majors": 1
+    },
+    "L. Persson|SC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "M. Boislard|UTA": {
+      "minors": 7,
+      "majors": 4
+    },
+    "M. Colella|UTA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by M. Colella|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Gursoy|ALN": {
+      "minors": 9,
+      "majors": 0
+    },
+    "M. Van Unen|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Paquette|IND": {
+      "minors": 3,
+      "majors": 1
+    },
+    "B. Moore|GVL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Butler|IA": {
+      "minors": 11,
+      "majors": 2
+    },
+    "K. Jeri-Leon|IA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "B. Keeper|RC": {
+      "minors": 2,
+      "majors": 1
+    },
+    "C. Marritt|TAH": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Joyce|RC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "C. Federkow|WOR": {
+      "minors": 4,
+      "majors": 0
+    },
+    "I. Nurse|FLA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "A. Rinaldi|GSO": {
+      "minors": 2,
+      "majors": 0
+    },
+    "R. Appelt|ATL": {
+      "minors": 6,
+      "majors": 2
+    },
+    "R. Parker|GVL": {
+      "minors": 3,
+      "majors": 1
+    },
+    "C. Smedsrud|RC": {
+      "minors": 5,
+      "majors": 0
+    },
+    "G. Fox|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Moore|BLM": {
+      "minors": 2,
+      "majors": 0
+    },
+    "D. Amesbury|ADK": {
+      "minors": 12,
+      "majors": 9
+    },
+    "A. Campbell|ADK": {
+      "minors": 3,
+      "majors": 0
+    },
+    "L. Cavallin|MNE": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Salhany|ADK": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Musser|NOR": {
+      "minors": 7,
+      "majors": 0
+    },
+    "Served by K. Gursoy|ALN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Gaudreau|TR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Amonte|SAV": {
+      "minors": 4,
+      "majors": 0
+    },
+    "N. Massie|IA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "Served by K. Iverson|TUL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by L. Kaebel|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "E. Pieniniemi|WHL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Basse|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Stucker|UTA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "L. Lambdin|FLA": {
+      "minors": 6,
+      "majors": 0
+    },
+    "G. Klotz|RC": {
+      "minors": 5,
+      "majors": 4
+    },
+    "G. Ness|KAL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "R. Pitoscia|JAX": {
+      "minors": 7,
+      "majors": 0
+    },
+    "L. Gorman|MNE": {
+      "minors": 6,
+      "majors": 1
+    },
+    "N. Noel|NOR": {
+      "minors": 15,
+      "majors": 3
+    },
+    "Served by C. McAuley|ALN": {
+      "minors": 0,
+      "majors": 1
+    },
+    "T. Prefontaine|ALN": {
+      "minors": 9,
+      "majors": 0
+    },
+    "Served by S. Gulka|TR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Abramov|BLM": {
+      "minors": 2,
+      "majors": 0
+    },
+    "E. Martin|IND": {
+      "minors": 3,
+      "majors": 0
+    },
+    "D. Keefer|KAL": {
+      "minors": 6,
+      "majors": 0
+    },
+    "T. Kobryn|IND": {
+      "minors": 2,
+      "majors": 0
+    },
+    "T. Broadhurst|IND": {
+      "minors": 2,
+      "majors": 0
+    },
+    "P. Laviolette|ORL": {
+      "minors": 6,
+      "majors": 2
+    },
+    "J. Nachbaur|SC": {
+      "minors": 3,
+      "majors": 1
+    },
+    "N. Quapp|GSO": {
+      "minors": 1,
+      "majors": 1
+    },
+    "G. Bjorklund|SC": {
+      "minors": 0,
+      "majors": 1
+    },
+    "B. Wells|TAH": {
+      "minors": 3,
+      "majors": 0
+    },
+    "T. Edwards|ADK": {
+      "minors": 9,
+      "majors": 4
+    },
+    "J. Pulkkinen|WOR": {
+      "minors": 6,
+      "majors": 0
+    },
+    "A. Messuri|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Oleksy|JAX": {
+      "minors": 4,
+      "majors": 0
+    },
+    "Served by K. Johnson|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Julien|NOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Greco|ALN": {
+      "minors": 2,
+      "majors": 0
+    },
+    "R. Finnegan|WIC": {
+      "minors": 4,
+      "majors": 0
+    },
+    "J. O'Brien|ATL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "L. Sim|CIN": {
+      "minors": 7,
+      "majors": 2
+    },
+    "M. Nevers|IDH": {
+      "minors": 3,
+      "majors": 0
+    },
+    "Served by J. Steinmetz|IDH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Montgomery|GSO": {
+      "minors": 7,
+      "majors": 2
+    },
+    "Served by C. McCabe|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Robilotti|IA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "L. Nijhoff|TR": {
+      "minors": 5,
+      "majors": 0
+    },
+    "L. Grissom|GVL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by C. Buhl|RC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by C. Joyce|RC": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Wanner|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Z. Jordan|MNE": {
+      "minors": 16,
+      "majors": 0
+    },
+    "A. Venuto|MNE": {
+      "minors": 2,
+      "majors": 0
+    },
+    "N. Orzeck|ATL": {
+      "minors": 6,
+      "majors": 0
+    },
+    "C. Huard|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Mastrangeli|REA": {
+      "minors": 4,
+      "majors": 0
+    },
+    "S. Kennedy|UTA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "T. Outen|WIC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Lennox|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by D. Callin|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by B. Pedersen|GVL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Penney|FLA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "Served by R. Pitoscia|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "L. Coughlin|IA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Z. Bannister|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "G. Devine|REA": {
+      "minors": 8,
+      "majors": 0
+    },
+    "J. Schultz|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by T. Edwards|ADK": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Costantini|JAX": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Copponi|FW": {
+      "minors": 6,
+      "majors": 0
+    },
+    "C. Knuble|KAL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Baum|IDH": {
+      "minors": 2,
+      "majors": 0
+    },
+    "G. McCrory|GSO": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by M. Deelstra|MNE": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Böll|BLM": {
+      "minors": 1,
+      "majors": 1
+    },
+    "L. McCallum|FW": {
+      "minors": 2,
+      "majors": 0
+    },
+    "K. Gervais|KAL": {
+      "minors": 0,
+      "majors": 1
+    },
+    "M. Jurusik|TOL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Kumpulainen|IA": {
+      "minors": 8,
+      "majors": 0
+    },
+    "A. Firriolo|IA": {
+      "minors": 6,
+      "majors": 0
+    },
+    "D. Savenkov|NOR": {
+      "minors": 2,
+      "majors": 2
+    },
+    "B. Moore|SC": {
+      "minors": 9,
+      "majors": 3
+    },
+    "L. Jirousek|TUL": {
+      "minors": 7,
+      "majors": 1
+    },
+    "B. Arvanitis|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Stewart|MNE": {
+      "minors": 1,
+      "majors": 3
+    },
+    "Served by L. Fuller|TR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Saint|REA": {
+      "minors": 5,
+      "majors": 2
+    },
+    "A. Kurapov|REA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Beraldo|ADK": {
+      "minors": 5,
+      "majors": 2
+    },
+    "T. Rask|GSO": {
+      "minors": 8,
+      "majors": 3
+    },
+    "L. Sowder|KC": {
+      "minors": 5,
+      "majors": 0
+    },
+    "Served by M. Myers|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Coatta|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Gelatt|UTA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "Served by D. Dzhaniyev|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by J. Cipollone|ATL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by L. Breen|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Hubbarde|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by G. Loven|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. McCabe|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Crane|NOR": {
+      "minors": 4,
+      "majors": 0
+    },
+    "Served by B. Bennett|RC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "H. Schreifels|UTA": {
+      "minors": 5,
+      "majors": 0
+    },
+    "Served by A. Firriolo|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "I. Pierce|RC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "L. Antonacci|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Felix|MNE": {
+      "minors": 9,
+      "majors": 4
+    },
+    "Served by B. Kalmikov|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Touré|ALN": {
+      "minors": 5,
+      "majors": 0
+    },
+    "Served by A. Beauregard|TR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "B. Biondi|GSO": {
+      "minors": 11,
+      "majors": 1
+    },
+    "R. Hunter|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "W. Murphy|GVL": {
+      "minors": 8,
+      "majors": 0
+    },
+    "L. Helland|RC": {
+      "minors": 2,
+      "majors": 1
+    },
+    "J. Parsons|ALN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by E. Martin|IND": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by N. Delmas|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "O. Lindmark|TUL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "K. Isogai|GVL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by N. Susuyev|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Thompson|WHL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Schiavon|IND": {
+      "minors": 3,
+      "majors": 2
+    },
+    "B. Morrison|BLM": {
+      "minors": 6,
+      "majors": 1
+    },
+    "R. Olsen|WIC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Susuyev|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Berke|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by G. Devine|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "H. Hall|WOR": {
+      "minors": 1,
+      "majors": 1
+    },
+    "J. Brodeur|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "O. Cole|WHL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "C. Fraser|GVL": {
+      "minors": 6,
+      "majors": 2
+    },
+    "Served by W. Gavin|KC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by H. Crone|ALN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. McMaster|JAX": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Murray|FW": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Petruzzelli|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Dabrowski|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by C. Hausinger|GVL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Drazner|KAL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "J. Bloom|KAL": {
+      "minors": 0,
+      "majors": 2
+    },
+    "J. Nelson|TUL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "A. Bakanov|TUL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "P. Kyte|FLA": {
+      "minors": 3,
+      "majors": 0
+    },
+    "R. Helliwell|ADK": {
+      "minors": 2,
+      "majors": 0
+    },
+    "L. Henault|FW": {
+      "minors": 4,
+      "majors": 0
+    },
+    "J. Marooney|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by K. Jeri-Leon|IA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by L. Gorman|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Neuber|FLA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by C. Combs|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "L. Grissom|JAX": {
+      "minors": 3,
+      "majors": 0
+    },
+    "L. Griffin|JAX": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Z. Urdahl|WHL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "B. Dowler|KAL": {
+      "minors": 2,
+      "majors": 1
+    },
+    "Served by C. Lipe|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Waldron|TOL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Chiarot|CIN": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Underwood|MNE": {
+      "minors": 2,
+      "majors": 0
+    },
+    "K. Fenton|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Groll|FW": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by L. Nelson|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "G. Yavaş|TUL": {
+      "minors": 5,
+      "majors": 0
+    },
+    "J. Chiasson|ALN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "V. Sevigny|REA": {
+      "minors": 4,
+      "majors": 1
+    },
+    "T. Friedmann|JAX": {
+      "minors": 3,
+      "majors": 0
+    },
+    "Served by T. Amonte|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by D. Pilon|RC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Kuqali|WHL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Gravelle|TR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "M. Laferrière|TR": {
+      "minors": 3,
+      "majors": 0
+    },
+    "G. Müller|ORL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "L. LaMaster|KC": {
+      "minors": 2,
+      "majors": 0
+    },
+    "D. Massie|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "P. Schachle|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Noel|UTA": {
+      "minors": 10,
+      "majors": 1
+    },
+    "L. Cockerill|JAX": {
+      "minors": 3,
+      "majors": 0
+    },
+    "Served by B. Stannard|CIN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Gagnier|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by C. Carreau|KC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Marooney|KC": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. Sutter|NOR": {
+      "minors": 0,
+      "majors": 0
+    },
+    "M. Van Unen|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Schultz|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Borodaenko|WIC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "W. Magnuson|NOR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "Served by M. O'Leary|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "P. Grasso|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. Kruse|TOL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "K. Tiessen|IND": {
+      "minors": 3,
+      "majors": 0
+    },
+    "G. Bernier|CIN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by D. Amesbury|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "P. Laviolette|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Acosta|WOR": {
+      "minors": 3,
+      "majors": 0
+    },
+    "B. Lindberg|TAH": {
+      "minors": 4,
+      "majors": 1
+    },
+    "J. Michaud|TR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Kennedy|CIN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Maxwell|ALN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Gaudette|ATL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "E. Olson|TAH": {
+      "minors": 0,
+      "majors": 1
+    },
+    "Served by P. Bajkov|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by J. Groll|FW": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Schlepp|WOR": {
+      "minors": 1,
+      "majors": 2
+    },
+    "Served by R. Duke|FLA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Z. Murray|TUL": {
+      "minors": 2,
+      "majors": 1
+    },
+    "D. Gratton|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "O. Tarr|WIC": {
+      "minors": 2,
+      "majors": 0
+    },
+    "W. Hillman|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Kiecker-Olson|NOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "L. Sillinger|ALN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. MacDougall|FLA": {
+      "minors": 2,
+      "majors": 1
+    },
+    "T. Crowe|GSO": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Fillion|WIC": {
+      "minors": 0,
+      "majors": 1
+    },
+    "M. Weeks|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Kunz|KAL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Ness|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Pascucci|NOR": {
+      "minors": 0,
+      "majors": 1
+    },
+    "A. Smith|ALN": {
+      "minors": 1,
+      "majors": 3
+    },
+    "T. Ewart|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Grondin|ATL": {
+      "minors": 2,
+      "majors": 1
+    },
+    "R. Ansons|WHL": {
+      "minors": 1,
+      "majors": 1
+    },
+    "E. Chouinard|REA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. DeMelis|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Semptimphelter|ATL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Palocsik|WIC": {
+      "minors": 3,
+      "majors": 0
+    },
+    "D. Goure|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by B. Morrison|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "�. Charron|TR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by D. Duhart|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Colella|RC": {
+      "minors": 2,
+      "majors": 0
+    },
+    "G. Best|WIC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Landry|ORL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "R. Dickinson|TAH": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Hooker|TUL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Y. Yevdokimov|UTA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "L. Kidney|CIN": {
+      "minors": 2,
+      "majors": 0
+    },
+    "N. Girouard|TR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Kuzma|GSO": {
+      "minors": 2,
+      "majors": 0
+    },
+    "A. DiPaolo|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "X. Jean-Louis|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "A. Gravel|SC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Stewart|TAH": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by Z. Murray|TUL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Mutala|TUL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Lee|TUL": {
+      "minors": 0,
+      "majors": 1
+    },
+    "R. McAllister|WHL": {
+      "minors": 3,
+      "majors": 0
+    },
+    "S. Jonsson|FW": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Griebel|JAX": {
+      "minors": 2,
+      "majors": 0
+    },
+    "N. Shea|GVL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Gault|GVL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Pietila|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "I. Chukarov|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by J. Vaive|CIN": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. MacArthur|KC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Lombardi|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "C. Focht|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Stewart|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Anderson|ORL": {
+      "minors": 4,
+      "majors": 0
+    },
+    "N. Blachman|FLA": {
+      "minors": 2,
+      "majors": 1
+    },
+    "H. Sansbury|FLA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "J. Simoneau|REA": {
+      "minors": 2,
+      "majors": 0
+    },
+    "S. Gulka|ADK": {
+      "minors": 1,
+      "majors": 0
+    },
+    "R. Dickinson|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "D. Savenkov|MNE": {
+      "minors": 0,
+      "majors": 1
+    },
+    "N. Pennucci|WOR": {
+      "minors": 1,
+      "majors": 1
+    },
+    "B. Lindberg|WOR": {
+      "minors": 2,
+      "majors": 0
+    },
+    "L. Will|FLA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "E. Langenegger|ORL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "S. Skalde|ORL": {
+      "minors": 0,
+      "majors": 1
+    },
+    "S. Cox|IND": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Kane|BLM": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by J. Perreault|MNE": {
+      "minors": 1,
+      "majors": 0
+    },
+    "N. Berke|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by M. DeMelis|WOR": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. Burnie|WHL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "T. LeDonne|WHL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "J. Lemieux|KAL": {
+      "minors": 1,
+      "majors": 0
+    },
+    "O. Gallatin|FW": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by I. Fox|IA": {
+      "minors": 1,
+      "majors": 0
+    },
+    "B. McNally|FW": {
+      "minors": 2,
+      "majors": 0
+    },
+    "N. Robinson|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "K. Jeffers|SAV": {
+      "minors": 1,
+      "majors": 0
+    },
+    "I. Chibrikov|JAX": {
+      "minors": 1,
+      "majors": 0
+    },
+    "Served by Z. Bannister|REA": {
+      "minors": 1,
+      "majors": 0
+    }
+  },
+  "scrapedAt": "2026-03-20T18:46:56.865Z"
+}

@@ -1374,7 +1374,62 @@ async function main() {
       else playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G" });
     }
   }
-  // minors/majors can't be computed from player data — trust the scraped leader table as-is
+  // Compute minors/majors from persistent penalty-stats.json (accumulated across scraper runs)
+  let penStats;
+  try { penStats = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "penalty-stats.json"), "utf8")); }
+  catch (_) { penStats = { players: {} }; }
+
+  // Build abbreviated-name → full-name lookup (boxscore penalties use "T. Inamoto", player data uses "Takumi Inamoto")
+  const abbrToFull = new Map();
+  for (const [name] of playerMeta) {
+    const parts = name.split(" ");
+    if (parts.length >= 2) {
+      const abbr = parts[0][0] + ". " + parts.slice(1).join(" ");
+      if (abbrToFull.has(abbr)) abbrToFull.set(abbr, null); // ambiguous
+      else abbrToFull.set(abbr, name);
+    }
+  }
+
+  // Aggregate penalty stats per player across all teams (trades mid-season)
+  // and find their current team from playerMeta/allSkaters
+  const playerAbbrToCurrentTeam = new Map();
+  for (const s of allSkaters) {
+    const parts = s.player.split(" ");
+    if (parts.length >= 2) {
+      const abbr = parts[0][0] + ". " + parts.slice(1).join(" ");
+      playerAbbrToCurrentTeam.set(abbr, s.team); // last active team wins
+    }
+  }
+
+  const penaltyLeaders = (statKey) => {
+    // Sum stats across all teams for same abbreviated name
+    const playerTotals = {};
+    for (const [key, stats] of Object.entries(penStats.players)) {
+      const [abbrName] = key.split("|");
+      if (abbrName.startsWith("Served by ")) continue; // skip "Served by" entries
+      if ((stats[statKey] ?? 0) === 0) continue;
+      if (!playerTotals[abbrName]) playerTotals[abbrName] = 0;
+      playerTotals[abbrName] += stats[statKey];
+    }
+    const entries = Object.entries(playerTotals)
+      .map(([abbrName, value]) => {
+        const fullName = abbrToFull.get(abbrName) || abbrName;
+        const team = playerAbbrToCurrentTeam.get(abbrName) || "";
+        const meta = playerMeta.get(fullName);
+        return { name: fullName, team, value, isRookie: meta?.isRookie ?? false, position: meta?.position ?? "" };
+      })
+      .filter((e) => e.team) // must have a current team (still active in league)
+      .sort((a, b) => b.value - a.value);
+    let rank = 1;
+    return entries.map((e, i) => {
+      if (i > 0 && e.value !== entries[i - 1].value) rank = i + 1;
+      return { rank, ...e };
+    });
+  };
+
+  leaders.minors = penaltyLeaders("minors");
+  leaders.majors = penaltyLeaders("majors");
+
   const skipInactiveFilter = new Set(["minors", "majors"]);
   for (const key of Object.keys(leaders)) {
     leaders[key] = leaders[key]
@@ -1534,6 +1589,42 @@ async function main() {
   gameAttData.scrapedAt = now;
   if (writeJSON(gameAttPath, gameAttData)) {
     console.log(`  ✓ game-attendance.json (${gameAttData.games.length} games, ${newGamesAtt.length} new)`);
+    changed++;
+  }
+
+  // Build persistent penalty-stats.json (merge new boxscore penalties into existing)
+  const penaltyStatsPath = path.join(DATA_DIR, "penalty-stats.json");
+  let penaltyStats;
+  try { penaltyStats = JSON.parse(fs.readFileSync(penaltyStatsPath, "utf8")); }
+  catch (_) { penaltyStats = { processedGames: [], players: {} }; }
+  const processedGameSet = new Set(penaltyStats.processedGames || []);
+  const cityAbbrMap = {};
+  Object.values(TEAMS).forEach((t) => { cityAbbrMap[t.city.toLowerCase()] = t.abbr; });
+  let newPenaltyGames = 0;
+  for (const bs of allCurrentBoxscores) {
+    const gid = bs.gameInfo?.gameId;
+    if (!gid || !bs.isFinal || !bs.penalties || processedGameSet.has(gid)) continue;
+    processedGameSet.add(gid);
+    newPenaltyGames++;
+    const teamMap = {
+      V: cityAbbrMap[(bs.gameInfo.visitingTeam || "").toLowerCase()] || "",
+      H: cityAbbrMap[(bs.gameInfo.homeTeam || "").toLowerCase()] || "",
+    };
+    for (const pen of bs.penalties) {
+      const name = cleanName(pen.player || "");
+      const abbr = teamMap[pen.team] || "";
+      if (!name || !abbr) continue;
+      const key = `${name}|${abbr}`;
+      if (!penaltyStats.players[key]) penaltyStats.players[key] = { minors: 0, majors: 0 };
+      if (pen.minutes === 2) penaltyStats.players[key].minors += 1;
+      if (pen.minutes === 4) penaltyStats.players[key].minors += 2; // double minor
+      if (pen.minutes === 5) penaltyStats.players[key].majors += 1;
+    }
+  }
+  penaltyStats.processedGames = [...processedGameSet];
+  penaltyStats.scrapedAt = now;
+  if (writeJSON(penaltyStatsPath, penaltyStats)) {
+    console.log(`  ✓ penalty-stats.json (${Object.keys(penaltyStats.players).length} players, ${newPenaltyGames} new games)`);
     changed++;
   }
 

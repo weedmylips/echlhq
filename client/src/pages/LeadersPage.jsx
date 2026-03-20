@@ -59,7 +59,7 @@ function StatCard({ cat, leaders }) {
   const sorted = cat.lower
     ? [...rawData].sort((a, b) => a.value - b.value)
     : [...rawData].sort((a, b) => b.value - a.value);
-  const top5 = sorted.slice(0, 5);
+  const top = sorted.slice(0, 10);
 
   return (
     <div className="stat-card">
@@ -67,11 +67,11 @@ function StatCard({ cat, leaders }) {
         {cat.label}
         {cat.note && <span className="stat-card-note">{cat.note}</span>}
       </div>
-      {top5.length === 0 ? (
+      {top.length === 0 ? (
         <div className="stat-card-empty">No data</div>
       ) : (
         <ol className="stat-card-list">
-          {top5.map((p, i) => (
+          {top.map((p, i) => (
             <li
               key={i}
               className={`stat-row${i === 0 ? " stat-row--first" : ""}${i % 2 !== 0 ? " stat-row--alt" : ""}`}
@@ -97,15 +97,15 @@ function StatCard({ cat, leaders }) {
 }
 
 function FightingMajorsCard({ data }) {
-  const top5 = (data?.leaders || []).slice(0, 5);
+  const top = (data?.leaders || []).slice(0, 10);
   return (
     <div className="stat-card">
       <div className="stat-card-header">FIGHTING MAJORS</div>
-      {top5.length === 0 ? (
+      {top.length === 0 ? (
         <div className="stat-card-empty">No data</div>
       ) : (
         <ol className="stat-card-list">
-          {top5.map((p, i) => (
+          {top.map((p, i) => (
             <li
               key={i}
               className={`stat-row${i === 0 ? " stat-row--first" : ""}${i % 2 !== 0 ? " stat-row--alt" : ""}`}
