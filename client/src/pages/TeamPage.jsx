@@ -467,7 +467,15 @@ export default function TeamPage() {
                     const teamFighters = (fightingMajorsData?.leaders || [])
                       .filter((p) => {
                         if (p.team.toLowerCase() !== team.city.toLowerCase()) return false;
-                        const onRoster = skaters.some((s) => normalize(s.player) === normalize(p.name));
+                        // Fighting majors uses "C. McNelly", players uses "Cade McNelly"
+                        const fmLast = p.name.split(" ").slice(1).join(" ").toLowerCase();
+                        const fmInit = p.name[0]?.toLowerCase();
+                        const onRoster = skaters.some((s) => {
+                          const full = normalize(s.player);
+                          const sLast = full.split(" ").slice(1).join(" ");
+                          const sInit = full[0];
+                          return sLast === fmLast && sInit === fmInit;
+                        });
                         return onRoster;
                       })
                       .slice(0, 5);
