@@ -21,6 +21,14 @@ export function useLeaders() {
   });
 }
 
+export function useFightingMajors() {
+  return useQuery({
+    queryKey: ["fightingMajors"],
+    queryFn: api.fightingMajors,
+    staleTime: STALE,
+  });
+}
+
 export function useScores() {
   return useQuery({
     queryKey: ["scores"],

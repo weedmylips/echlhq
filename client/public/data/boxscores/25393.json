@@ -1,0 +1,750 @@
+{
+  "gameInfo": {
+    "gameId": 25393,
+    "visitingTeam": "Allen",
+    "homeTeam": "Tulsa",
+    "date": "Oct 11, 2025",
+    "arena": "WeStreet Ice Center",
+    "attendance": 858,
+    "finalScore": {
+      "visiting": 5,
+      "home": 0
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "12:52",
+      "team": "ALN",
+      "scorer": "B. Simmons-Fischer (1)",
+      "assists": "R. Hunter",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "16:09",
+      "team": "ALN",
+      "scorer": "T. Caron (1)",
+      "assists": "S. Asuchak, K. Spinozzi",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "1:44",
+      "team": "ALN",
+      "scorer": "H. Blaisdell (1)",
+      "assists": "K. Spinozzi, T. Caron",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "15:49",
+      "team": "ALN",
+      "scorer": "H. Blaisdell (2)",
+      "assists": "J. Decker, S. Asuchak",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "17:49",
+      "team": "ALN",
+      "scorer": "M. Gildon (1)",
+      "assists": "M. Duarte, D. Katic",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Allen",
+      "p1": 18,
+      "p2": 8,
+      "p3": 9,
+      "ot": 0,
+      "total": 35
+    },
+    {
+      "team": "Tulsa",
+      "p1": 11,
+      "p2": 11,
+      "p3": 9,
+      "ot": 0,
+      "total": 31
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "J. Parsons",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "Q. Warmuth",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "B. Reller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "B. Simmons-Fischer",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "H. Wilson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "R. Hunter",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "T. Caron",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "H. Blaisdell",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "J. Decker",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "S. Sedley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 5,
+        "pim": 2
+      },
+      {
+        "number": "26",
+        "name": "S. Asuchak",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "M. Duarte",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "T. Murray",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 5
+      },
+      {
+        "number": "40",
+        "name": "A. Smith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 15
+      },
+      {
+        "number": "44",
+        "name": "K. Spinozzi",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "55",
+        "name": "D. Katic",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "A. Anania",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "M. Gildon",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 9,
+        "pts": 14,
+        "plusMinus": 15,
+        "shots": 33,
+        "pim": 24
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "T. Suchanek",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "30",
+        "name": "V. Buteyets",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "W. Francis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "K. Iverson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "10",
+        "name": "D. Comeau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "T. Poulsen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "13",
+        "name": "T. Goulbourne",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "N. Wong",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "J. Nelson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "21",
+        "name": "M. Davies",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. McMaster",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "M. McKee",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "27",
+        "name": "E. Armstrong",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "Z. Brooks",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "D. Seaman",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 5
+      },
+      {
+        "number": "36",
+        "name": "M. Henry",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 15
+      },
+      {
+        "number": "37",
+        "name": "L. Kaebel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "41",
+        "name": "T. Faith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "R. Kinal",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "45",
+        "name": "J. Wiebe",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -15,
+        "shots": 31,
+        "pim": 28
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "minsPlayed": "29:42",
+        "shotsAgainst": 14,
+        "saves": 14,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "31",
+        "name": "J. Parsons",
+        "minsPlayed": "30:18",
+        "shotsAgainst": 17,
+        "saves": 17,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 31,
+        "ga": 0,
+        "svPct": 1
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "T. Suchanek",
+        "minsPlayed": "29:42",
+        "shotsAgainst": 21,
+        "saves": 18,
+        "ga": 3,
+        "svPct": 0.857
+      },
+      {
+        "number": "30",
+        "name": "V. Buteyets",
+        "minsPlayed": "30:18",
+        "shotsAgainst": 14,
+        "saves": 12,
+        "ga": 2,
+        "svPct": 0.857
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 35,
+        "saves": 30,
+        "ga": 5,
+        "svPct": 0.857
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "K. Spinozzi",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "1:47"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "T. Poulsen",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "14:10"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "K. Iverson",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "3:17"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "T. Murray",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "6:23"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "A. Smith",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "6:23"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "M. Henry",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "6:23"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "D. Seaman",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "6:23"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "A. Smith",
+      "minutes": 10,
+      "infraction": "Game Misconduct - Second Fight (20.4)",
+      "time": "8:13"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "M. Henry",
+      "minutes": 10,
+      "infraction": "Game Misconduct - Second Fight (20.4)",
+      "time": "8:14"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "M. McKee",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "15:42"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Nelson",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "18:01"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "S. Sedley",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "7:29"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "ALN",
+      "name": "H. Blaisdell",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "ALN",
+      "name": "J. Parsons",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "ALN",
+      "name": "M. Costantini",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-20T17:30:34.308Z"
+}

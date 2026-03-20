@@ -1,0 +1,721 @@
+{
+  "gameInfo": {
+    "gameId": 24310,
+    "visitingTeam": "Fort Wayne",
+    "homeTeam": "Kalamazoo",
+    "date": "Oct 18, 2025",
+    "arena": "Wings Event Center",
+    "attendance": 3866,
+    "finalScore": {
+      "visiting": 6,
+      "home": 5
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "5:29",
+      "team": "FW",
+      "scorer": "M. Brown (1)",
+      "assists": "B. Murray",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "6:23",
+      "team": "FW",
+      "scorer": "J. Smereck (1)",
+      "assists": "M. Brown",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "18:56",
+      "team": "KAL",
+      "scorer": "C. Bilek (1)",
+      "assists": "Q. Preston",
+      "strength": "SH"
+    },
+    {
+      "period": "2nd",
+      "time": "2:52",
+      "team": "FW",
+      "scorer": "K. Tyutyayev (2)",
+      "assists": "A. Aleardi, B. Murray",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "9:28",
+      "team": "FW",
+      "scorer": "M. Brown (2)",
+      "assists": "A. Aleardi",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "2:38",
+      "team": "KAL",
+      "scorer": "R. Cox (1)",
+      "assists": "C. Knuble, R. Drazner",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "8:21",
+      "team": "KAL",
+      "scorer": "B. Christensen (1)",
+      "assists": "R. Helliwell, C. Bilek",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "12:07",
+      "team": "FW",
+      "scorer": "T. Janicke (1)",
+      "assists": "J. Smereck, J. Grubbe",
+      "strength": "SH"
+    },
+    {
+      "period": "3rd",
+      "time": "16:58",
+      "team": "KAL",
+      "scorer": "C. Bilek (2)",
+      "assists": "Q. Preston, D. Pennington",
+      "strength": "PP"
+    },
+    {
+      "period": "3rd",
+      "time": "18:56",
+      "team": "KAL",
+      "scorer": "C. Bilek (3)",
+      "assists": "Q. Preston, Z. Okabe",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "19:53",
+      "team": "FW",
+      "scorer": "A. Magera (1)",
+      "assists": "K. Tyutyayev, J. Smereck",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Fort Wayne",
+      "p1": 13,
+      "p2": 10,
+      "p3": 6,
+      "ot": 0,
+      "total": 29
+    },
+    {
+      "team": "Kalamazoo",
+      "p1": 11,
+      "p2": 7,
+      "p3": 12,
+      "ot": 0,
+      "total": 30
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "N. Day",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "S. Jonsson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "J. Groll",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "B. Stonehouse",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "B. Murray",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "M. Brown",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "D. Krebs",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "M. Murphy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "I. Pierce",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "A. Magera",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "Z. Jordan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "D. Hamaliuk",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "A. Aleardi",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "44",
+        "name": "T. Inamoto",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "47",
+        "name": "T. Janicke",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "H. Rees",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "72",
+        "name": "J. Stefan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "K. Tyutyayev",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "82",
+        "name": "J. Grubbe",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "95",
+        "name": "J. Smereck",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 6,
+        "a": 9,
+        "pts": 15,
+        "plusMinus": 4,
+        "shots": 29,
+        "pim": 6
+      }
+    ],
+    "home": [
+      {
+        "number": "72",
+        "name": "J. Lemieux",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "79",
+        "name": "H. Vorva",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "D. Pennington",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 4
+      },
+      {
+        "number": "6",
+        "name": "C. Young",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "P. Connor",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "A. Ghantous",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "T. Skirving",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "R. Drazner",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "R. Cox",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "C. Knuble",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "C. Saccoman",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "28",
+        "name": "Z. Okabe",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "N. Poisson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "Q. Preston",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "49",
+        "name": "K. Wall",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "51",
+        "name": "N. Walker",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "66",
+        "name": "C. Bilek",
+        "pos": "",
+        "g": 3,
+        "a": 1,
+        "pts": 4,
+        "plusMinus": 1,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "B. Christensen",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "R. Helliwell",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 9,
+        "pts": 14,
+        "plusMinus": -5,
+        "shots": 30,
+        "pim": 6
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "35",
+        "name": "S. Jonsson",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 30,
+        "saves": 25,
+        "ga": 5,
+        "svPct": 0.833
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 30,
+        "saves": 25,
+        "ga": 5,
+        "svPct": 0.833
+      }
+    ],
+    "home": [
+      {
+        "number": "79",
+        "name": "H. Vorva",
+        "minsPlayed": "59:13",
+        "shotsAgainst": 29,
+        "saves": 23,
+        "ga": 6,
+        "svPct": 0.793
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:13",
+        "shotsAgainst": 29,
+        "saves": 23,
+        "ga": 6,
+        "svPct": 0.793
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "D. Pennington",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "18:26"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "D. Pennington",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "1:35"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "T. Inamoto",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "15:10"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "C. Saccoman",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "15:34"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "H. Rees",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "11:22"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "A. Aleardi",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "15:55"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "KAL",
+      "name": "C. Bilek",
+      "g": 3,
+      "a": 1,
+      "pts": 4
+    },
+    {
+      "star": 2,
+      "team": "FW",
+      "name": "A. Magera",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "FW",
+      "name": "M. Brown",
+      "g": 2,
+      "a": 1,
+      "pts": 3
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-20T17:23:39.755Z"
+}

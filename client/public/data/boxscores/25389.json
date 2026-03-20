@@ -1,0 +1,693 @@
+{
+  "gameInfo": {
+    "gameId": 25389,
+    "visitingTeam": "Worcester",
+    "homeTeam": "Maine",
+    "date": "Oct 11, 2025",
+    "arena": "Harold Alfond Forum",
+    "attendance": 1000,
+    "finalScore": {
+      "visiting": 2,
+      "home": 3
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "0:30",
+      "team": "WOR",
+      "scorer": "J. Campagna (1)",
+      "assists": "L. Hatten, T. Schachle",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "1:39",
+      "team": "MNE",
+      "scorer": "T. Cheveldayoff (2)",
+      "assists": "X. Lamppa, L. Hemstrom",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "17:42",
+      "team": "MNE",
+      "scorer": "W. Deveaux (1)",
+      "assists": "T. Cheveldayoff, J. Stewart",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "3:59",
+      "team": "WOR",
+      "scorer": "T. Kobryn (1)",
+      "assists": "B. Lindberg",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "17:26",
+      "team": "MNE",
+      "scorer": "R. Cronin (1)",
+      "assists": "S. Element, X. Lamppa",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Worcester",
+      "p1": 8,
+      "p2": 9,
+      "p3": 8,
+      "ot": 0,
+      "total": 25
+    },
+    {
+      "team": "Maine",
+      "p1": 12,
+      "p2": 17,
+      "p3": 14,
+      "ot": 0,
+      "total": 43
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "35",
+        "name": "L. Pavicich",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "40",
+        "name": "T. Gale",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "A. Hora",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "J. Campagna",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "N. Pennucci",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "M. Ferrandino",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "R. Ginnell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "L. Hatten",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "K. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "T. Kobryn",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "M. Myers",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "N. Berke",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "17",
+        "name": "T. Schachle",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "T. Gilmour",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "C. Maxwell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "J. Stevens",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "B. Lindberg",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "R. Dickinson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "M. DeMelis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "J. Ring",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 2,
+        "a": 3,
+        "pts": 5,
+        "plusMinus": -5,
+        "shots": 25,
+        "pim": 6
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "B. Arvanitis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "31",
+        "name": "E. Pearson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "Z. Massicotte",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "W. Deveaux",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "R. Orgel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "K. Fenton",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "B. Kalmikov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "T. Cheveldayoff",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "R. Cronin",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "J. Perreault",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "15",
+        "name": "T. Thompson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "S. Element",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "C. Jones",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "J. Stewart",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "X. Lamppa",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "L. Hemstrom",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "A. DiPaolo",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "Z. Jones",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "J. Marooney",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "44",
+        "name": "J. Bellamy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 6,
+        "pts": 9,
+        "plusMinus": 5,
+        "shots": 43,
+        "pim": 6
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "35",
+        "name": "L. Pavicich",
+        "minsPlayed": "27:44",
+        "shotsAgainst": 19,
+        "saves": 17,
+        "ga": 2,
+        "svPct": 0.895
+      },
+      {
+        "number": "40",
+        "name": "T. Gale",
+        "minsPlayed": "31:36",
+        "shotsAgainst": 24,
+        "saves": 23,
+        "ga": 1,
+        "svPct": 0.958
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:20",
+        "shotsAgainst": 43,
+        "saves": 40,
+        "ga": 3,
+        "svPct": 0.93
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "B. Arvanitis",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 25,
+        "saves": 23,
+        "ga": 2,
+        "svPct": 0.92
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 25,
+        "saves": 23,
+        "ga": 2,
+        "svPct": 0.92
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "Served by J. Perreault",
+      "minutes": 2,
+      "infraction": "Bench minor - Too many men (74.2)",
+      "time": "4:42"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Marooney",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "16:45"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "N. Berke",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "5:32"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Perreault",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "6:13"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "N. Pennucci",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "11:57"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "Served by M. DeMelis",
+      "minutes": 2,
+      "infraction": "Delay of Game - Faceoff Infraction (76.6)",
+      "time": "17:41"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "MNE",
+      "name": "T. Cheveldayoff",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "MNE",
+      "name": "R. Cronin",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "MNE",
+      "name": "B. Arvanitis",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-20T17:30:32.027Z"
+}

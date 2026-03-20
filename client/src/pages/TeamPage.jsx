@@ -5,7 +5,7 @@ import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
 } from "recharts";
-import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useGameAttendance } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useGameAttendance, useFightingMajors } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
 import ShareButton from "../components/ShareButton.jsx";
@@ -75,6 +75,7 @@ export default function TeamPage() {
   const { data: leadersData } = useLeaders();
   const { data: upcomingData } = useUpcoming();
   const { data: attendanceData } = useGameAttendance();
+  const { data: fightingMajorsData } = useFightingMajors();
 
   if (isLoading) return <div className="loading-spinner">Loading team…</div>;
   if (error) return <div className="error-box">Error loading team: {error.message}</div>;
@@ -462,6 +463,33 @@ export default function TeamPage() {
                       })}
                     </div>
                   )}
+                </div>
+              );
+            })()}
+
+            {/* Fighting Leaders card */}
+            {(() => {
+              const teamFighters = (fightingMajorsData?.leaders || [])
+                .filter((p) => p.team.toLowerCase() === team.city.toLowerCase())
+                .slice(0, 5);
+              if (teamFighters.length === 0) return null;
+              return (
+                <div className="card section-card">
+                  <div className="card-header">
+                    <span className="section-label" style={{ margin: 0 }}>Fighting Leaders</span>
+                  </div>
+                  <ol className="stat-card-list">
+                    {teamFighters.map((p, i) => (
+                      <li
+                        key={i}
+                        className={`stat-row${i === 0 ? " stat-row--first" : ""}${i % 2 !== 0 ? " stat-row--alt" : ""}`}
+                      >
+                        <span className="stat-rank">{i + 1}</span>
+                        <span className="stat-name">{p.name}</span>
+                        <span className="stat-val">{p.fightingMajors}</span>
+                      </li>
+                    ))}
+                  </ol>
                 </div>
               );
             })()}

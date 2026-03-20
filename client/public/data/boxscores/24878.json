@@ -1,0 +1,740 @@
+{
+  "gameInfo": {
+    "gameId": 24878,
+    "visitingTeam": "Allen",
+    "homeTeam": "Idaho",
+    "date": "Jan 24, 2026",
+    "arena": "Idaho Central Arena",
+    "attendance": 5311,
+    "finalScore": {
+      "visiting": 5,
+      "home": 6
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "14:59",
+      "team": "ALN",
+      "scorer": "S. Asuchak (9)",
+      "assists": "H. Blaisdell, B. Watts",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "4:58",
+      "team": "IDH",
+      "scorer": "B. Hoffmann (24)",
+      "assists": "J. Baum, L. Malmquist",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "8:47",
+      "team": "IDH",
+      "scorer": "C. Dodero (5)",
+      "assists": "J. Steinmetz, G. Silianoff",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "9:10",
+      "team": "ALN",
+      "scorer": "H. Crone (10)",
+      "assists": "S. Sedley, C. Hargrove",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "14:19",
+      "team": "ALN",
+      "scorer": "M. Gildon (10)",
+      "assists": "",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "4:15",
+      "team": "IDH",
+      "scorer": "N. Portz (7)",
+      "assists": "C. Dodero, J. Miller",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "11:28",
+      "team": "ALN",
+      "scorer": "C. McAuley (14)",
+      "assists": "C. Hargrove, A. Anania",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "14:39",
+      "team": "IDH",
+      "scorer": "F. Arcuri (15)",
+      "assists": "J. Baum, T. Pelton-Byce",
+      "strength": "PP"
+    },
+    {
+      "period": "3rd",
+      "time": "16:35",
+      "team": "IDH",
+      "scorer": "M. Nevers (2)",
+      "assists": "C. Dodero, A. Hreschuk",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "16:54",
+      "team": "ALN",
+      "scorer": "M. Gildon (11)",
+      "assists": "",
+      "strength": "EV"
+    },
+    {
+      "period": "1st OT",
+      "time": "0:20",
+      "team": "IDH",
+      "scorer": "K. Pearson (17)",
+      "assists": "S. Jardine, T. Pelton-Byce",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Allen",
+      "p1": 12,
+      "p2": 10,
+      "p3": 15,
+      "ot": 0,
+      "total": 37
+    },
+    {
+      "team": "Idaho",
+      "p1": 12,
+      "p2": 14,
+      "p3": 11,
+      "ot": 1,
+      "total": 38
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "J. Parsons",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "D. Tendeck",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "Q. Warmuth",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "C. Hargrove",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "T. Prefontaine",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "D. Katic",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "10",
+        "name": "T. Spitserov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "K. Gursoy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "18",
+        "name": "H. Blaisdell",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "C. Maxwell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "J. Decker",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "S. Sedley",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 2
+      },
+      {
+        "number": "26",
+        "name": "S. Asuchak",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "B. Watts",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "67",
+        "name": "H. Crone",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "77",
+        "name": "B. Morrison",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "A. Anania",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "91",
+        "name": "M. Gildon",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 7,
+        "pim": 0
+      },
+      {
+        "number": "92",
+        "name": "C. McAuley",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 6,
+        "pts": 11,
+        "plusMinus": 7,
+        "shots": 37,
+        "pim": 10
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "B. Kraws",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "J. Barczewski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "J. Horvath",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "J. Baum",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "K. Pearson",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "9",
+        "name": "B. Hoffmann",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "10",
+        "name": "S. Jardine",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "F. Arcuri",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "T. Pelton-Byce",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "N. Portz",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "M. Nevers",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "L. Malmquist",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "J. Miller",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "A. MacDonell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "J. Steinmetz",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "J. Boltmann",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -4,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "C. Dodero",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "A. Hreschuk",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "C. Dodero",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "89",
+        "name": "G. Silianoff",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 6,
+        "a": 12,
+        "pts": 18,
+        "plusMinus": -7,
+        "shots": 38,
+        "pim": 4
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "J. Parsons",
+        "minsPlayed": "60:20",
+        "shotsAgainst": 38,
+        "saves": 32,
+        "ga": 6,
+        "svPct": 0.842
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:20",
+        "shotsAgainst": 38,
+        "saves": 32,
+        "ga": 6,
+        "svPct": 0.842
+      }
+    ],
+    "home": [
+      {
+        "number": "33",
+        "name": "J. Barczewski",
+        "minsPlayed": "60:20",
+        "shotsAgainst": 37,
+        "saves": 32,
+        "ga": 5,
+        "svPct": 0.865
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:20",
+        "shotsAgainst": 37,
+        "saves": 32,
+        "ga": 5,
+        "svPct": 0.865
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "A. Anania",
+      "minutes": 2,
+      "infraction": "Boarding - minor (41.2)",
+      "time": "16:35"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "K. Gursoy",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "4:45"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "B. Hoffmann",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "11:21"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "D. Katic",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "1:32"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "H. Crone",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "14:27"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "S. Sedley",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "14:31"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "K. Pearson",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "14:31"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "IDH",
+      "name": "K. Pearson",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "ALN",
+      "name": "M. Gildon",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "IDH",
+      "name": "J. Baum",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-20T17:28:40.197Z"
+}

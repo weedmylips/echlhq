@@ -1,0 +1,741 @@
+{
+  "gameInfo": {
+    "gameId": 24755,
+    "visitingTeam": "Toledo",
+    "homeTeam": "Cincinnati",
+    "date": "Jan 3, 2026",
+    "arena": "Heritage Bank Center",
+    "attendance": 8352,
+    "finalScore": {
+      "visiting": 7,
+      "home": 1
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "4:16",
+      "team": "TOL",
+      "scorer": "N. Roy (4)",
+      "assists": "J. Pietila, S. Craggs",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "6:38",
+      "team": "TOL",
+      "scorer": "C. Keenan (3)",
+      "assists": "T. Kelly, D. Moulton",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "12:08",
+      "team": "TOL",
+      "scorer": "J. Bouquot (2)",
+      "assists": "C. Ambrosio, R. McCourt",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "8:59",
+      "team": "TOL",
+      "scorer": "D. Smirnov (10)",
+      "assists": "B. Hawkins, M. Jurusik",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "17:08",
+      "team": "CIN",
+      "scorer": "B. King (9)",
+      "assists": "Z. Trott, J. Johnson",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "0:17",
+      "team": "TOL",
+      "scorer": "N. Roy (5)",
+      "assists": "B. Hawkins, S. Craggs",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "2:29",
+      "team": "TOL",
+      "scorer": "J. Ernst (8)",
+      "assists": "",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "15:51",
+      "team": "TOL",
+      "scorer": "J. Pietila (2)",
+      "assists": "T. Kelly, J. Truscott",
+      "strength": "SH"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Toledo",
+      "p1": 4,
+      "p2": 13,
+      "p3": 7,
+      "ot": 0,
+      "total": 24
+    },
+    {
+      "team": "Cincinnati",
+      "p1": 13,
+      "p2": 10,
+      "p3": 6,
+      "ot": 0,
+      "total": 29
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "M. Jurusik",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "N. Lalonde",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "N. Andrews",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "6",
+        "name": "T. Palocsik",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "S. Craggs",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "D. Smirnov",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "W. Hillman",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "T. Dickinson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "J. Bouquot",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "B. Hawkins",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "J. Truscott",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "23",
+        "name": "C. Keenan",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "25",
+        "name": "J. Pietila",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "R. McCourt",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "J. Ernst",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "D. Moulton",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "62",
+        "name": "D. Llewellyn",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "C. Ambrosio",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "78",
+        "name": "T. Kelly",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "79",
+        "name": "N. Roy",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 7,
+        "a": 12,
+        "pts": 19,
+        "plusMinus": 24,
+        "shots": 24,
+        "pim": 10
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "T. Scarfone",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "31",
+        "name": "K. McClellan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "R. Parsons",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 4
+      },
+      {
+        "number": "5",
+        "name": "R. McCleary",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "Z. Trott",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "J. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "G. Fontaine",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "L. Grainger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "J. Jaworski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "M. Sikic",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "A. Bohlinger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "24",
+        "name": "L. Griffin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "S. Stevens",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. Kaplan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "E. Vilio",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "A. Saint",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "45",
+        "name": "R. Kirwan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 7,
+        "pim": 0
+      },
+      {
+        "number": "46",
+        "name": "J. Vaive",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "66",
+        "name": "B. King",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "C. Fraser",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -25,
+        "shots": 29,
+        "pim": 8
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "M. Jurusik",
+        "minsPlayed": "59:58",
+        "shotsAgainst": 29,
+        "saves": 28,
+        "ga": 1,
+        "svPct": 0.966
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:58",
+        "shotsAgainst": 29,
+        "saves": 28,
+        "ga": 1,
+        "svPct": 0.966
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "K. McClellan",
+        "minsPlayed": "20:00",
+        "shotsAgainst": 4,
+        "saves": 1,
+        "ga": 3,
+        "svPct": 0.25
+      },
+      {
+        "number": "30",
+        "name": "T. Scarfone",
+        "minsPlayed": "40:00",
+        "shotsAgainst": 20,
+        "saves": 16,
+        "ga": 4,
+        "svPct": 0.8
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 24,
+        "saves": 17,
+        "ga": 7,
+        "svPct": 0.708
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "N. Andrews",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "15:15"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Vaive",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "15:15"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "D. Moulton",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "16:05"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "A. Bohlinger",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "8:20"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Keenan",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "10:36"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "R. Parsons",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "10:36"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "R. Parsons",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "10:36"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Truscott",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "12:45"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Ambrosio",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "15:05"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "TOL",
+      "name": "J. Ernst",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "TOL",
+      "name": "D. Smirnov",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "TOL",
+      "name": "M. Jurusik",
+      "g": 0,
+      "a": 1,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-20T17:27:29.505Z"
+}

@@ -1,0 +1,907 @@
+{
+  "gameInfo": {
+    "gameId": 25400,
+    "visitingTeam": "Stars",
+    "homeTeam": "Stripes",
+    "date": "Jan 19, 2026",
+    "arena": "Credit Union of Texas Event Center",
+    "attendance": 4890,
+    "finalScore": {
+      "visiting": 12,
+      "home": 17
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "1:32",
+      "team": "STAR",
+      "scorer": "H. Crone (1)",
+      "assists": "B. Watts, B. Hawkins",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "5:54",
+      "team": "STPE",
+      "scorer": "S. Sedley (1)",
+      "assists": "T. Murray, T. Spitserov",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "9:15",
+      "team": "STPE",
+      "scorer": "S. Asuchak (1)",
+      "assists": "D. Paliani, J. Decker",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "10:48",
+      "team": "STPE",
+      "scorer": "S. Asuchak (2)",
+      "assists": "M. Crawford, D. Paliani",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "15:09",
+      "team": "STPE",
+      "scorer": "C. McAuley (1)",
+      "assists": "T. Semptimphelter",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "16:17",
+      "team": "STAR",
+      "scorer": "B. Hawkins (1)",
+      "assists": "B. Watts, H. Crone",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "18:52",
+      "team": "STAR",
+      "scorer": "D. Dzhaniyev (1)",
+      "assists": "",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "19:28",
+      "team": "STPE",
+      "scorer": "B. McManus (1)",
+      "assists": "M. Crawford, B. Kalmikov",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "21:55",
+      "team": "STAR",
+      "scorer": "N. Beck (1)",
+      "assists": "",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "2:26",
+      "team": "STAR",
+      "scorer": "B. Hawkins (2)",
+      "assists": "J. Johnson, H. Crone",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "6:40",
+      "team": "STAR",
+      "scorer": "J. O'Brien (1)",
+      "assists": "K. Crnkovic, B. Zloty",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "8:23",
+      "team": "STPE",
+      "scorer": "B. Johnson (1)",
+      "assists": "B. Kalmikov, B. McManus",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "8:51",
+      "team": "STAR",
+      "scorer": "B. Watts (1)",
+      "assists": "B. Hawkins, M. Greco",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "9:47",
+      "team": "STPE",
+      "scorer": "K. Lombardi (1)",
+      "assists": "M. Crawford, C. Hargrove",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "10:37",
+      "team": "STAR",
+      "scorer": "B. Hawkins (3)",
+      "assists": "B. Watts",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "11:25",
+      "team": "STPE",
+      "scorer": "B. Morrison (1)",
+      "assists": "T. Spitserov",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "12:48",
+      "team": "STAR",
+      "scorer": "D. Katic (1)",
+      "assists": "D. Dzhaniyev, N. Beck",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "13:39",
+      "team": "STAR",
+      "scorer": "C. Martin (1)",
+      "assists": "S. Stanick",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "18:05",
+      "team": "STAR",
+      "scorer": "B. Zloty (1)",
+      "assists": "T. Prefontaine, K. Gursoy",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "20:32",
+      "team": "STPE",
+      "scorer": "D. Paliani (1)",
+      "assists": "D. Cesana, J. Decker",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "4:20",
+      "team": "STPE",
+      "scorer": "B. McManus (2)",
+      "assists": "K. Lombardi, B. Johnson",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "5:16",
+      "team": "STPE",
+      "scorer": "B. McManus (3)",
+      "assists": "S. Sedley, K. Lombardi",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "6:01",
+      "team": "STPE",
+      "scorer": "B. Kalmikov (1)",
+      "assists": "A. Romano, B. Hoffmann",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "8:47",
+      "team": "STPE",
+      "scorer": "K. Lombardi (2)",
+      "assists": "M. Crawford, C. Hargrove",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "13:10",
+      "team": "STPE",
+      "scorer": "A. Romano (1)",
+      "assists": "B. Kalmikov, B. McManus",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "18:30",
+      "team": "STAR",
+      "scorer": "K. Crnkovic (1)",
+      "assists": "J. O'Brien",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "18:55",
+      "team": "STPE",
+      "scorer": "C. Hargrove (1)",
+      "assists": "D. Cesana",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "20:33",
+      "team": "STPE",
+      "scorer": "C. Hargrove (2)",
+      "assists": "K. Lombardi, S. Sedley",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "21:58",
+      "team": "STPE",
+      "scorer": "B. Kalmikov (2)",
+      "assists": "A. Romano",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Stars",
+      "p1": 17,
+      "p2": 23,
+      "p3": 16,
+      "ot": 0,
+      "total": 56
+    },
+    {
+      "team": "Stripes",
+      "p1": 16,
+      "p2": 16,
+      "p3": 20,
+      "ot": 0,
+      "total": 52
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "D. Tendeck",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "S. Jonsson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "J. Brodeur",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "M. Greco",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "T. Prefontaine",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "D. Katic",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "J. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -4,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "D. Dzhaniyev",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "H. Blaisdell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "B. Hawkins",
+        "pos": "",
+        "g": 3,
+        "a": 2,
+        "pts": 5,
+        "plusMinus": -4,
+        "shots": 8,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "N. Beck",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "R. McCourt",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "K. Gursoy",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "K. Crnkovic",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "B. Watts",
+        "pos": "",
+        "g": 1,
+        "a": 3,
+        "pts": 4,
+        "plusMinus": -3,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "B. Zloty",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "C. Martin",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "67",
+        "name": "H. Crone",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -5,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "72",
+        "name": "E. Armstrong",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "M. Gildon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "92",
+        "name": "S. Stanick",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "93",
+        "name": "J. O'Brien",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 12,
+        "a": 17,
+        "pts": 29,
+        "plusMinus": -29,
+        "shots": 56,
+        "pim": 2
+      }
+    ],
+    "home": [
+      {
+        "number": "32",
+        "name": "W. Cranley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "T. Semptimphelter",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "D. Cesana",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "C. Hargrove",
+        "pos": "",
+        "g": 2,
+        "a": 2,
+        "pts": 4,
+        "plusMinus": 1,
+        "shots": 7,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "B. Kalmikov",
+        "pos": "",
+        "g": 2,
+        "a": 3,
+        "pts": 5,
+        "plusMinus": 3,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "T. Spitserov",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "T. Murray",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "M. Crawford",
+        "pos": "",
+        "g": 0,
+        "a": 4,
+        "pts": 4,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "D. Paliani",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "J. Decker",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "B. Hoffmann",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "S. Sedley",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "S. Asuchak",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 7,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "A. Romano",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 4,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "B. McManus",
+        "pos": "",
+        "g": 3,
+        "a": 2,
+        "pts": 5,
+        "plusMinus": 4,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "49",
+        "name": "K. Lombardi",
+        "pos": "",
+        "g": 2,
+        "a": 3,
+        "pts": 5,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "B. Johnson",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "B. Morrison",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "A. Anania",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "92",
+        "name": "C. McAuley",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 4
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 17,
+        "a": 30,
+        "pts": 47,
+        "plusMinus": 29,
+        "shots": 52,
+        "pim": 4
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "39",
+        "name": "J. Brodeur",
+        "minsPlayed": "21:00",
+        "shotsAgainst": 16,
+        "saves": 11,
+        "ga": 5,
+        "svPct": 0.688
+      },
+      {
+        "number": "32",
+        "name": "D. Tendeck",
+        "minsPlayed": "21:00",
+        "shotsAgainst": 16,
+        "saves": 12,
+        "ga": 4,
+        "svPct": 0.75
+      },
+      {
+        "number": "35",
+        "name": "S. Jonsson",
+        "minsPlayed": "21:00",
+        "shotsAgainst": 20,
+        "saves": 12,
+        "ga": 8,
+        "svPct": 0.6
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "63:00",
+        "shotsAgainst": 52,
+        "saves": 35,
+        "ga": 17,
+        "svPct": 0.673
+      }
+    ],
+    "home": [
+      {
+        "number": "35",
+        "name": "T. Semptimphelter",
+        "minsPlayed": "21:00",
+        "shotsAgainst": 17,
+        "saves": 13,
+        "ga": 4,
+        "svPct": 0.765
+      },
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "minsPlayed": "21:00",
+        "shotsAgainst": 23,
+        "saves": 16,
+        "ga": 7,
+        "svPct": 0.696
+      },
+      {
+        "number": "32",
+        "name": "W. Cranley",
+        "minsPlayed": "21:00",
+        "shotsAgainst": 16,
+        "saves": 15,
+        "ga": 1,
+        "svPct": 0.938
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "63:00",
+        "shotsAgainst": 56,
+        "saves": 44,
+        "ga": 12,
+        "svPct": 0.786
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "Served by B. Kalmikov",
+      "minutes": 2,
+      "infraction": "Bench Minor - Delay of Game (63.3)",
+      "time": "1:00"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "Served by A. Anania",
+      "minutes": 2,
+      "infraction": "Bench Minor - Delay of Game (63.3)",
+      "time": "22:00"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "Served by S. Stanick",
+      "minutes": 2,
+      "infraction": "Bench Minor - Delay of Game (63.3)",
+      "time": "1:00"
+    }
+  ],
+  "stars": [],
+  "isFinal": true,
+  "scrapedAt": "2026-03-20T17:30:37.952Z"
+}

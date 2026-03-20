@@ -1,0 +1,762 @@
+{
+  "gameInfo": {
+    "gameId": 24899,
+    "visitingTeam": "Tulsa",
+    "homeTeam": "Wichita",
+    "date": "Jan 25, 2026",
+    "arena": "INTRUST Bank Arena",
+    "attendance": 2789,
+    "finalScore": {
+      "visiting": 5,
+      "home": 7
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "0:43",
+      "team": "TUL",
+      "scorer": "D. Elliott (9)",
+      "assists": "A. McMaster",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "4:32",
+      "team": "WIC",
+      "scorer": "P. Bates (13)",
+      "assists": "K. Crnkovic, T. Lloyd",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "11:02",
+      "team": "TUL",
+      "scorer": "A. Bakanov (4)",
+      "assists": "J. Michaelian, V. Buteyets",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "4:35",
+      "team": "TUL",
+      "scorer": "A. McMaster (10)",
+      "assists": "D. Lagrone",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "13:36",
+      "team": "WIC",
+      "scorer": "K. Crnkovic (18)",
+      "assists": "P. Bates, N. Beck",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "15:45",
+      "team": "TUL",
+      "scorer": "A. McMaster (11)",
+      "assists": "T. Goulbourne",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "0:14",
+      "team": "TUL",
+      "scorer": "E. Armstrong (15)",
+      "assists": "T. Goulbourne, A. McMaster",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "0:36",
+      "team": "WIC",
+      "scorer": "N. Kneen (1)",
+      "assists": "K. Crnkovic, K. Proctor",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "1:10",
+      "team": "WIC",
+      "scorer": "K. Proctor (7)",
+      "assists": "P. Bates, J. Dickman",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "8:09",
+      "team": "WIC",
+      "scorer": "K. Crnkovic (19)",
+      "assists": "P. Bates, N. Beck",
+      "strength": "PP"
+    },
+    {
+      "period": "3rd",
+      "time": "13:22",
+      "team": "WIC",
+      "scorer": "K. Crnkovic (20)",
+      "assists": "J. Dickman, N. Beck",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "19:20",
+      "team": "WIC",
+      "scorer": "J. Dickman (8)",
+      "assists": "K. Crnkovic, P. Bates",
+      "strength": "EN.PP"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Tulsa",
+      "p1": 14,
+      "p2": 17,
+      "p3": 6,
+      "ot": 0,
+      "total": 37
+    },
+    {
+      "team": "Wichita",
+      "p1": 12,
+      "p2": 11,
+      "p3": 17,
+      "ot": 0,
+      "total": 40
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "V. Buteyets",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "J. Sibell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "D. Lagrone",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 4
+      },
+      {
+        "number": "8",
+        "name": "A. Bakanov",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "T. Poulsen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "13",
+        "name": "T. Goulbourne",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "D. Elliott",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "J. Michaelian",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "J. Nelson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. McMaster",
+        "pos": "",
+        "g": 2,
+        "a": 2,
+        "pts": 4,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "M. McKee",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "26",
+        "name": "G. Yavaş",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "E. Armstrong",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "28",
+        "name": "Z. Brooks",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "D. Fitze",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 4
+      },
+      {
+        "number": "38",
+        "name": "L. Jirousek",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "J. Biakabutuka",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "41",
+        "name": "T. Faith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "R. Kinal",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "J. Brassard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 7,
+        "pts": 12,
+        "plusMinus": 0,
+        "shots": 37,
+        "pim": 14
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "T. Outen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "31",
+        "name": "R. Ross",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "N. Somerville",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "K. Proctor",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "T. Lloyd",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "S. Blackwell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "P. Bates",
+        "pos": "",
+        "g": 1,
+        "a": 4,
+        "pts": 5,
+        "plusMinus": 4,
+        "shots": 4,
+        "pim": 2
+      },
+      {
+        "number": "14",
+        "name": "R. Olsen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "K. Crnkovic",
+        "pos": "",
+        "g": 3,
+        "a": 3,
+        "pts": 6,
+        "plusMinus": 5,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "R. Finnegan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "K. Jeffers",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "20",
+        "name": "N. Beck",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "J. Dickman",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": 5,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "M. Stinil",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -4,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "N. Nardecchia",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "N. Kneen",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "M. Crasa",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "T. Jette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "92",
+        "name": "D. Smith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 4
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 7,
+        "a": 14,
+        "pts": 21,
+        "plusMinus": 0,
+        "shots": 40,
+        "pim": 8
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "V. Buteyets",
+        "minsPlayed": "58:27",
+        "shotsAgainst": 39,
+        "saves": 33,
+        "ga": 6,
+        "svPct": 0.846
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "58:27",
+        "shotsAgainst": 40,
+        "saves": 33,
+        "ga": 7,
+        "svPct": 0.825
+      }
+    ],
+    "home": [
+      {
+        "number": "1",
+        "name": "T. Outen",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 37,
+        "saves": 32,
+        "ga": 5,
+        "svPct": 0.865
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 37,
+        "saves": 32,
+        "ga": 5,
+        "svPct": 0.865
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "K. Jeffers",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "12:33"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "D. Fitze",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "13:33"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "M. McKee",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "4:35"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "E. Armstrong",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "6:10"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "D. Lagrone",
+      "minutes": 4,
+      "infraction": "Double Minor - Roughing",
+      "time": "9:00"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "D. Smith",
+      "minutes": 4,
+      "infraction": "Double Minor - Roughing",
+      "time": "9:00"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "D. Fitze",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "13:33"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "P. Bates",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "14:21"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "T. Poulsen",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "18:21"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "WIC",
+      "name": "K. Crnkovic",
+      "g": 3,
+      "a": 3,
+      "pts": 6
+    },
+    {
+      "star": 2,
+      "team": "TUL",
+      "name": "A. McMaster",
+      "g": 2,
+      "a": 2,
+      "pts": 4
+    },
+    {
+      "star": 3,
+      "team": "WIC",
+      "name": "P. Bates",
+      "g": 1,
+      "a": 4,
+      "pts": 5
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-20T17:28:50.090Z"
+}

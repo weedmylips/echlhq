@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { useLeaders } from "../hooks/useECHL.js";
+import { useLeaders, useFightingMajors } from "../hooks/useECHL.js";
 import ShareButton from "../components/ShareButton.jsx";
 import "./LeadersPage.css";
 
@@ -95,8 +95,35 @@ function StatCard({ cat, leaders }) {
   );
 }
 
+function FightingMajorsCard({ data }) {
+  const top5 = (data?.leaders || []).slice(0, 5);
+  return (
+    <div className="stat-card">
+      <div className="stat-card-header">FIGHTING MAJORS</div>
+      {top5.length === 0 ? (
+        <div className="stat-card-empty">No data</div>
+      ) : (
+        <ol className="stat-card-list">
+          {top5.map((p, i) => (
+            <li
+              key={i}
+              className={`stat-row${i === 0 ? " stat-row--first" : ""}${i % 2 !== 0 ? " stat-row--alt" : ""}`}
+            >
+              <span className="stat-rank">{i + 1}</span>
+              <span className="stat-name">{p.name}</span>
+              <span className="stat-team">{p.team}</span>
+              <span className="stat-val">{p.fightingMajors}</span>
+            </li>
+          ))}
+        </ol>
+      )}
+    </div>
+  );
+}
+
 export default function LeadersPage() {
   const { data, isLoading, error } = useLeaders();
+  const { data: fmData } = useFightingMajors();
   const leaders = data?.leaders || {};
 
   return (
@@ -123,6 +150,7 @@ export default function LeadersPage() {
             {SKATER_CARDS.map((cat) => (
               <StatCard key={cat.key} cat={cat} leaders={leaders} />
             ))}
+            <FightingMajorsCard data={fmData} />
           </div>
 
           <div className="leaders-section-label">GOALTENDERS</div>
