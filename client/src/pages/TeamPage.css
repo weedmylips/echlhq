@@ -1254,6 +1254,16 @@ tr.playoff-cutoff td {
   color: var(--text-muted);
   margin-bottom: 10px;
 }
+
+.team-page .rank-badge {
+  display: inline-block;
+  background: color-mix(in srgb, var(--team-primary) 25%, transparent);
+  color: var(--team-primary-light);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+}
 .st-bar-track {
   position: relative;
   height: 6px;

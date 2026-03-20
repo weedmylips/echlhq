@@ -797,7 +797,7 @@ function SpecialTeamsCard({ ts, standing }) {
             {standing.ppGoals ?? 0} PPG / {standing.ppOpportunities ?? 0} opp
           </div>
           <div className="st-ranks">
-            Div: {ordinal(divPPRank)} · League: {ordinal(leaguePPRank)}
+            Div: <span className="rank-badge">{ordinal(divPPRank)}</span> · League: <span className="rank-badge">{ordinal(leaguePPRank)}</span>
           </div>
           <div className="st-bar-track">
             <div
@@ -829,7 +829,7 @@ function SpecialTeamsCard({ ts, standing }) {
             {standing.pkGoalsAllowed ?? 0} GA / {standing.timesShorthanded ?? 0} SH
           </div>
           <div className="st-ranks">
-            Div: {ordinal(divPKRank)} · League: {ordinal(leaguePKRank)}
+            Div: <span className="rank-badge">{ordinal(divPKRank)}</span> · League: <span className="rank-badge">{ordinal(leaguePKRank)}</span>
           </div>
           <div className="st-bar-track">
             <div
