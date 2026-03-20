@@ -956,7 +956,7 @@
       "player": "Owen Flores",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 22,
       "g": 0,
       "a": 0,
@@ -1046,7 +1046,7 @@
       "player": "Owen Flores",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 22,
       "w": 10,
       "l": 8,
@@ -1061,5 +1061,5 @@
       "sa": 540
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

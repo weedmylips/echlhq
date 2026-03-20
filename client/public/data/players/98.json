@@ -56,7 +56,7 @@
       "player": "Elliot Desnoyers",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 41,
       "g": 7,
       "a": 21,
@@ -856,7 +856,7 @@
       "player": "Nikita Borodaenko",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 5,
       "g": 0,
       "a": 1,
@@ -931,7 +931,7 @@
       "player": "William Rousseau",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 25,
       "g": 0,
       "a": 1,
@@ -1202,7 +1202,7 @@
       "player": "William Rousseau",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 25,
       "w": 6,
       "l": 14,
@@ -1255,5 +1255,5 @@
       "sa": 78
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

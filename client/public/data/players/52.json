@@ -31,7 +31,7 @@
       "player": "Josh Atkinson",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 55,
       "g": 6,
       "a": 29,
@@ -206,7 +206,7 @@
       "player": "Cam Hausinger",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 50,
       "g": 13,
       "a": 10,
@@ -1005,5 +1005,5 @@
       "sa": 495
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

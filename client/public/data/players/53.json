@@ -406,7 +406,7 @@
       "player": "Kylor Wall",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 50,
       "g": 4,
       "a": 6,
@@ -1243,5 +1243,5 @@
       "sa": 72
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

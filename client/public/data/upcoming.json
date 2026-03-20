@@ -395,7 +395,25 @@
       "date": "Mar 25, 2026",
       "time": "7:10 PM MDT",
       "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 13,
+      "visitingTeam": "Orlando",
+      "homeTeamId": 10,
+      "homeTeam": "Atlanta",
+      "date": "Mar 26, 2026",
+      "time": "7:10 PM EDT",
+      "dayLabel": "Thursday"
+    },
+    {
+      "visitingTeamId": 66,
+      "visitingTeam": "Allen",
+      "homeTeamId": 106,
+      "homeTeam": "Utah",
+      "date": "Mar 26, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Thursday"
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

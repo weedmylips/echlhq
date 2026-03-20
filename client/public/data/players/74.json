@@ -106,7 +106,7 @@
       "player": "Tag Bertuzzi",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 35,
       "g": 14,
       "a": 12,
@@ -1230,5 +1230,5 @@
       "sa": 27
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

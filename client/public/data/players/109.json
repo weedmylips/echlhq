@@ -156,7 +156,7 @@
       "player": "Samuel Mayer",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 50,
       "g": 12,
       "a": 17,
@@ -852,6 +852,31 @@
       "soPct": 0
     },
     {
+      "number": 63,
+      "player": "Louka Henault",
+      "position": "D",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 14,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "ppp": 0,
+      "shp": 0,
+      "gwg": 0,
+      "pm": 3,
+      "sh": 15,
+      "shPct": 0,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 0,
+      "pim": 15,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
       "number": 30,
       "player": "Dominic Basse",
       "position": "G",
@@ -1143,5 +1168,5 @@
       "sa": 15
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

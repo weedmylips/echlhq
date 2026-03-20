@@ -306,7 +306,7 @@
       "player": "Maxim Barbashev",
       "position": "LW",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 36,
       "g": 7,
       "a": 10,
@@ -1506,5 +1506,5 @@
       "sa": 39
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

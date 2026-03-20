@@ -481,7 +481,7 @@
       "player": "Rhett Parsons",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 45,
       "g": 1,
       "a": 6,
@@ -1031,7 +1031,7 @@
       "player": "Aaron Chiarot",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 22,
       "g": 0,
       "a": 1,
@@ -1230,5 +1230,5 @@
       "sa": 300
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }

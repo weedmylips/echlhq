@@ -656,7 +656,7 @@
       "player": "Ryan Orgel",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 15,
       "g": 0,
       "a": 4,
@@ -1293,5 +1293,5 @@
       "sa": 101
     }
   ],
-  "scrapedAt": "2026-03-19T17:38:36.154Z"
+  "scrapedAt": "2026-03-20T11:49:23.704Z"
 }
