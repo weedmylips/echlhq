@@ -147,7 +147,7 @@ export default function TeamPage() {
       <div className="team-header">
         <div
           className="team-header-accent"
-          style={{ background: `linear-gradient(135deg, ${team.primaryColor}55 0%, transparent 60%)` }}
+          style={{ background: `linear-gradient(135deg, color-mix(in srgb, ${team.primaryColor} 28%, transparent) 0%, color-mix(in srgb, ${team.secondaryColor} 8%, transparent) 50%, transparent 100%)` }}
         />
         <div className="team-header-content">
           <div className="team-header-left">
