@@ -1614,6 +1614,10 @@ async function main() {
       const name = cleanName(pen.player || "");
       const abbr = teamMap[pen.team] || "";
       if (!name || !abbr) continue;
+      // Skip bench minors and "served by" penalties — not individual penalties
+      const inf = (pen.infraction || "").toLowerCase();
+      if (inf.includes("bench")) continue;
+      if (name.toLowerCase().startsWith("served by")) continue;
       const key = `${name}|${abbr}`;
       if (!penaltyStats.players[key]) penaltyStats.players[key] = { minors: 0, majors: 0 };
       if (pen.minutes === 2) penaltyStats.players[key].minors += 1;

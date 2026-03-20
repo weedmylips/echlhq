@@ -952,7 +952,7 @@
       "majors": 2
     },
     "W. Ennis|IND": {
-      "minors": 11,
+      "minors": 10,
       "majors": 0
     },
     "M. Miller|FW": {
@@ -1155,12 +1155,8 @@
       "minors": 18,
       "majors": 1
     },
-    "Served by J. Gelatt|UTA": {
-      "minors": 1,
-      "majors": 0
-    },
     "I. Walther|ATL": {
-      "minors": 12,
+      "minors": 11,
       "majors": 0
     },
     "J. Ricketts|UTA": {
@@ -1293,10 +1289,6 @@
     },
     "K. Lombardi|IND": {
       "minors": 9,
-      "majors": 0
-    },
-    "Served by J. Martin|IND": {
-      "minors": 1,
       "majors": 0
     },
     "C. Ambrosio|TOL": {
@@ -1500,7 +1492,7 @@
       "majors": 3
     },
     "R. Francis|ATL": {
-      "minors": 12,
+      "minors": 11,
       "majors": 0
     },
     "M. Messner|UTA": {
@@ -1604,7 +1596,7 @@
       "majors": 5
     },
     "N. Canade|IDH": {
-      "minors": 23,
+      "minors": 22,
       "majors": 2
     },
     "T. Pelton-Byce|IDH": {
@@ -1673,10 +1665,6 @@
     },
     "S. Asuchak|ALN": {
       "minors": 18,
-      "majors": 0
-    },
-    "Served by B. Morrison|ALN": {
-      "minors": 2,
       "majors": 0
     },
     "B. Morrison|ALN": {
@@ -1811,10 +1799,6 @@
       "minors": 19,
       "majors": 2
     },
-    "Served by A. Capannelli|IA": {
-      "minors": 1,
-      "majors": 0
-    },
     "M. Koster|IA": {
       "minors": 4,
       "majors": 0
@@ -1846,10 +1830,6 @@
     "R. Vitelli|SAV": {
       "minors": 6,
       "majors": 1
-    },
-    "Served by M. Stinil|WIC": {
-      "minors": 6,
-      "majors": 0
     },
     "J. Dickman|WIC": {
       "minors": 6,
@@ -1956,7 +1936,7 @@
       "majors": 0
     },
     "W. Gavin|KC": {
-      "minors": 17,
+      "minors": 15,
       "majors": 1
     },
     "M. Register|ALN": {
@@ -2024,7 +2004,7 @@
       "majors": 0
     },
     "N. Burke|REA": {
-      "minors": 9,
+      "minors": 8,
       "majors": 1
     },
     "L. Nelson|GSO": {
@@ -2119,16 +2099,8 @@
       "minors": 14,
       "majors": 0
     },
-    "Served by C. Focht|ORL": {
-      "minors": 1,
-      "majors": 0
-    },
     "K. Lind|ATL": {
       "minors": 17,
-      "majors": 0
-    },
-    "Served by M. Roelens|ORL": {
-      "minors": 1,
       "majors": 0
     },
     "M. McNamee|ATL": {
@@ -2156,11 +2128,11 @@
       "majors": 0
     },
     "B. Brodzinski|SAV": {
-      "minors": 9,
+      "minors": 8,
       "majors": 1
     },
     "P. Bajkov|JAX": {
-      "minors": 12,
+      "minors": 11,
       "majors": 0
     },
     "A. Beraldo|JAX": {
@@ -2291,10 +2263,6 @@
       "minors": 19,
       "majors": 1
     },
-    "Served by A. Collins|TAH": {
-      "minors": 3,
-      "majors": 0
-    },
     "A. Petruzzelli|FW": {
       "minors": 9,
       "majors": 0
@@ -2332,15 +2300,11 @@
       "majors": 2
     },
     "M. Stinil|WIC": {
-      "minors": 24,
+      "minors": 23,
       "majors": 0
     },
     "L. Vanroboys|WIC": {
       "minors": 18,
-      "majors": 0
-    },
-    "Served by A. Romano|FLA": {
-      "minors": 1,
       "majors": 0
     },
     "M. Sikic|CIN": {
@@ -2436,7 +2400,7 @@
       "majors": 3
     },
     "A. Capannelli|IA": {
-      "minors": 5,
+      "minors": 4,
       "majors": 1
     },
     "C. Pitre|TUL": {
@@ -2555,10 +2519,6 @@
       "minors": 21,
       "majors": 4
     },
-    "Served by M. Nevers|IDH": {
-      "minors": 1,
-      "majors": 0
-    },
     "D. Krebs|FW": {
       "minors": 8,
       "majors": 0
@@ -2648,7 +2608,7 @@
       "majors": 3
     },
     "B. Meehan|REA": {
-      "minors": 15,
+      "minors": 14,
       "majors": 1
     },
     "A. Swankler|REA": {
@@ -2658,10 +2618,6 @@
     "J. Horvath|WOR": {
       "minors": 2,
       "majors": 1
-    },
-    "Served by M. Dorrington|WOR": {
-      "minors": 1,
-      "majors": 0
     },
     "C. Donhauser|WOR": {
       "minors": 16,
@@ -2683,14 +2639,6 @@
       "minors": 12,
       "majors": 0
     },
-    "Served by B. Moravec|IND": {
-      "minors": 2,
-      "majors": 0
-    },
-    "Served by K. Lombardi|IND": {
-      "minors": 1,
-      "majors": 0
-    },
     "S. Kennedy|KAL": {
       "minors": 17,
       "majors": 5
@@ -2701,10 +2649,6 @@
     },
     "R. Stucker|REA": {
       "minors": 1,
-      "majors": 0
-    },
-    "Served by L. McCallum|MNE": {
-      "minors": 2,
       "majors": 0
     },
     "M. Rizzo|REA": {
@@ -2756,16 +2700,12 @@
       "majors": 1
     },
     "C. Carreau|KC": {
-      "minors": 11,
+      "minors": 10,
       "majors": 0
     },
     "J. Steinmetz|IDH": {
       "minors": 10,
       "majors": 1
-    },
-    "Served by A. Pitters|TAH": {
-      "minors": 1,
-      "majors": 0
     },
     "S. Stanick|TAH": {
       "minors": 11,
@@ -2797,10 +2737,6 @@
     },
     "C. Leiter|GSO": {
       "minors": 2,
-      "majors": 0
-    },
-    "Served by R. Hernández|WHL": {
-      "minors": 3,
       "majors": 0
     },
     "R. Mahshie|WHL": {
@@ -2839,10 +2775,6 @@
       "minors": 6,
       "majors": 1
     },
-    "Served by R. Francis|ATL": {
-      "minors": 4,
-      "majors": 0
-    },
     "M. Burns|ATL": {
       "minors": 4,
       "majors": 0
@@ -2860,7 +2792,7 @@
       "majors": 0
     },
     "A. DiPaolo|MNE": {
-      "minors": 10,
+      "minors": 9,
       "majors": 0
     },
     "C. Buhl|RC": {
@@ -2881,10 +2813,6 @@
     },
     "B. Watts|ALN": {
       "minors": 4,
-      "majors": 0
-    },
-    "Served by N. Nardecchia|WIC": {
-      "minors": 1,
       "majors": 0
     },
     "D. Dzhaniyev|UTA": {
@@ -2926,10 +2854,6 @@
     "A. Bruder|ORL": {
       "minors": 11,
       "majors": 2
-    },
-    "Served by P. Laviolette|ORL": {
-      "minors": 1,
-      "majors": 0
     },
     "P. Polino|GVL": {
       "minors": 8,
@@ -3007,19 +2931,11 @@
       "minors": 7,
       "majors": 0
     },
-    "Served by A. Repaci|WOR": {
-      "minors": 3,
-      "majors": 0
-    },
     "J. Marooney|MNE": {
       "minors": 4,
       "majors": 0
     },
     "T. Kobryn|WOR": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by S. Ott|BLM": {
       "minors": 1,
       "majors": 0
     },
@@ -3083,10 +2999,6 @@
       "minors": 10,
       "majors": 0
     },
-    "Served by N. Roy|TOL": {
-      "minors": 1,
-      "majors": 0
-    },
     "J. Glynn|KC": {
       "minors": 6,
       "majors": 0
@@ -3096,7 +3008,7 @@
       "majors": 2
     },
     "J. Adams|ORL": {
-      "minors": 12,
+      "minors": 10,
       "majors": 0
     },
     "D. Wendt|ADK": {
@@ -3116,7 +3028,7 @@
       "majors": 0
     },
     "Z. Trott|CIN": {
-      "minors": 10,
+      "minors": 9,
       "majors": 0
     },
     "T. Kelly|TOL": {
@@ -3231,10 +3143,6 @@
       "minors": 6,
       "majors": 1
     },
-    "Served by Z. Trott|CIN": {
-      "minors": 2,
-      "majors": 0
-    },
     "T. Farrell|KC": {
       "minors": 3,
       "majors": 0
@@ -3247,17 +3155,9 @@
       "minors": 8,
       "majors": 0
     },
-    "Served by J. Wilkins|SC": {
-      "minors": 3,
-      "majors": 0
-    },
     "A. Chiarot|SC": {
       "minors": 6,
       "majors": 2
-    },
-    "Served by J. Michel|REA": {
-      "minors": 2,
-      "majors": 0
     },
     "A. Nielsen|MNE": {
       "minors": 10,
@@ -3291,10 +3191,6 @@
       "minors": 6,
       "majors": 1
     },
-    "Served by C. Lockhart|WHL": {
-      "minors": 4,
-      "majors": 0
-    },
     "L. Griffin|CIN": {
       "minors": 5,
       "majors": 0
@@ -3311,16 +3207,12 @@
       "minors": 6,
       "majors": 1
     },
-    "Served by P. Thomas|SC": {
-      "minors": 1,
-      "majors": 0
-    },
     "S. Panwar|IND": {
       "minors": 11,
       "majors": 0
     },
     "Y. Miura|IA": {
-      "minors": 10,
+      "minors": 9,
       "majors": 0
     },
     "J. Lee|KAL": {
@@ -3336,7 +3228,7 @@
       "majors": 1
     },
     "C. Tellier|SAV": {
-      "minors": 16,
+      "minors": 15,
       "majors": 0
     },
     "H. Elynuik|FLA": {
@@ -3395,20 +3287,12 @@
       "minors": 19,
       "majors": 0
     },
-    "Served by M. Crasa|NOR": {
-      "minors": 1,
-      "majors": 0
-    },
     "E. Serensits|TR": {
       "minors": 10,
       "majors": 3
     },
     "C. Fillion|UTA": {
       "minors": 2,
-      "majors": 0
-    },
-    "Served by Z. Jones|MNE": {
-      "minors": 1,
       "majors": 0
     },
     "C. McDonald|WOR": {
@@ -3457,10 +3341,6 @@
     },
     "A. Pitters|TAH": {
       "minors": 6,
-      "majors": 0
-    },
-    "Served by C. Ambrosio|TOL": {
-      "minors": 2,
       "majors": 0
     },
     "N. Roy|TOL": {
@@ -3527,10 +3407,6 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by S. Panwar|IND": {
-      "minors": 2,
-      "majors": 0
-    },
     "L. Pietila|WHL": {
       "minors": 4,
       "majors": 0
@@ -3538,10 +3414,6 @@
     "T. Janicke|FW": {
       "minors": 3,
       "majors": 1
-    },
-    "Served by K. Tyutyayev|FW": {
-      "minors": 1,
-      "majors": 0
     },
     "M. Carson|WOR": {
       "minors": 5,
@@ -3555,24 +3427,16 @@
       "minors": 9,
       "majors": 0
     },
-    "Served by C. Villegas|MNE": {
-      "minors": 1,
-      "majors": 0
-    },
     "Z. Jones|MNE": {
       "minors": 3,
       "majors": 1
-    },
-    "Served by G. Yavaş|NOR": {
-      "minors": 2,
-      "majors": 0
     },
     "C. Murphy|RC": {
       "minors": 1,
       "majors": 0
     },
     "J. Klimek|SC": {
-      "minors": 6,
+      "minors": 5,
       "majors": 4
     },
     "D. Seaman|TUL": {
@@ -3623,10 +3487,6 @@
       "minors": 1,
       "majors": 1
     },
-    "Served by R. Miotto|WOR": {
-      "minors": 1,
-      "majors": 0
-    },
     "K. Mastrodonato|GVL": {
       "minors": 5,
       "majors": 1
@@ -3634,10 +3494,6 @@
     "B. Less|ATL": {
       "minors": 1,
       "majors": 1
-    },
-    "Served by D. Sheriff|GVL": {
-      "minors": 2,
-      "majors": 0
     },
     "J. Teasdale|TR": {
       "minors": 7,
@@ -3679,20 +3535,12 @@
       "minors": 6,
       "majors": 1
     },
-    "Served by Z. Okabe|KAL": {
-      "minors": 1,
-      "majors": 0
-    },
     "J. LeGuerrier|IND": {
       "minors": 3,
       "majors": 0
     },
     "O. Robinson|IND": {
       "minors": 7,
-      "majors": 0
-    },
-    "Served by P. Moynihan|REA": {
-      "minors": 1,
       "majors": 0
     },
     "M. Gendron|REA": {
@@ -3702,10 +3550,6 @@
     "A. Bergmanis|RC": {
       "minors": 1,
       "majors": 1
-    },
-    "Served by J. Biro|GSO": {
-      "minors": 1,
-      "majors": 0
     },
     "F. Harding|WHL": {
       "minors": 2,
@@ -3735,28 +3579,12 @@
       "minors": 2,
       "majors": 0
     },
-    "Served by J. Adams|ORL": {
-      "minors": 2,
-      "majors": 0
-    },
-    "Served by B. Brodzinski|SAV": {
-      "minors": 1,
-      "majors": 0
-    },
     "Z. Funk|SC": {
       "minors": 1,
       "majors": 0
     },
     "B. Pedersen|GVL": {
       "minors": 4,
-      "majors": 0
-    },
-    "Served by M. Hubbarde|RC": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by A. Aleardi|FW": {
-      "minors": 5,
       "majors": 0
     },
     "M. Lewandowski|TOL": {
@@ -3783,10 +3611,6 @@
       "minors": 19,
       "majors": 1
     },
-    "Served by L. McCallum|KC": {
-      "minors": 3,
-      "majors": 0
-    },
     "K. Smith|TUL": {
       "minors": 7,
       "majors": 1
@@ -3794,10 +3618,6 @@
     "K. Johnson|GSO": {
       "minors": 5,
       "majors": 3
-    },
-    "Served by G. Veremyev|WOR": {
-      "minors": 2,
-      "majors": 0
     },
     "R. McGuire|IA": {
       "minors": 12,
@@ -3823,10 +3643,6 @@
       "minors": 13,
       "majors": 0
     },
-    "Served by B. Carrabes|ADK": {
-      "minors": 1,
-      "majors": 0
-    },
     "J. Truscott|TOL": {
       "minors": 5,
       "majors": 0
@@ -3841,10 +3657,6 @@
     },
     "B. Poisson|GVL": {
       "minors": 2,
-      "majors": 0
-    },
-    "Served by C. Brown|TAH": {
-      "minors": 1,
       "majors": 0
     },
     "K. Crnkovic|WIC": {
@@ -3866,10 +3678,6 @@
     "D. McFaul|FW": {
       "minors": 3,
       "majors": 1
-    },
-    "Served by R. Richardson|GSO": {
-      "minors": 1,
-      "majors": 0
     },
     "R. Kirwan|CIN": {
       "minors": 3,
@@ -3908,10 +3716,6 @@
       "majors": 0
     },
     "E. Powell|SAV": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by C. Tellier|SAV": {
       "minors": 1,
       "majors": 0
     },
@@ -3964,7 +3768,7 @@
       "majors": 0
     },
     "C. Valerian|TAH": {
-      "minors": 8,
+      "minors": 7,
       "majors": 1
     },
     "M. Koethe|IA": {
@@ -3975,14 +3779,6 @@
       "minors": 2,
       "majors": 0
     },
-    "Served by B. McManus|ADK": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by C. Golder|REA": {
-      "minors": 1,
-      "majors": 0
-    },
     "N. Carabin|CIN": {
       "minors": 2,
       "majors": 0
@@ -3991,45 +3787,21 @@
       "minors": 10,
       "majors": 0
     },
-    "Served by D. Goure|GSO": {
-      "minors": 1,
-      "majors": 0
-    },
     "K. Tiessen|RC": {
       "minors": 5,
-      "majors": 0
-    },
-    "Served by N. Portz|IDH": {
-      "minors": 1,
       "majors": 0
     },
     "J. Gelatt|UTA": {
       "minors": 5,
       "majors": 0
     },
-    "Served by J. Lukosevicius|ORL": {
-      "minors": 1,
-      "majors": 0
-    },
     "J. Gustafson|TAH": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by M. Sop|IA": {
       "minors": 1,
       "majors": 0
     },
     "J. Edward|MNE": {
       "minors": 9,
       "majors": 2
-    },
-    "Served by E. Armstrong|TUL": {
-      "minors": 2,
-      "majors": 0
-    },
-    "Served by J. Parker-Jones|GVL": {
-      "minors": 1,
-      "majors": 0
     },
     "R. Sullivan|SAV": {
       "minors": 3,
@@ -4045,10 +3817,6 @@
     },
     "M. Colella|UTA": {
       "minors": 2,
-      "majors": 0
-    },
-    "Served by M. Colella|UTA": {
-      "minors": 1,
       "majors": 0
     },
     "K. Gursoy|ALN": {
@@ -4100,7 +3868,7 @@
       "majors": 0
     },
     "R. Appelt|ATL": {
-      "minors": 6,
+      "minors": 5,
       "majors": 2
     },
     "R. Parker|GVL": {
@@ -4128,7 +3896,7 @@
       "majors": 0
     },
     "L. Cavallin|MNE": {
-      "minors": 2,
+      "minors": 1,
       "majors": 0
     },
     "M. Salhany|ADK": {
@@ -4137,10 +3905,6 @@
     },
     "C. Musser|NOR": {
       "minors": 7,
-      "majors": 0
-    },
-    "Served by K. Gursoy|ALN": {
-      "minors": 1,
       "majors": 0
     },
     "B. Gaudreau|TR": {
@@ -4153,14 +3917,6 @@
     },
     "N. Massie|IA": {
       "minors": 4,
-      "majors": 0
-    },
-    "Served by K. Iverson|TUL": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by L. Kaebel|WOR": {
-      "minors": 1,
       "majors": 0
     },
     "E. Pieniniemi|WHL": {
@@ -4199,16 +3955,8 @@
       "minors": 15,
       "majors": 3
     },
-    "Served by C. McAuley|ALN": {
-      "minors": 0,
-      "majors": 1
-    },
     "T. Prefontaine|ALN": {
       "minors": 9,
-      "majors": 0
-    },
-    "Served by S. Gulka|TR": {
-      "minors": 2,
       "majors": 0
     },
     "M. Abramov|BLM": {
@@ -4267,10 +4015,6 @@
       "minors": 4,
       "majors": 0
     },
-    "Served by K. Johnson|JAX": {
-      "minors": 1,
-      "majors": 0
-    },
     "J. Julien|NOR": {
       "minors": 1,
       "majors": 0
@@ -4295,17 +4039,9 @@
       "minors": 3,
       "majors": 0
     },
-    "Served by J. Steinmetz|IDH": {
-      "minors": 1,
-      "majors": 0
-    },
     "B. Montgomery|GSO": {
       "minors": 7,
       "majors": 2
-    },
-    "Served by C. McCabe|TAH": {
-      "minors": 1,
-      "majors": 0
     },
     "J. Robilotti|IA": {
       "minors": 5,
@@ -4317,14 +4053,6 @@
     },
     "L. Grissom|GVL": {
       "minors": 1,
-      "majors": 0
-    },
-    "Served by C. Buhl|RC": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by C. Joyce|RC": {
-      "minors": 2,
       "majors": 0
     },
     "M. Wanner|MNE": {
@@ -4363,20 +4091,8 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by D. Callin|WOR": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by B. Pedersen|GVL": {
-      "minors": 1,
-      "majors": 0
-    },
     "K. Penney|FLA": {
       "minors": 3,
-      "majors": 0
-    },
-    "Served by R. Pitoscia|JAX": {
-      "minors": 1,
       "majors": 0
     },
     "L. Coughlin|IA": {
@@ -4393,10 +4109,6 @@
     },
     "J. Schultz|ADK": {
       "minors": 1,
-      "majors": 0
-    },
-    "Served by T. Edwards|ADK": {
-      "minors": 2,
       "majors": 0
     },
     "M. Costantini|JAX": {
@@ -4416,10 +4128,6 @@
       "majors": 0
     },
     "G. McCrory|GSO": {
-      "minors": 2,
-      "majors": 0
-    },
-    "Served by M. Deelstra|MNE": {
       "minors": 2,
       "majors": 0
     },
@@ -4467,10 +4175,6 @@
       "minors": 1,
       "majors": 3
     },
-    "Served by L. Fuller|TR": {
-      "minors": 1,
-      "majors": 0
-    },
     "A. Saint|REA": {
       "minors": 5,
       "majors": 2
@@ -4491,10 +4195,6 @@
       "minors": 5,
       "majors": 0
     },
-    "Served by M. Myers|WOR": {
-      "minors": 1,
-      "majors": 0
-    },
     "S. Coatta|IA": {
       "minors": 1,
       "majors": 0
@@ -4503,23 +4203,7 @@
       "minors": 5,
       "majors": 0
     },
-    "Served by D. Dzhaniyev|UTA": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by J. Cipollone|ATL": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by L. Breen|SC": {
-      "minors": 1,
-      "majors": 0
-    },
     "M. Hubbarde|BLM": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by G. Loven|ADK": {
       "minors": 1,
       "majors": 0
     },
@@ -4531,16 +4215,8 @@
       "minors": 4,
       "majors": 0
     },
-    "Served by B. Bennett|RC": {
-      "minors": 1,
-      "majors": 0
-    },
     "H. Schreifels|UTA": {
       "minors": 5,
-      "majors": 0
-    },
-    "Served by A. Firriolo|IA": {
-      "minors": 1,
       "majors": 0
     },
     "I. Pierce|RC": {
@@ -4555,20 +4231,12 @@
       "minors": 9,
       "majors": 4
     },
-    "Served by B. Kalmikov|MNE": {
-      "minors": 1,
-      "majors": 0
-    },
     "D. Touré|ALN": {
       "minors": 5,
       "majors": 0
     },
-    "Served by A. Beauregard|TR": {
-      "minors": 2,
-      "majors": 0
-    },
     "B. Biondi|GSO": {
-      "minors": 11,
+      "minors": 10,
       "majors": 1
     },
     "R. Hunter|SC": {
@@ -4587,24 +4255,12 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by E. Martin|IND": {
-      "minors": 2,
-      "majors": 0
-    },
-    "Served by N. Delmas|GSO": {
-      "minors": 1,
-      "majors": 0
-    },
     "O. Lindmark|TUL": {
       "minors": 3,
       "majors": 0
     },
     "K. Isogai|GVL": {
       "minors": 2,
-      "majors": 0
-    },
-    "Served by N. Susuyev|WOR": {
-      "minors": 1,
       "majors": 0
     },
     "T. Thompson|WHL": {
@@ -4631,10 +4287,6 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by G. Devine|REA": {
-      "minors": 1,
-      "majors": 0
-    },
     "H. Hall|WOR": {
       "minors": 1,
       "majors": 1
@@ -4651,14 +4303,6 @@
       "minors": 6,
       "majors": 2
     },
-    "Served by W. Gavin|KC": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by H. Crone|ALN": {
-      "minors": 1,
-      "majors": 0
-    },
     "A. McMaster|JAX": {
       "minors": 2,
       "majors": 0
@@ -4672,10 +4316,6 @@
       "majors": 0
     },
     "S. Dabrowski|REA": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by C. Hausinger|GVL": {
       "minors": 1,
       "majors": 0
     },
@@ -4711,20 +4351,8 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by K. Jeri-Leon|IA": {
-      "minors": 2,
-      "majors": 0
-    },
-    "Served by L. Gorman|MNE": {
-      "minors": 1,
-      "majors": 0
-    },
     "K. Neuber|FLA": {
       "minors": 2,
-      "majors": 0
-    },
-    "Served by C. Combs|SC": {
-      "minors": 1,
       "majors": 0
     },
     "L. Grissom|JAX": {
@@ -4743,14 +4371,6 @@
       "minors": 2,
       "majors": 1
     },
-    "Served by C. Lipe|SAV": {
-      "minors": 1,
-      "majors": 0
-    },
-    "J. Waldron|TOL": {
-      "minors": 2,
-      "majors": 0
-    },
     "A. Chiarot|CIN": {
       "minors": 2,
       "majors": 0
@@ -4767,10 +4387,6 @@
       "minors": 2,
       "majors": 0
     },
-    "Served by L. Nelson|GSO": {
-      "minors": 1,
-      "majors": 0
-    },
     "G. Yavaş|TUL": {
       "minors": 5,
       "majors": 0
@@ -4785,14 +4401,6 @@
     },
     "T. Friedmann|JAX": {
       "minors": 3,
-      "majors": 0
-    },
-    "Served by T. Amonte|SAV": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by D. Pilon|RC": {
-      "minors": 1,
       "majors": 0
     },
     "A. Kuqali|WHL": {
@@ -4831,15 +4439,7 @@
       "minors": 3,
       "majors": 0
     },
-    "Served by B. Stannard|CIN": {
-      "minors": 1,
-      "majors": 0
-    },
     "R. Gagnier|IND": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by C. Carreau|KC": {
       "minors": 1,
       "majors": 0
     },
@@ -4864,10 +4464,6 @@
       "majors": 0
     },
     "W. Magnuson|NOR": {
-      "minors": 2,
-      "majors": 0
-    },
-    "Served by M. O'Leary|TAH": {
       "minors": 1,
       "majors": 0
     },
@@ -4884,10 +4480,6 @@
       "majors": 0
     },
     "G. Bernier|CIN": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by D. Amesbury|ADK": {
       "minors": 1,
       "majors": 0
     },
@@ -4923,21 +4515,9 @@
       "minors": 0,
       "majors": 1
     },
-    "Served by P. Bajkov|JAX": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by J. Groll|FW": {
-      "minors": 1,
-      "majors": 0
-    },
     "A. Schlepp|WOR": {
       "minors": 1,
       "majors": 2
-    },
-    "Served by R. Duke|FLA": {
-      "minors": 1,
-      "majors": 0
     },
     "Z. Murray|TUL": {
       "minors": 2,
@@ -5027,15 +4607,7 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by B. Morrison|BLM": {
-      "minors": 1,
-      "majors": 0
-    },
     "�. Charron|TR": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by D. Duhart|JAX": {
       "minors": 1,
       "majors": 0
     },
@@ -5083,15 +4655,15 @@
       "minors": 1,
       "majors": 0
     },
+    "J. Waldron|TOL": {
+      "minors": 1,
+      "majors": 0
+    },
     "A. Gravel|SC": {
       "minors": 1,
       "majors": 0
     },
     "K. Stewart|TAH": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by Z. Murray|TUL": {
       "minors": 1,
       "majors": 0
     },
@@ -5128,10 +4700,6 @@
       "majors": 0
     },
     "I. Chukarov|BLM": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by J. Vaive|CIN": {
       "minors": 1,
       "majors": 0
     },
@@ -5207,15 +4775,7 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by J. Perreault|MNE": {
-      "minors": 1,
-      "majors": 0
-    },
     "N. Berke|WOR": {
-      "minors": 1,
-      "majors": 0
-    },
-    "Served by M. DeMelis|WOR": {
       "minors": 1,
       "majors": 0
     },
@@ -5235,10 +4795,6 @@
       "minors": 1,
       "majors": 0
     },
-    "Served by I. Fox|IA": {
-      "minors": 1,
-      "majors": 0
-    },
     "B. McNally|FW": {
       "minors": 2,
       "majors": 0
@@ -5254,11 +4810,7 @@
     "I. Chibrikov|JAX": {
       "minors": 1,
       "majors": 0
-    },
-    "Served by Z. Bannister|REA": {
-      "minors": 1,
-      "majors": 0
     }
   },
-  "scrapedAt": "2026-03-20T18:46:56.865Z"
+  "scrapedAt": "2026-03-20T18:54:22.839Z"
 }
