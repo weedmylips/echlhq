@@ -243,6 +243,10 @@
   color: var(--text-secondary);
 }
 
+.team-page .card-header .section-label {
+  color: var(--team-primary-light);
+}
+
 .card-header {
   display: flex;
   align-items: center;
@@ -251,11 +255,19 @@
   border-bottom: 1px solid #3a3a3a;
 }
 
+.team-page .card-header {
+  background: color-mix(in srgb, var(--team-primary) 14%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--team-primary) 22%, transparent);
+}
+
 .team-page .see-all-link {
   font-size: 11px;
   color: var(--text-muted);
   text-decoration: none;
   transition: color 0.15s;
+}
+.team-page .card-header .see-all-link {
+  color: var(--team-secondary-light);
 }
 .team-page .see-all-link:hover { color: var(--text-secondary); }
 
