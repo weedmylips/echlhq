@@ -53,7 +53,7 @@ ${urls
   .join("\n")}
 </urlset>`;
 
-  const outPath = join(__dirname, "..", "client", "dist", "sitemap.xml");
+  const outPath = join(__dirname, "..", "client", "public", "sitemap.xml");
   await writeFile(outPath, xml, "utf-8");
   console.log(`Sitemap written to ${outPath} (${urls.length} URLs)`);
 }
