@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useLeaders, useFightingMajors } from "../hooks/useECHL.js";
 import ShareButton from "../components/ShareButton.jsx";
+import { TEAMS } from "../config/teamConfig.js";
 import "./LeadersPage.css";
 
 const SKATER_CARDS = [
@@ -96,6 +97,9 @@ function StatCard({ cat, leaders }) {
   );
 }
 
+const cityToAbbr = {};
+Object.values(TEAMS).forEach((t) => { cityToAbbr[t.city.toLowerCase()] = t.abbr; });
+
 function FightingMajorsCard({ data }) {
   const top = (data?.leaders || []).slice(0, 10);
   return (
@@ -112,7 +116,7 @@ function FightingMajorsCard({ data }) {
             >
               <span className="stat-rank">{i + 1}</span>
               <span className="stat-name">{p.name}</span>
-              <span className="stat-team">{p.team}</span>
+              <span className="stat-team">{cityToAbbr[p.team.toLowerCase()] || p.team}</span>
               <span className="stat-val">{p.fightingMajors}</span>
             </li>
           ))}
