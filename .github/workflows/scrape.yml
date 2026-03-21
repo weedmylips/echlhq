@@ -28,11 +28,15 @@ jobs:
         run: npm install
         working-directory: scripts
 
+      - name: Backfill missing boxscores (one-time rebuild)
+        run: node scripts/backfill-boxscores.js --delay 400
+        continue-on-error: true
+
       - name: Run scraper
         run: node scripts/scrape.js
 
-      - name: Compute fighting majors
-        run: node scripts/compute-fighting-majors.js
+      - name: Recompute fighting majors (full reset)
+        run: node scripts/compute-fighting-majors.js --reset
 
       - name: Generate sitemap
         run: node scripts/generate-sitemap.mjs
