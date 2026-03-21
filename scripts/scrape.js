@@ -1632,6 +1632,50 @@ async function main() {
     changed++;
   }
 
+  // Build persistent fighting-majors.json (merge new boxscore fights into existing)
+  const fightingMajorsPath = path.join(DATA_DIR, "fighting-majors.json");
+  let fightingMajorsData;
+  try { fightingMajorsData = JSON.parse(fs.readFileSync(fightingMajorsPath, "utf8")); }
+  catch (_) { fightingMajorsData = { processedGames: [], leaders: [] }; }
+  const fmProcessedSet = new Set(fightingMajorsData.processedGames || []);
+  // Build a map from existing leaders for fast lookup
+  const fmPlayerMap = new Map();
+  for (const p of (fightingMajorsData.leaders || [])) {
+    const key = `${p.name}|${p.team}`;
+    fmPlayerMap.set(key, { ...p, games: p.games || [] });
+  }
+  let newFmGames = 0;
+  for (const bs of allCurrentBoxscores) {
+    const gid = bs.gameInfo?.gameId;
+    if (!gid || !bs.isFinal || !bs.penalties || fmProcessedSet.has(gid)) continue;
+    fmProcessedSet.add(gid);
+    newFmGames++;
+    for (const pen of bs.penalties) {
+      if (!pen.infraction || !pen.infraction.toLowerCase().includes("fight")) continue;
+      const teamName = pen.team === "V" ? bs.gameInfo.visitingTeam : bs.gameInfo.homeTeam;
+      const key = `${pen.player}|${teamName}`;
+      if (!fmPlayerMap.has(key)) {
+        fmPlayerMap.set(key, { name: pen.player, team: teamName, fightingMajors: 0, games: [] });
+      }
+      const entry = fmPlayerMap.get(key);
+      entry.fightingMajors++;
+      if (!entry.games.includes(gid)) {
+        entry.games.push(gid);
+      }
+    }
+  }
+  const fmResults = Array.from(fmPlayerMap.values())
+    .sort((a, b) => b.fightingMajors - a.fightingMajors || a.name.localeCompare(b.name));
+  const fmOutput = {
+    generatedAt: now,
+    processedGames: [...fmProcessedSet],
+    leaders: fmResults,
+  };
+  if (writeJSON(fightingMajorsPath, fmOutput)) {
+    console.log(`  ✓ fighting-majors.json (${fmResults.length} players, ${newFmGames} new games)`);
+    changed++;
+  }
+
   // Prune box scores — keep only the last 10 games per team
   const keepIds = new Set();
   const teamLastGames = {};
