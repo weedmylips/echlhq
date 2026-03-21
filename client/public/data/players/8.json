@@ -829,7 +829,7 @@
     {
       "number": 39,
       "player": "Nikita Susuyev",
-      "position": "F",
+      "position": "RW",
       "isRookie": true,
       "isActive": false,
       "gp": 2,
@@ -1030,5 +1030,5 @@
       "sa": 321
     }
   ],
-  "scrapedAt": "2026-03-20T18:54:22.839Z"
+  "scrapedAt": "2026-03-21T11:01:43.887Z"
 }

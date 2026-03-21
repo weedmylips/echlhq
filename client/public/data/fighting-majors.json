@@ -1,1058 +1,32 @@
 {
-  "generatedAt": "2026-03-20T17:30:53.947Z",
+  "generatedAt": "2026-03-21T11:01:55.058Z",
   "leaders": [
     {
       "name": "C. McNelly",
       "team": "Tulsa",
-      "fightingMajors": 9,
+      "fightingMajors": 3,
       "games": [
-        24337,
-        24380,
-        24433,
-        24455,
-        24678,
-        24849,
         25070,
         25116,
         25149
       ]
     },
     {
-      "name": "O. Cooper",
-      "team": "Florida",
-      "fightingMajors": 8,
-      "games": [
-        24307,
-        24435,
-        24512,
-        24673,
-        24741,
-        24794,
-        24826,
-        25160
-      ]
-    },
-    {
-      "name": "B. Simmons-Fischer",
-      "team": "Allen",
-      "fightingMajors": 7,
-      "games": [
-        24433,
-        24455,
-        24579,
-        24749,
-        24919,
-        24934,
-        25102
-      ]
-    },
-    {
-      "name": "D. Amesbury",
-      "team": "Adirondack",
-      "fightingMajors": 7,
-      "games": [
-        24782,
-        24918,
-        24933,
-        24947,
-        25055,
-        25095,
-        25118
-      ]
-    },
-    {
-      "name": "J. Parker-Jones",
-      "team": "Greenville",
-      "fightingMajors": 7,
-      "games": [
-        24619,
-        24743,
-        24797,
-        24916,
-        24975,
-        25059,
-        25070
-      ]
-    },
-    {
-      "name": "M. Henry",
-      "team": "Tulsa",
-      "fightingMajors": 7,
-      "games": [
-        24299,
-        24354,
-        24765,
-        24800,
-        25382,
-        25393
-      ]
-    },
-    {
-      "name": "S. Gulka",
-      "team": "Trois-Rivières",
-      "fightingMajors": 7,
-      "games": [
-        24492,
-        24557,
-        24815,
-        24926,
-        25091,
-        25113
-      ]
-    },
-    {
-      "name": "B. Hawerchuk",
-      "team": "South Carolina",
-      "fightingMajors": 6,
-      "games": [
-        24324,
-        24393,
-        24477,
-        24674,
-        25134,
-        25177
-      ]
-    },
-    {
-      "name": "B. Yeamans",
-      "team": "Bloomington",
-      "fightingMajors": 6,
-      "games": [
-        24340,
-        24459,
-        24543,
-        24796,
-        24963,
-        25069
-      ]
-    },
-    {
-      "name": "C. Tymkin",
-      "team": "Wheeling",
-      "fightingMajors": 6,
-      "games": [
-        24306,
-        24345,
-        24494,
-        24610,
-        24656,
-        24815
-      ]
-    },
-    {
-      "name": "J. Bellamy",
-      "team": "Maine",
-      "fightingMajors": 6,
-      "games": [
-        24427,
-        24664,
-        24893,
-        24933
-      ]
-    },
-    {
-      "name": "J. Graves",
-      "team": "Adirondack",
-      "fightingMajors": 6,
-      "games": [
-        24323,
-        24525,
-        24539,
-        24993,
-        25075,
-        25082
-      ]
-    },
-    {
-      "name": "L. Drevitch",
-      "team": "Savannah",
-      "fightingMajors": 6,
-      "games": [
-        24324,
-        24644,
-        24784,
-        24804,
-        25114,
-        25155
-      ]
-    },
-    {
-      "name": "L. Fuller",
-      "team": "Trois-Rivières",
-      "fightingMajors": 6,
-      "games": [
-        24336,
-        24338,
-        24537,
-        24893,
-        25095,
-        25148
-      ]
-    },
-    {
-      "name": "L. Hatten",
-      "team": "Worcester",
-      "fightingMajors": 6,
-      "games": [
-        24346,
-        24386,
-        24427,
-        24525,
-        24539,
-        24868
-      ]
-    },
-    {
-      "name": "M. Graham",
-      "team": "Wheeling",
-      "fightingMajors": 6,
-      "games": [
-        24551,
-        24578,
-        24656,
-        25020,
-        25029,
-        25117
-      ]
-    },
-    {
-      "name": "N. Rhéaume",
-      "team": "Cincinnati",
-      "fightingMajors": 6,
-      "games": [
-        24361,
-        24376,
-        24403,
-        24740,
-        24920,
-        25170
-      ]
-    },
-    {
-      "name": "A. Collins",
-      "team": "Tahoe",
-      "fightingMajors": 5,
-      "games": [
-        24337,
-        24412,
-        24490,
-        24900,
-        25039
-      ]
-    },
-    {
-      "name": "A. Kulakov",
-      "team": "Reading",
-      "fightingMajors": 5,
-      "games": [
-        24386,
-        24537,
-        24557,
-        24974,
-        25401
-      ]
-    },
-    {
-      "name": "C. Fraser",
-      "team": "Cincinnati",
-      "fightingMajors": 5,
-      "games": [
-        24403,
-        24443,
-        24551,
-        24583,
-        24796
-      ]
-    },
-    {
-      "name": "C. Hausinger",
-      "team": "Greenville",
-      "fightingMajors": 5,
-      "games": [
-        24366,
-        24435,
-        24732,
-        24797,
-        25199
-      ]
-    },
-    {
-      "name": "C. Kodsi",
-      "team": "Orlando",
-      "fightingMajors": 5,
-      "games": [
-        24393,
-        24674,
-        24787,
-        24940,
-        25199
-      ]
-    },
-    {
       "name": "D. Smith",
       "team": "Wichita",
-      "fightingMajors": 5,
+      "fightingMajors": 3,
       "games": [
-        24414,
-        24552,
         25120,
         25166
       ]
     },
     {
-      "name": "J. Frasca",
-      "team": "Reading",
-      "fightingMajors": 5,
-      "games": [
-        24341,
-        24557,
-        24638,
-        25005,
-        25383
-      ]
-    },
-    {
-      "name": "K. Gervais",
-      "team": "Adirondack",
-      "fightingMajors": 5,
-      "games": [
-        24336,
-        24338,
-        24411,
-        24429,
-        25390
-      ]
-    },
-    {
-      "name": "M. Adams-Moisan",
-      "team": "Trois-Rivières",
-      "fightingMajors": 5,
-      "games": [
-        24571,
-        24616,
-        24664
-      ]
-    },
-    {
-      "name": "P. Connor",
-      "team": "Kalamazoo",
-      "fightingMajors": 5,
-      "games": [
-        24524,
-        24581,
-        24939,
-        24950,
-        25074
-      ]
-    },
-    {
-      "name": "R. Parsons",
-      "team": "Cincinnati",
-      "fightingMajors": 5,
-      "games": [
-        24361,
-        24461,
-        24968,
-        25023,
-        25138
-      ]
-    },
-    {
-      "name": "S. Blackwell",
-      "team": "Wichita",
-      "fightingMajors": 5,
-      "games": [
-        24650,
-        24783,
-        24816,
-        24971,
-        25099
-      ]
-    },
-    {
-      "name": "S. Kennedy",
-      "team": "Kalamazoo",
-      "fightingMajors": 5,
-      "games": [
-        24497,
-        24569,
-        24799,
-        25186,
-        25392
-      ]
-    },
-    {
-      "name": "A. Smith",
-      "team": "Allen",
-      "fightingMajors": 4,
-      "games": [
-        25149,
-        25382,
-        25393
-      ]
-    },
-    {
-      "name": "D. Seaman",
-      "team": "Tulsa",
-      "fightingMajors": 4,
-      "games": [
-        24535,
-        25107,
-        25382,
-        25393
-      ]
-    },
-    {
-      "name": "G. Klotz",
-      "team": "Rapid City",
-      "fightingMajors": 4,
-      "games": [
-        24812,
-        24919,
-        25107,
-        25116
-      ]
-    },
-    {
-      "name": "H. Wilson",
-      "team": "Kansas City",
-      "fightingMajors": 4,
-      "games": [
-        24462,
-        24734,
-        24800,
-        25102
-      ]
-    },
-    {
-      "name": "I. Dufort",
-      "team": "Trois-Rivières",
-      "fightingMajors": 4,
-      "games": [
-        24296,
-        24338,
-        24537,
-        25148
-      ]
-    },
-    {
-      "name": "J. Atkinson",
-      "team": "Greenville",
-      "fightingMajors": 4,
-      "games": [
-        24797,
-        25038,
-        25040
-      ]
-    },
-    {
-      "name": "J. Hamilton",
-      "team": "Orlando",
-      "fightingMajors": 4,
-      "games": [
-        24307,
-        24532,
-        24605,
-        25386
-      ]
-    },
-    {
-      "name": "J. Klimek",
-      "team": "South Carolina",
-      "fightingMajors": 4,
-      "games": [
-        24639,
-        24674,
-        24797,
-        25155
-      ]
-    },
-    {
-      "name": "M. Boislard",
-      "team": "Utah",
-      "fightingMajors": 4,
-      "games": [
-        24916,
-        25019,
-        25093,
-        25138
-      ]
-    },
-    {
-      "name": "M. Marchesan",
-      "team": "Indy",
-      "fightingMajors": 4,
-      "games": [
-        24298,
-        24523,
-        24572,
-        24937
-      ]
-    },
-    {
-      "name": "M. Quercia",
-      "team": "Wheeling",
-      "fightingMajors": 4,
-      "games": [
-        24467,
-        24669,
-        24752,
-        25094
-      ]
-    },
-    {
-      "name": "M. Robidoux",
-      "team": "Bloomington",
-      "fightingMajors": 4,
-      "games": [
-        24397,
-        24581,
-        24977,
-        25019
-      ]
-    },
-    {
-      "name": "R. Hofer",
-      "team": "South Carolina",
-      "fightingMajors": 4,
-      "games": [
-        24313,
-        24324,
-        24771,
-        24854
-      ]
-    },
-    {
-      "name": "R. Holmes",
-      "team": "Idaho",
-      "fightingMajors": 4,
-      "games": [
-        24322,
-        24571,
-        24798,
-        25145
-      ]
-    },
-    {
-      "name": "T. Cheveldayoff",
-      "team": "Maine",
-      "fightingMajors": 4,
-      "games": [
-        24316,
-        24345,
-        25113,
-        25159
-      ]
-    },
-    {
-      "name": "T. Edwards",
-      "team": "South Carolina",
-      "fightingMajors": 4,
-      "games": [
-        24420,
-        24605
-      ]
-    },
-    {
-      "name": "T. Edwards",
-      "team": "Adirondack",
-      "fightingMajors": 4,
-      "games": [
-        24861,
-        24918,
-        25095,
-        25159
-      ]
-    },
-    {
-      "name": "T. Murray",
-      "team": "Allen",
-      "fightingMajors": 4,
-      "games": [
-        24538,
-        24849,
-        25382,
-        25393
-      ]
-    },
-    {
-      "name": "W. MacKinnon",
-      "team": "Toledo",
-      "fightingMajors": 4,
-      "games": [
-        24443,
-        24929,
-        24968,
-        25177
-      ]
-    },
-    {
-      "name": "A. Borshyov",
-      "team": "Greensboro",
-      "fightingMajors": 3,
-      "games": [
-        24517,
-        24754,
-        25152
-      ]
-    },
-    {
-      "name": "A. Jarvis",
-      "team": "Atlanta",
-      "fightingMajors": 3,
-      "games": [
-        24352,
-        24784,
-        24993
-      ]
-    },
-    {
-      "name": "A. Poulin",
-      "team": "Trois-Rivières",
-      "fightingMajors": 3,
-      "games": [
-        24338,
-        24582,
-        25095
-      ]
-    },
-    {
-      "name": "B. Moore",
-      "team": "South Carolina",
-      "fightingMajors": 3,
-      "games": [
-        24847,
-        24998,
-        25052
-      ]
-    },
-    {
-      "name": "B. Morrison",
-      "team": "Allen",
-      "fightingMajors": 3,
-      "games": [
-        24374,
-        24455,
-        24678
-      ]
-    },
-    {
-      "name": "C. Berger",
-      "team": "Indy",
-      "fightingMajors": 3,
-      "games": [
-        24361,
-        24841,
-        25142
-      ]
-    },
-    {
-      "name": "C. Bilek",
-      "team": "Kalamazoo",
-      "fightingMajors": 3,
-      "games": [
-        24768,
-        24929,
-        25094
-      ]
-    },
-    {
-      "name": "C. Cameron",
-      "team": "Indy",
-      "fightingMajors": 3,
-      "games": [
-        24583,
-        24812,
-        25186
-      ]
-    },
-    {
-      "name": "C. Felix",
-      "team": "Maine",
-      "fightingMajors": 3,
-      "games": [
-        24918,
-        25136,
-        25159
-      ]
-    },
-    {
-      "name": "C. McAuley",
-      "team": "Allen",
-      "fightingMajors": 3,
-      "games": [
-        24816,
-        24972,
-        25137
-      ]
-    },
-    {
-      "name": "C. McLane",
-      "team": "Adirondack",
-      "fightingMajors": 3,
-      "games": [
-        24338,
-        24660,
-        24933
-      ]
-    },
-    {
-      "name": "D. Paliani",
-      "team": "Tahoe",
-      "fightingMajors": 3,
-      "games": [
-        24399,
-        24763,
-        24981
-      ]
-    },
-    {
-      "name": "E. Serensits",
-      "team": "Trois-Rivières",
-      "fightingMajors": 3,
-      "games": [
-        24737,
-        24750,
-        24882
-      ]
-    },
-    {
-      "name": "J. Condotta",
-      "team": "Jacksonville",
-      "fightingMajors": 3,
-      "games": [
-        24400,
-        24826,
-        24959
-      ]
-    },
-    {
-      "name": "J. Davies",
-      "team": "Savannah",
-      "fightingMajors": 3,
-      "games": [
-        24349,
-        24400,
-        24750
-      ]
-    },
-    {
-      "name": "J. Gormley",
-      "team": "Wichita",
-      "fightingMajors": 3,
-      "games": [
-        24823,
-        24955,
-        25006
-      ]
-    },
-    {
-      "name": "J. Lukosevicius",
-      "team": "Orlando",
-      "fightingMajors": 3,
-      "games": [
-        24512,
-        24625,
-        24822
-      ]
-    },
-    {
-      "name": "J. Miller",
-      "team": "Idaho",
-      "fightingMajors": 3,
-      "games": [
-        24744,
-        25021
-      ]
-    },
-    {
-      "name": "J. Portillo",
-      "team": "Cincinnati",
-      "fightingMajors": 3,
-      "games": [
-        24306,
-        24572,
-        24950
-      ]
-    },
-    {
-      "name": "J. Stewart",
-      "team": "Maine",
-      "fightingMajors": 3,
-      "games": [
-        24853,
-        24978,
-        25082
-      ]
-    },
-    {
-      "name": "J. Tucker",
-      "team": "Indy",
-      "fightingMajors": 3,
-      "games": [
-        24361,
-        25023,
-        25120
-      ]
-    },
-    {
-      "name": "J. Willets",
-      "team": "Reading",
-      "fightingMajors": 3,
-      "games": [
-        24475,
-        24748,
-        25020
-      ]
-    },
-    {
-      "name": "K. Johnson",
-      "team": "Jacksonville",
-      "fightingMajors": 3,
-      "games": [
-        24532,
-        24561,
-        24593
-      ]
-    },
-    {
-      "name": "K. Johnson",
-      "team": "Greensboro",
-      "fightingMajors": 3,
-      "games": [
-        24644,
-        24656,
-        24669
-      ]
-    },
-    {
-      "name": "K. Pearson",
-      "team": "Idaho",
-      "fightingMajors": 3,
-      "games": [
-        24457,
-        25066,
-        25131
-      ]
-    },
-    {
-      "name": "L. Helland",
-      "team": "Iowa",
-      "fightingMajors": 3,
-      "games": [
-        24320,
-        24734,
-        24765
-      ]
-    },
-    {
-      "name": "M. Dorrington",
-      "team": "Worcester",
-      "fightingMajors": 3,
-      "games": [
-        24752,
-        24794,
-        25091
-      ]
-    },
-    {
-      "name": "M. McKee",
-      "team": "Tulsa",
-      "fightingMajors": 3,
-      "games": [
-        24751,
-        25059,
-        25137
-      ]
-    },
-    {
-      "name": "M. Patterson",
-      "team": "Iowa",
-      "fightingMajors": 3,
-      "games": [
-        24368,
-        24403,
-        24990
-      ]
-    },
-    {
-      "name": "N. Noel",
-      "team": "Iowa",
-      "fightingMajors": 3,
-      "games": [
-        24299,
-        24403,
-        24459
-      ]
-    },
-    {
-      "name": "P. Gavlas",
-      "team": "Bloomington",
-      "fightingMajors": 3,
-      "games": [
-        24611,
-        24963,
-        25151
-      ]
-    },
-    {
-      "name": "R. Kovacevic",
-      "team": "Utah",
-      "fightingMajors": 3,
-      "games": [
-        24457
-      ]
-    },
-    {
-      "name": "R. Nolan",
-      "team": "Atlanta",
-      "fightingMajors": 3,
-      "games": [
-        24634,
-        24701,
-        24754
-      ]
-    },
-    {
-      "name": "S. Allen",
-      "team": "Florida",
-      "fightingMajors": 3,
-      "games": [
-        24307,
-        24794,
-        25127
-      ]
-    },
-    {
-      "name": "S. Boulton",
-      "team": "Reading",
-      "fightingMajors": 3,
-      "games": [
-        24386,
-        24537,
-        24557
-      ]
-    },
-    {
-      "name": "S. Docherty",
-      "team": "South Carolina",
-      "fightingMajors": 3,
-      "games": [
-        24319,
-        24561,
-        25072
-      ]
-    },
-    {
-      "name": "S. Mayer",
-      "team": "Tahoe",
-      "fightingMajors": 3,
-      "games": [
-        24322,
-        24650,
-        25066
-      ]
-    },
-    {
-      "name": "T. Budnick",
-      "team": "Wheeling",
-      "fightingMajors": 3,
-      "games": [
-        24351,
-        24502,
-        25094
-      ]
-    },
-    {
-      "name": "T. De Jong",
-      "team": "Greenville",
-      "fightingMajors": 3,
-      "games": [
-        24319,
-        24377,
-        25059
-      ]
-    },
-    {
-      "name": "T. Fawcett",
-      "team": "Adirondack",
-      "fightingMajors": 3,
-      "games": [
-        24338,
-        24465,
-        25159
-      ]
-    },
-    {
-      "name": "A. Beraldo",
-      "team": "Jacksonville",
-      "fightingMajors": 2,
-      "games": [
-        24359,
-        24787
-      ]
-    },
-    {
       "name": "A. Beraldo",
       "team": "Adirondack",
       "fightingMajors": 2,
       "games": [
-        24861,
-        25159
-      ]
-    },
-    {
-      "name": "A. Bruder",
-      "team": "Orlando",
-      "fightingMajors": 2,
-      "games": [
-        24605,
-        25216
-      ]
-    },
-    {
-      "name": "A. Butcher",
-      "team": "Reading",
-      "fightingMajors": 2,
-      "games": [
-        24465,
-        24494
-      ]
-    },
-    {
-      "name": "A. Chiarot",
-      "team": "South Carolina",
-      "fightingMajors": 2,
-      "games": [
-        24619,
-        24940
-      ]
-    },
-    {
-      "name": "A. Nielsen",
-      "team": "Maine",
-      "fightingMajors": 2,
-      "games": [
-        24545,
-        24933
-      ]
-    },
-    {
-      "name": "A. Saint",
-      "team": "Reading",
-      "fightingMajors": 2,
-      "games": [
-        24974,
-        25152
-      ]
-    },
-    {
-      "name": "A. Samuelsson",
-      "team": "Worcester",
-      "fightingMajors": 2,
-      "games": [
-        24794,
-        24982
+        25159,
+        25217
       ]
     },
     {
@@ -1065,245 +39,39 @@
       ]
     },
     {
-      "name": "A. Sutter",
-      "team": "Wheeling",
+      "name": "B. Hawerchuk",
+      "team": "South Carolina",
       "fightingMajors": 2,
       "games": [
-        24475,
-        24932
+        25134,
+        25177
       ]
     },
     {
-      "name": "B. Bennett",
+      "name": "C. Felix",
+      "team": "Maine",
+      "fightingMajors": 2,
+      "games": [
+        25136,
+        25159
+      ]
+    },
+    {
+      "name": "D. Amesbury",
+      "team": "Adirondack",
+      "fightingMajors": 2,
+      "games": [
+        25095,
+        25118
+      ]
+    },
+    {
+      "name": "G. Klotz",
       "team": "Rapid City",
       "fightingMajors": 2,
       "games": [
-        24744
-      ]
-    },
-    {
-      "name": "B. Hodass",
-      "team": "Wheeling",
-      "fightingMajors": 2,
-      "games": [
-        24418,
-        24475
-      ]
-    },
-    {
-      "name": "B. McNally",
-      "team": "Norfolk",
-      "fightingMajors": 2,
-      "games": [
-        24492,
-        24545
-      ]
-    },
-    {
-      "name": "B. Montgomery",
-      "team": "Greensboro",
-      "fightingMajors": 2,
-      "games": [
-        25055,
-        25098
-      ]
-    },
-    {
-      "name": "B. Nicholetts",
-      "team": "Norfolk",
-      "fightingMajors": 2,
-      "games": [
-        24346,
-        24997
-      ]
-    },
-    {
-      "name": "C. Butler",
-      "team": "Iowa",
-      "fightingMajors": 2,
-      "games": [
-        24751,
-        24799
-      ]
-    },
-    {
-      "name": "C. Dodero",
-      "team": "Idaho",
-      "fightingMajors": 2,
-      "games": [
-        24778,
-        25006
-      ]
-    },
-    {
-      "name": "C. Fraser",
-      "team": "Worcester",
-      "fightingMajors": 2,
-      "games": [
-        24316,
-        24323
-      ]
-    },
-    {
-      "name": "C. Fraser",
-      "team": "Greenville",
-      "fightingMajors": 2,
-      "games": [
-        24998,
-        25127
-      ]
-    },
-    {
-      "name": "C. Gregga",
-      "team": "Savannah",
-      "fightingMajors": 2,
-      "games": [
-        24639,
-        25050
-      ]
-    },
-    {
-      "name": "C. Krygier",
-      "team": "Savannah",
-      "fightingMajors": 2,
-      "games": [
-        24490,
-        24673
-      ]
-    },
-    {
-      "name": "C. Punnett",
-      "team": "Idaho",
-      "fightingMajors": 2,
-      "games": [
-        24378,
-        24457
-      ]
-    },
-    {
-      "name": "C. Saccoman",
-      "team": "Kalamazoo",
-      "fightingMajors": 2,
-      "games": [
-        24461,
-        24977
-      ]
-    },
-    {
-      "name": "C. Schiavon",
-      "team": "Indy",
-      "fightingMajors": 2,
-      "games": [
-        24937,
-        25158
-      ]
-    },
-    {
-      "name": "C. Swoyer",
-      "team": "Toledo",
-      "fightingMajors": 2,
-      "games": [
-        24733,
-        24828
-      ]
-    },
-    {
-      "name": "D. Geregach",
-      "team": "Norfolk",
-      "fightingMajors": 2,
-      "games": [
-        24313,
-        24429
-      ]
-    },
-    {
-      "name": "D. Llewellyn",
-      "team": "Toledo",
-      "fightingMajors": 2,
-      "games": [
-        24309,
-        24676
-      ]
-    },
-    {
-      "name": "D. Pilon",
-      "team": "Rapid City",
-      "fightingMajors": 2,
-      "games": [
-        24971,
-        25015
-      ]
-    },
-    {
-      "name": "D. Savenkov",
-      "team": "Norfolk",
-      "fightingMajors": 2,
-      "games": [
-        24844,
-        24972
-      ]
-    },
-    {
-      "name": "E. Olson",
-      "team": "Orlando",
-      "fightingMajors": 2,
-      "games": [
-        24965,
-        24978
-      ]
-    },
-    {
-      "name": "G. Hebert",
-      "team": "Norfolk",
-      "fightingMajors": 2,
-      "games": [
-        24573,
-        25049
-      ]
-    },
-    {
-      "name": "G. Ness",
-      "team": "Utah",
-      "fightingMajors": 2,
-      "games": [
-        24414,
-        24634
-      ]
-    },
-    {
-      "name": "G. Yavaş",
-      "team": "Norfolk",
-      "fightingMajors": 2,
-      "games": [
-        24411,
-        24638
-      ]
-    },
-    {
-      "name": "I. Mianscum",
-      "team": "Trois-Rivières",
-      "fightingMajors": 2,
-      "games": [
-        24505,
-        25136
-      ]
-    },
-    {
-      "name": "J. Bloom",
-      "team": "Kalamazoo",
-      "fightingMajors": 2,
-      "games": [
-        24963,
-        25036
-      ]
-    },
-    {
-      "name": "J. Durflinger",
-      "team": "Tahoe",
-      "fightingMajors": 2,
-      "games": [
-        24444,
-        24576
+        25107,
+        25116
       ]
     },
     {
@@ -1316,347 +84,127 @@
       ]
     },
     {
-      "name": "J. Hudson",
-      "team": "Maine",
-      "fightingMajors": 2,
-      "games": [
-        24351,
-        24882
-      ]
-    },
-    {
-      "name": "J. Joseph",
-      "team": "Indy",
-      "fightingMajors": 2,
-      "games": [
-        24309,
-        24487
-      ]
-    },
-    {
-      "name": "J. Paquette",
-      "team": "Trois-Rivières",
-      "fightingMajors": 2,
-      "games": [
-        24338,
-        24982
-      ]
-    },
-    {
-      "name": "J. Works",
-      "team": "Wheeling",
-      "fightingMajors": 2,
-      "games": [
-        24475,
-        24844
-      ]
-    },
-    {
-      "name": "K. Henry",
-      "team": "Florida",
-      "fightingMajors": 2,
-      "games": [
-        24435,
-        25386
-      ]
-    },
-    {
-      "name": "K. Pow",
-      "team": "Kansas City",
-      "fightingMajors": 2,
-      "games": [
-        24354,
-        24380
-      ]
-    },
-    {
-      "name": "K. Wall",
-      "team": "Kalamazoo",
-      "fightingMajors": 2,
-      "games": [
-        24990,
-        25094
-      ]
-    },
-    {
-      "name": "L. Denis",
-      "team": "Bloomington",
-      "fightingMajors": 2,
-      "games": [
-        24340,
-        25182
-      ]
-    },
-    {
-      "name": "L. Mobley",
-      "team": "Iowa",
-      "fightingMajors": 2,
-      "games": [
-        24676,
-        24937
-      ]
-    },
-    {
-      "name": "L. Nelson",
-      "team": "Greensboro",
-      "fightingMajors": 2,
-      "games": [
-        24341,
-        24974
-      ]
-    },
-    {
-      "name": "L. Sim",
-      "team": "Cincinnati",
-      "fightingMajors": 2,
-      "games": [
-        24785,
-        25036
-      ]
-    },
-    {
-      "name": "M. Boislard",
+      "name": "J. Graves",
       "team": "Adirondack",
       "fightingMajors": 2,
       "games": [
-        24610,
-        25383
+        25075,
+        25082
       ]
     },
     {
-      "name": "M. Carson",
-      "team": "Worcester",
-      "fightingMajors": 2,
-      "games": [
-        24853,
-        25148
-      ]
-    },
-    {
-      "name": "M. Gendron",
-      "team": "Reading",
-      "fightingMajors": 2,
-      "games": [
-        24574,
-        25075
-      ]
-    },
-    {
-      "name": "N. Canade",
+      "name": "K. Pearson",
       "team": "Idaho",
       "fightingMajors": 2,
       "games": [
-        24757,
-        25099
-      ]
-    },
-    {
-      "name": "N. Deakin-Poot",
-      "team": "Fort Wayne",
-      "fightingMajors": 2,
-      "games": [
-        24298,
-        25151
-      ]
-    },
-    {
-      "name": "N. Noel",
-      "team": "Norfolk",
-      "fightingMajors": 2,
-      "games": [
-        24926,
+        25066,
         25131
       ]
     },
     {
-      "name": "P. Bowman",
-      "team": "Rapid City",
+      "name": "L. Drevitch",
+      "team": "Savannah",
       "fightingMajors": 2,
       "games": [
-        24399,
-        25166
+        25114,
+        25155
       ]
     },
     {
-      "name": "Q. Preston",
+      "name": "L. Fuller",
+      "team": "Trois-Rivières",
+      "fightingMajors": 2,
+      "games": [
+        25095,
+        25148
+      ]
+    },
+    {
+      "name": "M. Boislard",
+      "team": "Utah",
+      "fightingMajors": 2,
+      "games": [
+        25093,
+        25138
+      ]
+    },
+    {
+      "name": "M. Graham",
+      "team": "Wheeling",
+      "fightingMajors": 2,
+      "games": [
+        25029,
+        25117
+      ]
+    },
+    {
+      "name": "N. Rhéaume",
+      "team": "Cincinnati",
+      "fightingMajors": 2,
+      "games": [
+        25170,
+        25210
+      ]
+    },
+    {
+      "name": "P. Connor",
       "team": "Kalamazoo",
       "fightingMajors": 2,
       "games": [
-        24569,
-        24733
+        25074,
+        25214
       ]
     },
     {
-      "name": "R. Appelt",
-      "team": "Atlanta",
+      "name": "S. Gulka",
+      "team": "Trois-Rivières",
       "fightingMajors": 2,
       "games": [
-        24743,
-        24959
+        25091,
+        25113
       ]
     },
     {
-      "name": "R. Conroy",
-      "team": "Atlanta",
+      "name": "T. Cheveldayoff",
+      "team": "Maine",
       "fightingMajors": 2,
       "games": [
-        24593,
-        24681
+        25113,
+        25159
       ]
     },
     {
-      "name": "R. Newkirk",
-      "team": "Orlando",
-      "fightingMajors": 2,
-      "games": [
-        24366,
-        24741
-      ]
-    },
-    {
-      "name": "R. Piercey",
-      "team": "Worcester",
-      "fightingMajors": 2,
-      "games": [
-        24386,
-        24932
-      ]
-    },
-    {
-      "name": "R. Richardson",
-      "team": "Greensboro",
-      "fightingMajors": 2,
-      "games": [
-        24578,
-        24861
-      ]
-    },
-    {
-      "name": "R. Rodzinski",
-      "team": "South Carolina",
-      "fightingMajors": 2,
-      "games": [
-        24797
-      ]
-    },
-    {
-      "name": "R. Wheeler",
+      "name": "T. Edwards",
       "team": "Adirondack",
       "fightingMajors": 2,
       "games": [
-        24465,
-        24487
+        25095,
+        25159
       ]
     },
     {
-      "name": "S. Cooley",
-      "team": "South Carolina",
+      "name": "Z. Murray",
+      "team": "Tulsa",
       "fightingMajors": 2,
       "games": [
-        24377,
-        25134
+        25201,
+        25211
       ]
     },
     {
-      "name": "S. Element",
-      "team": "Maine",
-      "fightingMajors": 2,
+      "name": "A. Borshyov",
+      "team": "Greensboro",
+      "fightingMajors": 1,
       "games": [
-        24467,
-        24584
+        25152
       ]
     },
     {
-      "name": "T. Caron",
-      "team": "Allen",
-      "fightingMajors": 2,
-      "games": [
-        24394,
-        24749
-      ]
-    },
-    {
-      "name": "T. Drevitch",
+      "name": "A. Bruder",
       "team": "Orlando",
-      "fightingMajors": 2,
-      "games": [
-        24334,
-        24347
-      ]
-    },
-    {
-      "name": "T. Rask",
-      "team": "Greensboro",
-      "fightingMajors": 2,
-      "games": [
-        24861,
-        24974
-      ]
-    },
-    {
-      "name": "Z. Faremouth",
-      "team": "Greensboro",
-      "fightingMajors": 2,
-      "games": [
-        24656,
-        24798
-      ]
-    },
-    {
-      "name": "Z. Massicotte",
-      "team": "Maine",
-      "fightingMajors": 2,
-      "games": [
-        24316,
-        24410
-      ]
-    },
-    {
-      "name": "A. Anania",
-      "team": "Allen",
       "fightingMajors": 1,
       "games": [
-        24783
-      ]
-    },
-    {
-      "name": "A. Bergmanis",
-      "team": "Rapid City",
-      "fightingMajors": 1,
-      "games": [
-        24576
-      ]
-    },
-    {
-      "name": "A. Capannelli",
-      "team": "Iowa",
-      "fightingMajors": 1,
-      "games": [
-        24526
-      ]
-    },
-    {
-      "name": "A. Chiarot",
-      "team": "Rapid City",
-      "fightingMajors": 1,
-      "games": [
-        24412
-      ]
-    },
-    {
-      "name": "A. Cholach",
-      "team": "Tahoe",
-      "fightingMajors": 1,
-      "games": [
-        24535
-      ]
-    },
-    {
-      "name": "A. Firriolo",
-      "team": "Atlanta",
-      "fightingMajors": 1,
-      "games": [
-        24347
+        25216
       ]
     },
     {
@@ -1668,22 +216,6 @@
       ]
     },
     {
-      "name": "A. Magera",
-      "team": "Fort Wayne",
-      "fightingMajors": 1,
-      "games": [
-        25049
-      ]
-    },
-    {
-      "name": "A. Noel",
-      "team": "Cincinnati",
-      "fightingMajors": 1,
-      "games": [
-        24583
-      ]
-    },
-    {
       "name": "A. Noel",
       "team": "Utah",
       "fightingMajors": 1,
@@ -1692,27 +224,27 @@
       ]
     },
     {
+      "name": "A. Poulin",
+      "team": "Trois-Rivières",
+      "fightingMajors": 1,
+      "games": [
+        25095
+      ]
+    },
+    {
       "name": "A. Saint",
-      "team": "Greenville",
+      "team": "Reading",
       "fightingMajors": 1,
       "games": [
-        24435
+        25152
       ]
     },
     {
-      "name": "A. Stensson",
-      "team": "Iowa",
+      "name": "A. Smith",
+      "team": "Allen",
       "fightingMajors": 1,
       "games": [
-        24562
-      ]
-    },
-    {
-      "name": "B. Biondi",
-      "team": "Greensboro",
-      "fightingMajors": 1,
-      "games": [
-        24997
+        25149
       ]
     },
     {
@@ -1724,46 +256,6 @@
       ]
     },
     {
-      "name": "B. Datema",
-      "team": "Bloomington",
-      "fightingMajors": 1,
-      "games": [
-        24376
-      ]
-    },
-    {
-      "name": "B. Dowler",
-      "team": "Kalamazoo",
-      "fightingMajors": 1,
-      "games": [
-        24990
-      ]
-    },
-    {
-      "name": "B. Hoffmann",
-      "team": "Idaho",
-      "fightingMajors": 1,
-      "games": [
-        24975
-      ]
-    },
-    {
-      "name": "B. Keeper",
-      "team": "Rapid City",
-      "fightingMajors": 1,
-      "games": [
-        24757
-      ]
-    },
-    {
-      "name": "B. Less",
-      "team": "Atlanta",
-      "fightingMajors": 1,
-      "games": [
-        24743
-      ]
-    },
-    {
       "name": "B. Lindberg",
       "team": "Tahoe",
       "fightingMajors": 1,
@@ -1772,43 +264,51 @@
       ]
     },
     {
-      "name": "B. Meehan",
-      "team": "Reading",
+      "name": "B. Montgomery",
+      "team": "Greensboro",
       "fightingMajors": 1,
       "games": [
-        24813
+        25098
       ]
     },
     {
-      "name": "B. Morrison",
+      "name": "B. Simmons-Fischer",
+      "team": "Allen",
+      "fightingMajors": 1,
+      "games": [
+        25102
+      ]
+    },
+    {
+      "name": "B. Yeamans",
       "team": "Bloomington",
       "fightingMajors": 1,
       "games": [
-        24939
+        25069
       ]
     },
     {
-      "name": "B. Saigeon",
-      "team": "Reading",
+      "name": "C. Berger",
+      "team": "Indy",
       "fightingMajors": 1,
       "games": [
-        24660
+        25142
       ]
     },
     {
-      "name": "B. Stonehouse",
-      "team": "Fort Wayne",
+      "name": "C. Bilek",
+      "team": "Kalamazoo",
       "fightingMajors": 1,
       "games": [
-        24785
+        25094
       ]
     },
     {
-      "name": "B. Wood",
-      "team": "Rapid City",
+      "name": "C. Cameron",
+      "team": "Indy",
       "fightingMajors": 1,
       "games": [
-        24618
+        25186
       ]
     },
     {
@@ -1820,35 +320,11 @@
       ]
     },
     {
-      "name": "C. Cook",
-      "team": "Reading",
+      "name": "C. Donhauser",
+      "team": "Worcester",
       "fightingMajors": 1,
       "games": [
-        24475
-      ]
-    },
-    {
-      "name": "C. Denomie",
-      "team": "Atlanta",
-      "fightingMajors": 1,
-      "games": [
-        24804
-      ]
-    },
-    {
-      "name": "C. Doherty",
-      "team": "Florida",
-      "fightingMajors": 1,
-      "games": [
-        24573
-      ]
-    },
-    {
-      "name": "C. Felton",
-      "team": "Utah",
-      "fightingMajors": 1,
-      "games": [
-        24538
+        25223
       ]
     },
     {
@@ -1860,51 +336,59 @@
       ]
     },
     {
-      "name": "C. Golder",
-      "team": "Reading",
+      "name": "C. Fraser",
+      "team": "Greenville",
       "fightingMajors": 1,
       "games": [
-        24465
+        25127
       ]
     },
     {
-      "name": "C. Harpur",
+      "name": "C. Hargrove",
+      "team": "Allen",
+      "fightingMajors": 1,
+      "games": [
+        25219
+      ]
+    },
+    {
+      "name": "C. Hausinger",
+      "team": "Greenville",
+      "fightingMajors": 1,
+      "games": [
+        25199
+      ]
+    },
+    {
+      "name": "C. Kodsi",
       "team": "Orlando",
       "fightingMajors": 1,
       "games": [
-        24307
+        25199
       ]
     },
     {
-      "name": "C. Keenan",
-      "team": "Toledo",
+      "name": "C. McAuley",
+      "team": "Allen",
       "fightingMajors": 1,
       "games": [
-        25392
+        25137
       ]
     },
     {
-      "name": "C. Pauls",
-      "team": "Rapid City",
+      "name": "C. Punnett",
+      "team": "Idaho",
       "fightingMajors": 1,
       "games": [
-        24374
+        25211
       ]
     },
     {
-      "name": "C. Valerian",
-      "team": "Tahoe",
+      "name": "C. Schiavon",
+      "team": "Indy",
       "fightingMajors": 1,
       "games": [
-        24823
-      ]
-    },
-    {
-      "name": "D. Amesbury",
-      "team": "Utah",
-      "fightingMajors": 1,
-      "games": [
-        24579
+        25158
       ]
     },
     {
@@ -1916,43 +400,19 @@
       ]
     },
     {
-      "name": "D. Elliott",
-      "team": "Tulsa",
+      "name": "D. King",
+      "team": "South Carolina",
       "fightingMajors": 1,
       "games": [
-        24455
+        25219
       ]
     },
     {
-      "name": "D. Geregach",
-      "team": "Orlando",
+      "name": "D. Krebs",
+      "team": "Fort Wayne",
       "fightingMajors": 1,
       "games": [
-        25050
-      ]
-    },
-    {
-      "name": "D. Gill",
-      "team": "Orlando",
-      "fightingMajors": 1,
-      "games": [
-        24352
-      ]
-    },
-    {
-      "name": "D. Koumontzis",
-      "team": "Greensboro",
-      "fightingMajors": 1,
-      "games": [
-        24418
-      ]
-    },
-    {
-      "name": "D. Manz",
-      "team": "Indy",
-      "fightingMajors": 1,
-      "games": [
-        24768
+        25210
       ]
     },
     {
@@ -1964,43 +424,11 @@
       ]
     },
     {
-      "name": "D. Savenkov",
-      "team": "Maine",
+      "name": "D. Seaman",
+      "team": "Tulsa",
       "fightingMajors": 1,
       "games": [
-        25384
-      ]
-    },
-    {
-      "name": "E. Desnoyers",
-      "team": "Iowa",
-      "fightingMajors": 1,
-      "games": [
-        24543
-      ]
-    },
-    {
-      "name": "E. Dougherty",
-      "team": "Kalamazoo",
-      "fightingMajors": 1,
-      "games": [
-        24963
-      ]
-    },
-    {
-      "name": "E. Goriunov",
-      "team": "Trois-Rivières",
-      "fightingMajors": 1,
-      "games": [
-        24557
-      ]
-    },
-    {
-      "name": "E. Leyh",
-      "team": "Greensboro",
-      "fightingMajors": 1,
-      "games": [
-        24444
+        25107
       ]
     },
     {
@@ -2020,51 +448,35 @@
       ]
     },
     {
-      "name": "G. Bjorklund",
-      "team": "South Carolina",
+      "name": "H. Wilson",
+      "team": "Kansas City",
       "fightingMajors": 1,
       "games": [
-        24771
+        25102
       ]
     },
     {
-      "name": "G. Blanchard",
-      "team": "Worcester",
+      "name": "I. Dufort",
+      "team": "Trois-Rivières",
       "fightingMajors": 1,
       "games": [
-        24631
+        25148
       ]
     },
     {
-      "name": "H. Elynuik",
-      "team": "Florida",
+      "name": "I. Mianscum",
+      "team": "Trois-Rivières",
       "fightingMajors": 1,
       "games": [
-        24625
+        25136
       ]
     },
     {
-      "name": "H. Hall",
-      "team": "Worcester",
+      "name": "J. Condotta",
+      "team": "Jacksonville",
       "fightingMajors": 1,
       "games": [
-        24947
-      ]
-    },
-    {
-      "name": "H. Israels",
-      "team": "Indy",
-      "fightingMajors": 1,
-      "games": [
-        24583
-      ]
-    },
-    {
-      "name": "J. Böll",
-      "team": "Bloomington",
-      "fightingMajors": 1,
-      "games": [
-        24900
+        25213
       ]
     },
     {
@@ -2076,91 +488,19 @@
       ]
     },
     {
-      "name": "J. Faith",
-      "team": "Tulsa",
-      "fightingMajors": 1,
-      "games": [
-        24320
-      ]
-    },
-    {
-      "name": "J. Grubbe",
-      "team": "Fort Wayne",
-      "fightingMajors": 1,
-      "games": [
-        24368
-      ]
-    },
-    {
-      "name": "J. Hardie",
-      "team": "Jacksonville",
-      "fightingMajors": 1,
-      "games": [
-        24371
-      ]
-    },
-    {
-      "name": "J. Horvath",
-      "team": "Worcester",
-      "fightingMajors": 1,
-      "games": [
-        24386
-      ]
-    },
-    {
-      "name": "J. Horvath",
-      "team": "Idaho",
-      "fightingMajors": 1,
-      "games": [
-        24582
-      ]
-    },
-    {
-      "name": "J. Jaworski",
-      "team": "Cincinnati",
-      "fightingMajors": 1,
-      "games": [
-        24796
-      ]
-    },
-    {
-      "name": "J. Lansdell",
-      "team": "Florida",
-      "fightingMajors": 1,
-      "games": [
-        24541
-      ]
-    },
-    {
-      "name": "J. Martin",
-      "team": "Indy",
-      "fightingMajors": 1,
-      "games": [
-        24611
-      ]
-    },
-    {
-      "name": "J. McGrew",
-      "team": "Tahoe",
-      "fightingMajors": 1,
-      "games": [
-        24749
-      ]
-    },
-    {
-      "name": "J. McLaughlin",
-      "team": "Kansas City",
-      "fightingMajors": 1,
-      "games": [
-        24552
-      ]
-    },
-    {
-      "name": "J. Nachbaur",
+      "name": "J. Klimek",
       "team": "South Carolina",
       "fightingMajors": 1,
       "games": [
-        24797
+        25155
+      ]
+    },
+    {
+      "name": "J. Parker-Jones",
+      "team": "Greenville",
+      "fightingMajors": 1,
+      "games": [
+        25070
       ]
     },
     {
@@ -2172,14 +512,6 @@
       ]
     },
     {
-      "name": "J. Power",
-      "team": "Greenville",
-      "fightingMajors": 1,
-      "games": [
-        24342
-      ]
-    },
-    {
       "name": "J. Smereck",
       "team": "Fort Wayne",
       "fightingMajors": 1,
@@ -2188,67 +520,27 @@
       ]
     },
     {
-      "name": "J. Steinmetz",
-      "team": "Idaho",
+      "name": "J. Stewart",
+      "team": "Maine",
       "fightingMajors": 1,
       "games": [
-        24822
+        25082
       ]
     },
     {
-      "name": "J. Vaive",
-      "team": "Cincinnati",
+      "name": "J. Tucker",
+      "team": "Indy",
       "fightingMajors": 1,
       "games": [
-        24443
+        25120
       ]
     },
     {
-      "name": "J. van de Leest",
-      "team": "Adirondack",
-      "fightingMajors": 1,
-      "games": [
-        24584
-      ]
-    },
-    {
-      "name": "J. Wilkins",
-      "team": "South Carolina",
-      "fightingMajors": 1,
-      "games": [
-        24732
-      ]
-    },
-    {
-      "name": "K. Bohlsen",
-      "team": "South Carolina",
-      "fightingMajors": 1,
-      "games": [
-        25038
-      ]
-    },
-    {
-      "name": "K. Conley",
-      "team": "Norfolk",
-      "fightingMajors": 1,
-      "games": [
-        24748
-      ]
-    },
-    {
-      "name": "K. Gervais",
-      "team": "Kalamazoo",
-      "fightingMajors": 1,
-      "games": [
-        24841
-      ]
-    },
-    {
-      "name": "K. Haskins",
+      "name": "J. Willets",
       "team": "Reading",
       "fightingMajors": 1,
       "games": [
-        24475
+        25217
       ]
     },
     {
@@ -2260,67 +552,19 @@
       ]
     },
     {
-      "name": "K. Johnson",
-      "team": "Worcester",
-      "fightingMajors": 1,
-      "games": [
-        24316
-      ]
-    },
-    {
-      "name": "K. Kupka",
-      "team": "South Carolina",
-      "fightingMajors": 1,
-      "games": [
-        24797
-      ]
-    },
-    {
-      "name": "K. Mastrodonato",
-      "team": "Greenville",
-      "fightingMajors": 1,
-      "games": [
-        24743
-      ]
-    },
-    {
-      "name": "K. Papp",
-      "team": "Norfolk",
-      "fightingMajors": 1,
-      "games": [
-        24505
-      ]
-    },
-    {
-      "name": "K. Smith",
-      "team": "Tulsa",
-      "fightingMajors": 1,
-      "games": [
-        25059
-      ]
-    },
-    {
       "name": "K. Wall",
-      "team": "Tahoe",
+      "team": "Kalamazoo",
       "fightingMajors": 1,
       "games": [
-        25015
+        25094
       ]
     },
     {
-      "name": "L. Alger",
-      "team": "Tahoe",
+      "name": "L. Denis",
+      "team": "Bloomington",
       "fightingMajors": 1,
       "games": [
-        24378
-      ]
-    },
-    {
-      "name": "L. Boudon",
-      "team": "Atlanta",
-      "fightingMajors": 1,
-      "games": [
-        24634
+        25182
       ]
     },
     {
@@ -2332,54 +576,6 @@
       ]
     },
     {
-      "name": "L. Gorman",
-      "team": "Maine",
-      "fightingMajors": 1,
-      "games": [
-        24965
-      ]
-    },
-    {
-      "name": "L. Helland",
-      "team": "Rapid City",
-      "fightingMajors": 1,
-      "games": [
-        24934
-      ]
-    },
-    {
-      "name": "L. Hemstrom",
-      "team": "Maine",
-      "fightingMajors": 1,
-      "games": [
-        24631
-      ]
-    },
-    {
-      "name": "L. Henault",
-      "team": "Jacksonville",
-      "fightingMajors": 1,
-      "games": [
-        24349
-      ]
-    },
-    {
-      "name": "L. Jirousek",
-      "team": "Tulsa",
-      "fightingMajors": 1,
-      "games": [
-        25040
-      ]
-    },
-    {
-      "name": "L. Loheit",
-      "team": "Kansas City",
-      "fightingMajors": 1,
-      "games": [
-        24562
-      ]
-    },
-    {
       "name": "L. Manning",
       "team": "Utah",
       "fightingMajors": 1,
@@ -2388,43 +584,27 @@
       ]
     },
     {
-      "name": "L. Salem",
-      "team": "Utah",
+      "name": "M. Carson",
+      "team": "Worcester",
       "fightingMajors": 1,
       "games": [
-        24814
+        25148
       ]
     },
     {
-      "name": "M. Andreev",
-      "team": "Maine",
+      "name": "M. Dorrington",
+      "team": "Worcester",
       "fightingMajors": 1,
       "games": [
-        24918
+        25091
       ]
     },
     {
-      "name": "M. Barbashev",
-      "team": "Utah",
+      "name": "M. Gendron",
+      "team": "Reading",
       "fightingMajors": 1,
       "games": [
-        24634
-      ]
-    },
-    {
-      "name": "M. Deelstra",
-      "team": "South Carolina",
-      "fightingMajors": 1,
-      "games": [
-        24342
-      ]
-    },
-    {
-      "name": "M. Deelstra",
-      "team": "Maine",
-      "fightingMajors": 1,
-      "games": [
-        24616
+        25075
       ]
     },
     {
@@ -2436,195 +616,67 @@
       ]
     },
     {
-      "name": "M. Johnson",
-      "team": "Allen",
+      "name": "M. McKee",
+      "team": "Tulsa",
       "fightingMajors": 1,
       "games": [
-        24618
+        25137
       ]
     },
     {
-      "name": "M. Kaleinikovas",
-      "team": "Bloomington",
-      "fightingMajors": 1,
-      "games": [
-        24526
-      ]
-    },
-    {
-      "name": "M. Posma",
+      "name": "M. Quercia",
       "team": "Wheeling",
       "fightingMajors": 1,
       "games": [
-        24523
+        25094
       ]
     },
     {
-      "name": "M. Reifenberger",
-      "team": "Norfolk",
-      "fightingMajors": 1,
-      "games": [
-        24868
-      ]
-    },
-    {
-      "name": "M. Roelens",
-      "team": "Orlando",
-      "fightingMajors": 1,
-      "games": [
-        24366
-      ]
-    },
-    {
-      "name": "N. Andrews",
-      "team": "Toledo",
-      "fightingMajors": 1,
-      "games": [
-        24443
-      ]
-    },
-    {
-      "name": "N. Blachman",
-      "team": "Fort Wayne",
-      "fightingMajors": 1,
-      "games": [
-        24497
-      ]
-    },
-    {
-      "name": "N. Blachman",
-      "team": "Florida",
-      "fightingMajors": 1,
-      "games": [
-        25386
-      ]
-    },
-    {
-      "name": "N. Burke",
+      "name": "M. Robidoux",
       "team": "Reading",
       "fightingMajors": 1,
       "games": [
-        24502
+        25217
       ]
     },
     {
-      "name": "N. Carabin",
-      "team": "Iowa",
+      "name": "N. Canade",
+      "team": "Idaho",
       "fightingMajors": 1,
       "games": [
-        24937
+        25099
       ]
     },
     {
-      "name": "N. Carroll",
-      "team": "Savannah",
+      "name": "N. Noel",
+      "team": "Norfolk",
       "fightingMajors": 1,
       "games": [
-        24854
+        25131
       ]
     },
     {
-      "name": "N. Granowicz",
-      "team": "Savannah",
-      "fightingMajors": 1,
-      "games": [
-        24737
-      ]
-    },
-    {
-      "name": "N. Kneen",
-      "team": "Wichita",
-      "fightingMajors": 1,
-      "games": [
-        24394
-      ]
-    },
-    {
-      "name": "N. Pennucci",
-      "team": "Worcester",
-      "fightingMajors": 1,
-      "games": [
-        25384
-      ]
-    },
-    {
-      "name": "N. Quapp",
-      "team": "Greensboro",
-      "fightingMajors": 1,
-      "games": [
-        24771
-      ]
-    },
-    {
-      "name": "N. Somerville",
-      "team": "Wichita",
-      "fightingMajors": 1,
-      "games": [
-        25021
-      ]
-    },
-    {
-      "name": "O. Mainolfi",
-      "team": "Kalamazoo",
-      "fightingMajors": 1,
-      "games": [
-        25392
-      ]
-    },
-    {
-      "name": "P. Brandon",
-      "team": "Adirondack",
-      "fightingMajors": 1,
-      "games": [
-        24584
-      ]
-    },
-    {
-      "name": "P. Laviolette",
-      "team": "Orlando",
-      "fightingMajors": 1,
-      "games": [
-        25072
-      ]
-    },
-    {
-      "name": "P. Polino",
-      "team": "Greenville",
-      "fightingMajors": 1,
-      "games": [
-        24797
-      ]
-    },
-    {
-      "name": "P. Tischke",
-      "team": "Jacksonville",
-      "fightingMajors": 1,
-      "games": [
-        24420
-      ]
-    },
-    {
-      "name": "P. Waugh",
-      "team": "Savannah",
-      "fightingMajors": 1,
-      "games": [
-        24324
-      ]
-    },
-    {
-      "name": "Q. Burns",
+      "name": "O. Cooper",
       "team": "Florida",
       "fightingMajors": 1,
       "games": [
-        24477
+        25160
       ]
     },
     {
-      "name": "R. Chyzowski",
+      "name": "P. Bowman",
       "team": "Rapid City",
       "fightingMajors": 1,
       "games": [
-        24955
+        25166
+      ]
+    },
+    {
+      "name": "R. Appelt",
+      "team": "Atlanta",
+      "fightingMajors": 1,
+      "games": [
+        25213
       ]
     },
     {
@@ -2644,27 +696,11 @@
       ]
     },
     {
-      "name": "R. Dickinson",
-      "team": "Orlando",
+      "name": "R. Holmes",
+      "team": "Idaho",
       "fightingMajors": 1,
       "games": [
-        24512
-      ]
-    },
-    {
-      "name": "R. Ginnell",
-      "team": "Worcester",
-      "fightingMajors": 1,
-      "games": [
-        24574
-      ]
-    },
-    {
-      "name": "R. Lebster",
-      "team": "Utah",
-      "fightingMajors": 1,
-      "games": [
-        24981
+        25145
       ]
     },
     {
@@ -2676,43 +712,67 @@
       ]
     },
     {
-      "name": "R. McGuire",
-      "team": "Iowa",
+      "name": "R. Nolan",
+      "team": "Atlanta",
       "fightingMajors": 1,
       "games": [
-        24828
+        24701
       ]
     },
     {
-      "name": "R. Miotto",
+      "name": "R. Parsons",
+      "team": "Cincinnati",
+      "fightingMajors": 1,
+      "games": [
+        25138
+      ]
+    },
+    {
+      "name": "R. Piercey",
       "team": "Worcester",
       "fightingMajors": 1,
       "games": [
-        24410
+        25223
       ]
     },
     {
-      "name": "R. O'Reilly",
-      "team": "Greenville",
+      "name": "R. Wheeler",
+      "team": "Adirondack",
       "fightingMajors": 1,
       "games": [
-        24517
+        25217
       ]
     },
     {
-      "name": "R. Sullivan",
-      "team": "Savannah",
+      "name": "S. Allen",
+      "team": "Florida",
       "fightingMajors": 1,
       "games": [
-        24847
+        25127
       ]
     },
     {
-      "name": "R. Vitelli",
-      "team": "Savannah",
+      "name": "S. Blackwell",
+      "team": "Wichita",
       "fightingMajors": 1,
       "games": [
-        24334
+        25099
+      ]
+    },
+    {
+      "name": "S. Cooley",
+      "team": "South Carolina",
+      "fightingMajors": 1,
+      "games": [
+        25134
+      ]
+    },
+    {
+      "name": "S. Fyten",
+      "team": "Rapid City",
+      "fightingMajors": 1,
+      "games": [
+        25214
       ]
     },
     {
@@ -2724,59 +784,19 @@
       ]
     },
     {
-      "name": "S. Leskovar",
-      "team": "Iowa",
+      "name": "S. Kennedy",
+      "team": "Kalamazoo",
       "fightingMajors": 1,
       "games": [
-        24990
+        25186
       ]
     },
     {
-      "name": "S. Olson",
-      "team": "Adirondack",
+      "name": "S. Mayer",
+      "team": "Tahoe",
       "fightingMajors": 1,
       "games": [
-        24338
-      ]
-    },
-    {
-      "name": "S. Ott",
-      "team": "Bloomington",
-      "fightingMajors": 1,
-      "games": [
-        24920
-      ]
-    },
-    {
-      "name": "S. Skalde",
-      "team": "Orlando",
-      "fightingMajors": 1,
-      "games": [
-        25386
-      ]
-    },
-    {
-      "name": "S. Timofeyev",
-      "team": "Utah",
-      "fightingMajors": 1,
-      "games": [
-        24371
-      ]
-    },
-    {
-      "name": "S. Vidmar",
-      "team": "Maine",
-      "fightingMajors": 1,
-      "games": [
-        24813
-      ]
-    },
-    {
-      "name": "Served by C. McAuley",
-      "team": "Allen",
-      "fightingMajors": 1,
-      "games": [
-        24763
+        25066
       ]
     },
     {
@@ -2788,19 +808,19 @@
       ]
     },
     {
-      "name": "T. Edwards",
-      "team": "Toledo",
+      "name": "T. Budnick",
+      "team": "Wheeling",
       "fightingMajors": 1,
       "games": [
-        24340
+        25094
       ]
     },
     {
-      "name": "T. Feist",
-      "team": "Indy",
+      "name": "T. Fawcett",
+      "team": "Adirondack",
       "fightingMajors": 1,
       "games": [
-        24397
+        25159
       ]
     },
     {
@@ -2812,38 +832,6 @@
       ]
     },
     {
-      "name": "T. Gratton",
-      "team": "Utah",
-      "fightingMajors": 1,
-      "games": [
-        24359
-      ]
-    },
-    {
-      "name": "T. Janicke",
-      "team": "Fort Wayne",
-      "fightingMajors": 1,
-      "games": [
-        24524
-      ]
-    },
-    {
-      "name": "T. Lovell",
-      "team": "Greenville",
-      "fightingMajors": 1,
-      "games": [
-        24681
-      ]
-    },
-    {
-      "name": "T. Palocsik",
-      "team": "Toledo",
-      "fightingMajors": 1,
-      "games": [
-        24340
-      ]
-    },
-    {
       "name": "T. Paquette",
       "team": "Indy",
       "fightingMajors": 1,
@@ -2852,107 +840,19 @@
       ]
     },
     {
-      "name": "T. Pelton-Byce",
-      "team": "Idaho",
+      "name": "W. MacKinnon",
+      "team": "Toledo",
       "fightingMajors": 1,
       "games": [
-        25039
+        25177
       ]
     },
     {
-      "name": "T. Poulsen",
-      "team": "Tulsa",
-      "fightingMajors": 1,
-      "games": [
-        24788
-      ]
-    },
-    {
-      "name": "T. Rask",
-      "team": "Wichita",
-      "fightingMajors": 1,
-      "games": [
-        24462
-      ]
-    },
-    {
-      "name": "T. Singleton",
-      "team": "Greenville",
-      "fightingMajors": 1,
-      "games": [
-        24366
-      ]
-    },
-    {
-      "name": "T. Swick",
-      "team": "Tahoe",
-      "fightingMajors": 1,
-      "games": [
-        24814
-      ]
-    },
-    {
-      "name": "V. Hadfield",
-      "team": "Reading",
-      "fightingMajors": 1,
-      "games": [
-        24296
-      ]
-    },
-    {
-      "name": "W. Gavin",
-      "team": "Kansas City",
-      "fightingMajors": 1,
-      "games": [
-        24788
-      ]
-    },
-    {
-      "name": "W. McLeod",
-      "team": "Trois-Rivières",
-      "fightingMajors": 1,
-      "games": [
-        25390
-      ]
-    },
-    {
-      "name": "W. Riedell",
-      "team": "Savannah",
-      "fightingMajors": 1,
-      "games": [
-        24541
-      ]
-    },
-    {
-      "name": "Z. Berzolla",
-      "team": "Florida",
-      "fightingMajors": 1,
-      "games": [
-        24512
-      ]
-    },
-    {
-      "name": "Z. Jones",
+      "name": "Z. Jordan",
       "team": "Maine",
       "fightingMajors": 1,
       "games": [
-        24584
-      ]
-    },
-    {
-      "name": "Z. Karpa",
-      "team": "Bloomington",
-      "fightingMajors": 1,
-      "games": [
-        24569
-      ]
-    },
-    {
-      "name": "Z. Murray",
-      "team": "Tulsa",
-      "fightingMajors": 1,
-      "games": [
-        25201
+        25223
       ]
     }
   ]

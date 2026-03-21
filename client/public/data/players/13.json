@@ -1056,7 +1056,7 @@
       "player": "Colby Muise",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 8,
       "g": 0,
       "a": 0,
@@ -1202,7 +1202,7 @@
       "player": "Colby Muise",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 8,
       "w": 3,
       "l": 2,
@@ -1274,5 +1274,5 @@
       "sa": 24
     }
   ],
-  "scrapedAt": "2026-03-20T18:54:22.839Z"
+  "scrapedAt": "2026-03-21T11:01:43.887Z"
 }
