@@ -2,6 +2,20 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Alexander Kuqali",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Tanner Andrew",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-16",
       "player": "Emil Pieniniemi",
       "position": "D",
@@ -126,13 +140,6 @@
       "position": "D",
       "type": "recalled_ahl",
       "summary": "Recalled to Wilkes-Barre/Scranton by Pittsburgh"
-    },
-    {
-      "date": "2026-03-04",
-      "player": "Alexander Kuqali",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

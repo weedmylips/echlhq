@@ -2,6 +2,41 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Jacob Slipec",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jacob Slipec",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Tanner Edwards",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Tyler Brennan",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Henry Welsch",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-19",
       "player": "Tag Bertuzzi",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Matt Salhany",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Conner Hutchison",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Dylan Wendt",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Ryan Helliwell",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Sean Olson",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

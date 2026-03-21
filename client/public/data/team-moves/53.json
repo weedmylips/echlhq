@@ -2,6 +2,41 @@
   "teamId": 53,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Spencer Kennedy",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Colson Gengenbach",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Cam Knuble",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Robby Drazner",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jake Suede",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-19",
       "player": "Greg Japchen",
       "position": "D",
@@ -105,41 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Collin Saccoman",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Evan Dougherty",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Josh Bloom",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Abbotsford by Vancouver"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Matt Berry",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Fort Wayne"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Aku Koskenvuo",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

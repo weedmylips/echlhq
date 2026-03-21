@@ -2,6 +2,27 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Jackson Stewart",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jacob Perreault",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Ryan McGuire",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Iowa Wild"
+    },
+    {
       "date": "2026-03-18",
       "player": "Mitchel Deelstra",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Jacob Perreault",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Ben Raymond",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/7"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Sebastian Vidmar",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve 3/7"
     }
   ]
 }

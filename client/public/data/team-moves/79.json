@@ -2,6 +2,41 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Ryan Pitoscia",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Simon Labelle",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jack Babbage",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jack Babbage",
+      "position": "D",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Patrick Bajkov",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-19",
       "player": "Dalton Duhart",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Jack Babbage",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Nathan Berke",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Dalton Duhart",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Holden Wale",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Dalton Duhart",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

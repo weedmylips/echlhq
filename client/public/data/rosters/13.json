@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-19",
+  "lastTransactionCheck": "2026-03-20",
   "roster": [
     {
       "playerId": "9064",
@@ -1031,6 +1031,27 @@
       "player": "Connor Eddy",
       "number": null,
       "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Samuel Richard",
+      "number": null,
+      "position": "G",
       "status": "signed",
       "statusNote": null,
       "irStartDate": null,

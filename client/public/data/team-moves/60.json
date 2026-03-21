@@ -2,6 +2,41 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Anthony Petruzzelli",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Josh Atkinson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Logan Nelson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Alex Aleardi",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Nick Deakin-Poot",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-19",
       "player": "Connor Milburn",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Tyler Inamoto",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Josh Groll",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Thomas Sinclair",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Willian Dufour",
-      "position": "F",
-      "type": "loaned",
-      "summary": "Loaned to Grand Rapids 3/12"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jayden Grubbe",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Bakersfield by Edmonton"
     }
   ]
 }

@@ -2,6 +2,41 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Evan Orr",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Nolan Orzeck",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Cam Gaudette",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Dylan Carabia",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Brett Bulmer",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-18",
       "player": "Dylan Carabia",
       "position": "D",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Max Grondin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Cam Gaudette",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Cam Gaudette",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Andrew Jarvis",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Evan Orr",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

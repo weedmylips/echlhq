@@ -2,7 +2,7 @@
   "teamId": 66,
   "slug": "allen-americans",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-20",
   "roster": [
     {
       "playerId": "8586",
@@ -647,7 +647,7 @@
     },
     {
       "playerId": "10484",
-      "player": "Djibril Tour\u00e9",
+      "player": "Djibril Touré",
       "number": 40,
       "position": "D",
       "status": "active",
@@ -850,6 +850,48 @@
       "player": "Michael Greco",
       "number": null,
       "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Maxim Barbashev",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Nikita Susuyev",
+      "number": null,
+      "position": "F",
       "status": "active",
       "statusNote": null,
       "irStartDate": null,

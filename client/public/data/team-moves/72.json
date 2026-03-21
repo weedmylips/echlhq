@@ -2,6 +2,27 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Dakota Seaman",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "JC Brassard",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Owen Lindmark",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-18",
       "player": "Michael Davies",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Tanner Faith",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Lukas Jirousek",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Drew Elliott",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by San Diego"
     }
   ]
 }

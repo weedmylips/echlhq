@@ -2,6 +2,20 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Andrew Noel",
+      "position": "D",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Rilen Kovacevic",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-19",
       "player": "Maksim Barbashev",
       "position": "F",
@@ -126,13 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Josh Zinger",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

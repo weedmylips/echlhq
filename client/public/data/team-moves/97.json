@@ -2,6 +2,48 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Keaton Pehrson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Mason Reiners",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Evan Nause",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Cristophe Tellier",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jaxsen Wiebe",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Ivan Chukarov",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-19",
       "player": "Phip Waugh",
       "position": "D",
@@ -98,20 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Connor Gregga",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Tristan Amonte",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

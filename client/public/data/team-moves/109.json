@@ -2,6 +2,62 @@
   "teamId": 109,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Keanan Stewart",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jake Durflinger",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "CJ Valerian",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Samuel Huo",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Eric Olson",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Ryan Dickinson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Adam Pitters",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-19",
       "player": "Louka Henault",
       "position": "D",
@@ -84,62 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Olivier LeBlanc",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Sloan Stanick",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Ben Lindberg",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Brennan Kapcheck",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Ben Lindberg",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Ryan Dickinson",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Iowa"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Artur Cholach",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Henderson Silver"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Jordan Gustafson",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/6"
     }
   ]
 }

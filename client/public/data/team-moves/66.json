@@ -2,6 +2,27 @@
   "teamId": 66,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Hank Crone",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day 3/19"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Nikita Susuyev",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned from Springfield by St. Louis 3/19"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Maxim Barbashev",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Tucson 3/19"
+    },
+    {
       "date": "2026-03-15",
       "player": "Braidan Simmons-Fisher",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Lukas Sillinger",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Avery Smith",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Colby McAuley",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

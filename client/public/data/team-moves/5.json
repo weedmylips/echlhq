@@ -2,6 +2,20 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Jordan Kaplan",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Shawn Kennedy",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-19",
       "player": "Aaron Chiarot",
       "position": "D",
@@ -124,20 +138,6 @@
       "date": "2026-03-13",
       "player": "Shawn Kennedy",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Adam Kydd",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Aaron Chiarot",
-      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

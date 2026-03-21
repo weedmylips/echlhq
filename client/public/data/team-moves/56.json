@@ -2,6 +2,34 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Luke Loheit",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jackson Jutting",
+      "position": "F",
+      "type": "active",
+      "summary": "Returned From Loan by Grand Rapids"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "David Cotton",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Will Gavin",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-19",
       "player": "Jake McLaughlin",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Lucas Sowder",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Tyler Schleppe",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Chase Brand",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Jimmy Glynn",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

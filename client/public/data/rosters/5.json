@@ -2,7 +2,7 @@
   "teamId": 5,
   "slug": "cincinnati-cyclones",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-19",
+  "lastTransactionCheck": "2026-03-20",
   "roster": [
     {
       "playerId": "11094",
@@ -210,7 +210,7 @@
       "player": "Jordan Kaplan",
       "number": 27,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -230,7 +230,7 @@
       "player": "Shawn Kennedy",
       "number": 74,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

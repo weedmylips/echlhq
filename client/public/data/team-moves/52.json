@@ -2,6 +2,20 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Keaton Mastrodonato",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Ontario"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Denis Smirnov",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-19",
       "player": "Tristan De Jong",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jacob Modry",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Tristan De Jong",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

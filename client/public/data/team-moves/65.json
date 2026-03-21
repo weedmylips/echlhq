@@ -2,6 +2,41 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Cody Schiavon",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Kyle Bettens",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jason Ahearn",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Brett Moravec",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Jordan Martin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-19",
       "player": "Chris Grando",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Kyle Aucoin",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Brett Moravec",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kyle Aucoin",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

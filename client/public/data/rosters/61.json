@@ -2,7 +2,7 @@
   "teamId": 61,
   "slug": "wheeling-nailers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-16",
+  "lastTransactionCheck": "2026-03-20",
   "roster": [
     {
       "playerId": "10483",
@@ -249,10 +249,10 @@
       "player": "Tanner Andrew",
       "number": 28,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-20",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

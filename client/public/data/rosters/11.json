@@ -2,7 +2,7 @@
   "teamId": 11,
   "slug": "idaho-steelheads",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-19",
+  "lastTransactionCheck": "2026-03-20",
   "roster": [
     {
       "playerId": "9379",
@@ -249,7 +249,7 @@
       "player": "Nick Portz",
       "number": 20,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -832,7 +832,7 @@
       "player": "Morgan Winters",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

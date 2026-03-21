@@ -2,7 +2,7 @@
   "teamId": 96,
   "slug": "wichita-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-17",
+  "lastTransactionCheck": "2026-03-20",
   "roster": [
     {
       "playerId": "9267",
@@ -529,7 +529,7 @@
       "player": "Jack Bar",
       "number": 25,
       "position": "D",
-      "status": "ir",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": "2026-03-12",
       "irDays": 14,

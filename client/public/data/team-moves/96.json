@@ -2,6 +2,13 @@
   "teamId": 96,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Jack Bar",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by San Jose Barracuda"
+    },
+    {
       "date": "2026-03-17",
       "player": "Christophe Fillion",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-04",
-      "player": "Nico Somerville",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

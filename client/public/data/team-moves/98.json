@@ -2,6 +2,55 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Dante Giannuzzi",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Matthew Sop",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Mike Koster",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Nick Carabin",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Liam Coughlin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Cameron Butler",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Dylan Massie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-19",
       "player": "William Rousseau",
       "position": "G",
@@ -88,55 +137,6 @@
     {
       "date": "2026-03-16",
       "player": "Matthew Sop",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Liam Coughlin",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Grant Ahcan",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Grant Ahcan",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Stevie Leskovar",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Iowa by Minnesota"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Liam Coughlin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Nikita Borodaenko",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Yuki Miura",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"

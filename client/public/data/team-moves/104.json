@@ -2,6 +2,34 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-03-20",
+      "player": "Michael Ferrandino",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/19"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Max Ruoho",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve 3/19"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Anton Rubtsov",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/19"
+    },
+    {
+      "date": "2026-03-20",
+      "player": "Cole Donhauser",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve 3/19"
+    },
+    {
       "date": "2026-03-19",
       "player": "Parker Gahagen",
       "position": "G",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "recalled_ahl",
       "summary": "Recalled to Bridgeport by New York Islanders 3/9"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Riley Ginnell",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Drew Callin",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Max Dukovac",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Khristian Acosta",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }
