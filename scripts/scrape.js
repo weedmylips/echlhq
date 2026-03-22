@@ -1292,7 +1292,7 @@ async function main() {
   const allSkaters = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.skaters || [])
-      .filter((p) => (p.gp ?? 0) > 0 && !recalledNames.has(p.player.toLowerCase()) && p.isActive !== false)
+      .filter((p) => (p.gp ?? 0) > 0)
       .map((p) => ({ ...p, team: abbr }));
   });
 
@@ -1300,7 +1300,7 @@ async function main() {
   const allGoalies = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.goalies || [])
-      .filter((p) => (p.gp ?? 0) >= 10 && p.isActive !== false)
+      .filter((p) => (p.gp ?? 0) >= 10)
       .map((p) => ({ ...p, team: abbr }));
   });
 
@@ -1309,7 +1309,7 @@ async function main() {
     let rank = 1;
     return sorted.map((p, i) => {
       if (i > 0 && (p[key] ?? 0) !== (sorted[i - 1][key] ?? 0)) rank = i + 1;
-      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0, isRookie: p.isRookie ?? false, position: p.position ?? "" };
+      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0, isRookie: p.isRookie ?? false, position: p.position ?? "", ...(p.isActive === false ? { isActive: false } : {}) };
     });
   };
 
@@ -1318,7 +1318,7 @@ async function main() {
     let rank = 1;
     return sorted.map((p, i) => {
       if (i > 0 && (p[key] ?? 0) !== (sorted[i - 1][key] ?? 0)) rank = i + 1;
-      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0, isRookie: p.isRookie ?? false, position: p.position ?? "" };
+      return { rank, name: p.player, team: p.team ?? "", value: p[key] ?? 0, isRookie: p.isRookie ?? false, position: p.position ?? "", ...(p.isActive === false ? { isActive: false } : {}) };
     });
   };
 
@@ -1363,15 +1363,12 @@ async function main() {
 
   // Build lookup maps from player name for enriching and filtering scraped leader entries
   const playerMeta = new Map();
-  const inactiveNames = new Set();
   for (const [, t] of Object.entries(teamPlayers)) {
     for (const p of (t.skaters || [])) {
-      if (p.isActive === false) inactiveNames.add(p.player.toLowerCase());
-      else playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: p.position ?? "F" });
+      playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: p.position ?? "F", isActive: p.isActive !== false });
     }
     for (const p of (t.goalies || [])) {
-      if (p.isActive === false) inactiveNames.add(p.player.toLowerCase());
-      else playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G" });
+      playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G", isActive: p.isActive !== false });
     }
   }
   // Compute minors/majors from persistent penalty-stats.json (accumulated across scraper runs)
@@ -1416,7 +1413,7 @@ async function main() {
         const fullName = abbrToFull.get(abbrName) || abbrName;
         const team = playerAbbrToCurrentTeam.get(abbrName) || "";
         const meta = playerMeta.get(fullName);
-        return { name: fullName, team, value, isRookie: meta?.isRookie ?? false, position: meta?.position ?? "" };
+        return { name: fullName, team, value, isRookie: meta?.isRookie ?? false, position: meta?.position ?? "", ...(meta?.isActive === false ? { isActive: false } : {}) };
       })
       .filter((e) => e.team) // must have a current team (still active in league)
       .sort((a, b) => b.value - a.value);
@@ -1430,14 +1427,12 @@ async function main() {
   leaders.minors = penaltyLeaders("minors");
   leaders.majors = penaltyLeaders("majors");
 
-  const skipInactiveFilter = new Set(["minors", "majors"]);
   for (const key of Object.keys(leaders)) {
     leaders[key] = leaders[key]
-      .filter((entry) => skipInactiveFilter.has(key) || !inactiveNames.has(entry.name.toLowerCase()))
       .map((entry) => {
         if (entry.isRookie !== undefined) return entry; // already enriched (computed entries)
         const meta = playerMeta.get(entry.name);
-        return meta ? { ...entry, isRookie: meta.isRookie, position: meta.position } : { ...entry, isRookie: false, position: "" };
+        return meta ? { ...entry, isRookie: meta.isRookie, position: meta.position, ...(meta.isActive === false ? { isActive: false } : {}) } : { ...entry, isRookie: false, position: "" };
       });
   }
 
