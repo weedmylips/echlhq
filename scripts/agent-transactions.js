@@ -261,10 +261,24 @@ function applyTransactions(transactions, today) {
     for (const tx of txs) {
       const { action, player, position, description, status, extra } = tx;
 
-      // Find player in roster (case-insensitive)
-      const playerIdx = rosterData.roster.findIndex(
+      // Find player in roster (case-insensitive, with last-name fallback for nickname variants)
+      let playerIdx = rosterData.roster.findIndex(
         (p) => p.player.toLowerCase() === player.toLowerCase()
       );
+      if (playerIdx < 0) {
+        // Fallback: match by last name + same position (handles "Zach" vs "Zacharie" etc.)
+        const txLast = player.toLowerCase().split(" ").slice(-1)[0];
+        const candidates = rosterData.roster
+          .map((p, i) => ({ p, i }))
+          .filter(({ p }) => {
+            const rLast = p.player.toLowerCase().split(" ").slice(-1)[0];
+            return rLast === txLast && (!position || p.position === position);
+          });
+        if (candidates.length === 1) {
+          playerIdx = candidates[0].i;
+          console.log(`  ≈ Fuzzy match: "${player}" → "${rosterData.roster[playerIdx].player}"`);
+        }
+      }
 
       if (action === "delete") {
         if (status === "traded" || status === "released") {

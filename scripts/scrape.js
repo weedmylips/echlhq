@@ -1289,20 +1289,42 @@ async function main() {
   Object.values(TEAMS).forEach((t) => { teamAbbrMap[t.id] = t.abbr; });
 
   // Flat skater list with team abbr attached
-  const allSkaters = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
+  // Deduplicate traded players: keep only the active entry (current team).
+  // If a player has no active entry, keep the one with the most GP.
+  const allSkatersRaw = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.skaters || [])
       .filter((p) => (p.gp ?? 0) > 0)
       .map((p) => ({ ...p, team: abbr }));
   });
+  const skatersByName = new Map();
+  for (const p of allSkatersRaw) {
+    const key = p.player.toLowerCase();
+    const existing = skatersByName.get(key);
+    if (!existing) { skatersByName.set(key, p); continue; }
+    // Prefer active entry; tie-break by most GP
+    if (p.isActive !== false && existing.isActive === false) skatersByName.set(key, p);
+    else if (p.isActive === existing.isActive && (p.gp ?? 0) > (existing.gp ?? 0)) skatersByName.set(key, p);
+  }
+  const allSkaters = [...skatersByName.values()];
 
   // Flat goalie list with team abbr — minimum 10 GP to qualify
-  const allGoalies = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
+  // Same deduplication for traded goalies.
+  const allGoaliesRaw = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.goalies || [])
       .filter((p) => (p.gp ?? 0) >= 10)
       .map((p) => ({ ...p, team: abbr }));
   });
+  const goaliesByName = new Map();
+  for (const p of allGoaliesRaw) {
+    const key = p.player.toLowerCase();
+    const existing = goaliesByName.get(key);
+    if (!existing) { goaliesByName.set(key, p); continue; }
+    if (p.isActive !== false && existing.isActive === false) goaliesByName.set(key, p);
+    else if (p.isActive === existing.isActive && (p.gp ?? 0) > (existing.gp ?? 0)) goaliesByName.set(key, p);
+  }
+  const allGoalies = [...goaliesByName.values()];
 
   const rankByDesc = (arr, key) => {
     const sorted = [...arr].sort((a, b) => (b[key] ?? 0) - (a[key] ?? 0));
