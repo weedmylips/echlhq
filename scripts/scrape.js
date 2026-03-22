@@ -1292,7 +1292,7 @@ async function main() {
   const allSkaters = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.skaters || [])
-      .filter((p) => (p.gp ?? 0) > 0 && !recalledNames.has(p.player.toLowerCase()) && p.isActive !== false)
+      .filter((p) => (p.gp ?? 0) > 0)
       .map((p) => ({ ...p, team: abbr }));
   });
 
@@ -1300,7 +1300,7 @@ async function main() {
   const allGoalies = Object.entries(teamPlayers).flatMap(([teamId, t]) => {
     const abbr = teamAbbrMap[parseInt(teamId)] || "";
     return (t.goalies || [])
-      .filter((p) => (p.gp ?? 0) >= 10 && p.isActive !== false)
+      .filter((p) => (p.gp ?? 0) >= 10)
       .map((p) => ({ ...p, team: abbr }));
   });
 
@@ -1430,10 +1430,8 @@ async function main() {
   leaders.minors = penaltyLeaders("minors");
   leaders.majors = penaltyLeaders("majors");
 
-  const skipInactiveFilter = new Set(["minors", "majors"]);
   for (const key of Object.keys(leaders)) {
     leaders[key] = leaders[key]
-      .filter((entry) => skipInactiveFilter.has(key) || !inactiveNames.has(entry.name.toLowerCase()))
       .map((entry) => {
         if (entry.isRookie !== undefined) return entry; // already enriched (computed entries)
         const meta = playerMeta.get(entry.name);
