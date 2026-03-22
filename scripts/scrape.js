@@ -1520,7 +1520,17 @@ async function main() {
   });
 
   const existingIds = new Set(cleanedExisting.filter(s => s.gameId).map(s => s.gameId));
-  const newScores = resolvedScores.filter(s => !s.gameId || !existingIds.has(s.gameId));
+  // Also drop null-gameId entries from new scrape that match any resolved entry by
+  // teams+score (without date), since date can be off by a day due to timezone drift
+  const allResolvedKeys = new Set(
+    [...cleanedExisting, ...resolvedScores].filter(s => s.gameId)
+      .map(s => `${s.visitingTeam}|${s.homeTeam}|${s.visitingScore}|${s.homeScore}|${s.overtime || ""}`)
+  );
+  const newScores = resolvedScores.filter(s => {
+    if (s.gameId) return !existingIds.has(s.gameId);
+    const key = `${s.visitingTeam}|${s.homeTeam}|${s.visitingScore}|${s.homeScore}|${s.overtime || ""}`;
+    return !allResolvedKeys.has(key);
+  });
   const raw = [...newScores, ...cleanedExisting].sort((a, b) => new Date(b.date) - new Date(a.date));
   // Deduplicate by gameId first (same gameId appearing with different dates)
   const seenGameIds = new Set();
@@ -1531,11 +1541,13 @@ async function main() {
     return true;
   });
   // Deduplicate: prefer entry with gameId over null-gameId for same game
-  const resolvedGameKeys = new Set(
-    dedupedByGameId.filter(s => s.gameId).map(s => `${s.date}|${s.visitingTeam}|${s.homeTeam}`)
+  // Use teams+score key (without date) to catch date-drift duplicates
+  const resolvedMatchKeys = new Set(
+    dedupedByGameId.filter(s => s.gameId)
+      .map(s => `${s.visitingTeam}|${s.homeTeam}|${s.visitingScore}|${s.homeScore}|${s.overtime || ""}`)
   );
   const mergedScores = dedupedByGameId
-    .filter(s => s.gameId || !resolvedGameKeys.has(`${s.date}|${s.visitingTeam}|${s.homeTeam}`))
+    .filter(s => s.gameId || !resolvedMatchKeys.has(`${s.visitingTeam}|${s.homeTeam}|${s.visitingScore}|${s.homeScore}|${s.overtime || ""}`))
     .slice(0, 1500);
 
   if (writeJSON(scoresPath, { scores: mergedScores, scrapedAt: now })) {
