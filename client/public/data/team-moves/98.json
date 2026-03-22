@@ -2,6 +2,34 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Isaac Johnson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Elliott McDermott",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Dylan Massie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Noah Massie",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Dylan Massie",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Ryan McGuire",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Iowa Wild"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "William Rousseau",
-      "position": "G",
-      "type": "active",
-      "summary": "Assigned by Iowa Wild"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Dylan Massie",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Yuki Miura",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

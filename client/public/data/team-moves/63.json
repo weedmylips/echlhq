@@ -2,6 +2,62 @@
   "teamId": 63,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "William Magnuson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Justin Young",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Ben Zloty",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Manitoba 3/21"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Nathan Noel",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Nick McCarry",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Michael Citara",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "David Drake",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Killian Kiecker-Olson",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-21",
       "player": "Michael Citara",
       "position": "F",
@@ -84,62 +140,6 @@
       "position": "D",
       "type": "signed",
       "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "William Magnuson",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "David Drake",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jack Pascucci",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Michael Citara",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Michael Citara",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "David Drake",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Nick McCarry",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Connor Fedorek",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Tulsa"
     }
   ]
 }

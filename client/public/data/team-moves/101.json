@@ -2,6 +2,34 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Loke Johansson",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Jacob Perreault",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Ryan Orgel",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-21",
       "player": "Nick Anderson",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Xavier Henry",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Colin Felix",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Providence"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Jackson Stewart",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Mitchel Deelstra",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

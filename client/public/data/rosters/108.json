@@ -2,7 +2,7 @@
   "teamId": 108,
   "slug": "greensboro-gargoyles",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-22",
   "roster": [
     {
       "playerId": "10082",
@@ -450,7 +450,7 @@
       "player": "Braden Doyle",
       "number": 4,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -530,7 +530,7 @@
       "player": "Blake Dangos",
       "number": 5,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

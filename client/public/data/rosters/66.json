@@ -2,7 +2,7 @@
   "teamId": 66,
   "slug": "allen-americans",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-22",
   "roster": [
     {
       "playerId": "8586",
@@ -690,7 +690,7 @@
       "player": "Jackson Parsons",
       "number": 31,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -710,7 +710,7 @@
       "player": "Marco Costantini",
       "number": 33,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

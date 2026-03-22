@@ -2,6 +2,20 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Braden Doyle",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Blake Dangos",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Josh Groll",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Demetrios Koumontzis",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Anthony Messuri",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

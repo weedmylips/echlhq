@@ -2,6 +2,34 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Quinn Olson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Zach Giroux",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Cole Tymkin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
       "date": "2026-03-21",
       "player": "Zach Giroux",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Acquired from Wheeling"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Cole Tymkin",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Wheeling"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Ian Pierce",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jake Ratzlaff",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Blake Bennett",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Calgary"
     }
   ]
 }

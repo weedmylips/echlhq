@@ -2,6 +2,34 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Cameron Rowe",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Topias Leinonen",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Holden Wale",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Jack Babbage",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Patrick Bajkov",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Michael Bullion",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Patrick Bajkov",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Topias Leinonen",
-      "position": "G",
-      "type": "active",
-      "summary": "Assigned from Rochester by Buffalo"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Jack Babbage",
-      "position": "D",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
     }
   ]
 }

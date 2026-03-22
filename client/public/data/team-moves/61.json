@@ -2,6 +2,20 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Tommy Budnick",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Aidan Sutter",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-21",
       "player": "Mike Posma",
       "position": "F",
@@ -124,20 +138,6 @@
       "date": "2026-03-07",
       "player": "Mike Posma",
       "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Raivis Ansons",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Alexander Kuqali",
-      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     }

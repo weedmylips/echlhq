@@ -2,7 +2,7 @@
   "teamId": 72,
   "slug": "tulsa-oilers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-22",
   "roster": [
     {
       "playerId": "10838",
@@ -1034,7 +1034,7 @@
       "player": "Sasha Mutala",
       "number": null,
       "position": "F",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1054,7 +1054,7 @@
       "player": "Jake Lee",
       "number": null,
       "position": "D",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

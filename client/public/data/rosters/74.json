@@ -2,7 +2,7 @@
   "teamId": 74,
   "slug": "adirondack-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-22",
   "roster": [
     {
       "playerId": "9607",
@@ -289,12 +289,12 @@
       "player": "Tanner Edwards",
       "number": 91,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 2,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -302,7 +302,8 @@
         "g": 2,
         "a": 4,
         "pts": 6
-      }
+      },
+      "suspensionGpAtStart": 59
     },
     {
       "playerId": "11008",
@@ -649,7 +650,7 @@
       "player": "Jacob Graves",
       "number": 44,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -709,7 +710,7 @@
       "player": "Ryan Helliwell",
       "number": 55,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1071,7 +1072,7 @@
       "player": "Jacob Slipec",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

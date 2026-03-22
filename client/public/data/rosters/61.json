@@ -2,7 +2,7 @@
   "teamId": 61,
   "slug": "wheeling-nailers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-22",
   "roster": [
     {
       "playerId": "9731",
@@ -469,10 +469,10 @@
       "player": "Tommy Budnick",
       "number": 32,
       "position": "D",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-22",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

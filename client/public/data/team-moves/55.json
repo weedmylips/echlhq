@@ -2,6 +2,34 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Ian Shane",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Keith Petruzzelli",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Victor Hadfield",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Vincent Sevigny",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Emile Chouinard",
       "position": "D",
@@ -110,34 +138,6 @@
       "date": "2026-03-14",
       "player": "Keith Petruzzelli",
       "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Mikael Robidoux",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Bloomington 3/11"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Andrew Kurapov",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Victor Hadfield",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Artem Kulakov",
-      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     }

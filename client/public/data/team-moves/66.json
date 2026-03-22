@@ -2,6 +2,20 @@
   "teamId": 66,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Marco Costantini",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Jackson Parsons",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Hank Crone",
       "position": "F",
@@ -124,20 +138,6 @@
       "date": "2026-03-08",
       "player": "Kevin Gursoy",
       "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Trevor LeDonne",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Jackson Decker",
-      "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
     }

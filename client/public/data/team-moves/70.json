@@ -2,6 +2,34 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Matt Jurusik",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Carter Gylander",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Conlan Keenan",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Jonathan Ziskie",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Carter Gylander",
       "position": "G",
@@ -112,34 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Ryland Mosley",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Cleveland"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Mitch Lewandowski",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Reilly Funk",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Tanner Palocsik",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Wichita"
     }
   ]
 }

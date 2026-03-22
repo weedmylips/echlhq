@@ -2,6 +2,41 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Mason Reiners",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Connor Gregga",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Cristophe Tellier",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Reece Vitelli",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Tristan Amonte",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-21",
       "player": "Evan Nause",
       "position": "D",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Keaton Pehrson",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Phip Waugh",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Connor Gregga",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Chris Lipe",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Reece Vitelli",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

@@ -2,6 +2,41 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Tanner Edwards",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 2 Games"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Tanner Edwards",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Jacob Slipec",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Jacob Graves",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Ryan Helliwell",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Henry Welsch",
       "position": "G",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Dylan Wendt",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Tanner Edwards",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Sean Olson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Ryan Helliwell",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Daniel Amesbury",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

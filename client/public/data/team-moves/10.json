@@ -2,6 +2,27 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-22",
+      "player": "Jon Horrell",
+      "position": "G",
+      "type": "released",
+      "summary": "Released as EBUG"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Evan Orr",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-22",
+      "player": "Dylan Carabia",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Ethan Haider",
       "position": "G",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Cam Gaudette",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Evan Orr",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Nolan Orzeck",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }
