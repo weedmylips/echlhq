@@ -5,6 +5,26 @@
   "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
+      "playerId": "9731",
+      "player": "Blake Bennett",
+      "number": 9,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "acquiredFrom": "Rapid City",
+      "acquiredDate": "2026-03-13",
+      "stats": {
+        "gp": 57,
+        "g": 25,
+        "a": 29,
+        "pts": 54
+      }
+    },
+    {
       "playerId": "10483",
       "player": "Logan Pietila",
       "number": 13,
