@@ -1331,10 +1331,10 @@ async function main() {
   leaders.allGoals   = computedGoals;
   leaders.allAssists = computedAssists;
 
-  // Use computed data when scraped leaders lists are missing or sparse
-  if (leaders.points.length  < 5) leaders.points  = computedPoints;
-  if (leaders.goals.length   < 5) leaders.goals   = computedGoals;
-  if (leaders.assists.length < 5) leaders.assists = computedAssists;
+  // Always use computed data for goals/assists (scraped lists are often sparse)
+  leaders.points  = computedPoints;
+  leaders.goals   = computedGoals;
+  leaders.assists = computedAssists;
 
   // Compute all goalie leaders from player data
   leaders.gaa       = rankByAsc(allGoalies, "gaa");
