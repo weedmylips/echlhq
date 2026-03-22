@@ -1383,14 +1383,21 @@ async function main() {
   leaders.dPts       = rankByDesc(allSkaters.filter((p) => p.position === "D"), "pts");
   leaders.dGoals     = rankByDesc(allSkaters.filter((p) => p.position === "D"), "g");
 
-  // Build lookup maps from player name for enriching and filtering scraped leader entries
+  // Build lookup maps from player name for enriching and filtering scraped leader entries.
+  // For traded players, prefer the active entry so inactive old-team entries don't override.
   const playerMeta = new Map();
   for (const [, t] of Object.entries(teamPlayers)) {
     for (const p of (t.skaters || [])) {
-      playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: p.position ?? "F", isActive: p.isActive !== false });
+      const existing = playerMeta.get(p.player);
+      if (!existing || (p.isActive !== false && !existing.isActive)) {
+        playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: p.position ?? "F", isActive: p.isActive !== false });
+      }
     }
     for (const p of (t.goalies || [])) {
-      playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G", isActive: p.isActive !== false });
+      const existing = playerMeta.get(p.player);
+      if (!existing || (p.isActive !== false && !existing.isActive)) {
+        playerMeta.set(p.player, { isRookie: p.isRookie ?? false, position: "G", isActive: p.isActive !== false });
+      }
     }
   }
   // Compute minors/majors from persistent penalty-stats.json (accumulated across scraper runs)

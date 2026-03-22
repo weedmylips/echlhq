@@ -78046,8 +78046,7 @@
         "team": "BLM",
         "value": 30,
         "isRookie": false,
-        "position": "RW",
-        "isActive": false
+        "position": "RW"
       },
       {
         "rank": 8,
@@ -78055,8 +78054,7 @@
         "team": "IA",
         "value": 29,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 8,
@@ -78566,8 +78564,7 @@
         "team": "GSO",
         "value": 18,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 66,
@@ -78672,8 +78669,7 @@
         "team": "JAX",
         "value": 17,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 79,
@@ -78689,8 +78685,7 @@
         "team": "WOR",
         "value": 17,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 79,
@@ -78763,8 +78758,7 @@
         "team": "FLA",
         "value": 17,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 96,
@@ -78796,8 +78790,7 @@
         "team": "SAV",
         "value": 16,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 96,
@@ -78837,8 +78830,7 @@
         "team": "GSO",
         "value": 16,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 96,
@@ -78935,8 +78927,7 @@
         "team": "RC",
         "value": 15,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 116,
@@ -79009,8 +79000,7 @@
         "team": "GSO",
         "value": 15,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 116,
@@ -79026,8 +79016,7 @@
         "team": "JAX",
         "value": 15,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 116,
@@ -79044,8 +79033,7 @@
         "team": "WOR",
         "value": 15,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 116,
@@ -79296,8 +79284,7 @@
         "team": "IA",
         "value": 14,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 136,
@@ -79338,8 +79325,7 @@
         "team": "GSO",
         "value": 13,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 162,
@@ -79478,8 +79464,7 @@
         "team": "UTA",
         "value": 13,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 162,
@@ -79544,8 +79529,7 @@
         "team": "IA",
         "value": 12,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 186,
@@ -79577,8 +79561,7 @@
         "team": "GSO",
         "value": 12,
         "isRookie": false,
-        "position": "C",
-        "isActive": false
+        "position": "C"
       },
       {
         "rank": 186,
@@ -79602,8 +79585,7 @@
         "team": "GSO",
         "value": 12,
         "isRookie": true,
-        "position": "C",
-        "isActive": false
+        "position": "C"
       },
       {
         "rank": 186,
@@ -79820,8 +79802,7 @@
         "team": "GVL",
         "value": 12,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 225,
@@ -79837,8 +79818,7 @@
         "team": "IA",
         "value": 11,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 225,
@@ -79846,8 +79826,7 @@
         "team": "IA",
         "value": 11,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 225,
@@ -79879,8 +79858,7 @@
         "team": "NOR",
         "value": 11,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 225,
@@ -79939,8 +79917,7 @@
         "team": "UTA",
         "value": 11,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 225,
@@ -80056,8 +80033,7 @@
         "team": "MNE",
         "value": 11,
         "isRookie": true,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 225,
@@ -80097,8 +80073,7 @@
         "team": "ORL",
         "value": 11,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 225,
@@ -80154,8 +80129,7 @@
         "team": "UTA",
         "value": 11,
         "isRookie": false,
-        "position": "LW",
-        "isActive": false
+        "position": "LW"
       },
       {
         "rank": 225,
@@ -80392,8 +80366,7 @@
         "team": "GSO",
         "value": 10,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 267,
@@ -80401,8 +80374,7 @@
         "team": "REA",
         "value": 10,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 267,
@@ -80418,8 +80390,7 @@
         "team": "TOL",
         "value": 10,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 267,
@@ -80599,8 +80570,7 @@
         "team": "ADK",
         "value": 9,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 306,
@@ -80818,8 +80788,7 @@
         "team": "NOR",
         "value": 9,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 306,
@@ -80942,8 +80911,7 @@
         "team": "TUL",
         "value": 9,
         "isRookie": true,
-        "position": "RW",
-        "isActive": false
+        "position": "RW"
       },
       {
         "rank": 306,
@@ -81025,8 +80993,7 @@
         "team": "JAX",
         "value": 8,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 364,
@@ -81042,8 +81009,7 @@
         "team": "UTA",
         "value": 8,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 364,
@@ -81307,8 +81273,7 @@
         "team": "MNE",
         "value": 8,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 364,
@@ -81592,8 +81557,7 @@
         "team": "MNE",
         "value": 7,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 411,
@@ -81716,8 +81680,7 @@
         "team": "IA",
         "value": 7,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 411,
@@ -81831,8 +81794,7 @@
         "team": "IND",
         "value": 6,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 462,
@@ -81883,8 +81845,7 @@
         "team": "TAH",
         "value": 6,
         "isRookie": true,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 462,
@@ -81917,8 +81878,7 @@
         "team": "TR",
         "value": 6,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 462,
@@ -82393,8 +82353,7 @@
         "team": "WHL",
         "value": 5,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 516,
@@ -83169,8 +83128,7 @@
         "team": "GSO",
         "value": 3,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 616,
@@ -83231,8 +83189,7 @@
         "team": "JAX",
         "value": 3,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 616,
@@ -83623,8 +83580,7 @@
         "team": "SAV",
         "value": 3,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 683,
@@ -83658,8 +83614,7 @@
         "team": "JAX",
         "value": 2,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 683,
@@ -83891,8 +83846,7 @@
         "team": "GSO",
         "value": 2,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 683,
@@ -84043,8 +83997,7 @@
         "team": "TAH",
         "value": 2,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 683,
@@ -84085,8 +84038,7 @@
         "team": "UTA",
         "value": 2,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 683,
@@ -84219,8 +84171,7 @@
         "team": "KC",
         "value": 1,
         "isRookie": false,
-        "position": "G",
-        "isActive": false
+        "position": "G"
       },
       {
         "rank": 746,
@@ -84338,8 +84289,7 @@
         "team": "UTA",
         "value": 1,
         "isRookie": false,
-        "position": "G",
-        "isActive": false
+        "position": "G"
       },
       {
         "rank": 746,
@@ -84604,8 +84554,7 @@
         "team": "WIC",
         "value": 1,
         "isRookie": true,
-        "position": "G",
-        "isActive": false
+        "position": "G"
       },
       {
         "rank": 746,
@@ -84621,8 +84570,7 @@
         "team": "MNE",
         "value": 1,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 746,
@@ -84723,8 +84671,7 @@
         "team": "WOR",
         "value": 1,
         "isRookie": true,
-        "position": "RW",
-        "isActive": false
+        "position": "RW"
       },
       {
         "rank": 746,
@@ -85044,8 +84991,7 @@
         "team": "BLM",
         "value": 1,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 746,
@@ -85188,8 +85134,7 @@
         "team": "UTA",
         "value": 10,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 2,
@@ -85197,8 +85142,7 @@
         "team": "WOR",
         "value": 9,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 2,
@@ -85286,8 +85230,7 @@
         "team": "IA",
         "value": 6,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 12,
@@ -85303,8 +85246,7 @@
         "team": "BLM",
         "value": 6,
         "isRookie": false,
-        "position": "RW",
-        "isActive": false
+        "position": "RW"
       },
       {
         "rank": 12,
@@ -85352,8 +85294,7 @@
         "team": "ADK",
         "value": 6,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 12,
@@ -85434,8 +85375,7 @@
         "team": "JAX",
         "value": 5,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 25,
@@ -85753,8 +85693,7 @@
         "team": "NOR",
         "value": 3,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 61,
@@ -86027,8 +85966,7 @@
         "team": "GVL",
         "value": 3,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 61,
@@ -86192,8 +86130,7 @@
         "team": "GSO",
         "value": 2,
         "isRookie": true,
-        "position": "C",
-        "isActive": false
+        "position": "C"
       },
       {
         "rank": 106,
@@ -86201,8 +86138,7 @@
         "team": "UTA",
         "value": 2,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 106,
@@ -86250,8 +86186,7 @@
         "team": "GSO",
         "value": 2,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 106,
@@ -86340,8 +86275,7 @@
         "team": "WOR",
         "value": 2,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 106,
@@ -86373,8 +86307,7 @@
         "team": "FLA",
         "value": 2,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 106,
@@ -86406,8 +86339,7 @@
         "team": "IA",
         "value": 2,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 106,
@@ -86613,8 +86545,7 @@
         "team": "RC",
         "value": 1,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 168,
@@ -86712,8 +86643,7 @@
         "team": "JAX",
         "value": 1,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 168,
@@ -86729,8 +86659,7 @@
         "team": "IND",
         "value": 1,
         "isRookie": false,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 168,
@@ -86779,8 +86708,7 @@
         "team": "GSO",
         "value": 1,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 168,
@@ -87183,8 +87111,7 @@
         "team": "JAX",
         "value": 1,
         "isRookie": false,
-        "position": "F",
-        "isActive": false
+        "position": "F"
       },
       {
         "rank": 168,
@@ -87390,8 +87317,7 @@
         "team": "GSO",
         "value": 1,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 168,
@@ -87663,8 +87589,7 @@
         "team": "UTA",
         "value": 1,
         "isRookie": false,
-        "position": "LW",
-        "isActive": false
+        "position": "LW"
       },
       {
         "rank": 168,
@@ -87738,8 +87663,7 @@
         "team": "GSO",
         "value": 1,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 168,
@@ -87886,8 +87810,7 @@
         "team": "TAH",
         "value": 1,
         "isRookie": true,
-        "position": "D",
-        "isActive": false
+        "position": "D"
       },
       {
         "rank": 168,
