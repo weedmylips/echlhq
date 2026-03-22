@@ -1,0 +1,729 @@
+{
+  "gameInfo": {
+    "gameId": 25234,
+    "visitingTeam": "Allen",
+    "homeTeam": "South Carolina",
+    "date": "Mar 21, 2026",
+    "arena": "North Charleston Coliseum",
+    "attendance": 5430,
+    "finalScore": {
+      "visiting": 4,
+      "home": 5
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "3:14",
+      "team": "SC",
+      "scorer": "A. Rinaldi (14)",
+      "assists": "K. Kupka",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "14:06",
+      "team": "SC",
+      "scorer": "K. Kupka (18)",
+      "assists": "D. Loukus, S. Pinard",
+      "strength": "PP"
+    },
+    {
+      "period": "1st",
+      "time": "15:54",
+      "team": "ALN",
+      "scorer": "D. Katic (29)",
+      "assists": "M. Gildon, T. Prefontaine",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "2:04",
+      "team": "ALN",
+      "scorer": "H. Blaisdell (21)",
+      "assists": "D. Katic, A. Anania",
+      "strength": "SH"
+    },
+    {
+      "period": "2nd",
+      "time": "5:08",
+      "team": "SC",
+      "scorer": "A. Rinaldi (15)",
+      "assists": "S. Pinard, P. Guzzo",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "7:17",
+      "team": "SC",
+      "scorer": "K. Kupka (19)",
+      "assists": "S. Pinard, A. Rinaldi",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "11:41",
+      "team": "ALN",
+      "scorer": "M. Gildon (16)",
+      "assists": "Q. Warmuth, B. Watts",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "14:56",
+      "team": "SC",
+      "scorer": "C. McDonald (2)",
+      "assists": "B. Hawerchuk, N. Krenzen",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "18:02",
+      "team": "ALN",
+      "scorer": "D. Katic (30)",
+      "assists": "A. Anania, A. Costantini",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Allen",
+      "p1": 12,
+      "p2": 8,
+      "p3": 9,
+      "ot": 0,
+      "total": 29
+    },
+    {
+      "team": "South Carolina",
+      "p1": 12,
+      "p2": 17,
+      "p3": 10,
+      "ot": 0,
+      "total": 39
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "B. Mirwald",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "Q. Warmuth",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "4",
+        "name": "D. Apollon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "7",
+        "name": "C. Hargrove",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "T. Prefontaine",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "D. Katic",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 1,
+        "shots": 6,
+        "pim": 2
+      },
+      {
+        "number": "11",
+        "name": "M. Barbashev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "K. Gursoy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "H. Blaisdell",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "J. Decker",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Costantini",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "T. LeDonne",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "B. Watts",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "N. Susuyev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "L. Sillinger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "86",
+        "name": "A. Anania",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "M. Gildon",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 4
+      },
+      {
+        "number": "92",
+        "name": "C. McAuley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 8,
+        "pts": 12,
+        "plusMinus": 0,
+        "shots": 29,
+        "pim": 10
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "T. Taylor",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "A. Gravel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "N. Krenzen",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "C. Mayer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "B. Hawerchuk",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "M. Brown",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "D. Loukus",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "18",
+        "name": "K. Kupka",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 0,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "S. Cooley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "J. Nachbaur",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "A. Rinaldi",
+        "pos": "",
+        "g": 2,
+        "a": 1,
+        "pts": 3,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "L. Breen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "D. King",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "C. McDonald",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 4
+      },
+      {
+        "number": "37",
+        "name": "B. Moore",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "J. Klimek",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "P. Guzzo",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "S. Leskovar",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "S. Pinard",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "R. Hofer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 7,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 9,
+        "pts": 14,
+        "plusMinus": 0,
+        "shots": 39,
+        "pim": 8
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "M. Costantini",
+        "minsPlayed": "57:40",
+        "shotsAgainst": 39,
+        "saves": 34,
+        "ga": 5,
+        "svPct": 0.872
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "57:40",
+        "shotsAgainst": 39,
+        "saves": 34,
+        "ga": 5,
+        "svPct": 0.872
+      }
+    ],
+    "home": [
+      {
+        "number": "33",
+        "name": "A. Gravel",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 29,
+        "saves": 25,
+        "ga": 4,
+        "svPct": 0.862
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 29,
+        "saves": 25,
+        "ga": 4,
+        "svPct": 0.862
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "C. McDonald",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "7:58"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "M. Gildon",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:38"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "D. Loukus",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "11:38"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "D. Katic",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "12:07"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "M. Gildon",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "18:50"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "Q. Warmuth",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "1:22"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "R. Hofer",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "6:39"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "D. Apollon",
+      "minutes": 2,
+      "infraction": "Unsportsmanlike conduct - minor (75.2)",
+      "time": "15:34"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. McDonald",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "2:40"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "SC",
+      "name": "K. Kupka",
+      "g": 2,
+      "a": 1,
+      "pts": 3
+    },
+    {
+      "star": 2,
+      "team": "SC",
+      "name": "A. Rinaldi",
+      "g": 2,
+      "a": 1,
+      "pts": 3
+    },
+    {
+      "star": 3,
+      "team": "SC",
+      "name": "S. Pinard",
+      "g": 0,
+      "a": 3,
+      "pts": 3
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T11:03:07.806Z"
+}

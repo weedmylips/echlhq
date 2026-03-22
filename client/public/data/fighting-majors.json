@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T02:19:40.636Z",
+  "generatedAt": "2026-03-22T11:02:57.742Z",
   "processedGames": [
     24296,
     24297,
@@ -907,7 +907,20 @@
     25399,
     25400,
     25401,
-    25402
+    25402,
+    25224,
+    25225,
+    25226,
+    25227,
+    25228,
+    25229,
+    25230,
+    25231,
+    25232,
+    25233,
+    25234,
+    25235,
+    25236
   ],
   "leaders": [
     {
@@ -929,7 +942,7 @@
     {
       "name": "O. Cooper",
       "team": "Florida",
-      "fightingMajors": 8,
+      "fightingMajors": 9,
       "games": [
         24307,
         24435,
@@ -938,7 +951,8 @@
         24741,
         24794,
         24826,
-        25160
+        25160,
+        25227
       ]
     },
     {
@@ -1445,6 +1459,17 @@
       ]
     },
     {
+      "name": "P. Gavlas",
+      "team": "Bloomington",
+      "fightingMajors": 4,
+      "games": [
+        24611,
+        24963,
+        25151,
+        25225
+      ]
+    },
+    {
       "name": "R. Hofer",
       "team": "South Carolina",
       "fightingMajors": 4,
@@ -1597,6 +1622,16 @@
         24768,
         24929,
         25094
+      ]
+    },
+    {
+      "name": "C. Butler",
+      "team": "Iowa",
+      "fightingMajors": 3,
+      "games": [
+        24751,
+        24799,
+        25225
       ]
     },
     {
@@ -1816,16 +1851,6 @@
         24299,
         24403,
         24459
-      ]
-    },
-    {
-      "name": "P. Gavlas",
-      "team": "Bloomington",
-      "fightingMajors": 3,
-      "games": [
-        24611,
-        24963,
-        25151
       ]
     },
     {
@@ -2072,15 +2097,6 @@
       ]
     },
     {
-      "name": "C. Butler",
-      "team": "Iowa",
-      "fightingMajors": 2,
-      "games": [
-        24751,
-        24799
-      ]
-    },
-    {
       "name": "C. Dodero",
       "team": "Idaho",
       "fightingMajors": 2,
@@ -2162,6 +2178,15 @@
       ]
     },
     {
+      "name": "D. Geregach",
+      "team": "Orlando",
+      "fightingMajors": 2,
+      "games": [
+        25050,
+        25227
+      ]
+    },
+    {
       "name": "D. Llewellyn",
       "team": "Toledo",
       "fightingMajors": 2,
@@ -2222,6 +2247,15 @@
       "games": [
         24411,
         24638
+      ]
+    },
+    {
+      "name": "H. Elynuik",
+      "team": "Florida",
+      "fightingMajors": 2,
+      "games": [
+        24625,
+        25227
       ]
     },
     {
@@ -2867,14 +2901,6 @@
       ]
     },
     {
-      "name": "D. Geregach",
-      "team": "Orlando",
-      "fightingMajors": 1,
-      "games": [
-        25050
-      ]
-    },
-    {
       "name": "D. Gill",
       "team": "Orlando",
       "fightingMajors": 1,
@@ -2992,14 +3018,6 @@
       "fightingMajors": 1,
       "games": [
         24631
-      ]
-    },
-    {
-      "name": "H. Elynuik",
-      "team": "Florida",
-      "fightingMajors": 1,
-      "games": [
-        24625
       ]
     },
     {
@@ -3776,6 +3794,14 @@
       "fightingMajors": 1,
       "games": [
         24397
+      ]
+    },
+    {
+      "name": "T. Follmer",
+      "team": "Orlando",
+      "fightingMajors": 1,
+      "games": [
+        25227
       ]
     },
     {

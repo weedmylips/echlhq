@@ -1,0 +1,733 @@
+{
+  "gameInfo": {
+    "gameId": 25232,
+    "visitingTeam": "Greensboro",
+    "homeTeam": "Norfolk",
+    "date": "Mar 21, 2026",
+    "arena": "Norfolk Scope",
+    "attendance": 7300,
+    "finalScore": {
+      "visiting": 4,
+      "home": 1
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "15:50",
+      "team": "NOR",
+      "scorer": "B. Fleurent (26)",
+      "assists": "K. Papp, C. Musser",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "2:53",
+      "team": "GSO",
+      "scorer": "J. Seymour (1)",
+      "assists": "R. Richardson, B. Swetlikoff",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "4:04",
+      "team": "GSO",
+      "scorer": "J. Biro (3)",
+      "assists": "D. Skelly, T. Rask",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "16:22",
+      "team": "GSO",
+      "scorer": "T. Rask (1)",
+      "assists": "J. Biro, D. Kuzma",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "17:26",
+      "team": "GSO",
+      "scorer": "B. Biondi (11)",
+      "assists": "B. Doyle",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Greensboro",
+      "p1": 9,
+      "p2": 12,
+      "p3": 9,
+      "ot": 0,
+      "total": 30
+    },
+    {
+      "team": "Norfolk",
+      "p1": 7,
+      "p2": 12,
+      "p3": 4,
+      "ot": 0,
+      "total": 23
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "N. Quapp",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "80",
+        "name": "R. Khazheyev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "B. Doyle",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "N. Hanley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "D. Skelly",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "B. Swetlikoff",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "R. Richardson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "E. Leyh",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 4
+      },
+      {
+        "number": "20",
+        "name": "D. Kuzma",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "B. Biondi",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Borshyov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "D. Koumontzis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "D. Gagnon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "41",
+        "name": "A. May",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "G. Smith",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "J. Seymour",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "58",
+        "name": "B. Montgomery",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "N. Delmas",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "78",
+        "name": "T. Rask",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "86",
+        "name": "J. Biro",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 7,
+        "pts": 11,
+        "plusMinus": 15,
+        "shots": 30,
+        "pim": 12
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "I. Poulter",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "31",
+        "name": "A. Worthington",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "C. Musser",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "W. Magnuson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "B. Crane",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "J. O'Leary",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "B. Engum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "V. Piironen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "M. Reifenberger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "J. Dureau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "J. Hardie",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "C. Price",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "J. McDougall",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "K. Papp",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "B. Osmundson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "K. Kiecker-Olson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 4
+      },
+      {
+        "number": "28",
+        "name": "J. Pascucci",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "41",
+        "name": "N. Noel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "93",
+        "name": "G. Hebert",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "94",
+        "name": "B. Fleurent",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -16,
+        "shots": 23,
+        "pim": 10
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "N. Quapp",
+        "minsPlayed": "59:45",
+        "shotsAgainst": 23,
+        "saves": 22,
+        "ga": 1,
+        "svPct": 0.957
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:45",
+        "shotsAgainst": 23,
+        "saves": 22,
+        "ga": 1,
+        "svPct": 0.957
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "I. Poulter",
+        "minsPlayed": "59:24",
+        "shotsAgainst": 29,
+        "saves": 26,
+        "ga": 3,
+        "svPct": 0.897
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:24",
+        "shotsAgainst": 30,
+        "saves": 26,
+        "ga": 4,
+        "svPct": 0.867
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "B. Fleurent",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "0:29"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "K. Kiecker-Olson",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "6:57"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "D. Gagnon",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "10:43"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "T. Rask",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "14:55"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "G. Hebert",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "14:55"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "N. Noel",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "17:39"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Seymour",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "6:01"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "R. Richardson",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "17:23"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "E. Leyh",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "19:42"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "E. Leyh",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "19:42"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "K. Kiecker-Olson",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "19:42"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "GSO",
+      "name": "J. Biro",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "GSO",
+      "name": "N. Quapp",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "GSO",
+      "name": "T. Rask",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T11:03:06.848Z"
+}

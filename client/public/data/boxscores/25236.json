@@ -1,0 +1,828 @@
+{
+  "gameInfo": {
+    "gameId": 25236,
+    "visitingTeam": "Wheeling",
+    "homeTeam": "Trois-Rivières",
+    "date": "Mar 21, 2026",
+    "arena": "Colisée Vidéotron",
+    "attendance": 2564,
+    "finalScore": {
+      "visiting": 3,
+      "home": 2
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "2nd",
+      "time": "0:25",
+      "team": "WHL",
+      "scorer": "B. Edwards (8)",
+      "assists": "B. Johnson, T. Gauthier",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "12:10",
+      "team": "WHL",
+      "scorer": "B. Edwards (9)",
+      "assists": "B. Bennett, R. McAllister",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "18:06",
+      "team": "TR",
+      "scorer": "A. Beauregard (11)",
+      "assists": "I. Dufort, E. Serensits",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "8:26",
+      "team": "TR",
+      "scorer": "C. Desruisseaux (11)",
+      "assists": "A. Poulin",
+      "strength": "EV"
+    },
+    {
+      "period": "1st OT",
+      "time": "1:49",
+      "team": "WHL",
+      "scorer": "B. Johnson (10)",
+      "assists": "R. McAllister",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Wheeling",
+      "p1": 11,
+      "p2": 13,
+      "p3": 4,
+      "ot": 4,
+      "total": 32
+    },
+    {
+      "team": "Trois-Rivières",
+      "p1": 4,
+      "p2": 13,
+      "p3": 7,
+      "ot": 0,
+      "total": 24
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "T. Gauthier",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "40",
+        "name": "M. Pavlenko",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "D. Laatsch",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "9",
+        "name": "B. Bennett",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "13",
+        "name": "L. Pietila",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "17",
+        "name": "A. Kuqali",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "C. Armstrong",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "M. Quercia",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 20
+      },
+      {
+        "number": "24",
+        "name": "T. Thompson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "J. Works",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "T. Andrew",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "T. Budnick",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 10
+      },
+      {
+        "number": "36",
+        "name": "M. Graham",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 20
+      },
+      {
+        "number": "37",
+        "name": "C. Lockhart",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "42",
+        "name": "D. Breazeale",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "51",
+        "name": "B. Johnson",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "54",
+        "name": "M. De St. Phalle",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "61",
+        "name": "R. McAllister",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "80",
+        "name": "R. Ansons",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "83",
+        "name": "B. Edwards",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 7,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 5,
+        "pts": 8,
+        "plusMinus": -7,
+        "shots": 32,
+        "pim": 60
+      }
+    ],
+    "home": [
+      {
+        "number": "29",
+        "name": "H. Jones",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "90",
+        "name": "F. Lapenna",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "J. Gravelle",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 10
+      },
+      {
+        "number": "6",
+        "name": "J. Paquette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 12
+      },
+      {
+        "number": "7",
+        "name": "�. Charron",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "I. Dufort",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 10
+      },
+      {
+        "number": "11",
+        "name": "E. Serensits",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "I. Mianscum",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "M. Laferrière",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "C. Desruisseaux",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Poulin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. Dion",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "M. Adams-Moisan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 30
+      },
+      {
+        "number": "42",
+        "name": "M. Bizier",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "L. Fuller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "C. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 16
+      },
+      {
+        "number": "77",
+        "name": "J. Dunlap",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "82",
+        "name": "E. Goriunov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 10
+      },
+      {
+        "number": "91",
+        "name": "A. Beauregard",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "96",
+        "name": "S. Gulka",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 2,
+        "a": 3,
+        "pts": 5,
+        "plusMinus": 7,
+        "shots": 24,
+        "pim": 92
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "T. Gauthier",
+        "minsPlayed": "61:49",
+        "shotsAgainst": 24,
+        "saves": 22,
+        "ga": 2,
+        "svPct": 0.917
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "61:49",
+        "shotsAgainst": 24,
+        "saves": 22,
+        "ga": 2,
+        "svPct": 0.917
+      }
+    ],
+    "home": [
+      {
+        "number": "90",
+        "name": "F. Lapenna",
+        "minsPlayed": "61:49",
+        "shotsAgainst": 32,
+        "saves": 29,
+        "ga": 3,
+        "svPct": 0.906
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "61:49",
+        "shotsAgainst": 32,
+        "saves": 29,
+        "ga": 3,
+        "svPct": 0.906
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "E. Serensits",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "15:05"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "T. Budnick",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "20:00"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "M. Graham",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "20:00"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "M. Quercia",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "20:00"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "M. Adams-Moisan",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "20:00"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Gravelle",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "20:00"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Paquette",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "20:00"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Paquette",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "20:00"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "D. Laatsch",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "1:25"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "C. Martin",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "4:11"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "B. Bennett",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "5:42"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "L. Pietila",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "5:59"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "C. Martin",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "11:08"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "C. Martin",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "11:08"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Quercia",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "13:09"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "E. Goriunov",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "13:09"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Graham",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "18:49"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Lockhart",
+      "minutes": 2,
+      "infraction": "Boarding - minor (41.2)",
+      "time": "18:49"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "I. Dufort",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "18:49"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "M. Adams-Moisan",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "12:01"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Martin",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "12:01"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "B. Edwards",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "19:46"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Dunlap",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "19:46"
+    },
+    {
+      "period": "1st OT",
+      "team": "H",
+      "player": "M. Adams-Moisan",
+      "minutes": 10,
+      "infraction": "Game misconduct - Abuse of Officials (39.5)",
+      "time": "1:49"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "WHL",
+      "name": "B. Johnson",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "WHL",
+      "name": "B. Edwards",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "TR",
+      "name": "A. Beauregard",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T11:03:07.407Z"
+}
