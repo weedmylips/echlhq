@@ -1,0 +1,740 @@
+{
+  "gameInfo": {
+    "gameId": 24947,
+    "visitingTeam": "Worcester",
+    "homeTeam": "Adirondack",
+    "date": "Feb 4, 2026",
+    "arena": "Harding Mazzotti Arena",
+    "attendance": 2827,
+    "finalScore": {
+      "visiting": 3,
+      "home": 4
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "0:35",
+      "team": "ADK",
+      "scorer": "T. Bertuzzi (7)",
+      "assists": "B. McManus, C. McLane",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "16:04",
+      "team": "WOR",
+      "scorer": "R. Miotto (9)",
+      "assists": "A. Repaci, L. Hatten",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "3:04",
+      "team": "ADK",
+      "scorer": "L. Reid (3)",
+      "assists": "M. Salhany, A. Campbell",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "5:01",
+      "team": "WOR",
+      "scorer": "R. Ginnell (5)",
+      "assists": "R. Piercey, A. Samuelsson",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "16:38",
+      "team": "WOR",
+      "scorer": "J. Pulkkinen (6)",
+      "assists": "D. Callin, A. Callin",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "10:17",
+      "team": "ADK",
+      "scorer": "J. Taylor (14)",
+      "assists": "B. McManus, C. Hutchison",
+      "strength": "EV"
+    },
+    {
+      "period": "1st OT",
+      "time": "5:49",
+      "team": "ADK",
+      "scorer": "J. Hanzel (3)",
+      "assists": "J. Taylor, M. Salhany",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Worcester",
+      "p1": 7,
+      "p2": 8,
+      "p3": 8,
+      "ot": 1,
+      "total": 24
+    },
+    {
+      "team": "Adirondack",
+      "p1": 9,
+      "p2": 7,
+      "p3": 7,
+      "ot": 4,
+      "total": 27
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "30",
+        "name": "T. Lennox",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "P. Gahagen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "C. Odelius",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "M. Dorrington",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "R. Ginnell",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "R. Miotto",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "L. Hatten",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "A. Samuelsson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "M. Suda",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "R. Piercey",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "J. Pulkkinen",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "K. Acosta",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "H. Hall",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 7
+      },
+      {
+        "number": "28",
+        "name": "C. Federkow",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "29",
+        "name": "C. Donhauser",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "M. DeMelis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "A. Callin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 4
+      },
+      {
+        "number": "77",
+        "name": "D. Callin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "A. Repaci",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "G. Blanchard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 6,
+        "pts": 9,
+        "plusMinus": 2,
+        "shots": 24,
+        "pim": 13
+      }
+    ],
+    "home": [
+      {
+        "number": "34",
+        "name": "T. Brennan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "J. Brodeur",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "4",
+        "name": "J. Hanzel",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "R. Wheeler",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "C. McLane",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "T. Fawcett",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "C. Hutchison",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "L. Reid",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "P. Grasso",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "D. Amesbury",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 7
+      },
+      {
+        "number": "29",
+        "name": "S. Olson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "39",
+        "name": "B. McManus",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 3,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "J. Graves",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 12
+      },
+      {
+        "number": "48",
+        "name": "T. Bertuzzi",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "R. Helliwell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "61",
+        "name": "B. Carrabes",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "72",
+        "name": "A. Campbell",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "T. Edwards",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "92",
+        "name": "M. Salhany",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "93",
+        "name": "J. Taylor",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 8,
+        "pts": 12,
+        "plusMinus": -2,
+        "shots": 27,
+        "pim": 23
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "35",
+        "name": "P. Gahagen",
+        "minsPlayed": "65:49",
+        "shotsAgainst": 27,
+        "saves": 23,
+        "ga": 4,
+        "svPct": 0.852
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "65:49",
+        "shotsAgainst": 27,
+        "saves": 23,
+        "ga": 4,
+        "svPct": 0.852
+      }
+    ],
+    "home": [
+      {
+        "number": "35",
+        "name": "J. Brodeur",
+        "minsPlayed": "65:49",
+        "shotsAgainst": 24,
+        "saves": 21,
+        "ga": 3,
+        "svPct": 0.875
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "65:49",
+        "shotsAgainst": 24,
+        "saves": 21,
+        "ga": 3,
+        "svPct": 0.875
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "A. Callin",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "12:26"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "H. Hall",
+      "minutes": 2,
+      "infraction": "Removing the Helmet (46.6)",
+      "time": "16:06"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "H. Hall",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "16:06"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "D. Amesbury",
+      "minutes": 2,
+      "infraction": "Removing the Helmet (46.6)",
+      "time": "16:06"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "D. Amesbury",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "16:06"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "S. Olson",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "18:49"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "A. Callin",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "1:07"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "C. Federkow",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "11:54"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Graves",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "14:34"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Graves",
+      "minutes": 10,
+      "infraction": "Misconduct (39.4)",
+      "time": "14:34"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Brodeur",
+      "minutes": 2,
+      "infraction": "Delay of Game - Goaltender not playing puck (67.3)",
+      "time": "16:25"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "ADK",
+      "name": "J. Hanzel",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "ADK",
+      "name": "J. Taylor",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "WOR",
+      "name": "R. Ginnell",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T00:50:43.122Z"
+}

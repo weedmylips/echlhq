@@ -1,0 +1,742 @@
+{
+  "gameInfo": {
+    "gameId": 25054,
+    "visitingTeam": "Toledo",
+    "homeTeam": "Trois-Rivières",
+    "date": "Feb 20, 2026",
+    "arena": "Colisée Vidéotron",
+    "attendance": 2070,
+    "finalScore": {
+      "visiting": 3,
+      "home": 6
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "1:22",
+      "team": "TR",
+      "scorer": "I. Mianscum (7)",
+      "assists": "J. Dunlap, A. Beauregard",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "1:59",
+      "team": "TR",
+      "scorer": "M. Adams-Moisan (11)",
+      "assists": "C. Martin, C. Desruisseaux",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "3:28",
+      "team": "TR",
+      "scorer": "R. Kidney (11)",
+      "assists": "D. Louis-Jean, I. Dufort",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "12:47",
+      "team": "TOL",
+      "scorer": "T. Kelly (16)",
+      "assists": "T. Dickinson, B. Kruse",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "14:49",
+      "team": "TOL",
+      "scorer": "D. Moulton (2)",
+      "assists": "M. Lewandowski, C. Swoyer",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "18:02",
+      "team": "TOL",
+      "scorer": "C. Ambrosio (10)",
+      "assists": "J. Bouquot, C. Swoyer",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "1:37",
+      "team": "TR",
+      "scorer": "A. Poulin (9)",
+      "assists": "J. Dunlap, J. Dion",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "5:37",
+      "team": "TR",
+      "scorer": "J. Gravelle (2)",
+      "assists": "J. Dunlap",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "18:21",
+      "team": "TR",
+      "scorer": "M. Laferrière (2)",
+      "assists": "",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Toledo",
+      "p1": 11,
+      "p2": 11,
+      "p3": 10,
+      "ot": 0,
+      "total": 32
+    },
+    {
+      "team": "Trois-Rivières",
+      "p1": 8,
+      "p2": 10,
+      "p3": 9,
+      "ot": 0,
+      "total": 27
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "C. Gylander",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "N. Lalonde",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "W. MacKinnon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "N. Andrews",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "S. Craggs",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "D. Smirnov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "T. Dickinson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "13",
+        "name": "J. Bouquot",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "B. Hawkins",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "J. Truscott",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "R. Mosley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "C. Swoyer",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "R. McCourt",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. Waldron",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "B. Kruse",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "D. Moulton",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "67",
+        "name": "M. Lewandowski",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "77",
+        "name": "C. Ambrosio",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "78",
+        "name": "T. Kelly",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "79",
+        "name": "N. Roy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 6,
+        "pts": 9,
+        "plusMinus": -16,
+        "shots": 32,
+        "pim": 10
+      }
+    ],
+    "home": [
+      {
+        "number": "29",
+        "name": "H. Jones",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "39",
+        "name": "B. Gaudreau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "J. Gravelle",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "J. Paquette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "I. Dufort",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "M. Estapa",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "I. Mianscum",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "M. Laferrière",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "C. Desruisseaux",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "A. Poulin",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "D. Louis-Jean",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 3,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "J. Dion",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "M. Adams-Moisan",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "L. Fuller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "C. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "J. Dunlap",
+        "pos": "",
+        "g": 0,
+        "a": 3,
+        "pts": 3,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "82",
+        "name": "E. Goriunov",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "R. Kidney",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "A. Beauregard",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "96",
+        "name": "S. Gulka",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 6,
+        "a": 9,
+        "pts": 15,
+        "plusMinus": 15,
+        "shots": 27,
+        "pim": 4
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "N. Lalonde",
+        "minsPlayed": "3:28",
+        "shotsAgainst": 3,
+        "saves": 0,
+        "ga": 3,
+        "svPct": 0
+      },
+      {
+        "number": "31",
+        "name": "C. Gylander",
+        "minsPlayed": "56:20",
+        "shotsAgainst": 23,
+        "saves": 21,
+        "ga": 2,
+        "svPct": 0.913
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:48",
+        "shotsAgainst": 27,
+        "saves": 21,
+        "ga": 6,
+        "svPct": 0.778
+      }
+    ],
+    "home": [
+      {
+        "number": "29",
+        "name": "H. Jones",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 32,
+        "saves": 29,
+        "ga": 3,
+        "svPct": 0.906
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 32,
+        "saves": 29,
+        "ga": 3,
+        "svPct": 0.906
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "N. Roy",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "12:28"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "T. Kelly",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "4:00"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "T. Dickinson",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "4:07"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "J. Dunlap",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "6:56"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "D. Moulton",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "7:40"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "M. Lewandowski",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "19:31"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Dunlap",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "19:31"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "TR",
+      "name": "J. Dunlap",
+      "g": 0,
+      "a": 3,
+      "pts": 3
+    },
+    {
+      "star": 2,
+      "team": "TR",
+      "name": "M. Adams-Moisan",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 3,
+      "team": "TOL",
+      "name": "C. Swoyer",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T00:51:42.189Z"
+}

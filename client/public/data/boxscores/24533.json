@@ -1,0 +1,789 @@
+{
+  "gameInfo": {
+    "gameId": 24533,
+    "visitingTeam": "Idaho",
+    "homeTeam": "Rapid City",
+    "date": "Nov 28, 2025",
+    "arena": "The Monument",
+    "attendance": 3302,
+    "finalScore": {
+      "visiting": 2,
+      "home": 6
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "3:28",
+      "team": "RC",
+      "scorer": "P. Bowman (2)",
+      "assists": "M. Hubbarde",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "6:15",
+      "team": "IDH",
+      "scorer": "F. Arcuri (5)",
+      "assists": "A. MacDonell, S. Jardine",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "8:14",
+      "team": "RC",
+      "scorer": "B. Davis (2)",
+      "assists": "B. Bennett, �. Morin",
+      "strength": "PP"
+    },
+    {
+      "period": "1st",
+      "time": "13:21",
+      "team": "IDH",
+      "scorer": "B. Hoffmann (8)",
+      "assists": "A. Hreschuk, C. Dodero",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "17:54",
+      "team": "RC",
+      "scorer": "B. Russell (1)",
+      "assists": "B. Wood, R. Chyzowski",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "2:52",
+      "team": "RC",
+      "scorer": "�. Morin (1)",
+      "assists": "B. Wood, R. Ekström",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "17:08",
+      "team": "RC",
+      "scorer": "R. Chyzowski (6)",
+      "assists": "Q. Olson, C. Smedsrud",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "19:05",
+      "team": "RC",
+      "scorer": "R. Wagner (10)",
+      "assists": "B. Bennett, J. Ratzlaff",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Idaho",
+      "p1": 12,
+      "p2": 6,
+      "p3": 19,
+      "ot": 0,
+      "total": 37
+    },
+    {
+      "team": "Rapid City",
+      "p1": 10,
+      "p2": 16,
+      "p3": 4,
+      "ot": 0,
+      "total": 30
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "33",
+        "name": "J. Barczewski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "B. Kraws",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "J. Horvath",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "3",
+        "name": "N. Canade",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -3,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "8",
+        "name": "K. Pearson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "B. Hoffmann",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "S. Jardine",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "F. Arcuri",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "T. Pelton-Byce",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "19",
+        "name": "M. Anderson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "N. Portz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "J. Shields",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "L. Malmquist",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "J. Miller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "A. MacDonell",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "J. Steinmetz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "32",
+        "name": "R. Holmes",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 10
+      },
+      {
+        "number": "44",
+        "name": "J. Boltmann",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "C. Dodero",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "77",
+        "name": "A. Hreschuk",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 2,
+        "a": 4,
+        "pts": 6,
+        "plusMinus": -11,
+        "shots": 37,
+        "pim": 18
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "C. Murphy",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "32",
+        "name": "A. Sergeev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "D. Pilon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "8",
+        "name": "C. Smedsrud",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "J. Ratzlaff",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 6
+      },
+      {
+        "number": "12",
+        "name": "C. Pauls",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "R. Wagner",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "B. Wood",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "B. Russell",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 4
+      },
+      {
+        "number": "21",
+        "name": "C. Buhl",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "R. Chyzowski",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "39",
+        "name": "M. Hubbarde",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "P. Bowman",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "51",
+        "name": "Q. Olson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "65",
+        "name": "A. Bergmanis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "70",
+        "name": "R. Ekström",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "72",
+        "name": "�. Morin",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "76",
+        "name": "X. Bernard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "82",
+        "name": "B. Davis",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "B. Bennett",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 6,
+        "a": 11,
+        "pts": 17,
+        "plusMinus": 11,
+        "shots": 30,
+        "pim": 18
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "35",
+        "name": "B. Kraws",
+        "minsPlayed": "40:00",
+        "shotsAgainst": 26,
+        "saves": 20,
+        "ga": 6,
+        "svPct": 0.769
+      },
+      {
+        "number": "33",
+        "name": "J. Barczewski",
+        "minsPlayed": "20:00",
+        "shotsAgainst": 4,
+        "saves": 4,
+        "ga": 0,
+        "svPct": 1
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 30,
+        "saves": 24,
+        "ga": 6,
+        "svPct": 0.8
+      }
+    ],
+    "home": [
+      {
+        "number": "31",
+        "name": "C. Murphy",
+        "minsPlayed": "59:43",
+        "shotsAgainst": 37,
+        "saves": 35,
+        "ga": 2,
+        "svPct": 0.946
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:43",
+        "shotsAgainst": 37,
+        "saves": 35,
+        "ga": 2,
+        "svPct": 0.946
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "D. Pilon",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "4:02"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "T. Pelton-Byce",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "7:13"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "J. Horvath",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "11:58"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "R. Chyzowski",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "13:09"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "C. Murphy",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "13:30"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "R. Holmes",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "16:13"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "R. Holmes",
+      "minutes": 2,
+      "infraction": "Holding - minor (54.2)",
+      "time": "13:32"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "X. Bernard",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "1:44"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Ratzlaff",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "2:57"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Ratzlaff",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "11:23"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "N. Canade",
+      "minutes": 4,
+      "infraction": "Double Minor - Roughing",
+      "time": "17:43"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "B. Russell",
+      "minutes": 4,
+      "infraction": "Double Minor - Roughing",
+      "time": "17:43"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "R. Holmes",
+      "minutes": 4,
+      "infraction": "High-sticking - double minor (60.3)",
+      "time": "18:10"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "R. Holmes",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:10"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "J. Ratzlaff",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "18:10"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "RC",
+      "name": "R. Chyzowski",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "RC",
+      "name": "�. Morin",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "RC",
+      "name": "B. Wood",
+      "g": 0,
+      "a": 2,
+      "pts": 2
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T00:47:16.307Z"
+}

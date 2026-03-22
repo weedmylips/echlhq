@@ -1,0 +1,741 @@
+{
+  "gameInfo": {
+    "gameId": 24817,
+    "visitingTeam": "Florida",
+    "homeTeam": "Worcester",
+    "date": "Jan 11, 2026",
+    "arena": "DCU Center",
+    "attendance": 3752,
+    "finalScore": {
+      "visiting": 5,
+      "home": 3
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "4:05",
+      "team": "FLA",
+      "scorer": "A. Romano (10)",
+      "assists": "K. Landry",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "7:14",
+      "team": "WOR",
+      "scorer": "M. Suda (2)",
+      "assists": "R. Mitton, R. Piercey",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "13:04",
+      "team": "FLA",
+      "scorer": "A. Romano (11)",
+      "assists": "J. Sambrook, G. Cassaro",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "1:18",
+      "team": "WOR",
+      "scorer": "J. Pulkkinen (2)",
+      "assists": "A. Callin, D. Callin",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "8:59",
+      "team": "FLA",
+      "scorer": "J. Jones (2)",
+      "assists": "Z. Berzolla, K. Betts",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "19:24",
+      "team": "FLA",
+      "scorer": "G. Cassaro (4)",
+      "assists": "C. Needham",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "5:45",
+      "team": "WOR",
+      "scorer": "A. Repaci (9)",
+      "assists": "",
+      "strength": "SH"
+    },
+    {
+      "period": "3rd",
+      "time": "19:50",
+      "team": "FLA",
+      "scorer": "R. Duke (8)",
+      "assists": "K. Betts, C. Doherty",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Florida",
+      "p1": 13,
+      "p2": 11,
+      "p3": 14,
+      "ot": 0,
+      "total": 38
+    },
+    {
+      "team": "Worcester",
+      "p1": 6,
+      "p2": 7,
+      "p3": 7,
+      "ot": 0,
+      "total": 20
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "W. Cranley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "33",
+        "name": "C. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "K. Landry",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "6",
+        "name": "J. Sambrook",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "11",
+        "name": "I. Nurse",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "C. Needham",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "O. Cooper",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "B. Brar",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "Z. Berzolla",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "O. Chau",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "K. Penney",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "G. Cassaro",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "K. Betts",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "R. Duke",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "28",
+        "name": "C. Doherty",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "A. Romano",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "34",
+        "name": "J. Lansdell",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "44",
+        "name": "K. Henry",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "62",
+        "name": "L. Will",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "71",
+        "name": "J. Jones",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 5,
+        "a": 8,
+        "pts": 13,
+        "plusMinus": 5,
+        "shots": 38,
+        "pim": 6
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "T. Lennox",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "33",
+        "name": "T. Gale",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "A. Hora",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "M. Dorrington",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "R. Miotto",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "L. Hatten",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "14",
+        "name": "A. Samuelsson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "15",
+        "name": "G. Veremyev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "R. Mitton",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "M. Suda",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "R. Piercey",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "J. Pulkkinen",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "C. Federkow",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "29",
+        "name": "C. Donhauser",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "37",
+        "name": "M. DeMelis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "A. Callin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "M. Carson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "77",
+        "name": "D. Callin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "81",
+        "name": "A. Repaci",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "G. Blanchard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 4,
+        "pts": 7,
+        "plusMinus": -7,
+        "shots": 20,
+        "pim": 12
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "W. Cranley",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 20,
+        "saves": 17,
+        "ga": 3,
+        "svPct": 0.85
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 20,
+        "saves": 17,
+        "ga": 3,
+        "svPct": 0.85
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "T. Lennox",
+        "minsPlayed": "59:46",
+        "shotsAgainst": 37,
+        "saves": 33,
+        "ga": 4,
+        "svPct": 0.892
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:46",
+        "shotsAgainst": 38,
+        "saves": 33,
+        "ga": 5,
+        "svPct": 0.868
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "A. Samuelsson",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "12:03"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "M. Carson",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "6:46"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Sambrook",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "7:19"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "J. Lansdell",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "20:00"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "T. Lennox",
+      "minutes": 2,
+      "infraction": "Unsportsmanlike conduct - minor (75.2)",
+      "time": "20:00"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "R. Duke",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "2:20"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "C. Donhauser",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "4:21"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "G. Blanchard",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "7:16"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "Served by D. Callin",
+      "minutes": 2,
+      "infraction": "Bench minor - Too many men (74.2)",
+      "time": "17:36"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "FLA",
+      "name": "A. Romano",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "FLA",
+      "name": "G. Cassaro",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "WOR",
+      "name": "J. Pulkkinen",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T00:49:32.279Z"
+}

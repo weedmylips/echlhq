@@ -1,0 +1,676 @@
+{
+  "gameInfo": {
+    "gameId": 25010,
+    "visitingTeam": "Fort Wayne",
+    "homeTeam": "Indy",
+    "date": "Feb 14, 2026",
+    "arena": "Fishers Event Center",
+    "attendance": 6587,
+    "finalScore": {
+      "visiting": 4,
+      "home": 1
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "11:05",
+      "team": "FW",
+      "scorer": "B. Murray (16)",
+      "assists": "T. Janicke, R. Harsch",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "19:14",
+      "team": "FW",
+      "scorer": "K. Tyutyayev (13)",
+      "assists": "W. Dufour, J. Smereck",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "19:36",
+      "team": "FW",
+      "scorer": "M. Copponi (4)",
+      "assists": "A. Petruzzelli, A. Magera",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "3:35",
+      "team": "IND",
+      "scorer": "T. Broadhurst (6)",
+      "assists": "J. Martin, J. Bucheler",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "4:29",
+      "team": "FW",
+      "scorer": "A. Petruzzelli (7)",
+      "assists": "A. Aleardi, M. Copponi",
+      "strength": "EV"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Fort Wayne",
+      "p1": 7,
+      "p2": 6,
+      "p3": 8,
+      "ot": 0,
+      "total": 21
+    },
+    {
+      "team": "Indy",
+      "p1": 13,
+      "p2": 5,
+      "p3": 13,
+      "ot": 0,
+      "total": 31
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "N. Day",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "S. Jonsson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "R. Harsch",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "7",
+        "name": "J. Groll",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "B. Murray",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "A. Petruzzelli",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 3,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "15",
+        "name": "D. Krebs",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 3,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "A. Magera",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "W. Dufour",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "M. Miller",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "34",
+        "name": "N. Deakin-Poot",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "C. Beamin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "42",
+        "name": "A. Aleardi",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "T. Inamoto",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "T. Janicke",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "61",
+        "name": "L. Henault",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "71",
+        "name": "J. Melee",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "74",
+        "name": "K. Tyutyayev",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "88",
+        "name": "M. Copponi",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "95",
+        "name": "J. Smereck",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 8,
+        "pts": 12,
+        "plusMinus": 10,
+        "shots": 21,
+        "pim": 6
+      }
+    ],
+    "home": [
+      {
+        "number": "35",
+        "name": "M. Weeks",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "71",
+        "name": "O. Flores",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "W. Ennis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "J. Bucheler",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "C. Berger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "J. Joseph",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "D. Manz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "B. Schultz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "B. Moravec",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "J. Tucker",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "L. Lapid",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "M. Marchesan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "M. Petgrave",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "J. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "37",
+        "name": "N. Grima",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "43",
+        "name": "T. Broadhurst",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "C. Schiavon",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "T. Paquette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "C. Cameron",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "88",
+        "name": "E. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -10,
+        "shots": 31,
+        "pim": 4
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "35",
+        "name": "S. Jonsson",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 30,
+        "ga": 1,
+        "svPct": 0.968
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 31,
+        "saves": 30,
+        "ga": 1,
+        "svPct": 0.968
+      }
+    ],
+    "home": [
+      {
+        "number": "35",
+        "name": "M. Weeks",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 21,
+        "saves": 17,
+        "ga": 4,
+        "svPct": 0.81
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 21,
+        "saves": 17,
+        "ga": 4,
+        "svPct": 0.81
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "R. Harsch",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "2:49"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "A. Petruzzelli",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "3:59"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "C. Cameron",
+      "minutes": 2,
+      "infraction": "Elbowing - minor (45.2)",
+      "time": "15:09"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Martin",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "17:59"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Miller",
+      "minutes": 2,
+      "infraction": "Holding the stick - minor (54.2)",
+      "time": "3:00"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "FW",
+      "name": "A. Petruzzelli",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 2,
+      "team": "FW",
+      "name": "M. Copponi",
+      "g": 1,
+      "a": 1,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "FW",
+      "name": "K. Tyutyayev",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-22T00:51:18.090Z"
+}
