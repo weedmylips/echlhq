@@ -32,11 +32,11 @@ jobs:
         run: node scripts/backfill-boxscores.js --delay 400
         continue-on-error: true
 
+      - name: Recompute fighting majors from all boxscores (before prune)
+        run: node scripts/compute-fighting-majors.js --reset
+
       - name: Run scraper
         run: node scripts/scrape.js
-
-      - name: Recompute fighting majors (full reset)
-        run: node scripts/compute-fighting-majors.js --reset
 
       - name: Generate sitemap
         run: node scripts/generate-sitemap.mjs
