@@ -2,6 +2,20 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Mark Kalienikovas",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Parker Lindauer",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Dryden McKay",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Zach Faremouth",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Mikael Robidoux",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Reading 3/11"
     }
   ]
 }

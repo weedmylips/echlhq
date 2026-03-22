@@ -2,6 +2,20 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Evan Nause",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Ivan Chukarov",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Keaton Pehrson",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Mason Reiners",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Zachary Krajnik",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

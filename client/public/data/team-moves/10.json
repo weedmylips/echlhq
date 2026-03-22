@@ -2,6 +2,41 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Ethan Haider",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Milwaukee"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Dylan Carabia",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Evan Orr",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Nolan Orzeck",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Cam Gaudette",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Evan Orr",
       "position": "D",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Ryley Appelt",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Ryan Nolan",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Max Grondin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Brett Bulmer",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Brett Bulmer",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

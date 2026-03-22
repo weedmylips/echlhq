@@ -2,7 +2,7 @@
   "teamId": 74,
   "slug": "adirondack-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "9607",
@@ -869,7 +869,7 @@
       "player": "Tyler Brennan",
       "number": 34,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -889,7 +889,7 @@
       "player": "Henry Welsch",
       "number": 33,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

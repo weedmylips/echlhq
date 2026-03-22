@@ -2,7 +2,7 @@
   "teamId": 72,
   "slug": "tulsa-oilers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "10838",
@@ -513,7 +513,7 @@
       "player": "Dakota Seaman",
       "number": 29,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1094,7 +1094,7 @@
       "player": "German Yavash",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

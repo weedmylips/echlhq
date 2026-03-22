@@ -2,7 +2,7 @@
   "teamId": 52,
   "slug": "greenville-swamp-rabbits",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "10051",
@@ -309,7 +309,7 @@
       "player": "Ben Poisson",
       "number": 12,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -811,7 +811,7 @@
       "player": "Denis Smirnov",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

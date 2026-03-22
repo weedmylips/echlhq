@@ -2,6 +2,20 @@
   "teamId": 63,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Michael Citara",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Valtteri Piironen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Andre Sutter",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "traded",
       "summary": "Traded to Tulsa"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Connor Fedorek",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Caleb Price",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
     }
   ]
 }

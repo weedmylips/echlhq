@@ -2,6 +2,34 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Jeremy Michaud",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Emmett Serensits",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Sean Gulka",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Nicholas Girouard",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-20",
       "player": "Benjamin Gaudreau",
       "position": "G",
@@ -112,34 +140,6 @@
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled by Laval"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "leave",
-      "summary": "Activated from Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Franseco Lapenna",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Hunter Jones",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Anthony Poulin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 101,
   "slug": "maine-mariners",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "9425",
@@ -509,7 +509,7 @@
       "player": "Nick Anderson",
       "number": 26,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -949,7 +949,7 @@
       "player": "Mitchel Deelstra",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

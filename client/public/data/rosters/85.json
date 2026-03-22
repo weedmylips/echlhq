@@ -2,7 +2,7 @@
   "teamId": 85,
   "slug": "rapid-city-rush",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "8199",
@@ -269,7 +269,7 @@
       "player": "Darian Pilon",
       "number": 3,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -910,7 +910,7 @@
       "player": "Zach Giroux",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

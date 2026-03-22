@@ -2,6 +2,41 @@
   "teamId": 66,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Hank Crone",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Chase Maxwell",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Jackson Parsons",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Brett Mirwald",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Divyne Apollon",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-20",
       "player": "Hank Crone",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Kevin Gursoy",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Trevor LeDonne",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Jackson Decker",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Avery Smith",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Trevor LeDonne",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

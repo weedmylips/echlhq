@@ -2,6 +2,20 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Max Dukovac",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Anton Rubtsov",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Michael Ferrandino",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Xavier Jean-Louis",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Calle Odelius",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Bridgeport by New York Islanders 3/9"
     }
   ]
 }

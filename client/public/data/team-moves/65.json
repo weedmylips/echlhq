@@ -2,6 +2,20 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Tyler Paquette",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Cody Laskosky",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Cody Schiavon",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Eric Martin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

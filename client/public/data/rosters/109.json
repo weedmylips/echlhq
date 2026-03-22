@@ -2,7 +2,7 @@
   "teamId": 109,
   "slug": "tahoe-knight-monsters",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "8745",
@@ -249,7 +249,7 @@
       "player": "Anthony Collins",
       "number": 48,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -329,7 +329,7 @@
       "player": "Keanan Stewart",
       "number": 45,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

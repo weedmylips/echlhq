@@ -2,6 +2,20 @@
   "teamId": 13,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Anthony Bardaro",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Tony Follmer",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Samuel Richard",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "traded",
       "summary": "Traded to Iowa"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Carter Allen",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Luc Wilson",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
     }
   ]
 }

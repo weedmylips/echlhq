@@ -2,6 +2,27 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Mike Posma",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Tanner Andrew",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Ryan Mahshie",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-20",
       "player": "Alexander Kuqali",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Mike Posma",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Ryan Mahshie",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-05",
-      "player": "Emil Pieniniemi",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Wilkes-Barre/Scranton by Pittsburgh"
     }
   ]
 }

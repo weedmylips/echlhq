@@ -2,7 +2,7 @@
   "teamId": 104,
   "slug": "worcester-railers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "8651",
@@ -410,7 +410,7 @@
       "player": "Max Dukovac",
       "number": 20,
       "position": "F",
-      "status": "signed",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1092,7 +1092,7 @@
       "player": "Anton Rubtsov",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

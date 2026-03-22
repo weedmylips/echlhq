@@ -2,6 +2,34 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Josh Groll",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/20"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Noah Delmas",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day 3/20"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Blake Dangos",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Tian Rask",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Austen May",
       "position": "D",
@@ -109,34 +137,6 @@
     {
       "date": "2026-03-15",
       "player": "Anthony Messuri",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Demetrios Koumontzis",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Ethan Leyh",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Anthony Messuri",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Drew Kuzma",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"

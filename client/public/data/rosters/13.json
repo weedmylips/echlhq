@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "9064",
@@ -69,7 +69,7 @@
       "player": "Anthony Bardaro",
       "number": 81,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -569,7 +569,7 @@
       "player": "Tony Follmer",
       "number": 2,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

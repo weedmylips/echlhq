@@ -2,6 +2,20 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "German Yavash",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Dakota Seaman",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Dakota Seaman",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Dylan Fitze",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Tyler Poulsen",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

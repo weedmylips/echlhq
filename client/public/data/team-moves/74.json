@@ -2,6 +2,20 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Henry Welsch",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Tyler Brennan",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Jacob Slipec",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jeremy Brodeur",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Henry Welsch",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

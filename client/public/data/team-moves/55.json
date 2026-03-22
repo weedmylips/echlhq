@@ -2,6 +2,48 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Emile Chouinard",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Keith Petruzzelli",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Ian Shane",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Jack Page",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Vincent Sevigny",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Victor Hadfield",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-19",
       "player": "Jack Page",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Nolan Burke",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Andrew Kurapov",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Yaniv Perets",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Keith Petruzzelli",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Cameron Cook",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Jack Page",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

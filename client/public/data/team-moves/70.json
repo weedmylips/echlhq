@@ -2,6 +2,20 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Carter Gylander",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Matt Jurusik",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-19",
       "player": "Jonathan Ziskie",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "traded",
       "summary": "Traded to Wichita"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Dylan Moulton",
-      "position": "D",
-      "type": "active",
-      "summary": "Returned From Loan by Manitoba"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Carter Gylander",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

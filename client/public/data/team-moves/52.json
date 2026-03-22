@@ -2,6 +2,20 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Ben Poisson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Denis Smirnov",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Keaton Mastrodonato",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Caiden Gault",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Brent Pedersen",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

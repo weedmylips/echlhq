@@ -2,6 +2,20 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Zach Giroux",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Jake Ratzlaff",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled by Calgary"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Darian Pilon",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Parker Bowman",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

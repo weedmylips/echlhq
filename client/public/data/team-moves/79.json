@@ -2,6 +2,34 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Patrick Bajkov",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Sasha Teleguine",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Topias Leinonen",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Michael Bullion",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Ryan Pitoscia",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "leave",
       "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Tyler Kopff",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned from Rochester by Buffalo"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Nathan Berke",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Peter Tischke",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Holden Wale",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

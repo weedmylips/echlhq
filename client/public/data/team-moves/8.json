@@ -2,6 +2,20 @@
   "teamId": 8,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Ross MacDougall",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Riese Zmolek",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-17",
       "player": "Gianfranco Cassaro",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Carson Gicewicz",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Ross MacDougall",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

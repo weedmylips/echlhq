@@ -2,7 +2,7 @@
   "teamId": 8,
   "slug": "florida-everblades",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-17",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "11033",
@@ -609,7 +609,7 @@
       "player": "Ross MacDougall",
       "number": 62,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -815,6 +815,27 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Riese Zmolek",
+      "number": null,
+      "position": "D",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

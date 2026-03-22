@@ -2,6 +2,20 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Nick Anderson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Mitchel Deelstra",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Jackson Stewart",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Loke Johansson",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Billy Girard",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

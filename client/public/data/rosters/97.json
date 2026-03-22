@@ -2,7 +2,7 @@
   "teamId": 97,
   "slug": "savannah-ghost-pirates",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-20",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "10584",
@@ -451,7 +451,7 @@
       "player": "Evan Nause",
       "number": 26,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -831,7 +831,7 @@
       "player": "Ivan Chukarov",
       "number": null,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

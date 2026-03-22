@@ -2,6 +2,34 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-21",
+      "player": "Ken Appleby",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Thomas Scarfone",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Gabriel Bernier",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-21",
+      "player": "Jordan Kaplan",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-20",
       "player": "Jordan Kaplan",
       "position": "F",
@@ -109,34 +137,6 @@
     {
       "date": "2026-03-14",
       "player": "Sam Stevens",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Shawn Kennedy",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Luke Pavicich",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Thomas Scarfone",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Shawn Kennedy",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"

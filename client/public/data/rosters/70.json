@@ -2,7 +2,7 @@
   "teamId": 70,
   "slug": "toledo-walleye",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-19",
+  "lastTransactionCheck": "2026-03-21",
   "roster": [
     {
       "playerId": "8180",
@@ -509,7 +509,7 @@
       "player": "Matt Jurusik",
       "number": 30,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -549,7 +549,7 @@
       "player": "Carter Gylander",
       "number": 31,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
