@@ -907,26 +907,6 @@
     },
     {
       "playerId": null,
-      "player": "Zach Giroux",
-      "number": null,
-      "position": "F",
-      "status": "reserve",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
       "player": "Cole Tymkin",
       "number": null,
       "position": "F",
