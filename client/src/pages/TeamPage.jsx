@@ -247,7 +247,6 @@ export default function TeamPage() {
               </div>
             </div>
           </div>
-          <button className="back-btn" onClick={() => navigate(-1)}>← Back</button>
         </div>
       </div>
 
