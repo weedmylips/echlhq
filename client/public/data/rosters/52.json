@@ -706,26 +706,6 @@
     },
     {
       "playerId": null,
-      "player": "Joshua Zary",
-      "number": null,
-      "position": "F",
-      "status": "signed",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
       "player": "Josh Boyko",
       "number": null,
       "position": "G",

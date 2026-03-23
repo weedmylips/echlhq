@@ -708,7 +708,41 @@ function deduplicateRosters() {
       }
     }
 
-    const deduped_roster = Array.from(seen.values());
+    // Second pass: merge entries with the same last name + position where one lacks a playerId.
+    // Handles nickname variants like "Alex" vs "Alexander", "Nick" vs "Nicholas", etc.
+    const byLastPos = new Map(); // "lastName|pos" → index in seen values
+    const seenArr = Array.from(seen.values());
+    const toRemove = new Set();
+    for (let i = 0; i < seenArr.length; i++) {
+      const p = seenArr[i];
+      const last = p.player.toLowerCase().split(" ").slice(-1)[0];
+      const key = `${last}|${p.position}`;
+      if (!byLastPos.has(key)) {
+        byLastPos.set(key, i);
+      } else {
+        const j = byLastPos.get(key);
+        const other = seenArr[j];
+        // Merge: prefer entry with playerId; copy non-active status from whichever has it
+        const keepIdx = other.playerId ? j : (p.playerId ? i : j);
+        const dropIdx = keepIdx === j ? i : j;
+        const keeper = seenArr[keepIdx];
+        const dropper = seenArr[dropIdx];
+        if (!ACTIVE_STATUSES.has(dropper.status) && ACTIVE_STATUSES.has(keeper.status)) {
+          keeper.status = dropper.status;
+          keeper.irDays = dropper.irDays ?? keeper.irDays;
+          keeper.irStartDate = dropper.irStartDate ?? keeper.irStartDate;
+          keeper.suspensionGamesRemaining = dropper.suspensionGamesRemaining ?? keeper.suspensionGamesRemaining;
+          keeper.suspensionGamesOriginal = dropper.suspensionGamesOriginal ?? keeper.suspensionGamesOriginal;
+          keeper.suspensionGpAtStart = dropper.suspensionGpAtStart ?? keeper.suspensionGpAtStart;
+        }
+        toRemove.add(dropIdx);
+        byLastPos.set(key, keepIdx);
+        console.log(`  🔧 Team ${data.teamId}: merged "${dropper.player}" into "${keeper.player}" (${keeper.status})`);
+      }
+    }
+    const merged = seenArr.filter((_, i) => !toRemove.has(i));
+
+    const deduped_roster = merged;
     if (deduped_roster.length < data.roster.length) {
       const removed = data.roster.length - deduped_roster.length;
       console.log(`  🔧 Team ${data.teamId}: removed ${removed} duplicate(s)`);

@@ -727,26 +727,6 @@
     },
     {
       "playerId": null,
-      "player": "Nicholas Blachman",
-      "number": null,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
       "player": "Logan Nelson",
       "number": null,
       "position": "F",

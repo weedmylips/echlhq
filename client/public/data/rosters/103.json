@@ -669,7 +669,7 @@
       "player": "Jérémy Michaud",
       "number": 15,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -846,46 +846,6 @@
     },
     {
       "playerId": null,
-      "player": "Franseco Lapenna",
-      "number": null,
-      "position": "G",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
-      "player": "Edouard Charron",
-      "number": null,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
       "player": "William Lavalliere",
       "number": null,
       "position": "G",
@@ -910,27 +870,6 @@
       "number": null,
       "position": "F",
       "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "suspensionGpAtStart": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
-      "player": "Jeremy Michaud",
-      "number": null,
-      "position": "D",
-      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

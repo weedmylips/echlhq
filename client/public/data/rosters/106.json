@@ -209,7 +209,7 @@
       "player": "Maxim Barbashev",
       "number": 92,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -1026,26 +1026,6 @@
     },
     {
       "playerId": null,
-      "player": "Maksim Barbashev",
-      "number": null,
-      "position": "F",
-      "status": "recalled_ahl",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
       "player": "Jake Barczewski",
       "number": null,
       "position": "G",
@@ -1057,27 +1037,6 @@
       "suspensionGamesOriginal": null,
       "acquiredFrom": "Bloomington",
       "acquiredDate": "2025-11-03",
-      "stats": {
-        "gp": 0,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": null,
-      "player": "TJ Sneath",
-      "number": null,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "suspensionGpAtStart": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
       "stats": {
         "gp": 0,
         "g": 0,
