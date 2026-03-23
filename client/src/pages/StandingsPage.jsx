@@ -9,19 +9,19 @@ const DIVISION_ORDER = ["North", "South", "Central", "Mountain"];
 const PLAYOFF_SPOTS = 4;
 
 const TABLE_COLS = [
-  { key: "gp",     label: "GP" },
-  { key: "w",      label: "W" },
-  { key: "l",      label: "L" },
-  { key: "otl",    label: "OT" },
-  { key: "pts",    label: "PTS" },
-  { key: "magicNum", label: "M#", hideOnSmall: true },
-  { key: "pct",    label: "PCT",  hideOnSmall: true },
-  { key: "gf",     label: "GF",   hideOnSmall: true },
-  { key: "ga",     label: "GA",   hideOnSmall: true },
-  { key: "diff",   label: "DIFF", hideOnSmall: true },
-  { key: "homeRecord", label: "HOME", hideOnMobile: true },
-  { key: "roadRecord", label: "ROAD", hideOnMobile: true },
-  { key: "streak",     label: "STRK", hideOnMobile: true },
+  { key: "gp",         label: "GP" },
+  { key: "w",          label: "W" },
+  { key: "l",          label: "L" },
+  { key: "otl",        label: "OT" },
+  { key: "pts",        label: "PTS" },
+  { key: "magicNum",   label: "M#" },
+  { key: "pct",        label: "PCT" },
+  { key: "gf",         label: "GF" },
+  { key: "ga",         label: "GA" },
+  { key: "diff",       label: "DIFF" },
+  { key: "homeRecord", label: "HOME" },
+  { key: "roadRecord", label: "ROAD" },
+  { key: "streak",     label: "STRK" },
 ];
 
 export default function StandingsPage() {
@@ -129,7 +129,7 @@ export default function StandingsPage() {
                           <th
                             key={c.key}
                             onClick={() => handleSort(c.key)}
-                            className={`num-col${c.hideOnMobile ? " hide-mobile" : ""}${c.hideOnSmall ? " hide-sm" : ""}`}
+                            className="num-col"
                           >
                             {c.label}{si(c.key)}
                           </th>
@@ -141,10 +141,17 @@ export default function StandingsPage() {
                         const rank = i + 1;
                         const isPlayoff = rank <= PLAYOFF_SPOTS;
                         const isCutoff = rank === PLAYOFF_SPOTS;
+                        const isClinched = team.magicNum === "X";
+                        const isEliminated = team.magicNum === "E";
                         return (
                           <tr
                             key={team.teamId || i}
-                            className={`team-row${isCutoff ? " playoff-cutoff" : ""}`}
+                            className={[
+                              "team-row",
+                              isCutoff ? "playoff-cutoff" : "",
+                              isClinched ? "row-clinched" : "",
+                              isEliminated ? "row-eliminated" : "",
+                            ].filter(Boolean).join(" ")}
                             onClick={() => team.teamId && navigate(`/team/${team.teamId}`)}
                           >
                             <td className="rank-cell">
@@ -152,7 +159,7 @@ export default function StandingsPage() {
                                 {rank}
                               </span>
                             </td>
-                            <td>
+                            <td className="team-cell">
                               <div className="team-name-cell">
                                 {team.logoUrl && (
                                   <img src={team.logoUrl} alt="" className="row-logo" />
@@ -173,8 +180,6 @@ export default function StandingsPage() {
                                   c.key === "diff" && team[c.key] < 0 ? "neg" : "",
                                   c.key === "magicNum" && team[c.key] === "X" ? "pos" : "",
                                   c.key === "magicNum" && team[c.key] === "E" ? "neg" : "",
-                                  c.hideOnMobile ? "hide-mobile" : "",
-                                  c.hideOnSmall ? "hide-sm" : "",
                                 ].filter(Boolean).join(" ")}
                               >
                                 {c.key === "diff" && team[c.key] > 0
