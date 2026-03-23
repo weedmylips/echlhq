@@ -354,6 +354,11 @@ function applyTransactions(transactions, today) {
 }
 
 function applyStatus(player, status, extra, today) {
+  // Don't let a reserve placement overwrite an active suspension.
+  // Teams often place suspended players on reserve for roster management,
+  // but the suspension takes precedence and should expire via game-count logic.
+  if (player.status === "suspended" && status === "reserve") return;
+
   player.status = status;
 
   if (extra.clearIR) {
