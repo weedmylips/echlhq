@@ -690,6 +690,15 @@ function PlayoffPictureCard({ ts, team, standing }) {
             <div className="playoff-stat-val">{standing.gamesRemaining ?? "—"}</div>
             <div className="playoff-stat-lbl">Games Left</div>
           </div>
+          <div className="playoff-stat-item">
+            <div className="playoff-stat-val" style={
+              ts.isClinched ? { color: "var(--green)" } :
+              ts.isEliminated ? { color: "var(--text-muted)" } : {}
+            }>
+              {ts.isClinched ? "✓" : ts.isEliminated ? "—" : (ts.magicNumber || "—")}
+            </div>
+            <div className="playoff-stat-lbl">Magic #</div>
+          </div>
         </div>
       </div>
     </div>

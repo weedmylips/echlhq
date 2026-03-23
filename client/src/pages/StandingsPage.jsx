@@ -14,6 +14,7 @@ const TABLE_COLS = [
   { key: "l",      label: "L" },
   { key: "otl",    label: "OT" },
   { key: "pts",    label: "PTS" },
+  { key: "magicNum", label: "M#", hideOnSmall: true },
   { key: "pct",    label: "PCT",  hideOnSmall: true },
   { key: "gf",     label: "GF",   hideOnSmall: true },
   { key: "ga",     label: "GA",   hideOnSmall: true },
@@ -36,10 +37,18 @@ export default function StandingsPage() {
     else { setSortCol(col); setSortDir("desc"); }
   }
 
+  function magicNumSortVal(v) {
+    if (v === "X") return 0;
+    if (v === "E") return 999;
+    if (v === "—") return 998;
+    return v;
+  }
+
   function sortedTeams(teams) {
     return [...teams].sort((a, b) => {
       let av = a[sortCol] ?? 0, bv = b[sortCol] ?? 0;
-      if (typeof av === "string") { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+      if (sortCol === "magicNum") { av = magicNumSortVal(av); bv = magicNumSortVal(bv); }
+      else if (typeof av === "string") { av = av.toLowerCase(); bv = bv.toLowerCase(); }
       return sortDir === "desc" ? (av < bv ? 1 : -1) : (av > bv ? 1 : -1);
     });
   }
@@ -47,6 +56,27 @@ export default function StandingsPage() {
   function si(col) {
     if (sortCol !== col) return null;
     return <span className="sort-icon">{sortDir === "desc" ? "↓" : "↑"}</span>;
+  }
+
+  function enrichWithMagicNumber(divisionTeams) {
+    const sorted = [...divisionTeams].sort((a, b) => b.pts - a.pts);
+    const fifthPlace = sorted[4];
+    const fourthPts = sorted[3]?.pts ?? 0;
+    const maxFifthPts = fifthPlace
+      ? fifthPlace.pts + (fifthPlace.gamesRemaining || 0) * 2
+      : 0;
+    return divisionTeams.map((team) => {
+      const rank = sorted.findIndex((t) => t.teamId === team.teamId) + 1;
+      const maxOurPts = team.pts + (team.gamesRemaining || 0) * 2;
+      const isClinched = rank <= 4 && (!fifthPlace || team.pts > maxFifthPts);
+      const isEliminated = rank > 4 && maxOurPts < fourthPts;
+      let magicNum;
+      if (isClinched) magicNum = "X";
+      else if (isEliminated) magicNum = "E";
+      else if (rank <= 4 && fifthPlace) magicNum = Math.max(0, maxFifthPts - team.pts + 1);
+      else magicNum = "—";
+      return { ...team, magicNum };
+    });
   }
 
   const grouped = standings.reduce((acc, t) => {
@@ -78,7 +108,7 @@ export default function StandingsPage() {
       {!isLoading && !error && (
         <div className="standings-groups">
           {groupOrder.map((groupName) => {
-            const teams = sortedTeams(grouped[groupName] || []);
+            const teams = sortedTeams(enrichWithMagicNumber(grouped[groupName] || []));
             return (
               <div key={groupName} className="standings-group card">
                 <div className="group-header">
@@ -141,6 +171,8 @@ export default function StandingsPage() {
                                   c.key === "w" ? "bold" : "",
                                   c.key === "diff" && team[c.key] > 0 ? "pos" : "",
                                   c.key === "diff" && team[c.key] < 0 ? "neg" : "",
+                                  c.key === "magicNum" && team[c.key] === "X" ? "pos" : "",
+                                  c.key === "magicNum" && team[c.key] === "E" ? "neg" : "",
                                   c.hideOnMobile ? "hide-mobile" : "",
                                   c.hideOnSmall ? "hide-sm" : "",
                                 ].filter(Boolean).join(" ")}
