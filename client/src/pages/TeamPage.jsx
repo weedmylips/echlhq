@@ -191,7 +191,7 @@ export default function TeamPage() {
               <div className="team-header-meta">
                 {standing && (
                   <span className="record-text header-record-text">
-                    {standing.w}–{standing.l}–{standing.otl} · <span className="header-pts-highlight">{standing.pts} PTS</span>
+                    {standing.w}–{standing.l}–{standing.otl} · {standing.pts} PTS
                   </span>
                 )}
               </div>

@@ -92,12 +92,6 @@
   color: var(--text);
 }
 
-.header-pts-highlight {
-  font-size: 17px;
-  font-weight: 800;
-  color: var(--text);
-}
-
 .header-standings-row {
   display: flex;
   align-items: center;
@@ -883,6 +877,7 @@ tr.playoff-cutoff td {
   .team-header-meta { gap: 6px; flex-wrap: nowrap; }
   .division-badge { padding: 2px 7px; font-size: 10px; }
   .record-text { font-size: 11px; }
+  .header-record-text { font-size: 14px; }
 
   .stat-block-value { font-size: 22px; }
   .record-value { font-size: 16px; }
