@@ -1033,16 +1033,19 @@ async function resolveGameIds(scores, seedId) {
       maxId = Math.max(maxId, id);
 
       // Parse "Gamesheet: Visiting at Home - Date"
-      const m = title.match(/^Gamesheet:\s+(.+?)\s+at\s+(.+?)\s+-\s+/);
+      const m = title.match(/^Gamesheet:\s+(.+?)\s+at\s+(.+?)\s+-\s+(.+)$/);
       if (!m) continue;
       const visiting = normName(m[1]);
       const home     = normName(m[2]);
+      const gameDate = m[3].trim();
 
-      // Match to a parsed score
+      // Match to a parsed score by teams + date.
+      // Use startsWith in both directions to handle short city names (e.g. "iowa" vs "iowaheartlanders").
       const score = scores.find(
         (s) => s.gameId === null &&
-               normName(s.visitingTeam).includes(visiting.slice(0, 5)) &&
-               normName(s.homeTeam).includes(home.slice(0, 5))
+               s.date === gameDate &&
+               (visiting.startsWith(normName(s.visitingTeam)) || normName(s.visitingTeam).startsWith(visiting)) &&
+               (home.startsWith(normName(s.homeTeam)) || normName(s.homeTeam).startsWith(home))
       );
       if (score) {
         score.gameId = id;
