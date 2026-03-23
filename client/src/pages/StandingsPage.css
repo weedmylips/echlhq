@@ -179,14 +179,14 @@ tr.playoff-cutoff td {
 }
 .standings-page tr.row-clinched td.rank-cell,
 .standings-page tr.row-clinched td.team-cell {
-  background: rgba(34, 197, 94, 0.06);
+  background: color-mix(in srgb, rgb(34 197 94) 6%, #1a1a1a);
 }
 .standings-page tr.row-clinched:hover td {
   background: rgba(34, 197, 94, 0.1);
 }
 .standings-page tr.row-clinched:hover td.rank-cell,
 .standings-page tr.row-clinched:hover td.team-cell {
-  background: rgba(34, 197, 94, 0.1);
+  background: color-mix(in srgb, rgb(34 197 94) 10%, #1a1a1a);
 }
 
 .standings-page tr.row-eliminated td {
@@ -194,14 +194,14 @@ tr.playoff-cutoff td {
 }
 .standings-page tr.row-eliminated td.rank-cell,
 .standings-page tr.row-eliminated td.team-cell {
-  background: rgba(239, 68, 68, 0.06);
+  background: color-mix(in srgb, rgb(239 68 68) 6%, #1a1a1a);
 }
 .standings-page tr.row-eliminated:hover td {
   background: rgba(239, 68, 68, 0.1);
 }
 .standings-page tr.row-eliminated:hover td.rank-cell,
 .standings-page tr.row-eliminated:hover td.team-cell {
-  background: rgba(239, 68, 68, 0.1);
+  background: color-mix(in srgb, rgb(239 68 68) 10%, #1a1a1a);
 }
 
 @media (max-width: 640px) {
