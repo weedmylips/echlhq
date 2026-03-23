@@ -931,6 +931,16 @@
       "score": "4-0"
     },
     {
+      "gameId": 25239,
+      "homeTeam": "Jacksonville",
+      "homeTeamId": 79,
+      "visitingTeam": "Greenville",
+      "date": "Mar 22, 2026",
+      "arena": "VyStar Veterans Memorial Arena",
+      "attendance": 7934,
+      "score": "1-2"
+    },
+    {
       "gameId": 24598,
       "homeTeam": "Toledo",
       "homeTeamId": 70,
@@ -1029,6 +1039,16 @@
       "arena": "Heritage Bank Center",
       "attendance": 7808,
       "score": "1-2"
+    },
+    {
+      "gameId": 25245,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Tahoe",
+      "date": "Mar 22, 2026",
+      "arena": "Huntington Center",
+      "attendance": 7804,
+      "score": "4-3"
     },
     {
       "gameId": 24627,
@@ -1479,6 +1499,16 @@
       "arena": "Enmarket Arena",
       "attendance": 7485,
       "score": "3-0"
+    },
+    {
+      "gameId": 25243,
+      "homeTeam": "Savannah",
+      "homeTeamId": 97,
+      "visitingTeam": "Atlanta",
+      "date": "Mar 22, 2026",
+      "arena": "Enmarket Arena",
+      "attendance": 7485,
+      "score": "4-3"
     },
     {
       "gameId": 24626,
@@ -2341,6 +2371,16 @@
       "score": "4-6"
     },
     {
+      "gameId": 25244,
+      "homeTeam": "South Carolina",
+      "homeTeamId": 50,
+      "visitingTeam": "Allen",
+      "date": "Mar 22, 2026",
+      "arena": "North Charleston Coliseum",
+      "attendance": 6243,
+      "score": "7-1"
+    },
+    {
       "gameId": 25158,
       "homeTeam": "Bloomington",
       "homeTeamId": 107,
@@ -2639,6 +2679,16 @@
       "arena": "Credit Union of Texas Event Center",
       "attendance": 6037,
       "score": "3-2"
+    },
+    {
+      "gameId": 25247,
+      "homeTeam": "Worcester",
+      "homeTeamId": 104,
+      "visitingTeam": "Adirondack",
+      "date": "Mar 22, 2026",
+      "arena": "DCU Center",
+      "attendance": 6030,
+      "score": "3-4"
     },
     {
       "gameId": 24577,
@@ -3049,6 +3099,16 @@
       "arena": "Credit Union of Texas Event Center",
       "attendance": 5588,
       "score": "0-4"
+    },
+    {
+      "gameId": 25238,
+      "homeTeam": "Indy",
+      "homeTeamId": 65,
+      "visitingTeam": "Utah",
+      "date": "Mar 22, 2026",
+      "arena": "Fishers Event Center",
+      "attendance": 5587,
+      "score": "3-1"
     },
     {
       "gameId": 24321,
@@ -4771,6 +4831,16 @@
       "score": "6-3"
     },
     {
+      "gameId": 25242,
+      "homeTeam": "Norfolk",
+      "homeTeamId": 63,
+      "visitingTeam": "Greensboro",
+      "date": "Mar 22, 2026",
+      "arena": "Norfolk Scope",
+      "attendance": 4517,
+      "score": "2-3"
+    },
+    {
       "gameId": 24760,
       "homeTeam": "Kansas City",
       "homeTeamId": 56,
@@ -5631,6 +5701,16 @@
       "score": "2-5"
     },
     {
+      "gameId": 25241,
+      "homeTeam": "Maine",
+      "homeTeamId": 101,
+      "visitingTeam": "Reading",
+      "date": "Mar 22, 2026",
+      "arena": "Cross Insurance Arena",
+      "attendance": 3988,
+      "score": "0-4"
+    },
+    {
       "gameId": 25032,
       "homeTeam": "Atlanta",
       "homeTeamId": 10,
@@ -6329,6 +6409,16 @@
       "arena": "The Monument",
       "attendance": 3572,
       "score": "1-3"
+    },
+    {
+      "gameId": 25240,
+      "homeTeam": "Kalamazoo",
+      "homeTeamId": 53,
+      "visitingTeam": "Rapid City",
+      "date": "Mar 22, 2026",
+      "arena": "Wings Event Center",
+      "attendance": 3572,
+      "score": "1-6"
     },
     {
       "gameId": 24971,
@@ -7641,6 +7731,16 @@
       "score": "3-6"
     },
     {
+      "gameId": 25237,
+      "homeTeam": "Bloomington",
+      "homeTeamId": 107,
+      "visitingTeam": "Iowa",
+      "date": "Mar 22, 2026",
+      "arena": "Grossinger Motors Arena",
+      "attendance": 2603,
+      "score": "6-4"
+    },
+    {
       "gameId": 24386,
       "homeTeam": "Worcester",
       "homeTeamId": 104,
@@ -8259,6 +8359,16 @@
       "arena": "WesBanco Arena",
       "attendance": 2032,
       "score": "5-2"
+    },
+    {
+      "gameId": 25246,
+      "homeTeam": "Trois-Rivières",
+      "homeTeamId": 103,
+      "visitingTeam": "Wheeling",
+      "date": "Mar 22, 2026",
+      "arena": "Colisée Vidéotron",
+      "attendance": 2028,
+      "score": "3-1"
     },
     {
       "gameId": 24665,
@@ -9131,5 +9241,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-22T11:02:57.742Z"
+  "scrapedAt": "2026-03-23T12:07:35.097Z"
 }

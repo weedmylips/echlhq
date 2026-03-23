@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T11:02:57.742Z",
+  "generatedAt": "2026-03-23T12:07:35.097Z",
   "processedGames": [
     24296,
     24297,
@@ -883,6 +883,19 @@
     25221,
     25222,
     25223,
+    25224,
+    25225,
+    25226,
+    25227,
+    25228,
+    25229,
+    25230,
+    25231,
+    25232,
+    25233,
+    25234,
+    25235,
+    25236,
     25270,
     25293,
     25342,
@@ -908,19 +921,17 @@
     25400,
     25401,
     25402,
-    25224,
-    25225,
-    25226,
-    25227,
-    25228,
-    25229,
-    25230,
-    25231,
-    25232,
-    25233,
-    25234,
-    25235,
-    25236
+    25237,
+    25238,
+    25239,
+    25240,
+    25241,
+    25242,
+    25243,
+    25244,
+    25245,
+    25246,
+    25247
   ],
   "leaders": [
     {
@@ -1035,6 +1046,19 @@
         24926,
         25091,
         25113
+      ]
+    },
+    {
+      "name": "A. Kulakov",
+      "team": "Reading",
+      "fightingMajors": 6,
+      "games": [
+        24386,
+        24537,
+        24557,
+        24974,
+        25401,
+        25241
       ]
     },
     {
@@ -1166,6 +1190,19 @@
       ]
     },
     {
+      "name": "S. Kennedy",
+      "team": "Kalamazoo",
+      "fightingMajors": 6,
+      "games": [
+        24497,
+        24569,
+        24799,
+        25186,
+        25392,
+        25240
+      ]
+    },
+    {
       "name": "A. Collins",
       "team": "Tahoe",
       "fightingMajors": 5,
@@ -1175,18 +1212,6 @@
         24490,
         24900,
         25039
-      ]
-    },
-    {
-      "name": "A. Kulakov",
-      "team": "Reading",
-      "fightingMajors": 5,
-      "games": [
-        24386,
-        24537,
-        24557,
-        24974,
-        25401
       ]
     },
     {
@@ -1295,15 +1320,15 @@
       ]
     },
     {
-      "name": "S. Kennedy",
-      "team": "Kalamazoo",
+      "name": "T. Cheveldayoff",
+      "team": "Maine",
       "fightingMajors": 5,
       "games": [
-        24497,
-        24569,
-        24799,
-        25186,
-        25392
+        24316,
+        24345,
+        25113,
+        25159,
+        25241
       ]
     },
     {
@@ -1426,6 +1451,17 @@
       ]
     },
     {
+      "name": "M. Dorrington",
+      "team": "Worcester",
+      "fightingMajors": 4,
+      "games": [
+        24752,
+        24794,
+        25091,
+        25247
+      ]
+    },
+    {
       "name": "M. Marchesan",
       "team": "Indy",
       "fightingMajors": 4,
@@ -1434,6 +1470,17 @@
         24523,
         24572,
         24937
+      ]
+    },
+    {
+      "name": "M. Patterson",
+      "team": "Iowa",
+      "fightingMajors": 4,
+      "games": [
+        24368,
+        24403,
+        24990,
+        25237
       ]
     },
     {
@@ -1470,6 +1517,17 @@
       ]
     },
     {
+      "name": "R. Appelt",
+      "team": "Atlanta",
+      "fightingMajors": 4,
+      "games": [
+        24743,
+        24959,
+        25213,
+        25243
+      ]
+    },
+    {
       "name": "R. Hofer",
       "team": "South Carolina",
       "fightingMajors": 4,
@@ -1489,17 +1547,6 @@
         24571,
         24798,
         25145
-      ]
-    },
-    {
-      "name": "T. Cheveldayoff",
-      "team": "Maine",
-      "fightingMajors": 4,
-      "games": [
-        24316,
-        24345,
-        25113,
-        25159
       ]
     },
     {
@@ -1804,6 +1851,16 @@
       ]
     },
     {
+      "name": "L. Denis",
+      "team": "Bloomington",
+      "fightingMajors": 3,
+      "games": [
+        24340,
+        25182,
+        25237
+      ]
+    },
+    {
       "name": "L. Helland",
       "team": "Iowa",
       "fightingMajors": 3,
@@ -1811,16 +1868,6 @@
         24320,
         24734,
         24765
-      ]
-    },
-    {
-      "name": "M. Dorrington",
-      "team": "Worcester",
-      "fightingMajors": 3,
-      "games": [
-        24752,
-        24794,
-        25091
       ]
     },
     {
@@ -1834,16 +1881,6 @@
       ]
     },
     {
-      "name": "M. Patterson",
-      "team": "Iowa",
-      "fightingMajors": 3,
-      "games": [
-        24368,
-        24403,
-        24990
-      ]
-    },
-    {
       "name": "N. Noel",
       "team": "Iowa",
       "fightingMajors": 3,
@@ -1851,16 +1888,6 @@
         24299,
         24403,
         24459
-      ]
-    },
-    {
-      "name": "R. Appelt",
-      "team": "Atlanta",
-      "fightingMajors": 3,
-      "games": [
-        24743,
-        24959,
-        25213
       ]
     },
     {
@@ -2058,6 +2085,15 @@
       "fightingMajors": 2,
       "games": [
         24744
+      ]
+    },
+    {
+      "name": "B. Datema",
+      "team": "Bloomington",
+      "fightingMajors": 2,
+      "games": [
+        24376,
+        25237
       ]
     },
     {
@@ -2322,6 +2358,15 @@
       ]
     },
     {
+      "name": "J. van de Leest",
+      "team": "Adirondack",
+      "fightingMajors": 2,
+      "games": [
+        24584,
+        25247
+      ]
+    },
+    {
       "name": "J. Works",
       "team": "Wheeling",
       "fightingMajors": 2,
@@ -2355,15 +2400,6 @@
       "games": [
         24990,
         25094
-      ]
-    },
-    {
-      "name": "L. Denis",
-      "team": "Bloomington",
-      "fightingMajors": 2,
-      "games": [
-        24340,
-        25182
       ]
     },
     {
@@ -2685,14 +2721,6 @@
       ]
     },
     {
-      "name": "B. Datema",
-      "team": "Bloomington",
-      "fightingMajors": 1,
-      "games": [
-        24376
-      ]
-    },
-    {
       "name": "B. Dowler",
       "team": "Kalamazoo",
       "fightingMajors": 1,
@@ -2853,6 +2881,14 @@
       ]
     },
     {
+      "name": "C. Hausinger",
+      "team": "Toledo",
+      "fightingMajors": 1,
+      "games": [
+        25245
+      ]
+    },
+    {
       "name": "C. Keenan",
       "team": "Toledo",
       "fightingMajors": 1,
@@ -2866,6 +2902,14 @@
       "fightingMajors": 1,
       "games": [
         24374
+      ]
+    },
+    {
+      "name": "C. Tymkin",
+      "team": "Rapid City",
+      "fightingMajors": 1,
+      "games": [
+        25240
       ]
     },
     {
@@ -3178,14 +3222,6 @@
       "fightingMajors": 1,
       "games": [
         24443
-      ]
-    },
-    {
-      "name": "J. van de Leest",
-      "team": "Adirondack",
-      "fightingMajors": 1,
-      "games": [
-        24584
       ]
     },
     {
@@ -3525,6 +3561,14 @@
       ]
     },
     {
+      "name": "N. Massie",
+      "team": "Iowa",
+      "fightingMajors": 1,
+      "games": [
+        25237
+      ]
+    },
+    {
       "name": "N. Pennucci",
       "team": "Worcester",
       "fightingMajors": 1,
@@ -3834,6 +3878,14 @@
       "fightingMajors": 1,
       "games": [
         24681
+      ]
+    },
+    {
+      "name": "T. Ness",
+      "team": "Tahoe",
+      "fightingMajors": 1,
+      "games": [
+        25245
       ]
     },
     {

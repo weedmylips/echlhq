@@ -1,0 +1,674 @@
+{
+  "gameInfo": {
+    "gameId": 25238,
+    "visitingTeam": "Utah",
+    "homeTeam": "Indy",
+    "date": "Mar 22, 2026",
+    "arena": "Fishers Event Center",
+    "attendance": 5587,
+    "finalScore": {
+      "visiting": 3,
+      "home": 1
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "2nd",
+      "time": "8:41",
+      "team": "IND",
+      "scorer": "A. DiPaolo (6)",
+      "assists": "J. Joseph, C. Laskosky",
+      "strength": "EV"
+    },
+    {
+      "period": "2nd",
+      "time": "15:20",
+      "team": "UTA",
+      "scorer": "L. Manning (8)",
+      "assists": "R. Lebster, J. Mucitelli",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "3:23",
+      "team": "UTA",
+      "scorer": "M. Gelatt (2)",
+      "assists": "R. Taylor, R. Rosborough",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "19:56",
+      "team": "UTA",
+      "scorer": "M. Gelatt (3)",
+      "assists": "",
+      "strength": "EN"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Utah",
+      "p1": 7,
+      "p2": 8,
+      "p3": 8,
+      "ot": 0,
+      "total": 23
+    },
+    {
+      "team": "Indy",
+      "p1": 11,
+      "p2": 8,
+      "p3": 11,
+      "ot": 0,
+      "total": 30
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "J. Mucitelli",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "H. Miska",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "3",
+        "name": "L. Antonacci",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "C. Enns",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "6",
+        "name": "L. Salem",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "J. Zinger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "N. Niemo",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "E. Friesen",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "L. Manning",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "C. LeClerc",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "R. Rosborough",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "23",
+        "name": "R. Lebster",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "J. Gelatt",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "D. Gratton",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "26",
+        "name": "D. Dzhaniyev",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "M. Boislard",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "44",
+        "name": "R. Taylor",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "M. Gelatt",
+        "pos": "",
+        "g": 2,
+        "a": 0,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "96",
+        "name": "M. Colella",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 4,
+        "pts": 7,
+        "plusMinus": 10,
+        "shots": 23,
+        "pim": 6
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "R. Ouellette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "M. Weeks",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "W. Ennis",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "4",
+        "name": "C. Berger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "7",
+        "name": "J. Joseph",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "8",
+        "name": "D. Manz",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "O. Robinson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 6,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "J. Ahearn",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "A. DiPaolo",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 5,
+        "pim": 0
+      },
+      {
+        "number": "16",
+        "name": "B. Moravec",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "J. Tucker",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "M. Marchesan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "T. Zins",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "21",
+        "name": "T. Weiss",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 5,
+        "pim": 4
+      },
+      {
+        "number": "22",
+        "name": "M. Petgrave",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "C. Laskosky",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "27",
+        "name": "L. Brockhoff",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 2
+      },
+      {
+        "number": "28",
+        "name": "J. Martin",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "T. Paquette",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "C. Cameron",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 1,
+        "a": 2,
+        "pts": 3,
+        "plusMinus": -11,
+        "shots": 30,
+        "pim": 6
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "32",
+        "name": "J. Mucitelli",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 30,
+        "saves": 29,
+        "ga": 1,
+        "svPct": 0.967
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 30,
+        "saves": 29,
+        "ga": 1,
+        "svPct": 0.967
+      }
+    ],
+    "home": [
+      {
+        "number": "30",
+        "name": "R. Ouellette",
+        "minsPlayed": "58:16",
+        "shotsAgainst": 22,
+        "saves": 20,
+        "ga": 2,
+        "svPct": 0.909
+      },
+      {
+        "number": "",
+        "name": "Empty Net",
+        "minsPlayed": "",
+        "shotsAgainst": 1,
+        "saves": 0,
+        "ga": 1,
+        "svPct": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "58:16",
+        "shotsAgainst": 23,
+        "saves": 20,
+        "ga": 3,
+        "svPct": 0.87
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "D. Gratton",
+      "minutes": 2,
+      "infraction": "Interference - minor (56.2)",
+      "time": "13:20"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "T. Weiss",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "2:50"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "D. Gratton",
+      "minutes": 2,
+      "infraction": "Holding the stick - minor (54.2)",
+      "time": "9:38"
+    },
+    {
+      "period": "2nd",
+      "team": "H",
+      "player": "T. Weiss",
+      "minutes": 2,
+      "infraction": "High-sticking - minor (60.2)",
+      "time": "16:24"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "L. Brockhoff",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "5:02"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "C. Enns",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "13:36"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "UTA",
+      "name": "J. Mucitelli",
+      "g": 0,
+      "a": 1,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "UTA",
+      "name": "M. Gelatt",
+      "g": 2,
+      "a": 0,
+      "pts": 2
+    },
+    {
+      "star": 3,
+      "team": "IND",
+      "name": "A. DiPaolo",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-23T12:07:42.590Z"
+}

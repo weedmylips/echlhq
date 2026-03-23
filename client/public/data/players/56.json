@@ -256,7 +256,7 @@
       "player": "Jackson Berezowski",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 56,
       "g": 14,
       "a": 11,
@@ -899,5 +899,5 @@
       "sa": 878
     }
   ],
-  "scrapedAt": "2026-03-22T11:02:57.742Z"
+  "scrapedAt": "2026-03-23T12:07:35.097Z"
 }
