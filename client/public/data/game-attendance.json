@@ -1691,6 +1691,16 @@
       "score": "1-5"
     },
     {
+      "gameId": 24580,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Jacksonville",
+      "date": "Mar 21, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 7116,
+      "score": "1-2"
+    },
+    {
       "gameId": 24921,
       "homeTeam": "Florida",
       "homeTeamId": 8,
@@ -9241,5 +9251,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-23T17:16:18.053Z"
+  "scrapedAt": "2026-03-23T17:29:37.757Z"
 }

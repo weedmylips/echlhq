@@ -930,7 +930,8 @@
     25244,
     25245,
     25246,
-    25247
+    25247,
+    24580
   ],
   "players": {
     "T. Hylland|TR": {
@@ -2530,7 +2531,7 @@
       "majors": 1
     },
     "R. Conroy|ATL": {
-      "minors": 20,
+      "minors": 21,
       "majors": 2
     },
     "J. Vaive|CIN": {
@@ -2814,7 +2815,7 @@
       "majors": 1
     },
     "M. Burns|ATL": {
-      "minors": 4,
+      "minors": 5,
       "majors": 0
     },
     "D. Pilon|TOL": {
@@ -3114,7 +3115,7 @@
       "majors": 2
     },
     "H. Wale|JAX": {
-      "minors": 6,
+      "minors": 7,
       "majors": 0
     },
     "J. Cipollone|ATL": {
@@ -3566,7 +3567,7 @@
       "majors": 1
     },
     "J. Bouquot|JAX": {
-      "minors": 1,
+      "minors": 2,
       "majors": 0
     },
     "D. Carabia|ATL": {
@@ -4394,7 +4395,7 @@
       "majors": 0
     },
     "L. Grissom|JAX": {
-      "minors": 3,
+      "minors": 4,
       "majors": 0
     },
     "L. Griffin|JAX": {
@@ -4546,7 +4547,7 @@
       "majors": 0
     },
     "C. Gaudette|ATL": {
-      "minors": 2,
+      "minors": 3,
       "majors": 0
     },
     "E. Olson|TAH": {
@@ -4972,7 +4973,15 @@
     "C. Hausinger|TOL": {
       "minors": 0,
       "majors": 1
+    },
+    "E. Orr|ATL": {
+      "minors": 2,
+      "majors": 0
+    },
+    "D. Panetta|JAX": {
+      "minors": 1,
+      "majors": 0
     }
   },
-  "scrapedAt": "2026-03-23T17:16:18.053Z"
+  "scrapedAt": "2026-03-23T17:29:37.757Z"
 }
