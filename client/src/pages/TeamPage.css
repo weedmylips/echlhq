@@ -45,8 +45,8 @@
 }
 
 .team-header-logo {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -880,7 +880,7 @@ tr.playoff-cutoff td {
   .stats-layout .overview-main {
     grid-template-columns: 1fr;
   }
-  .team-header-logo { width: 48px; height: 48px; }
+  .team-header-logo { width: 64px; height: 64px; }
   .team-header-content { padding: 12px 14px; gap: 8px; }
   .team-header-name { font-size: 16px; }
   .team-header-meta { gap: 6px; flex-wrap: nowrap; }
