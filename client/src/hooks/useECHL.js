@@ -113,16 +113,20 @@ function computeTeamStats(id, standingsData, scoresData) {
   // ── 1 & 8: Playoff picture + clinching ─────────────────────────────────────
   const rank = divTeams.findIndex((t) => t.teamId === id) + 1;
   const fifthPlace   = divTeams[4];
-  const fourthPts    = divTeams[3]?.pts ?? 0;
+  const fourthPlace  = divTeams[3];
+  const fourthPts    = fourthPlace?.pts ?? 0;
   const firstPts     = divTeams[0]?.pts ?? 0;
   const maxFifthPts  = fifthPlace ? fifthPlace.pts + (fifthPlace.gamesRemaining || 0) * 2 : 0;
+  const max4thPts    = fourthPlace ? fourthPlace.pts + (fourthPlace.gamesRemaining || 0) * 2 : 0;
   const maxOurPts    = standing.pts + (standing.gamesRemaining || 0) * 2;
   const isClinched   = rank <= 4 && (!fifthPlace || standing.pts > maxFifthPts);
   const isEliminated = rank > 4 && maxOurPts < fourthPts;
   const ptsBack4th   = Math.max(0, fourthPts - standing.pts);
   const ptsBack1st   = Math.max(0, firstPts - standing.pts);
-  const magicNumber  = isClinched ? 0 : fifthPlace
-    ? Math.max(0, maxFifthPts - standing.pts + 1) : 0;
+  const magicNumber  = isClinched ? 0
+    : rank <= 4 && fifthPlace ? Math.max(0, maxFifthPts - standing.pts + 1)
+    : !isEliminated ? Math.max(1, max4thPts - standing.pts + 1)
+    : 0;
   const playoffStatus =
     isClinched   ? "CLINCHED" :
     isEliminated ? "ELIMINATED" :

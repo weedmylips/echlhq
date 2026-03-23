@@ -61,9 +61,13 @@ export default function StandingsPage() {
   function enrichWithMagicNumber(divisionTeams) {
     const sorted = [...divisionTeams].sort((a, b) => b.pts - a.pts);
     const fifthPlace = sorted[4];
-    const fourthPts = sorted[3]?.pts ?? 0;
+    const fourthPlace = sorted[3];
+    const fourthPts = fourthPlace?.pts ?? 0;
     const maxFifthPts = fifthPlace
       ? fifthPlace.pts + (fifthPlace.gamesRemaining || 0) * 2
+      : 0;
+    const max4thPts = fourthPlace
+      ? fourthPlace.pts + (fourthPlace.gamesRemaining || 0) * 2
       : 0;
     return divisionTeams.map((team) => {
       const rank = sorted.findIndex((t) => t.teamId === team.teamId) + 1;
@@ -74,7 +78,7 @@ export default function StandingsPage() {
       if (isClinched) magicNum = "X";
       else if (isEliminated) magicNum = "E";
       else if (rank <= 4 && fifthPlace) magicNum = Math.max(0, maxFifthPts - team.pts + 1);
-      else if (rank > 4 && !isEliminated) magicNum = Math.max(1, fourthPts - team.pts + 1);
+      else if (rank > 4 && !isEliminated) magicNum = Math.max(1, max4thPts - team.pts + 1);
       else magicNum = "—";
       return { ...team, magicNum };
     });
