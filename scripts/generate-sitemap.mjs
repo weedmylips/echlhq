@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SITE_URL = "https://echlhq.com";
+const SITE_URL = "https://www.echlstats.com";
 
 const TEAM_IDS = [
   74, 66, 10, 107, 5, 8, 60, 108, 52, 11, 65, 98, 79, 53, 56,
