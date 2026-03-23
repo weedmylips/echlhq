@@ -131,6 +131,15 @@ export default function TeamPage() {
   const pctDisplay = standing?.pct != null
     ? `${(standing.pct * 100).toFixed(1)}%` : "—";
 
+  // Playoff header info — only shown when ≤ 20 games remaining
+  const showPlayoffInfo = teamStats && standing?.gamesRemaining != null && standing.gamesRemaining <= 20;
+  const headerStatusClass = teamStats
+    ? teamStats.playoffStatus === "CLINCHED"            ? "badge-clinched"
+    : teamStats.playoffStatus === "IN PLAYOFF POSITION" ? "badge-position"
+    : teamStats.playoffStatus === "ON THE BUBBLE"       ? "badge-bubble"
+    : teamStats.playoffStatus === "ELIMINATED"          ? "badge-eliminated" : "badge-chasing"
+    : "";
+
   return (
     <div className="team-page" style={{
       "--team-primary": team.primaryColor || "#1a6aff",
@@ -176,6 +185,12 @@ export default function TeamPage() {
                 )}
                 {standing?.streak && <StreakBadge streak={standing.streak} />}
               </div>
+              {standing?.lastTen && (
+                <div className="header-last10" style={{ marginTop: 4 }}>
+                  <span className="header-last10-label">L10</span>
+                  <span className="record-text">{standing.lastTen}</span>
+                </div>
+              )}
               {standing && (
                 <div className="header-standings-row">
                   {teamStats?.rank && (
@@ -190,13 +205,12 @@ export default function TeamPage() {
                   )}
                 </div>
               )}
+              {showPlayoffInfo && teamStats.playoffStatus && (
+                <div style={{ marginTop: 4 }}>
+                  <span className={`playoff-status-badge ${headerStatusClass}`}>{teamStats.playoffStatus}</span>
+                </div>
+              )}
               <div className="header-stats-stack">
-                {standing?.lastTen && (
-                  <div className="header-last10">
-                    <span className="header-last10-label">L10</span>
-                    <span className="record-text">{standing.lastTen}</span>
-                  </div>
-                )}
                 {standing?.gamesRemaining != null && (
                   <div className="header-last10">
                     <span className="header-last10-label">GAMES LEFT</span>
@@ -213,6 +227,24 @@ export default function TeamPage() {
                     </div>
                   );
                 })()}
+                {showPlayoffInfo && !teamStats.isClinched && teamStats.ptsBack1st > 0 && (
+                  <div className="header-last10">
+                    <span className="header-last10-label">BACK OF 1ST</span>
+                    <span className="record-text">{teamStats.ptsBack1st}</span>
+                  </div>
+                )}
+                {showPlayoffInfo && teamStats.rank > 4 && (
+                  <div className="header-last10">
+                    <span className="header-last10-label">BACK OF 4TH</span>
+                    <span className="record-text">{teamStats.ptsBack4th}</span>
+                  </div>
+                )}
+                {showPlayoffInfo && !teamStats.isClinched && !teamStats.isEliminated && (
+                  <div className="header-last10">
+                    <span className="header-last10-label">MAGIC #</span>
+                    <span className="record-text">{teamStats.magicNumber || "—"}</span>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -506,11 +538,6 @@ export default function TeamPage() {
                 </div>
               );
             })()}
-
-            {/* Playoff Picture */}
-            {teamStats && standing && (
-              <PlayoffPictureCard ts={teamStats} team={team} standing={standing} />
-            )}
 
             {/* Division Standings mini-table */}
             {divisionTeams.length > 0 && (
