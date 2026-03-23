@@ -74,6 +74,7 @@ export default function StandingsPage() {
       if (isClinched) magicNum = "X";
       else if (isEliminated) magicNum = "E";
       else if (rank <= 4 && fifthPlace) magicNum = Math.max(0, maxFifthPts - team.pts + 1);
+      else if (rank > 4 && !isEliminated) magicNum = Math.max(1, fourthPts - team.pts + 1);
       else magicNum = "—";
       return { ...team, magicNum };
     });
