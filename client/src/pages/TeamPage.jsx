@@ -186,10 +186,7 @@ export default function TeamPage() {
               )}
             </div>
             <div className="team-header-info">
-              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                <h1 className="team-header-name">{team.name}</h1>
-                <ShareButton title={`${team.name}${activeTab !== "overview" ? ` — ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}` : ""} — ECHL Stats`} />
-              </div>
+              <h1 className="team-header-name">{team.name}</h1>
               <div className="team-header-meta">
                 {standing && (
                   <span className="record-text header-record-text">
