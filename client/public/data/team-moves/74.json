@@ -2,6 +2,13 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Dylan Wendt",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Utica by New Jersey"
+    },
+    {
       "date": "2026-03-22",
       "player": "Tanner Edwards",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Dylan Wendt",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

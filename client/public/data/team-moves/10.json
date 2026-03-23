@@ -2,6 +2,27 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Nick Vilardo",
+      "position": "G",
+      "type": "released",
+      "summary": "Released as EBUG"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Ethan Haider",
+      "position": "G",
+      "type": "active",
+      "summary": "Assigned by Milwaukee"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Kirklan Irey",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-22",
       "player": "Jon Horrell",
       "position": "G",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Max Grondin",
-      "position": "F",
-      "type": "loaned",
-      "summary": "Loaned to Syracuse"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Cam Gaudette",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Ryan Nolan",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

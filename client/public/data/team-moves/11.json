@@ -2,6 +2,27 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Charlie Dodero",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Jake Boltmann",
+      "position": "D",
+      "type": "active",
+      "summary": "Returned From Loan by San Jose Barracuda"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Thomas Bergsland",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-20",
       "player": "Nick Portz",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Grant Silianoff",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Aidan Hreschuk",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Nick Portz",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

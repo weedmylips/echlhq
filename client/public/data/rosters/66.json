@@ -2,7 +2,7 @@
   "teamId": 66,
   "slug": "allen-americans",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-22",
+  "lastTransactionCheck": "2026-03-23",
   "roster": [
     {
       "playerId": "8586",
@@ -851,7 +851,7 @@
       "player": "Nikita Susuyev",
       "number": null,
       "position": "F",
-      "status": "assigned_ahl",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

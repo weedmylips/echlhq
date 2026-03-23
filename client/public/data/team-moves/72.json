@@ -2,6 +2,20 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Tanner Faith",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Michael Davies",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-22",
       "player": "Sasha Mutala",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "signed",
       "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Sasha Mutala",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Jackson Niedermayer",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

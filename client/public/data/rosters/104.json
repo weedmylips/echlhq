@@ -2,7 +2,7 @@
   "teamId": 104,
   "slug": "worcester-railers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-22",
+  "lastTransactionCheck": "2026-03-23",
   "roster": [
     {
       "playerId": "8651",
@@ -42,26 +42,6 @@
         "g": 21,
         "a": 16,
         "pts": 37
-      }
-    },
-    {
-      "playerId": "9770",
-      "player": "Anthony Callin",
-      "number": 44,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 48,
-        "g": 15,
-        "a": 20,
-        "pts": 35
       }
     },
     {
@@ -370,7 +350,7 @@
       "player": "Max Dukovac",
       "number": 20,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -391,26 +371,6 @@
       "number": 26,
       "position": "F",
       "status": "signed",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 1,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": "10859",
-      "player": "Porter Schachle",
-      "number": 22,
-      "position": "F",
-      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -670,10 +630,10 @@
       "player": "Michael Ferrandino",
       "number": 8,
       "position": "D",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-22",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -690,7 +650,7 @@
       "player": "Case McCarthy",
       "number": 21,
       "position": "D",
-      "status": "recalled_ahl",
+      "status": "active",
       "statusNote": null,
       "irStartDate": "2026-01-09",
       "irDays": 14,

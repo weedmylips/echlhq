@@ -2,6 +2,13 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Ilya Tsulygin",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
       "date": "2026-03-21",
       "player": "Mark Kalienikovas",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Brandon Yeamans",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

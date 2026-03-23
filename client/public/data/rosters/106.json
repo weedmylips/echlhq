@@ -305,26 +305,6 @@
       }
     },
     {
-      "playerId": "9948",
-      "player": "Mike Gelatt",
-      "number": 91,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 18,
-        "g": 1,
-        "a": 1,
-        "pts": 2
-      }
-    },
-    {
       "playerId": "11163",
       "player": "Cooper Gay",
       "number": 44,

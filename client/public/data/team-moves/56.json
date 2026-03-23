@@ -2,6 +2,48 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Jackson Berezowski",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Coachella Valley 3/22"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Jackson Jutting",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve 3/22"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Jake McLaughlin",
+      "position": "D",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Dylan Wells",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Jack LaFontaine",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "James Marooney",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Tyler Schleppe",
       "position": "F",
@@ -95,48 +137,6 @@
     {
       "date": "2026-03-13",
       "player": "James Marooney",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jackson Jutting",
-      "position": "F",
-      "type": "loaned",
-      "summary": "Loaned to Grand Rapids 3/12"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Nolan Sullivan",
-      "position": "F",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Tyler Schleppe",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Luke Loheit",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "James Marooney",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Hudson Wilson",
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"

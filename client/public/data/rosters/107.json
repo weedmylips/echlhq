@@ -2,7 +2,7 @@
   "teamId": 107,
   "slug": "bloomington-bison",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-23",
   "roster": [
     {
       "playerId": "9981",
@@ -351,8 +351,8 @@
       "position": "F",
       "status": "ir",
       "statusNote": null,
-      "irStartDate": "2026-03-20",
-      "irDays": 3,
+      "irStartDate": "2026-03-23",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

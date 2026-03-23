@@ -2,6 +2,13 @@
   "teamId": 66,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Nikita Susuyev",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Springfield by St. Louis"
+    },
+    {
       "date": "2026-03-22",
       "player": "Marco Costantini",
       "position": "G",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Kevin Gursoy",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

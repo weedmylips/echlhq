@@ -2,6 +2,20 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Franseco Lapenna",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/22"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "Benjamin Gaudreau",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve 3/22"
+    },
+    {
       "date": "2026-03-21",
       "player": "Jeremy Michaud",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "G",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Darick Louis-Jean",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Laval"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Hunter Jones",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Laval"
     }
   ]
 }

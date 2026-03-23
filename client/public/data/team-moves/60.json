@@ -2,6 +2,20 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-23",
+      "player": "Josh Bloom",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Bakersfield by Edmonton"
+    },
+    {
+      "date": "2026-03-23",
+      "player": "William Dufour",
+      "position": "F",
+      "type": "active",
+      "summary": "Returned From Loan by Grand Rapids"
+    },
+    {
       "date": "2026-03-21",
       "player": "Nick Deakin-Poot",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Anthony Petruzzelli",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Josh Bloom",
-      "position": "F",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Bakersfield by Edmonton"
     }
   ]
 }

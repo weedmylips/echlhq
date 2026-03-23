@@ -149,10 +149,10 @@
       "player": "Jacob Frasca",
       "number": 95,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2025-10-29",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -362,26 +362,6 @@
         "g": 3,
         "a": 4,
         "pts": 7
-      }
-    },
-    {
-      "playerId": "9636",
-      "player": "Jordan Frasca",
-      "number": 14,
-      "position": "F",
-      "status": "ir",
-      "statusNote": null,
-      "irStartDate": "2025-10-29",
-      "irDays": 14,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 4,
-        "g": 3,
-        "a": 3,
-        "pts": 6
       }
     },
     {

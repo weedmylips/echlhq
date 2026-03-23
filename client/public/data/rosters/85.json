@@ -2,7 +2,7 @@
   "teamId": 85,
   "slug": "rapid-city-rush",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-22",
+  "lastTransactionCheck": "2026-03-23",
   "roster": [
     {
       "playerId": "8199",
@@ -409,10 +409,10 @@
       "player": "Zacharie Giroux",
       "number": 39,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-23",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

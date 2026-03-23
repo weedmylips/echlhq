@@ -2,7 +2,7 @@
   "teamId": 103,
   "slug": "trois-rivieres-lions",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-23",
   "roster": [
     {
       "playerId": "6458",
@@ -729,7 +729,7 @@
       "player": "Benjamin Gaudreau",
       "number": 39,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -769,7 +769,7 @@
       "player": "Francesco Lapenna",
       "number": 90,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

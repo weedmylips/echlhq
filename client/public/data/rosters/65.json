@@ -269,10 +269,10 @@
       "player": "Jordan Martin",
       "number": 28,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-22",
+      "irDays": 3,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -322,26 +322,6 @@
         "g": 5,
         "a": 5,
         "pts": 10
-      }
-    },
-    {
-      "playerId": "10868",
-      "player": "Eric Martin",
-      "number": 88,
-      "position": "F",
-      "status": "ir",
-      "statusNote": null,
-      "irStartDate": "2026-03-22",
-      "irDays": 3,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 30,
-        "g": 5,
-        "a": 3,
-        "pts": 8
       }
     },
     {
