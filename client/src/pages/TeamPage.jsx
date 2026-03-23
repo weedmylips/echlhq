@@ -507,6 +507,11 @@ export default function TeamPage() {
               );
             })()}
 
+            {/* Playoff Picture */}
+            {teamStats && standing && (
+              <PlayoffPictureCard ts={teamStats} team={team} standing={standing} />
+            )}
+
             {/* Division Standings mini-table */}
             {divisionTeams.length > 0 && (
               <div className="card section-card">
