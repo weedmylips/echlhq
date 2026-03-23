@@ -189,20 +189,17 @@ export default function TeamPage() {
                 </div>
               )}
               <div className="team-header-meta">
-                <span className="division-badge">
-                  {team.division || "—"}
-                </span>
                 {standing && (
                   <span className="record-text">
-                    {standing.w}–{standing.l}–{standing.otl} · {standing.pts} PTS
+                    <span className="header-last10-label">Record: </span>{standing.w}–{standing.l}–{standing.otl} · {standing.pts} PTS
                   </span>
                 )}
-                {standing?.streak && <StreakBadge streak={standing.streak} />}
               </div>
               {standing?.lastTen && (
                 <div className="header-last10" style={{ marginTop: 4 }}>
                   <span className="header-last10-label">L10</span>
                   <span className="record-text">{standing.lastTen}</span>
+                  {standing?.streak && <StreakBadge streak={standing.streak} />}
                 </div>
               )}
               {showPlayoffInfo && teamStats.playoffStatus && (
