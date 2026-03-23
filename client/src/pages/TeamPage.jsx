@@ -174,6 +174,20 @@ export default function TeamPage() {
                 <h1 className="team-header-name">{team.name}</h1>
                 <ShareButton title={`${team.name}${activeTab !== "overview" ? ` — ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}` : ""} — ECHL Stats`} />
               </div>
+              {standing && (
+                <div className="header-standings-row">
+                  {teamStats?.rank && (
+                    <span className="header-standing-item">
+                      {ordinal(teamStats.rank)} in {standing.division}
+                    </span>
+                  )}
+                  {leagueRank("pts") && (
+                    <span className="header-standing-item">
+                      {ordinal(leagueRank("pts"))} in League
+                    </span>
+                  )}
+                </div>
+              )}
               <div className="team-header-meta">
                 <span className="division-badge">
                   {team.division || "—"}
@@ -189,20 +203,6 @@ export default function TeamPage() {
                 <div className="header-last10" style={{ marginTop: 4 }}>
                   <span className="header-last10-label">L10</span>
                   <span className="record-text">{standing.lastTen}</span>
-                </div>
-              )}
-              {standing && (
-                <div className="header-standings-row">
-                  {teamStats?.rank && (
-                    <span className="header-standing-item">
-                      {ordinal(teamStats.rank)} in {standing.division}
-                    </span>
-                  )}
-                  {leagueRank("pts") && (
-                    <span className="header-standing-item">
-                      {ordinal(leagueRank("pts"))} in League
-                    </span>
-                  )}
                 </div>
               )}
               {showPlayoffInfo && teamStats.playoffStatus && (
