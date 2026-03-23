@@ -9,7 +9,7 @@
       "player": "Ryan Kirwan",
       "number": 45,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -130,14 +130,14 @@
       "player": "Zack Trott",
       "number": 9,
       "position": "F",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-02-23",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Kansas City",
+      "acquiredDate": "2025-10-15",
       "stats": {
         "gp": 44,
         "g": 8,
@@ -216,8 +216,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Wheeling 12/29",
+      "acquiredDate": "2025-12-30",
       "stats": {
         "gp": 38,
         "g": 3,
@@ -270,7 +270,7 @@
       "player": "Braeden Kressler",
       "number": 63,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -290,7 +290,7 @@
       "player": "Jaxson Murray",
       "number": 77,
       "position": "F",
-      "status": "active",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -323,26 +323,6 @@
         "g": 1,
         "a": 2,
         "pts": 3
-      }
-    },
-    {
-      "playerId": "10230",
-      "player": "Remy Parker",
-      "number": 27,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 16,
-        "g": 2,
-        "a": 0,
-        "pts": 2
       }
     },
     {
@@ -400,26 +380,6 @@
       "acquiredDate": null,
       "stats": {
         "gp": 2,
-        "g": 1,
-        "a": 0,
-        "pts": 1
-      }
-    },
-    {
-      "playerId": "10748",
-      "player": "Owen Cole",
-      "number": 23,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 19,
         "g": 1,
         "a": 0,
         "pts": 1
@@ -500,26 +460,6 @@
       "acquiredDate": null,
       "stats": {
         "gp": 1,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": "10187",
-      "player": "Austin Saint",
-      "number": 91,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 3,
         "g": 0,
         "a": 0,
         "pts": 0
@@ -650,7 +590,7 @@
       "player": "Rhett Parsons",
       "number": 3,
       "position": "D",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -670,7 +610,7 @@
       "player": "Ryan McCleary",
       "number": 5,
       "position": "D",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -696,8 +636,8 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Indy",
+      "acquiredDate": "2025-12-09",
       "stats": {
         "gp": 25,
         "g": 1,
@@ -716,33 +656,13 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
+      "acquiredFrom": "Florida 2/26",
+      "acquiredDate": "2026-02-27",
       "stats": {
         "gp": 33,
         "g": 0,
         "a": 3,
         "pts": 3
-      }
-    },
-    {
-      "playerId": "10836",
-      "player": "Nick Carabin",
-      "number": 12,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 13,
-        "g": 0,
-        "a": 2,
-        "pts": 2
       }
     },
     {
@@ -760,26 +680,6 @@
       "acquiredDate": null,
       "stats": {
         "gp": 9,
-        "g": 0,
-        "a": 1,
-        "pts": 1
-      }
-    },
-    {
-      "playerId": "8215",
-      "player": "Cole Fraser",
-      "number": 74,
-      "position": "D",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": "Worcester 11/2",
-      "acquiredDate": "2025-11-03",
-      "stats": {
-        "gp": 20,
         "g": 0,
         "a": 1,
         "pts": 1
@@ -990,7 +890,7 @@
       "player": "Nick Rheaume",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

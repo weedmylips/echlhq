@@ -58,6 +58,13 @@
       "summary": "Recalled to Wilkes-Barre/Scranton by Pittsburgh"
     },
     {
+      "date": "2026-03-16",
+      "player": "Blake Bennett",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Wilkes-Barre/Scranton"
+    },
+    {
       "date": "2026-03-14",
       "player": "Randy Hernandez",
       "position": "F",
@@ -108,6 +115,13 @@
     },
     {
       "date": "2026-03-09",
+      "player": "Emil Pieniniemi",
+      "position": "D",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Wilkes-Barre/Scranton by Pittsburgh"
+    },
+    {
+      "date": "2026-03-09",
       "player": "Alexander Kuqali",
       "position": "D",
       "type": "ir",
@@ -117,29 +131,15 @@
       "date": "2026-03-07",
       "player": "Taylor Gauthier",
       "position": "G",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Wilkes-Barre/Scranton by Pittsburgh 3/6"
+    },
+    {
+      "date": "2026-03-07",
+      "player": "Taylor Gauthier",
+      "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled by Wilkes-Barre/Scranton 3/6"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Ryan Mahshie",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Jack Works",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Mike Posma",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

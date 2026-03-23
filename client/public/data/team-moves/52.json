@@ -100,13 +100,6 @@
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-16",
-      "player": "Josh Atkinson",
-      "position": "D",
-      "type": "suspended",
-      "summary": "Suspended 3 Games"
-    },
-    {
       "date": "2026-03-15",
       "player": "Hudson Schandor",
       "position": "F",
@@ -140,6 +133,13 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-13",
+      "player": "Caiden Gault",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
     }
   ]
 }

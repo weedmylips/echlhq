@@ -114,6 +114,13 @@
       "summary": "Placed on Reserve"
     },
     {
+      "date": "2026-03-14",
+      "player": "Milo Roelens",
+      "position": "F",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Syracuse by Tampa Bay"
+    },
+    {
       "date": "2026-03-12",
       "player": "Colby Muise",
       "position": "G",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Ryan Dickinson",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Iowa"
     }
   ]
 }

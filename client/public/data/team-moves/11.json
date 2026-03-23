@@ -79,6 +79,13 @@
       "summary": "Recalled to Texas by Dallas"
     },
     {
+      "date": "2026-03-16",
+      "player": "Ben Kraws",
+      "position": "G",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Texas by Dallas"
+    },
+    {
       "date": "2026-03-15",
       "player": "Jake Boltmann",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Chris Dodero",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

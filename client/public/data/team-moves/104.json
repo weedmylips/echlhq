@@ -114,13 +114,6 @@
       "summary": "Placed on Reserve"
     },
     {
-      "date": "2026-03-12",
-      "player": "Cole Donhauser",
-      "position": "F",
-      "type": "suspended",
-      "summary": "Suspended 2 Games"
-    },
-    {
       "date": "2026-03-15",
       "player": "Cole Donhauser",
       "position": "F",
@@ -140,6 +133,13 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-15",
+      "player": "Michael Ferrandino",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
     }
   ]
 }

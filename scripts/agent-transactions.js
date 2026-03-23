@@ -85,7 +85,7 @@ const STATUS_RULES = [
   { pattern: /recalled to .+ by/i,             status: "recalled_ahl", getExtra: () => ({}) },
   { pattern: /loaned to/i,                     status: "loaned",       getExtra: () => ({}) },
   { pattern: /returned from loan/i,            status: "active",       getExtra: () => ({}) },
-  { pattern: /assigned from .+ by/i,          status: "active",       getExtra: () => ({}) },
+  { pattern: /assigned from .+ by/i,          status: "assigned_ahl", getExtra: () => ({}) },
   { pattern: /assigned by/i,                  status: "active",       getExtra: () => ({}) },
   { pattern: /traded to (.+)/i,                status: "traded",       getExtra: (m) => ({ tradedTo: m[1].trim() }) },
   { pattern: /acquired from (.+)/i,            status: "active",       getExtra: (m) => ({ acquiredFrom: m[1].trim() }) },
@@ -234,13 +234,14 @@ function parseTransactions(html) {
 
 // ─── Apply transactions to roster files ─────────────────────────────────────
 
-function applyTransactions(transactions, today) {
+function applyTransactions(transactions, today, rosterCache = null) {
   // Group by teamId
   const byTeam = {};
   for (const tx of transactions) {
     (byTeam[tx.teamId] ||= []).push(tx);
   }
 
+  const dryRun = rosterCache !== null;
   let changed = 0;
 
   for (const [teamIdStr, txs] of Object.entries(byTeam)) {
@@ -248,15 +249,17 @@ function applyTransactions(transactions, today) {
     const rosterPath = path.join(ROSTERS_DIR, `${teamId}.json`);
     const movesPath = path.join(MOVES_DIR, `${teamId}.json`);
 
-    // Load existing roster
-    let rosterData = readJSON(rosterPath);
-    if (!rosterData) {
+    // In dry-run mode use in-memory cache; otherwise read from disk
+    let rosterData = dryRun
+      ? (rosterCache[teamId] ||= readJSON(rosterPath) || { teamId, slug: "", lastSeeded: null, lastTransactionCheck: null, roster: [] })
+      : readJSON(rosterPath);
+    if (!dryRun && !rosterData) {
       console.warn(`  ⚠ No roster file for team ${teamId}, creating skeleton`);
       rosterData = { teamId, slug: "", lastSeeded: null, lastTransactionCheck: null, roster: [] };
     }
 
-    // Load existing moves
-    let movesData = readJSON(movesPath) || { teamId, moves: [] };
+    // Load existing moves (dry-run skips this — moves aren't tracked in dry-run)
+    let movesData = dryRun ? { teamId, moves: [] } : (readJSON(movesPath) || { teamId, moves: [] });
 
     for (const tx of txs) {
       const { action, player, position, description, status, extra } = tx;
@@ -345,9 +348,14 @@ function applyTransactions(transactions, today) {
     // Update transaction check timestamp
     rosterData.lastTransactionCheck = today;
 
-    // Write files
-    if (writeJSON(rosterPath, rosterData)) changed++;
-    writeJSON(movesPath, movesData);
+    if (dryRun) {
+      // In dry-run: cache is already updated in-place (rosterData is the same object)
+      changed++;
+    } else {
+      // Write files
+      if (writeJSON(rosterPath, rosterData)) changed++;
+      writeJSON(movesPath, movesData);
+    }
   }
 
   return changed;
@@ -759,10 +767,29 @@ async function main() {
   const daysArg = process.argv.indexOf("--days");
   const numDays = daysArg >= 0 ? parseInt(process.argv[daysArg + 1]) || 1 : 1;
 
+  // Support --dry-run flag to simulate without writing files
+  const dryRun = process.argv.includes("--dry-run");
+
+  if (dryRun) console.log("🔍 DRY RUN — no files will be written\n");
+
   // GitHub Actions runner is UTC. At 1am UTC = 8pm ET (previous calendar day in UTC terms).
   // Use Eastern Time date so we fetch the correct day's transactions.
   const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }));
   let totalChanged = 0;
+
+  // In dry-run mode, maintain in-memory roster snapshots (keyed by teamId)
+  // so each day's changes carry forward without touching disk.
+  const rosterCache = dryRun ? {} : null;
+
+  // Snapshot current on-disk statuses before processing (for dry-run diff + suspension protection)
+  const beforeStatuses = {};
+  for (const file of fs.readdirSync(ROSTERS_DIR).filter(f => f.endsWith(".json"))) {
+    const data = readJSON(path.join(ROSTERS_DIR, file));
+    if (data?.roster) {
+      beforeStatuses[data.teamId] = {};
+      for (const p of data.roster) beforeStatuses[data.teamId][p.player] = p;
+    }
+  }
 
   // Process days from oldest to newest so status updates apply in order
   for (let i = numDays - 1; i >= 0; i--) {
@@ -772,12 +799,65 @@ async function main() {
     const { dateStr, transactions } = await fetchDay(target);
 
     if (transactions.length > 0) {
-      const changed = applyTransactions(transactions, dateStr);
+      const changed = applyTransactions(transactions, dateStr, rosterCache);
       totalChanged += changed;
     }
 
     // Delay between requests when backfilling
     if (i > 0) await delay(1000);
+  }
+
+  // Restore active suspensions that were set by the suspension scraper (not the transaction feed).
+  // The backfill replays transactions from day 1, which can overwrite a suspension that was
+  // applied later by scrapeSuspensions(). Re-stamp any player who still has games remaining.
+  const restoreTarget = dryRun ? rosterCache : null;
+  if (restoreTarget) {
+    for (const [teamIdStr, playerMap] of Object.entries(beforeStatuses)) {
+      const teamId = parseInt(teamIdStr);
+      const rosterData = restoreTarget[teamId];
+      if (!rosterData) continue;
+      for (const [playerName, diskPlayer] of Object.entries(playerMap)) {
+        if (diskPlayer.status !== "suspended" || !(diskPlayer.suspensionGamesRemaining > 0)) continue;
+        const cached = rosterData.roster.find(p => p.player === playerName);
+        if (cached && cached.status !== "suspended") {
+          cached.status = "suspended";
+          cached.suspensionGamesRemaining = diskPlayer.suspensionGamesRemaining;
+          cached.suspensionGamesOriginal = diskPlayer.suspensionGamesOriginal;
+          cached.suspensionGpAtStart = diskPlayer.suspensionGpAtStart;
+        }
+      }
+    }
+  }
+
+  if (dryRun) {
+    // Diff in-memory final state vs original on-disk state
+    const diffs = [];
+    for (const [teamIdStr, rosterData] of Object.entries(rosterCache)) {
+      const teamId = parseInt(teamIdStr);
+      const before = beforeStatuses[teamId] || {};
+      for (const p of rosterData.roster) {
+        const prev = before[p.player]?.status ?? "(new)";
+        if (prev !== p.status) {
+          diffs.push({ teamId, player: p.player, from: prev, to: p.status });
+        }
+      }
+      // Players removed from roster
+      for (const [player, diskPlayer] of Object.entries(before)) {
+        if (!rosterData.roster.find(p => p.player === player)) {
+          diffs.push({ teamId, player, from: diskPlayer.status, to: "(removed)" });
+        }
+      }
+    }
+
+    if (diffs.length === 0) {
+      console.log("\n✅ No status changes detected.");
+    } else {
+      console.log(`\n📋 ${diffs.length} status change(s) would occur:\n`);
+      for (const d of diffs) {
+        console.log(`  Team ${d.teamId}  ${d.player.padEnd(25)}  ${d.from.padEnd(14)} → ${d.to}`);
+      }
+    }
+    return;
   }
 
   const dedupCount = deduplicateRosters();

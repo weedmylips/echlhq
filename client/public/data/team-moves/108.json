@@ -131,15 +131,15 @@
       "date": "2026-03-15",
       "player": "Tian Rask",
       "position": "F",
-      "type": "suspended",
-      "summary": "Suspended 2 Games"
+      "type": "reserve",
+      "summary": "Placed on Reserve"
     },
     {
       "date": "2026-03-15",
-      "player": "Tian Rask",
+      "player": "Demetrios Koumontzis",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
+      "type": "active",
+      "summary": "Activated from Reserve"
     }
   ]
 }

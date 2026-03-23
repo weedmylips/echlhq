@@ -109,7 +109,7 @@
       "player": "Donavan Houle",
       "number": 39,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -339,26 +339,6 @@
       "acquiredDate": null,
       "stats": {
         "gp": 5,
-        "g": 0,
-        "a": 1,
-        "pts": 1
-      }
-    },
-    {
-      "playerId": "10892",
-      "player": "Tian Rask",
-      "number": 23,
-      "position": "F",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 15,
         "g": 0,
         "a": 1,
         "pts": 1

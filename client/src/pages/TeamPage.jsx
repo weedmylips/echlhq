@@ -1388,6 +1388,7 @@ function statusBadge(p) {
   }
   if (p._status === "reserve") return <span className="status-badge status-badge-inline status-badge-res">RES</span>;
   if (p._status === "recalled_ahl" || p._status === "loaned") return <span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span>;
+  if (p._status === "assigned_ahl") return <span className="status-badge status-badge-inline status-badge-ahl-down">↓AHL</span>;
   if (p._status === "suspended") {
     const label = p._suspensionGamesRemaining ? `SUSP ${p._suspensionGamesRemaining}g` : "SUSP";
     return <span className="status-badge status-badge-inline status-badge-susp">{label}</span>;
@@ -1572,6 +1573,7 @@ function RosterTab({ playersData, rosterData }) {
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ir">IR 14d</span> Injured Reserve (day count)</span>
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-res">RES</span> Reserve (healthy scratch / roster compliance)</span>
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span> On loan / recalled to AHL affiliate</span>
+      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ahl-down">↓AHL</span> Assigned from AHL</span>
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-susp">SUSP Ng</span> Suspended (N games remaining)</span>
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-res">LEAVE</span> Personal leave</span>
     </div>

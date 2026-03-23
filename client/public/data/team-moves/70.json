@@ -82,7 +82,7 @@
       "date": "2026-03-18",
       "player": "Nolan Lalonde",
       "position": "G",
-      "type": "active",
+      "type": "assigned_ahl",
       "summary": "Assigned from Cleveland by Columbus"
     },
     {
@@ -105,6 +105,13 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-16",
+      "player": "Jacob Truscott",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Grand Rapids"
     },
     {
       "date": "2026-03-14",
@@ -133,13 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Carter Gylander",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

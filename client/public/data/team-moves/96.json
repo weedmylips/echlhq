@@ -79,6 +79,13 @@
       "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
     },
     {
+      "date": "2026-03-09",
+      "player": "Matt Davis",
+      "position": "G",
+      "type": "active",
+      "summary": "Assigned by San Jose Barracuda"
+    },
+    {
       "date": "2026-03-07",
       "player": "Declan Smith",
       "position": "F",
@@ -131,13 +138,6 @@
       "date": "2026-03-06",
       "player": "Robert Kincaid",
       "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Oliver Tarr",
-      "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     }

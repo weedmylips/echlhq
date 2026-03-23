@@ -290,7 +290,7 @@
       "player": "Jakov Novak",
       "number": 10,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -561,26 +561,6 @@
       "acquiredDate": null,
       "stats": {
         "gp": 22,
-        "g": 0,
-        "a": 0,
-        "pts": 0
-      }
-    },
-    {
-      "playerId": "10815",
-      "player": "Ian Shane",
-      "number": 35,
-      "position": "G",
-      "status": "active",
-      "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
-      "acquiredFrom": null,
-      "acquiredDate": null,
-      "stats": {
-        "gp": 8,
         "g": 0,
         "a": 0,
         "pts": 0
