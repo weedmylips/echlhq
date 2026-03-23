@@ -243,6 +243,9 @@ export default function TeamPage() {
                   <div className="header-last10">
                     <span className="header-last10-label">MAGIC #</span>
                     <span className="record-text">{teamStats.magicNumber || "—"}</span>
+                    <span className="header-last10-sub">
+                      {teamStats.rank <= 4 ? "pts to clinch" : "pts to pass 4th"}
+                    </span>
                   </div>
                 )}
               </div>
@@ -730,6 +733,11 @@ function PlayoffPictureCard({ ts, team, standing }) {
               {ts.isClinched ? "✓" : ts.isEliminated ? "—" : (ts.magicNumber || "—")}
             </div>
             <div className="playoff-stat-lbl">Magic #</div>
+            {!ts.isClinched && !ts.isEliminated && (
+              <div className="playoff-stat-sub">
+                {ts.rank <= 4 ? "pts to clinch" : "pts to pass 4th"}
+              </div>
+            )}
           </div>
         </div>
       </div>

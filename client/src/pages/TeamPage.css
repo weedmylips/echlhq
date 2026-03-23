@@ -138,6 +138,12 @@
   flex-shrink: 0;
 }
 
+.header-last10-sub {
+  font-size: 9px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 .last10-compact {
   padding: 0;
   flex: 1;
@@ -1131,6 +1137,7 @@ tr.playoff-cutoff td {
 .playoff-stat-item:last-child { border-right: none; }
 .playoff-stat-val  { font-size: 1.1rem; font-weight: 700; }
 .playoff-stat-lbl  { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+.playoff-stat-sub  { font-size: 9px; color: var(--text-muted); font-style: italic; margin-top: 1px; }
 
 /* ── Clinching Card ─────────────────────────────────────────── */
 .clinching-card {
