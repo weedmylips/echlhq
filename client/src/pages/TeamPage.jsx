@@ -1383,8 +1383,7 @@ const INACTIVE_STATUSES = new Set(["ir", "reserve", "recalled_ahl", "loaned", "s
 function statusBadge(p) {
   if (!p._status || p._status === "active") return null;
   if (p._status === "ir") {
-    const label = p._irDays ? `IR ${p._irDays}d` : "IR";
-    return <span className="status-badge status-badge-inline status-badge-ir">{label}</span>;
+    return <span className="status-badge status-badge-inline status-badge-ir">IR</span>;
   }
   if (p._status === "reserve") return <span className="status-badge status-badge-inline status-badge-res">RES</span>;
   if (p._status === "recalled_ahl" || p._status === "loaned") return <span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span>;
