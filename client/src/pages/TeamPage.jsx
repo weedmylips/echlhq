@@ -1569,7 +1569,7 @@ function RosterTab({ playersData, rosterData }) {
     </div>
     <div className="roster-legend">
       <span className="roster-legend-item"><span className="rookie-badge">R</span> Rookie</span>
-      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ir">IR 14d</span> Injured Reserve (day count)</span>
+      <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ir">IR</span> Injured Reserve</span>
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-res">RES</span> Reserve (healthy scratch / roster compliance)</span>
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span> On loan / recalled to AHL affiliate</span>
       <span className="roster-legend-item"><span className="status-badge status-badge-inline status-badge-ahl-down">↓AHL</span> Assigned from AHL</span>
