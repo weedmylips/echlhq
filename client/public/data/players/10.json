@@ -606,7 +606,7 @@
       "player": "Ethan Haider",
       "position": "G",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 32,
       "g": 0,
       "a": 2,
@@ -921,7 +921,7 @@
       "player": "Ethan Haider",
       "position": "G",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 32,
       "w": 20,
       "l": 10,
@@ -936,5 +936,5 @@
       "sa": 995
     }
   ],
-  "scrapedAt": "2026-03-23T17:29:37.757Z"
+  "scrapedAt": "2026-03-24T12:08:06.300Z"
 }

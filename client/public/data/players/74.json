@@ -256,7 +256,7 @@
       "player": "Dylan Wendt",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 27,
       "g": 7,
       "a": 11,
@@ -1255,5 +1255,5 @@
       "sa": 27
     }
   ],
-  "scrapedAt": "2026-03-23T17:29:37.757Z"
+  "scrapedAt": "2026-03-24T12:08:06.300Z"
 }

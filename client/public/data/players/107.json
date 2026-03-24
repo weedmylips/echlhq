@@ -14,7 +14,7 @@
       "ppp": 12,
       "shp": 0,
       "gwg": 3,
-      "pm": 13,
+      "pm": 14,
       "sh": 132,
       "shPct": 8.3,
       "pp": 3,
@@ -64,7 +64,7 @@
       "ppp": 6,
       "shp": 0,
       "gwg": 4,
-      "pm": 4,
+      "pm": 3,
       "sh": 133,
       "shPct": 13.5,
       "pp": 4,
@@ -427,6 +427,31 @@
       "soPct": 0
     },
     {
+      "number": 2,
+      "player": "Brenden Datema",
+      "position": "D",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 55,
+      "g": 3,
+      "a": 9,
+      "pts": 12,
+      "ppp": 0,
+      "shp": 1,
+      "gwg": 0,
+      "pm": 10,
+      "sh": 50,
+      "shPct": 6,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 1,
+      "pim": 68,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
       "number": 25,
       "player": "Chris Ortiz",
       "position": "D",
@@ -502,31 +527,6 @@
       "soPct": 0
     },
     {
-      "number": 2,
-      "player": "Brenden Datema",
-      "position": "D",
-      "isRookie": false,
-      "isActive": true,
-      "gp": 55,
-      "g": 3,
-      "a": 8,
-      "pts": 11,
-      "ppp": 0,
-      "shp": 1,
-      "gwg": 0,
-      "pm": 9,
-      "sh": 50,
-      "shPct": 6,
-      "pp": 0,
-      "ppa": 0,
-      "shg": 0,
-      "sha": 1,
-      "pim": 68,
-      "sog": 0,
-      "soa": 0,
-      "soPct": 0
-    },
-    {
       "number": 32,
       "player": "Mikael Robidoux",
       "position": "RW",
@@ -564,7 +564,7 @@
       "ppp": 0,
       "shp": 0,
       "gwg": 0,
-      "pm": 2,
+      "pm": 1,
       "sh": 61,
       "shPct": 0,
       "pp": 0,
@@ -1155,5 +1155,5 @@
       "sa": 33
     }
   ],
-  "scrapedAt": "2026-03-23T17:29:37.757Z"
+  "scrapedAt": "2026-03-24T12:08:06.300Z"
 }
