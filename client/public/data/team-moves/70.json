@@ -2,6 +2,20 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-24",
+      "player": "Jack Duff",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Nolan Hutcheson",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-22",
       "player": "Matt Jurusik",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "loaned",
       "summary": "Loaned to Grand Rapids 3/12"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jacob Truscott",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Grand Rapids 3/12"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Nolan Lalonde",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

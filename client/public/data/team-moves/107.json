@@ -2,6 +2,20 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-03-24",
+      "player": "Mark Kalienikovas",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Kylor Wall",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-23",
       "player": "Ilya Tsulygin",
       "position": "F",
@@ -124,20 +138,6 @@
       "date": "2026-03-14",
       "player": "Hugo Ollas",
       "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Ilya Tsulygin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Shane Ott",
-      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     }

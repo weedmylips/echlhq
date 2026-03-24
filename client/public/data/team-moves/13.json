@@ -2,6 +2,62 @@
   "teamId": 13,
   "moves": [
     {
+      "date": "2026-03-24",
+      "player": "Jarid Lukosevicius",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Tony Follmer",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Milo Roelens",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Jon Gillies",
+      "position": "G",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Anthony Bardaro",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Samuel Richard",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Dustin Geregach",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Kade Landry",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-21",
       "player": "Anthony Bardaro",
       "position": "F",
@@ -84,62 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Carter Allen",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Tyler Kobryn",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Alton McDermott",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Alton McDermott",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Milo Roelens",
-      "position": "F",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Syracuse by Tampa Bay"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Colby Muise",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Jon Gillies",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Lucas Chard",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

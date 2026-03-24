@@ -2,7 +2,7 @@
   "teamId": 56,
   "slug": "kansas-city-mavericks",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-23",
+  "lastTransactionCheck": "2026-03-24",
   "roster": [
     {
       "playerId": "11080",
@@ -49,10 +49,10 @@
       "player": "David Cotton",
       "number": 13,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-03-20",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

@@ -2,7 +2,7 @@
   "teamId": 72,
   "slug": "tulsa-oilers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-23",
+  "lastTransactionCheck": "2026-03-24",
   "roster": [
     {
       "playerId": "10838",
@@ -1083,6 +1083,27 @@
       "suspensionGpAtStart": null,
       "acquiredFrom": "Norfolk",
       "acquiredDate": "2026-01-17",
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Ethan Benz",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
       "stats": {
         "gp": 0,
         "g": 0,

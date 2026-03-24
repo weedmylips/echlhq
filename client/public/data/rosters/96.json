@@ -2,7 +2,7 @@
   "teamId": 96,
   "slug": "wichita-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-23",
+  "lastTransactionCheck": "2026-03-24",
   "roster": [
     {
       "playerId": "9267",
@@ -669,7 +669,7 @@
       "player": "Matt Davis",
       "number": 33,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -775,6 +775,27 @@
       "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Connor Hasley",
+      "number": null,
+      "position": "G",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {

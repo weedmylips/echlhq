@@ -2,6 +2,55 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-03-24",
+      "player": "Tyler Gratton",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Aiden Hansen-Bukata",
+      "position": "D",
+      "type": "active",
+      "summary": "Returned From Loan by Colorado Eagles"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Andrew Noel",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Andrew Noel",
+      "position": "D",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Yaroslav Yevdokimov",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Rilen Kovacevic",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Reilly Connors",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-20",
       "player": "Andrew Noel",
       "position": "D",
@@ -89,55 +138,6 @@
       "date": "2026-03-14",
       "player": "Reilly Connors",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Josh Zinger",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Dylan Gratton",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Kyle Keyser",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Colorado Eagles"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Jacob Mucitelli",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Dylan Gratton",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Luke Antonacci",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Josh Zinger",
-      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

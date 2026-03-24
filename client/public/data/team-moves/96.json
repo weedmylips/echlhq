@@ -2,6 +2,20 @@
   "teamId": 96,
   "moves": [
     {
+      "date": "2026-03-24",
+      "player": "Matt Davis",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Connor Hasley",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-23",
       "player": "Cam Mitchell",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "recalled_ahl",
       "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Nico Somerville",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Jack Bar",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

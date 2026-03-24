@@ -2,6 +2,13 @@
   "teamId": 53,
   "moves": [
     {
+      "date": "2026-03-24",
+      "player": "Kishaun Gervais",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-22",
       "player": "Orlando Mainolfi",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Collin Saccoman",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

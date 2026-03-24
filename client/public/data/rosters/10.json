@@ -2,7 +2,7 @@
   "teamId": 10,
   "slug": "atlanta-gladiators",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-23",
+  "lastTransactionCheck": "2026-03-24",
   "roster": [
     {
       "playerId": "10331",
@@ -309,12 +309,12 @@
       "player": "Ryley Appelt",
       "number": 23,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 3,
+      "suspensionGamesOriginal": 3,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -322,7 +322,8 @@
         "g": 1,
         "a": 0,
         "pts": 1
-      }
+      },
+      "suspensionGpAtStart": 61
     },
     {
       "playerId": "11251",

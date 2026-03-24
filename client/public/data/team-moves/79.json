@@ -2,6 +2,20 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-24",
+      "player": "Daniel Panetta",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
+      "date": "2026-03-24",
+      "player": "Simon Labelle",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
       "date": "2026-03-22",
       "player": "Cameron Rowe",
       "position": "G",
@@ -123,20 +137,6 @@
     {
       "date": "2026-03-19",
       "player": "Daniel Panetta",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Simon Labelle",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Simon Labelle",
       "position": "F",
       "type": "signed",
       "summary": "Signed Amateur Tryout"

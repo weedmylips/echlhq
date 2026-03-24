@@ -2,14 +2,14 @@
   "teamId": 101,
   "slug": "maine-mariners",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-22",
+  "lastTransactionCheck": "2026-03-24",
   "roster": [
     {
       "playerId": "9425",
       "player": "Brooklyn Kalmikov",
       "number": 9,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
