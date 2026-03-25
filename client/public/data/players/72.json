@@ -581,7 +581,7 @@
       "player": "Zachary Murray",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 9,
       "g": 2,
       "a": 4,
@@ -606,7 +606,7 @@
       "player": "Michael Davies",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 27,
       "g": 3,
       "a": 2,
@@ -656,7 +656,7 @@
       "player": "Tanner Faith",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 37,
       "g": 1,
       "a": 4,
@@ -802,7 +802,7 @@
       "soPct": 0
     },
     {
-      "number": 42,
+      "number": 28,
       "player": "Sasha Mutala",
       "position": "F",
       "isRookie": true,
@@ -852,7 +852,7 @@
       "soPct": 0
     },
     {
-      "number": 25,
+      "number": 6,
       "player": "Jake Lee",
       "position": "D",
       "isRookie": true,
@@ -1231,7 +1231,7 @@
       "player": "Matthew Henry",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 14,
       "g": 0,
       "a": 0,
@@ -1412,5 +1412,5 @@
       "sa": 93
     }
   ],
-  "scrapedAt": "2026-03-24T12:08:06.300Z"
+  "scrapedAt": "2026-03-25T12:07:06.370Z"
 }

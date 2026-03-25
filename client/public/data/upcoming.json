@@ -1,15 +1,6 @@
 {
   "games": [
     {
-      "visitingTeamId": 56,
-      "visitingTeam": "Kansas City",
-      "homeTeamId": 96,
-      "homeTeam": "Wichita",
-      "date": "Mar 24, 2026",
-      "time": "7:05 PM CDT",
-      "dayLabel": "Tuesday"
-    },
-    {
       "visitingTeamId": 63,
       "visitingTeam": "Norfolk",
       "homeTeamId": 55,
@@ -386,7 +377,16 @@
       "date": "Mar 29, 2026",
       "time": "3:00 PM PDT",
       "dayLabel": "Sunday"
+    },
+    {
+      "visitingTeamId": 97,
+      "visitingTeam": "Savannah",
+      "homeTeamId": 52,
+      "homeTeam": "Greenville",
+      "date": "Mar 31, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Tuesday"
     }
   ],
-  "scrapedAt": "2026-03-24T12:08:06.300Z"
+  "scrapedAt": "2026-03-25T12:07:06.370Z"
 }

@@ -931,7 +931,8 @@
     25245,
     25246,
     25247,
-    24580
+    24580,
+    25248
   ],
   "players": {
     "T. Hylland|TR": {
@@ -1079,7 +1080,7 @@
       "majors": 1
     },
     "L. McCallum|KC": {
-      "minors": 18,
+      "minors": 19,
       "majors": 0
     },
     "R. Chyzowski|RC": {
@@ -1699,7 +1700,7 @@
       "majors": 1
     },
     "J. McLaughlin|KC": {
-      "minors": 28,
+      "minors": 29,
       "majors": 1
     },
     "S. Asuchak|ALN": {
@@ -1875,11 +1876,11 @@
       "majors": 0
     },
     "S. Blackwell|WIC": {
-      "minors": 13,
+      "minors": 14,
       "majors": 5
     },
     "N. Kneen|WIC": {
-      "minors": 14,
+      "minors": 16,
       "majors": 1
     },
     "A. Coxhead|TR": {
@@ -2271,7 +2272,7 @@
       "majors": 2
     },
     "M. Crawford|KC": {
-      "minors": 33,
+      "minors": 35,
       "majors": 1
     },
     "Z. Brooks|TUL": {
@@ -4981,7 +4982,15 @@
     "D. Panetta|JAX": {
       "minors": 1,
       "majors": 0
+    },
+    "C. Mitchell|WIC": {
+      "minors": 1,
+      "majors": 0
+    },
+    "M. Crasa|WIC": {
+      "minors": 1,
+      "majors": 0
     }
   },
-  "scrapedAt": "2026-03-24T12:08:06.300Z"
+  "scrapedAt": "2026-03-25T12:07:06.370Z"
 }

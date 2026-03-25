@@ -1,6 +1,16 @@
 {
   "scores": [
     {
+      "visitingTeam": "Kansas City",
+      "visitingScore": 4,
+      "homeTeam": "Wichita",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25248,
+      "date": "Mar 24, 2026"
+    },
+    {
       "visitingTeam": "Tahoe",
       "visitingScore": 4,
       "homeTeam": "Toledo",
@@ -9321,5 +9331,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-24T12:08:06.300Z"
+  "scrapedAt": "2026-03-25T12:07:06.370Z"
 }

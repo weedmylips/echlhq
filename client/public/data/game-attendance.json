@@ -7931,6 +7931,16 @@
       "score": "5-2"
     },
     {
+      "gameId": 25248,
+      "homeTeam": "Wichita",
+      "homeTeamId": 96,
+      "visitingTeam": "Kansas City",
+      "date": "Mar 24, 2026",
+      "arena": "INTRUST Bank Arena",
+      "attendance": 2435,
+      "score": "4-1"
+    },
+    {
       "gameId": 24832,
       "homeTeam": "Reading",
       "homeTeamId": 55,
@@ -9251,5 +9261,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-24T12:08:06.300Z"
+  "scrapedAt": "2026-03-25T12:07:06.370Z"
 }

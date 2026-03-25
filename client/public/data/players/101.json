@@ -6,7 +6,7 @@
       "player": "Brooklyn Kalmikov",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 58,
       "g": 19,
       "a": 36,
@@ -1236,5 +1236,5 @@
       "sa": 46
     }
   ],
-  "scrapedAt": "2026-03-24T12:08:06.300Z"
+  "scrapedAt": "2026-03-25T12:07:06.370Z"
 }

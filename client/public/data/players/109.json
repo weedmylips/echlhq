@@ -334,8 +334,8 @@
       "isActive": true,
       "gp": 57,
       "g": 2,
-      "a": 14,
-      "pts": 16,
+      "a": 15,
+      "pts": 17,
       "ppp": 0,
       "shp": 0,
       "gwg": 0,
@@ -577,31 +577,6 @@
       "soPct": 0
     },
     {
-      "number": 45,
-      "player": "Keanan Stewart",
-      "position": "F",
-      "isRookie": false,
-      "isActive": true,
-      "gp": 15,
-      "g": 2,
-      "a": 2,
-      "pts": 4,
-      "ppp": 0,
-      "shp": 0,
-      "gwg": 0,
-      "pm": -1,
-      "sh": 20,
-      "shPct": 10,
-      "pp": 0,
-      "ppa": 0,
-      "shg": 0,
-      "sha": 0,
-      "pim": 6,
-      "sog": 0,
-      "soa": 0,
-      "soPct": 0
-    },
-    {
       "number": 79,
       "player": "Eric Olson",
       "position": "F",
@@ -647,6 +622,31 @@
       "shg": 0,
       "sha": 0,
       "pim": 51,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
+      "number": 45,
+      "player": "Keanan Stewart",
+      "position": "F",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 15,
+      "g": 2,
+      "a": 1,
+      "pts": 3,
+      "ppp": 0,
+      "shp": 0,
+      "gwg": 0,
+      "pm": -1,
+      "sh": 20,
+      "shPct": 10,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 0,
+      "pim": 6,
       "sog": 0,
       "soa": 0,
       "soPct": 0
@@ -1168,5 +1168,5 @@
       "sa": 15
     }
   ],
-  "scrapedAt": "2026-03-24T12:08:06.300Z"
+  "scrapedAt": "2026-03-25T12:07:06.370Z"
 }
