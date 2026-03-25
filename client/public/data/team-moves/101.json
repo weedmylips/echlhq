@@ -2,6 +2,13 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Ben Allison",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-24",
       "player": "Brooklyn Kalmikov",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jacob Perreault",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 70,
   "slug": "toledo-walleye",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-24",
+  "lastTransactionCheck": "2026-03-25",
   "roster": [
     {
       "playerId": "8180",
@@ -794,7 +794,7 @@
       "player": "Nolan Hutcheson",
       "number": null,
       "position": "F",
-      "status": "signed",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,6 +2,34 @@
   "teamId": 8,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Logan Lambdin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Patrick Kyte",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Gianfranco Cassaro",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Anthony Romano",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Springfield"
+    },
+    {
       "date": "2026-03-21",
       "player": "Ross MacDougall",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Carson Gicewicz",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Connor Doherty",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Sam Stange",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned by Springfield"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Connor Doherty",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

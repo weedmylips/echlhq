@@ -2,7 +2,7 @@
   "teamId": 103,
   "slug": "trois-rivieres-lions",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-23",
+  "lastTransactionCheck": "2026-03-25",
   "roster": [
     {
       "playerId": "6458",
@@ -49,7 +49,7 @@
       "player": "Israel Mianscum",
       "number": 19,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -209,7 +209,7 @@
       "player": "Mark Estapa",
       "number": 17,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

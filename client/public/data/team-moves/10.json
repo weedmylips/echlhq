@@ -2,6 +2,20 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Ryley Appelt",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Nolan Orzeck",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-24",
       "player": "Ryley Appelt",
       "position": "F",
@@ -124,20 +138,6 @@
       "date": "2026-03-18",
       "player": "Dylan Carabia",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Joe Mack",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Joe Mack",
-      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

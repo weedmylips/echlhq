@@ -2,6 +2,20 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Israel Mianscum",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Mark Estapa",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-23",
       "player": "Franseco Lapenna",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Riley Kidney",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Laval by Montreal"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

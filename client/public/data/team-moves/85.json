@@ -2,6 +2,20 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Jaden Shields",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Clay Hanus",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Calgary Wranglers"
+    },
+    {
       "date": "2026-03-24",
       "player": "Hunter Donohoe",
       "position": "D",
@@ -124,20 +138,6 @@
       "date": "2026-03-14",
       "player": "Jake Ratzlaff",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Ian Pierce",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Connor Murphy",
-      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

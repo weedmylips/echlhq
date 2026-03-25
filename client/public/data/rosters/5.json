@@ -2,7 +2,7 @@
   "teamId": 5,
   "slug": "cincinnati-cyclones",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-21",
+  "lastTransactionCheck": "2026-03-25",
   "roster": [
     {
       "playerId": "11094",
@@ -310,7 +310,7 @@
       "player": "Gabriel Bernier",
       "number": 91,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

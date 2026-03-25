@@ -2,6 +2,48 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Braden Doyle",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Chicago Wolves"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Bryce Montgomery",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Caleb Price",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "True Crowe",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Bryce Montgomery",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Ryan Richardson",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-22",
       "player": "Braden Doyle",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Anthony Rinaldi",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to South Carolina"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Logan Nelson",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Fort Wayne"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Tian Rask",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Nate Hanley",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Tian Rask",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Demetrios Koumontzis",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

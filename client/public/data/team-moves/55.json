@@ -2,6 +2,55 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Emile Chouinard",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Austin Saint",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Victor Hadfield",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Garrett Devine",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Liam Devlin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Hunter Johannes",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Carson Golder",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Lehigh Valley"
+    },
+    {
       "date": "2026-03-22",
       "player": "Ian Shane",
       "position": "G",
@@ -91,55 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Assigned by Lehigh Valley"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Cameron Cook",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Mikael Robidoux",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Cameron Cook",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Mikael Robidoux",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Cameron Cook",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Ian Shane",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Keith Petruzzelli",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

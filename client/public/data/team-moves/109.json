@@ -2,6 +2,27 @@
   "teamId": 109,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Samuel Mayer",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Henderson"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Eric Olson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Luke Adam",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-21",
       "player": "Anthony Collins",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Samuel Huo",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Mike Van Unen",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-11",
-      "player": "Ben Lindberg",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/10"
     }
   ]
 }

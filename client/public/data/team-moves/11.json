@@ -2,6 +2,62 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Adam Ingram",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Robbie Holmes",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Chris Dodero",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Nick Portz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Kaleb Pearson",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Texas"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Morgan Winters",
+      "position": "F",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Thomas Bergsland",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Francesco Arcuri",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-23",
       "player": "Charlie Dodero",
       "position": "D",
@@ -84,62 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Adam Ingram",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Arno Tiefensee",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Texas by Dallas"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Ben Kraws",
-      "position": "G",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Texas by Dallas"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Jake Boltmann",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to San Jose Barracuda"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Kaleb Pearson",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Texas"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Charlie Dodero",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Nick Portz",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Grant Silianoff",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

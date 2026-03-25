@@ -2,6 +2,13 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Kylor Wall",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-24",
       "player": "Mark Kalienikovas",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Hugo Ollas",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

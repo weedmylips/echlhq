@@ -2,6 +2,13 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Gabriel Bernier",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve 3/24"
+    },
+    {
       "date": "2026-03-21",
       "player": "Ken Appleby",
       "position": "G",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Shawn Kennedy",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

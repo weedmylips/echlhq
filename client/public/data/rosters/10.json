@@ -2,7 +2,7 @@
   "teamId": 10,
   "slug": "atlanta-gladiators",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-24",
+  "lastTransactionCheck": "2026-03-25",
   "roster": [
     {
       "playerId": "10331",
@@ -390,7 +390,7 @@
       "player": "Nolan Orzeck",
       "number": 9,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,6 +2,34 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Joe Prouty",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Simon Latkoczy",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Joe Prouty",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Simon Latkoczy",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-24",
       "player": "Jacob Modry",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Hunter Andrew",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Hudson Schandor",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Ben Poisson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Joshua Zary",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

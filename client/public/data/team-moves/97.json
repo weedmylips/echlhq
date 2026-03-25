@@ -2,6 +2,48 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Chris Lipe",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Evan Nause",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Bryce Brodzinski",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Reece Vitelli",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Connor Gregga",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Logan Drevitch",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-22",
       "player": "Mason Reiners",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "D",
       "type": "loaned",
       "summary": "Loaned to Hartford"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Ivan Chukarov",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Bloomington"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Jaxsen Wiebe",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Phip Waugh",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Evan Nause",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Reece Vitelli",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Chris Lipe",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

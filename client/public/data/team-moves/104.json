@@ -2,6 +2,48 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Gleb Veremyev",
+      "position": "F",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Bridgeport by New York Islanders"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Parker Gahagen",
+      "position": "G",
+      "type": "active",
+      "summary": "Assigned by Bridgeport"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Max Ruoho",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Case McCarthy",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Ryan Miotto",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Vincent Corcoran",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-23",
       "player": "Michael Ferrandino",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Dalton Duhart",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Indy"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Anton Rubtsov",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Max Ruoho",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Connor Federkow",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Max Ruoho",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Cole Donhauser",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/14"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 63,
   "slug": "norfolk-admirals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-22",
+  "lastTransactionCheck": "2026-03-25",
   "roster": [
     {
       "playerId": "8003",
@@ -689,7 +689,7 @@
       "player": "Will Magnuson",
       "number": 5,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -949,7 +949,7 @@
       "player": "Valtteri Piironen",
       "number": null,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

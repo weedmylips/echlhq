@@ -2,6 +2,13 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Nolan Hutcheson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-24",
       "player": "Jack Duff",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled to Cleveland by Columbus"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Brandon Hawkins",
-      "position": "F",
-      "type": "loaned",
-      "summary": "Loaned to Grand Rapids 3/12"
     }
   ]
 }

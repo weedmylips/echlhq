@@ -2,6 +2,55 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-03-25",
+      "player": "Owen Lindmark",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Connor Fedorek",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Jeremie Biakabutuka",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Cade McNelly",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Dakota Seaman",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Tyler Poulsen",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-25",
+      "player": "Lukas Jirousek",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-24",
       "player": "Ethan Benz",
       "position": "F",
@@ -89,55 +138,6 @@
       "date": "2026-03-15",
       "player": "Cade McNelly",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Dakota Seaman",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Owen Lindmark",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Michael Davies",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Keegan Iverson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Michael Davies",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "JC Brassard",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Dakota Seaman",
-      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

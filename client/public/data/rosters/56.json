@@ -2,7 +2,7 @@
   "teamId": 56,
   "slug": "kansas-city-mavericks",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-24",
+  "lastTransactionCheck": "2026-03-25",
   "roster": [
     {
       "playerId": "11080",
@@ -130,7 +130,7 @@
       "player": "Bobo Carpenter",
       "number": 14,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -651,6 +651,27 @@
       "player": "Colby MacArthur",
       "number": null,
       "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Ryan Jones",
+      "number": null,
+      "position": "D",
       "status": "signed",
       "statusNote": null,
       "irStartDate": null,

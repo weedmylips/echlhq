@@ -2,19 +2,19 @@
   "teamId": 65,
   "slug": "indy-fuel",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-22",
+  "lastTransactionCheck": "2026-03-25",
   "roster": [
     {
       "playerId": "10082",
       "player": "Tyler Weiss",
       "number": 21,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 2,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -22,7 +22,8 @@
         "g": 17,
         "a": 21,
         "pts": 38
-      }
+      },
+      "suspensionGpAtStart": 61
     },
     {
       "playerId": "9362",
