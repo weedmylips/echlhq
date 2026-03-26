@@ -2,6 +2,48 @@
   "teamId": 66,
   "moves": [
     {
+      "date": "2026-03-26",
+      "player": "Brett Mirwald",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Marco Costantini",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Sam Sedley",
+      "position": "D",
+      "type": "active",
+      "summary": "Returned From Loan by Belleville 3/23"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Chase Maxwell",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Hank Crone",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Jax Dubois",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-23",
       "player": "Nikita Susuyev",
       "position": "F",
@@ -98,48 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jackson Parsons",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jake Chiasson",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Belleville by Ottawa"
-    },
-    {
-      "date": "2026-03-10",
-      "player": "Sam Sedley",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Belleville"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Jackson Parsons",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Brett Mirwald",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-08",
-      "player": "Hank Crone",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

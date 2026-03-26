@@ -2,6 +2,34 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-03-26",
+      "player": "Jack LaFontaine",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Dylan Wells",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Ryan Jones",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Robert Carpenter",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-25",
       "player": "Robert Carpenter",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "James Marooney",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Chase Brand",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Will Gavin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Luke Loheit",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

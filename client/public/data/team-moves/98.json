@@ -2,6 +2,20 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-03-26",
+      "player": "Chase Wutzke",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Chase Wutzke",
+      "position": "G",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Iowa by Minnesota"
+    },
+    {
       "date": "2026-03-22",
       "player": "Isaac Johnson",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Mike Koster",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Grant Ahcan",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

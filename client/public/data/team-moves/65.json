@@ -2,6 +2,41 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-26",
+      "player": "Ryan Ouellette",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Owen Flores",
+      "position": "G",
+      "type": "active",
+      "summary": "Assigned by Rockford"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Lee Lapid",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Tyler Weiss",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Kyle Bettens",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-25",
       "player": "Tyler Weiss",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "traded",
       "summary": "Traded to Worcester"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Jason Ahearn",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Lane Brockhoff",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Jason Ahearn",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Kyle Aucoin",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Owen Flores",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Rockford"
     }
   ]
 }

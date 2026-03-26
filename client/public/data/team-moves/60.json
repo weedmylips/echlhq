@@ -2,6 +2,48 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-26",
+      "player": "Matt Brown",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Bakersfield"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Brady Stonehouse",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Bakersfield by Edmonton"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Logan Nelson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Blake Murray",
+      "position": "F",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Caden Brown",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Reid Pabich",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-24",
       "player": "Matt Murphy",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Louka Henault",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Tahoe Knight"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Josh Groll",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Greensboro"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Josh Groll",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Alex Aleardi",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Matt Miller",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Jens Richards",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

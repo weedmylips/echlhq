@@ -2,14 +2,14 @@
   "teamId": 8,
   "slug": "florida-everblades",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-25",
+  "lastTransactionCheck": "2026-03-26",
   "roster": [
     {
       "playerId": "11033",
       "player": "Anthony Romano",
       "number": 29,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -109,12 +109,12 @@
       "player": "Jesse Lansdell",
       "number": 34,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -122,7 +122,8 @@
         "g": 9,
         "a": 17,
         "pts": 26
-      }
+      },
+      "suspensionGpAtStart": 63
     },
     {
       "playerId": "7825",
@@ -229,7 +230,7 @@
       "player": "Logan Lambdin",
       "number": 7,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

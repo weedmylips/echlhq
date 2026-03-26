@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-24",
+  "lastTransactionCheck": "2026-03-26",
   "roster": [
     {
       "playerId": "9064",
@@ -769,7 +769,7 @@
       "player": "Harrison Meneghin",
       "number": 35,
       "position": "G",
-      "status": "recalled_ahl",
+      "status": "assigned_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -974,6 +974,48 @@
       "number": null,
       "position": "D",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Michael Ladyman",
+      "number": null,
+      "position": "D",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Keegan McMullen",
+      "number": null,
+      "position": "F",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

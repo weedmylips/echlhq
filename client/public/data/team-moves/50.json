@@ -2,6 +2,41 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-03-26",
+      "player": "Timothy Heinke",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Jordan Klimek",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Michael Brown",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Bryan Moore",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-26",
+      "player": "Ben Hawerchuk",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-25",
       "player": "Patrick Guzzo",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Casey Mcdonald",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Ludwig Persson",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Cole Beamin",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "DJ King",
-      "position": "D",
-      "type": "active",
-      "summary": "Assigned by Hershey 3/17"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Ludwig Persson",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day 3/17"
     }
   ]
 }

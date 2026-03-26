@@ -2,6 +2,13 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-26",
+      "player": "Raivis Ansons",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Wilkes-Barre/Scranton"
+    },
+    {
       "date": "2026-03-22",
       "player": "Tommy Budnick",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "G",
       "type": "assigned_ahl",
       "summary": "Assigned from Wilkes-Barre/Scranton by Pittsburgh 3/6"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Taylor Gauthier",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Wilkes-Barre/Scranton 3/6"
     }
   ]
 }

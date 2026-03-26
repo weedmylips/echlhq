@@ -2,7 +2,7 @@
   "teamId": 10,
   "slug": "atlanta-gladiators",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-25",
+  "lastTransactionCheck": "2026-03-26",
   "roster": [
     {
       "playerId": "10331",
@@ -470,7 +470,7 @@
       "player": "Andrew Jarvis",
       "number": 6,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -610,7 +610,7 @@
       "player": "Evan Orr",
       "number": 15,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

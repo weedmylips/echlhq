@@ -2,7 +2,7 @@
   "teamId": 98,
   "slug": "iowa-heartlanders",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-22",
+  "lastTransactionCheck": "2026-03-26",
   "roster": [
     {
       "playerId": "10444",
@@ -912,6 +912,27 @@
       "number": null,
       "position": "F",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Chase Wutzke",
+      "number": null,
+      "position": "G",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
