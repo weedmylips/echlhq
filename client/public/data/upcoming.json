@@ -1,42 +1,6 @@
 {
   "games": [
     {
-      "visitingTeamId": 63,
-      "visitingTeam": "Norfolk",
-      "homeTeamId": 55,
-      "homeTeam": "Reading",
-      "date": "Mar 25, 2026",
-      "time": "7:00 PM EDT",
-      "dayLabel": "Wednesday"
-    },
-    {
-      "visitingTeamId": 97,
-      "visitingTeam": "Savannah",
-      "homeTeamId": 8,
-      "homeTeam": "Florida",
-      "date": "Mar 25, 2026",
-      "time": "7:30 PM EDT",
-      "dayLabel": "Wednesday"
-    },
-    {
-      "visitingTeamId": 103,
-      "visitingTeam": "Trois-Rivières",
-      "homeTeamId": 72,
-      "homeTeam": "Tulsa",
-      "date": "Mar 25, 2026",
-      "time": "7:05 PM CDT",
-      "dayLabel": "Wednesday"
-    },
-    {
-      "visitingTeamId": 50,
-      "visitingTeam": "South Carolina",
-      "homeTeamId": 11,
-      "homeTeam": "Idaho",
-      "date": "Mar 25, 2026",
-      "time": "7:10 PM MDT",
-      "dayLabel": "Wednesday"
-    },
-    {
       "visitingTeamId": 13,
       "visitingTeam": "Orlando",
       "homeTeamId": 10,
@@ -386,7 +350,70 @@
       "date": "Mar 31, 2026",
       "time": "7:05 PM EDT",
       "dayLabel": "Tuesday"
+    },
+    {
+      "visitingTeamId": 70,
+      "visitingTeam": "Toledo",
+      "homeTeamId": 65,
+      "homeTeam": "Indy",
+      "date": "Apr 1, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 103,
+      "visitingTeam": "Trois-Rivières",
+      "homeTeamId": 101,
+      "homeTeam": "Maine",
+      "date": "Apr 1, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 61,
+      "visitingTeam": "Wheeling",
+      "homeTeamId": 60,
+      "homeTeam": "Fort Wayne",
+      "date": "Apr 1, 2026",
+      "time": "7:35 PM EDT",
+      "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 72,
+      "visitingTeam": "Tulsa",
+      "homeTeamId": 85,
+      "homeTeam": "Rapid City",
+      "date": "Apr 1, 2026",
+      "time": "7:05 PM MDT",
+      "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 56,
+      "visitingTeam": "Kansas City",
+      "homeTeamId": 11,
+      "homeTeam": "Idaho",
+      "date": "Apr 1, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 96,
+      "visitingTeam": "Wichita",
+      "homeTeamId": 106,
+      "homeTeam": "Utah",
+      "date": "Apr 1, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 5,
+      "visitingTeam": "Cincinnati",
+      "homeTeamId": 109,
+      "homeTeam": "Tahoe",
+      "date": "Apr 1, 2026",
+      "time": "7:00 PM PDT",
+      "dayLabel": "Wednesday"
     }
   ],
-  "scrapedAt": "2026-03-25T12:07:06.370Z"
+  "scrapedAt": "2026-03-26T14:50:22.541Z"
 }

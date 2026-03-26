@@ -1,6 +1,46 @@
 {
   "scores": [
     {
+      "visitingTeam": "Norfolk",
+      "visitingScore": 0,
+      "homeTeam": "Reading",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25251,
+      "date": "Mar 25, 2026"
+    },
+    {
+      "visitingTeam": "Savannah",
+      "visitingScore": 3,
+      "homeTeam": "Florida",
+      "homeScore": 7,
+      "overtime": null,
+      "score": "3-7",
+      "gameId": 25249,
+      "date": "Mar 25, 2026"
+    },
+    {
+      "visitingTeam": "Trois-Rivières",
+      "visitingScore": 1,
+      "homeTeam": "Tulsa",
+      "homeScore": 0,
+      "overtime": null,
+      "score": "1-0",
+      "gameId": 25252,
+      "date": "Mar 25, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "visitingScore": 1,
+      "homeTeam": "Idaho",
+      "homeScore": 6,
+      "overtime": null,
+      "score": "1-6",
+      "gameId": 25250,
+      "date": "Mar 25, 2026"
+    },
+    {
       "visitingTeam": "Kansas City",
       "visitingScore": 4,
       "homeTeam": "Wichita",
@@ -9331,5 +9371,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-25T12:07:06.370Z"
+  "scrapedAt": "2026-03-26T14:50:22.541Z"
 }

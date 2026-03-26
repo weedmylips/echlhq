@@ -856,7 +856,7 @@
       "player": "Jonathan Ziskie",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 1,
       "g": 0,
       "a": 0,
@@ -1055,5 +1055,5 @@
       "sa": 785
     }
   ],
-  "scrapedAt": "2026-03-25T12:07:06.370Z"
+  "scrapedAt": "2026-03-26T14:50:22.541Z"
 }

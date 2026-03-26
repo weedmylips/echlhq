@@ -2501,6 +2501,16 @@
       "score": "3-0"
     },
     {
+      "gameId": 25249,
+      "homeTeam": "Florida",
+      "homeTeamId": 8,
+      "visitingTeam": "Savannah",
+      "date": "Mar 25, 2026",
+      "arena": "Hertz Arena",
+      "attendance": 6159,
+      "score": "3-7"
+    },
+    {
       "gameId": 24555,
       "homeTeam": "Fort Wayne",
       "homeTeamId": 60,
@@ -4021,6 +4031,16 @@
       "score": "4-1"
     },
     {
+      "gameId": 25250,
+      "homeTeam": "Idaho",
+      "homeTeamId": 11,
+      "visitingTeam": "South Carolina",
+      "date": "Mar 25, 2026",
+      "arena": "Idaho Central Arena",
+      "attendance": 5093,
+      "score": "1-6"
+    },
+    {
       "gameId": 24424,
       "homeTeam": "Reading",
       "homeTeamId": 55,
@@ -4749,6 +4769,16 @@
       "arena": "Maverik Center",
       "attendance": 4637,
       "score": "2-3"
+    },
+    {
+      "gameId": 25252,
+      "homeTeam": "Tulsa",
+      "homeTeamId": 72,
+      "visitingTeam": "Trois-Rivières",
+      "date": "Mar 25, 2026",
+      "arena": "BOK Center",
+      "attendance": 4637,
+      "score": "1-0"
     },
     {
       "gameId": 25171,
@@ -8751,6 +8781,16 @@
       "score": "4-3"
     },
     {
+      "gameId": 25251,
+      "homeTeam": "Reading",
+      "homeTeamId": 55,
+      "visitingTeam": "Norfolk",
+      "date": "Mar 25, 2026",
+      "arena": "Santander Arena",
+      "attendance": 1762,
+      "score": "0-3"
+    },
+    {
       "gameId": 24392,
       "homeTeam": "Wheeling",
       "homeTeamId": 61,
@@ -9261,5 +9301,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-25T12:07:06.370Z"
+  "scrapedAt": "2026-03-26T14:50:22.541Z"
 }

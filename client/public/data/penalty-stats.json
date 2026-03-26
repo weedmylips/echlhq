@@ -932,7 +932,11 @@
     25246,
     25247,
     24580,
-    25248
+    25248,
+    25249,
+    25250,
+    25251,
+    25252
   ],
   "players": {
     "T. Hylland|TR": {
@@ -1109,7 +1113,7 @@
     },
     "S. Allen|FLA": {
       "minors": 33,
-      "majors": 3
+      "majors": 4
     },
     "S. Kersten|ORL": {
       "minors": 10,
@@ -1120,7 +1124,7 @@
       "majors": 0
     },
     "C. Doherty|FLA": {
-      "minors": 33,
+      "minors": 34,
       "majors": 1
     },
     "T. Bird|ORL": {
@@ -1140,7 +1144,7 @@
       "majors": 0
     },
     "G. Hebert|NOR": {
-      "minors": 15,
+      "minors": 17,
       "majors": 2
     },
     "L. Drevitch|SAV": {
@@ -1152,7 +1156,7 @@
       "majors": 0
     },
     "E. Nause|SAV": {
-      "minors": 23,
+      "minors": 24,
       "majors": 1
     },
     "J. Dureau|NOR": {
@@ -1172,7 +1176,7 @@
       "majors": 0
     },
     "J. Miller|IDH": {
-      "minors": 17,
+      "minors": 18,
       "majors": 2
     },
     "T. Zins|IDH": {
@@ -1272,12 +1276,12 @@
       "majors": 4
     },
     "O. Cooper|FLA": {
-      "minors": 16,
+      "minors": 17,
       "majors": 9
     },
     "C. Gicewicz|FLA": {
       "minors": 13,
-      "majors": 0
+      "majors": 1
     },
     "J. Hamilton|ORL": {
       "minors": 3,
@@ -1392,7 +1396,7 @@
       "majors": 1
     },
     "N. Zabaneh|SAV": {
-      "minors": 9,
+      "minors": 10,
       "majors": 0
     },
     "H. Johannes|SAV": {
@@ -1408,7 +1412,7 @@
       "majors": 3
     },
     "R. Hofer|SC": {
-      "minors": 15,
+      "minors": 16,
       "majors": 4
     },
     "D. Geregach|NOR": {
@@ -1624,7 +1628,7 @@
       "majors": 0
     },
     "A. Kulakov|REA": {
-      "minors": 27,
+      "minors": 28,
       "majors": 6
     },
     "X. Lamppa|MNE": {
@@ -1744,7 +1748,7 @@
       "majors": 0
     },
     "G. Cassaro|FLA": {
-      "minors": 7,
+      "minors": 8,
       "majors": 0
     },
     "A. Romano|FLA": {
@@ -1764,7 +1768,7 @@
       "majors": 2
     },
     "B. Saigeon|REA": {
-      "minors": 15,
+      "minors": 16,
       "majors": 1
     },
     "B. Hislop|JAX": {
@@ -1960,7 +1964,7 @@
       "majors": 3
     },
     "A. Poulin|TR": {
-      "minors": 10,
+      "minors": 11,
       "majors": 3
     },
     "S. Olson|ADK": {
@@ -2184,7 +2188,7 @@
       "majors": 1
     },
     "N. Portz|IDH": {
-      "minors": 9,
+      "minors": 10,
       "majors": 0
     },
     "A. Hreschuk|IDH": {
@@ -2320,7 +2324,7 @@
       "majors": 0
     },
     "K. Bohlsen|SC": {
-      "minors": 10,
+      "minors": 11,
       "majors": 1
     },
     "C. Mayer|SC": {
@@ -2496,8 +2500,8 @@
       "majors": 0
     },
     "J. Lansdell|FLA": {
-      "minors": 26,
-      "majors": 1
+      "minors": 27,
+      "majors": 2
     },
     "R. Piercey|WOR": {
       "minors": 9,
@@ -2524,8 +2528,8 @@
       "majors": 1
     },
     "N. Carroll|SAV": {
-      "minors": 19,
-      "majors": 1
+      "minors": 20,
+      "majors": 2
     },
     "N. Granowicz|SAV": {
       "minors": 5,
@@ -2648,7 +2652,7 @@
       "majors": 3
     },
     "B. Meehan|REA": {
-      "minors": 14,
+      "minors": 15,
       "majors": 1
     },
     "A. Swankler|REA": {
@@ -2984,7 +2988,7 @@
       "majors": 0
     },
     "N. Krenzen|SC": {
-      "minors": 6,
+      "minors": 7,
       "majors": 0
     },
     "D. King|SC": {
@@ -3584,7 +3588,7 @@
       "majors": 0
     },
     "M. Gendron|REA": {
-      "minors": 11,
+      "minors": 12,
       "majors": 2
     },
     "A. Bergmanis|RC": {
@@ -3772,7 +3776,7 @@
       "majors": 0
     },
     "G. Silianoff|IDH": {
-      "minors": 4,
+      "minors": 5,
       "majors": 0
     },
     "C. Martin|JAX": {
@@ -3900,7 +3904,7 @@
       "majors": 0
     },
     "I. Nurse|FLA": {
-      "minors": 3,
+      "minors": 4,
       "majors": 0
     },
     "A. Rinaldi|GSO": {
@@ -4024,7 +4028,7 @@
       "majors": 2
     },
     "J. Nachbaur|SC": {
-      "minors": 3,
+      "minors": 4,
       "majors": 1
     },
     "N. Quapp|GSO": {
@@ -4436,7 +4440,7 @@
       "majors": 0
     },
     "V. Sevigny|REA": {
-      "minors": 5,
+      "minors": 6,
       "majors": 1
     },
     "T. Friedmann|JAX": {
@@ -4608,7 +4612,7 @@
       "majors": 1
     },
     "J. Pascucci|NOR": {
-      "minors": 1,
+      "minors": 2,
       "majors": 1
     },
     "A. Smith|ALN": {
@@ -4708,7 +4712,7 @@
       "majors": 0
     },
     "S. Mutala|TUL": {
-      "minors": 1,
+      "minors": 2,
       "majors": 0
     },
     "J. Lee|TUL": {
@@ -4990,7 +4994,11 @@
     "M. Crasa|WIC": {
       "minors": 1,
       "majors": 0
+    },
+    "J. Wiebe|SAV": {
+      "minors": 1,
+      "majors": 1
     }
   },
-  "scrapedAt": "2026-03-25T12:07:06.370Z"
+  "scrapedAt": "2026-03-26T14:50:22.541Z"
 }

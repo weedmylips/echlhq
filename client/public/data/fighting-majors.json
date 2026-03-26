@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T12:07:06.370Z",
+  "generatedAt": "2026-03-26T14:50:22.541Z",
   "processedGames": [
     24296,
     24297,
@@ -908,6 +908,7 @@
     25245,
     25246,
     25247,
+    25248,
     25270,
     25293,
     25342,
@@ -933,7 +934,10 @@
     25400,
     25401,
     25402,
-    25248
+    25249,
+    25250,
+    25251,
+    25252
   ],
   "leaders": [
     {
@@ -1552,6 +1556,17 @@
       ]
     },
     {
+      "name": "S. Allen",
+      "team": "Florida",
+      "fightingMajors": 4,
+      "games": [
+        24307,
+        24794,
+        25127,
+        25249
+      ]
+    },
+    {
       "name": "T. Edwards",
       "team": "South Carolina",
       "fightingMajors": 4,
@@ -1928,16 +1943,6 @@
         24465,
         24487,
         25217
-      ]
-    },
-    {
-      "name": "S. Allen",
-      "team": "Florida",
-      "fightingMajors": 3,
-      "games": [
-        24307,
-        24794,
-        25127
       ]
     },
     {
@@ -2468,6 +2473,15 @@
       ]
     },
     {
+      "name": "N. Carroll",
+      "team": "Savannah",
+      "fightingMajors": 2,
+      "games": [
+        24854,
+        25249
+      ]
+    },
+    {
       "name": "N. Deakin-Poot",
       "team": "Fort Wayne",
       "fightingMajors": 2,
@@ -2859,6 +2873,14 @@
       ]
     },
     {
+      "name": "C. Gicewicz",
+      "team": "Florida",
+      "fightingMajors": 1,
+      "games": [
+        25249
+      ]
+    },
+    {
       "name": "C. Golder",
       "team": "Reading",
       "fightingMajors": 1,
@@ -3227,6 +3249,14 @@
       ]
     },
     {
+      "name": "J. Wiebe",
+      "team": "Savannah",
+      "fightingMajors": 1,
+      "games": [
+        25249
+      ]
+    },
+    {
       "name": "J. Wilkins",
       "team": "South Carolina",
       "fightingMajors": 1,
@@ -3536,14 +3566,6 @@
       "fightingMajors": 1,
       "games": [
         24937
-      ]
-    },
-    {
-      "name": "N. Carroll",
-      "team": "Savannah",
-      "fightingMajors": 1,
-      "games": [
-        24854
       ]
     },
     {

@@ -581,7 +581,7 @@
       "player": "Eric Olson",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 20,
       "g": 1,
       "a": 3,
@@ -1168,5 +1168,5 @@
       "sa": 15
     }
   ],
-  "scrapedAt": "2026-03-25T12:07:06.370Z"
+  "scrapedAt": "2026-03-26T14:50:22.541Z"
 }
