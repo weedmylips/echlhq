@@ -121,6 +121,19 @@ export default function Layout() {
       <main className="main-content">
         <Outlet />
       </main>
+
+      <footer className="site-footer">
+        <p>
+          echlstats.com is an independent, unofficial website operated by a third
+          party. It is not the official website of the ECHL or any ECHL member
+          club, and it is not affiliated with, sponsored by, endorsed by, or approved
+          by the ECHL or any member club. ECHL and team names, logos, and
+          related marks are used under limited license solely for identification and
+          statistical-reference purposes. For official league and club information,
+          users should refer to the ECHL's and applicable clubs' official websites
+          and channels.
+        </p>
+      </footer>
     </div>
   );
 }

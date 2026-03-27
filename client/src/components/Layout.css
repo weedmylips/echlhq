@@ -211,3 +211,19 @@
   border-right: 1px solid var(--border);
   margin-right: 4px;
 }
+
+/* ===== Footer ===== */
+.site-footer {
+  margin-top: auto;
+  padding: 24px 16px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.site-footer p {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
