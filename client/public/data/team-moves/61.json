@@ -2,6 +2,20 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Tommy Budnick",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Mike Posma",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-26",
       "player": "Raivis Ansons",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "assigned_ahl",
       "summary": "Assigned from Wilkes-Barre/Scranton by Pittsburgh"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Alexander Kuqali",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Taylor Gauthier",
-      "position": "G",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Wilkes-Barre/Scranton by Pittsburgh 3/6"
     }
   ]
 }

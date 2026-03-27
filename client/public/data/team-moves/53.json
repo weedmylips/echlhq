@@ -2,6 +2,34 @@
   "teamId": 53,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Tyriq Outen",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Jonathan Lemieux",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Cam Knuble",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "David Keefer",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-24",
       "player": "Kishaun Gervais",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Acquired from Greensboro"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Greg Japchen",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Matt Berry",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "David Keefer",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "David Keefer",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

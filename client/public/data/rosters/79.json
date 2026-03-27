@@ -2,7 +2,7 @@
   "teamId": 79,
   "slug": "jacksonville-icemen",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-24",
+  "lastTransactionCheck": "2026-03-27",
   "roster": [
     {
       "playerId": "9618",
@@ -771,8 +771,8 @@
       "position": "F",
       "status": "ir",
       "statusNote": null,
-      "irStartDate": "2026-03-21",
-      "irDays": 3,
+      "irStartDate": "2026-03-27",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

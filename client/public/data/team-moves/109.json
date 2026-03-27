@@ -2,6 +2,62 @@
   "teamId": 109,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Samuel Mayer",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Luke Adam",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Keanan Stewart",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Anthony Collins",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Casey Bailey",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Connor Marritt",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Ryan Dickinson",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-25",
       "player": "Samuel Mayer",
       "position": "D",
@@ -84,62 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Adam Pitters",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Louka Henault",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Fort Wayne"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Samuel Mayer",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Henderson"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Jordan Gustafson",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "CJ Valerian",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Kaelan Taylor",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jake Durflinger",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Sloan Stanick",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

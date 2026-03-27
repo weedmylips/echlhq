@@ -2,6 +2,41 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Lane Brockhoff",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Nick Grima",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Marcus Joughin",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Eric Martin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Brett Moravec",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-26",
       "player": "Ryan Ouellette",
       "position": "G",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Brett Moravec",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jordan Martin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Chris Grando",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Jacksonville"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Dalton Duhart",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Jacksonville"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Dalton Duhart",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Worcester"
     }
   ]
 }

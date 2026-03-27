@@ -2,6 +2,48 @@
   "teamId": 63,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "William Magnuson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Killian Kiecker-Olson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Michael Citara",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Nathan Noel",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Grant Hebert",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Valtteri Piironen",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-25",
       "player": "Valtteri Piironen",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "William Magnuson",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Michael Citara",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Valtteri Piironen",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Grant Hebert",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Nick McCarry",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Grant Hebert",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

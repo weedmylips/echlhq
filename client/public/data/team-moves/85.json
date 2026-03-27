@@ -2,6 +2,34 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Jake Ratzlaff",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Quinn Olson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Ryan Wagner",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-25",
       "player": "Jaden Shields",
       "position": "D",
@@ -110,34 +138,6 @@
       "date": "2026-03-19",
       "player": "Nathan Torchia",
       "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Connor Murphy",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Parker Bowman",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Cole Tymkin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Jake Ratzlaff",
-      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

@@ -2,7 +2,7 @@
   "teamId": 61,
   "slug": "wheeling-nailers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-26",
+  "lastTransactionCheck": "2026-03-27",
   "roster": [
     {
       "playerId": "9731",
@@ -129,7 +129,7 @@
       "player": "Mike Posma",
       "number": 12,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -451,8 +451,8 @@
       "position": "D",
       "status": "ir",
       "statusNote": null,
-      "irStartDate": "2026-03-22",
-      "irDays": 3,
+      "irStartDate": "2026-03-27",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-26",
+  "lastTransactionCheck": "2026-03-27",
   "roster": [
     {
       "playerId": "9064",
@@ -931,7 +931,7 @@
       "player": "Connor Eddy",
       "number": null,
       "position": "F",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

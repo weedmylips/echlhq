@@ -2,6 +2,20 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Reid Pabich",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/26"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Thomas Sinclair",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
       "date": "2026-03-26",
       "player": "Matt Brown",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "traded",
       "summary": "Traded to Greenville"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Josh Atkinson",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Greenville"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Louka Henault",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

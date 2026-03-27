@@ -2,7 +2,7 @@
   "teamId": 50,
   "slug": "south-carolina-stingrays",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-26",
+  "lastTransactionCheck": "2026-03-27",
   "roster": [
     {
       "playerId": "10045",
@@ -229,7 +229,7 @@
       "player": "Ben Hawerchuk",
       "number": 10,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -990,7 +990,7 @@
       "player": "Anthony Rinaldi",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

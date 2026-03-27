@@ -2,7 +2,7 @@
   "teamId": 52,
   "slug": "greenville-swamp-rabbits",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-25",
+  "lastTransactionCheck": "2026-03-27",
   "roster": [
     {
       "playerId": "10051",
@@ -730,7 +730,7 @@
       "player": "Hunter Andrew",
       "number": null,
       "position": "F",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

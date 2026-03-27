@@ -2,6 +2,20 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Jake Boltmann",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to San Jose Barracuda"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Jordan Steinmetz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-25",
       "player": "Adam Ingram",
       "position": "F",
@@ -124,20 +138,6 @@
       "date": "2026-03-19",
       "player": "Nick Young",
       "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Morgan Winters",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Morgan Winters",
-      "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
     }

@@ -2,6 +2,20 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Jack Page",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Kyle Walker",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-26",
       "player": "Kyle Walker",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Vincent Sevigny",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Victor Hadfield",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

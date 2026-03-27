@@ -2,6 +2,20 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Justin Janicke",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Coachella Valley"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Luke Loheit",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-26",
       "player": "Jack LaFontaine",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Jake McLaughlin",
-      "position": "D",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "James Marooney",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

@@ -2,6 +2,13 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Sasha Teleguine",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
       "date": "2026-03-24",
       "player": "Daniel Panetta",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Daniel Panetta",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
     }
   ]
 }

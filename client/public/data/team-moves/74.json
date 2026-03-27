@@ -2,6 +2,55 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Jacob Graves",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Sean Olson",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Daniel Amesbury",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Alexander Campbell",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Dovar Tinling",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Dovar Tinling",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Ryan Helliwell",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-23",
       "player": "Dylan Wendt",
       "position": "F",
@@ -91,55 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled by Utica"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Shane Harper",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Henry Welsch",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Jeremy Brodeur",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Ryan Helliwell",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Luke Reid",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Lucas Helland",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Luke Reid",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

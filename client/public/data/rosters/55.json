@@ -2,7 +2,7 @@
   "teamId": 55,
   "slug": "reading-royals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-26",
+  "lastTransactionCheck": "2026-03-27",
   "roster": [
     {
       "playerId": "8284",
@@ -690,7 +690,7 @@
       "player": "Jack Page",
       "number": 72,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -973,7 +973,7 @@
       "player": "Kyle Walker",
       "number": null,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

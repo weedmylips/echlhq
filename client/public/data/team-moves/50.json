@@ -2,6 +2,20 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Anthony Rinaldi",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Ben Hawerchuk",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-26",
       "player": "Timothy Heinke",
       "position": "F",
@@ -124,20 +138,6 @@
       "date": "2026-03-20",
       "player": "DJ King",
       "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "John Fusco",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Bryan Moore",
-      "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
     }

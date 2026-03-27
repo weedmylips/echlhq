@@ -2,6 +2,55 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Thomas Scarfone",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Ken Appleby",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Shawn Kennedy",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Ryan Kirwan",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Toronto Marlies"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Jaxson Murray",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Luke Grainger",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Spencer Cox",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-25",
       "player": "Gabriel Bernier",
       "position": "F",
@@ -88,55 +137,6 @@
     {
       "date": "2026-03-18",
       "player": "Shawn Kennedy",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Sam Stevens",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Luke Pavicich",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Kaidan Mbereko",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Kaidan Mbereko",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Rhett Parsons",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Toronto Marlies"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Spencer Cox",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Sam Stevens",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"

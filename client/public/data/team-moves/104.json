@@ -2,6 +2,41 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Vincent Corcoran",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Drew Callin",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Max Ruoho",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Dalton Duhart",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Ross Mitton",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-25",
       "player": "Gleb Veremyev",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve 3/19"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Anton Rubtsov",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/19"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Cole Donhauser",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve 3/19"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Parker Gahagen",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Bridgeport"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "William Lavalliere",
-      "position": "G",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Achiel Schlepp",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

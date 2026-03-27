@@ -2,6 +2,48 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Reece Vitelli",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Manitoba"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Bryce Brodzinski",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Josh Lopina",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Chris Lipe",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Jaxsen Wiebe",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Peter Laviolette",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-25",
       "player": "Chris Lipe",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Mason Reiners",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Evan Nause",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Cristophe Tellier",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jaxsen Wiebe",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Ivan Chukarov",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Phip Waugh",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Hartford"
     }
   ]
 }

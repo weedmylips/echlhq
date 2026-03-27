@@ -2,6 +2,48 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Jack Duff",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Conlan Keenan",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Nathael Roy",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Carson Bantle",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Grand Rapids"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Matt Jurusik",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Alexandre Doucet",
+      "position": "F",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Grand Rapids by Detroit"
+    },
+    {
       "date": "2026-03-26",
       "player": "Carter Gylander",
       "position": "G",
@@ -98,48 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Acquired from Greenville"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Denis Smirnov",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Greenville"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Nolan Lalonde",
-      "position": "G",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Cleveland by Columbus"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Matt Jurusik",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Brandon Hawkins",
-      "position": "F",
-      "type": "active",
-      "summary": "Returned From Loan by Grand Rapids"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Jacob Truscott",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Jacob Truscott",
-      "position": "D",
-      "type": "active",
-      "summary": "Assigned by Grand Rapids"
     }
   ]
 }

@@ -2,6 +2,27 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Andrew Jarvis",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Adam Eisele",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Nolan Orzeck",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-26",
       "player": "Andrew Jarvis",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Nolan Orzeck",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Cam Gaudette",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Dylan Carabia",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

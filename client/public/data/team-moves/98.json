@@ -2,6 +2,62 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Dante Giannuzzi",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Chase Wutzke",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Max Patterson",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Noah Massie",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Elliott McDermott",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Matt Koethe",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Isaac Johnson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-27",
+      "player": "Thomas Freel",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
       "date": "2026-03-26",
       "player": "Chase Wutzke",
       "position": "G",
@@ -84,62 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Mike Koster",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Nick Carabin",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Liam Coughlin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Cameron Butler",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Dylan Massie",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "William Rousseau",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Iowa Wild"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Elliot Desnoyers",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Iowa Wild"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Dante Giannuzzi",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

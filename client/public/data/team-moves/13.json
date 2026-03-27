@@ -2,6 +2,13 @@
   "teamId": 13,
   "moves": [
     {
+      "date": "2026-03-27",
+      "player": "Connor Eddy",
+      "position": "F",
+      "type": "active",
+      "summary": "Transferred from ATO to ECHL SPC"
+    },
+    {
       "date": "2026-03-26",
       "player": "Harrison Meneghin",
       "position": "G",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Connor Eddy",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
     }
   ]
 }
