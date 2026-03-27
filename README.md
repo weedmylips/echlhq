@@ -1,6 +1,8 @@
-# ECHL HQ
+# echlstats.com
 
 A fast, fully static stats site for the ECHL (East Coast Hockey League) 2025–26 season. No backend — all data is pre-generated JSON updated automatically via GitHub Actions.
+
+**Live site:** [www.echlstats.com](https://www.echlstats.com)
 
 ## Features
 
@@ -14,7 +16,6 @@ A fast, fully static stats site for the ECHL (East Coast Hockey League) 2025–2
 
 - **Frontend**: React 18, Vite, React Router v6, TanStack React Query, Recharts, PWA-enabled
 - **Data pipeline**: Node.js scraper scripts run on a schedule via GitHub Actions
-- **AI**: Anthropic Claude API parses transaction posts for roster updates
 
 ## Local Development
 
@@ -34,15 +35,9 @@ Two GitHub Actions workflows run daily and auto-commit updated JSON files:
 | Workflow | Schedule | Script | Output |
 |----------|----------|--------|--------|
 | `scrape.yml` | 6:30am ET | `scripts/scrape.js` | `standings.json`, `scores.json`, `leaders.json`, `players/{id}.json`, `boxscores/{id}.json` |
-| `transactions.yml` | 6pm ET | `scripts/agent-transactions.js` | `rosters/{id}.json`, `team-moves/{id}.json` |
+| `transactions.yml` | 6pm ET | `scripts/agent-transactions.js` | `rosters/{id}.json`, `team-moves/{id}.json`, `suspension-state.json` |
 
 All derived stats (playoff clinching/elimination, H2H records, efficiency ranks, trend data) are computed client-side from these raw JSON files — nothing is pre-aggregated.
-
-## Environment Variables (GitHub Actions only)
-
-| Variable | Used by | Purpose |
-|----------|---------|---------|
-| `ANTHROPIC_API_KEY` | `transactions.yml` | Claude API for parsing ECHL transaction posts |
 
 ## Project Structure
 
@@ -57,10 +52,14 @@ client/               React frontend (Vite)
 
 scripts/              Node.js data pipeline
   scrape.js           main daily scraper (leaguestat.com)
-  agent-transactions.js  transaction parser (Anthropic API)
+  agent-transactions.js  transaction parser (HTML scraping)
   seed-rosters.js     one-time roster seed from echl.com
   backfill-boxscores.js  fill missing boxscores from game IDs
+  backfill-attendance.cjs  backfill attendance data
   compute-fighting-majors.js  aggregate fight stats across all boxscores
+  download-logos.js   fetch team logos
+  generate-sitemap.mjs  generate sitemap.xml for SEO
+  scrape-season.js    alternative season-wide scraper (START_ID/END_ID env vars)
 
 .github/workflows/
   scrape.yml          daily scraper + fighting majors + boxscore backfill
@@ -81,3 +80,10 @@ scripts/              Node.js data pipeline
 | `team-moves/{teamId}.json` | Last 20 transactions per team |
 | `fighting-majors.json` | Fighting major counts per player across all boxscores |
 | `game-attendance.json` | Attendance averages, totals, and sellout counts per arena |
+| `meta.json` | Scraper metadata (last update timestamp, season info) |
+| `penalty-stats.json` | Aggregated penalty stats (minors, majors) per player |
+| `suspension-state.json` | Active suspension tracking state |
+
+## Disclaimer
+
+echlstats.com is an independent, unofficial website operated by a third party. It is not the official website of the ECHL or any ECHL member club, and it is not affiliated with, sponsored by, endorsed by, or approved by the ECHL or any member club. ECHL and team names, logos, and related marks are used under limited license solely for identification and statistical-reference purposes. For official league and club information, users should refer to the ECHL's and applicable clubs' official websites and channels.
