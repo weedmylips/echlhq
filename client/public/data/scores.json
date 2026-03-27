@@ -1,6 +1,26 @@
 {
   "scores": [
     {
+      "visitingTeam": "Orlando",
+      "visitingScore": 1,
+      "homeTeam": "Atlanta",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "1-3",
+      "gameId": 25253,
+      "date": "Mar 26, 2026"
+    },
+    {
+      "visitingTeam": "Allen",
+      "visitingScore": 6,
+      "homeTeam": "Utah",
+      "homeScore": 2,
+      "overtime": null,
+      "score": "6-2",
+      "gameId": 25264,
+      "date": "Mar 26, 2026"
+    },
+    {
       "visitingTeam": "Norfolk",
       "visitingScore": 0,
       "homeTeam": "Reading",
@@ -9371,5 +9391,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-26T14:50:22.541Z"
+  "scrapedAt": "2026-03-27T12:07:50.048Z"
 }

@@ -936,7 +936,9 @@
     25249,
     25250,
     25251,
-    25252
+    25252,
+    25253,
+    25264
   ],
   "players": {
     "T. Hylland|TR": {
@@ -1096,7 +1098,7 @@
       "majors": 0
     },
     "A. Bardaro|ORL": {
-      "minors": 12,
+      "minors": 13,
       "majors": 0
     },
     "C. Harpur|ORL": {
@@ -1108,7 +1110,7 @@
       "majors": 1
     },
     "T. Drevitch|ORL": {
-      "minors": 23,
+      "minors": 24,
       "majors": 2
     },
     "S. Allen|FLA": {
@@ -1128,7 +1130,7 @@
       "majors": 1
     },
     "T. Bird|ORL": {
-      "minors": 22,
+      "minors": 23,
       "majors": 0
     },
     "R. Newkirk|ORL": {
@@ -1272,7 +1274,7 @@
       "majors": 6
     },
     "J. Lukosevicius|ORL": {
-      "minors": 17,
+      "minors": 18,
       "majors": 4
     },
     "O. Cooper|FLA": {
@@ -1824,7 +1826,7 @@
       "majors": 2
     },
     "L. Salem|UTA": {
-      "minors": 12,
+      "minors": 13,
       "majors": 1
     },
     "A. MacDonell|IDH": {
@@ -1996,7 +1998,7 @@
       "majors": 0
     },
     "H. Blaisdell|ALN": {
-      "minors": 10,
+      "minors": 11,
       "majors": 0
     },
     "B. Datema|BLM": {
@@ -2148,7 +2150,7 @@
       "majors": 0
     },
     "M. McNamee|ATL": {
-      "minors": 5,
+      "minors": 6,
       "majors": 0
     },
     "J. Matier|ATL": {
@@ -2244,7 +2246,7 @@
       "majors": 1
     },
     "C. Sylvester|ATL": {
-      "minors": 12,
+      "minors": 13,
       "majors": 0
     },
     "T. Follmer|ORL": {
@@ -2476,7 +2478,7 @@
       "majors": 2
     },
     "R. Lebster|UTA": {
-      "minors": 12,
+      "minors": 15,
       "majors": 1
     },
     "S. Weinstein|UTA": {
@@ -2536,7 +2538,7 @@
       "majors": 1
     },
     "R. Conroy|ATL": {
-      "minors": 21,
+      "minors": 22,
       "majors": 2
     },
     "J. Vaive|CIN": {
@@ -2860,7 +2862,7 @@
       "majors": 0
     },
     "D. Dzhaniyev|UTA": {
-      "minors": 7,
+      "minors": 9,
       "majors": 0
     },
     "K. Jackson|BLM": {
@@ -2996,7 +2998,7 @@
       "majors": 1
     },
     "D. Katic|ALN": {
-      "minors": 31,
+      "minors": 32,
       "majors": 1
     },
     "T. Suchanek|TUL": {
@@ -3784,7 +3786,7 @@
       "majors": 0
     },
     "A. Luchuk|ORL": {
-      "minors": 4,
+      "minors": 5,
       "majors": 0
     },
     "M. Bullion|JAX": {
@@ -4000,7 +4002,7 @@
       "majors": 3
     },
     "T. Prefontaine|ALN": {
-      "minors": 9,
+      "minors": 10,
       "majors": 0
     },
     "M. Abramov|BLM": {
@@ -4476,7 +4478,7 @@
       "majors": 0
     },
     "A. Noel|UTA": {
-      "minors": 10,
+      "minors": 11,
       "majors": 1
     },
     "L. Cockerill|JAX": {
@@ -4980,7 +4982,7 @@
       "majors": 1
     },
     "E. Orr|ATL": {
-      "minors": 2,
+      "minors": 3,
       "majors": 0
     },
     "D. Panetta|JAX": {
@@ -5000,5 +5002,5 @@
       "majors": 1
     }
   },
-  "scrapedAt": "2026-03-26T14:50:22.541Z"
+  "scrapedAt": "2026-03-27T12:07:50.048Z"
 }

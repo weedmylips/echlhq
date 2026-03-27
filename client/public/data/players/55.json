@@ -379,7 +379,7 @@
     {
       "number": 13,
       "player": "Mikael Robidoux",
-      "position": "RW",
+      "position": "F",
       "isRookie": false,
       "isActive": true,
       "gp": 50,
@@ -431,7 +431,7 @@
       "player": "Zach Bannister",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 29,
       "g": 4,
       "a": 5,
@@ -606,7 +606,7 @@
       "player": "Garrett Devine",
       "position": "C",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 27,
       "g": 3,
       "a": 4,
@@ -1305,5 +1305,5 @@
       "sa": 730
     }
   ],
-  "scrapedAt": "2026-03-26T14:50:22.541Z"
+  "scrapedAt": "2026-03-27T12:07:50.048Z"
 }

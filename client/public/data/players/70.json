@@ -956,7 +956,7 @@
       "player": "Carter Gylander",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 28,
       "g": 0,
       "a": 0,
@@ -1040,7 +1040,7 @@
       "player": "Carter Gylander",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 28,
       "w": 17,
       "l": 7,
@@ -1055,5 +1055,5 @@
       "sa": 785
     }
   ],
-  "scrapedAt": "2026-03-26T14:50:22.541Z"
+  "scrapedAt": "2026-03-27T12:07:50.048Z"
 }

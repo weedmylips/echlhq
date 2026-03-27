@@ -352,6 +352,31 @@
       "soPct": 0
     },
     {
+      "number": 20,
+      "player": "Jordan Kaplan",
+      "position": "F",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 41,
+      "g": 3,
+      "a": 10,
+      "pts": 13,
+      "ppp": 3,
+      "shp": 0,
+      "gwg": 0,
+      "pm": -7,
+      "sh": 51,
+      "shPct": 5.9,
+      "pp": 1,
+      "ppa": 2,
+      "shg": 0,
+      "sha": 0,
+      "pim": 10,
+      "sog": 0,
+      "soa": 1,
+      "soPct": 0
+    },
+    {
       "number": 16,
       "player": "Ross Mitton",
       "position": "F",
@@ -1399,5 +1424,5 @@
       "sa": 506
     }
   ],
-  "scrapedAt": "2026-03-26T14:50:22.541Z"
+  "scrapedAt": "2026-03-27T12:07:50.048Z"
 }

@@ -1,24 +1,6 @@
 {
   "games": [
     {
-      "visitingTeamId": 13,
-      "visitingTeam": "Orlando",
-      "homeTeamId": 10,
-      "homeTeam": "Atlanta",
-      "date": "Mar 26, 2026",
-      "time": "7:10 PM EDT",
-      "dayLabel": "Thursday"
-    },
-    {
-      "visitingTeamId": 66,
-      "visitingTeam": "Allen",
-      "homeTeamId": 106,
-      "homeTeam": "Utah",
-      "date": "Mar 26, 2026",
-      "time": "7:10 PM MDT",
-      "dayLabel": "Thursday"
-    },
-    {
       "visitingTeamId": 53,
       "visitingTeam": "Kalamazoo",
       "homeTeamId": 74,
@@ -413,7 +395,52 @@
       "date": "Apr 1, 2026",
       "time": "7:00 PM PDT",
       "dayLabel": "Wednesday"
+    },
+    {
+      "visitingTeamId": 108,
+      "visitingTeam": "Greensboro",
+      "homeTeamId": 66,
+      "homeTeam": "Allen",
+      "date": "Apr 2, 2026",
+      "time": "10:30 AM CDT",
+      "dayLabel": "Thursday"
+    },
+    {
+      "visitingTeamId": 8,
+      "visitingTeam": "Florida",
+      "homeTeamId": 79,
+      "homeTeam": "Jacksonville",
+      "date": "Apr 2, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Thursday"
+    },
+    {
+      "visitingTeamId": 50,
+      "visitingTeam": "South Carolina",
+      "homeTeamId": 13,
+      "homeTeam": "Orlando",
+      "date": "Apr 2, 2026",
+      "time": "7:00 PM EDT",
+      "dayLabel": "Thursday"
+    },
+    {
+      "visitingTeamId": 10,
+      "visitingTeam": "Atlanta",
+      "homeTeamId": 52,
+      "homeTeam": "Greenville",
+      "date": "Apr 2, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Thursday"
+    },
+    {
+      "visitingTeamId": 55,
+      "visitingTeam": "Reading",
+      "homeTeamId": 104,
+      "homeTeam": "Worcester",
+      "date": "Apr 2, 2026",
+      "time": "7:05 PM EDT",
+      "dayLabel": "Thursday"
     }
   ],
-  "scrapedAt": "2026-03-26T14:50:22.541Z"
+  "scrapedAt": "2026-03-27T12:07:50.048Z"
 }
