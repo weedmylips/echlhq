@@ -1012,8 +1012,9 @@ async function resolveGameIds(scores, seedId) {
     return `${monthNames[d.getMonth()]} ${String(d.getDate()).padStart(2," ")}, ${d.getFullYear()}`;
   }));
 
-  // Probe a window: seedId-5 to seedId+300
-  const start = Math.max(1, seedId - 5);
+  // Probe a window: seedId-100 to seedId+300
+  // HockeyTech assigns game IDs out of order, so we need a wide backward lookback
+  const start = Math.max(1, seedId - 100);
   const end   = seedId + 300;
   let maxId = seedId;
 

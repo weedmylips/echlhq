@@ -7,7 +7,7 @@
       "homeScore": 3,
       "overtime": null,
       "score": "4-3",
-      "gameId": null,
+      "gameId": 25254,
       "date": "Mar 27, 2026"
     },
     {
@@ -47,7 +47,7 @@
       "homeScore": 4,
       "overtime": "SO",
       "score": "3-4 (SO)",
-      "gameId": null,
+      "gameId": 25257,
       "date": "Mar 27, 2026"
     },
     {
@@ -77,7 +77,7 @@
       "homeScore": 1,
       "overtime": "OT",
       "score": "2-1 (OT)",
-      "gameId": null,
+      "gameId": 25258,
       "date": "Mar 27, 2026"
     },
     {
