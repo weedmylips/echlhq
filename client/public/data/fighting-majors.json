@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T11:47:01.414Z",
+  "generatedAt": "2026-03-28T12:22:13.405Z",
   "processedGames": [
     24296,
     24297,
@@ -945,7 +945,12 @@
     25262,
     25263,
     25265,
-    25279
+    25279,
+    25254,
+    25255,
+    25256,
+    25257,
+    25258
   ],
   "leaders": [
     {
@@ -981,6 +986,21 @@
       ]
     },
     {
+      "name": "D. Amesbury",
+      "team": "Adirondack",
+      "fightingMajors": 8,
+      "games": [
+        24782,
+        24918,
+        24933,
+        24947,
+        25055,
+        25095,
+        25118,
+        25254
+      ]
+    },
+    {
       "name": "B. Simmons-Fischer",
       "team": "Allen",
       "fightingMajors": 7,
@@ -995,17 +1015,17 @@
       ]
     },
     {
-      "name": "D. Amesbury",
-      "team": "Adirondack",
+      "name": "B. Yeamans",
+      "team": "Bloomington",
       "fightingMajors": 7,
       "games": [
-        24782,
-        24918,
-        24933,
-        24947,
-        25055,
-        25095,
-        25118
+        24340,
+        24459,
+        24543,
+        24796,
+        24963,
+        25069,
+        25257
       ]
     },
     {
@@ -1063,6 +1083,20 @@
       ]
     },
     {
+      "name": "S. Kennedy",
+      "team": "Kalamazoo",
+      "fightingMajors": 7,
+      "games": [
+        24497,
+        24569,
+        24799,
+        25186,
+        25240,
+        25392,
+        25254
+      ]
+    },
+    {
       "name": "A. Kulakov",
       "team": "Reading",
       "fightingMajors": 6,
@@ -1086,19 +1120,6 @@
         24674,
         25134,
         25177
-      ]
-    },
-    {
-      "name": "B. Yeamans",
-      "team": "Bloomington",
-      "fightingMajors": 6,
-      "games": [
-        24340,
-        24459,
-        24543,
-        24796,
-        24963,
-        25069
       ]
     },
     {
@@ -1201,19 +1222,6 @@
         24950,
         25074,
         25214
-      ]
-    },
-    {
-      "name": "S. Kennedy",
-      "team": "Kalamazoo",
-      "fightingMajors": 6,
-      "games": [
-        24497,
-        24569,
-        24799,
-        25186,
-        25240,
-        25392
       ]
     },
     {
@@ -1564,6 +1572,17 @@
       ]
     },
     {
+      "name": "R. Wheeler",
+      "team": "Adirondack",
+      "fightingMajors": 4,
+      "games": [
+        24465,
+        24487,
+        25217,
+        25254
+      ]
+    },
+    {
       "name": "S. Allen",
       "team": "Florida",
       "fightingMajors": 4,
@@ -1634,6 +1653,16 @@
         24517,
         24754,
         25152
+      ]
+    },
+    {
+      "name": "A. Bruder",
+      "team": "Orlando",
+      "fightingMajors": 3,
+      "games": [
+        24605,
+        25216,
+        25255
       ]
     },
     {
@@ -1944,16 +1973,6 @@
       ]
     },
     {
-      "name": "R. Wheeler",
-      "team": "Adirondack",
-      "fightingMajors": 3,
-      "games": [
-        24465,
-        24487,
-        25217
-      ]
-    },
-    {
       "name": "S. Boulton",
       "team": "Reading",
       "fightingMajors": 3,
@@ -2020,15 +2039,6 @@
       "games": [
         24359,
         24787
-      ]
-    },
-    {
-      "name": "A. Bruder",
-      "team": "Orlando",
-      "fightingMajors": 2,
-      "games": [
-        24605,
-        25216
       ]
     },
     {
@@ -2220,6 +2230,15 @@
       ]
     },
     {
+      "name": "D. Carabia",
+      "team": "Atlanta",
+      "fightingMajors": 2,
+      "games": [
+        25134,
+        25255
+      ]
+    },
+    {
       "name": "D. Geregach",
       "team": "Norfolk",
       "fightingMajors": 2,
@@ -2235,6 +2254,15 @@
       "games": [
         25050,
         25227
+      ]
+    },
+    {
+      "name": "D. Krebs",
+      "team": "Fort Wayne",
+      "fightingMajors": 2,
+      "games": [
+        25210,
+        25257
       ]
     },
     {
@@ -2681,6 +2709,14 @@
       ]
     },
     {
+      "name": "A. Ghantous",
+      "team": "Kalamazoo",
+      "fightingMajors": 1,
+      "games": [
+        25254
+      ]
+    },
+    {
       "name": "A. MacDonald",
       "team": "Bloomington",
       "fightingMajors": 1,
@@ -2961,14 +2997,6 @@
       ]
     },
     {
-      "name": "D. Carabia",
-      "team": "Atlanta",
-      "fightingMajors": 1,
-      "games": [
-        25134
-      ]
-    },
-    {
       "name": "D. Elliott",
       "team": "Tulsa",
       "fightingMajors": 1,
@@ -2998,14 +3026,6 @@
       "fightingMajors": 1,
       "games": [
         24418
-      ]
-    },
-    {
-      "name": "D. Krebs",
-      "team": "Fort Wayne",
-      "fightingMajors": 1,
-      "games": [
-        25210
       ]
     },
     {
@@ -3361,6 +3381,14 @@
       ]
     },
     {
+      "name": "K. Wall",
+      "team": "Bloomington",
+      "fightingMajors": 1,
+      "games": [
+        25257
+      ]
+    },
+    {
       "name": "L. Alger",
       "team": "Tahoe",
       "fightingMajors": 1,
@@ -3438,6 +3466,14 @@
       "fightingMajors": 1,
       "games": [
         25201
+      ]
+    },
+    {
+      "name": "L. Nelson",
+      "team": "Fort Wayne",
+      "fightingMajors": 1,
+      "games": [
+        25257
       ]
     },
     {
@@ -3721,6 +3757,14 @@
       ]
     },
     {
+      "name": "R. Ishida",
+      "team": "Bloomington",
+      "fightingMajors": 1,
+      "games": [
+        25257
+      ]
+    },
+    {
       "name": "R. Lebster",
       "team": "Utah",
       "fightingMajors": 1,
@@ -3894,6 +3938,14 @@
       "fightingMajors": 1,
       "games": [
         24359
+      ]
+    },
+    {
+      "name": "T. Inamoto",
+      "team": "Fort Wayne",
+      "fightingMajors": 1,
+      "games": [
+        25257
       ]
     },
     {

@@ -1701,6 +1701,16 @@
       "score": "1-5"
     },
     {
+      "gameId": 25257,
+      "homeTeam": "Fort Wayne",
+      "homeTeamId": 60,
+      "visitingTeam": "Bloomington",
+      "date": "Mar 27, 2026",
+      "arena": "Memorial Coliseum",
+      "attendance": 7189,
+      "score": "3-4"
+    },
+    {
       "gameId": 24580,
       "homeTeam": "Atlanta",
       "homeTeamId": 10,
@@ -1829,6 +1839,16 @@
       "arena": "Bon Secours Wellness Arena",
       "attendance": 6875,
       "score": "5-3"
+    },
+    {
+      "gameId": 25256,
+      "homeTeam": "Florida",
+      "homeTeamId": 8,
+      "visitingTeam": "Savannah",
+      "date": "Mar 27, 2026",
+      "arena": "Hertz Arena",
+      "attendance": 6865,
+      "score": "2-5"
     },
     {
       "gameId": 25104,
@@ -3871,6 +3891,16 @@
       "score": "4-3"
     },
     {
+      "gameId": 25258,
+      "homeTeam": "Idaho",
+      "homeTeamId": 11,
+      "visitingTeam": "South Carolina",
+      "date": "Mar 27, 2026",
+      "arena": "Idaho Central Arena",
+      "attendance": 5175,
+      "score": "2-1"
+    },
+    {
       "gameId": 25111,
       "homeTeam": "Greensboro",
       "homeTeamId": 108,
@@ -4391,6 +4421,16 @@
       "score": "7-1"
     },
     {
+      "gameId": 25254,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Kalamazoo",
+      "date": "Mar 27, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 4914,
+      "score": "4-3"
+    },
+    {
       "gameId": 24525,
       "homeTeam": "Adirondack",
       "homeTeamId": 74,
@@ -4579,6 +4619,16 @@
       "arena": "Cross Insurance Arena",
       "attendance": 4803,
       "score": "4-2"
+    },
+    {
+      "gameId": 25255,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Orlando",
+      "date": "Mar 27, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 4791,
+      "score": "1-3"
     },
     {
       "gameId": 24477,
@@ -9381,5 +9431,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-28T11:47:01.414Z"
+  "scrapedAt": "2026-03-28T12:22:13.405Z"
 }
