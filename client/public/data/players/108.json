@@ -531,7 +531,7 @@
       "player": "Braden Doyle",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 27,
       "g": 1,
       "a": 7,
@@ -547,6 +547,31 @@
       "shg": 0,
       "sha": 0,
       "pim": 8,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
+      "number": 3,
+      "player": "Caleb Price",
+      "position": "D",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 10,
+      "g": 1,
+      "a": 4,
+      "pts": 5,
+      "ppp": 2,
+      "shp": 0,
+      "gwg": 1,
+      "pm": -2,
+      "sh": 18,
+      "shPct": 5.6,
+      "pp": 1,
+      "ppa": 1,
+      "shg": 0,
+      "sha": 0,
+      "pim": 0,
       "sog": 0,
       "soa": 0,
       "soPct": 0
@@ -731,7 +756,7 @@
       "player": "True Crowe",
       "position": "D",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 3,
       "g": 0,
       "a": 2,
@@ -1249,5 +1274,5 @@
       "sa": 36
     }
   ],
-  "scrapedAt": "2026-03-27T12:07:50.048Z"
+  "scrapedAt": "2026-03-28T11:47:01.414Z"
 }

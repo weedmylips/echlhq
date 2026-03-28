@@ -1,6 +1,96 @@
 {
   "scores": [
     {
+      "visitingTeam": "Kalamazoo",
+      "visitingScore": 4,
+      "homeTeam": "Adirondack",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "4-3",
+      "gameId": null,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "Norfolk",
+      "visitingScore": 0,
+      "homeTeam": "Reading",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "0-3",
+      "gameId": 25261,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "Worcester",
+      "visitingScore": 0,
+      "homeTeam": "Wheeling",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": 25265,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "Indy",
+      "visitingScore": 3,
+      "homeTeam": "Toledo",
+      "homeScore": 2,
+      "overtime": "SO",
+      "score": "3-2 (SO)",
+      "gameId": 25263,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "Bloomington",
+      "visitingScore": 3,
+      "homeTeam": "Fort Wayne",
+      "homeScore": 4,
+      "overtime": "SO",
+      "score": "3-4 (SO)",
+      "gameId": null,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "Cincinnati",
+      "visitingScore": 6,
+      "homeTeam": "Iowa",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "6-1",
+      "gameId": 25259,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "Kansas City",
+      "visitingScore": 4,
+      "homeTeam": "Wichita",
+      "homeScore": 1,
+      "overtime": null,
+      "score": "4-1",
+      "gameId": 25279,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "visitingScore": 2,
+      "homeTeam": "Idaho",
+      "homeScore": 1,
+      "overtime": "OT",
+      "score": "2-1 (OT)",
+      "gameId": null,
+      "date": "Mar 27, 2026"
+    },
+    {
+      "visitingTeam": "Rapid City",
+      "visitingScore": 5,
+      "homeTeam": "Tahoe",
+      "homeScore": 3,
+      "overtime": null,
+      "score": "5-3",
+      "gameId": 25262,
+      "date": "Mar 27, 2026"
+    },
+    {
       "visitingTeam": "Orlando",
       "visitingScore": 1,
       "homeTeam": "Atlanta",
@@ -9391,5 +9481,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-03-27T12:07:50.048Z"
+  "scrapedAt": "2026-03-28T11:47:01.414Z"
 }

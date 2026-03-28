@@ -921,6 +921,16 @@
       "score": "4-1"
     },
     {
+      "gameId": 25263,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Indy",
+      "date": "Mar 27, 2026",
+      "arena": "Huntington Center",
+      "attendance": 7965,
+      "score": "3-2"
+    },
+    {
       "gameId": 24740,
       "homeTeam": "Cincinnati",
       "homeTeamId": 5,
@@ -4171,6 +4181,16 @@
       "score": "2-5"
     },
     {
+      "gameId": 25279,
+      "homeTeam": "Wichita",
+      "homeTeamId": 96,
+      "visitingTeam": "Kansas City",
+      "date": "Mar 27, 2026",
+      "arena": "INTRUST Bank Arena",
+      "attendance": 5025,
+      "score": "4-1"
+    },
+    {
       "gameId": 24353,
       "homeTeam": "Tulsa",
       "homeTeamId": 72,
@@ -5451,6 +5471,16 @@
       "score": "3-6"
     },
     {
+      "gameId": 25262,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Rapid City",
+      "date": "Mar 27, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 4203,
+      "score": "5-3"
+    },
+    {
       "gameId": 25219,
       "homeTeam": "South Carolina",
       "homeTeamId": 50,
@@ -6439,6 +6469,16 @@
       "arena": "WesBanco Arena",
       "attendance": 3580,
       "score": "0-5"
+    },
+    {
+      "gameId": 25261,
+      "homeTeam": "Reading",
+      "homeTeamId": 55,
+      "visitingTeam": "Norfolk",
+      "date": "Mar 27, 2026",
+      "arena": "Santander Arena",
+      "attendance": 3580,
+      "score": "0-3"
     },
     {
       "gameId": 24789,
@@ -8071,6 +8111,16 @@
       "score": "4-2"
     },
     {
+      "gameId": 25259,
+      "homeTeam": "Iowa",
+      "homeTeamId": 98,
+      "visitingTeam": "Cincinnati",
+      "date": "Mar 27, 2026",
+      "arena": "Xtream Arena",
+      "attendance": 2354,
+      "score": "6-1"
+    },
+    {
       "gameId": 25221,
       "homeTeam": "Trois-Rivières",
       "homeTeamId": 103,
@@ -8089,6 +8139,16 @@
       "arena": "Grossinger Motors Arena",
       "attendance": 2342,
       "score": "2-4"
+    },
+    {
+      "gameId": 25265,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Worcester",
+      "date": "Mar 27, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 2336,
+      "score": "0-4"
     },
     {
       "gameId": 24766,
@@ -9321,5 +9381,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-27T12:07:50.048Z"
+  "scrapedAt": "2026-03-28T11:47:01.414Z"
 }
