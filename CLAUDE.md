@@ -70,22 +70,22 @@ Shared HockeyTech helpers live in `api/lib/hockeytech.js`. The API key is stored
 
 ### Key data sources on the frontend
 
-| Hook | Source | Stale time |
-|------|--------|------------|
-| `useStandings()` | `standings.json` (static) | 6hr |
-| `useLeaders()` | `leaders.json` (static) | 6hr |
-| `useScores()` | `/api/scores` → `scores.json` fallback | 6hr |
-| `useUpcoming()` | `/api/upcoming` → `upcoming.json` fallback | 6hr |
-| `useScorebar()` | `/api/scorebar` → `scores-live.json` fallback | 20s (polls 30s live, 5min idle) |
-| `useRoster(teamId)` | `rosters/{teamId}.json` (static) | 6hr |
-| `useTeamPlayers(teamId)` | `players/{teamId}.json` (static) | 6hr |
-| `useTeamMoves(teamId)` | `team-moves/{teamId}.json` (static) | 6hr |
-| `useBoxscore(gameId)` | `/api/boxscores/{id}` → `boxscores/{id}.json` fallback | 60s, retry once |
-| `useFightingMajors()` | `fighting-majors.json` (static) | 6hr |
-| `useGameAttendance()` | `game-attendance.json` (static) | 6hr |
-| `useTeam(teamId)` | computed from standings + scores | — |
-| `useTeamStats(teamId)` | computed from standings + scores | — |
-| `useMatchupPlayers(id1, id2)` | aggregated from last-5 boxscores | — |
+| Hook | Source |
+|------|--------|
+| `useStandings()` | `standings.json` (static, daily scrape) |
+| `useLeaders()` | `leaders.json` (static, daily scrape) |
+| `useScores()` | `/api/scores` → `scores.json` fallback |
+| `useUpcoming()` | `/api/upcoming` → `upcoming.json` fallback |
+| `useScorebar()` | `/api/scorebar` → `scores-live.json` fallback (polls 30s live, 5min idle) |
+| `useRoster(teamId)` | `rosters/{teamId}.json` (static, daily transactions) |
+| `useTeamPlayers(teamId)` | `players/{teamId}.json` (static, daily scrape) |
+| `useTeamMoves(teamId)` | `team-moves/{teamId}.json` (static, daily transactions) |
+| `useBoxscore(gameId)` | `/api/boxscores/{id}` → `boxscores/{id}.json` fallback |
+| `useFightingMajors()` | `fighting-majors.json` (static, daily scrape) |
+| `useGameAttendance()` | `game-attendance.json` (static, daily scrape) |
+| `useTeam(teamId)` | computed from standings + scores |
+| `useTeamStats(teamId)` | computed from standings + scores |
+| `useMatchupPlayers(id1, id2)` | aggregated from last-5 boxscores |
 
 ### Player data split
 
