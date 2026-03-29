@@ -2,6 +2,48 @@
   "teamId": 53,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Quinn Preston",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Colson Gengenbach",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Spencer Kennedy",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Orlando Mainolfi",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Jonathan Lemieux",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Tyriq Outen",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Tyriq Outen",
       "position": "G",
@@ -98,48 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Robby Drazner",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jake Suede",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Greg Japchen",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Jake Suede",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Matt Berry",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Patrick Newell",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Greensboro"
     }
   ]
 }

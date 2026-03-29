@@ -2,6 +2,34 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Drake Burgin",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Coachella Valley"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "James Marooney",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Dylan Wells",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Jack LaFontaine",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Justin Janicke",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Luke Loheit",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jackson Jutting",
-      "position": "F",
-      "type": "active",
-      "summary": "Returned From Loan by Grand Rapids"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "David Cotton",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Will Gavin",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

@@ -2,6 +2,27 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Evan Cormier",
+      "position": "G",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Noah Giesbrecht",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Kirill Gerasimyuk",
+      "position": "G",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Charlotte by Florida Panthers"
+    },
+    {
       "date": "2026-03-27",
       "player": "Reece Vitelli",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Evan Nause",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Ivan Chukarov",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Keaton Pehrson",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

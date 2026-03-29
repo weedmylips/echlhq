@@ -2,6 +2,41 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Michael Bullion",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Cameron Rowe",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Jack Babbage",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Aidan Fulp",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Rochester"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Holden Wale",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-27",
       "player": "Sasha Teleguine",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "leave",
       "summary": "Activated from Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Patrick Bajkov",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Dalton Duhart",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Chris Grando",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Indy"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Dalton Duhart",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Indy"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Peter Tischke",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

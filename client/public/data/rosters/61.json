@@ -2,7 +2,7 @@
   "teamId": 61,
   "slug": "wheeling-nailers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-27",
+  "lastTransactionCheck": "2026-03-28",
   "roster": [
     {
       "playerId": "9731",
@@ -129,7 +129,7 @@
       "player": "Mike Posma",
       "number": 12,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -789,7 +789,7 @@
       "player": "Randy Hernandez",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

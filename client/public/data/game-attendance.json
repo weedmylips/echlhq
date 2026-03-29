@@ -41,6 +41,16 @@
       "score": "6-1"
     },
     {
+      "gameId": 25277,
+      "homeTeam": "Tulsa",
+      "homeTeamId": 72,
+      "visitingTeam": "Trois-Rivières",
+      "date": "Mar 28, 2026",
+      "arena": "BOK Center",
+      "attendance": 14017,
+      "score": "3-5"
+    },
+    {
       "gameId": 24393,
       "homeTeam": "Orlando",
       "homeTeamId": 13,
@@ -239,6 +249,16 @@
       "arena": "VyStar Veterans Memorial Arena",
       "attendance": 10161,
       "score": "3-4"
+    },
+    {
+      "gameId": 25269,
+      "homeTeam": "Fort Wayne",
+      "homeTeamId": 60,
+      "visitingTeam": "Indy",
+      "date": "Mar 28, 2026",
+      "arena": "Memorial Coliseum",
+      "attendance": 10097,
+      "score": "2-5"
     },
     {
       "gameId": 25012,
@@ -849,6 +869,16 @@
       "arena": "Huntington Center",
       "attendance": 8059,
       "score": "3-4"
+    },
+    {
+      "gameId": 25276,
+      "homeTeam": "Toledo",
+      "homeTeamId": 70,
+      "visitingTeam": "Bloomington",
+      "date": "Mar 28, 2026",
+      "arena": "Huntington Center",
+      "attendance": 8033,
+      "score": "4-3"
     },
     {
       "gameId": 24809,
@@ -1561,6 +1591,16 @@
       "score": "1-2"
     },
     {
+      "gameId": 25268,
+      "homeTeam": "Florida",
+      "homeTeamId": 8,
+      "visitingTeam": "Savannah",
+      "date": "Mar 28, 2026",
+      "arena": "Hertz Arena",
+      "attendance": 7382,
+      "score": "2-1"
+    },
+    {
       "gameId": 24839,
       "homeTeam": "Florida",
       "homeTeamId": 8,
@@ -1719,6 +1759,16 @@
       "arena": "Gas South Arena",
       "attendance": 7116,
       "score": "1-2"
+    },
+    {
+      "gameId": 25267,
+      "homeTeam": "Atlanta",
+      "homeTeamId": 10,
+      "visitingTeam": "Jacksonville",
+      "date": "Mar 28, 2026",
+      "arena": "Gas South Arena",
+      "attendance": 7116,
+      "score": "3-6"
     },
     {
       "gameId": 24921,
@@ -2981,6 +3031,16 @@
       "score": "3-6"
     },
     {
+      "gameId": 25260,
+      "homeTeam": "Kansas City",
+      "homeTeamId": 56,
+      "visitingTeam": "Wichita",
+      "date": "Mar 28, 2026",
+      "arena": "Cable Dahmer Arena",
+      "attendance": 5790,
+      "score": "0-3"
+    },
+    {
       "gameId": 24762,
       "homeTeam": "Norfolk",
       "homeTeamId": 63,
@@ -3259,6 +3319,16 @@
       "arena": "First Horizon Coliseum",
       "attendance": 5476,
       "score": "5-1"
+    },
+    {
+      "gameId": 25266,
+      "homeTeam": "Adirondack",
+      "homeTeamId": 74,
+      "visitingTeam": "Kalamazoo",
+      "date": "Mar 28, 2026",
+      "arena": "Harding Mazzotti Arena",
+      "attendance": 5465,
+      "score": "6-1"
     },
     {
       "gameId": 25095,
@@ -3899,6 +3969,16 @@
       "arena": "Idaho Central Arena",
       "attendance": 5175,
       "score": "2-1"
+    },
+    {
+      "gameId": 25271,
+      "homeTeam": "Idaho",
+      "homeTeamId": 11,
+      "visitingTeam": "South Carolina",
+      "date": "Mar 28, 2026",
+      "arena": "Idaho Central Arena",
+      "attendance": 5173,
+      "score": "3-4"
     },
     {
       "gameId": 25111,
@@ -4711,6 +4791,16 @@
       "score": "1-4"
     },
     {
+      "gameId": 25273,
+      "homeTeam": "Maine",
+      "homeTeamId": 101,
+      "visitingTeam": "Greensboro",
+      "date": "Mar 28, 2026",
+      "arena": "Cross Insurance Arena",
+      "attendance": 4716,
+      "score": "2-3"
+    },
+    {
       "gameId": 24367,
       "homeTeam": "Idaho",
       "homeTeamId": 11,
@@ -5371,6 +5461,16 @@
       "score": "4-3"
     },
     {
+      "gameId": 25274,
+      "homeTeam": "Reading",
+      "homeTeamId": 55,
+      "visitingTeam": "Norfolk",
+      "date": "Mar 28, 2026",
+      "arena": "Santander Arena",
+      "attendance": 4252,
+      "score": "0-3"
+    },
+    {
       "gameId": 25042,
       "homeTeam": "Adirondack",
       "homeTeamId": 74,
@@ -5529,6 +5629,16 @@
       "arena": "Tahoe Blue Event Center",
       "attendance": 4203,
       "score": "5-3"
+    },
+    {
+      "gameId": 25275,
+      "homeTeam": "Tahoe",
+      "homeTeamId": 109,
+      "visitingTeam": "Rapid City",
+      "date": "Mar 28, 2026",
+      "arena": "Tahoe Blue Event Center",
+      "attendance": 4203,
+      "score": "5-4"
     },
     {
       "gameId": 25219,
@@ -6479,6 +6589,16 @@
       "arena": "Harding Mazzotti Arena",
       "attendance": 3610,
       "score": "0-3"
+    },
+    {
+      "gameId": 25278,
+      "homeTeam": "Wheeling",
+      "homeTeamId": 61,
+      "visitingTeam": "Worcester",
+      "date": "Mar 28, 2026",
+      "arena": "WesBanco Arena",
+      "attendance": 3588,
+      "score": "1-2"
     },
     {
       "gameId": 24446,
@@ -8741,6 +8861,16 @@
       "score": "3-7"
     },
     {
+      "gameId": 25272,
+      "homeTeam": "Iowa",
+      "homeTeamId": 98,
+      "visitingTeam": "Cincinnati",
+      "date": "Mar 28, 2026",
+      "arena": "Xtream Arena",
+      "attendance": 1895,
+      "score": "3-4"
+    },
+    {
       "gameId": 24638,
       "homeTeam": "Reading",
       "homeTeamId": 55,
@@ -9431,5 +9561,5 @@
       "score": "4-2"
     }
   ],
-  "scrapedAt": "2026-03-28T12:22:13.405Z"
+  "scrapedAt": "2026-03-29T15:45:24.789Z"
 }

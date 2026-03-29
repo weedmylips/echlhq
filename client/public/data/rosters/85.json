@@ -2,7 +2,7 @@
   "teamId": 85,
   "slug": "rapid-city-rush",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-27",
+  "lastTransactionCheck": "2026-03-28",
   "roster": [
     {
       "playerId": "8199",
@@ -469,7 +469,7 @@
       "player": "Xavier Bernard",
       "number": 76,
       "position": "D",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -510,7 +510,7 @@
       "player": "Jake Ratzlaff",
       "number": 9,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

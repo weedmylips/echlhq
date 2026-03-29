@@ -2,6 +2,20 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Liam Gorman",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Zachary Massicotte",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-27",
       "player": "Brandon Chabrier",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Brandon Chabrier",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Antonio Venuto",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

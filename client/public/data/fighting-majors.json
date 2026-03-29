@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T12:22:13.405Z",
+  "generatedAt": "2026-03-29T15:45:24.789Z",
   "processedGames": [
     24296,
     24297,
@@ -950,7 +950,20 @@
     25255,
     25256,
     25257,
-    25258
+    25258,
+    25260,
+    25266,
+    25267,
+    25268,
+    25269,
+    25271,
+    25272,
+    25273,
+    25274,
+    25275,
+    25276,
+    25277,
+    25278
   ],
   "leaders": [
     {
@@ -1001,6 +1014,21 @@
       ]
     },
     {
+      "name": "N. Rhéaume",
+      "team": "Cincinnati",
+      "fightingMajors": 8,
+      "games": [
+        24361,
+        24376,
+        24403,
+        24740,
+        24920,
+        25170,
+        25210,
+        25272
+      ]
+    },
+    {
       "name": "B. Simmons-Fischer",
       "team": "Allen",
       "fightingMajors": 7,
@@ -1043,6 +1071,20 @@
       ]
     },
     {
+      "name": "M. Graham",
+      "team": "Wheeling",
+      "fightingMajors": 7,
+      "games": [
+        24551,
+        24578,
+        24656,
+        25020,
+        25029,
+        25117,
+        25278
+      ]
+    },
+    {
       "name": "M. Henry",
       "team": "Tulsa",
       "fightingMajors": 7,
@@ -1053,20 +1095,6 @@
         24800,
         25382,
         25393
-      ]
-    },
-    {
-      "name": "N. Rhéaume",
-      "team": "Cincinnati",
-      "fightingMajors": 7,
-      "games": [
-        24361,
-        24376,
-        24403,
-        24740,
-        24920,
-        25170,
-        25210
       ]
     },
     {
@@ -1094,6 +1122,19 @@
         25240,
         25392,
         25254
+      ]
+    },
+    {
+      "name": "A. Collins",
+      "team": "Tahoe",
+      "fightingMajors": 6,
+      "games": [
+        24337,
+        24412,
+        24490,
+        24900,
+        25039,
+        25275
       ]
     },
     {
@@ -1199,19 +1240,6 @@
       ]
     },
     {
-      "name": "M. Graham",
-      "team": "Wheeling",
-      "fightingMajors": 6,
-      "games": [
-        24551,
-        24578,
-        24656,
-        25020,
-        25029,
-        25117
-      ]
-    },
-    {
       "name": "P. Connor",
       "team": "Kalamazoo",
       "fightingMajors": 6,
@@ -1222,18 +1250,6 @@
         24950,
         25074,
         25214
-      ]
-    },
-    {
-      "name": "A. Collins",
-      "team": "Tahoe",
-      "fightingMajors": 5,
-      "games": [
-        24337,
-        24412,
-        24490,
-        24900,
-        25039
       ]
     },
     {
@@ -1318,6 +1334,30 @@
       ]
     },
     {
+      "name": "M. Dorrington",
+      "team": "Worcester",
+      "fightingMajors": 5,
+      "games": [
+        24752,
+        24794,
+        25091,
+        25247,
+        25278
+      ]
+    },
+    {
+      "name": "M. Quercia",
+      "team": "Wheeling",
+      "fightingMajors": 5,
+      "games": [
+        24467,
+        24669,
+        24752,
+        25094,
+        25278
+      ]
+    },
+    {
       "name": "R. Parsons",
       "team": "Cincinnati",
       "fightingMajors": 5,
@@ -1361,6 +1401,17 @@
         25149,
         25382,
         25393
+      ]
+    },
+    {
+      "name": "C. Butler",
+      "team": "Iowa",
+      "fightingMajors": 4,
+      "games": [
+        24751,
+        24799,
+        25225,
+        25272
       ]
     },
     {
@@ -1473,17 +1524,6 @@
       ]
     },
     {
-      "name": "M. Dorrington",
-      "team": "Worcester",
-      "fightingMajors": 4,
-      "games": [
-        24752,
-        24794,
-        25091,
-        25247
-      ]
-    },
-    {
       "name": "M. Marchesan",
       "team": "Indy",
       "fightingMajors": 4,
@@ -1503,17 +1543,6 @@
         24403,
         24990,
         25237
-      ]
-    },
-    {
-      "name": "M. Quercia",
-      "team": "Wheeling",
-      "fightingMajors": 4,
-      "games": [
-        24467,
-        24669,
-        24752,
-        25094
       ]
     },
     {
@@ -1569,6 +1598,17 @@
         24571,
         24798,
         25145
+      ]
+    },
+    {
+      "name": "R. Piercey",
+      "team": "Worcester",
+      "fightingMajors": 4,
+      "games": [
+        24386,
+        24932,
+        25223,
+        25278
       ]
     },
     {
@@ -1723,16 +1763,6 @@
         24768,
         24929,
         25094
-      ]
-    },
-    {
-      "name": "C. Butler",
-      "team": "Iowa",
-      "fightingMajors": 3,
-      "games": [
-        24751,
-        24799,
-        25225
       ]
     },
     {
@@ -1963,16 +1993,6 @@
       ]
     },
     {
-      "name": "R. Piercey",
-      "team": "Worcester",
-      "fightingMajors": 3,
-      "games": [
-        24386,
-        24932,
-        25223
-      ]
-    },
-    {
       "name": "S. Boulton",
       "team": "Reading",
       "fightingMajors": 3,
@@ -2155,6 +2175,15 @@
       "games": [
         24346,
         24997
+      ]
+    },
+    {
+      "name": "C. Denomie",
+      "team": "Atlanta",
+      "fightingMajors": 2,
+      "games": [
+        24804,
+        25267
       ]
     },
     {
@@ -2527,6 +2556,15 @@
       ]
     },
     {
+      "name": "N. Kneen",
+      "team": "Wichita",
+      "fightingMajors": 2,
+      "games": [
+        24394,
+        25260
+      ]
+    },
+    {
       "name": "N. Noel",
       "team": "Norfolk",
       "fightingMajors": 2,
@@ -2622,6 +2660,15 @@
       "games": [
         24334,
         24347
+      ]
+    },
+    {
+      "name": "T. Goulbourne",
+      "team": "Tulsa",
+      "fightingMajors": 2,
+      "games": [
+        25179,
+        25277
       ]
     },
     {
@@ -2874,14 +2921,6 @@
       "fightingMajors": 1,
       "games": [
         24475
-      ]
-    },
-    {
-      "name": "C. Denomie",
-      "team": "Atlanta",
-      "fightingMajors": 1,
-      "games": [
-        24804
       ]
     },
     {
@@ -3197,6 +3236,14 @@
       ]
     },
     {
+      "name": "J. Jutting",
+      "team": "Kansas City",
+      "fightingMajors": 1,
+      "games": [
+        25260
+      ]
+    },
+    {
       "name": "J. Lansdell",
       "team": "Florida",
       "fightingMajors": 1,
@@ -3229,6 +3276,14 @@
       ]
     },
     {
+      "name": "J. Michaud",
+      "team": "Trois-Rivières",
+      "fightingMajors": 1,
+      "games": [
+        25277
+      ]
+    },
+    {
       "name": "J. Nachbaur",
       "team": "South Carolina",
       "fightingMajors": 1,
@@ -3250,6 +3305,14 @@
       "fightingMajors": 1,
       "games": [
         24342
+      ]
+    },
+    {
+      "name": "J. Ratzlaff",
+      "team": "Rapid City",
+      "fightingMajors": 1,
+      "games": [
+        25275
       ]
     },
     {
@@ -3418,6 +3481,14 @@
       "fightingMajors": 1,
       "games": [
         24965
+      ]
+    },
+    {
+      "name": "L. Grissom",
+      "team": "Jacksonville",
+      "fightingMajors": 1,
+      "games": [
+        25267
       ]
     },
     {
@@ -3618,14 +3689,6 @@
       "fightingMajors": 1,
       "games": [
         24737
-      ]
-    },
-    {
-      "name": "N. Kneen",
-      "team": "Wichita",
-      "fightingMajors": 1,
-      "games": [
-        24394
       ]
     },
     {
@@ -3922,14 +3985,6 @@
       "fightingMajors": 1,
       "games": [
         25227
-      ]
-    },
-    {
-      "name": "T. Goulbourne",
-      "team": "Tulsa",
-      "fightingMajors": 1,
-      "games": [
-        25179
       ]
     },
     {

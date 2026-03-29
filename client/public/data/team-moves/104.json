@@ -2,6 +2,13 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Ross Mitton",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Vincent Corcoran",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve 3/19"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Max Ruoho",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve 3/19"
     }
   ]
 }

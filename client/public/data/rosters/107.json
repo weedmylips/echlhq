@@ -2,7 +2,7 @@
   "teamId": 107,
   "slug": "bloomington-bison",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-27",
+  "lastTransactionCheck": "2026-03-28",
   "roster": [
     {
       "playerId": "9981",
@@ -549,7 +549,7 @@
       "player": "Parker Gavlas",
       "number": 14,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -609,7 +609,7 @@
       "player": "Cullen Ferguson",
       "number": 9,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

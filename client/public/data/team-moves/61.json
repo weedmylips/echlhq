@@ -2,6 +2,20 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Mike Posma",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Randy Hernandez",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Tommy Budnick",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Cole Tymkin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Emil Pieniniemi",
-      "position": "D",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Wilkes-Barre/Scranton by Pittsburgh"
     }
   ]
 }

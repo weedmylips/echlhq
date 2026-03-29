@@ -2,6 +2,55 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Brett Bulmer",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Dylan Carabia",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Isak Walther",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Ryan Conroy",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Nolan Orzeck",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Ryan Nolan",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Zach Yoder",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-27",
       "player": "Andrew Jarvis",
       "position": "D",
@@ -87,55 +136,6 @@
     },
     {
       "date": "2026-03-22",
-      "player": "Evan Orr",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Dylan Carabia",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Ethan Haider",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Milwaukee"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Dylan Carabia",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Evan Orr",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Nolan Orzeck",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Cam Gaudette",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
       "player": "Evan Orr",
       "position": "D",
       "type": "reserve",

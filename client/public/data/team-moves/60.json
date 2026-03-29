@@ -2,6 +2,34 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Nick Deakin-Poot",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Josh Atkinson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Caden Brown",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Reid Pabich",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Reid Pabich",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Logan Nelson",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Alex Aleardi",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Nick Deakin-Poot",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Connor Milburn",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Greenville"
     }
   ]
 }

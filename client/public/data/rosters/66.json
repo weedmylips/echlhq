@@ -2,7 +2,7 @@
   "teamId": 66,
   "slug": "allen-americans",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-26",
+  "lastTransactionCheck": "2026-03-28",
   "roster": [
     {
       "playerId": "8586",
@@ -409,7 +409,7 @@
       "player": "Sam Sedley",
       "number": 23,
       "position": "D",
-      "status": "active",
+      "status": "loaned",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

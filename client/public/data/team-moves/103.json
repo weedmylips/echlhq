@@ -2,6 +2,27 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Israel Mianscum",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Jacob Paquette",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Jeremy Michaud",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-25",
       "player": "Israel Mianscum",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "leave",
       "summary": "Activated from Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Anthony Poulin",
-      "position": "F",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Edouard Charron",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Jake Gravelle",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

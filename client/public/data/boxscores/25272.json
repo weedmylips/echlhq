@@ -1,0 +1,772 @@
+{
+  "gameInfo": {
+    "gameId": 25272,
+    "visitingTeam": "Cincinnati",
+    "homeTeam": "Iowa",
+    "date": "Mar 28, 2026",
+    "arena": "Xtream Arena",
+    "attendance": 1895,
+    "finalScore": {
+      "visiting": 3,
+      "home": 4
+    }
+  },
+  "periodScoring": [
+    {
+      "period": "1st",
+      "time": "4:34",
+      "team": "CIN",
+      "scorer": "G. Fontaine (20)",
+      "assists": "J. Johnson",
+      "strength": "EV"
+    },
+    {
+      "period": "1st",
+      "time": "7:53",
+      "team": "IA",
+      "scorer": "L. Coughlin (6)",
+      "assists": "A. Firriolo, I. Johnson",
+      "strength": "PP"
+    },
+    {
+      "period": "2nd",
+      "time": "4:05",
+      "team": "IA",
+      "scorer": "J. Nelson (17)",
+      "assists": "N. Carabin",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "2:26",
+      "team": "CIN",
+      "scorer": "G. Bernier (6)",
+      "assists": "L. Grainger, J. Johnson",
+      "strength": "PP"
+    },
+    {
+      "period": "3rd",
+      "time": "12:54",
+      "team": "IA",
+      "scorer": "J. Robilotti (1)",
+      "assists": "K. Jeri-Leon, C. Butler",
+      "strength": "EV"
+    },
+    {
+      "period": "3rd",
+      "time": "15:21",
+      "team": "CIN",
+      "scorer": "L. Grainger (15)",
+      "assists": "G. Fontaine, G. Bernier",
+      "strength": "PP"
+    },
+    {
+      "period": "3rd",
+      "time": "18:57",
+      "team": "IA",
+      "scorer": "T. Schweighardt (1)",
+      "assists": "J. Nelson",
+      "strength": "PP"
+    }
+  ],
+  "shotsByPeriod": [
+    {
+      "team": "Cincinnati",
+      "p1": 7,
+      "p2": 9,
+      "p3": 13,
+      "ot": 0,
+      "total": 29
+    },
+    {
+      "team": "Iowa",
+      "p1": 9,
+      "p2": 17,
+      "p3": 9,
+      "ot": 0,
+      "total": 35
+    }
+  ],
+  "skaterStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "K. Mbereko",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "35",
+        "name": "K. Appleby",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "5",
+        "name": "G. Ludtke",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "J. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 2,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "11",
+        "name": "G. Fontaine",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "12",
+        "name": "L. Kidney",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "L. Grainger",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "18",
+        "name": "J. Jaworski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "19",
+        "name": "M. Sikic",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -2,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "A. Bohlinger",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "24",
+        "name": "M. Smolinski",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "25",
+        "name": "S. Stevens",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "N. Rhéaume",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 9
+      },
+      {
+        "number": "33",
+        "name": "E. Vilio",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "37",
+        "name": "K. Henry",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": -1,
+        "shots": 1,
+        "pim": 4
+      },
+      {
+        "number": "45",
+        "name": "R. Kirwan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 2
+      },
+      {
+        "number": "46",
+        "name": "J. Vaive",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 2
+      },
+      {
+        "number": "63",
+        "name": "M. Helgeson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "82",
+        "name": "A. Kydd",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "91",
+        "name": "G. Bernier",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 3,
+        "a": 5,
+        "pts": 8,
+        "plusMinus": -6,
+        "shots": 29,
+        "pim": 19
+      }
+    ],
+    "home": [
+      {
+        "number": "35",
+        "name": "C. Wutzke",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "67",
+        "name": "R. Mercer",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "2",
+        "name": "M. Koster",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 4
+      },
+      {
+        "number": "6",
+        "name": "L. Coughlin",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "9",
+        "name": "M. Sop",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "10",
+        "name": "K. Jeri-Leon",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "13",
+        "name": "G. Ahcan",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 4,
+        "pim": 0
+      },
+      {
+        "number": "15",
+        "name": "L. Mobley",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "17",
+        "name": "J. Sorenson",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "18",
+        "name": "T. Freel",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "20",
+        "name": "C. Butler",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 5
+      },
+      {
+        "number": "21",
+        "name": "I. Johnson",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": -1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "22",
+        "name": "T. Stewart",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "24",
+        "name": "J. Nelson",
+        "pos": "",
+        "g": 1,
+        "a": 1,
+        "pts": 2,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "26",
+        "name": "N. Carabin",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 3,
+        "pim": 0
+      },
+      {
+        "number": "28",
+        "name": "J. Robilotti",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 1,
+        "shots": 2,
+        "pim": 0
+      },
+      {
+        "number": "36",
+        "name": "Y. Miura",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 1,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "47",
+        "name": "M. Koethe",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 1,
+        "pim": 0
+      },
+      {
+        "number": "55",
+        "name": "T. Schweighardt",
+        "pos": "",
+        "g": 1,
+        "a": 0,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 2,
+        "pim": 2
+      },
+      {
+        "number": "71",
+        "name": "A. Firriolo",
+        "pos": "",
+        "g": 0,
+        "a": 1,
+        "pts": 1,
+        "plusMinus": 0,
+        "shots": 5,
+        "pim": 2
+      },
+      {
+        "number": "",
+        "name": "Team:",
+        "pos": "",
+        "g": 0,
+        "a": 0,
+        "pts": 0,
+        "plusMinus": 0,
+        "shots": 0,
+        "pim": 0
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "pos": "",
+        "g": 4,
+        "a": 6,
+        "pts": 10,
+        "plusMinus": 6,
+        "shots": 35,
+        "pim": 17
+      }
+    ]
+  },
+  "goalieStats": {
+    "visiting": [
+      {
+        "number": "31",
+        "name": "K. Mbereko",
+        "minsPlayed": "59:36",
+        "shotsAgainst": 35,
+        "saves": 31,
+        "ga": 4,
+        "svPct": 0.886
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "59:36",
+        "shotsAgainst": 35,
+        "saves": 31,
+        "ga": 4,
+        "svPct": 0.886
+      }
+    ],
+    "home": [
+      {
+        "number": "35",
+        "name": "C. Wutzke",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 29,
+        "saves": 26,
+        "ga": 3,
+        "svPct": 0.897
+      },
+      {
+        "number": "",
+        "name": "Totals:",
+        "minsPlayed": "60:00",
+        "shotsAgainst": 29,
+        "saves": 26,
+        "ga": 3,
+        "svPct": 0.897
+      }
+    ]
+  },
+  "penalties": [
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "J. Vaive",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "3:19"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "T. Stewart",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "3:19"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "N. Rhéaume",
+      "minutes": 2,
+      "infraction": "Boarding - minor (41.2)",
+      "time": "5:57"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "N. Rhéaume",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "5:57"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "C. Butler",
+      "minutes": 5,
+      "infraction": "Fighting - Major (46.14)",
+      "time": "5:57"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "M. Koster",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "11:18"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "M. Koster",
+      "minutes": 2,
+      "infraction": "Cross-Checking Minor (59.2)",
+      "time": "16:08"
+    },
+    {
+      "period": "1st",
+      "team": "V",
+      "player": "N. Rhéaume",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "19:08"
+    },
+    {
+      "period": "1st",
+      "team": "H",
+      "player": "J. Sorenson",
+      "minutes": 2,
+      "infraction": "Roughing - minor (51.2)",
+      "time": "19:08"
+    },
+    {
+      "period": "2nd",
+      "team": "V",
+      "player": "M. Helgeson",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "7:10"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "T. Schweighardt",
+      "minutes": 2,
+      "infraction": "Hooking - minor (55.2)",
+      "time": "1:02"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "K. Henry",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "4:39"
+    },
+    {
+      "period": "3rd",
+      "team": "H",
+      "player": "A. Firriolo",
+      "minutes": 2,
+      "infraction": "Slashing - minor (61.2)",
+      "time": "14:42"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "R. Kirwan",
+      "minutes": 2,
+      "infraction": "Tripping - minor (57.2)",
+      "time": "17:06"
+    },
+    {
+      "period": "3rd",
+      "team": "V",
+      "player": "K. Henry",
+      "minutes": 2,
+      "infraction": "Delay of Game (63.2)",
+      "time": "18:53"
+    }
+  ],
+  "stars": [
+    {
+      "star": 1,
+      "team": "IA",
+      "name": "T. Schweighardt",
+      "g": 1,
+      "a": 0,
+      "pts": 1
+    },
+    {
+      "star": 2,
+      "team": "IA",
+      "name": "C. Wutzke",
+      "g": 0,
+      "a": 0,
+      "pts": 0
+    },
+    {
+      "star": 3,
+      "team": "IA",
+      "name": "K. Jeri-Leon",
+      "g": 0,
+      "a": 1,
+      "pts": 1
+    }
+  ],
+  "isFinal": true,
+  "scrapedAt": "2026-03-29T15:45:30.979Z"
+}

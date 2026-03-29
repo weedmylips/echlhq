@@ -2,6 +2,20 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Keith Petruzzelli",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Ian Shane",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Jack Page",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Ian Shane",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Jack Page",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

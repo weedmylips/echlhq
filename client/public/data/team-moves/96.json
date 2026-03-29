@@ -2,6 +2,27 @@
   "teamId": 96,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Michal Stinil",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Nick DeGrazia",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Nick DeGrazia",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-26",
       "player": "Michal Stinil",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Matt Davis",
-      "position": "G",
-      "type": "active",
-      "summary": "Assigned by San Jose Barracuda"
-    },
-    {
-      "date": "2026-03-07",
-      "player": "Declan Smith",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-06",
-      "player": "Declan Smith",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

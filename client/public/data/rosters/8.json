@@ -2,7 +2,7 @@
   "teamId": 8,
   "slug": "florida-everblades",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-27",
+  "lastTransactionCheck": "2026-03-28",
   "roster": [
     {
       "playerId": "11033",
@@ -109,7 +109,7 @@
       "player": "Jesse Lansdell",
       "number": 34,
       "position": "F",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -170,7 +170,7 @@
       "player": "Oliver Cooper",
       "number": 17,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

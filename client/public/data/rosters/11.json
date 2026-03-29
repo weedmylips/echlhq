@@ -2,7 +2,7 @@
   "teamId": 11,
   "slug": "idaho-steelheads",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-27",
+  "lastTransactionCheck": "2026-03-28",
   "roster": [
     {
       "playerId": "9379",
@@ -309,7 +309,7 @@
       "player": "Grant Silianoff",
       "number": 89,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -729,7 +729,7 @@
       "player": "Adam Ingram",
       "number": null,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

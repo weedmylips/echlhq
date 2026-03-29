@@ -2,6 +2,20 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Grant Silianoff",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Adam Ingram",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Jake Boltmann",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Adam Ingram",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Nick Young",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

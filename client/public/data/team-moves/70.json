@@ -2,6 +2,34 @@
   "teamId": 70,
   "moves": [
     {
+      "date": "2026-03-28",
+      "player": "Brandon Kruse",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Nolan Hutcheson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Brendon Michaelian",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-28",
+      "player": "Jack Duff",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Jack Duff",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Jonathan Ziskie",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Jonathan Ziskie",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Jacob Truscott",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Grand Rapids"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Cam Hausinger",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Greenville"
     }
   ]
 }

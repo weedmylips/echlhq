@@ -531,7 +531,7 @@
       "player": "Mike Gelatt",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 24,
       "g": 3,
       "a": 2,
@@ -1581,5 +1581,5 @@
       "sa": 705
     }
   ],
-  "scrapedAt": "2026-03-28T12:22:13.405Z"
+  "scrapedAt": "2026-03-29T15:45:24.789Z"
 }
