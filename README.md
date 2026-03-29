@@ -1,12 +1,12 @@
 # echlstats.com
 
-A fast, fully static stats site for the ECHL (East Coast Hockey League) 2025–26 season. No backend — all data is pre-generated JSON updated automatically via GitHub Actions.
+A fast stats site for the ECHL (East Coast Hockey League) 2025–26 season. Most data is pre-generated JSON updated automatically via GitHub Actions, with a live scorebar powered by Vercel API routes.
 
 **Live site:** [www.echlstats.com](https://www.echlstats.com)
 
 ## Features
 
-- **Dashboard** — live scores strip, upcoming games, league leader sidebar
+- **Dashboard** — live scorebar with LIVE badges and auto-polling, upcoming games (with "Today" highlight and show more), league leader sidebar
 - **Standings** — division standings with playoff picture, magic numbers, sortable columns, horizontal scroll on mobile
 - **Leaders** — skater leaders (20 categories) and goalie leaders (5 categories), including fighting majors
 - **Team pages** — roster, stats, playoff picture, PCT trend chart, division H2H records, home/road splits, special teams ranks, season arc, recent results, transaction history
@@ -15,6 +15,7 @@ A fast, fully static stats site for the ECHL (East Coast Hockey League) 2025–2
 ## Tech Stack
 
 - **Frontend**: React 18, Vite, React Router v6, TanStack React Query, Recharts, PWA-enabled
+- **Live data**: Vercel API routes proxy HockeyTech for live scorebar, scores, upcoming, and boxscores
 - **Data pipeline**: Node.js scraper scripts run on a schedule via GitHub Actions
 
 ## Local Development
@@ -26,7 +27,7 @@ npm run dev       # http://localhost:5173
 npm run build     # production build
 ```
 
-No backend or environment variables needed for local development — the frontend reads static JSON from `client/public/data/`.
+No backend or environment variables needed for local development — the frontend reads static JSON from `client/public/data/`. Live API features (scorebar) require the Vercel deployment with `HOCKEYTECH_API_KEY`.
 
 ## How Data Works
 
@@ -42,6 +43,13 @@ All derived stats (playoff clinching/elimination, H2H records, efficiency ranks,
 ## Project Structure
 
 ```
+api/                  Vercel serverless API routes (live data only)
+  lib/hockeytech.js   shared HockeyTech API helpers
+  scorebar.js         live game scores, periods, clocks
+  scores.js           recent completed scores
+  upcoming.js         upcoming schedule
+  boxscores.js        individual game boxscores
+
 client/               React frontend (Vite)
   src/
     config/           teamConfig.js — IDs, names, colors, divisions for all 30 teams

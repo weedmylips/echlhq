@@ -27,7 +27,7 @@ There are no test or lint commands configured.
 
 ## Architecture
 
-This is a **fully static frontend** — no backend API is needed at runtime. All data is pre-generated JSON served from `client/public/data/`.
+This is a **mostly static frontend** — most data is pre-generated JSON served from `client/public/data/`. A small set of Vercel API routes proxy HockeyTech for live game data only.
 
 ### Data pipeline (automated via GitHub Actions)
 
@@ -45,6 +45,21 @@ Two scheduled workflows update the static JSON files and auto-commit:
    - Updates `rosters/{teamId}.json` (player status: active, ir, reserve, loaned, suspended, etc.)
    - Writes `team-moves/{teamId}.json` (transaction history, last 20 moves per team)
 
+### Vercel API routes (`api/`)
+
+A few endpoints proxy the HockeyTech API via Vercel serverless functions for **live/near-real-time data only**. These use `liveOrStatic()` in `client/src/lib/api.js` which tries the API first and falls back to static JSON on error.
+
+| Route | Purpose | Cache |
+|-------|---------|-------|
+| `/api/scorebar` | Live game scores, periods, clocks | 2min |
+| `/api/scores` | Recent completed game scores | via HT |
+| `/api/upcoming` | Upcoming schedule | via HT |
+| `/api/boxscores/:gameId` | Individual game boxscores | via HT |
+
+**Important:** Roster, leaders, standings, players, and attendance are **static only** — they do NOT use API routes. Do not add API routes for these; the scraper-generated static files are the source of truth. Previous attempts to use API routes for roster/leaders data caused persistent bugs with player badges and multi-team stat handling.
+
+Shared HockeyTech helpers live in `api/lib/hockeytech.js`. The API key is stored in Vercel env vars (`HOCKEYTECH_API_KEY`). Routes are mapped in `vercel.json`.
+
 ### Frontend (`client/`)
 
 - **React 18 + Vite**, React Router v6, TanStack React Query, Recharts, vite-plugin-pwa (PWA support)
@@ -55,21 +70,22 @@ Two scheduled workflows update the static JSON files and auto-commit:
 
 ### Key data sources on the frontend
 
-| Hook | Data file(s) |
-|------|-------------|
-| `useStandings()` | `standings.json` |
-| `useLeaders()` | `leaders.json` |
-| `useScores()` | `scores.json` |
-| `useUpcoming()` | `upcoming.json` |
-| `useRoster(teamId)` | `rosters/{teamId}.json` |
-| `useTeamPlayers(teamId)` | `players/{teamId}.json` |
-| `useTeamMoves(teamId)` | `team-moves/{teamId}.json` |
-| `useBoxscore(gameId)` | `boxscores/{gameId}.json` (60s stale, retry once) |
-| `useFightingMajors()` | `fighting-majors.json` |
-| `useGameAttendance()` | `game-attendance.json` |
-| `useTeam(teamId)` | computed from standings + scores |
-| `useTeamStats(teamId)` | computed from standings + scores (via `computeTeamStats()`) |
-| `useMatchupPlayers(id1, id2)` | aggregated from last-5 boxscores for two teams |
+| Hook | Source | Stale time |
+|------|--------|------------|
+| `useStandings()` | `standings.json` (static) | 6hr |
+| `useLeaders()` | `leaders.json` (static) | 6hr |
+| `useScores()` | `/api/scores` → `scores.json` fallback | 6hr |
+| `useUpcoming()` | `/api/upcoming` → `upcoming.json` fallback | 6hr |
+| `useScorebar()` | `/api/scorebar` → `scores-live.json` fallback | 20s (polls 30s live, 5min idle) |
+| `useRoster(teamId)` | `rosters/{teamId}.json` (static) | 6hr |
+| `useTeamPlayers(teamId)` | `players/{teamId}.json` (static) | 6hr |
+| `useTeamMoves(teamId)` | `team-moves/{teamId}.json` (static) | 6hr |
+| `useBoxscore(gameId)` | `/api/boxscores/{id}` → `boxscores/{id}.json` fallback | 60s, retry once |
+| `useFightingMajors()` | `fighting-majors.json` (static) | 6hr |
+| `useGameAttendance()` | `game-attendance.json` (static) | 6hr |
+| `useTeam(teamId)` | computed from standings + scores | — |
+| `useTeamStats(teamId)` | computed from standings + scores | — |
+| `useMatchupPlayers(id1, id2)` | aggregated from last-5 boxscores | — |
 
 ### Player data split
 
@@ -108,6 +124,19 @@ Computed in `StandingsPage.jsx` and `useTeamStats()`:
 - Eliminated: rank > 4 AND max possible pts < 4th-place pts
 - Magic number: `maxFifthPts - team.pts + 1`
 - Display values: `X` = clinched, `E` = eliminated, `—` = not applicable
+
+### Live scorebar (Dashboard)
+
+The dashboard scores strip merges data from two sources: the live scorebar API and the static scores file. Games are ordered: live → pregame → final (by date desc) → historical (capped at 30). Date separator labels appear between game groups.
+
+Key game type classification in `getGameType()`:
+- **Live**: has `period` set, clock not at 00:00 (or period is not 1st/3rd/OT/SO at 00:00)
+- **Pregame**: `period === "1st"` with `clock === "00:00"` (HockeyTech pre-populates these), or no `period`
+- **Final**: status starts with "Final", OR `clock === "00:00"` with period `3rd`/`OT`/`SO`
+
+Pregame score chips open the matchup preview modal; live/final chips open the boxscore modal. The scorebar date format (`"2026-03-29"`) must be converted to `"Mar 29, 2026"` to match the upcoming game dates used by the matchup modal.
+
+Today's upcoming games display "Today" instead of the day name and have a highlighted card border. Upcoming games are truncated to the first 2 days with a "Show More" button.
 
 ### Sticky table columns (mobile scroll)
 
