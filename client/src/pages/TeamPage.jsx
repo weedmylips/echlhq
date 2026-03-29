@@ -704,6 +704,20 @@ export default function TeamPage() {
       {selectedGameId && (
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
       )}
+      {/* ── Mobile Bottom Nav ── */}
+      <div className="team-bottom-nav">
+        {[["overview", "Overview"], ["roster", "Roster"], ["schedule", "Schedule"], ["stats", "Stats"]].map(([tab, label]) => (
+          <button
+            key={tab}
+            className={`team-bottom-tab${activeTab === tab ? " active" : ""}`}
+            style={activeTab === tab ? { color: team.primaryColor, borderTopColor: team.primaryColor } : {}}
+            onClick={() => setActiveTab(tab)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
       {selectedMatchup && (
         <MatchupModal
           visitingTeamId={selectedMatchup.visitingTeamId}

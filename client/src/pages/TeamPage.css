@@ -212,6 +212,11 @@
 .team-tab:hover { color: var(--text-secondary); }
 .team-tab.active { color: var(--text); border-bottom-color: currentColor; }
 
+/* ── Mobile Bottom Nav ── */
+.team-bottom-nav {
+  display: none;
+}
+
 /* ── Overview Layout ── */
 .overview-layout {
   display: grid;
@@ -1013,7 +1018,37 @@ tr.playoff-cutoff td {
   .stat-block-value { font-size: 22px; }
   .record-value { font-size: 16px; }
 
-  .team-tab { padding: 10px 12px; font-size: 12px; }
+  .team-tabs { display: none; }
+  .team-bottom-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+    padding: 0;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .team-bottom-tab {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 4px;
+    border: none;
+    border-top: 2px solid transparent;
+    background: none;
+    color: var(--text-muted);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.15s;
+  }
+  .team-bottom-tab.active { color: var(--text); }
+  .team-page { padding-bottom: 60px; }
 
   .recent-game-row { padding: 8px 12px; gap: 8px; }
   .rg-date { display: none; }
