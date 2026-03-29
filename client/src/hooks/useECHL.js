@@ -376,10 +376,25 @@ export function useScorebar() {
       const isLive = (g) => g.period && !/^Final/.test(g.status) &&
         !((g.clock === "00:00" || g.clock === "20:00") && g.period === "1st");
       if (games.some(isLive)) return 30 * 1000;
-      const hasUpcoming = games.some(
-        (g) => !isLive(g) && !/^Final/.test(g.status)
-      );
-      if (hasUpcoming) return 2 * 60 * 1000;
+      // Check if any pregame game starts within 15 minutes
+      const upcoming = games.filter((g) => !isLive(g) && !/^Final/.test(g.status));
+      if (upcoming.length) {
+        const soonest = upcoming.some((g) => {
+          if (!g.gameTime || !g.date) return false;
+          const m = g.gameTime.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+          if (!m) return false;
+          let h = parseInt(m[1]);
+          if (m[3].toUpperCase() === "PM" && h !== 12) h += 12;
+          if (m[3].toUpperCase() === "AM" && h === 12) h = 0;
+          const TZ = { EST: -5, EDT: -4, CST: -6, CDT: -5, MST: -7, MDT: -6, PST: -8, PDT: -7 };
+          const off = TZ[(g.timezone || "").toUpperCase()] ?? -4;
+          const dateStr = /^\d{4}-/.test(g.date) ? g.date + "T12:00:00" : g.date;
+          const gameDate = new Date(dateStr);
+          const gameUtc = Date.UTC(gameDate.getFullYear(), gameDate.getMonth(), gameDate.getDate(), h - off, parseInt(m[2]));
+          return gameUtc - Date.now() < 15 * 60 * 1000;
+        });
+        return soonest ? 60 * 1000 : 5 * 60 * 1000;
+      }
       return false;
     },
     refetchOnWindowFocus: true,
