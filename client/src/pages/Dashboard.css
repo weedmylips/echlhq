@@ -377,6 +377,23 @@
   white-space: nowrap;
 }
 
+.upcoming-game-live {
+  background: rgba(76, 175, 80, 0.06);
+}
+
+.upcoming-live-score {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  flex-shrink: 0;
+}
+
+.upcoming-live-period {
+  font-size: 10px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
 /* ── Show More Button ── */
 .upcoming-show-more {
   display: block;

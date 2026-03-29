@@ -5,7 +5,7 @@ import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
 } from "recharts";
-import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useGameAttendance, useFightingMajors } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useScorebar, useGameAttendance, useFightingMajors } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
 import ShareButton from "../components/ShareButton.jsx";
@@ -74,6 +74,8 @@ export default function TeamPage() {
   const { data: teamStats } = useTeamStats(teamId);
   const { data: leadersData } = useLeaders();
   const { data: upcomingData } = useUpcoming();
+  const { data: scorebarData } = useScorebar();
+  const scorebarGames = scorebarData?.games || [];
   const { data: attendanceData } = useGameAttendance();
   const { data: fightingMajorsData } = useFightingMajors();
 
@@ -270,12 +272,25 @@ export default function TeamPage() {
           {/* ── Left/main column ── */}
           <div className="overview-main">
 
-            {/* Upcoming Games */}
+            {/* Upcoming / Live Games */}
             {(() => {
               const tid = parseInt(teamId, 10);
-              const teamGames = (upcomingData?.games || []).filter(
-                (g) => g.visitingTeamId === tid || g.homeTeamId === tid
-              );
+              // Build a lookup of scorebar games by team matchup + date
+              const scorebarByKey = {};
+              for (const sg of scorebarGames) {
+                const key = `${sg.visitingTeamId}-${sg.homeTeamId}`;
+                scorebarByKey[key] = sg;
+              }
+              const teamGames = (upcomingData?.games || [])
+                .filter((g) => g.visitingTeamId === tid || g.homeTeamId === tid)
+                .filter((g) => {
+                  // Filter out games that are already final in the scorebar
+                  const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
+                  if (!sg) return true;
+                  const isFinal = /^Final/.test(sg.status) ||
+                    (sg.clock === "00:00" && /^(3rd|OT|SO)/.test(sg.period));
+                  return !isFinal;
+                });
               if (!teamGames.length) return null;
               return (
                 <div className="card section-card" style={{ gridColumn: "1 / -1" }}>
@@ -286,23 +301,45 @@ export default function TeamPage() {
                     {teamGames.map((g, i) => {
                       const visitingConfig = TEAMS[g.visitingTeamId];
                       const homeConfig = TEAMS[g.homeTeamId];
+                      const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
+                      const isLive = sg && sg.period && !/^Final/.test(sg.status) &&
+                        !(sg.clock === "00:00" && sg.period === "1st");
                       return (
                         <button
                           key={i}
-                          className="upcoming-game-row"
-                          onClick={() => g.visitingTeamId && g.homeTeamId && setSelectedMatchup(g)}
+                          className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}`}
+                          onClick={() => {
+                            if (isLive && sg.gameId) {
+                              navigate(`/game/${sg.gameId}`);
+                            } else if (g.visitingTeamId && g.homeTeamId) {
+                              setSelectedMatchup(g);
+                            }
+                          }}
                         >
                           <div className="upcoming-team upcoming-away">
                             {visitingConfig?.logoUrl && (
                               <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
                             )}
                             <span className="upcoming-name">{g.visitingTeam}</span>
+                            {isLive && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
                           </div>
                           <div className="upcoming-center">
-                            <span className="upcoming-at">@</span>
-                            <span className="upcoming-time">{g.time}</span>
+                            {isLive ? (
+                              <>
+                                <span className="live-badge">LIVE</span>
+                                <span className="upcoming-live-period">
+                                  {sg.intermission ? `${sg.period} INT` : `${sg.period} · ${sg.clock}`}
+                                </span>
+                              </>
+                            ) : (
+                              <>
+                                <span className="upcoming-at">@</span>
+                                <span className="upcoming-time">{g.time}</span>
+                              </>
+                            )}
                           </div>
                           <div className="upcoming-team upcoming-home">
+                            {isLive && <span className="upcoming-live-score">{sg.homeGoals}</span>}
                             <span className="upcoming-name">{g.homeTeam}</span>
                             {homeConfig?.logoUrl && (
                               <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />

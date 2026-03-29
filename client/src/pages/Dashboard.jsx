@@ -52,13 +52,23 @@ export default function Dashboard() {
     ...recentScores,
   ];
 
+  // Filter out upcoming games that are already live or final in the scorebar
+  const liveOrFinalKeys = new Set(
+    scorebarGames
+      .filter((g) => getGameType(g) !== "pregame")
+      .map((g) => `${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`)
+  );
+  const filteredUpcoming = upcomingGames.filter(
+    (g) => !liveOrFinalKeys.has(`${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`)
+  );
+
   // Group upcoming games by day+date
-  const byDay = upcomingGames.reduce((acc, g) => {
+  const byDay = filteredUpcoming.reduce((acc, g) => {
     const key = `${g.dayLabel}|${g.date}`;
     (acc[key] = acc[key] || []).push(g);
     return acc;
   }, {});
-  const dayOrder = [...new Set(upcomingGames.map((g) => `${g.dayLabel}|${g.date}`))];
+  const dayOrder = [...new Set(filteredUpcoming.map((g) => `${g.dayLabel}|${g.date}`))];
   const DEFAULT_DAYS = 2;
   const visibleDays = showAllDays ? dayOrder : dayOrder.slice(0, DEFAULT_DAYS);
   const hiddenDayCount = dayOrder.length - DEFAULT_DAYS;
@@ -111,7 +121,7 @@ export default function Dashboard() {
         <section className="upcoming-section">
           {upcomingLoading ? (
             <div className="loading-spinner">Loading...</div>
-          ) : upcomingGames.length === 0 ? (
+          ) : filteredUpcoming.length === 0 ? (
             <div className="card">
               <div className="upcoming-header">
                 <div className="section-label" style={{ margin: 0 }}>Upcoming Games</div>
