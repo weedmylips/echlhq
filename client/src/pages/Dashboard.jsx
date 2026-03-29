@@ -52,15 +52,16 @@ export default function Dashboard() {
     ...recentScores,
   ];
 
-  // Filter out upcoming games that are already live or final in the scorebar
-  const liveOrFinalKeys = new Set(
-    scorebarGames
-      .filter((g) => getGameType(g) !== "pregame")
-      .map((g) => `${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`)
-  );
-  const filteredUpcoming = upcomingGames.filter(
-    (g) => !liveOrFinalKeys.has(`${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`)
-  );
+  // Filter out final games from upcoming; live games stay (shown with scores)
+  const scorebarByKey = {};
+  for (const sg of scorebarGames) {
+    scorebarByKey[`${sg.visitingTeamId}-${sg.homeTeamId}-${normalizeDate(sg.date)}`] = sg;
+  }
+  const filteredUpcoming = upcomingGames.filter((g) => {
+    const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`];
+    if (!sg) return true;
+    return getGameType(sg) !== "final";
+  });
 
   // Group upcoming games by day+date
   const byDay = filteredUpcoming.reduce((acc, g) => {
@@ -153,23 +154,45 @@ export default function Dashboard() {
                       {(byDay[dayKey] || []).map((g, i) => {
                         const visitingConfig = TEAMS[g.visitingTeamId];
                         const homeConfig = TEAMS[g.homeTeamId];
+                        const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`];
+                        const isLive = sg && sg.period && !/^Final/.test(sg.status) &&
+                          !(sg.clock === "00:00" && sg.period === "1st");
                         return (
                           <button
                             key={i}
-                            className="upcoming-game-row"
-                            onClick={() => g.visitingTeamId && g.homeTeamId && navigate(`/matchup/${g.visitingTeamId}/${g.homeTeamId}/${encodeURIComponent(g.date)}`)}
+                            className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}`}
+                            onClick={() => {
+                              if (isLive && sg.gameId) {
+                                navigate(`/game/${sg.gameId}`);
+                              } else if (g.visitingTeamId && g.homeTeamId) {
+                                navigate(`/matchup/${g.visitingTeamId}/${g.homeTeamId}/${encodeURIComponent(g.date)}`);
+                              }
+                            }}
                           >
                             <div className="upcoming-team upcoming-away">
                               {visitingConfig?.logoUrl && (
                                 <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
                               )}
                               <span className="upcoming-name">{g.visitingTeam}</span>
+                              {isLive && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
                             </div>
                             <div className="upcoming-center">
-                              <span className="upcoming-at">@</span>
-                              <span className="upcoming-time">{g.time}</span>
+                              {isLive ? (
+                                <>
+                                  <span className="live-badge">LIVE</span>
+                                  <span className="upcoming-live-period">
+                                    {sg.intermission ? `${sg.period} INT` : `${sg.period} · ${sg.clock}`}
+                                  </span>
+                                </>
+                              ) : (
+                                <>
+                                  <span className="upcoming-at">@</span>
+                                  <span className="upcoming-time">{g.time}</span>
+                                </>
+                              )}
                             </div>
                             <div className="upcoming-team upcoming-home">
+                              {isLive && <span className="upcoming-live-score">{sg.homeGoals}</span>}
                               <span className="upcoming-name">{g.homeTeam}</span>
                               {homeConfig?.logoUrl && (
                                 <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />

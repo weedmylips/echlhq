@@ -29,6 +29,9 @@ module.exports = async function handler(req, res) {
       arena: d.venue || "",
       attendance: d.attendance || 0,
       finalScore: { visiting: num(vis.stats?.goals), home: num(home.stats?.goals) },
+      period: d.periodLongName || d.period || "",
+      clock: d.gameClock || d.clock || "",
+      intermission: d.intermission === "1" || d.intermission === 1,
     };
 
     // Period scoring
