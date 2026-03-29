@@ -23,14 +23,30 @@ async function liveOrStatic(apiPath, staticPath) {
   }
 }
 
+/** Try static first; fall back to API if static is missing (e.g. live/recent games). */
+async function staticOrLive(staticPath, apiPath) {
+  try {
+    const res = await fetch(staticPath);
+    if (!res.ok) throw new Error(res.status);
+    return await res.json();
+  } catch {
+    const res = await fetch(apiPath);
+    if (!res.ok) throw new Error(`API fetch error ${res.status}: ${apiPath}`);
+    return res.json();
+  }
+}
+
 export const api = {
   // ── Live API routes (with static fallback) ──────────────────────────────
   scores:    () => liveOrStatic("/api/scores",    "/data/scores.json"),
   upcoming:  () => liveOrStatic("/api/upcoming",  "/data/upcoming.json"),
-  boxscore:  (gameId) => liveOrStatic(`/api/boxscores/${gameId}`, `/data/boxscores/${gameId}.json`),
+  boxscore:  (gameId) => staticOrLive(`/data/boxscores/${gameId}.json`, `/api/boxscores/${gameId}`),
+  boxscoreLive: (gameId) => dataFetch(`/api/boxscores/${gameId}`),
   scorebar:  () => liveOrStatic("/api/scorebar", "/data/scores-live.json"),
 
   // ── Static-only (from scraper / transaction agent) ─────────────────────
+  scoresStatic:   () => dataFetch("/data/scores.json"),
+  boxscoreStatic: (gameId) => dataFetch(`/data/boxscores/${gameId}.json`),
   standings: () => dataFetch("/data/standings.json"),
   leaders:   () => dataFetch("/data/leaders.json"),
   players:   (teamId) => dataFetch(`/data/players/${teamId}.json`),

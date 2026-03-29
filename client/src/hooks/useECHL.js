@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { useQuery, useQueries } from "@tanstack/react-query";
 import { api } from "../lib/api.js";
 import { TEAMS } from "../config/teamConfig.js";
@@ -46,12 +47,26 @@ export function useGameAttendance() {
 }
 
 export function useBoxscore(gameId) {
+  // First fetch uses staticOrLive (tries static, falls back to API).
+  // If the game is live (not final), subsequent polls go straight to the API
+  // to avoid a static 404 on every poll cycle.
+  const isLive = useRef(false);
   return useQuery({
     queryKey: ["boxscore", gameId],
-    queryFn: () => api.boxscore(gameId),
+    queryFn: async () => {
+      if (isLive.current) return api.boxscoreLive(gameId);
+      const data = await api.boxscore(gameId);
+      if (!data.isFinal) isLive.current = true;
+      return data;
+    },
     enabled: !!gameId,
-    staleTime: 60 * 1000,
+    staleTime: 30 * 1000,
     retry: 1,
+    refetchInterval: (query) => {
+      const data = query.state.data;
+      if (!data || data.isFinal) return false;
+      return 30 * 1000;
+    },
   });
 }
 
@@ -379,8 +394,16 @@ export function useScorebar() {
 
 // Fetches last-5-game boxscores for two teams and aggregates per-player stats.
 // Returns { team1: [...top3], team2: [...top3], isLoading }
+export function useScoresStatic() {
+  return useQuery({
+    queryKey: ["scoresStatic"],
+    queryFn: api.scoresStatic,
+    staleTime: STALE,
+  });
+}
+
 export function useMatchupPlayers(teamId1, teamId2) {
-  const { data: scoresData } = useScores();
+  const { data: scoresData } = useScoresStatic();
   const scores = scoresData?.scores || [];
 
   const city1 = TEAMS[teamId1]?.city?.toLowerCase() || "";
@@ -403,7 +426,7 @@ export function useMatchupPlayers(teamId1, teamId2) {
   const boxscoreQueries = useQueries({
     queries: allIds.map((id) => ({
       queryKey: ["boxscore", id],
-      queryFn: () => api.boxscore(id),
+      queryFn: () => api.boxscoreStatic(id),
       staleTime: 60 * 1000,
       enabled: !!id,
       retry: 1,

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useMemo } from "react";
 import { Helmet } from "react-helmet-async";
-import { useStandings, useScores, useLeaders, useUpcoming, useMatchupPlayers } from "../hooks/useECHL.js";
+import { useStandings, useScoresStatic, useLeaders, useUpcoming, useMatchupPlayers } from "../hooks/useECHL.js";
 import { TEAMS } from "../config/teamConfig.js";
 import ShareButton from "./ShareButton.jsx";
 import "./MatchupModal.css";
@@ -63,7 +63,7 @@ const MILESTONES = [20, 30, 40, 50, 60, 70, 80];
 
 export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, onClose }) {
   const { data: standingsData } = useStandings();
-  const { data: scoresData } = useScores();
+  const { data: scoresData } = useScoresStatic();
   const { data: leadersData } = useLeaders();
   const { data: upcomingData } = useUpcoming();
   const { team1, team2, isLoading: playersLoading } = useMatchupPlayers(visitingTeamId, homeTeamId);
