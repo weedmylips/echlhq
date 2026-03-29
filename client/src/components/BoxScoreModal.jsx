@@ -83,11 +83,12 @@ function BoxScoreContent({ data }) {
             const period = gameInfo.period || (statusMatch && statusMatch[2]);
             return clock && period ? (
               <>
+                <span className="live-badge">LIVE</span>
                 <span className="bs-live-clock">{clock}</span>
                 <span className="bs-live-period">{period}</span>
               </>
             ) : (
-              <span className="bs-final-label">In Progress</span>
+              <span className="live-badge">LIVE</span>
             );
           })()}
         </div>

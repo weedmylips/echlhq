@@ -145,6 +145,10 @@
   border-radius: 999px;
 }
 
+.bs-sep .live-badge {
+  margin-bottom: 4px;
+}
+
 .bs-live-clock {
   font-size: 24px;
   font-weight: 700;
