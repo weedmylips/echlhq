@@ -86,7 +86,8 @@ export default function Dashboard() {
                     {showSep && <div className="scores-date-sep">{formatDateLabel(g.date)}</div>}
                     <ScoreChip game={g} onClick={() => {
                       if (getGameType(g) === "pregame" && g.visitingTeamId && g.homeTeamId) {
-                        navigate(`/matchup/${g.visitingTeamId}/${g.homeTeamId}/${encodeURIComponent(g.date)}`);
+                        const displayDate = formatUpcomingDate(g.date);
+                        navigate(`/matchup/${g.visitingTeamId}/${g.homeTeamId}/${encodeURIComponent(displayDate)}`);
                       } else if (g.gameId) {
                         navigate(`/game/${g.gameId}`);
                       }
@@ -233,6 +234,14 @@ function isDateToday(dateStr) {
   if (isNaN(d)) return false;
   const now = new Date();
   return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
+}
+
+/** Convert "2026-03-29" to "Mar 29, 2026" to match upcoming game date format. */
+function formatUpcomingDate(dateStr) {
+  if (!dateStr) return dateStr;
+  const d = new Date(/^\d{4}-/.test(dateStr) ? dateStr + "T12:00:00" : dateStr);
+  if (isNaN(d)) return dateStr;
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 }
 
 /** Normalize both "2026-03-28" and "Mar 28, 2026" to a comparable YYYY-MM-DD string. */
