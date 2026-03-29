@@ -40,9 +40,14 @@ export default function Dashboard() {
   const scorebarFinals = scorebarGames
     .filter((g) => getGameType(g) === "final")
     .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  // Only show today's pregame games in the scores strip — future days are in Upcoming
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayPregames = scorebarGames.filter(
+    (g) => getGameType(g) === "pregame" && normalizeDate(g.date) === todayStr
+  );
   const mergedGames = [
     ...scorebarGames.filter((g) => getGameType(g) === "live"),
-    ...scorebarGames.filter((g) => getGameType(g) === "pregame"),
+    ...todayPregames,
     ...scorebarFinals,
     ...recentScores,
   ];
