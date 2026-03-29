@@ -76,8 +76,9 @@ function BoxScoreContent({ data }) {
         <div className="bs-sep">
           <span className="bs-final-label">{
             data.isFinal ? "Final"
-              : gameInfo.period ? (gameInfo.intermission ? `${gameInfo.period} INT` : `${gameInfo.period} · ${gameInfo.clock}`)
-              : "In Progress"
+              : (gameInfo.status && !/^Final/.test(gameInfo.status)) ? gameInfo.status
+              : gameInfo.period && gameInfo.clock ? `${gameInfo.period} · ${gameInfo.clock}`
+              : gameInfo.period || "In Progress"
           }</span>
         </div>
         <div className="bs-team-side bs-team-home">

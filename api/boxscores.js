@@ -21,6 +21,10 @@ module.exports = async function handler(req, res) {
       if (idx >= 0) dateStr = `${MONTHS[idx]} ${dateMatch[2]}, ${dateMatch[3]}`;
     }
 
+    // Get current period/clock from the last period in the summary
+    const periods = summary.periods || [];
+    const lastPeriod = periods.length ? periods[periods.length - 1] : null;
+
     const gameInfo = {
       gameId: d.id,
       visitingTeam: vis.info?.city || "",
@@ -29,9 +33,9 @@ module.exports = async function handler(req, res) {
       arena: d.venue || "",
       attendance: d.attendance || 0,
       finalScore: { visiting: num(vis.stats?.goals), home: num(home.stats?.goals) },
-      period: d.periodLongName || d.period || "",
-      clock: d.gameClock || d.clock || "",
-      intermission: d.intermission === "1" || d.intermission === 1,
+      period: lastPeriod?.info?.longName || "",
+      clock: d.GameClock || d.gameClock || d.clock || "",
+      status: d.GameStatusStringLong || d.GameStatusString || d.status || "",
     };
 
     // Period scoring
