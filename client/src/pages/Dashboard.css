@@ -251,8 +251,9 @@
   min-width: 0;
 }
 
-.upcoming-day-today {
-  border-color: rgba(59, 130, 246, 0.3);
+.upcoming-day.upcoming-day-today {
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.1);
 }
 
 .upcoming-header {
