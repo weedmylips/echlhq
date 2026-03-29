@@ -350,6 +350,33 @@ export function useUpcoming() {
   });
 }
 
+export function useScorebar() {
+  const query = useQuery({
+    queryKey: ["scorebar"],
+    queryFn: api.scorebar,
+    staleTime: 20 * 1000,
+    refetchInterval: (query) => {
+      const games = query.state.data?.games;
+      if (!games?.length) return false;
+      const hasLive = games.some(
+        (g) => g.period && !/^Final/.test(g.status)
+      );
+      if (hasLive) return 30 * 1000;
+      const hasUpcoming = games.some(
+        (g) => !g.period && !/^Final/.test(g.status)
+      );
+      if (hasUpcoming) return 5 * 60 * 1000;
+      return false;
+    },
+    refetchOnWindowFocus: true,
+  });
+
+  const games = query.data?.games || [];
+  const isLive = games.some((g) => g.period && !/^Final/.test(g.status));
+
+  return { ...query, isLive };
+}
+
 // Fetches last-5-game boxscores for two teams and aggregates per-player stats.
 // Returns { team1: [...top3], team2: [...top3], isLoading }
 export function useMatchupPlayers(teamId1, teamId2) {

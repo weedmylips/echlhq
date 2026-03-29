@@ -169,6 +169,66 @@
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* ── Live game chip ── */
+.score-chip.chip-live {
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.score-chip.chip-live:hover:not(:disabled) {
+  border-color: rgba(239, 68, 68, 0.5);
+}
+
+.chip-status-live {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.live-badge {
+  background: #ef4444;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  animation: live-pulse 2s ease-in-out infinite;
+}
+
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.chip-period {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-secondary, #ccc);
+}
+
+.chip-pregame-time {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* ── Date Separator ── */
+.scores-date-sep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
 .dashboard .empty-msg {
   color: var(--text-muted);
   font-size: 13px;
@@ -310,6 +370,29 @@
   font-size: 10px;
   color: var(--text-muted);
   white-space: nowrap;
+}
+
+/* ── Show More Button ── */
+.upcoming-show-more {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: center;
+}
+
+.upcoming-show-more:hover {
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  border-color: var(--accent);
 }
 
 /* ── Leaders Sidebar ── */

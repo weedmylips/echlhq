@@ -1,0 +1,12 @@
+{
+  "installCommand": "cd client && npm install",
+  "buildCommand": "cd client && npm run build",
+  "outputDirectory": "client/dist",
+  "framework": null,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/api/boxscores/(?<gameId>[^/]+)", "dest": "/api/boxscores?gameId=$gameId" },
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
