@@ -52,16 +52,12 @@ export default function Dashboard() {
     ...recentScores,
   ];
 
-  // Filter out final games from upcoming; live games stay (shown with scores)
+  // Build scorebar lookup for live/final game data overlay
   const scorebarByKey = {};
   for (const sg of scorebarGames) {
     scorebarByKey[`${sg.visitingTeamId}-${sg.homeTeamId}-${normalizeDate(sg.date)}`] = sg;
   }
-  const filteredUpcoming = upcomingGames.filter((g) => {
-    const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`];
-    if (!sg) return true;
-    return getGameType(sg) !== "final";
-  });
+  const filteredUpcoming = upcomingGames;
 
   // Group upcoming games by day+date
   const byDay = filteredUpcoming.reduce((acc, g) => {
@@ -155,13 +151,16 @@ export default function Dashboard() {
                         const visitingConfig = TEAMS[g.visitingTeamId];
                         const homeConfig = TEAMS[g.homeTeamId];
                         const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`];
-                        const isLive = sg && getGameType(sg) === "live";
+                        const gameType = sg ? getGameType(sg) : null;
+                        const isLive = gameType === "live";
+                        const isFinal = gameType === "final";
+                        const hasScore = isLive || isFinal;
                         return (
                           <button
                             key={i}
-                            className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}`}
+                            className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}${isFinal ? " upcoming-game-final" : ""}`}
                             onClick={() => {
-                              if (isLive && sg.gameId) {
+                              if ((isLive || isFinal) && sg.gameId) {
                                 navigate(`/game/${sg.gameId}`);
                               } else if (g.visitingTeamId && g.homeTeamId) {
                                 navigate(`/matchup/${g.visitingTeamId}/${g.homeTeamId}/${encodeURIComponent(g.date)}`);
@@ -173,7 +172,7 @@ export default function Dashboard() {
                                 <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
                               )}
                               <span className="upcoming-name">{g.visitingTeam}</span>
-                              {isLive && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
+                              {hasScore && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
                             </div>
                             <div className="upcoming-center">
                               {isLive ? (
@@ -183,6 +182,8 @@ export default function Dashboard() {
                                     {sg.intermission ? `${sg.period} INT` : `${sg.period} · ${sg.clock}`}
                                   </span>
                                 </>
+                              ) : isFinal ? (
+                                <span className="upcoming-final-label">Final</span>
                               ) : (
                                 <>
                                   <span className="upcoming-at">@</span>
@@ -191,7 +192,7 @@ export default function Dashboard() {
                               )}
                             </div>
                             <div className="upcoming-team upcoming-home">
-                              {isLive && <span className="upcoming-live-score">{sg.homeGoals}</span>}
+                              {hasScore && <span className="upcoming-live-score">{sg.homeGoals}</span>}
                               <span className="upcoming-name">{g.homeTeam}</span>
                               {homeConfig?.logoUrl && (
                                 <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />

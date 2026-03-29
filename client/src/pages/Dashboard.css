@@ -381,6 +381,18 @@
   background: rgba(76, 175, 80, 0.06);
 }
 
+.upcoming-game-final {
+  opacity: 0.7;
+}
+
+.upcoming-final-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
 .upcoming-live-score {
   font-size: 18px;
   font-weight: 700;

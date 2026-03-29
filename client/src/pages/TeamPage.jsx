@@ -282,15 +282,7 @@ export default function TeamPage() {
                 scorebarByKey[key] = sg;
               }
               const teamGames = (upcomingData?.games || [])
-                .filter((g) => g.visitingTeamId === tid || g.homeTeamId === tid)
-                .filter((g) => {
-                  // Filter out games that are already final in the scorebar
-                  const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
-                  if (!sg) return true;
-                  const isFinal = /^Final/.test(sg.status) ||
-                    (sg.clock === "00:00" && /^(3rd|OT|SO)/.test(sg.period));
-                  return !isFinal;
-                });
+                .filter((g) => g.visitingTeamId === tid || g.homeTeamId === tid);
               if (!teamGames.length) return null;
               return (
                 <div className="card section-card" style={{ gridColumn: "1 / -1" }}>
@@ -302,13 +294,16 @@ export default function TeamPage() {
                       const visitingConfig = TEAMS[g.visitingTeamId];
                       const homeConfig = TEAMS[g.homeTeamId];
                       const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
-                      const isLive = sg && getGameType(sg) === "live";
+                      const gameType = sg ? getGameType(sg) : null;
+                      const isLive = gameType === "live";
+                      const isFinal = gameType === "final";
+                      const hasScore = isLive || isFinal;
                       return (
                         <button
                           key={i}
-                          className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}`}
+                          className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}${isFinal ? " upcoming-game-final" : ""}`}
                           onClick={() => {
-                            if (isLive && sg.gameId) {
+                            if ((isLive || isFinal) && sg.gameId) {
                               navigate(`/game/${sg.gameId}`);
                             } else if (g.visitingTeamId && g.homeTeamId) {
                               setSelectedMatchup(g);
@@ -320,7 +315,7 @@ export default function TeamPage() {
                               <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
                             )}
                             <span className="upcoming-name">{g.visitingTeam}</span>
-                            {isLive && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
+                            {hasScore && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
                           </div>
                           <div className="upcoming-center">
                             {isLive ? (
@@ -330,6 +325,8 @@ export default function TeamPage() {
                                   {sg.intermission ? `${sg.period} INT` : `${sg.period} · ${sg.clock}`}
                                 </span>
                               </>
+                            ) : isFinal ? (
+                              <span className="upcoming-final-label">Final</span>
                             ) : (
                               <>
                                 <span className="upcoming-at">@</span>
@@ -338,7 +335,7 @@ export default function TeamPage() {
                             )}
                           </div>
                           <div className="upcoming-team upcoming-home">
-                            {isLive && <span className="upcoming-live-score">{sg.homeGoals}</span>}
+                            {hasScore && <span className="upcoming-live-score">{sg.homeGoals}</span>}
                             <span className="upcoming-name">{g.homeTeam}</span>
                             {homeConfig?.logoUrl && (
                               <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
