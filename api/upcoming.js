@@ -9,7 +9,8 @@ module.exports = async function handler(req, res) {
     const games = [];
 
     for (const g of schedule) {
-      if (g.final === "1" || g.date_played < today) continue;
+      if (g.date_played < today) continue;
+      if (g.final === "1" && g.date_played !== today) continue;
       const d = new Date(g.date_played + "T12:00:00Z");
 
       let timeStr = g.scheduled_time || "";
