@@ -84,7 +84,13 @@ export default function Dashboard() {
                 return (
                   <React.Fragment key={g.gameId || i}>
                     {showSep && <div className="scores-date-sep">{formatDateLabel(g.date)}</div>}
-                    <ScoreChip game={g} onClick={() => g.gameId && navigate(`/game/${g.gameId}`)} />
+                    <ScoreChip game={g} onClick={() => {
+                      if (getGameType(g) === "pregame" && g.visitingTeamId && g.homeTeamId) {
+                        navigate(`/matchup/${g.visitingTeamId}/${g.homeTeamId}/${encodeURIComponent(g.date)}`);
+                      } else if (g.gameId) {
+                        navigate(`/game/${g.gameId}`);
+                      }
+                    }} />
                   </React.Fragment>
                 );
               })}
