@@ -349,6 +349,16 @@
   flex-shrink: 0;
 }
 
+/* ── Schedule Tab ── */
+.schedule-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
 /* ── Team Stats ── */
 .stats-panels {
   display: grid;

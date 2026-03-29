@@ -254,7 +254,7 @@ export default function TeamPage() {
 
       {/* ── Tabs ── */}
       <div className="team-tabs">
-        {[["overview", "Overview"], ["roster", "Roster"], ["stats", "Team Stats"]].map(([tab, label]) => (
+        {[["overview", "Overview"], ["roster", "Roster"], ["schedule", "Schedule"], ["stats", "Team Stats"]].map(([tab, label]) => (
           <button
             key={tab}
             className={`team-tab${activeTab === tab ? " active" : ""}`}
@@ -685,6 +685,20 @@ export default function TeamPage() {
 
           </div>
         </div>
+      )}
+
+      {/* ── Schedule Tab ── */}
+      {activeTab === "schedule" && (
+        <ScheduleTab
+          recentScores={recentScores}
+          upcomingData={upcomingData}
+          scorebarGames={scorebarGames}
+          teamId={teamId}
+          team={team}
+          navigate={navigate}
+          setSelectedGameId={setSelectedGameId}
+          setSelectedMatchup={setSelectedMatchup}
+        />
       )}
 
       {selectedGameId && (
@@ -1436,6 +1450,142 @@ function statusBadge(p) {
   }
   if (p._status === "leave") return <span className="status-badge status-badge-inline status-badge-res">LEAVE</span>;
   return null;
+}
+
+// ─── Schedule Tab ─────────────────────────────────────────────────────────────
+function ScheduleTab({ recentScores, upcomingData, scorebarGames, teamId, team, navigate, setSelectedGameId, setSelectedMatchup }) {
+  const tid = parseInt(teamId, 10);
+
+  // Last 5 games, reversed to chronological order (oldest first)
+  const last5 = (recentScores || []).slice(0, 5).reverse();
+
+  // Build scorebar lookup for live overlays
+  const scorebarByKey = {};
+  for (const sg of scorebarGames) {
+    scorebarByKey[`${sg.visitingTeamId}-${sg.homeTeamId}`] = sg;
+  }
+
+  // IDs of recent games to avoid duplicates in upcoming
+  const recentIds = new Set((recentScores || []).map((g) => g.gameId).filter(Boolean));
+
+  // Next 15 upcoming games for this team, excluding already-final games in recent results
+  const next15 = (upcomingData?.games || [])
+    .filter((g) => g.visitingTeamId === tid || g.homeTeamId === tid)
+    .filter((g) => {
+      const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
+      if (sg && getGameType(sg) === "final" && recentIds.has(sg.gameId)) return false;
+      return true;
+    })
+    .slice(0, 15);
+
+  return (
+    <div className="schedule-tab">
+      {/* Recent Results */}
+      <div className="card section-card">
+        <div className="card-header">
+          <span className="section-label" style={{ margin: 0 }}>Recent Results</span>
+        </div>
+        {last5.length > 0 ? (
+          <div className="recent-games-list">
+            {last5.map((game, i) => {
+              const result = getResult(game, team.city);
+              const isHome = (game.homeTeam || "").toLowerCase().includes(team.city.toLowerCase());
+              const opp = isHome ? game.visitingTeam : game.homeTeam;
+              const myScore = isHome ? game.homeScore : game.visitingScore;
+              const oppScore = isHome ? game.visitingScore : game.homeScore;
+              return (
+                <div
+                  key={i}
+                  className="recent-game-row"
+                  onClick={() => game.gameId && setSelectedGameId(game.gameId)}
+                  style={{ cursor: game.gameId ? "pointer" : "default" }}
+                >
+                  <ResultBadge result={result} />
+                  <span className="rg-loc">{isHome ? "vs" : "@"}</span>
+                  <span className="rg-opp">{opp}</span>
+                  <span className="rg-score">
+                    {myScore !== undefined ? `${myScore}–${oppScore}` : "—"}
+                    {game.overtime ? ` (${game.overtime})` : ""}
+                  </span>
+                  <span className="rg-date">{game.date || "—"}</span>
+                  {game.gameId && <span className="rg-link">Box Score →</span>}
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <p className="empty-msg" style={{ padding: "16px" }}>No recent games available.</p>
+        )}
+      </div>
+
+      {/* Upcoming / Live Games */}
+      <div className="card section-card">
+        <div className="card-header">
+          <span className="section-label" style={{ margin: 0 }}>Upcoming Games</span>
+        </div>
+        {next15.length > 0 ? (
+          <div className="upcoming-day-games">
+            {next15.map((g, i) => {
+              const visitingConfig = TEAMS[g.visitingTeamId];
+              const homeConfig = TEAMS[g.homeTeamId];
+              const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
+              const gameType = sg ? getGameType(sg) : null;
+              const isLive = gameType === "live";
+              const isFinal = gameType === "final";
+              const hasScore = isLive || isFinal;
+              return (
+                <button
+                  key={i}
+                  className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}${isFinal ? " upcoming-game-final" : ""}`}
+                  onClick={() => {
+                    if ((isLive || isFinal) && sg.gameId) {
+                      navigate(`/game/${sg.gameId}`);
+                    } else if (g.visitingTeamId && g.homeTeamId) {
+                      setSelectedMatchup(g);
+                    }
+                  }}
+                >
+                  <div className="upcoming-team upcoming-away">
+                    {visitingConfig?.logoUrl && (
+                      <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
+                    )}
+                    <span className="upcoming-name">{g.visitingTeam}</span>
+                    {hasScore && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
+                  </div>
+                  <div className="upcoming-center">
+                    {isLive ? (
+                      <>
+                        <span className="live-badge">LIVE</span>
+                        <span className="upcoming-live-period">
+                          {sg.intermission ? `${sg.period} INT` : `${sg.period} · ${sg.clock}`}
+                        </span>
+                      </>
+                    ) : isFinal ? (
+                      <span className="upcoming-final-label">Final</span>
+                    ) : (
+                      <>
+                        <span className="upcoming-at">@</span>
+                        <span className="upcoming-time">{g.time}</span>
+                      </>
+                    )}
+                  </div>
+                  <div className="upcoming-team upcoming-home">
+                    {hasScore && <span className="upcoming-live-score">{sg.homeGoals}</span>}
+                    <span className="upcoming-name">{g.homeTeam}</span>
+                    {homeConfig?.logoUrl && (
+                      <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
+                    )}
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        ) : (
+          <p className="empty-msg" style={{ padding: "16px" }}>No upcoming games scheduled.</p>
+        )}
+      </div>
+    </div>
+  );
 }
 
 function RosterTab({ playersData, rosterData }) {
