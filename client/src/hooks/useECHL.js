@@ -60,12 +60,12 @@ export function useBoxscore(gameId) {
       return data;
     },
     enabled: !!gameId,
-    staleTime: 30 * 1000,
+    staleTime: 15 * 1000,
     retry: 1,
     refetchInterval: (query) => {
       const data = query.state.data;
       if (!data || data.isFinal) return false;
-      return 30 * 1000;
+      return 15 * 1000;
     },
   });
 }

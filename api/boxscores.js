@@ -127,8 +127,8 @@ module.exports = async function handler(req, res) {
     const isFinal = d.final === "1" || d.final === 1;
 
     // Final boxscores never change — cache aggressively
-    const maxAge = isFinal ? 3600 : 60;
-    const swr = isFinal ? 86400 : 120;
+    const maxAge = isFinal ? 3600 : 30;
+    const swr = isFinal ? 86400 : 60;
     setCache(res, maxAge, swr);
 
     res.json({
