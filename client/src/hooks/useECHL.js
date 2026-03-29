@@ -375,7 +375,7 @@ export function useScorebar() {
       if (!games?.length) return false;
       const isLive = (g) => g.period && !/^Final/.test(g.status) &&
         !((g.clock === "00:00" || g.clock === "20:00") && g.period === "1st");
-      if (games.some(isLive)) return 30 * 1000;
+      if (games.some(isLive)) return 15 * 1000;
       // Check how soon the next pregame game starts
       const upcoming = games.filter((g) => !isLive(g) && !/^Final/.test(g.status));
       if (!upcoming.length) return false;

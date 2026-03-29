@@ -28,7 +28,7 @@ module.exports = async function handler(req, res) {
       floHockeyUrl: g.FloHockeyUrl || "",
     }));
 
-    setCache(res, 30, 60);
+    setCache(res, 60, 120);
     res.json({ games, scrapedAt: new Date().toISOString() });
   } catch (err) {
     res.status(500).json({ error: err.message });
