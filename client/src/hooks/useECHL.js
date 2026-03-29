@@ -373,14 +373,13 @@ export function useScorebar() {
     refetchInterval: (query) => {
       const games = query.state.data?.games;
       if (!games?.length) return false;
-      const hasLive = games.some(
-        (g) => g.period && !/^Final/.test(g.status)
-      );
-      if (hasLive) return 30 * 1000;
+      const isLive = (g) => g.period && !/^Final/.test(g.status) &&
+        !((g.clock === "00:00" || g.clock === "20:00") && g.period === "1st");
+      if (games.some(isLive)) return 30 * 1000;
       const hasUpcoming = games.some(
-        (g) => !g.period && !/^Final/.test(g.status)
+        (g) => !isLive(g) && !/^Final/.test(g.status)
       );
-      if (hasUpcoming) return 5 * 60 * 1000;
+      if (hasUpcoming) return 2 * 60 * 1000;
       return false;
     },
     refetchOnWindowFocus: true,
