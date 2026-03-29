@@ -74,7 +74,7 @@ function BoxScoreContent({ data }) {
           )}
         </div>
         <div className="bs-sep">
-          {(data.isFinal || /^Final/.test(gameInfo.status)) ? (
+          {(data.isFinal || /Final/i.test(gameInfo.status)) ? (
             <span className="bs-final-label">Final</span>
           ) : (() => {
             // Parse clock/period from status string like "In Progress (0:42 remaining in 2nd)"

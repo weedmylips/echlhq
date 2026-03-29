@@ -373,7 +373,7 @@ export function useScorebar() {
     refetchInterval: (query) => {
       const games = query.state.data?.games;
       if (!games?.length) return false;
-      const isLive = (g) => g.period && !/^Final/.test(g.status) &&
+      const isLive = (g) => g.period && !/Final/i.test(g.status) &&
         !((g.clock === "00:00" || g.clock === "20:00") && g.period === "1st");
       if (games.some(isLive)) return 15 * 1000;
       // Check how soon the next pregame game starts
