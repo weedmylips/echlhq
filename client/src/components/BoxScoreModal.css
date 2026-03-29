@@ -145,6 +145,22 @@
   border-radius: 999px;
 }
 
+.bs-live-clock {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+
+.bs-live-period {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
 .bs-meta {
   text-align: center;
   font-size: 12px;

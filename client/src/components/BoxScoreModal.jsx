@@ -74,12 +74,22 @@ function BoxScoreContent({ data }) {
           )}
         </div>
         <div className="bs-sep">
-          <span className="bs-final-label">{
-            data.isFinal ? "Final"
-              : (gameInfo.status && !/^Final/.test(gameInfo.status)) ? gameInfo.status
-              : gameInfo.period && gameInfo.clock ? `${gameInfo.period} · ${gameInfo.clock}`
-              : gameInfo.period || "In Progress"
-          }</span>
+          {data.isFinal ? (
+            <span className="bs-final-label">Final</span>
+          ) : (() => {
+            // Parse clock/period from status string like "In Progress (0:42 remaining in 2nd)"
+            const statusMatch = (gameInfo.status || "").match(/(\d{1,2}:\d{2})\s+remaining\s+in\s+(\w+)/i);
+            const clock = gameInfo.clock || (statusMatch && statusMatch[1]);
+            const period = gameInfo.period || (statusMatch && statusMatch[2]);
+            return clock && period ? (
+              <>
+                <span className="bs-live-clock">{clock}</span>
+                <span className="bs-live-period">{period}</span>
+              </>
+            ) : (
+              <span className="bs-final-label">In Progress</span>
+            );
+          })()}
         </div>
         <div className="bs-team-side bs-team-home">
           {homeTeam?.logoUrl ? (
