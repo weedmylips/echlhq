@@ -1034,15 +1034,17 @@ tr.playoff-cutoff td {
   .team-bottom-tab {
     flex: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 4px;
+    gap: 3px;
+    padding: 6px 4px 8px;
     border: none;
     border-top: 2px solid transparent;
     background: none;
     color: var(--text-muted);
     font-family: inherit;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     cursor: pointer;
     transition: color 0.15s;
