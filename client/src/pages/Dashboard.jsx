@@ -155,8 +155,7 @@ export default function Dashboard() {
                         const visitingConfig = TEAMS[g.visitingTeamId];
                         const homeConfig = TEAMS[g.homeTeamId];
                         const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}-${normalizeDate(g.date)}`];
-                        const isLive = sg && sg.period && !/^Final/.test(sg.status) &&
-                          !(sg.clock === "00:00" && sg.period === "1st");
+                        const isLive = sg && getGameType(sg) === "live";
                         return (
                           <button
                             key={i}

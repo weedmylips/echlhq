@@ -302,8 +302,7 @@ export default function TeamPage() {
                       const visitingConfig = TEAMS[g.visitingTeamId];
                       const homeConfig = TEAMS[g.homeTeamId];
                       const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
-                      const isLive = sg && sg.period && !/^Final/.test(sg.status) &&
-                        !(sg.clock === "00:00" && sg.period === "1st");
+                      const isLive = sg && getGameType(sg) === "live";
                       return (
                         <button
                           key={i}
@@ -1311,6 +1310,15 @@ function StatBlock({ label, value, rank, valueColor }) {
       {rank && <div className="stat-block-rank">{rank}</div>}
     </div>
   );
+}
+
+function getGameType(game) {
+  const isFinal = /^Final/.test(game.status) ||
+    (game.clock === "00:00" && /^(3rd|OT|SO)/.test(game.period));
+  const isPregame = game.clock === "00:00" && game.period === "1st" && !/^Final/.test(game.status);
+  if (isFinal) return "final";
+  if (isPregame || !game.period) return "pregame";
+  return "live";
 }
 
 function parseStreak(streak) {
