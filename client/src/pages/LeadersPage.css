@@ -202,9 +202,60 @@
   }
 }
 
+/* ── Mobile pill bar (hidden on desktop) ─────────────────────────── */
+
+.leaders-pill-bar {
+  display: none;
+}
+
+.leaders-mobile-card {
+  display: none;
+}
+
+.leaders-pill-bar {
+  overflow-x: auto;
+  gap: 6px;
+  padding: 4px 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.leaders-pill-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.leaders-pill {
+  flex-shrink: 0;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+
+.leaders-pill--active {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
 @media (max-width: 540px) {
-  .leaders-grid--skaters,
-  .leaders-grid--goalies {
-    grid-template-columns: 1fr;
+  .leaders-desktop-grids {
+    display: none;
+  }
+
+  .leaders-pill-bar {
+    display: flex;
+  }
+
+  .leaders-mobile-card {
+    display: block;
   }
 }

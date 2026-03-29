@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useLeaders, useFightingMajors } from "../hooks/useECHL.js";
 import ShareButton from "../components/ShareButton.jsx";
@@ -127,10 +127,21 @@ function FightingMajorsCard({ data }) {
   );
 }
 
+// Build pill list for skaters (includes Fighting Majors after Major Penalties)
+const SKATER_PILLS = [];
+for (const cat of SKATER_CARDS) {
+  SKATER_PILLS.push({ key: cat.key, label: cat.label });
+  if (cat.key === "majors") SKATER_PILLS.push({ key: "fightingMajors", label: "FIGHTING MAJORS" });
+}
+
 export default function LeadersPage() {
   const { data, isLoading, error } = useLeaders();
   const { data: fmData } = useFightingMajors();
   const leaders = data?.leaders || {};
+  const [skaterCat, setSkaterCat] = useState("points");
+  const [goalieCat, setGoalieCat] = useState("gaa");
+
+  const selectedSkater = SKATER_CARDS.find((c) => c.key === skaterCat);
 
   return (
     <div className="leaders-page">
@@ -152,7 +163,26 @@ export default function LeadersPage() {
       {!isLoading && !error && (
         <>
           <div className="leaders-section-label">SKATERS</div>
-          <div className="leaders-grid leaders-grid--skaters">
+          {/* Mobile pills */}
+          <div className="leaders-pill-bar">
+            {SKATER_PILLS.map((p) => (
+              <button
+                key={p.key}
+                className={`leaders-pill${skaterCat === p.key ? " leaders-pill--active" : ""}`}
+                onClick={() => setSkaterCat(p.key)}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
+          <div className="leaders-mobile-card">
+            {skaterCat === "fightingMajors"
+              ? <FightingMajorsCard data={fmData} />
+              : selectedSkater && <StatCard cat={selectedSkater} leaders={leaders} />
+            }
+          </div>
+          {/* Desktop grid */}
+          <div className="leaders-grid leaders-grid--skaters leaders-desktop-grids">
             {SKATER_CARDS.map((cat) => (
               <React.Fragment key={cat.key}>
                 <StatCard cat={cat} leaders={leaders} />
@@ -162,13 +192,30 @@ export default function LeadersPage() {
           </div>
 
           <div className="leaders-section-label">GOALTENDERS</div>
-          <div className="leaders-grid leaders-grid--goalies">
+          {/* Mobile pills */}
+          <div className="leaders-pill-bar">
+            {GOALIE_CARDS.map((cat) => (
+              <button
+                key={cat.key}
+                className={`leaders-pill${goalieCat === cat.key ? " leaders-pill--active" : ""}`}
+                onClick={() => setGoalieCat(cat.key)}
+              >
+                {cat.label}
+              </button>
+            ))}
+          </div>
+          <div className="leaders-mobile-card">
+            {(() => {
+              const cat = GOALIE_CARDS.find((c) => c.key === goalieCat);
+              return cat ? <StatCard cat={cat} leaders={leaders} /> : null;
+            })()}
+          </div>
+          {/* Desktop grid */}
+          <div className="leaders-grid leaders-grid--goalies leaders-desktop-grids">
             {GOALIE_CARDS.map((cat) => (
               <StatCard key={cat.key} cat={cat} leaders={leaders} />
             ))}
           </div>
-
-
         </>
       )}
     </div>
