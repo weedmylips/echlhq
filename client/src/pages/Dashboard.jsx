@@ -300,7 +300,7 @@ function formatDateLabel(dateStr) {
 function getGameType(game) {
   const isFinal = /^Final/.test(game.status) ||
     (game.clock === "00:00" && /^(3rd|OT|SO)/.test(game.period));
-  const isPregame = game.clock === "00:00" && game.period === "1st" && !/^Final/.test(game.status);
+  const isPregame = (game.clock === "00:00" || game.clock === "20:00") && game.period === "1st" && !/^Final/.test(game.status);
   if (isFinal) return "final";
   if (isPregame || !game.period) return "pregame";
   return "live";
