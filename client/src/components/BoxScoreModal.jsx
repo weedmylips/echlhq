@@ -74,19 +74,23 @@ function BoxScoreContent({ data }) {
           )}
         </div>
         <div className="bs-sep">
-          {data.isFinal ? (
+          {(data.isFinal || /^Final/.test(gameInfo.status)) ? (
             <span className="bs-final-label">Final</span>
           ) : (() => {
             // Parse clock/period from status string like "In Progress (0:42 remaining in 2nd)"
             const statusMatch = (gameInfo.status || "").match(/(\d{1,2}:\d{2})\s+remaining\s+in\s+(\w+)/i);
             const clock = gameInfo.clock || (statusMatch && statusMatch[1]);
             const period = gameInfo.period || (statusMatch && statusMatch[2]);
-            return clock && period ? (
+            // Also treat 3rd/OT/SO at 00:00 as final
+            const looksOver = clock === "00:00" && /^(3rd|OT|SO)/.test(period);
+            return (clock && period && !looksOver) ? (
               <>
                 <span className="live-badge">LIVE</span>
                 <span className="bs-live-clock">{clock}</span>
                 <span className="bs-live-period">{period}</span>
               </>
+            ) : looksOver ? (
+              <span className="bs-final-label">Final</span>
             ) : (
               <span className="live-badge">LIVE</span>
             );
