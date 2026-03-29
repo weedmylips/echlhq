@@ -251,6 +251,10 @@
   min-width: 0;
 }
 
+.upcoming-day-today {
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
 .upcoming-header {
   padding: 14px 16px;
   border-bottom: 1.5px solid var(--border);

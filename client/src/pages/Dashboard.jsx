@@ -112,17 +112,19 @@ export default function Dashboard() {
             <>
               {visibleDays.map((dayKey, index) => {
                 const [dayLabel, dayDate] = dayKey.split("|");
+                const isToday = isDateToday(dayDate);
+                const displayLabel = isToday ? "Today" : dayLabel;
                 return (
-                  <div key={dayKey} className="upcoming-day card">
+                  <div key={dayKey} className={`upcoming-day card${isToday ? " upcoming-day-today" : ""}`}>
                     {index === 0 ? (
                       <div className="upcoming-header">
                         <div className="section-label" style={{ margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
-                          Upcoming Games <span className="upcoming-header-sep">&bull;</span> <span className="upcoming-header-date">{dayLabel} {dayDate}</span>
+                          Upcoming Games <span className="upcoming-header-sep">&bull;</span> <span className="upcoming-header-date">{displayLabel} {dayDate}</span>
                         </div>
                       </div>
                     ) : (
                       <div className="upcoming-day-header">
-                        {dayLabel} <span className="upcoming-day-date">{dayDate}</span>
+                        {displayLabel} <span className="upcoming-day-date">{dayDate}</span>
                       </div>
                     )}
                     <div className="upcoming-day-games">
@@ -216,6 +218,15 @@ export default function Dashboard() {
       })()}
     </div>
   );
+}
+
+/** Check if a date string like "Mar 29, 2026" is today. */
+function isDateToday(dateStr) {
+  if (!dateStr) return false;
+  const d = new Date(dateStr);
+  if (isNaN(d)) return false;
+  const now = new Date();
+  return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
 }
 
 /** Normalize both "2026-03-28" and "Mar 28, 2026" to a comparable YYYY-MM-DD string. */
