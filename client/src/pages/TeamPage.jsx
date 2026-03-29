@@ -1542,7 +1542,7 @@ function ScheduleTab({ recentScores, upcomingData, scorebarGames, teamId, team, 
                 className={`schedule-row schedule-row-upcoming${isLive ? " schedule-row-live" : ""}${isFinal ? " schedule-row-final" : ""}`}
                 onClick={() => {
                   if ((isLive || isFinal) && sg?.gameId) {
-                    navigate(`/game/${sg.gameId}`);
+                    setSelectedGameId(sg.gameId);
                   } else if (g.visitingTeamId && g.homeTeamId) {
                     setSelectedMatchup(g);
                   }
