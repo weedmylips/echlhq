@@ -2,7 +2,7 @@ const { apiFetch, HT_TO_INTERNAL, num, setCache } = require("./lib/hockeytech");
 
 module.exports = async function handler(req, res) {
   try {
-    const data = await apiFetch("modulekit", "scorebar", { numberofdaysback: "1", numberofdaysahead: "1" });
+    const data = await apiFetch("modulekit", "scorebar", { numberofdaysback: "2", numberofdaysahead: "2" });
     const raw = data?.SiteKit?.Scorebar || [];
 
     const games = raw.map((g) => ({
