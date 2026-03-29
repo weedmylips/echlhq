@@ -24,6 +24,7 @@ module.exports = async function handler(req, res) {
     // Get current period/clock from the last period in the summary
     const periods = summary.periods || [];
     const lastPeriod = periods.length ? periods[periods.length - 1] : null;
+    const isFinal = d.final === "1" || d.final === 1;
 
     const gameInfo = {
       gameId: d.id,
@@ -111,6 +112,8 @@ module.exports = async function handler(req, res) {
           minutes: pen.minutes || 0,
           infraction: [pen.description, pen.ruleNumber ? `(${pen.ruleNumber})` : ""].filter(Boolean).join(" "),
           time: pen.time || "",
+          // Debug: pass through all raw penalty fields to inspect during live games
+          _raw: isFinal ? undefined : pen,
         });
       }
     }
@@ -124,8 +127,6 @@ module.exports = async function handler(req, res) {
       return star;
     });
 
-    const isFinal = d.final === "1" || d.final === 1;
-
     // Final boxscores never change — cache aggressively
     const maxAge = isFinal ? 3600 : 30;
     const swr = isFinal ? 86400 : 60;
@@ -136,6 +137,8 @@ module.exports = async function handler(req, res) {
       skaterStats: { visiting: mapSkaters(vis.skaters), home: mapSkaters(home.skaters) },
       goalieStats: { visiting: mapGoalies(vis.goalies), home: mapGoalies(home.goalies) },
       penalties, stars, isFinal, scrapedAt: new Date().toISOString(),
+      // Debug: raw details for live games to inspect available fields
+      _rawDetails: isFinal ? undefined : d,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
