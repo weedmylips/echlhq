@@ -356,8 +356,119 @@
   gap: 16px;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 16px;
+  margin-top: 16px;
   width: 100%;
+}
+
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: none;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.1s;
+  width: 100%;
+}
+.schedule-row:last-child { border-bottom: none; }
+.schedule-row:hover { background: rgba(255,255,255,0.02); }
+
+.schedule-row-live { background: rgba(239,68,68,0.06); }
+.schedule-row-live:hover { background: rgba(239,68,68,0.10); }
+
+.schedule-date {
+  font-size: 12px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  width: 90px;
+  white-space: nowrap;
+}
+
+.schedule-loc {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.schedule-opp {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.schedule-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.schedule-result {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  min-width: 80px;
+  justify-content: flex-end;
+}
+
+.schedule-score {
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.schedule-time {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.schedule-live-detail {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.schedule-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+.schedule-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+@media (max-width: 600px) {
+  .schedule-date { width: 70px; font-size: 11px; }
+  .schedule-row { padding: 8px 12px; gap: 8px; }
 }
 
 /* ── Team Stats ── */
