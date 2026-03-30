@@ -499,7 +499,7 @@ export function useHotPlayers(teamId) {
     queries: gameIds.map((gid) => ({
       queryKey: ["boxscore", gid],
       queryFn: () => api.boxscoreStatic(gid),
-      staleTime: 60 * 1000,
+      staleTime: STALE,
       enabled: !!gid,
       retry: 1,
     })),
