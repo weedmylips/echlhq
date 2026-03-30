@@ -18,7 +18,7 @@ export default function Dashboard() {
 
   const stripRef = useRef(null);
   const scroll = (dir) => stripRef.current?.scrollBy({ left: dir * 600, behavior: "smooth" });
-  const [showAllDays, setShowAllDays] = useState(false);
+  const [visibleDayCount, setVisibleDayCount] = useState(2);
 
   const { data: scoresData, isLoading: scoresLoading } = useScores();
   const { data: upcomingData, isLoading: upcomingLoading } = useUpcoming();
@@ -66,9 +66,8 @@ export default function Dashboard() {
     return acc;
   }, {});
   const dayOrder = [...new Set(filteredUpcoming.map((g) => `${g.dayLabel}|${g.date}`))];
-  const DEFAULT_DAYS = 2;
-  const visibleDays = showAllDays ? dayOrder : dayOrder.slice(0, DEFAULT_DAYS);
-  const hiddenDayCount = dayOrder.length - DEFAULT_DAYS;
+  const visibleDays = dayOrder.slice(0, visibleDayCount);
+  const hasMoreDays = dayOrder.length > visibleDayCount;
 
   return (
     <div className="dashboard">
@@ -205,14 +204,12 @@ export default function Dashboard() {
                   </div>
                 );
               })}
-              {hiddenDayCount > 0 && (
+              {hasMoreDays && (
                 <button
                   className="upcoming-show-more"
-                  onClick={() => setShowAllDays((prev) => !prev)}
+                  onClick={() => setVisibleDayCount((prev) => prev + 5)}
                 >
-                  {showAllDays
-                    ? "Show Less"
-                    : `Show ${hiddenDayCount} More Day${hiddenDayCount === 1 ? "" : "s"}`}
+                  Show More Days
                 </button>
               )}
             </>
