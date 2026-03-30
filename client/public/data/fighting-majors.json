@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T15:45:24.789Z",
+  "generatedAt": "2026-03-30T11:31:35.990Z",
   "processedGames": [
     24296,
     24297,
@@ -914,8 +914,32 @@
     25251,
     25252,
     25253,
+    25254,
+    25255,
+    25256,
+    25257,
+    25258,
+    25259,
+    25260,
+    25261,
+    25262,
+    25263,
     25264,
+    25265,
+    25266,
+    25267,
+    25268,
+    25269,
     25270,
+    25271,
+    25272,
+    25273,
+    25274,
+    25275,
+    25276,
+    25277,
+    25278,
+    25279,
     25293,
     25342,
     25362,
@@ -940,30 +964,17 @@
     25400,
     25401,
     25402,
-    25259,
-    25261,
-    25262,
-    25263,
-    25265,
-    25279,
-    25254,
-    25255,
-    25256,
-    25257,
-    25258,
-    25260,
-    25266,
-    25267,
-    25268,
-    25269,
-    25271,
-    25272,
-    25273,
-    25274,
-    25275,
-    25276,
-    25277,
-    25278
+    25280,
+    25281,
+    25282,
+    25283,
+    25284,
+    25285,
+    25286,
+    25287,
+    25288,
+    25289,
+    25290
   ],
   "leaders": [
     {
@@ -1120,8 +1131,8 @@
         24799,
         25186,
         25240,
-        25392,
-        25254
+        25254,
+        25392
       ]
     },
     {
@@ -1391,6 +1402,18 @@
         25113,
         25159,
         25241
+      ]
+    },
+    {
+      "name": "W. MacKinnon",
+      "team": "Toledo",
+      "fightingMajors": 5,
+      "games": [
+        24443,
+        24929,
+        24968,
+        25177,
+        25287
       ]
     },
     {
@@ -1665,17 +1688,6 @@
       ]
     },
     {
-      "name": "W. MacKinnon",
-      "team": "Toledo",
-      "fightingMajors": 4,
-      "games": [
-        24443,
-        24929,
-        24968,
-        25177
-      ]
-    },
-    {
       "name": "A. Beraldo",
       "team": "Adirondack",
       "fightingMajors": 3,
@@ -1723,6 +1735,16 @@
         24338,
         24582,
         25095
+      ]
+    },
+    {
+      "name": "A. Samuelsson",
+      "team": "Worcester",
+      "fightingMajors": 3,
+      "games": [
+        24794,
+        24982,
+        25289
       ]
     },
     {
@@ -2080,6 +2102,15 @@
       ]
     },
     {
+      "name": "A. MacDonald",
+      "team": "Bloomington",
+      "fightingMajors": 2,
+      "games": [
+        25158,
+        25287
+      ]
+    },
+    {
       "name": "A. Nielsen",
       "team": "Maine",
       "fightingMajors": 2,
@@ -2095,15 +2126,6 @@
       "games": [
         24974,
         25152
-      ]
-    },
-    {
-      "name": "A. Samuelsson",
-      "team": "Worcester",
-      "fightingMajors": 2,
-      "games": [
-        24794,
-        24982
       ]
     },
     {
@@ -2193,6 +2215,15 @@
       "games": [
         24778,
         25006
+      ]
+    },
+    {
+      "name": "C. Donhauser",
+      "team": "Worcester",
+      "fightingMajors": 2,
+      "games": [
+        25223,
+        25289
       ]
     },
     {
@@ -2764,14 +2795,6 @@
       ]
     },
     {
-      "name": "A. MacDonald",
-      "team": "Bloomington",
-      "fightingMajors": 1,
-      "games": [
-        25158
-      ]
-    },
-    {
       "name": "A. Magera",
       "team": "Fort Wayne",
       "fightingMajors": 1,
@@ -2841,6 +2864,14 @@
       "fightingMajors": 1,
       "games": [
         24975
+      ]
+    },
+    {
+      "name": "B. Johnson",
+      "team": "Wheeling",
+      "fightingMajors": 1,
+      "games": [
+        25289
       ]
     },
     {
@@ -2929,14 +2960,6 @@
       "fightingMajors": 1,
       "games": [
         24573
-      ]
-    },
-    {
-      "name": "C. Donhauser",
-      "team": "Worcester",
-      "fightingMajors": 1,
-      "games": [
-        25223
       ]
     },
     {
@@ -3841,6 +3864,14 @@
       "fightingMajors": 1,
       "games": [
         25216
+      ]
+    },
+    {
+      "name": "R. Mahshie",
+      "team": "Wheeling",
+      "fightingMajors": 1,
+      "games": [
+        25289
       ]
     },
     {
