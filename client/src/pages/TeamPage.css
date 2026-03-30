@@ -354,6 +354,51 @@
   flex-shrink: 0;
 }
 
+/* ── Hot Players ── */
+.hot-players-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.hot-section-label {
+  padding: 6px 16px 2px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.hot-player-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-bottom: 1px solid var(--border);
+}
+.hot-player-row:last-child { border-bottom: none; }
+
+.hot-icon {
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.hot-name {
+  flex: 1;
+  font-size: 13px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hot-stats {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
 /* ── Schedule Tab ── */
 .schedule-tab {
   display: flex;

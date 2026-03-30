@@ -482,3 +482,92 @@ export function useMatchupPlayers(teamId1, teamId2) {
 
   return { team1: team1Players, team2: team2Players, isLoading };
 }
+
+export function useHotPlayers(teamId) {
+  const { data: scoresData, isLoading: scoresLoading } = useScoresStatic();
+  const scores = scoresData?.scores || [];
+  const id = teamId ? parseInt(teamId) : null;
+  const city = TEAMS[id]?.city?.toLowerCase() || "";
+
+  const gameIds = scores
+    .filter((g) => matchCity(g.homeTeam, city) || matchCity(g.visitingTeam, city))
+    .slice(0, 5)
+    .map((g) => g.gameId)
+    .filter(Boolean);
+
+  const boxscoreQueries = useQueries({
+    queries: gameIds.map((gid) => ({
+      queryKey: ["boxscore", gid],
+      queryFn: () => api.boxscoreStatic(gid),
+      staleTime: 60 * 1000,
+      enabled: !!gid,
+      retry: 1,
+    })),
+  });
+
+  const boxLoading = boxscoreQueries.some((q) => q.isLoading);
+  const isLoading = scoresLoading || boxLoading || (!scoresLoading && gameIds.length === 0 && !scoresData);
+  const boxscoreMap = {};
+  boxscoreQueries.forEach((q) => {
+    if (q.data?.gameInfo?.gameId) boxscoreMap[q.data.gameInfo.gameId] = q.data;
+  });
+
+  if (isLoading || !city) return { hotSkaters: [], hotGoalies: [], isLoading: true };
+
+  // Aggregate skaters — track games with points for streak gate
+  const skaterMap = {};
+  for (const gid of gameIds) {
+    const bs = boxscoreMap[gid];
+    if (!bs) continue;
+    const isHome = matchCity(bs.gameInfo.homeTeam || "", city);
+    const skaters = isHome ? bs.skaterStats?.home : bs.skaterStats?.visiting;
+    if (!skaters) continue;
+    for (const p of skaters) {
+      if (!p.name || p.name === "Totals:" || p.name === "Team:") continue;
+      if (!skaterMap[p.name]) skaterMap[p.name] = { name: p.name, g: 0, a: 0, pts: 0, gp: 0, plusMinus: 0, pointGames: 0 };
+      skaterMap[p.name].g += (p.g || 0);
+      skaterMap[p.name].a += (p.a || 0);
+      skaterMap[p.name].pts += (p.pts || 0);
+      skaterMap[p.name].plusMinus += (p.plusMinus || 0);
+      skaterMap[p.name].gp += 1;
+      if ((p.pts || 0) > 0) skaterMap[p.name].pointGames += 1;
+    }
+  }
+  // Streak gate: must have a point in 3+ of their games, min 3 GP
+  // Hot score: (goals × 1.5 + assists) / gamesPlayed
+  const hotSkaters = Object.values(skaterMap)
+    .filter((p) => p.gp >= 3 && p.pointGames >= 3)
+    .map((p) => ({ ...p, hotScore: (p.g * 1.5 + p.a) / p.gp }))
+    .sort((a, b) => b.hotScore - a.hotScore)
+    .slice(0, 3);
+
+  // Aggregate goalies
+  const goalieMap = {};
+  for (const gid of gameIds) {
+    const bs = boxscoreMap[gid];
+    if (!bs) continue;
+    const isHome = matchCity(bs.gameInfo.homeTeam || "", city);
+    const goalies = isHome ? bs.goalieStats?.home : bs.goalieStats?.visiting;
+    if (!goalies) continue;
+    for (const g of goalies) {
+      if (!g.name || g.name === "Totals:" || g.name === "Team:") continue;
+      if (!goalieMap[g.name]) goalieMap[g.name] = { name: g.name, gp: 0, saves: 0, ga: 0, shotsAgainst: 0 };
+      goalieMap[g.name].gp += 1;
+      goalieMap[g.name].saves += (g.saves || 0);
+      goalieMap[g.name].ga += (g.ga || 0);
+      goalieMap[g.name].shotsAgainst += (g.shotsAgainst || 0);
+    }
+  }
+  const hotGoalies = Object.values(goalieMap)
+    .filter((g) => g.gp >= 2 && g.shotsAgainst > 0)
+    .map((g) => ({
+      ...g,
+      svPct: g.shotsAgainst > 0 ? g.saves / g.shotsAgainst : 0,
+      gaa: g.gp > 0 ? g.ga / g.gp : 0,
+    }))
+    .filter((g) => g.svPct >= 0.9)
+    .sort((a, b) => b.svPct - a.svPct)
+    .slice(0, 2);
+
+  return { hotSkaters, hotGoalies, isLoading };
+}

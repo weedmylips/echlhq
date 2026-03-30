@@ -5,7 +5,7 @@ import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
 } from "recharts";
-import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useScorebar, useGameAttendance, useFightingMajors } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useScorebar, useGameAttendance, useFightingMajors, useHotPlayers } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
 import ShareButton from "../components/ShareButton.jsx";
@@ -78,6 +78,7 @@ export default function TeamPage() {
   const scorebarGames = scorebarData?.games || [];
   const { data: attendanceData } = useGameAttendance();
   const { data: fightingMajorsData } = useFightingMajors();
+  const { hotSkaters, hotGoalies, isLoading: hotLoading } = useHotPlayers(teamId);
 
   if (isLoading) return <div className="loading-spinner">Loading team…</div>;
   if (error) return <div className="error-box">Error loading team: {error.message}</div>;
@@ -272,122 +273,10 @@ export default function TeamPage() {
           {/* ── Left/main column ── */}
           <div className="overview-main">
 
-            {/* Upcoming / Live Games */}
-            {(() => {
-              const tid = parseInt(teamId, 10);
-              // Build a lookup of scorebar games by team matchup + date
-              const scorebarByKey = {};
-              for (const sg of scorebarGames) {
-                const key = `${sg.visitingTeamId}-${sg.homeTeamId}`;
-                scorebarByKey[key] = sg;
-              }
-              const teamGames = (upcomingData?.games || [])
-                .filter((g) => g.visitingTeamId === tid || g.homeTeamId === tid);
-              if (!teamGames.length) return null;
-              return (
-                <div className="card section-card" style={{ gridColumn: "1 / -1" }}>
-                  <div className="card-header">
-                    <span className="section-label" style={{ margin: 0 }}>Upcoming Games</span>
-                  </div>
-                  <div className="upcoming-day-games">
-                    {teamGames.map((g, i) => {
-                      const visitingConfig = TEAMS[g.visitingTeamId];
-                      const homeConfig = TEAMS[g.homeTeamId];
-                      const sg = scorebarByKey[`${g.visitingTeamId}-${g.homeTeamId}`];
-                      const gameType = sg ? getGameType(sg) : null;
-                      const isLive = gameType === "live";
-                      const isFinal = gameType === "final";
-                      const hasScore = isLive || isFinal;
-                      return (
-                        <button
-                          key={i}
-                          className={`upcoming-game-row${isLive ? " upcoming-game-live" : ""}${isFinal ? " upcoming-game-final" : ""}`}
-                          onClick={() => {
-                            if ((isLive || isFinal) && sg.gameId) {
-                              navigate(`/game/${sg.gameId}`);
-                            } else if (g.visitingTeamId && g.homeTeamId) {
-                              setSelectedMatchup(g);
-                            }
-                          }}
-                        >
-                          <div className="upcoming-team upcoming-away">
-                            {visitingConfig?.logoUrl && (
-                              <img src={visitingConfig.logoUrl} alt="" className="upcoming-logo" />
-                            )}
-                            <span className="upcoming-name">{g.visitingTeam}</span>
-                            {hasScore && <span className="upcoming-live-score">{sg.visitingGoals}</span>}
-                          </div>
-                          <div className="upcoming-center">
-                            {isLive ? (
-                              <>
-                                <span className="live-badge">LIVE</span>
-                                <span className="upcoming-live-period">
-                                  {sg.intermission ? `${sg.period} INT` : `${sg.period} · ${sg.clock}`}
-                                </span>
-                              </>
-                            ) : isFinal ? (
-                              <span className="upcoming-final-label">Final</span>
-                            ) : (
-                              <>
-                                <span className="upcoming-at">@</span>
-                                <span className="upcoming-time">{g.time}</span>
-                              </>
-                            )}
-                          </div>
-                          <div className="upcoming-team upcoming-home">
-                            {hasScore && <span className="upcoming-live-score">{sg.homeGoals}</span>}
-                            <span className="upcoming-name">{g.homeTeam}</span>
-                            {homeConfig?.logoUrl && (
-                              <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
-                            )}
-                          </div>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })()}
+            {/* Hot Players */}
+            <HotPlayersCard hotSkaters={hotSkaters} hotGoalies={hotGoalies} isLoading={hotLoading} rosterData={rosterData} />
 
-            {/* Recent Games */}
-            <div className="card section-card">
-              <div className="card-header">
-                <span className="section-label" style={{ margin: 0 }}>Recent Games</span>
-              </div>
-              {recentScores?.length > 0 ? (
-                <div className="recent-games-list">
-                  {recentScores.map((game, i) => {
-                    const result  = getResult(game, team.city);
-                    const isHome  = (game.homeTeam || "").toLowerCase().includes(team.city.toLowerCase());
-                    const opp     = isHome ? game.visitingTeam : game.homeTeam;
-                    const myScore = isHome ? game.homeScore : game.visitingScore;
-                    const oppScore = isHome ? game.visitingScore : game.homeScore;
-                    return (
-                      <div
-                        key={i}
-                        className="recent-game-row"
-                        onClick={() => game.gameId && setSelectedGameId(game.gameId)}
-                        style={{ cursor: game.gameId ? "pointer" : "default" }}
-                      >
-                        <ResultBadge result={result} />
-                        <span className="rg-loc">{isHome ? "vs" : "@"}</span>
-                        <span className="rg-opp">{opp}</span>
-                        <span className="rg-score">
-                          {myScore !== undefined ? `${myScore}–${oppScore}` : "—"}
-                          {game.overtime ? ` (${game.overtime})` : ""}
-                        </span>
-                        <span className="rg-date">{game.date || "—"}</span>
-                        {game.gameId && <span className="rg-link">Box Score →</span>}
-                      </div>
-                    );
-                  })}
-                </div>
-              ) : (
-                <p className="empty-msg" style={{ padding: "16px" }}>No recent games available.</p>
-              )}
-            </div>
-
-            {/* Recent Moves — sits next to Recent Games */}
+            {/* Recent Moves */}
             {movesData?.moves?.length > 0 && (
               <div className="card section-card">
                 <div className="card-header">
@@ -733,6 +622,78 @@ export default function TeamPage() {
           onClose={() => setSelectedMatchup(null)}
         />
       )}
+    </div>
+  );
+}
+
+// ─── Hot Players Card ─────────────────────────────────────────────────────────
+function HotPlayersCard({ hotSkaters, hotGoalies, isLoading, rosterData }) {
+  if (isLoading) return (
+    <div className="card section-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>On Fire · Last 5 Games</span>
+      </div>
+      <p className="empty-msg" style={{ padding: "16px" }}>Loading…</p>
+    </div>
+  );
+  if (!hotSkaters.length && !hotGoalies.length) return null;
+
+  // Build lookup from roster: map abbreviated boxscore names ("D. Wendt") to full names + statuses
+  const rosterByAbbr = {};
+  if (rosterData?.roster) {
+    for (const p of rosterData.roster) {
+      const full = (p.player || "").replace(/^x\s+/i, "").replace(/^\*\s*/i, "").trim();
+      const parts = full.split(/\s+/);
+      if (parts.length >= 2) {
+        const abbr = (parts[0][0] + ". " + parts.slice(1).join(" ")).toLowerCase();
+        rosterByAbbr[abbr] = { fullName: full, status: p.status };
+      }
+      rosterByAbbr[full.toLowerCase()] = { fullName: full, status: p.status };
+    }
+  }
+  const getRoster = (name) => rosterByAbbr[(name || "").toLowerCase()];
+  const fullName = (name) => getRoster(name)?.fullName || name;
+  const isAHLDown = (name) => getRoster(name)?.status === "assigned_ahl";
+  const isAHLUp = (name) => { const s = getRoster(name)?.status; return s === "recalled_ahl" || s === "loaned"; };
+
+  return (
+    <div className="card section-card hot-players-card">
+      <div className="card-header">
+        <span className="section-label" style={{ margin: 0 }}>On Fire · Last 5 Games</span>
+      </div>
+      <div className="hot-players-list">
+        {hotSkaters.length > 0 && (
+          <>
+            <div className="hot-section-label">Skaters</div>
+            {hotSkaters.map((p, i) => (
+              <div key={i} className="hot-player-row">
+                <span className="hot-icon">🔥</span>
+                <span className="hot-name">
+                  {fullName(p.name)}
+                  {isAHLDown(p.name) && <span className="status-badge status-badge-inline status-badge-ahl-down">↓AHL</span>}
+                  {isAHLUp(p.name) && <span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span>}
+                </span>
+                <span className="hot-stats">{p.g}G · {p.a}A · {p.pts}PTS</span>
+              </div>
+            ))}
+          </>
+        )}
+        {hotGoalies.length > 0 && (
+          <>
+            <div className="hot-section-label">Goalies</div>
+            {hotGoalies.map((g, i) => (
+              <div key={i} className="hot-player-row">
+                <span className="hot-icon">🔥</span>
+                <span className="hot-name">
+                  {g.name}
+                  {isAHL(g.name) && <span className="status-badge status-badge-inline status-badge-ahl-down">↓AHL</span>}
+                </span>
+                <span className="hot-stats">{g.svPct.toFixed(3).replace(/^0/, "")} SV% · {g.gaa.toFixed(2)} GAA</span>
+              </div>
+            ))}
+          </>
+        )}
+      </div>
     </div>
   );
 }
