@@ -138,7 +138,7 @@ export default function Dashboard() {
                     {index === 0 ? (
                       <div className="upcoming-header">
                         <div className="section-label" style={{ margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
-                          Upcoming Games <span className="upcoming-header-sep">&bull;</span> <span className="upcoming-header-date">{displayLabel} {dayDate}</span>
+                          {isToday ? "Today's Games" : "Upcoming Games"} <span className="upcoming-header-sep">&bull;</span> <span className="upcoming-header-date">{displayLabel} {dayDate}</span>
                         </div>
                       </div>
                     ) : (
