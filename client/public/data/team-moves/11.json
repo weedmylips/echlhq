@@ -2,6 +2,13 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Kaleb Pearson",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 1 Game"
+    },
+    {
       "date": "2026-03-29",
       "player": "Francesco Arcuri",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Nick Portz",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

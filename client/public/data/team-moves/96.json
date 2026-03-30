@@ -2,6 +2,13 @@
   "teamId": 96,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Nolan Kneen",
+      "position": "D",
+      "type": "suspended",
+      "summary": "Suspended 2 Games"
+    },
+    {
       "date": "2026-03-28",
       "player": "Michal Stinil",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Gabriel Carriere",
-      "position": "G",
-      "type": "recalled_ahl",
-      "summary": "Recalled to San Jose Barracuda by San Jose Sharks"
     }
   ]
 }

@@ -589,12 +589,12 @@
       "player": "Brenden Datema",
       "number": 2,
       "position": "D",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -602,7 +602,8 @@
         "g": 2,
         "a": 8,
         "pts": 10
-      }
+      },
+      "suspensionGpAtStart": 64
     },
     {
       "playerId": "10791",

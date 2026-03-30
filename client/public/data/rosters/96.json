@@ -2,7 +2,7 @@
   "teamId": 96,
   "slug": "wichita-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-28",
+  "lastTransactionCheck": "2026-03-30",
   "roster": [
     {
       "playerId": "9267",
@@ -489,12 +489,12 @@
       "player": "Nolan Kneen",
       "number": 27,
       "position": "D",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 2,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -502,7 +502,8 @@
         "g": 2,
         "a": 15,
         "pts": 17
-      }
+      },
+      "suspensionGpAtStart": 63
     },
     {
       "playerId": "11073",

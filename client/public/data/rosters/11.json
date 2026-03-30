@@ -69,12 +69,12 @@
       "player": "Kaleb Pearson",
       "number": 8,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 1,
+      "suspensionGamesOriginal": 1,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -82,7 +82,8 @@
         "g": 21,
         "a": 15,
         "pts": 36
-      }
+      },
+      "suspensionGpAtStart": 65
     },
     {
       "playerId": "9879",
