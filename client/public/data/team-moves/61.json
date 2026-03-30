@@ -2,6 +2,20 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Daniel Laatsch",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Ryan Mahshie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-28",
       "player": "Mike Posma",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "traded",
       "summary": "Traded to Rapid City"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Cole Tymkin",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Rapid City"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Eric Parker",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

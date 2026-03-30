@@ -2,6 +2,20 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Yaniv Perets",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Keith Petruzzelli",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-28",
       "player": "Keith Petruzzelli",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Emile Chouinard",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Keith Petruzzelli",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

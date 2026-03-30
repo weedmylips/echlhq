@@ -2,7 +2,7 @@
   "teamId": 65,
   "slug": "indy-fuel",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-29",
+  "lastTransactionCheck": "2026-03-30",
   "roster": [
     {
       "playerId": "10082",
@@ -330,7 +330,7 @@
       "player": "Alex DiPaolo",
       "number": 11,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

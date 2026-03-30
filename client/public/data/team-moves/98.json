@@ -2,6 +2,20 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Chase Wutzke",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Dante Giannuzzi",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-28",
       "player": "Max Patterson",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Dylan Massie",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Noah Massie",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

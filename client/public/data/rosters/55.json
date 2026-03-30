@@ -2,7 +2,7 @@
   "teamId": 55,
   "slug": "reading-royals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-28",
+  "lastTransactionCheck": "2026-03-30",
   "roster": [
     {
       "playerId": "8284",
@@ -810,7 +810,7 @@
       "player": "Keith Petruzzelli",
       "number": 80,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -830,7 +830,7 @@
       "player": "Yaniv Perets",
       "number": 1,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

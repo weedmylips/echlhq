@@ -2,6 +2,34 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Ryan Helliwell",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Brian Carrabes",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Jacob Slipec",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Daniel Amesbury",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-28",
       "player": "Brian Carrabes",
       "position": "F",
@@ -110,34 +138,6 @@
       "date": "2026-03-22",
       "player": "Jacob Slipec",
       "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Jacob Graves",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Ryan Helliwell",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Henry Welsch",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Tyler Brennan",
-      "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
     }

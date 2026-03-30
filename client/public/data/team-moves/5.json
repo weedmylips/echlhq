@@ -2,6 +2,20 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Max Helgeson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Jaxson Murray",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Thomas Scarfone",
       "position": "G",
@@ -124,20 +138,6 @@
       "date": "2026-03-18",
       "player": "Thomas Scarfone",
       "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Kaidan Mbereko",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Shawn Kennedy",
-      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

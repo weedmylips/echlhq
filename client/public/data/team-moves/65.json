@@ -2,6 +2,20 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Alex DiPaolo",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Tyler Weiss",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-27",
       "player": "Lane Brockhoff",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jason Ahearn",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

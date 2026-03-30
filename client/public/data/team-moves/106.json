@@ -2,6 +2,20 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Josh Zinger",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Luke Antonacci",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-28",
       "player": "Marek Hejduk",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Ryan Rosborough",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Aiden Hansen-Bukata",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Colorado Eagles"
     }
   ]
 }

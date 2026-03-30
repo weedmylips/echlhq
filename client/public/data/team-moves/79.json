@@ -2,6 +2,34 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Trevor Griebel",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Jack Babbage",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Holden Wale",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Lord-Anthony Grissom",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-03-28",
       "player": "Michael Bullion",
       "position": "G",
@@ -112,34 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Ryan Pitoscia",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Simon Labelle",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jack Babbage",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jack Babbage",
-      "position": "D",
-      "type": "leave",
-      "summary": "Activated from Family/Bereavement Leave"
     }
   ]
 }
