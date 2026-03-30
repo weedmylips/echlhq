@@ -685,8 +685,9 @@ function HotPlayersCard({ hotSkaters, hotGoalies, isLoading, rosterData }) {
               <div key={i} className="hot-player-row">
                 <span className="hot-icon">🔥</span>
                 <span className="hot-name">
-                  {g.name}
-                  {isAHL(g.name) && <span className="status-badge status-badge-inline status-badge-ahl-down">↓AHL</span>}
+                  {fullName(g.name)}
+                  {isAHLDown(g.name) && <span className="status-badge status-badge-inline status-badge-ahl-down">↓AHL</span>}
+                  {isAHLUp(g.name) && <span className="status-badge status-badge-inline status-badge-ahl">↑AHL</span>}
                 </span>
                 <span className="hot-stats">{g.svPct.toFixed(3).replace(/^0/, "")} SV% · {g.gaa.toFixed(2)} GAA</span>
               </div>

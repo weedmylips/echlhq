@@ -484,7 +484,7 @@ export function useMatchupPlayers(teamId1, teamId2) {
 }
 
 export function useHotPlayers(teamId) {
-  const { data: scoresData, isLoading: scoresLoading } = useScoresStatic();
+  const { data: scoresData, isLoading: scoresLoading } = useScores();
   const scores = scoresData?.scores || [];
   const id = teamId ? parseInt(teamId) : null;
   const city = TEAMS[id]?.city?.toLowerCase() || "";
@@ -505,14 +505,14 @@ export function useHotPlayers(teamId) {
     })),
   });
 
-  const boxLoading = boxscoreQueries.some((q) => q.isLoading);
-  const isLoading = scoresLoading || boxLoading || (!scoresLoading && gameIds.length === 0 && !scoresData);
+  const boxLoading = gameIds.length > 0 && boxscoreQueries.some((q) => q.isLoading);
+  const isLoading = scoresLoading || boxLoading;
   const boxscoreMap = {};
   boxscoreQueries.forEach((q) => {
     if (q.data?.gameInfo?.gameId) boxscoreMap[q.data.gameInfo.gameId] = q.data;
   });
 
-  if (isLoading || !city) return { hotSkaters: [], hotGoalies: [], isLoading: true };
+  if (isLoading || !city || !gameIds.length) return { hotSkaters: [], hotGoalies: [], isLoading };
 
   // Aggregate skaters — track games with points for streak gate
   const skaterMap = {};
