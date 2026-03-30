@@ -323,13 +323,14 @@ function applyTransactions(transactions, today, rosterCache = null) {
         }
       }
 
-      // Record move (skip if already recorded for same date/player/type/summary)
+      // Record move (skip if already recorded for same player/type/summary within 3 days)
+      const todayMs = new Date(today).getTime();
       const alreadyRecorded = movesData.moves.some(
         (m) =>
-          m.date === today &&
           m.player.toLowerCase() === player.toLowerCase() &&
           m.type === status &&
-          m.summary === description
+          m.summary === description &&
+          Math.abs(new Date(m.date).getTime() - todayMs) < 3 * 86400000
       );
       if (!alreadyRecorded) {
         movesData.moves.unshift({
@@ -759,9 +760,11 @@ function deduplicateRosters() {
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchUrl(url) {
-  const res = await fetch(url, { headers: HEADERS, timeout: 20000 });
+  const res = await fetch(url, { headers: HEADERS, timeout: 20000, redirect: "follow" });
   if (!res.ok) throw Object.assign(new Error(`HTTP ${res.status}`), { status: res.status });
-  return res.text();
+  const text = await res.text();
+  // Return final URL so callers can detect redirects
+  return { text, finalUrl: res.url || url };
 }
 
 async function fetchDay(date) {
@@ -779,10 +782,27 @@ async function fetchDay(date) {
     const url = `https://echl.com/news/${year}/${mm}/echl-transactions-${monthName}-${day}`;
     console.log(`\nFetching: ${url}`);
     try {
-      const html = await fetchUrl(url);
+      const { text: html, finalUrl } = await fetchUrl(url);
+      // Detect redirects: if the final URL has a different date, use that date instead
+      let actualDateStr = dateStr;
+      if (finalUrl && finalUrl !== url) {
+        const redirectMatch = finalUrl.match(/echl-transactions-(\w+)-(\d+)/);
+        if (redirectMatch) {
+          const rMonth = redirectMatch[1].toLowerCase();
+          const rDay = parseInt(redirectMatch[2]);
+          const rMonthIdx = MONTH_NAMES_LONG.indexOf(rMonth) !== -1
+            ? MONTH_NAMES_LONG.indexOf(rMonth)
+            : MONTH_NAMES_SHORT.indexOf(rMonth);
+          if (rMonthIdx >= 0) {
+            const redirectDate = new Date(year, rMonthIdx, rDay);
+            actualDateStr = redirectDate.toISOString().slice(0, 10);
+            console.log(`  ↪ Redirected to ${finalUrl} — using date ${actualDateStr}`);
+          }
+        }
+      }
       const transactions = parseTransactions(html);
       console.log(`  Parsed ${transactions.length} transactions.`);
-      return { dateStr, transactions };
+      return { dateStr: actualDateStr, transactions };
     } catch (err) {
       if (err.status === 404) continue; // try next variant
       console.warn(`  ✗ Failed for ${dateStr}: ${err.message}`);
