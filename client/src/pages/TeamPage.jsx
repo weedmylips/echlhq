@@ -1,15 +1,15 @@
-import { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import {
   ResponsiveContainer, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, Tooltip, ReferenceLine, Legend,
 } from "recharts";
-import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useUpcoming, useScorebar, useGameAttendance, useFightingMajors, useHotPlayers } from "../hooks/useECHL.js";
+import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useScores, useUpcoming, useScorebar, useGameAttendance, useFightingMajors, useHotPlayers } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
 import ShareButton from "../components/ShareButton.jsx";
-import { TEAMS } from "../config/teamConfig.js";
+import { TEAMS, findTeamByName } from "../config/teamConfig.js";
 import "./TeamPage.css";
 
 const MOVE_ICONS = {
@@ -76,6 +76,7 @@ export default function TeamPage() {
   const { data: upcomingData } = useUpcoming();
   const { data: scorebarData } = useScorebar();
   const scorebarGames = scorebarData?.games || [];
+  const { data: scoresData } = useScores();
   const { data: attendanceData } = useGameAttendance();
   const { data: fightingMajorsData } = useFightingMajors();
   const { hotSkaters, hotGoalies, isLoading: hotLoading } = useHotPlayers(teamId);
@@ -255,7 +256,7 @@ export default function TeamPage() {
 
       {/* ── Tabs ── */}
       <div className="team-tabs">
-        {[["overview", "Overview"], ["roster", "Roster"], ["schedule", "Schedule"], ["stats", "Team Stats"]].map(([tab, label]) => (
+        {[["overview", "Overview"], ["roster", "Roster"], ["schedule", "Schedule"], ["stats", "Team Stats"], ["scores", "Scores"]].map(([tab, label]) => (
           <button
             key={tab}
             className={`team-tab${activeTab === tab ? " active" : ""}`}
@@ -576,6 +577,21 @@ export default function TeamPage() {
         </div>
       )}
 
+      {/* ── Scores Tab ── */}
+      {activeTab === "scores" && (
+        <ScoresTab
+          scoresData={scoresData}
+          upcomingData={upcomingData}
+          scorebarGames={scorebarGames}
+          allStandings={allStandings}
+          teamId={teamId}
+          team={team}
+          navigate={navigate}
+          setSelectedGameId={setSelectedGameId}
+          setSelectedMatchup={setSelectedMatchup}
+        />
+      )}
+
       {/* ── Schedule Tab ── */}
       {activeTab === "schedule" && (
         <ScheduleTab
@@ -593,25 +609,6 @@ export default function TeamPage() {
       {selectedGameId && (
         <BoxScoreModal gameId={selectedGameId} onClose={() => setSelectedGameId(null)} />
       )}
-      {/* ── Mobile Bottom Nav ── */}
-      <div className="team-bottom-nav">
-        {[
-          ["overview", "Overview", <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>],
-          ["roster", "Roster", <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>],
-          ["schedule", "Schedule", <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>],
-          ["stats", "Stats", <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>],
-        ].map(([tab, label, icon]) => (
-          <button
-            key={tab}
-            className={`team-bottom-tab${activeTab === tab ? " active" : ""}`}
-            style={activeTab === tab ? { color: team.primaryColor, borderTopColor: team.primaryColor } : {}}
-            onClick={() => setActiveTab(tab)}
-          >
-            {icon}
-            <span>{label}</span>
-          </button>
-        ))}
-      </div>
 
       {selectedMatchup && (
         <MatchupModal
@@ -1432,6 +1429,179 @@ function statusBadge(p) {
   }
   if (p._status === "leave") return <span className="status-badge status-badge-inline status-badge-res">LEAVE</span>;
   return null;
+}
+
+// ─── Scores Tab ──────────────────────────────────────────────────────────────
+
+function toDateKey(dateStr) {
+  if (!dateStr) return "";
+  if (/^\d{4}-/.test(dateStr)) return dateStr;
+  const d = new Date(dateStr);
+  if (isNaN(d)) return dateStr;
+  return d.toISOString().slice(0, 10);
+}
+
+function dateKeyToDisplay(key) {
+  const d = new Date(key + "T12:00:00");
+  if (isNaN(d)) return key;
+  const now = new Date();
+  const isToday = d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
+  const yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
+  const isYesterday = d.getFullYear() === yesterday.getFullYear() && d.getMonth() === yesterday.getMonth() && d.getDate() === yesterday.getDate();
+  const tomorrow = new Date(now); tomorrow.setDate(now.getDate() + 1);
+  const isTomorrow = d.getFullYear() === tomorrow.getFullYear() && d.getMonth() === tomorrow.getMonth() && d.getDate() === tomorrow.getDate();
+  const label = d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+  if (isToday) return `Today — ${label}`;
+  if (isYesterday) return `Yesterday — ${label}`;
+  if (isTomorrow) return `Tomorrow — ${label}`;
+  return label;
+}
+
+function scoresGameType(game) {
+  const isFinal = /Final/i.test(game.status) ||
+    (game.clock === "00:00" && /^(3rd|OT|SO)/.test(game.period));
+  const isPregame = (game.clock === "00:00" || game.clock === "20:00") && game.period === "1st" && !/Final/i.test(game.status);
+  if (isFinal) return "final";
+  if (isPregame || !game.period) return "pregame";
+  return "live";
+}
+
+function ScoresTab({ scoresData, upcomingData, scorebarGames, allStandings, teamId, team, navigate, setSelectedGameId, setSelectedMatchup }) {
+  const tid = parseInt(teamId, 10);
+  const todayKey = new Date().toISOString().slice(0, 10);
+
+  // Build record lookup from standings: teamId → "W-L-OTL"
+  const recordMap = {};
+  for (const s of allStandings) {
+    if (s.teamId) recordMap[s.teamId] = `${s.w}-${s.l}-${s.otl}`;
+  }
+  const [dateKey, setDateKey] = useState(todayKey);
+
+  const scores = scoresData?.scores || [];
+  const upcoming = upcomingData?.games || [];
+
+  // Build date → games map from all sources
+  const gamesByDate = {};
+  const addGame = (dateK, game) => {
+    (gamesByDate[dateK] = gamesByDate[dateK] || []).push(game);
+  };
+
+  // Scorebar games (live + recent) — richest data, keyed by gameId to dedup
+  const scorebarById = {};
+  for (const sg of scorebarGames) {
+    const dk = toDateKey(sg.date);
+    scorebarById[sg.gameId] = true;
+    addGame(dk, { ...sg, _source: "scorebar" });
+  }
+
+  // Historical scores — skip if already in scorebar
+  for (const s of scores) {
+    if (s.gameId && scorebarById[s.gameId]) continue;
+    const dk = toDateKey(s.date);
+    addGame(dk, { ...s, _source: "scores" });
+  }
+
+  // Upcoming — skip if already covered by scorebar
+  for (const u of upcoming) {
+    const dk = toDateKey(u.date);
+    const already = (gamesByDate[dk] || []).some(
+      (g) => g.visitingTeamId === u.visitingTeamId && g.homeTeamId === u.homeTeamId
+    );
+    if (!already) addGame(dk, { ...u, _source: "upcoming" });
+  }
+
+  // Get sorted list of all available dates
+  const allDates = Object.keys(gamesByDate).sort();
+
+  // Navigate date
+  const shiftDate = (offset) => {
+    const d = new Date(dateKey + "T12:00:00");
+    d.setDate(d.getDate() + offset);
+    setDateKey(d.toISOString().slice(0, 10));
+  };
+
+  const games = gamesByDate[dateKey] || [];
+
+  return (
+    <div className="scores-tab">
+      {/* Date nav header */}
+      <div className="scores-date-nav">
+        <button className="scores-date-arrow" onClick={() => shiftDate(-1)}>&#8249;</button>
+        <span className="scores-date-label">{dateKeyToDisplay(dateKey)}</span>
+        <button className="scores-date-arrow" onClick={() => shiftDate(1)}>&#8250;</button>
+      </div>
+
+      {/* Game cards grid */}
+      {games.length === 0 ? (
+        <p className="empty-msg" style={{ textAlign: "center", padding: "32px 16px" }}>No games scheduled for this date.</p>
+      ) : (
+        <div className="scores-grid">
+          {games.map((g, i) => {
+            const awayConfig = TEAMS[g.visitingTeamId] || findTeamByName(g.visitingTeam);
+            const homeConfig = TEAMS[g.homeTeamId] || findTeamByName(g.homeTeam);
+            const type = g._source === "scorebar" ? scoresGameType(g) : (g._source === "scores" ? "final" : "pregame");
+            const isLive = type === "live";
+            const isFinal = type === "final";
+            const awayScore = g.visitingScore ?? g.visitingGoals;
+            const homeScore = g.homeScore ?? g.homeGoals;
+            const isMyGame = g.visitingTeamId === tid || g.homeTeamId === tid ||
+              awayConfig?.id === tid || homeConfig?.id === tid;
+
+            return (
+              <button
+                key={g.gameId || i}
+                className={`scores-card${isLive ? " scores-card-live" : ""}${isMyGame ? " scores-card-mine" : ""}`}
+                style={isMyGame ? { "--team-glow": team.primaryColor } : undefined}
+                onClick={() => {
+                  if ((isLive || isFinal) && g.gameId) {
+                    setSelectedGameId(g.gameId);
+                  } else if (g.visitingTeamId && g.homeTeamId) {
+                    setSelectedMatchup({ visitingTeamId: g.visitingTeamId, homeTeamId: g.homeTeamId, date: g.date });
+                  }
+                }}
+              >
+                {/* Status bar */}
+                <div className="scores-card-top">
+                  <span className="scores-card-status">
+                    {isLive ? (
+                      <>
+                        <span className="live-badge">LIVE</span>
+                        <span className="scores-card-period">
+                          {g.intermission ? `${g.period} INT` : `${g.period} · ${g.clock}`}
+                        </span>
+                      </>
+                    ) : isFinal ? (
+                      <span className="scores-card-final">Final{g.overtime ? ` (${g.overtime})` : ""}</span>
+                    ) : (
+                      <span className="scores-card-time">{g.gameTime || g.time || "TBD"}</span>
+                    )}
+                  </span>
+                </div>
+
+                {/* Away team row */}
+                <div className="scores-card-team">
+                  {awayConfig?.logoUrl && <img src={awayConfig.logoUrl} alt="" className="scores-card-logo" />}
+                  <span className="scores-card-abbr">{awayConfig?.abbr || g.visitingCode || g.visitingTeam}</span>
+                  <span className="scores-card-record">{g.visitingRecord || (!isFinal ? recordMap[g.visitingTeamId || awayConfig?.id] : "") || ""}</span>
+                  <span className="scores-card-score">{(isLive || isFinal) ? awayScore : "–"}</span>
+                </div>
+
+                <div className="scores-card-divider" />
+
+                {/* Home team row */}
+                <div className="scores-card-team">
+                  {homeConfig?.logoUrl && <img src={homeConfig.logoUrl} alt="" className="scores-card-logo" />}
+                  <span className="scores-card-abbr">{homeConfig?.abbr || g.homeCode || g.homeTeam}</span>
+                  <span className="scores-card-record">{g.homeRecord || (!isFinal ? recordMap[g.homeTeamId || homeConfig?.id] : "") || ""}</span>
+                  <span className="scores-card-score">{(isLive || isFinal) ? homeScore : "–"}</span>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
 }
 
 // ─── Schedule Tab ─────────────────────────────────────────────────────────────

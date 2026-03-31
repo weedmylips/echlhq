@@ -104,6 +104,17 @@
   font-size: 12.5px;
 }
 
+.stat-row--fav {
+  background: color-mix(in srgb, var(--fav-color, #3b82f6) 15%, transparent);
+}
+.stat-row--fav .stat-name {
+  font-weight: 700;
+  color: #fff;
+}
+.stat-row--fav .stat-team {
+  font-weight: 600;
+}
+
 .stat-rank {
   width: 13px;
   font-size: 10px;

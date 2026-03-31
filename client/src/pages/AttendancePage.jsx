@@ -1,17 +1,29 @@
+import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useStandings, useGameAttendance } from "../hooks/useECHL.js";
-import { TEAMS } from "../config/teamConfig.js";
+import { TEAMS, getFavoriteTeam } from "../config/teamConfig.js";
 import ShareButton from "../components/ShareButton.jsx";
 import "./AttendancePage.css";
 
 const fmt = (n) => (n ? Number(n).toLocaleString() : "—");
 
-function TeamRow({ team, rank, label, isAlt }) {
+const CATEGORIES = [
+  { key: "avg", label: "Avg Attendance" },
+  { key: "total", label: "Total Attendance" },
+  { key: "capacity", label: "Capacity %" },
+  { key: "sellouts", label: "Sellouts" },
+  { key: "topGames", label: "Top Games" },
+];
+
+function TeamRow({ team, rank, label, isAlt, isFav, favColor }) {
   const config = Object.values(TEAMS).find(
     (t) => t.city.toLowerCase() === team.teamName?.toLowerCase() || t.name.toLowerCase().includes(team.teamName?.toLowerCase())
   );
   return (
-    <li className={`att-row${rank === 1 ? " att-row--first" : ""}${isAlt ? " att-row--alt" : ""}`}>
+    <li
+      className={`att-row${rank === 1 ? " att-row--first" : ""}${isAlt ? " att-row--alt" : ""}${isFav ? " att-row--fav" : ""}`}
+      style={isFav && favColor ? { "--fav-color": favColor } : undefined}
+    >
       <span className="att-row-rank">{rank}</span>
       {config && <img src={config.logoUrl} alt="" className="att-row-logo" />}
       <span className="att-row-name">{config?.name || team.teamName}</span>
@@ -20,49 +32,18 @@ function TeamRow({ team, rank, label, isAlt }) {
   );
 }
 
-function SelloutRow({ teamId, count, rank, isAlt }) {
+function SelloutRow({ teamId, count, rank, isAlt, isFav, favColor }) {
   const config = TEAMS[teamId];
   return (
-    <li className={`att-row${rank === 1 ? " att-row--first" : ""}${isAlt ? " att-row--alt" : ""}`}>
+    <li
+      className={`att-row${rank === 1 ? " att-row--first" : ""}${isAlt ? " att-row--alt" : ""}${isFav ? " att-row--fav" : ""}`}
+      style={isFav && favColor ? { "--fav-color": favColor } : undefined}
+    >
       <span className="att-row-rank">{rank}</span>
       {config && <img src={config.logoUrl} alt="" className="att-row-logo" />}
       <span className="att-row-name">{config?.name || `Team ${teamId}`}</span>
       <span className="att-row-value">{count}</span>
     </li>
-  );
-}
-
-function TeamPanel({ title, teams }) {
-  return (
-    <div className="att-panel">
-      <div className="att-panel-header">{title}</div>
-      {teams.length === 0 ? (
-        <div className="att-panel-empty">No data</div>
-      ) : (
-        <ol className="att-panel-list">
-          {teams.map((t, i) => (
-            <TeamRow key={t.teamId} team={t} rank={i + 1} label={t._label} isAlt={i % 2 !== 0} />
-          ))}
-        </ol>
-      )}
-    </div>
-  );
-}
-
-function SelloutPanel({ title, sellouts }) {
-  return (
-    <div className="att-panel">
-      <div className="att-panel-header">{title}</div>
-      {sellouts.length === 0 ? (
-        <div className="att-panel-empty">No data</div>
-      ) : (
-        <ol className="att-panel-list">
-          {sellouts.map((s, i) => (
-            <SelloutRow key={s.teamId} teamId={s.teamId} count={s.count} rank={i + 1} isAlt={i % 2 !== 0} />
-          ))}
-        </ol>
-      )}
-    </div>
   );
 }
 
@@ -89,31 +70,19 @@ function GameRow({ game, rank, isAlt }) {
   );
 }
 
-function GamesPanel({ title, games }) {
-  return (
-    <div className="att-panel att-panel--games">
-      <div className="att-panel-header">{title}</div>
-      {games.length === 0 ? (
-        <div className="att-panel-empty">No data</div>
-      ) : (
-        <ol className="att-panel-list">
-          {games.map((g, i) => (
-            <GameRow key={g.gameId} game={g} rank={i + 1} isAlt={i % 2 !== 0} />
-          ))}
-        </ol>
-      )}
-    </div>
-  );
-}
-
 export default function AttendancePage() {
   const { data: standingsData, isLoading: standingsLoading, error: standingsError } = useStandings();
   const { data: gameAttData, isLoading: gameAttLoading, error: gameAttError } = useGameAttendance();
+  const [activeCat, setActiveCat] = useState("avg");
 
   const isLoading = standingsLoading || gameAttLoading;
   const error = standingsError || gameAttError;
   const standings = standingsData?.standings || [];
   const allGames = gameAttData?.games || [];
+
+  const favId = getFavoriteTeam();
+  const favTeam = favId ? TEAMS[favId] : null;
+  const favColor = favTeam?.primaryColor;
 
   const teamsWithAtt = standings.filter((t) => t.attendanceAverage > 0);
 
@@ -133,7 +102,6 @@ export default function AttendancePage() {
     })
     .sort((a, b) => b._pct - a._pct);
 
-  // Compute sellouts from game attendance data
   const selloutCounts = {};
   for (const g of allGames) {
     const teamId = g.homeTeamId;
@@ -147,8 +115,62 @@ export default function AttendancePage() {
     .map(([id, count]) => ({ teamId: parseInt(id), count }))
     .sort((a, b) => b.count - a.count);
 
-  // Top 20 most attended games (already sorted by attendance desc)
   const topGames = allGames.slice(0, 20);
+
+  function renderPanel() {
+    if (activeCat === "avg") return (
+      <div className="att-panel">
+        <ol className="att-panel-list">
+          {byAvg.map((t, i) => (
+            <TeamRow key={t.teamId} team={t} rank={i + 1} label={t._label} isAlt={i % 2 !== 0} isFav={t.teamId === favId} favColor={favColor} />
+          ))}
+        </ol>
+      </div>
+    );
+    if (activeCat === "total") return (
+      <div className="att-panel">
+        <ol className="att-panel-list">
+          {byTotal.map((t, i) => (
+            <TeamRow key={t.teamId} team={t} rank={i + 1} label={t._label} isAlt={i % 2 !== 0} isFav={t.teamId === favId} favColor={favColor} />
+          ))}
+        </ol>
+      </div>
+    );
+    if (activeCat === "capacity") return (
+      <div className="att-panel">
+        <ol className="att-panel-list">
+          {byCapacity.map((t, i) => (
+            <TeamRow key={t.teamId} team={t} rank={i + 1} label={t._label} isAlt={i % 2 !== 0} isFav={t.teamId === favId} favColor={favColor} />
+          ))}
+        </ol>
+      </div>
+    );
+    if (activeCat === "sellouts") return (
+      <div className="att-panel">
+        <ol className="att-panel-list">
+          {sellouts.length === 0
+            ? <div className="att-panel-empty">No data</div>
+            : sellouts.map((s, i) => (
+              <SelloutRow key={s.teamId} teamId={s.teamId} count={s.count} rank={i + 1} isAlt={i % 2 !== 0} isFav={s.teamId === favId} favColor={favColor} />
+            ))
+          }
+        </ol>
+      </div>
+    );
+    if (activeCat === "topGames") return (
+      <div className="att-panel att-panel--games">
+        <ol className="att-panel-list">
+          {topGames.length === 0
+            ? <div className="att-panel-empty">No data</div>
+            : topGames.map((g, i) => (
+              <GameRow key={g.gameId} game={g} rank={i + 1} isAlt={i % 2 !== 0} />
+            ))
+          }
+        </ol>
+      </div>
+    );
+    return null;
+  }
 
   return (
     <div className="attendance-page">
@@ -167,13 +189,20 @@ export default function AttendancePage() {
       {error && <div className="error-box">Error: {error.message}</div>}
 
       {!isLoading && !error && (
-        <div className="attendance-grid">
-          <TeamPanel title="AVG ATTENDANCE" teams={byAvg} />
-          <TeamPanel title="TOTAL ATTENDANCE" teams={byTotal} />
-          <TeamPanel title="CAPACITY %" teams={byCapacity} />
-          <SelloutPanel title="SELLOUTS" sellouts={sellouts} />
-          <GamesPanel title="TOP ATTENDED GAMES" games={topGames} />
-        </div>
+        <>
+          <div className="att-pill-bar">
+            {CATEGORIES.map((cat) => (
+              <button
+                key={cat.key}
+                className={`att-pill${activeCat === cat.key ? " att-pill--active" : ""}`}
+                onClick={() => setActiveCat(cat.key)}
+              >
+                {cat.label}
+              </button>
+            ))}
+          </div>
+          {renderPanel()}
+        </>
       )}
     </div>
   );

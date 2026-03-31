@@ -40,6 +40,25 @@ for (const team of Object.values(TEAMS)) {
   team.logoUrl = `/logos/${team.id}.png`;
 }
 
+// Divisions with team IDs for shared use (Layout, TeamPicker, etc.)
+export const DIVISIONS = [
+  { name: "North",    teams: [74, 108, 101, 63, 55, 103, 61, 104] },
+  { name: "South",    teams: [10, 8, 52, 79, 13, 97, 50] },
+  { name: "Central",  teams: [107, 5, 60, 65, 98, 53, 70] },
+  { name: "Mountain", teams: [11, 56, 85, 109, 72, 106, 66, 96] },
+];
+
+// Favorite team persistence
+const FAVORITE_TEAM_KEY = "echlhq-favorite-team";
+export function getFavoriteTeam() {
+  const id = localStorage.getItem(FAVORITE_TEAM_KEY);
+  return id ? Number(id) : null;
+}
+export function setFavoriteTeam(teamId) {
+  if (teamId == null) localStorage.removeItem(FAVORITE_TEAM_KEY);
+  else localStorage.setItem(FAVORITE_TEAM_KEY, String(teamId));
+}
+
 export function findTeamByName(name) {
   if (!name) return null;
   const lower = name.toLowerCase().trim();

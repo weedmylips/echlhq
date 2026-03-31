@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import { useStandings } from "../hooks/useECHL.js";
+import { TEAMS, getFavoriteTeam } from "../config/teamConfig.js";
 import ShareButton from "../components/ShareButton.jsx";
 import "./StandingsPage.css";
 
@@ -29,6 +30,7 @@ export default function StandingsPage() {
   const [sortCol, setSortCol] = useState("pts");
   const [sortDir, setSortDir] = useState("desc");
   const navigate = useNavigate();
+  const favoriteTeamId = getFavoriteTeam();
 
   const standings = data?.standings || [];
 
@@ -145,6 +147,7 @@ export default function StandingsPage() {
                         const isCutoff = rank === PLAYOFF_SPOTS;
                         const isClinched = team.magicNum === "X";
                         const isEliminated = team.magicNum === "E";
+                        const isFavorite = team.teamId === favoriteTeamId;
                         return (
                           <tr
                             key={team.teamId || i}
@@ -153,7 +156,9 @@ export default function StandingsPage() {
                               isCutoff ? "playoff-cutoff" : "",
                               isClinched ? "row-clinched" : "",
                               isEliminated ? "row-eliminated" : "",
+                              isFavorite ? "row-favorite" : "",
                             ].filter(Boolean).join(" ")}
+                            style={isFavorite ? { "--fav-color": TEAMS[team.teamId]?.primaryColor } : undefined}
                             onClick={() => team.teamId && navigate(`/team/${team.teamId}`)}
                           >
                             <td className="rank-cell">

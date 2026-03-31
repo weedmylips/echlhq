@@ -77,6 +77,33 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* ===== Favorite Team Button ===== */
+.fav-team-btn {
+  margin-left: auto;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.fav-team-btn:hover {
+  border-color: var(--text-muted);
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+}
+.fav-team-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 /* ===== Team Nav Bar ===== */
 .team-nav-bar {
   background: #141414;
@@ -210,6 +237,55 @@
   padding: 8px 4px;
   border-right: 1px solid var(--border);
   margin-right: 4px;
+}
+
+/* ===== Global Mobile Bottom Nav ===== */
+.global-bottom-nav {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .global-bottom-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    background: #111;
+    border-top: 1px solid var(--border);
+    padding: 4px 0 env(safe-area-inset-bottom, 4px);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .global-bottom-nav::-webkit-scrollbar { display: none; }
+
+  .page-nav-link--hideable { display: none; }
+  .main-content { padding-bottom: 72px !important; }
+  .site-footer { padding-bottom: 72px; }
+}
+
+.global-bottom-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 2px;
+  min-width: 0;
+  border: none;
+  border-top: 2px solid transparent;
+  background: none;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 10px;
+  cursor: pointer;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+.global-bottom-tab:hover,
+.global-bottom-tab.active {
+  color: var(--text);
 }
 
 /* ===== Footer ===== */

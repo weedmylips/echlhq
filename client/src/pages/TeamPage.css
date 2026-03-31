@@ -1633,3 +1633,161 @@ tr.playoff-cutoff td {
   .hi-pct            { font-size: 1.3rem; }
   .hi-vs-avg         { font-size: 10px; }
 }
+
+/* ===== Scores Tab — Date-based grid ===== */
+.scores-tab {
+  padding: 0 0 24px;
+}
+
+.scores-date-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.scores-date-arrow {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 22px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  line-height: 1;
+}
+.scores-date-arrow:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--text-muted);
+}
+
+.scores-date-label {
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 200px;
+  text-align: center;
+}
+
+.scores-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0 8px;
+}
+
+.scores-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  transition: border-color 0.15s, background 0.15s;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.scores-card:hover {
+  border-color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.02);
+}
+.scores-card-live {
+  border-color: rgba(239, 68, 68, 0.4);
+}
+.scores-card-mine {
+  border-color: var(--team-glow);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--team-glow) 40%, transparent);
+}
+
+.scores-card-top {
+  padding: 8px 12px 6px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.scores-card-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.scores-card-final {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.scores-card-time {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.scores-card-period {
+  font-size: 11px;
+}
+
+.scores-card-team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+}
+
+.scores-card-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0 12px;
+}
+
+.scores-card-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.scores-card-abbr {
+  font-size: 15px;
+  font-weight: 700;
+  min-width: 36px;
+}
+
+.scores-card-record {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.scores-card-score {
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  min-width: 24px;
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .scores-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 540px) {
+  .scores-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 0 4px; }
+  .scores-date-label { font-size: 14px; min-width: 160px; }
+  .scores-card-team { padding: 6px 8px; gap: 6px; }
+  .scores-card-top { padding: 6px 8px 4px; }
+  .scores-card-logo { width: 22px; height: 22px; }
+  .scores-card-abbr { font-size: 13px; }
+  .scores-card-score { font-size: 16px; }
+  .scores-card-record { font-size: 10px; }
+}

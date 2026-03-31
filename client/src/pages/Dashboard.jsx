@@ -1,15 +1,31 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useScores, useUpcoming, useLeaders, useScorebar } from "../hooks/useECHL.js";
-import { TEAMS, findTeamByName } from "../config/teamConfig.js";
+import { TEAMS, findTeamByName, getFavoriteTeam, setFavoriteTeam } from "../config/teamConfig.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
+import TeamPicker from "../components/TeamPicker.jsx";
 import "./Dashboard.css";
 
 export default function Dashboard() {
   const { gameId, visitingTeamId, homeTeamId, date } = useParams();
   const navigate = useNavigate();
+  const isBareIndex = !gameId && !visitingTeamId;
+
+  // Redirect returning users with a favorite team
+  const favoriteTeam = getFavoriteTeam();
+  useEffect(() => {
+    if (favoriteTeam && isBareIndex) {
+      navigate(`/team/${favoriteTeam}`, { replace: true });
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Show picker for first-time visitors on bare index
+  const [showFirstVisitPicker, setShowFirstVisitPicker] = useState(!favoriteTeam && isBareIndex);
+
+  // Prevent flash of Dashboard when redirecting
+  if (favoriteTeam && isBareIndex) return null;
 
   const selectedGameId = gameId || null;
   const selectedMatchup = (visitingTeamId && homeTeamId && date)
@@ -259,6 +275,19 @@ export default function Dashboard() {
           />
         );
       })()}
+
+      {showFirstVisitPicker && (
+        <TeamPicker
+          isFirstVisit
+          onSelect={(id) => {
+            setShowFirstVisitPicker(false);
+            if (id) {
+              setFavoriteTeam(id);
+              navigate(`/team/${id}`);
+            }
+          }}
+        />
+      )}
     </div>
   );
 }

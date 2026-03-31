@@ -16,6 +16,39 @@
   color: var(--text);
 }
 
+/* ── Pill bar ── */
+.att-pill-bar {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+.att-pill-bar::-webkit-scrollbar { display: none; }
+
+.att-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.att-pill:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+.att-pill--active {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
 .attendance-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -29,6 +62,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
+  max-width: 600px;
 }
 
 .att-panel-header {
@@ -73,6 +107,14 @@
 .att-row--first .att-row-matchup {
   font-weight: 700;
   font-size: 12.5px;
+}
+
+.att-row--fav {
+  background: color-mix(in srgb, var(--fav-color, #3b82f6) 15%, transparent);
+}
+.att-row--fav .att-row-name {
+  font-weight: 700;
+  color: #fff;
 }
 
 .att-row-rank {
