@@ -24,7 +24,7 @@ export default function Layout() {
 
   const favoriteId = getFavoriteTeam();
   const favoriteTeam = favoriteId ? TEAMS[favoriteId] : null;
-  const teamColor = activeTeamId ? TEAMS[activeTeamId]?.primaryColor : favoriteTeam?.primaryColor;
+  const teamColor = favoriteTeam?.primaryColor;
 
   return (
     <div className="layout">
