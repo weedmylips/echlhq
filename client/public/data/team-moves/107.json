@@ -2,6 +2,13 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Brad Morrison",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-03-30",
       "player": "Brenden Datema",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Ilya Tsulygin",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

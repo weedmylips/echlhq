@@ -2,6 +2,13 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Yaniv Perets",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Lehigh Valley"
+    },
+    {
       "date": "2026-03-29",
       "player": "Yaniv Perets",
       "position": "G",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Vincent Sevigny",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

@@ -2,6 +2,20 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Kirill Gerasimyuk",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Charlotte by Florida Panthers"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Noah Giesbrecht",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-29",
       "player": "Chris Lipe",
       "position": "D",
@@ -123,20 +137,6 @@
     {
       "date": "2026-03-25",
       "player": "Logan Drevitch",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Mason Reiners",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Connor Gregga",
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"

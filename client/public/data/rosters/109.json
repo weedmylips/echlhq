@@ -2,7 +2,7 @@
   "teamId": 109,
   "slug": "tahoe-knight-monsters",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-30",
+  "lastTransactionCheck": "2026-03-31",
   "roster": [
     {
       "playerId": "8745",
@@ -930,6 +930,27 @@
     {
       "playerId": null,
       "player": "Zane MacIntyre",
+      "number": null,
+      "position": "G",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Alexander Tracy",
       "number": null,
       "position": "G",
       "status": "signed",

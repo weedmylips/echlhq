@@ -2,7 +2,7 @@
   "teamId": 55,
   "slug": "reading-royals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-30",
+  "lastTransactionCheck": "2026-03-31",
   "roster": [
     {
       "playerId": "8284",
@@ -830,7 +830,7 @@
       "player": "Yaniv Perets",
       "number": 1,
       "position": "G",
-      "status": "reserve",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

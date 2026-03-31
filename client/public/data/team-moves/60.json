@@ -2,6 +2,27 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Matt Brown",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Bakersfield"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Nick Deakin-Poot",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Brady Stonehouse",
+      "position": "F",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Bakersfield by Edmonton"
+    },
+    {
       "date": "2026-03-30",
       "player": "Anthony Petruzzeli",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Matt Murphy",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Thomas Sinclair",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Josh Bloom",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Bakersfield by Edmonton"
     }
   ]
 }

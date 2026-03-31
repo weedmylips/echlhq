@@ -2,6 +2,13 @@
   "teamId": 109,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Alexander Tracy",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-29",
       "player": "Anthony Collins",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Luke Adam",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

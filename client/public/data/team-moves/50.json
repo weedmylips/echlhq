@@ -2,6 +2,41 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Patrick Thomas",
+      "position": "F",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Hershey by Washington"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Bryan Moore",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day 3/30"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Anthony Rinaldi",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day 3/30"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Jordan Klimek",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day 3/30"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Mikey Adamson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 3/30"
+    },
+    {
       "date": "2026-03-30",
       "player": "Mikey Adamson",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Connor Mayer",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "John Fusco",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Cole Beamin",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Michael Brown",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Kaden Bohlsen",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

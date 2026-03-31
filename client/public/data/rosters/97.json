@@ -2,7 +2,7 @@
   "teamId": 97,
   "slug": "savannah-ghost-pirates",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-30",
+  "lastTransactionCheck": "2026-03-31",
   "roster": [
     {
       "playerId": "10584",
@@ -631,7 +631,7 @@
       "player": "Kirill Gerasimyuk",
       "number": 35,
       "position": "G",
-      "status": "assigned_ahl",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -691,7 +691,7 @@
       "player": "Noah Giesbrecht",
       "number": 31,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

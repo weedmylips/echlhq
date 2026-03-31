@@ -2,7 +2,7 @@
   "teamId": 103,
   "slug": "trois-rivieres-lions",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-28",
+  "lastTransactionCheck": "2026-03-31",
   "roster": [
     {
       "playerId": "6458",
@@ -870,6 +870,27 @@
       "number": null,
       "position": "F",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Seth Bernard-Docker",
+      "number": null,
+      "position": "D",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

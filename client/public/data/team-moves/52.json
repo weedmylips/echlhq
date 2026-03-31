@@ -2,6 +2,20 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Connor Milburn",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Ben Poisson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
       "date": "2026-03-27",
       "player": "Hunter Andrew",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "traded",
       "summary": "Traded to Toledo"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Denis Smirnov",
-      "position": "F",
-      "type": "active",
-      "summary": "Acquired from Toledo"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Hunter Andrew",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
     }
   ]
 }

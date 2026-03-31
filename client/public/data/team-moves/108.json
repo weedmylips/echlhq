@@ -2,6 +2,20 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Blake Biondi",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Chicago Wolves"
+    },
+    {
+      "date": "2026-03-31",
+      "player": "Braden Doyle",
+      "position": "D",
+      "type": "active",
+      "summary": "Returned From Loan by Chicago Wolves"
+    },
+    {
       "date": "2026-03-26",
       "player": "Casey Severo",
       "position": "F",
@@ -124,20 +138,6 @@
       "date": "2026-03-18",
       "player": "Austen May",
       "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Austen May",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Tian Rask",
-      "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

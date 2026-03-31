@@ -2,6 +2,13 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-31",
+      "player": "Rhett Parsons",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Toronto Marlies"
+    },
+    {
       "date": "2026-03-30",
       "player": "Shawn Kennedy",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-19",
-      "player": "Griffin Ludtke",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }
