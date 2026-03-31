@@ -5,6 +5,18 @@ import { TEAMS } from "../config/teamConfig.js";
 import ShareButton from "./ShareButton.jsx";
 import "./MatchupModal.css";
 
+// Convert "Apr 3, 2026" → "2026-04-03"
+function dateToISO(dateStr) {
+  const d = new Date(dateStr + " UTC");
+  return isNaN(d) ? dateStr : d.toISOString().slice(0, 10);
+}
+
+// Convert "2026-04-03" → "Apr 3, 2026"
+export function isoToDate(iso) {
+  const d = new Date(iso + "T00:00:00Z");
+  return isNaN(d) ? iso : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+}
+
 // Map team timezone based on arena location
 const TEAM_TIMEZONES = {
   // Eastern
@@ -255,7 +267,7 @@ export default function MatchupModal({ visitingTeamId, homeTeamId, date, time, o
           <span className="modal-title">Matchup Preview</span>
           <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
             <ShareButton
-              url={`${window.location.origin}/matchup/${visitingTeamId}/${homeTeamId}/${encodeURIComponent(date)}`}
+              url={`${window.location.origin}/matchup/${visitingTeamId}/${homeTeamId}/${dateToISO(date)}`}
               title={`${visitingConfig?.city || "Away"} vs ${homeConfig?.city || "Home"} — Matchup Preview`}
             />
             <button className="modal-close" onClick={onClose}>&#10005;</button>

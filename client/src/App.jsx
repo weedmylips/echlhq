@@ -6,7 +6,7 @@ import LeadersPage from "./pages/LeadersPage.jsx";
 import TeamPage from "./pages/TeamPage.jsx";
 import AttendancePage from "./pages/AttendancePage.jsx";
 import BoxScoreModal from "./components/BoxScoreModal.jsx";
-import MatchupModal from "./components/MatchupModal.jsx";
+import MatchupModal, { isoToDate } from "./components/MatchupModal.jsx";
 import TeamPicker from "./components/TeamPicker.jsx";
 import { getFavoriteTeam, setFavoriteTeam } from "./config/teamConfig.js";
 
@@ -23,7 +23,7 @@ function MatchupPage() {
     <MatchupModal
       visitingTeamId={parseInt(visitingTeamId, 10)}
       homeTeamId={parseInt(homeTeamId, 10)}
-      date={decodeURIComponent(date)}
+      date={isoToDate(date)}
       onClose={() => navigate("/")}
     />
   );
