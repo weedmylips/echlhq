@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["icon-192.png", "icon-512.png"],
+      includeAssets: ["icon-192.png", "icon-512.png", "icon-192-maskable.png", "icon-512-maskable.png"],
       manifestFilename: "manifest.json",
       manifest: {
         name: "ECHL Stats Dashboard",
@@ -24,7 +24,7 @@ export default defineConfig({
             purpose: "any",
           },
           {
-            src: "/icon-192.png",
+            src: "/icon-192-maskable.png",
             sizes: "192x192",
             type: "image/png",
             purpose: "maskable",
@@ -36,7 +36,7 @@ export default defineConfig({
             purpose: "any",
           },
           {
-            src: "/icon-512.png",
+            src: "/icon-512-maskable.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable",
