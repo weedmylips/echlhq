@@ -261,6 +261,7 @@
   .global-bottom-nav::-webkit-scrollbar { display: none; }
 
   .page-nav-link--hideable { display: none; }
+  .page-nav-link--desktop-only { display: none; }
   .main-content { padding-bottom: 72px !important; }
   .site-footer { padding-bottom: 72px; }
 }

@@ -35,6 +35,14 @@ export default function Layout() {
             <img src="/icon-192.png" alt="ECHL Stats" className="header-logo" />
           </NavLink>
           <nav className="page-nav">
+            {favoriteId && (
+              <NavLink
+                to={`/team/${favoriteId}`}
+                className={() => "page-nav-link page-nav-link--desktop-only" + (activeTeamId === favoriteId ? " active" : "")}
+              >
+                My Team
+              </NavLink>
+            )}
             <NavLink to="/standings" className={({ isActive }) => "page-nav-link page-nav-link--hideable" + (isActive ? " active" : "")}>
               Standings
             </NavLink>
