@@ -1496,6 +1496,7 @@ function ScheduleTab({ recentScores, upcomingData, scorebarGames, teamId, team, 
                     {game.overtime ? ` (${game.overtime})` : ""}
                   </span>
                 </span>
+                <span className="schedule-chevron">›</span>
               </button>
             );
           })}
@@ -1553,6 +1554,7 @@ function ScheduleTab({ recentScores, upcomingData, scorebarGames, teamId, team, 
                     <span className="schedule-time">{g.time}</span>
                   )}
                 </span>
+                <span className="schedule-chevron">›</span>
               </button>
             );
           })}

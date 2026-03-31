@@ -197,6 +197,7 @@ export default function Dashboard() {
                                 <img src={homeConfig.logoUrl} alt="" className="upcoming-logo" />
                               )}
                             </div>
+                            <span className="upcoming-chevron">›</span>
                           </button>
                         );
                       })}

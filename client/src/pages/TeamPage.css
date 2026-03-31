@@ -432,6 +432,7 @@
 }
 .schedule-row:last-child { border-bottom: none; }
 .schedule-row:hover { background: rgba(255,255,255,0.02); }
+.schedule-chevron { margin-left: auto; font-size: 18px; color: var(--text-muted); line-height: 1; }
 
 .schedule-row-live { background: rgba(239,68,68,0.06); }
 .schedule-row-live:hover { background: rgba(239,68,68,0.10); }
