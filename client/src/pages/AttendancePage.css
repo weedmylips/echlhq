@@ -62,7 +62,10 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  max-width: 600px;
+}
+
+.att-mobile-view {
+  display: none;
 }
 
 .att-panel-header {
@@ -202,8 +205,8 @@
   }
 }
 
-@media (max-width: 540px) {
-  .attendance-grid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 640px) {
+  .attendance-grid { display: none; }
+  .att-mobile-view { display: block; }
+  .att-mobile-view .att-panel { max-width: none; }
 }

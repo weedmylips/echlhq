@@ -70,6 +70,57 @@ function GameRow({ game, rank, isAlt }) {
   );
 }
 
+function TeamPanel({ title, teams, favId, favColor }) {
+  return (
+    <div className="att-panel">
+      <div className="att-panel-header">{title}</div>
+      {teams.length === 0 ? (
+        <div className="att-panel-empty">No data</div>
+      ) : (
+        <ol className="att-panel-list">
+          {teams.map((t, i) => (
+            <TeamRow key={t.teamId} team={t} rank={i + 1} label={t._label} isAlt={i % 2 !== 0} isFav={t.teamId === favId} favColor={favColor} />
+          ))}
+        </ol>
+      )}
+    </div>
+  );
+}
+
+function SelloutPanel({ title, sellouts, favId, favColor }) {
+  return (
+    <div className="att-panel">
+      <div className="att-panel-header">{title}</div>
+      {sellouts.length === 0 ? (
+        <div className="att-panel-empty">No data</div>
+      ) : (
+        <ol className="att-panel-list">
+          {sellouts.map((s, i) => (
+            <SelloutRow key={s.teamId} teamId={s.teamId} count={s.count} rank={i + 1} isAlt={i % 2 !== 0} isFav={s.teamId === favId} favColor={favColor} />
+          ))}
+        </ol>
+      )}
+    </div>
+  );
+}
+
+function GamesPanel({ title, games }) {
+  return (
+    <div className="att-panel att-panel--games">
+      <div className="att-panel-header">{title}</div>
+      {games.length === 0 ? (
+        <div className="att-panel-empty">No data</div>
+      ) : (
+        <ol className="att-panel-list">
+          {games.map((g, i) => (
+            <GameRow key={g.gameId} game={g} rank={i + 1} isAlt={i % 2 !== 0} />
+          ))}
+        </ol>
+      )}
+    </div>
+  );
+}
+
 export default function AttendancePage() {
   const { data: standingsData, isLoading: standingsLoading, error: standingsError } = useStandings();
   const { data: gameAttData, isLoading: gameAttLoading, error: gameAttError } = useGameAttendance();
@@ -190,18 +241,30 @@ export default function AttendancePage() {
 
       {!isLoading && !error && (
         <>
-          <div className="att-pill-bar">
-            {CATEGORIES.map((cat) => (
-              <button
-                key={cat.key}
-                className={`att-pill${activeCat === cat.key ? " att-pill--active" : ""}`}
-                onClick={() => setActiveCat(cat.key)}
-              >
-                {cat.label}
-              </button>
-            ))}
+          {/* Desktop: all panels in a grid */}
+          <div className="attendance-grid">
+            <TeamPanel title="AVG ATTENDANCE" teams={byAvg} favId={favId} favColor={favColor} />
+            <TeamPanel title="TOTAL ATTENDANCE" teams={byTotal} favId={favId} favColor={favColor} />
+            <TeamPanel title="CAPACITY %" teams={byCapacity} favId={favId} favColor={favColor} />
+            <SelloutPanel title="SELLOUTS" sellouts={sellouts} favId={favId} favColor={favColor} />
+            <GamesPanel title="TOP ATTENDED GAMES" games={topGames} />
           </div>
-          {renderPanel()}
+
+          {/* Mobile: pill buttons + single panel */}
+          <div className="att-mobile-view">
+            <div className="att-pill-bar">
+              {CATEGORIES.map((cat) => (
+                <button
+                  key={cat.key}
+                  className={`att-pill${activeCat === cat.key ? " att-pill--active" : ""}`}
+                  onClick={() => setActiveCat(cat.key)}
+                >
+                  {cat.label}
+                </button>
+              ))}
+            </div>
+            {renderPanel()}
+          </div>
         </>
       )}
     </div>
