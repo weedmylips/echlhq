@@ -281,7 +281,7 @@
       "player": "Chase Pauls",
       "position": "D",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 58,
       "g": 3,
       "a": 17,
@@ -756,7 +756,7 @@
       "player": "Connor Murphy",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 39,
       "g": 0,
       "a": 4,
@@ -1271,7 +1271,7 @@
       "player": "Connor Murphy",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 39,
       "w": 16,
       "l": 19,
@@ -1324,5 +1324,5 @@
       "sa": 156
     }
   ],
-  "scrapedAt": "2026-03-30T11:31:35.990Z"
+  "scrapedAt": "2026-03-31T11:25:40.870Z"
 }

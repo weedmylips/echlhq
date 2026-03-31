@@ -431,7 +431,7 @@
       "player": "Shawn Kennedy",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 25,
       "g": 1,
       "a": 7,
@@ -1299,5 +1299,5 @@
       "sa": 300
     }
   ],
-  "scrapedAt": "2026-03-30T11:31:35.990Z"
+  "scrapedAt": "2026-03-31T11:25:40.870Z"
 }

@@ -806,7 +806,7 @@
       "player": "Kirill Gerasimyuk",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 7,
       "g": 0,
       "a": 1,
@@ -983,7 +983,7 @@
       "player": "Kirill Gerasimyuk",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 7,
       "w": 3,
       "l": 3,
@@ -1074,5 +1074,5 @@
       "sa": 307
     }
   ],
-  "scrapedAt": "2026-03-30T11:31:35.990Z"
+  "scrapedAt": "2026-03-31T11:25:40.870Z"
 }

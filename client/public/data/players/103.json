@@ -952,31 +952,6 @@
       "soPct": 0
     },
     {
-      "number": 39,
-      "player": "Benjamin Gaudreau",
-      "position": "G",
-      "isRookie": false,
-      "isActive": true,
-      "gp": 27,
-      "g": 0,
-      "a": 0,
-      "pts": 0,
-      "ppp": 0,
-      "shp": 0,
-      "gwg": 0,
-      "pm": 0,
-      "sh": 0,
-      "shPct": 0,
-      "pp": 0,
-      "ppa": 0,
-      "shg": 0,
-      "sha": 0,
-      "pim": 2,
-      "sog": 0,
-      "soa": 0,
-      "soPct": 0
-    },
-    {
       "number": 29,
       "player": "Hunter Jones",
       "position": "G",
@@ -997,6 +972,31 @@
       "shg": 0,
       "sha": 0,
       "pim": 0,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
+      "number": 39,
+      "player": "Benjamin Gaudreau",
+      "position": "G",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 28,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "ppp": 0,
+      "shp": 0,
+      "gwg": 0,
+      "pm": 0,
+      "sh": 0,
+      "shPct": 0,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 0,
+      "pim": 2,
       "sog": 0,
       "soa": 0,
       "soPct": 0
@@ -1032,14 +1032,14 @@
       "w": 16,
       "l": 8,
       "ga": 58,
-      "gaa": 2.3,
-      "svPct": 0.917,
+      "gaa": 2.32,
+      "svPct": 0.916,
       "shutouts": 4,
       "sow": 0,
       "sol": 1,
       "soa": 5,
       "soSvPct": 0.8,
-      "sa": 697
+      "sa": 693
     },
     {
       "number": 39,
@@ -1047,18 +1047,18 @@
       "position": "G",
       "isRookie": false,
       "isActive": true,
-      "gp": 27,
+      "gp": 28,
       "w": 9,
       "l": 12,
       "ga": 70,
-      "gaa": 2.78,
+      "gaa": 2.75,
       "svPct": 0.902,
       "shutouts": 1,
       "sow": 1,
       "sol": 3,
       "soa": 14,
       "soSvPct": 0.714,
-      "sa": 711
+      "sa": 715
     },
     {
       "number": 90,
@@ -1099,5 +1099,5 @@
       "sa": 165
     }
   ],
-  "scrapedAt": "2026-03-30T11:31:35.990Z"
+  "scrapedAt": "2026-03-31T11:25:40.870Z"
 }
