@@ -2,6 +2,41 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Anthony Petruzzeli",
+      "position": "F",
+      "type": "suspended",
+      "summary": "Suspended 2 Games"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Tyler Inamoto",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Caden Brown",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Logan Nelson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Blake Murray",
+      "position": "F",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
       "date": "2026-03-28",
       "player": "Nick Deakin-Poot",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled to Bakersfield by Edmonton"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "William Dufour",
-      "position": "F",
-      "type": "active",
-      "summary": "Returned From Loan by Grand Rapids"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Nick Deakin-Poot",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Thomas Sinclair",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Anthony Petruzzelli",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Josh Atkinson",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

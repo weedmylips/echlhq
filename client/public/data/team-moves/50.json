@@ -2,6 +2,13 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Mikey Adamson",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-27",
       "player": "Anthony Rinaldi",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "DJ King",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

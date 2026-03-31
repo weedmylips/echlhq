@@ -2,6 +2,34 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Daniel Laatsch",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Maxim Pavlenko",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Ryan Mahshie",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Emil Pieniniemi",
+      "position": "D",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Wilkes-Barre/Scranton by Pittsburgh"
+    },
+    {
       "date": "2026-03-29",
       "player": "Daniel Laatsch",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Assigned by Wilkes-Barre/Scranton"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Randy Hernandez",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/13"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Jack Works",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve 3/13"
-    },
-    {
-      "date": "2026-03-14",
-      "player": "Gino Texter",
-      "position": "G",
-      "type": "released",
-      "summary": "Released as EBUG"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Eric Parker",
-      "position": "D",
-      "type": "traded",
-      "summary": "Traded to Rapid City"
     }
   ]
 }

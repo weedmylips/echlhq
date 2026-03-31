@@ -2,6 +2,13 @@
   "teamId": 66,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Sam Sedley",
+      "position": "D",
+      "type": "active",
+      "summary": "Returned From Loan by Belleville"
+    },
+    {
       "date": "2026-03-28",
       "player": "Sam Sedley",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "loaned",
       "summary": "Loaned to Iowa Wild"
-    },
-    {
-      "date": "2026-03-13",
-      "player": "Trevor LeDonne",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

@@ -5,6 +5,20 @@
       "date": "2026-03-30",
       "player": "Nolan Kneen",
       "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Nico Somerville",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Nolan Kneen",
+      "position": "D",
       "type": "suspended",
       "summary": "Suspended 2 Games"
     },
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Tanner Palocsik",
-      "position": "D",
-      "type": "active",
-      "summary": "Acquired from Toledo"
-    },
-    {
-      "date": "2026-03-09",
-      "player": "Christophe Fillion",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

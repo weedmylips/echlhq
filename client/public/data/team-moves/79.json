@@ -2,6 +2,27 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Aidan Fulp",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Rochester"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Trevor Griebel",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-03-30",
+      "player": "Lord-Anthony Grissom",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
       "date": "2026-03-29",
       "player": "Trevor Griebel",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Sasha Teleguine",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Topias Leinonen",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Michael Bullion",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 96,
   "slug": "wichita-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-30",
+  "lastTransactionCheck": "2026-03-31",
   "roster": [
     {
       "playerId": "9267",
@@ -570,7 +570,7 @@
       "player": "Nico Somerville",
       "number": 2,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

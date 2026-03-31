@@ -133,6 +133,33 @@ function normalizePosition(pos) {
   return "F"; // F, FW, etc.
 }
 
+/**
+ * Find roster index by player name with fuzzy fallback.
+ * Tries exact match first, then collapses doubled consonants and
+ * strips accents/hyphens to handle ECHL article typos.
+ */
+function findPlayerIndex(roster, name) {
+  const lower = name.toLowerCase();
+  const idx = roster.findIndex((p) => p.player.toLowerCase() === lower);
+  if (idx >= 0) return idx;
+
+  // Normalize: collapse doubled letters, strip accents/hyphens
+  const normalize = (s) =>
+    s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/['-]/g, "")
+      .replace(/(.)\1+/g, "$1"); // aa→a, ll→l, etc.
+
+  const norm = normalize(name);
+  const fuzzyIdx = roster.findIndex((p) => normalize(p.player) === norm);
+  if (fuzzyIdx >= 0) {
+    console.log(`  ~ Fuzzy matched "${name}" → "${roster[fuzzyIdx].player}"`);
+  }
+  return fuzzyIdx;
+}
+
 function matchStatus(description) {
   for (const rule of STATUS_RULES) {
     const m = description.match(rule.pattern);
@@ -264,18 +291,25 @@ function applyTransactions(transactions, today, rosterCache = null) {
     for (const tx of txs) {
       const { action, player, position, description, status, extra } = tx;
 
-      // Find player in roster (case-insensitive, with last-name fallback for nickname variants)
-      let playerIdx = rosterData.roster.findIndex(
-        (p) => p.player.toLowerCase() === player.toLowerCase()
-      );
+      // Find player in roster (case-insensitive + fuzzy, with last-name fallback for nickname variants)
+      let playerIdx = findPlayerIndex(rosterData.roster, player);
       if (playerIdx < 0) {
-        // Fallback: match by last name + same position (handles "Zach" vs "Zacharie" etc.)
-        const txLast = player.toLowerCase().split(" ").slice(-1)[0];
+        // Fallback: match by last name + same position + similar first name
+        // (handles "Zach" vs "Zacharie", not "Caden" vs "Matthew")
+        const txParts = player.toLowerCase().split(" ");
+        const txFirst = txParts[0];
+        const txLast = txParts.slice(-1)[0];
         const candidates = rosterData.roster
           .map((p, i) => ({ p, i }))
           .filter(({ p }) => {
-            const rLast = p.player.toLowerCase().split(" ").slice(-1)[0];
-            return rLast === txLast && (!position || p.position === position);
+            const rParts = p.player.toLowerCase().split(" ");
+            const rFirst = rParts[0];
+            const rLast = rParts.slice(-1)[0];
+            if (rLast !== txLast) return false;
+            if (position && p.position !== position) return false;
+            // First names must share a 3-char prefix (Zach/Zacharie) or one contains the other
+            const minLen = Math.min(txFirst.length, rFirst.length, 3);
+            return txFirst.slice(0, minLen) === rFirst.slice(0, minLen);
           });
         if (candidates.length === 1) {
           playerIdx = candidates[0].i;
@@ -539,9 +573,7 @@ async function scrapeSuspensions(today) {
           const rosterData = readJSON(rosterPath);
           if (!rosterData?.roster) continue;
 
-          const playerIdx = rosterData.roster.findIndex(
-            (p) => p.player.toLowerCase() === playerName.toLowerCase()
-          );
+          const playerIdx = findPlayerIndex(rosterData.roster, playerName);
           if (playerIdx < 0) {
             console.warn(`  ? ${playerName} not found on roster for team ${teamId}`);
             continue;

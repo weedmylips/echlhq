@@ -2,6 +2,13 @@
   "teamId": 5,
   "moves": [
     {
+      "date": "2026-03-30",
+      "player": "Shawn Kennedy",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-29",
       "player": "Max Helgeson",
       "position": "F",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Thomas Scarfone",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 50,
   "slug": "south-carolina-stingrays",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-27",
+  "lastTransactionCheck": "2026-03-30",
   "roster": [
     {
       "playerId": "10045",
@@ -1072,6 +1072,27 @@
     {
       "playerId": null,
       "player": "Timothy Heinke",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Mikey Adamson",
       "number": null,
       "position": "F",
       "status": "signed",

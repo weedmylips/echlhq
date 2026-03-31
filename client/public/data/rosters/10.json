@@ -2,7 +2,7 @@
   "teamId": 10,
   "slug": "atlanta-gladiators",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-29",
+  "lastTransactionCheck": "2026-03-30",
   "roster": [
     {
       "playerId": "10331",
@@ -795,6 +795,27 @@
       "number": null,
       "position": "F",
       "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Colby Muise",
+      "number": null,
+      "position": "G",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

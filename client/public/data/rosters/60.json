@@ -2,7 +2,7 @@
   "teamId": 60,
   "slug": "fort-wayne-komets",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-28",
+  "lastTransactionCheck": "2026-03-31",
   "roster": [
     {
       "playerId": "9725",
@@ -229,12 +229,12 @@
       "player": "Anthony Petruzzelli",
       "number": 13,
       "position": "F",
-      "status": "active",
+      "status": "suspended",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": null,
-      "suspensionGamesOriginal": null,
+      "suspensionGamesRemaining": 2,
+      "suspensionGamesOriginal": 2,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -242,7 +242,8 @@
         "g": 7,
         "a": 7,
         "pts": 14
-      }
+      },
+      "suspensionGpAtStart": 63
     },
     {
       "playerId": "9164",
@@ -490,10 +491,10 @@
       "player": "Tyler Inamoto",
       "number": 44,
       "position": "D",
-      "status": "active",
+      "status": "ir",
       "statusNote": null,
-      "irStartDate": null,
-      "irDays": null,
+      "irStartDate": "2026-03-30",
+      "irDays": 14,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,
@@ -730,7 +731,7 @@
       "player": "Logan Nelson",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -875,6 +876,27 @@
     {
       "playerId": null,
       "player": "Reid Pabich",
+      "number": null,
+      "position": "F",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Caden Brown",
       "number": null,
       "position": "F",
       "status": "active",
