@@ -506,7 +506,7 @@
       "player": "Eric Olson",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 21,
       "g": 1,
       "a": 4,
@@ -1206,7 +1206,7 @@
       "player": "Harrison Meneghin",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 14,
       "g": 0,
       "a": 0,
@@ -1340,7 +1340,7 @@
       "player": "Harrison Meneghin",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 14,
       "w": 4,
       "l": 9,
@@ -1393,5 +1393,5 @@
       "sa": 12
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

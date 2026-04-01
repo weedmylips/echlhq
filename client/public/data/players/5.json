@@ -506,7 +506,7 @@
       "player": "Rhett Parsons",
       "position": "D",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 45,
       "g": 1,
       "a": 6,
@@ -1299,5 +1299,5 @@
       "sa": 300
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

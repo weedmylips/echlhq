@@ -381,7 +381,7 @@
       "player": "Jacob Truscott",
       "position": "D",
       "isRookie": true,
-      "isActive": false,
+      "isActive": true,
       "gp": 43,
       "g": 4,
       "a": 13,
@@ -1155,5 +1155,5 @@
       "sa": 823
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

@@ -531,7 +531,7 @@
       "player": "Emil Pieniniemi",
       "position": "D",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 18,
       "g": 4,
       "a": 5,
@@ -1030,5 +1030,5 @@
       "sa": 650
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

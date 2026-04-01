@@ -906,7 +906,7 @@
       "player": "Dominic Basse",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 17,
       "g": 0,
       "a": 1,
@@ -1134,7 +1134,7 @@
       "player": "Dominic Basse",
       "position": "G",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 17,
       "w": 7,
       "l": 6,
@@ -1168,5 +1168,5 @@
       "sa": 15
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

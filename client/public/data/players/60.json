@@ -181,7 +181,7 @@
       "player": "Matthew Brown",
       "position": "F",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 41,
       "g": 11,
       "a": 23,
@@ -406,7 +406,7 @@
       "player": "Brady Stonehouse",
       "position": "F",
       "isRookie": true,
-      "isActive": false,
+      "isActive": true,
       "gp": 43,
       "g": 6,
       "a": 11,
@@ -931,7 +931,7 @@
       "player": "Caden Brown",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 1,
       "g": 0,
       "a": 0,
@@ -1261,5 +1261,5 @@
       "sa": 848
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

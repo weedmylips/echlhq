@@ -1,15 +1,6 @@
 {
   "games": [
     {
-      "visitingTeamId": 97,
-      "visitingTeam": "Savannah",
-      "homeTeamId": 52,
-      "homeTeam": "Greenville",
-      "date": "Mar 31, 2026",
-      "time": "7:05 PM EDT",
-      "dayLabel": "Tuesday"
-    },
-    {
       "visitingTeamId": 70,
       "visitingTeam": "Toledo",
       "homeTeamId": 65,
@@ -386,7 +377,34 @@
       "date": "Apr 5, 2026",
       "time": "4:00 PM CDT",
       "dayLabel": "Sunday"
+    },
+    {
+      "visitingTeamId": 97,
+      "visitingTeam": "Savannah",
+      "homeTeamId": 10,
+      "homeTeam": "Atlanta",
+      "date": "Apr 7, 2026",
+      "time": "7:10 PM EDT",
+      "dayLabel": "Tuesday"
+    },
+    {
+      "visitingTeamId": 5,
+      "visitingTeam": "Cincinnati",
+      "homeTeamId": 61,
+      "homeTeam": "Wheeling",
+      "date": "Apr 7, 2026",
+      "time": "7:10 PM EDT",
+      "dayLabel": "Tuesday"
+    },
+    {
+      "visitingTeamId": 11,
+      "visitingTeam": "Idaho",
+      "homeTeamId": 106,
+      "homeTeam": "Utah",
+      "date": "Apr 7, 2026",
+      "time": "7:10 PM MDT",
+      "dayLabel": "Tuesday"
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

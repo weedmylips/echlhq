@@ -902,6 +902,31 @@
       "soPct": 0
     },
     {
+      "number": 30,
+      "player": "Colby Muise",
+      "position": "G",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 8,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "ppp": 0,
+      "shp": 0,
+      "gwg": 0,
+      "pm": 0,
+      "sh": 0,
+      "shPct": 0,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 0,
+      "pim": 0,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
       "number": 3,
       "player": "Jack Robilotti",
       "position": "D",
@@ -967,6 +992,25 @@
       "sa": 855
     },
     {
+      "number": 30,
+      "player": "Colby Muise",
+      "position": "G",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 8,
+      "w": 3,
+      "l": 2,
+      "ga": 13,
+      "gaa": 2.38,
+      "svPct": 0.919,
+      "shutouts": 1,
+      "sow": 0,
+      "sol": 0,
+      "soa": 0,
+      "soSvPct": 0,
+      "sa": 160
+    },
+    {
       "number": 31,
       "player": "Ethan Haider",
       "position": "G",
@@ -986,5 +1030,5 @@
       "sa": 1040
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }

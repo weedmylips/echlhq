@@ -456,7 +456,7 @@
       "player": "Jackson van de Leest",
       "position": "D",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 25,
       "g": 5,
       "a": 3,
@@ -1280,5 +1280,5 @@
       "sa": 27
     }
   ],
-  "scrapedAt": "2026-03-31T11:25:40.870Z"
+  "scrapedAt": "2026-04-01T11:29:02.909Z"
 }
