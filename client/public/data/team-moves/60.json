@@ -2,6 +2,34 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Jens Richards",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Anthony Petruzzelli",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Brady Stonehouse",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Logan Nelson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-31",
       "player": "Matt Brown",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled to Bakersfield by Edmonton"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Logan Nelson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Blake Murray",
-      "position": "F",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Caden Brown",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Reid Pabich",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

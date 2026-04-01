@@ -2,6 +2,20 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Logan Terness",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Dylan Wells",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-28",
       "player": "Drake Burgin",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "James Marooney",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Tyler Schleppe",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
     }
   ]
 }

@@ -2,6 +2,20 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "German Yavash",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Easton Armstrong",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-30",
       "player": "Konnor Smith",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Sasha Mutala",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Jake Lee",
-      "position": "D",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
     }
   ]
 }

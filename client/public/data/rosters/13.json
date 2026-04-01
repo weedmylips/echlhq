@@ -2,7 +2,7 @@
   "teamId": 13,
   "slug": "orlando-solar-bears",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-30",
+  "lastTransactionCheck": "2026-04-01",
   "roster": [
     {
       "playerId": "9064",
@@ -994,7 +994,7 @@
       "player": "Michael Ladyman",
       "number": null,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

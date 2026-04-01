@@ -2,6 +2,34 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Jacob Dion",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Seth Bernard-Docker",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Sean Gulka",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Nicholas Girouard",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
       "date": "2026-03-31",
       "player": "Seth Bernard-Docker",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Anthony Poulin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Emmett Serensits",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jeremy Michaud",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Hunter Jones",
-      "position": "G",
-      "type": "active",
-      "summary": "Assigned by Laval"
     }
   ]
 }

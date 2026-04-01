@@ -2,6 +2,13 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Luke Reid",
+      "position": "D",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Utica"
+    },
+    {
       "date": "2026-03-30",
       "player": "Jackson van de Leest",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "F",
       "type": "recalled_ahl",
       "summary": "Recalled to Utica by New Jersey"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Tanner Edwards",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

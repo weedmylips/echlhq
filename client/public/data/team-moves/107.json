@@ -2,6 +2,20 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Mason Wheeler",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Mason Wheeler",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-31",
       "player": "Brad Morrison",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Shane Ott",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Seung Jae Lee",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

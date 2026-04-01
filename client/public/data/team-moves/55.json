@@ -2,6 +2,20 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Ian Shane",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Carson Bjarnason",
+      "position": "G",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Lehigh Valley by Philadelphia"
+    },
+    {
       "date": "2026-03-31",
       "player": "Yaniv Perets",
       "position": "G",
@@ -124,20 +138,6 @@
       "date": "2026-03-22",
       "player": "Ian Shane",
       "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Keith Petruzzelli",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Victor Hadfield",
-      "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

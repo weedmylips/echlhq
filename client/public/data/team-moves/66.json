@@ -2,6 +2,34 @@
   "teamId": 66,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Jackson Parsons",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Brett Mirwald",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Spencer Asuchak",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Trevor LeDonne",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-30",
       "player": "Sam Sedley",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Hank Crone",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day 3/19"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Nikita Susuyev",
-      "position": "F",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Springfield by St. Louis 3/19"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Maxim Barbashev",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned by Tucson 3/19"
-    },
-    {
-      "date": "2026-03-15",
-      "player": "Braidan Simmons-Fisher",
-      "position": "D",
-      "type": "loaned",
-      "summary": "Loaned to Iowa Wild"
     }
   ]
 }

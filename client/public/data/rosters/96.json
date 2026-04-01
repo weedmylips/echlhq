@@ -2,7 +2,7 @@
   "teamId": 96,
   "slug": "wichita-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-31",
+  "lastTransactionCheck": "2026-04-01",
   "roster": [
     {
       "playerId": "9267",
@@ -670,7 +670,7 @@
       "player": "Matt Davis",
       "number": 33,
       "position": "G",
-      "status": "reserve",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

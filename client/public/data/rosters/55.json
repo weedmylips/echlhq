@@ -2,7 +2,7 @@
   "teamId": 55,
   "slug": "reading-royals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-31",
+  "lastTransactionCheck": "2026-04-01",
   "roster": [
     {
       "playerId": "8284",
@@ -790,7 +790,7 @@
       "player": "Ian Shane",
       "number": 35,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -973,6 +973,27 @@
       "player": "Kyle Walker",
       "number": null,
       "position": "D",
+      "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Carson Bjarnason",
+      "number": null,
+      "position": "G",
       "status": "active",
       "statusNote": null,
       "irStartDate": null,

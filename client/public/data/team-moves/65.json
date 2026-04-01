@@ -2,6 +2,41 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Brett Moravec",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Michael Marchesan",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Lane Brockhoff",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Trevor Zins",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Ryan Gagnier",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Rockford"
+    },
+    {
       "date": "2026-03-29",
       "player": "Alex DiPaolo",
       "position": "F",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Brett Moravec",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Eric Martin",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Tyler Paquette",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Cody Laskosky",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Cody Schiavon",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

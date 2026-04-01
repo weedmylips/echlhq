@@ -2,6 +2,34 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Grant Silianoff",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Adam Ingram",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Morgan Winters",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Kaleb Pearson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-30",
       "player": "Kaleb Pearson",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Francesco Arcuri",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Charlie Dodero",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Jake Boltmann",
-      "position": "D",
-      "type": "active",
-      "summary": "Returned From Loan by San Jose Barracuda"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Thomas Bergsland",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

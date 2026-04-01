@@ -2,7 +2,7 @@
   "teamId": 107,
   "slug": "bloomington-bison",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-31",
+  "lastTransactionCheck": "2026-04-01",
   "roster": [
     {
       "playerId": "9981",
@@ -976,6 +976,27 @@
       "number": null,
       "position": "D",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Mason Wheeler",
+      "number": null,
+      "position": "D",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

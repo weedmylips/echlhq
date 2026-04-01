@@ -2,7 +2,7 @@
   "teamId": 74,
   "slug": "adirondack-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-30",
+  "lastTransactionCheck": "2026-04-01",
   "roster": [
     {
       "playerId": "9607",
@@ -550,7 +550,7 @@
       "player": "Luke Reid",
       "number": 16,
       "position": "D",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

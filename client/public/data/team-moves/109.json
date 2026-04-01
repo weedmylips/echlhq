@@ -2,6 +2,55 @@
   "teamId": 109,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Tucker Ness",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Samuel Huo",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Keanan Stewart",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Anthony Collins",
+      "position": "F",
+      "type": "leave",
+      "summary": "Placed on Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Aidan De La Gorgendiere",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Aidan De La Gorgendiere",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-03-31",
       "player": "Alexander Tracy",
       "position": "G",
@@ -91,55 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Anthony Collins",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Mike Van Unen",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Casey Bailey",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Connor Marritt",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Ryan Dickinson",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Samuel Mayer",
-      "position": "D",
-      "type": "active",
-      "summary": "Assigned by Henderson"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Eric Olson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

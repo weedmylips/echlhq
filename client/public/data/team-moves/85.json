@@ -2,6 +2,48 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Braden Birnie",
+      "position": "F",
+      "type": "loaned",
+      "summary": "Loaned to Abbotsford"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Garrett Klotz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Quinn Olson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Ryan Chyzowski",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Sean Strange",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-31",
       "player": "Sean Strange",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Ryan Wagner",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Darian Pilon",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Jaden Shields",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Clay Hanus",
-      "position": "D",
-      "type": "active",
-      "summary": "Assigned by Calgary Wranglers"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Hunter Donohoe",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Zach Giroux",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
     }
   ]
 }

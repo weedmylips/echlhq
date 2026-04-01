@@ -2,6 +2,20 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-04-01",
+      "player": "Luke Antonacci",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-01",
+      "player": "Josh Zinger",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-29",
       "player": "Josh Zinger",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-17",
-      "player": "Cy LeClerc",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Stepan Timofeyev",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 106,
   "slug": "utah-grizzlies",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-03-30",
+  "lastTransactionCheck": "2026-04-01",
   "roster": [
     {
       "playerId": "10860",
@@ -609,7 +609,7 @@
       "player": "Luke Antonacci",
       "number": 3,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -909,7 +909,7 @@
       "player": "Josh Zinger",
       "number": 7,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
