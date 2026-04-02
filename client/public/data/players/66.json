@@ -156,7 +156,7 @@
       "player": "Sam Sedley",
       "position": "D",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 57,
       "g": 7,
       "a": 35,
@@ -1130,5 +1130,5 @@
       "sa": 543
     }
   ],
-  "scrapedAt": "2026-04-01T11:29:02.909Z"
+  "scrapedAt": "2026-04-02T11:14:09.780Z"
 }

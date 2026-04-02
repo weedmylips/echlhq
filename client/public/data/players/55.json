@@ -1231,7 +1231,7 @@
       "player": "Yaniv Perets",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 25,
       "g": 0,
       "a": 0,
@@ -1315,7 +1315,7 @@
       "player": "Yaniv Perets",
       "position": "G",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 25,
       "w": 13,
       "l": 8,
@@ -1330,5 +1330,5 @@
       "sa": 745
     }
   ],
-  "scrapedAt": "2026-04-01T11:29:02.909Z"
+  "scrapedAt": "2026-04-02T11:14:09.780Z"
 }

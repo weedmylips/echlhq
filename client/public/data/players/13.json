@@ -56,7 +56,7 @@
       "player": "Spencer Kersten",
       "position": "F",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 40,
       "g": 19,
       "a": 21,
@@ -581,7 +581,7 @@
       "player": "Chris Harpur",
       "position": "D",
       "isRookie": false,
-      "isActive": false,
+      "isActive": true,
       "gp": 14,
       "g": 0,
       "a": 3,
@@ -1393,5 +1393,5 @@
       "sa": 12
     }
   ],
-  "scrapedAt": "2026-04-01T11:29:02.909Z"
+  "scrapedAt": "2026-04-02T11:14:09.780Z"
 }
