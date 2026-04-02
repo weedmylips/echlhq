@@ -37,13 +37,15 @@
   font-weight: 600;
   white-space: nowrap;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 .att-pill:hover {
   color: var(--text);
   border-color: var(--text-muted);
 }
-.att-pill--active {
+.att-pill--active,
+.att-pill--active:hover {
   background: var(--text);
   color: var(--bg);
   border-color: var(--text);
