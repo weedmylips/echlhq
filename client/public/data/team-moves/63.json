@@ -2,6 +2,41 @@
   "teamId": 63,
   "moves": [
     {
+      "date": "2026-04-02",
+      "player": "Grant Hebert",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Andre Sutter",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "James Hardie",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "William Magnuson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "David Drake",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-03-28",
       "player": "Jaydon Dureau",
       "position": "F",
@@ -102,41 +137,6 @@
     {
       "date": "2026-03-22",
       "player": "Nathan Noel",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Nick McCarry",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Michael Citara",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "David Drake",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Killian Kiecker-Olson",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Michael Citara",
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"

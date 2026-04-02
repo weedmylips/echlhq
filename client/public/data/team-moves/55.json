@@ -2,6 +2,27 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-04-02",
+      "player": "Ian Shane",
+      "position": "G",
+      "type": "loaned",
+      "summary": "Loaned to Hartford"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Kyle Walker",
+      "position": "D",
+      "type": "loaned",
+      "summary": "Loaned to Calgary Wranglers"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Jack Page",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-01",
       "player": "Ian Shane",
       "position": "G",
@@ -117,27 +138,6 @@
       "date": "2026-03-25",
       "player": "Liam Devlin",
       "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Hunter Johannes",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Carson Golder",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned by Lehigh Valley"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Ian Shane",
-      "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve"
     }

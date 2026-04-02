@@ -2,7 +2,7 @@
   "teamId": 107,
   "slug": "bloomington-bison",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-01",
+  "lastTransactionCheck": "2026-04-02",
   "roster": [
     {
       "playerId": "9981",
@@ -730,7 +730,7 @@
       "player": "Hugo Ollas",
       "number": 1,
       "position": "G",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

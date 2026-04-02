@@ -2,6 +2,48 @@
   "teamId": 10,
   "moves": [
     {
+      "date": "2026-04-02",
+      "player": "Ryan Francis",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Isak Walther",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Ryan Nolan",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Ryan Conroy",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Chad Nychuk",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Ryley Appelt",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-30",
       "player": "Colby Muise",
       "position": "G",
@@ -98,48 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Ryley Appelt",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Nolan Orzeck",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Ryley Appelt",
-      "position": "F",
-      "type": "suspended",
-      "summary": "Suspended 3 Games"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Nick Vilardo",
-      "position": "G",
-      "type": "released",
-      "summary": "Released as EBUG"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Ethan Haider",
-      "position": "G",
-      "type": "active",
-      "summary": "Assigned by Milwaukee"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Kirklan Irey",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

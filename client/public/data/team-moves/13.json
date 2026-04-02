@@ -2,6 +2,41 @@
   "teamId": 13,
   "moves": [
     {
+      "date": "2026-04-02",
+      "player": "Mark Cooper",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Carter Allen",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Kade Landry",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Spencer Kersten",
+      "position": "F",
+      "type": "active",
+      "summary": "Assigned by Syracuse"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Chris Harpur",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Syracuse"
+    },
+    {
       "date": "2026-04-01",
       "player": "Michael Ladyman",
       "position": "D",
@@ -105,41 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Milo Roelens",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Jon Gillies",
-      "position": "G",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Anthony Bardaro",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Samuel Richard",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Dustin Geregach",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

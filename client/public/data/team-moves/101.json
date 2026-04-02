@@ -2,6 +2,20 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-04-02",
+      "player": "Sebastian Vidmar",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-02",
+      "player": "Liam Gorman",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-01",
       "player": "Nick Anderson",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Jacob Perreault",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Ryan McGuire",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned by Iowa Wild"
     }
   ]
 }
