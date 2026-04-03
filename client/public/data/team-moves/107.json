@@ -2,6 +2,41 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Parker Lindauer",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Brenden Datema",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Cullen Ferguson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Eddie Matsushima",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Dominic Basse",
+      "position": "G",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-04-02",
       "player": "Hugo Ollas",
       "position": "G",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Kylor Wall",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Ilya Tsulygin",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Mark Kalienikovas",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Parker Lindauer",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Dryden McKay",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

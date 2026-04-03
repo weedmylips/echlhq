@@ -2,6 +2,34 @@
   "teamId": 74,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Daniel Amesbury",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Ryan Helliwell",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Alexander Campbell",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Conner Hutchison",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-04-01",
       "player": "Luke Reid",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Dovar Tinling",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Dovar Tinling",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Ryan Helliwell",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Dylan Wendt",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Utica by New Jersey"
     }
   ]
 }

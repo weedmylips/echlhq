@@ -2,6 +2,20 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Topias Leinonen",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Cameron Rowe",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-02",
       "player": "Jack Babbage",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Simon Labelle",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Cameron Rowe",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

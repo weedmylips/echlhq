@@ -2,7 +2,7 @@
   "teamId": 52,
   "slug": "greenville-swamp-rabbits",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-02",
+  "lastTransactionCheck": "2026-04-03",
   "roster": [
     {
       "playerId": "10051",
@@ -469,7 +469,7 @@
       "player": "Tristan De Jong",
       "number": 7,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -529,7 +529,7 @@
       "player": "Cole Fraser",
       "number": 51,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

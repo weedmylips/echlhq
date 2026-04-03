@@ -2,6 +2,34 @@
   "teamId": 13,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Dustin Geregach",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Tyler Kobryn",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Milo Roelens",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Mark Cooper",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-04-02",
       "player": "Mark Cooper",
       "position": "D",
@@ -112,34 +140,6 @@
       "position": "G",
       "type": "assigned_ahl",
       "summary": "Assigned from Syracuse by Tampa Bay"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Keegan McMullen",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Michael Ladyman",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Jarid Lukosevicius",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Tony Follmer",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

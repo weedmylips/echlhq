@@ -2,7 +2,7 @@
   "teamId": 79,
   "slug": "jacksonville-icemen",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-02",
+  "lastTransactionCheck": "2026-04-03",
   "roster": [
     {
       "playerId": "9618",
@@ -669,7 +669,7 @@
       "player": "Cameron Rowe",
       "number": 31,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -689,7 +689,7 @@
       "player": "Topias Leinonen",
       "number": 40,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

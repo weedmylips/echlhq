@@ -2,6 +2,34 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Ross Mitton",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Jordan Kaplan",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Xavier Jean-Louis",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Vincent Corcoran",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-02",
       "player": "Jordan Kaplan",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Assigned by Bridgeport"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Max Ruoho",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Case McCarthy",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Ryan Miotto",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Vincent Corcoran",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

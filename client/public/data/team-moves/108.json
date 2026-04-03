@@ -2,6 +2,20 @@
   "teamId": 108,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Demetrios Koumontzis",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Caleb Price",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-01",
       "player": "Caleb Price",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve 3/19"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "True Crowe",
-      "position": "D",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-18",
-      "player": "Patrick Newell",
-      "position": "F",
-      "type": "traded",
-      "summary": "Traded to Kalamazoo"
     }
   ]
 }

@@ -2,6 +2,55 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Matt Brown",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Bakersfield"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Josh Bloom",
+      "position": "F",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Bakersfield by Edmonton"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Reid Pabich",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Jens Richards",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Nick Deakin-Poot",
+      "position": "F",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Alex Aleardi",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Matt Miller",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-04-01",
       "player": "Jens Richards",
       "position": "F",
@@ -91,55 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Josh Atkinson",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Caden Brown",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Reid Pabich",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Reid Pabich",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/26"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Thomas Sinclair",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Matt Brown",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Bakersfield"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Brady Stonehouse",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Bakersfield by Edmonton"
     }
   ]
 }

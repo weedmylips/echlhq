@@ -2,7 +2,7 @@
   "teamId": 96,
   "slug": "wichita-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-01",
+  "lastTransactionCheck": "2026-04-03",
   "roster": [
     {
       "playerId": "9267",
@@ -89,7 +89,7 @@
       "player": "Ryan Finnegan",
       "number": 17,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -811,7 +811,7 @@
       "player": "Nick DeGrazia",
       "number": null,
       "position": "F",
-      "status": "signed",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

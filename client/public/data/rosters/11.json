@@ -2,7 +2,7 @@
   "teamId": 11,
   "slug": "idaho-steelheads",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-02",
+  "lastTransactionCheck": "2026-04-03",
   "roster": [
     {
       "playerId": "9379",
@@ -190,7 +190,7 @@
       "player": "Mitch Wahl",
       "number": 7,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

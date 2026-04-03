@@ -2,6 +2,20 @@
   "teamId": 96,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Ryan Finnegan",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Nick DeGrazia",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-01",
       "player": "Matt Davis",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Christophe Fillion",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-12",
-      "player": "Cam Mitchell",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
     }
   ]
 }

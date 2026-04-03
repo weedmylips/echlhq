@@ -2,6 +2,34 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Isaac Johnson",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Dylan Massie",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Dante Giannuzzi",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Chase Wutzke",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-03-29",
       "player": "Chase Wutzke",
       "position": "G",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed Amateur Tryout"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Chase Wutzke",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Chase Wutzke",
-      "position": "G",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Iowa by Minnesota"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Isaac Johnson",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Elliott McDermott",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

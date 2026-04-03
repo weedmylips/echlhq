@@ -2,6 +2,20 @@
   "teamId": 11,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Mitch Wahl",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Kaleb Pearson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-01",
       "player": "Grant Silianoff",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Assigned by Texas"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Morgan Winters",
-      "position": "F",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Thomas Bergsland",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
     }
   ]
 }

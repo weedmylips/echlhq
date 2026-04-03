@@ -2,7 +2,7 @@
   "teamId": 108,
   "slug": "greensboro-gargoyles",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-01",
+  "lastTransactionCheck": "2026-04-03",
   "roster": [
     {
       "playerId": "10082",
@@ -149,7 +149,7 @@
       "player": "Demetrios Koumontzis",
       "number": 24,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -836,7 +836,7 @@
       "player": "Caleb Price",
       "number": null,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,6 +2,27 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Landon McCallum",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Coachella Valley 4/2"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Jack LaFontaine",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Logan Terness",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-01",
       "player": "Logan Terness",
       "position": "G",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve 3/22"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Jake McLaughlin",
-      "position": "D",
-      "type": "leave",
-      "summary": "Activated from Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Dylan Wells",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Jack LaFontaine",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

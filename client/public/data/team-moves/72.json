@@ -2,6 +2,20 @@
   "teamId": 72,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Connor Fedorek",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve 4/2"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "JC Brassard",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve 4/2"
+    },
+    {
       "date": "2026-04-01",
       "player": "German Yavash",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Tanner Faith",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Michael Davies",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

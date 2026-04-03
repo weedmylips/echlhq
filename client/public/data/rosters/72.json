@@ -2,7 +2,7 @@
   "teamId": 72,
   "slug": "tulsa-oilers",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-01",
+  "lastTransactionCheck": "2026-04-03",
   "roster": [
     {
       "playerId": "10838",
@@ -694,7 +694,7 @@
       "player": "Connor Fedorek",
       "number": 2,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,6 +2,34 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Sean Strange",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Ryan Chyzowski",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Quinn Olson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Darian Pilon",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-04-01",
       "player": "Braden Birnie",
       "position": "F",
@@ -109,34 +137,6 @@
     {
       "date": "2026-03-29",
       "player": "Ryan Wagner",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Xavier Bernard",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Calgary Wranglers"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Jake Ratzlaff",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Jake Ratzlaff",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Quinn Olson",
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"

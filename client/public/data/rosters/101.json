@@ -2,7 +2,7 @@
   "teamId": 101,
   "slug": "maine-mariners",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-02",
+  "lastTransactionCheck": "2026-04-03",
   "roster": [
     {
       "playerId": "9425",
@@ -209,10 +209,10 @@
       "player": "Mitch Deelstra",
       "number": 41,
       "position": "F",
-      "status": "ir",
+      "status": "active",
       "statusNote": null,
-      "irStartDate": "2026-04-01",
-      "irDays": 3,
+      "irStartDate": null,
+      "irDays": null,
       "suspensionGamesRemaining": null,
       "suspensionGamesOriginal": null,
       "acquiredFrom": null,

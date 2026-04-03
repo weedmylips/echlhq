@@ -2,6 +2,41 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Emmett Serensits",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Darick Louis-Jean",
+      "position": "D",
+      "type": "active",
+      "summary": "Assigned by Laval"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Jeremy Michaud",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Benjamin Gaudreau",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Franseco Lapenna",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-02",
       "player": "Jacob Dion",
       "position": "D",
@@ -105,41 +140,6 @@
       "position": "G",
       "type": "reserve",
       "summary": "Placed on Reserve 3/22"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Benjamin Gaudreau",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve 3/22"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Jeremy Michaud",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Emmett Serensits",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Sean Gulka",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Nicholas Girouard",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

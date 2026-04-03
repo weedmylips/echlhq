@@ -2,6 +2,76 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-04-03",
+      "player": "Ben Hawerchuk",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve 4/2"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Patrick Thomas",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve 4/2"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Michael Brown",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve 4/2"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Mikey Adamson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve 4/2"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "John Fusco",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Michael Brown",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Timothy Heinke",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Ben Hawerchuk",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Anthony Rinaldi",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-03",
+      "player": "Patrick Guzzo",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-04-01",
       "player": "Seth Eisele",
       "position": "G",
@@ -70,76 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Ben Hawerchuk",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Timothy Heinke",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Jordan Klimek",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Michael Brown",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Bryan Moore",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Ben Hawerchuk",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Patrick Guzzo",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Bryan Moore",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Connor Mayer",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Kyler Kupka",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Hershey"
     }
   ]
 }
