@@ -1078,6 +1078,31 @@
     },
     {
       "number": 35,
+      "player": "Hunter Miska",
+      "position": "G",
+      "isRookie": false,
+      "isActive": true,
+      "gp": 12,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "ppp": 0,
+      "shp": 0,
+      "gwg": 0,
+      "pm": 0,
+      "sh": 0,
+      "shPct": 0,
+      "pp": 0,
+      "ppa": 0,
+      "shg": 0,
+      "sha": 0,
+      "pim": 0,
+      "sog": 0,
+      "soa": 0,
+      "soPct": 0
+    },
+    {
+      "number": 35,
       "player": "Dominic Basse",
       "position": "G",
       "isRookie": true,
@@ -1425,31 +1450,6 @@
       "sog": 0,
       "soa": 0,
       "soPct": 0
-    },
-    {
-      "number": 35,
-      "player": "Hunter Miska",
-      "position": "G",
-      "isRookie": false,
-      "isActive": true,
-      "gp": 12,
-      "g": 0,
-      "a": 0,
-      "pts": 0,
-      "ppp": 0,
-      "shp": 0,
-      "gwg": 0,
-      "pm": 0,
-      "sh": 0,
-      "shPct": 0,
-      "pp": 0,
-      "ppa": 0,
-      "shg": 0,
-      "sha": 0,
-      "pim": 0,
-      "sog": 0,
-      "soa": 0,
-      "soPct": 0
     }
   ],
   "goalies": [
@@ -1625,5 +1625,5 @@
       "sa": 29
     }
   ],
-  "scrapedAt": "2026-04-02T11:14:09.780Z"
+  "scrapedAt": "2026-04-03T11:08:13.220Z"
 }

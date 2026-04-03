@@ -581,7 +581,7 @@
       "player": "Braden Birnie",
       "position": "F",
       "isRookie": true,
-      "isActive": true,
+      "isActive": false,
       "gp": 9,
       "g": 2,
       "a": 4,
@@ -1349,5 +1349,5 @@
       "sa": 156
     }
   ],
-  "scrapedAt": "2026-04-02T11:14:09.780Z"
+  "scrapedAt": "2026-04-03T11:08:13.220Z"
 }

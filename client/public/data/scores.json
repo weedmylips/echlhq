@@ -1,6 +1,56 @@
 {
   "scores": [
     {
+      "visitingTeam": "Greensboro",
+      "visitingScore": 5,
+      "homeTeam": "Allen",
+      "homeScore": 8,
+      "overtime": null,
+      "score": "5-8",
+      "gameId": null,
+      "date": "Apr 2, 2026"
+    },
+    {
+      "visitingTeam": "Florida",
+      "visitingScore": 3,
+      "homeTeam": "Jacksonville",
+      "homeScore": 2,
+      "overtime": "OT",
+      "score": "3-2 (OT)",
+      "gameId": null,
+      "date": "Apr 2, 2026"
+    },
+    {
+      "visitingTeam": "South Carolina",
+      "visitingScore": 0,
+      "homeTeam": "Orlando",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": null,
+      "date": "Apr 2, 2026"
+    },
+    {
+      "visitingTeam": "Atlanta",
+      "visitingScore": 0,
+      "homeTeam": "Greenville",
+      "homeScore": 4,
+      "overtime": null,
+      "score": "0-4",
+      "gameId": null,
+      "date": "Apr 2, 2026"
+    },
+    {
+      "visitingTeam": "Reading",
+      "visitingScore": 3,
+      "homeTeam": "Worcester",
+      "homeScore": 5,
+      "overtime": null,
+      "score": "3-5",
+      "gameId": null,
+      "date": "Apr 2, 2026"
+    },
+    {
       "visitingTeam": "Toledo",
       "visitingScore": 5,
       "homeTeam": "Indy",
@@ -9821,5 +9871,5 @@
       "date": "Oct 9, 2025"
     }
   ],
-  "scrapedAt": "2026-04-02T11:14:09.780Z"
+  "scrapedAt": "2026-04-03T11:08:13.220Z"
 }

@@ -556,7 +556,7 @@
       "player": "Liam Gorman",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 32,
       "g": 4,
       "a": 2,
@@ -1261,5 +1261,5 @@
       "sa": 46
     }
   ],
-  "scrapedAt": "2026-04-02T11:14:09.780Z"
+  "scrapedAt": "2026-04-03T11:08:13.220Z"
 }

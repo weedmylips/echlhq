@@ -252,6 +252,31 @@
       "soPct": 0
     },
     {
+      "number": 20,
+      "player": "Aaron Bohlinger",
+      "position": "D",
+      "isRookie": true,
+      "isActive": true,
+      "gp": 62,
+      "g": 2,
+      "a": 20,
+      "pts": 22,
+      "ppp": 4,
+      "shp": 0,
+      "gwg": 1,
+      "pm": 5,
+      "sh": 63,
+      "shPct": 3.2,
+      "pp": 0,
+      "ppa": 4,
+      "shg": 0,
+      "sha": 0,
+      "pim": 16,
+      "sog": 0,
+      "soa": 1,
+      "soPct": 0
+    },
+    {
       "number": 46,
       "player": "Justin Vaive",
       "position": "F",
@@ -272,31 +297,6 @@
       "shg": 0,
       "sha": 0,
       "pim": 19,
-      "sog": 0,
-      "soa": 1,
-      "soPct": 0
-    },
-    {
-      "number": 20,
-      "player": "Aaron Bohlinger",
-      "position": "D",
-      "isRookie": true,
-      "isActive": true,
-      "gp": 62,
-      "g": 2,
-      "a": 19,
-      "pts": 21,
-      "ppp": 4,
-      "shp": 0,
-      "gwg": 1,
-      "pm": 5,
-      "sh": 63,
-      "shPct": 3.2,
-      "pp": 0,
-      "ppa": 4,
-      "shg": 0,
-      "sha": 0,
-      "pim": 16,
       "sog": 0,
       "soa": 1,
       "soPct": 0
@@ -1299,5 +1299,5 @@
       "sa": 300
     }
   ],
-  "scrapedAt": "2026-04-02T11:14:09.780Z"
+  "scrapedAt": "2026-04-03T11:08:13.220Z"
 }
