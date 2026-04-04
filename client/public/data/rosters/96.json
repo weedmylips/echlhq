@@ -2,7 +2,7 @@
   "teamId": 96,
   "slug": "wichita-thunder",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-03",
+  "lastTransactionCheck": "2026-04-04",
   "roster": [
     {
       "playerId": "9267",
@@ -489,7 +489,7 @@
       "player": "Nolan Kneen",
       "number": 27,
       "position": "D",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -650,7 +650,7 @@
       "player": "Robert Kincaid",
       "number": 14,
       "position": "D",
-      "status": "signed",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

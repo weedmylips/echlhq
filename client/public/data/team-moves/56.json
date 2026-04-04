@@ -2,6 +2,27 @@
   "teamId": 56,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Jack LaFontaine",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Dylan Wells",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Liam Gorman",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Landon McCallum",
       "position": "F",
@@ -119,27 +140,6 @@
       "position": "D",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "David Cotton",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Jackson Berezowski",
-      "position": "F",
-      "type": "recalled_ahl",
-      "summary": "Recalled by Coachella Valley 3/22"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Jackson Jutting",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve 3/22"
     }
   ]
 }

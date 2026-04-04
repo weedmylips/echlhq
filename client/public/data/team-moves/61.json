@@ -2,6 +2,41 @@
   "teamId": 61,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Daniel Laatsch",
+      "position": "D",
+      "type": "ir",
+      "summary": "Transferred to IR 14 Day"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Jack Works",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Mike Posma",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Ralfs Bergmanis",
+      "position": "D",
+      "type": "signed",
+      "summary": "Signed Amateur Tryout"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Ralfs Bergmanis",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-03-30",
       "player": "Daniel Laatsch",
       "position": "D",
@@ -105,41 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Ryan Mahshie",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Alexander Kuqali",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Tanner Andrew",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Emil Pieniniemi",
-      "position": "D",
-      "type": "recalled_ahl",
-      "summary": "Recalled to Wilkes-Barre/Scranton by Pittsburgh"
-    },
-    {
-      "date": "2026-03-16",
-      "player": "Blake Bennett",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned by Wilkes-Barre/Scranton"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 10,
   "slug": "atlanta-gladiators",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-03",
+  "lastTransactionCheck": "2026-04-04",
   "roster": [
     {
       "playerId": "10331",
@@ -129,7 +129,7 @@
       "player": "Ryan Francis",
       "number": 86,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -229,7 +229,7 @@
       "player": "Mickey Burns",
       "number": 7,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

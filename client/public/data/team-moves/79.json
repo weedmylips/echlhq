@@ -2,6 +2,34 @@
   "teamId": 79,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Patrick Bajkov",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Ryan Pitoscia",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Holden Wale",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Jack Babbage",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Topias Leinonen",
       "position": "G",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Aidan Fulp",
-      "position": "D",
-      "type": "active",
-      "summary": "Assigned by Rochester"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Holden Wale",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Sasha Teleguine",
-      "position": "F",
-      "type": "ir",
-      "summary": "Transferred to IR 14 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Daniel Panetta",
-      "position": "F",
-      "type": "active",
-      "summary": "Transferred from ATO to ECHL SPC"
     }
   ]
 }

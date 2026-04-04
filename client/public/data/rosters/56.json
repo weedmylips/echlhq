@@ -2,7 +2,7 @@
   "teamId": 56,
   "slug": "kansas-city-mavericks",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-03",
+  "lastTransactionCheck": "2026-04-04",
   "roster": [
     {
       "playerId": "11080",
@@ -531,7 +531,7 @@
       "player": "Jack LaFontaine",
       "number": 1,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -571,7 +571,7 @@
       "player": "Dylan Wells",
       "number": 40,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

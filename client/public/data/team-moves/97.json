@@ -2,6 +2,20 @@
   "teamId": 97,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Riley Hughes",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Jaxsen Wiebe",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-02",
       "player": "Josh Lopina",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Chris Lipe",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Evan Nause",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

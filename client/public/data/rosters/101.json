@@ -2,7 +2,7 @@
   "teamId": 101,
   "slug": "maine-mariners",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-03",
+  "lastTransactionCheck": "2026-04-04",
   "roster": [
     {
       "playerId": "9425",
@@ -489,7 +489,7 @@
       "player": "Owen Gallatin",
       "number": 20,
       "position": "D",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -729,7 +729,7 @@
       "player": "Tynan Ewart",
       "number": 7,
       "position": "D",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

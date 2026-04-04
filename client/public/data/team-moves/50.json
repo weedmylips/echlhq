@@ -2,6 +2,34 @@
   "teamId": 50,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Stevie Leskovar",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "John Fusco",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Patrick Thomas",
+      "position": "F",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Ludwig Persson",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-04-03",
       "player": "Ben Hawerchuk",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "F",
       "type": "ir",
       "summary": "Placed on IR 3 Day 3/30"
-    },
-    {
-      "date": "2026-03-31",
-      "player": "Jordan Klimek",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day 3/30"
-    },
-    {
-      "date": "2026-03-31",
-      "player": "Mikey Adamson",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/30"
-    },
-    {
-      "date": "2026-03-30",
-      "player": "Mikey Adamson",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Anthony Rinaldi",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

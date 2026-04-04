@@ -2,6 +2,20 @@
   "teamId": 63,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Justin Young",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "William Magnuson",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-02",
       "player": "Grant Hebert",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from IR 14 Day"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Ben Zloty",
-      "position": "D",
-      "type": "active",
-      "summary": "Assigned by Manitoba 3/21"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Nathan Noel",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "teamId": 107,
   "slug": "bloomington-bison",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-03",
+  "lastTransactionCheck": "2026-04-04",
   "roster": [
     {
       "playerId": "9981",
@@ -589,12 +589,12 @@
       "player": "Brenden Datema",
       "number": 2,
       "position": "D",
-      "status": "suspended",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
-      "suspensionGamesRemaining": 1,
-      "suspensionGamesOriginal": 1,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
       "acquiredFrom": null,
       "acquiredDate": null,
       "stats": {
@@ -603,7 +603,7 @@
         "a": 8,
         "pts": 10
       },
-      "suspensionGpAtStart": 64
+      "suspensionGpAtStart": null
     },
     {
       "playerId": "10791",

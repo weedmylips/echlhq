@@ -2,6 +2,48 @@
   "teamId": 106,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Ryan Taylor",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Reilly Connors",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Isak Posch",
+      "position": "G",
+      "type": "recalled_ahl",
+      "summary": "Recalled to Colorado Eagles by Colorado Avalanche"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Jacob Mucitelli",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Aiden Hansen-Bukata",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Hank Kempf",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-02",
       "player": "Hank Kempf",
       "position": "D",
@@ -98,48 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Andrew Noel",
-      "position": "D",
-      "type": "leave",
-      "summary": "Activated from Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Yaroslav Yevdokimov",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Rilen Kovacevic",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Reilly Connors",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Andrew Noel",
-      "position": "D",
-      "type": "leave",
-      "summary": "Placed on Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Rilen Kovacevic",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from IR 14 Day"
     }
   ]
 }

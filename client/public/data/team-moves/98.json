@@ -2,6 +2,48 @@
   "teamId": 98,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Jaxon Nelson",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Iowa Wild"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Chase Wutzke",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Dante Giannuzzi",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Elliott McDermott",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "John Lundy",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Jack Robilotti",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Isaac Johnson",
       "position": "F",
@@ -98,48 +140,6 @@
       "position": "G",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Max Patterson",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Noah Massie",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Elliott McDermott",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Matt Koethe",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Isaac Johnson",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Thomas Freel",
-      "position": "F",
-      "type": "signed",
-      "summary": "Signed Amateur Tryout"
     }
   ]
 }

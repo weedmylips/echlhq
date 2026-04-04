@@ -2,6 +2,48 @@
   "teamId": 8,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Isaac Nurse",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Carson Gicewicz",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Reid Duke",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Oliver Cooper",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Patrick Kyte",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 3 Day"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Riese Zmolek",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 3 Day"
+    },
+    {
       "date": "2026-04-02",
       "player": "Reid Duke",
       "position": "F",
@@ -98,48 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve 3/25"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Logan Lambdin",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Patrick Kyte",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Gianfranco Cassaro",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Anthony Romano",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned by Springfield"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Ross MacDougall",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Riese Zmolek",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
     }
   ]
 }

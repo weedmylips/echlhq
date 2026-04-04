@@ -2,6 +2,27 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Emmett Serensits",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Franseco Lapenna",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Benjamin Gaudreau",
+      "position": "G",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Emmett Serensits",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Israel Mianscum",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Mark Estapa",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-23",
-      "player": "Franseco Lapenna",
-      "position": "G",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/22"
     }
   ]
 }

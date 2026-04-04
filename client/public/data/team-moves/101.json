@@ -2,6 +2,20 @@
   "teamId": 101,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Owen Gallatin",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Tynan Ewart",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Mitchel Deelstra",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "signed",
       "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Nick Anderson",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-21",
-      "player": "Mitchel Deelstra",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

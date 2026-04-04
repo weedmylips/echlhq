@@ -2,6 +2,34 @@
   "teamId": 60,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Jens Richards",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Reid Pabich",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Thomas Sinclair",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Anthony Petruzzelli",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Matt Brown",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-30",
-      "player": "Caden Brown",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-30",
-      "player": "Logan Nelson",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-30",
-      "player": "Blake Murray",
-      "position": "F",
-      "type": "leave",
-      "summary": "Activated from Family/Bereavement Leave"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Nick Deakin-Poot",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

@@ -2,6 +2,20 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Jason Ahearn",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Michael Marchesan",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-01",
       "player": "Brett Moravec",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "suspended",
       "summary": "Suspended 2 Games"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Lee Lapid",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-22",
-      "player": "Tyler Paquette",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

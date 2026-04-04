@@ -2,6 +2,20 @@
   "teamId": 52,
   "moves": [
     {
+      "date": "2026-04-04",
+      "player": "Connor Milburn",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-04",
+      "player": "Caiden Gault",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Tristan De Jong",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Keaton Mastrodonato",
-      "position": "F",
-      "type": "active",
-      "summary": "Assigned by Ontario"
-    },
-    {
-      "date": "2026-03-20",
-      "player": "Denis Smirnov",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
     }
   ]
 }

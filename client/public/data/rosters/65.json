@@ -2,7 +2,7 @@
   "teamId": 65,
   "slug": "indy-fuel",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-01",
+  "lastTransactionCheck": "2026-04-04",
   "roster": [
     {
       "playerId": "10082",
@@ -310,7 +310,7 @@
       "player": "Michael Marchesan",
       "number": 19,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -791,7 +791,7 @@
       "player": "Jason Ahearn",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
