@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Routes, Route, useNavigate, useParams } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "./components/Layout.jsx";
 import StandingsPage from "./pages/StandingsPage.jsx";
 import LeadersPage from "./pages/LeadersPage.jsx";
@@ -58,16 +59,19 @@ function HomePage() {
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
-        <Route path="standings" element={<StandingsPage />} />
-        <Route path="leaders" element={<LeadersPage />} />
-        <Route path="attendance" element={<AttendancePage />} />
-        <Route path="team/:teamId" element={<TeamPage />} />
-        <Route path="game/:gameId" element={<GamePage />} />
-        <Route path="matchup/:visitingTeamId/:homeTeamId/:date" element={<MatchupPage />} />
-      </Route>
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="standings" element={<StandingsPage />} />
+          <Route path="leaders" element={<LeadersPage />} />
+          <Route path="attendance" element={<AttendancePage />} />
+          <Route path="team/:teamId" element={<TeamPage />} />
+          <Route path="game/:gameId" element={<GamePage />} />
+          <Route path="matchup/:visitingTeamId/:homeTeamId/:date" element={<MatchupPage />} />
+        </Route>
+      </Routes>
+      <Analytics />
+    </>
   );
 }
