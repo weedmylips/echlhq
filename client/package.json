@@ -10,6 +10,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.17.0",
     "@tanstack/react-query-devtools": "^5.17.0",
+    "@vercel/analytics": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^3.0.0",
