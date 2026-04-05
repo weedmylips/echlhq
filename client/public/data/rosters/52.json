@@ -747,7 +747,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "8550",
       "player": "Denis Smirnov",
       "number": null,
       "position": "F",
@@ -768,7 +768,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "11285",
       "player": "Connor Milburn",
       "number": null,
       "position": "F",
@@ -810,7 +810,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "6412",
       "player": "Josh Atkinson",
       "number": null,
       "position": "D",
@@ -831,7 +831,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "11346",
       "player": "Simon Latkoczy",
       "number": null,
       "position": "G",
@@ -852,7 +852,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "11345",
       "player": "Joe Prouty",
       "number": null,
       "position": "D",

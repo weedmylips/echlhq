@@ -906,7 +906,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "11328",
       "player": "Owen McLaughlin",
       "number": null,
       "position": "F",
@@ -927,7 +927,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "10797",
       "player": "Ethan Szmagaj",
       "number": null,
       "position": "D",
@@ -948,7 +948,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "9752",
       "player": "Vinnie Purpura",
       "number": null,
       "position": "G",
@@ -969,7 +969,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "11350",
       "player": "Kyle Walker",
       "number": null,
       "position": "D",
@@ -990,7 +990,7 @@
       }
     },
     {
-      "playerId": null,
+      "playerId": "11370",
       "player": "Carson Bjarnason",
       "number": null,
       "position": "G",
