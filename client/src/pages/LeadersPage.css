@@ -136,14 +136,13 @@
 
 .stat-name .player-link {
   cursor: pointer;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.45);
-  text-underline-offset: 2px;
-  transition: color 0.15s, text-decoration-color 0.15s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  padding-bottom: 1px;
+  transition: color 0.15s, border-color 0.15s;
 }
 .stat-name .player-link:hover {
   color: var(--accent);
-  text-decoration-color: var(--accent);
+  border-color: var(--accent);
 }
 
 .stat-rookie {
