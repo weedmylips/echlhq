@@ -2,7 +2,7 @@
   "teamId": 55,
   "slug": "reading-royals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-03",
+  "lastTransactionCheck": "2026-04-05",
   "roster": [
     {
       "playerId": "8284",
@@ -229,7 +229,7 @@
       "player": "Austin Saint",
       "number": 16,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -249,7 +249,7 @@
       "player": "Liam Devlin",
       "number": 12,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

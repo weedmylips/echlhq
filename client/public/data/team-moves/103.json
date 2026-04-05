@@ -2,6 +2,13 @@
   "teamId": 103,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Hunter Jones",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
       "date": "2026-04-04",
       "player": "Emmett Serensits",
       "position": "D",
@@ -133,13 +140,6 @@
       "position": "D",
       "type": "ir",
       "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-28",
-      "player": "Jeremy Michaud",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

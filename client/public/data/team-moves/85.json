@@ -2,6 +2,20 @@
   "teamId": 85,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Teddy Lagerback",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "William Portokalis",
+      "position": "F",
+      "type": "signed",
+      "summary": "Signed ECHL SPC"
+    },
+    {
       "date": "2026-04-04",
       "player": "Clay Hanus",
       "position": "D",
@@ -126,20 +140,6 @@
       "position": "G",
       "type": "recalled_ahl",
       "summary": "Recalled by Calgary Wranglers"
-    },
-    {
-      "date": "2026-03-31",
-      "player": "Nathan Torchia",
-      "position": "G",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-30",
-      "player": "Chase Pauls",
-      "position": "D",
-      "type": "active",
-      "summary": "Assigned by Calgary Wranglers"
     }
   ]
 }

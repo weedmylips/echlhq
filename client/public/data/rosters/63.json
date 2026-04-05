@@ -2,7 +2,7 @@
   "teamId": 63,
   "slug": "norfolk-admirals",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-04",
+  "lastTransactionCheck": "2026-04-05",
   "roster": [
     {
       "playerId": "8003",
@@ -229,7 +229,7 @@
       "player": "James Hardie",
       "number": 18,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

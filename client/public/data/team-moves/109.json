@@ -2,6 +2,27 @@
   "teamId": 109,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Anthony Collins",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Anthony Collins",
+      "position": "F",
+      "type": "leave",
+      "summary": "Activated from Family/Bereavement Leave"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Mike Van Unen",
+      "position": "D",
+      "type": "ir",
+      "summary": "Placed on IR 14 Day"
+    },
+    {
       "date": "2026-04-03",
       "player": "Linden Alger",
       "position": "D",
@@ -119,27 +140,6 @@
       "position": "F",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-29",
-      "player": "Samuel Huo",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-29",
-      "player": "Mike Van Unen",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from IR 3 Day"
-    },
-    {
-      "date": "2026-03-29",
-      "player": "Tucker Ness",
-      "position": "D",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

@@ -2,6 +2,20 @@
   "teamId": 65,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Ryan Gagnier",
+      "position": "F",
+      "type": "recalled_ahl",
+      "summary": "Recalled by Rockford 4/4"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Cody Schiavon",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from IR 14 Day"
+    },
+    {
       "date": "2026-04-04",
       "player": "Jason Ahearn",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Kyle Bettens",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 14 Day"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Tyler Weiss",
-      "position": "F",
-      "type": "suspended",
-      "summary": "Suspended 2 Games"
     }
   ]
 }

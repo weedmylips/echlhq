@@ -2,7 +2,7 @@
   "teamId": 103,
   "slug": "trois-rivieres-lions",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-04",
+  "lastTransactionCheck": "2026-04-05",
   "roster": [
     {
       "playerId": "6458",
@@ -689,7 +689,7 @@
       "player": "Hunter Jones",
       "number": 29,
       "position": "G",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -769,7 +769,7 @@
       "player": "Francesco Lapenna",
       "number": 90,
       "position": "G",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

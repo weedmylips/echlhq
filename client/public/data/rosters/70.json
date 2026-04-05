@@ -2,7 +2,7 @@
   "teamId": 70,
   "slug": "toledo-walleye",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-04",
+  "lastTransactionCheck": "2026-04-05",
   "roster": [
     {
       "playerId": "8180",
@@ -899,7 +899,7 @@
       "player": "Michael Milne",
       "number": null,
       "position": "F",
-      "status": "active",
+      "status": "recalled_ahl",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,7 +2,7 @@
   "teamId": 85,
   "slug": "rapid-city-rush",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-04",
+  "lastTransactionCheck": "2026-04-05",
   "roster": [
     {
       "playerId": "8199",
@@ -1036,6 +1036,48 @@
       "number": null,
       "position": "D",
       "status": "active",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "William Portokalis",
+      "number": null,
+      "position": "F",
+      "status": "signed",
+      "statusNote": null,
+      "irStartDate": null,
+      "irDays": null,
+      "suspensionGamesRemaining": null,
+      "suspensionGamesOriginal": null,
+      "suspensionGpAtStart": null,
+      "acquiredFrom": null,
+      "acquiredDate": null,
+      "stats": {
+        "gp": 0,
+        "g": 0,
+        "a": 0,
+        "pts": 0
+      }
+    },
+    {
+      "playerId": null,
+      "player": "Teddy Lagerback",
+      "number": null,
+      "position": "F",
+      "status": "signed",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

@@ -2,6 +2,20 @@
   "teamId": 55,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Liam Devlin",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Austin Saint",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Ian Shane",
       "position": "G",
@@ -126,20 +140,6 @@
       "position": "D",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Kyle Walker",
-      "position": "D",
-      "type": "signed",
-      "summary": "Signed ECHL SPC"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Garrett Devine",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve"
     }
   ]
 }

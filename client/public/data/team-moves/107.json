@@ -2,6 +2,34 @@
   "teamId": 107,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Hugo Ollas",
+      "position": "G",
+      "type": "assigned_ahl",
+      "summary": "Assigned from Hartford by New York Rangers"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Dominic Basse",
+      "position": "G",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Cullen Ferguson",
+      "position": "D",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Brenden Datema",
+      "position": "D",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Parker Lindauer",
       "position": "F",
@@ -112,34 +140,6 @@
       "position": "D",
       "type": "active",
       "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Parker Gavlas",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-27",
-      "player": "Kylor Wall",
-      "position": "D",
-      "type": "active",
-      "summary": "Activated from Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Kylor Wall",
-      "position": "D",
-      "type": "reserve",
-      "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-24",
-      "player": "Mark Kalienikovas",
-      "position": "F",
-      "type": "ir",
-      "summary": "Placed on IR 3 Day"
     }
   ]
 }

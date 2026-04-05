@@ -2,6 +2,20 @@
   "teamId": 104,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Declan McDonnell",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Ross Mitton",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-03",
       "player": "Ross Mitton",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "reserve",
       "summary": "Placed on Reserve"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Gleb Veremyev",
-      "position": "F",
-      "type": "assigned_ahl",
-      "summary": "Assigned from Bridgeport by New York Islanders"
-    },
-    {
-      "date": "2026-03-25",
-      "player": "Parker Gahagen",
-      "position": "G",
-      "type": "active",
-      "summary": "Assigned by Bridgeport"
     }
   ]
 }

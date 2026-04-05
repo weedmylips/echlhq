@@ -2,7 +2,7 @@
   "teamId": 8,
   "slug": "florida-everblades",
   "lastSeeded": "2026-03-14",
-  "lastTransactionCheck": "2026-04-04",
+  "lastTransactionCheck": "2026-04-05",
   "roster": [
     {
       "playerId": "11033",
@@ -89,7 +89,7 @@
       "player": "Reid Duke",
       "number": 27,
       "position": "F",
-      "status": "active",
+      "status": "reserve",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,
@@ -290,7 +290,7 @@
       "player": "Carson Gicewicz",
       "number": 15,
       "position": "F",
-      "status": "reserve",
+      "status": "active",
       "statusNote": null,
       "irStartDate": null,
       "irDays": null,

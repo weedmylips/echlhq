@@ -2,6 +2,20 @@
   "teamId": 8,
   "moves": [
     {
+      "date": "2026-04-05",
+      "player": "Reid Duke",
+      "position": "F",
+      "type": "reserve",
+      "summary": "Placed on Reserve"
+    },
+    {
+      "date": "2026-04-05",
+      "player": "Carson Gicewicz",
+      "position": "F",
+      "type": "active",
+      "summary": "Activated from Reserve"
+    },
+    {
       "date": "2026-04-04",
       "player": "Isaac Nurse",
       "position": "F",
@@ -126,20 +140,6 @@
       "position": "F",
       "type": "suspended",
       "summary": "Suspended 1 Game"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Anthony Romano",
-      "position": "F",
-      "type": "reserve",
-      "summary": "Placed on Reserve 3/25"
-    },
-    {
-      "date": "2026-03-26",
-      "player": "Logan Lambdin",
-      "position": "F",
-      "type": "active",
-      "summary": "Activated from Reserve 3/25"
     }
   ]
 }
