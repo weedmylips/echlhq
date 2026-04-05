@@ -1183,10 +1183,14 @@ tr.playoff-cutoff td {
 /* ── Roster Tab ── */
 .player-link {
   cursor: pointer;
-  transition: color 0.15s;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.2);
+  text-underline-offset: 2px;
+  transition: color 0.15s, text-decoration-color 0.15s;
 }
 .player-link:hover {
   color: var(--accent);
+  text-decoration-color: var(--accent);
 }
 
 .roster-legend {
