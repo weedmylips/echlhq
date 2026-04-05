@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useLeaders, useFightingMajors } from "../hooks/useECHL.js";
 import ShareButton from "../components/ShareButton.jsx";
+import PlayerModal from "../components/PlayerModal.jsx";
 import { TEAMS, getFavoriteTeam } from "../config/teamConfig.js";
 import "./LeadersPage.css";
 
@@ -55,7 +56,7 @@ function fmtVal(value, cat) {
   return value;
 }
 
-function StatCard({ cat, leaders, favAbbr, favColor }) {
+function StatCard({ cat, leaders, favAbbr, favColor, onPlayerClick }) {
   const rawData = leaders[cat.key] || [];
   const sorted = cat.lower
     ? [...rawData].sort((a, b) => a.value - b.value)
@@ -80,7 +81,12 @@ function StatCard({ cat, leaders, favAbbr, favColor }) {
             >
               <span className="stat-rank">{i + 1}</span>
               <span className="stat-name">
-                {p.name}
+                <span
+                  className={p.playerId ? "player-link" : ""}
+                  onClick={() => p.playerId && onPlayerClick?.({ playerId: p.playerId, playerName: p.name })}
+                >
+                  {p.name}
+                </span>
                 {p.isRookie && <span className="stat-rookie">R</span>}
                 {p.isActive === false && <span className="stat-ahl">↑AHL</span>}
                 {p.position && <span className="stat-position">{p.position}</span>}
@@ -102,7 +108,7 @@ function StatCard({ cat, leaders, favAbbr, favColor }) {
 const cityToAbbr = {};
 Object.values(TEAMS).forEach((t) => { cityToAbbr[t.city.toLowerCase()] = t.abbr; });
 
-function FightingMajorsCard({ data, favAbbr, favColor }) {
+function FightingMajorsCard({ data, favAbbr, favColor, onPlayerClick }) {
   const top = (data?.leaders || []).slice(0, 10);
   return (
     <div className="stat-card">
@@ -120,7 +126,14 @@ function FightingMajorsCard({ data, favAbbr, favColor }) {
               style={favAbbr && abbr === favAbbr && favColor ? { "--fav-color": favColor } : undefined}
             >
               <span className="stat-rank">{i + 1}</span>
-              <span className="stat-name">{p.name}</span>
+              <span className="stat-name">
+                <span
+                  className={p.playerId ? "player-link" : ""}
+                  onClick={() => p.playerId && onPlayerClick?.({ playerId: p.playerId, playerName: p.name })}
+                >
+                  {p.name}
+                </span>
+              </span>
               <span className="stat-team">{abbr}</span>
               <span className="stat-val">{p.fightingMajors}</span>
             </li>
@@ -145,6 +158,7 @@ export default function LeadersPage() {
   const leaders = data?.leaders || {};
   const [skaterCat, setSkaterCat] = useState("points");
   const [goalieCat, setGoalieCat] = useState("gaa");
+  const [selectedPlayer, setSelectedPlayer] = useState(null);
   const favId = getFavoriteTeam();
   const favTeam = favId ? TEAMS[favId] : null;
   const favAbbr = favTeam?.abbr || null;
@@ -185,16 +199,16 @@ export default function LeadersPage() {
           </div>
           <div className="leaders-mobile-card">
             {skaterCat === "fightingMajors"
-              ? <FightingMajorsCard data={fmData} favAbbr={favAbbr} favColor={favTeam?.primaryColor} />
-              : selectedSkater && <StatCard cat={selectedSkater} leaders={leaders} favAbbr={favAbbr} favColor={favTeam?.primaryColor} />
+              ? <FightingMajorsCard data={fmData} favAbbr={favAbbr} favColor={favTeam?.primaryColor} onPlayerClick={setSelectedPlayer} />
+              : selectedSkater && <StatCard cat={selectedSkater} leaders={leaders} favAbbr={favAbbr} favColor={favTeam?.primaryColor} onPlayerClick={setSelectedPlayer} />
             }
           </div>
           {/* Desktop grid */}
           <div className="leaders-grid leaders-grid--skaters leaders-desktop-grids">
             {SKATER_CARDS.map((cat) => (
               <React.Fragment key={cat.key}>
-                <StatCard cat={cat} leaders={leaders} favAbbr={favAbbr} favColor={favTeam?.primaryColor} />
-                {cat.key === "majors" && <FightingMajorsCard data={fmData} favAbbr={favAbbr} favColor={favTeam?.primaryColor} />}
+                <StatCard cat={cat} leaders={leaders} favAbbr={favAbbr} favColor={favTeam?.primaryColor} onPlayerClick={setSelectedPlayer} />
+                {cat.key === "majors" && <FightingMajorsCard data={fmData} favAbbr={favAbbr} favColor={favTeam?.primaryColor} onPlayerClick={setSelectedPlayer} />}
               </React.Fragment>
             ))}
           </div>
@@ -215,16 +229,24 @@ export default function LeadersPage() {
           <div className="leaders-mobile-card">
             {(() => {
               const cat = GOALIE_CARDS.find((c) => c.key === goalieCat);
-              return cat ? <StatCard cat={cat} leaders={leaders} favAbbr={favAbbr} favColor={favTeam?.primaryColor} /> : null;
+              return cat ? <StatCard cat={cat} leaders={leaders} favAbbr={favAbbr} favColor={favTeam?.primaryColor} onPlayerClick={setSelectedPlayer} /> : null;
             })()}
           </div>
           {/* Desktop grid */}
           <div className="leaders-grid leaders-grid--goalies leaders-desktop-grids">
             {GOALIE_CARDS.map((cat) => (
-              <StatCard key={cat.key} cat={cat} leaders={leaders} />
+              <StatCard key={cat.key} cat={cat} leaders={leaders} onPlayerClick={setSelectedPlayer} />
             ))}
           </div>
         </>
+      )}
+
+      {selectedPlayer && (
+        <PlayerModal
+          playerId={selectedPlayer.playerId}
+          playerName={selectedPlayer.playerName}
+          onClose={() => setSelectedPlayer(null)}
+        />
       )}
     </div>
   );

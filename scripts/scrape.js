@@ -1387,6 +1387,19 @@ async function main() {
   leaders.dPts       = rankByDesc(allSkaters.filter((p) => p.position === "D"), "pts");
   leaders.dGoals     = rankByDesc(allSkaters.filter((p) => p.position === "D"), "g");
 
+  // Build player name → playerId lookup from roster files
+  const playerIdMap = new Map(); // "name|abbr" → playerId
+  for (const [tid, t] of Object.entries(TEAMS)) {
+    try {
+      const r = JSON.parse(fs.readFileSync(path.join(ROSTERS_DIR, `${tid}.json`), "utf8"));
+      for (const p of (r.roster || [])) {
+        if (p.playerId && p.player) {
+          playerIdMap.set(`${p.player.toLowerCase()}|${t.abbr}`, String(p.playerId));
+        }
+      }
+    } catch (_) {}
+  }
+
   // Build lookup maps from player name for enriching and filtering scraped leader entries.
   // For traded players, prefer the active entry so inactive old-team entries don't override.
   const playerMeta = new Map();
@@ -1465,7 +1478,9 @@ async function main() {
       .map((entry) => {
         if (entry.isRookie !== undefined) return entry; // already enriched (computed entries)
         const meta = playerMeta.get(entry.name);
-        return meta ? { ...entry, isRookie: meta.isRookie, position: meta.position, ...(meta.isActive === false ? { isActive: false } : {}) } : { ...entry, isRookie: false, position: "" };
+        const pid = playerIdMap.get(`${entry.name.toLowerCase()}|${entry.team}`);
+        const base = meta ? { ...entry, isRookie: meta.isRookie, position: meta.position, ...(meta.isActive === false ? { isActive: false } : {}) } : { ...entry, isRookie: false, position: "" };
+        return pid ? { ...base, playerId: pid } : base;
       });
   }
 
