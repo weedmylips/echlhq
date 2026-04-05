@@ -80,7 +80,7 @@ function StatCard({ cat, leaders, favAbbr, favColor }) {
             >
               <span className="stat-rank">{i + 1}</span>
               <span className="stat-name">
-                {p.name.includes(" ") ? p.name[0] + ". " + p.name.split(" ").slice(1).join(" ") : p.name}
+                {p.name}
                 {p.isRookie && <span className="stat-rookie">R</span>}
                 {p.isActive === false && <span className="stat-ahl">↑AHL</span>}
                 {p.position && <span className="stat-position">{p.position}</span>}
