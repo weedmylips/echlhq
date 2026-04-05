@@ -1181,6 +1181,14 @@ tr.playoff-cutoff td {
 }
 
 /* ── Roster Tab ── */
+.player-link {
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.player-link:hover {
+  color: var(--accent);
+}
+
 .roster-legend {
   display: flex;
   flex-wrap: wrap;

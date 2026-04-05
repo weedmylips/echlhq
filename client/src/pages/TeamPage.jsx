@@ -8,6 +8,7 @@ import {
 import { useTeam, useStandings, useRoster, useTeamMoves, useTeamStats, useTeamPlayers, useLeaders, useScores, useUpcoming, useScorebar, useGameAttendance, useFightingMajors, useHotPlayers } from "../hooks/useECHL.js";
 import BoxScoreModal from "../components/BoxScoreModal.jsx";
 import MatchupModal from "../components/MatchupModal.jsx";
+import PlayerModal from "../components/PlayerModal.jsx";
 import ShareButton from "../components/ShareButton.jsx";
 import { TEAMS, findTeamByName } from "../config/teamConfig.js";
 import "./TeamPage.css";
@@ -65,6 +66,7 @@ export default function TeamPage() {
   };
   const [selectedGameId, setSelectedGameId] = useState(null);
   const [selectedMatchup, setSelectedMatchup] = useState(null);
+  const [selectedPlayer, setSelectedPlayer] = useState(null);
 
   const { data, isLoading, error } = useTeam(teamId);
   const { data: standingsData } = useStandings();
@@ -508,7 +510,7 @@ export default function TeamPage() {
 
       {/* ── Roster Tab ── */}
       {activeTab === "roster" && (
-        <RosterTab playersData={playersData} rosterData={rosterData} />
+        <RosterTab playersData={playersData} rosterData={rosterData} onPlayerClick={setSelectedPlayer} />
       )}
 
       {/* ── Stats Tab ── */}
@@ -617,6 +619,13 @@ export default function TeamPage() {
           date={selectedMatchup.date}
           time={selectedMatchup.time}
           onClose={() => setSelectedMatchup(null)}
+        />
+      )}
+      {selectedPlayer && (
+        <PlayerModal
+          playerId={selectedPlayer.playerId}
+          playerName={selectedPlayer.playerName}
+          onClose={() => setSelectedPlayer(null)}
         />
       )}
     </div>
@@ -1738,7 +1747,7 @@ function ScheduleTab({ recentScores, upcomingData, scorebarGames, teamId, team, 
   );
 }
 
-function RosterTab({ playersData, rosterData }) {
+function RosterTab({ playersData, rosterData, onPlayerClick }) {
   const [sortCol, setSortCol] = useState("pts");
   const [sortDesc, setSortDesc] = useState(true);
 
@@ -1765,7 +1774,7 @@ function RosterTab({ playersData, rosterData }) {
     .sort((a, b) => b.pts - a.pts)
     .map((p) => {
       const r = rosterByName[p.player.toLowerCase()];
-      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null, _suspensionGamesRemaining: r?.suspensionGamesRemaining ?? null };
+      return { ...p, _playerId: r?.playerId ?? null, _status: r?.status ?? "active", _irDays: r?.irDays ?? null, _suspensionGamesRemaining: r?.suspensionGamesRemaining ?? null };
     });
 
   const activeGoalies = (playersData.goalies || [])
@@ -1773,7 +1782,7 @@ function RosterTab({ playersData, rosterData }) {
     .sort((a, b) => (b.svPct ?? 0) - (a.svPct ?? 0))
     .map((p) => {
       const r = rosterByName[p.player.toLowerCase()];
-      return { ...p, _status: r?.status ?? "active", _irDays: r?.irDays ?? null, _suspensionGamesRemaining: r?.suspensionGamesRemaining ?? null };
+      return { ...p, _playerId: r?.playerId ?? null, _status: r?.status ?? "active", _irDays: r?.irDays ?? null, _suspensionGamesRemaining: r?.suspensionGamesRemaining ?? null };
     });
 
   // Inactive players from roster data not already in the daily report
@@ -1787,7 +1796,7 @@ function RosterTab({ playersData, rosterData }) {
       player: p.player, number: p.number, position: p.position,
       gp: p.stats?.gp ?? 0, g: p.stats?.g ?? 0, a: p.stats?.a ?? 0, pts: p.stats?.pts ?? 0,
       pm: p.stats?.plusMinus ?? p.stats?.pm ?? 0, pim: p.stats?.pim ?? 0,
-      isRookie: false, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
+      isRookie: false, _playerId: p.playerId ?? null, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
     }));
 
   const inactiveGoalies = (rosterData?.roster || [])
@@ -1797,7 +1806,7 @@ function RosterTab({ playersData, rosterData }) {
       player: p.player, number: p.number, position: p.position,
       gp: p.stats?.gp ?? 0, w: p.stats?.w ?? 0, l: p.stats?.l ?? 0,
       gaa: p.stats?.gaa ?? 0, svPct: p.stats?.svPct ?? 0,
-      isRookie: false, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
+      isRookie: false, _playerId: p.playerId ?? null, _status: p.status, _irDays: p.irDays ?? null, _suspensionGamesRemaining: p.suspensionGamesRemaining ?? null,
     }));
 
   const byPts = (a, b) => {
@@ -1830,7 +1839,7 @@ function RosterTab({ playersData, rosterData }) {
             <tr key={i}>
               <td className="num">{p.number ?? "—"}</td>
               <td className="roster-player-name">
-                {p.player}
+                <span className={p._playerId ? "player-link" : ""} onClick={() => p._playerId && onPlayerClick({ playerId: p._playerId, playerName: p.player })}>{p.player}</span>
                 {p.isRookie && <span className="rookie-badge">R</span>}
                 {statusBadge(p)}
               </td>
@@ -1892,7 +1901,7 @@ function RosterTab({ playersData, rosterData }) {
                   <tr key={i}>
                     <td className="num">{p.number ?? "—"}</td>
                     <td className="roster-player-name">
-                      {p.player}
+                      <span className={p._playerId ? "player-link" : ""} onClick={() => p._playerId && onPlayerClick({ playerId: p._playerId, playerName: p.player })}>{p.player}</span>
                       {p.isRookie && <span className="rookie-badge">R</span>}
                       {statusBadge(p)}
                     </td>

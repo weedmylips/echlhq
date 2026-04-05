@@ -54,4 +54,5 @@ export const api = {
   teamMoves: (teamId) => dataFetch(`/data/team-moves/${teamId}.json`),
   fightingMajors: () => dataFetch("/data/fighting-majors.json"),
   gameAttendance: () => dataFetch("/data/game-attendance.json"),
+  player: (playerId) => dataFetch(`/api/player/${playerId}`),
 };

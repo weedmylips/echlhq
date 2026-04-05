@@ -49,12 +49,12 @@ Two scheduled workflows update the static JSON files and auto-commit:
 
 A few endpoints proxy the HockeyTech API via Vercel serverless functions for **live/near-real-time data only**. These use `liveOrStatic()` in `client/src/lib/api.js` which tries the API first and falls back to static JSON on error.
 
-| Route | Purpose | Cache |
-|-------|---------|-------|
-| `/api/scorebar` | Live game scores, periods, clocks | 2min |
-| `/api/scores` | Recent completed game scores | via HT |
-| `/api/upcoming` | Upcoming schedule | via HT |
-| `/api/boxscores/:gameId` | Individual game boxscores | via HT |
+| Route | Purpose | Refresh interval |
+|-------|---------|-----------------|
+| `/api/scorebar` | Live game scores, periods, clocks | ~1 min |
+| `/api/scores` | Recent completed game scores | ~15 min |
+| `/api/upcoming` | Upcoming schedule | ~1 hr |
+| `/api/boxscores/:gameId` | Individual game boxscores | ~30s (live), ~1hr (final) |
 
 **Important:** Roster, leaders, standings, players, and attendance are **static only** — they do NOT use API routes. Do not add API routes for these; the scraper-generated static files are the source of truth. Previous attempts to use API routes for roster/leaders data caused persistent bugs with player badges and multi-team stat handling.
 

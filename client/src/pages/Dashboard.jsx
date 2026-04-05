@@ -57,7 +57,7 @@ export default function Dashboard() {
     .filter((g) => getGameType(g) === "final")
     .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   // Only show today's pregame games in the scores strip — future days are in Upcoming
-  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayStr = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
   const todayPregames = scorebarGames.filter(
     (g) => getGameType(g) === "pregame" && normalizeDate(g.date) === todayStr
   );
@@ -295,10 +295,11 @@ export default function Dashboard() {
 /** Check if a date string like "Mar 29, 2026" is today. */
 function isDateToday(dateStr) {
   if (!dateStr) return false;
-  const d = new Date(dateStr);
+  const todayET = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+  const d = new Date(/^\d{4}-/.test(dateStr) ? dateStr + "T12:00:00" : dateStr);
   if (isNaN(d)) return false;
-  const now = new Date();
-  return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
+  const dStr = d.toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+  return dStr === todayET;
 }
 
 /** Convert "2026-03-29" to "Mar 29, 2026" to match upcoming game date format. */
@@ -315,7 +316,7 @@ function normalizeDate(dateStr) {
   if (/^\d{4}-/.test(dateStr)) return dateStr;
   const d = new Date(dateStr);
   if (isNaN(d)) return dateStr;
-  return d.toISOString().slice(0, 10);
+  return d.toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 }
 
 /** Format a date string as a short label like "Fri Mar 28". */

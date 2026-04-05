@@ -408,6 +408,15 @@ export function useScorebar() {
   return { ...query, isLive };
 }
 
+export function usePlayer(playerId) {
+  return useQuery({
+    queryKey: ["player", playerId],
+    queryFn: () => api.player(playerId),
+    enabled: !!playerId,
+    staleTime: STALE,
+  });
+}
+
 // Fetches last-5-game boxscores for two teams and aggregates per-player stats.
 // Returns { team1: [...top3], team2: [...top3], isLoading }
 export function useScoresStatic() {

@@ -5,6 +5,7 @@
   "framework": null,
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/api/player/(?<playerId>[^/]+)", "dest": "/api/player?playerId=$playerId" },
     { "src": "/api/boxscores/(?<gameId>[^/]+)", "dest": "/api/boxscores?gameId=$gameId" },
     { "src": "/api/(.*)", "dest": "/api/$1" },
     { "src": "/(.*)", "dest": "/index.html" }

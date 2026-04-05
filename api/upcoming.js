@@ -4,7 +4,7 @@ module.exports = async function handler(req, res) {
   try {
     const data = await apiFetch("modulekit", "schedule", { season_id: SEASON_ID });
     const schedule = data?.SiteKit?.Schedule || [];
-    const today = new Date().toISOString().slice(0, 10);
+    const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const games = [];
 
