@@ -136,12 +136,14 @@
 
 .stat-name .player-link {
   cursor: pointer;
+  text-decoration: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.45);
   padding-bottom: 1px;
   transition: color 0.15s, border-color 0.15s;
 }
 .stat-name .player-link:hover {
   color: var(--accent);
+  text-decoration: none;
   border-color: var(--accent);
 }
 
