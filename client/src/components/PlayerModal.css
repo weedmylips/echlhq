@@ -82,6 +82,39 @@
   margin-top: 2px;
 }
 
+/* Biography */
+.player-biography {
+  border-bottom: 1px solid var(--border);
+}
+
+.player-biography-content {
+  padding: 0 16px 14px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.player-biography-content p {
+  margin: 0 0 6px;
+}
+
+.player-biography-content p:last-child {
+  margin-bottom: 0;
+}
+
+.player-biography-content ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.player-biography-content li {
+  margin-bottom: 4px;
+}
+
+.player-biography-content em {
+  color: var(--text-muted);
+}
+
 /* Stats sections */
 .player-stats-section {
   padding: 0;

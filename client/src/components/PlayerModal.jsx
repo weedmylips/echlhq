@@ -79,6 +79,31 @@ export default function PlayerModal({ playerId, playerName, onClose }) {
                 </div>
               </div>
 
+              {/* Biography */}
+              {bio?.biography && (
+                <div className="player-biography">
+                  <div className="player-stats-header">Biography</div>
+                  <div
+                    className="player-biography-content"
+                    dangerouslySetInnerHTML={{ __html: bio.biography }}
+                  />
+                </div>
+              )}
+
+              {/* Draft info (shown if no biography contains it) */}
+              {!bio?.biography && bio?.draft?.length > 0 && (
+                <div className="player-biography">
+                  <div className="player-stats-header">Draft</div>
+                  <div className="player-biography-content">
+                    {bio.draft.map((d, i) => (
+                      <p key={i}>
+                        {d.year} {d.league} Draft — Round {d.round}{d.rank ? `, #${d.rank} overall` : ""} by {d.team}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Regular season stats */}
               {data.regular?.length > 0 && (
                 <div className="player-stats-section">

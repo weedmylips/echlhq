@@ -32,6 +32,14 @@ module.exports = async function handler(req, res) {
         teamName: profile.most_recent_team_name || "",
         photoUrl: profile.primary_image || `https://assets.leaguestat.com/echl/120x160/${playerId}.jpg`,
         isRookie: profile.rookie === "1",
+        biography: profile.bio || "",
+        draft: Array.isArray(profile.draft) ? profile.draft.map((d) => ({
+          year: d.draft_year || "",
+          round: d.draft_round || "",
+          rank: d.draft_rank || "",
+          team: d.draft_team || "",
+          league: d.draft_league || "",
+        })) : [],
       };
     }
 
