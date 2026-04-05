@@ -1184,7 +1184,7 @@ tr.playoff-cutoff td {
 .player-link {
   cursor: pointer;
   text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.2);
+  text-decoration-color: rgba(255, 255, 255, 0.45);
   text-underline-offset: 2px;
   transition: color 0.15s, text-decoration-color 0.15s;
 }
