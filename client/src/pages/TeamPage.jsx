@@ -1447,18 +1447,18 @@ function toDateKey(dateStr) {
   if (/^\d{4}-/.test(dateStr)) return dateStr;
   const d = new Date(dateStr);
   if (isNaN(d)) return dateStr;
-  return d.toISOString().slice(0, 10);
+  return d.toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 }
 
 function dateKeyToDisplay(key) {
   const d = new Date(key + "T12:00:00");
   if (isNaN(d)) return key;
-  const now = new Date();
-  const isToday = d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
-  const yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
-  const isYesterday = d.getFullYear() === yesterday.getFullYear() && d.getMonth() === yesterday.getMonth() && d.getDate() === yesterday.getDate();
-  const tomorrow = new Date(now); tomorrow.setDate(now.getDate() + 1);
-  const isTomorrow = d.getFullYear() === tomorrow.getFullYear() && d.getMonth() === tomorrow.getMonth() && d.getDate() === tomorrow.getDate();
+  const todayET = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+  const isToday = key === todayET;
+  const yesterdayD = new Date(todayET + "T12:00:00Z"); yesterdayD.setUTCDate(yesterdayD.getUTCDate() - 1);
+  const isYesterday = key === yesterdayD.toISOString().slice(0, 10);
+  const tomorrowD = new Date(todayET + "T12:00:00Z"); tomorrowD.setUTCDate(tomorrowD.getUTCDate() + 1);
+  const isTomorrow = key === tomorrowD.toISOString().slice(0, 10);
   const label = d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
   if (isToday) return `Today — ${label}`;
   if (isYesterday) return `Yesterday — ${label}`;
@@ -1477,7 +1477,7 @@ function scoresGameType(game) {
 
 function ScoresTab({ scoresData, upcomingData, scorebarGames, allStandings, teamId, team, navigate, setSelectedGameId, setSelectedMatchup }) {
   const tid = parseInt(teamId, 10);
-  const todayKey = new Date().toISOString().slice(0, 10);
+  const todayKey = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 
   // Build record lookup from standings: teamId → "W-L-OTL"
   const recordMap = {};
