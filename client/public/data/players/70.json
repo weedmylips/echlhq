@@ -831,7 +831,7 @@
       "player": "Michael Milne",
       "position": "F",
       "isRookie": false,
-      "isActive": true,
+      "isActive": false,
       "gp": 3,
       "g": 0,
       "a": 2,
@@ -1205,5 +1205,5 @@
       "sa": 868
     }
   ],
-  "scrapedAt": "2026-04-05T11:00:39.291Z"
+  "scrapedAt": "2026-04-06T11:25:45.666Z"
 }
